@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Learning — Dashboard</title>
+
+  <!-- Fallback minimal (dipakai kalau assets/css/style.css belum ada) -->
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; max-width: 72ch;
+      margin: 2rem auto; padding: 0 1.25rem; line-height: 1.65; color: #000; background: #fff; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #e5e5e5; padding: .5rem .75rem; text-align: left; }
+    h1 { border-bottom: 2px solid #000; padding-bottom: .4rem; }
+    h2 { border-bottom: 1px solid #000; padding-bottom: .4rem; text-transform: uppercase;
+      font-size: 1.1rem; letter-spacing: .06em; }
+    a { color: #000; }
+    [hidden] { display: none !important; }
+  </style>
+
+  <!-- Style utama (menang atas fallback saat ada) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">ENGLISH · LEARNING</a>
+  <a href="word-choice-bank.html">Word Bank</a>
+  <a href="logs/vocab-log.html">Vocab Log</a>
+  <a href="logs/error-journal.html">Error Journal</a>
+</nav>
+
+<h1>Kurikulum</h1>
+<p class="level">Basic → Complex · 5 Level · 58 Modul · <span id="builtCounter">0</span>/58 dibangun</p>
+
+<!-- ============================================================
+     PROGRESS
+     ============================================================ -->
+<section id="overview">
+  <h2>Progress</h2>
+  <div class="progress-bar"><span id="overallBar" style="width:0%"></span></div>
+  <div class="stat-row">
+    <div>
+      <span class="stat-label">Modul Lulus</span>
+      <span id="statDone">0 / 58</span>
+    </div>
+    <div>
+      <span class="stat-label">File Dibangun</span>
+      <span id="statBuilt">0 / 58</span>
+    </div>
+    <div>
+      <span class="stat-label">Skor Rata-rata</span>
+      <span id="statAvg">—</span>
+    </div>
+  </div>
+  <p style="font-size:.85rem;color:#555;font-family:var(--mono,monospace);">
+    <b>LULUS</b> = quiz ≥ 80% + 3 checklist · <b>PROSES</b> = ada data · <b>BELUM</b> = belum dikerjakan ·
+    <b>BELUM DITULIS</b> = file modul belum dibuat
+  </p>
+</section>
+
+<!-- ============================================================
+     DAFTAR MODUL
+     ============================================================ -->
+<section id="levels">
+  <h2>Daftar Modul</h2>
+  <div id="levelList"></div>
+</section>
+
+<!-- ============================================================
+     RIWAYAT QUIZ
+     ============================================================ -->
+<section id="quiz-log">
+  <h2>Riwayat Quiz</h2>
+  <p id="quizEmpty" class="empty">Belum ada quiz yang dikerjakan.</p>
+  <table id="quizTable" hidden>
+    <thead><tr><th>Modul</th><th>Skor</th><th>Status</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<!-- ============================================================
+     RESET
+     ============================================================ -->
+<section id="reset">
+  <h2>Reset</h2>
+  <p style="font-size:.9rem;color:#555;">
+    Menghapus semua progress (skor quiz & checklist). Tidak bisa dibatalkan.
+  </p>
+  <button id="resetBtn" class="check-quiz" style="margin-top:.75rem;">
+    Hapus semua data
+  </button>
+</section>
+
+<script>
+/* ============================================================
+   KONTRAK PROYEK — JANGAN UBAH
+   ============================================================
+   - Setiap file modul:  {level}/{modul}.html
+   - Setiap <body data-module="{level}/{modul}">
+   - localStorage keys:  el_quiz, el_check
+   ============================================================ */
+
+/* ============================================================
+   EDIT DI SINI saat kamu selesai membangun modul baru.
+   Format: "{level}/{modul}"
+   ============================================================ */
+const BUILT = new Set([
+  // Seluruh modul yang sudah memiliki materi
+  "00-foundation/01-parts-of-speech",
+  "00-foundation/02-sentence-svo",
+  "00-foundation/03-to-be",
+  "00-foundation/04-articles",
+  "00-foundation/05-nouns-plural",
+  "00-foundation/06-pronouns",
+  "00-foundation/07-present-simple",
+  "00-foundation/08-present-continuous",
+  "00-foundation/09-prepositions-basic",
+  "00-foundation/10-there-is-are",
+  "00-foundation/11-can-cannot",
+  "00-foundation/12-questions-basic",
+  "01-elementary/01-past-simple",
+  "01-elementary/02-past-continuous",
+  "01-elementary/03-future-will-going-to",
+  "01-elementary/04-comparatives",
+  "01-elementary/05-quantifiers",
+  "01-elementary/06-modals-basic",
+  "01-elementary/07-adverbs-frequency",
+  "01-elementary/08-present-perfect-intro",
+  "01-elementary/09-prepositions-advanced",
+  "01-elementary/10-conjunctions-basic",
+  "02-intermediate/01-present-perfect-vs-past",
+  "02-intermediate/02-present-perfect-continuous",
+  "02-intermediate/03-past-perfect",
+  "02-intermediate/04-passive-basic",
+  "02-intermediate/05-conditionals-1-2",
+  "02-intermediate/06-relative-clauses",
+  "02-intermediate/07-reported-speech-basic",
+  "02-intermediate/08-gerund-infinitive",
+  "02-intermediate/09-modals-possibility",
+  "02-intermediate/10-phrasal-verbs-basic",
+  "02-intermediate/11-question-tags",
+  "02-intermediate/12-used-to-would",
+  "03-upper-intermediate/01-past-perfect-continuous",
+  "03-upper-intermediate/02-future-perfect-continuous",
+  "03-upper-intermediate/03-conditionals-3-mixed",
+  "03-upper-intermediate/04-passive-advanced",
+  "03-upper-intermediate/05-reported-speech-advanced",
+  "03-upper-intermediate/06-inversion-basic",
+  "03-upper-intermediate/07-cleft-sentences",
+  "03-upper-intermediate/08-participle-clauses",
+  "03-upper-intermediate/09-modal-perfect",
+  "03-upper-intermediate/10-relative-clauses-advanced",
+  "03-upper-intermediate/11-linking-words",
+  "03-upper-intermediate/12-nominalization-intro",
+  "04-advanced-formal/01-complex-subordination",
+  "04-advanced-formal/02-nominalization",
+  "04-advanced-formal/03-hedging",
+  "04-advanced-formal/04-formal-register",
+  "04-advanced-formal/05-collocations",
+  "04-advanced-formal/06-advanced-connectors",
+  "04-advanced-formal/07-inversion-emphasis",
+  "04-advanced-formal/08-ellipsis-substitution",
+  "04-advanced-formal/09-cohesion-coherence",
+  "04-advanced-formal/10-formal-email-report",
+  "04-advanced-formal/11-academic-conventions",
+  "04-advanced-formal/12-editing-precision",
+]);
+
+/* ============================================================
+   KURIKULUM 58 MODUL (patokan nama file)
+   ============================================================ */
+const CURRICULUM = [
+  { id: "00-foundation", title: "Level 0 · Foundation", desc: "Kelas kata & pola dasar", modules: [
+    ["01-parts-of-speech",      "Parts of Speech"],
+    ["02-sentence-svo",         "Sentence: SVO"],
+    ["03-to-be",                "To Be (am / is / are)"],
+    ["04-articles",             "Articles (a / an / the)"],
+    ["05-nouns-plural",         "Plural Nouns"],
+    ["06-pronouns",             "Pronouns"],
+    ["07-present-simple",       "Present Simple"],
+    ["08-present-continuous",   "Present Continuous"],
+    ["09-prepositions-basic",   "Prepositions (Basic)"],
+    ["10-there-is-are",         "There is / There are"],
+    ["11-can-cannot",           "Can / Cannot"],
+    ["12-questions-basic",      "Question Forms (Basic)"]
+  ]},
+  { id: "01-elementary", title: "Level 1 · Elementary", desc: "Tenses & perbandingan", modules: [
+    ["01-past-simple",              "Past Simple"],
+    ["02-past-continuous",          "Past Continuous"],
+    ["03-future-will-going-to",     "Future: will / going to"],
+    ["04-comparatives",             "Comparatives & Superlatives"],
+    ["05-quantifiers",              "Quantifiers"],
+    ["06-modals-basic",             "Modals (Basic)"],
+    ["07-adverbs-frequency",        "Adverbs of Frequency"],
+    ["08-present-perfect-intro",    "Present Perfect (Intro)"],
+    ["09-prepositions-advanced",    "Prepositions (Advanced)"],
+    ["10-conjunctions-basic",       "Conjunctions (Basic)"]
+  ]},
+  { id: "02-intermediate", title: "Level 2 · Intermediate", desc: "Waktu & kalimat majemuk", modules: [
+    ["01-present-perfect-vs-past",        "Present Perfect vs Past Simple"],
+    ["02-present-perfect-continuous",     "Present Perfect Continuous"],
+    ["03-past-perfect",                   "Past Perfect"],
+    ["04-passive-basic",                  "Passive Voice (Basic)"],
+    ["05-conditionals-1-2",               "Conditional Type 1 & 2"],
+    ["06-relative-clauses",               "Relative Clauses"],
+    ["07-reported-speech-basic",          "Reported Speech (Basic)"],
+    ["08-gerund-infinitive",              "Gerund vs Infinitive"],
+    ["09-modals-possibility",             "Modals of Possibility"],
+    ["10-phrasal-verbs-basic",            "Phrasal Verbs (Basic)"],
+    ["11-question-tags",                  "Question Tags"],
+    ["12-used-to-would",                  "Used to / Would"]
+  ]},
+  { id: "03-upper-intermediate", title: "Level 3 · Upper-Intermediate", desc: "Struktur kompleks & kohesi", modules: [
+    ["01-past-perfect-continuous",        "Past Perfect Continuous"],
+    ["02-future-perfect-continuous",      "Future Perfect & Continuous"],
+    ["03-conditionals-3-mixed",           "Conditional 3 & Mixed"],
+    ["04-passive-advanced",               "Passive Voice (Advanced)"],
+    ["05-reported-speech-advanced",       "Reported Speech (Advanced)"],
+    ["06-inversion-basic",                "Inversion (Basic)"],
+    ["07-cleft-sentences",                "Cleft Sentences"],
+    ["08-participle-clauses",             "Participle Clauses"],
+    ["09-modal-perfect",                  "Modal Perfect"],
+    ["10-relative-clauses-advanced",      "Relative Clauses (Advanced)"],
+    ["11-linking-words",                  "Linking Words"],
+    ["12-nominalization-intro",           "Nominalization (Intro)"]
+  ]},
+  { id: "04-advanced-formal", title: "Level 4 · Advanced-Formal", desc: "Register, presisi & kolokasi", modules: [
+    ["01-complex-subordination",          "Complex Subordination"],
+    ["02-nominalization",                 "Nominalization"],
+    ["03-hedging",                        "Hedging"],
+    ["04-formal-register",                "Formal Register"],
+    ["05-collocations",                   "Collocations"],
+    ["06-advanced-connectors",            "Advanced Connectors"],
+    ["07-inversion-emphasis",             "Inversion & Emphasis"],
+    ["08-ellipsis-substitution",          "Ellipsis & Substitution"],
+    ["09-cohesion-coherence",             "Cohesion & Coherence"],
+    ["10-formal-email-report",            "Formal Email & Report"],
+    ["11-academic-conventions",           "Academic Conventions"],
+    ["12-editing-precision",              "Editing & Precision"]
+  ]}
+];
+
+/* ============================================================
+   DATA HELPERS
+   ============================================================ */
+const TOTAL = CURRICULUM.reduce((s, l) => s + l.modules.length, 0);
+
+function getScores()  { return JSON.parse(localStorage.getItem("el_quiz")  || "{}"); }
+function getChecks()  { return JSON.parse(localStorage.getItem("el_check") || "{}"); }
+
+function modKey(level, mod) { return `${level}/${mod}`; }
+function modPath(level, mod) { return `${level}/${mod}.html`; }
+
+function statusOf(key) {
+  if (!BUILT.has(key)) return "unbuilt";
+  const score = getScores()[key] || 0;
+  const checks = getChecks()[key] || [];
+  const checked = checks.filter(Boolean).length;
+  if (score >= 80 && checked >= 3) return "lulus";
+  if (score > 0 || checked > 0) return "proses";
+  return "belum";
+}
+
+/* ============================================================
+   RENDER — DAFTAR MODUL
+   ============================================================ */
+function renderLevels() {
+  const scores = getScores();
+  const container = document.getElementById("levelList");
+
+  container.innerHTML = CURRICULUM.map(level => {
+    const rows = level.modules.map(([mod, title], i) => {
+      const key = modKey(level.id, mod);
+      const st = statusOf(key);
+      const score = scores[key];
+      const isBuilt = BUILT.has(key);
+
+      const titleCell = isBuilt
+        ? `<a href="${modPath(level.id, mod)}">${title}</a>`
+        : `<span style="color:#aaa;">${title}</span>`;
+
+      const statusLabel =
+        st === "unbuilt" ? "— BELUM DITULIS" :
+        st === "lulus"   ? "✓ LULUS" :
+        st === "proses"  ? "· PROSES" :
+                           "— BELUM";
+
+      return `
+        <tr class="mod-${st}">
+          <td class="mod-num">${String(i + 1).padStart(2, "0")}</td>
+          <td class="mod-title">${titleCell}</td>
+          <td class="mod-status">${statusLabel}</td>
+          <td class="mod-score">${score != null ? score + "%" : "—"}</td>
+        </tr>`;
+    }).join("");
+
+    return `
+      <details class="level-group" open>
+        <summary>
+          <span class="level-title">${level.title}</span>
+          <span class="level-desc">${level.desc}</span>
+        </summary>
+        <table class="module-table">
+          <thead><tr><th>#</th><th>Modul</th><th>Status</th><th>Skor</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </details>`;
+  }).join("");
+}
+
+/* ============================================================
+   RENDER — STATISTIK
+   ============================================================ */
+function renderStats() {
+  const scores = getScores();
+  const checks = getChecks();
+
+  let done = 0, sumScore = 0, countScore = 0;
+
+  CURRICULUM.forEach(level => level.modules.forEach(([mod]) => {
+    const key = modKey(level.id, mod);
+    const sc = scores[key] || 0;
+    const chk = (checks[key] || []).filter(Boolean).length;
+    if (sc >= 80 && chk >= 3) done++;
+    if (sc > 0) { sumScore += sc; countScore++; }
+  }));
+
+  const pct = Math.round((done / TOTAL) * 100);
+  document.getElementById("overallBar").style.width = pct + "%";
+  document.getElementById("statDone").textContent  = `${done} / ${TOTAL} (${pct}%)`;
+  document.getElementById("statBuilt").textContent = `${BUILT.size} / ${TOTAL}`;
+  document.getElementById("statAvg").textContent   =
+    countScore ? Math.round(sumScore / countScore) + "%" : "—";
+  document.getElementById("builtCounter").textContent = BUILT.size;
+}
+
+/* ============================================================
+   RENDER — RIWAYAT QUIZ
+   ============================================================ */
+function renderQuizLog() {
+  const entries = Object.entries(getScores());
+  const empty = document.getElementById("quizEmpty");
+  const table = document.getElementById("quizTable");
+
+  if (!entries.length) {
+    empty.hidden = false;
+    table.hidden = true;
+    return;
+  }
+  empty.hidden = true;
+  table.hidden = false;
+  table.querySelector("tbody").innerHTML = entries
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, s]) => `
+      <tr>
+        <td>${k}</td>
+        <td>${s}%</td>
+        <td>${s >= 80 ? "LULUS" : "ULANGI"}</td>
+      </tr>`)
+    .join("");
+}
+
+/* ============================================================
+   RENDER — SEMUA
+   ============================================================ */
+function renderAll() {
+  renderLevels();
+  renderStats();
+  renderQuizLog();
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (!confirm("Hapus semua progress (skor quiz & checklist)?")) return;
+  localStorage.removeItem("el_quiz");
+  localStorage.removeItem("el_check");
+  renderAll();
+});
+
+/* ============================================================
+   AUTO-REFRESH saat kembali dari modul
+   ============================================================ */
+window.addEventListener("focus", renderAll);
+window.addEventListener("pageshow", renderAll);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) renderAll();
+});
+
+/* ============================================================
+   INIT
+   ============================================================ */
+renderAll();
+</script>
+
+</body>
+</html>
