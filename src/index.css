@@ -2648,6 +2648,100 @@ html[data-viewport="android"] .pwa-offline-ready-toast {
   color: var(--muted);
 }
 
+/* ============================================================
+   WORD BANK — TYPE FILTER & PAGINATION CONTROLS
+   ============================================================ */
+.bank-selector-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .55rem .75rem;
+}
+
+.bank-type-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .75rem;
+  padding-top: .75rem;
+  border-top: 1px dashed var(--hairline);
+}
+
+.bank-type-filter-label {
+  font-family: var(--mono);
+  font-size: .74rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  margin-right: .25rem;
+}
+
+.bank-level-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: .65rem;
+}
+
+.bank-level-head h2 {
+  margin-bottom: 0;
+}
+
+.bank-level-count {
+  font-family: var(--mono);
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+.bank-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem;
+  padding: .65rem .85rem;
+  margin: .85rem 0;
+  border: 1px solid var(--hairline);
+  background: var(--bg-soft);
+}
+
+.bank-pagination-info {
+  font-family: var(--mono);
+  font-size: .78rem;
+  color: var(--muted);
+}
+
+.bank-pagination-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem;
+}
+
+.bank-pagination-buttons .filter-pill {
+  white-space: nowrap;
+}
+
+.bank-pagination-buttons .filter-pill:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+.bank-pagination-ellipsis {
+  font-family: var(--mono);
+  padding: 0 .25rem;
+  color: var(--muted);
+}
+
+html[data-viewport="android"] .bank-pagination {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
 
 
 

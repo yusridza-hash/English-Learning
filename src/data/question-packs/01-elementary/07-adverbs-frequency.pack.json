@@ -261,6 +261,1446 @@
           "Pasangkan 'rarely' sebelum 'out of battery'."
         ],
         "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ms. Tari ___ arrives at the office before eight.",
+        "options": [
+          "be always",
+          "always",
+          "always is"
+        ],
+        "answer": 1,
+        "explanation": "Adverb frekuensi ('always') berada SEBELUM verb utama ('arrives').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Usually twice a month for stock audits.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "How ___ do you visit the Surabaya warehouse?"
+          ],
+          [
+            "Dodi",
+            "Usually twice a month for stock audits."
+          ]
+        ],
+        "options": [
+          "always",
+          "never",
+          "often"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan frekuensi memakai 'How often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She arrives always at the office before eight.\"",
+        "draft": "She arrives always at the office before eight.",
+        "options": [
+          "She arrives alwaysly at the office before eight.",
+          "She arrives always at the office before eight.",
+          "She always arrives at the office before eight."
+        ],
+        "answer": 2,
+        "explanation": "Adverb frekuensi ('always') ditempatkan SEBELUM verb utama ('arrives').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our shuttle bus ___ punctual on Monday mornings.",
+        "options": [
+          "is usually",
+          "usually is",
+          "are usually"
+        ],
+        "answer": 0,
+        "explanation": "Dengan 'to be' ('is'), adverb berada SETELAH 'is' -> 'is usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ibu Tari selalu tiba di kantor sebelum pukul delapan.\".",
+        "targetSentence": "Ms. Tari always arrives at the office before eight.",
+        "explanation": "'Always' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ drink black coffee after six in the evening.",
+        "options": [
+          "don't never",
+          "are never",
+          "never"
+        ],
+        "answer": 2,
+        "explanation": "'Never' sudah bermakna negatif; jangan ditambah 'don't'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Mr. Hadi ever late for Monday briefings? / No, he ___ early with coffee already poured.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Is Mr. Hadi ever late for Monday briefings?"
+          ],
+          [
+            "Bima",
+            "No, he ___ early with coffee already poured."
+          ]
+        ],
+        "options": [
+          "always",
+          "is always",
+          "always is"
+        ],
+        "answer": 1,
+        "explanation": "Dengan 'to be', adverb di belakang 'is' -> 'is always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our team usually is ready ten minutes early.\"",
+        "draft": "Our team usually is ready ten minutes early.",
+        "options": [
+          "Our team usually is ready ten minutes early.",
+          "Our team is usually ready ten minutes early.",
+          "Our team is ready usually ten minutes early."
+        ],
+        "answer": 1,
+        "explanation": "Dengan 'to be' ('is'), adverb diletakkan SETELAH 'is'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ do you back up your research folders?",
+        "options": [
+          "always",
+          "usually",
+          "often"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan frekuensi memakai 'How often ...?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you ever eat spicy noodles at lunch? / Actually, I ___ order spicy food; it upsets my stomach.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Do you ever eat spicy noodles at lunch?"
+          ],
+          [
+            "Eko",
+            "Actually, I ___ order spicy food; it upsets my stomach."
+          ]
+        ],
+        "options": [
+          "never",
+          "don't never",
+          "am never"
+        ],
+        "answer": 0,
+        "explanation": "'Never' sebelum verb utama 'order'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I don't never drink coffee after eight PM.\"",
+        "draft": "I don't never drink coffee after eight PM.",
+        "options": [
+          "I never drink coffee after eight PM.",
+          "I am never drink coffee after eight PM.",
+          "I don't never drink coffee after eight PM."
+        ],
+        "answer": 0,
+        "explanation": "Hindari double negative ('don't never'); gunakan 'never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bus antar-jemput kami biasanya tepat waktu pada Senin pagi.\".",
+        "targetSentence": "Our shuttle bus is usually punctual on Monday mornings.",
+        "explanation": "'Usually' setelah 'is'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ check the printer tray before pressing print.",
+        "options": [
+          "usually",
+          "am usually",
+          "usually am"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb utama 'check', cukup 'usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Room 3 empty every Friday afternoon? / Staff ___ join remote sessions from home on Fridays.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Why is Room 3 empty every Friday afternoon?"
+          ],
+          [
+            "Sari",
+            "Staff ___ join remote sessions from home on Fridays."
+          ]
+        ],
+        "options": [
+          "usually",
+          "are usually",
+          "do usually"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'join' -> 'usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How always do you check your work email?\"",
+        "draft": "How always do you check your work email?",
+        "options": [
+          "How often do you check your work email?",
+          "How usually do you check your work email?",
+          "How always do you check your work email?"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan kekerapan memakai 'How often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ late for weekly client progress calls.",
+        "options": [
+          "are rarely",
+          "rarely are",
+          "do rarely"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'to be' ('are'), adverb 'rarely' berada di kanan.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do the printers in Hall A jam often? / Thankfully, they ___ jam since the technician fixed them.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Do the printers in Hall A jam often?"
+          ],
+          [
+            "Putri",
+            "Thankfully, they ___ jam since the technician fixed them."
+          ]
+        ],
+        "options": [
+          "don't rarely",
+          "rarely",
+          "are rarely"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'jam' -> 'rarely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He forgets rarely to lock the archive door.\"",
+        "draft": "He forgets rarely to lock the archive door.",
+        "options": [
+          "He forgets rarely to lock the archive door.",
+          "He rarely forgets to lock the archive door.",
+          "He doesn't rarely forget to lock the archive door."
+        ],
+        "answer": 1,
+        "explanation": "Adverb 'rarely' diletakkan sebelum verb utama ('forgets').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Does Budi ___ bring his own mug to work?",
+        "options": [
+          "is usually",
+          "alwaysly",
+          "usually"
+        ],
+        "answer": 2,
+        "explanation": "Pada pertanyaan 'Does + S + adverb + V1', gunakan 'usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seberapa sering Anda mencadangkan folder riset Anda?\".",
+        "targetSentence": "How often do you back up your research folders?",
+        "explanation": "'How often do you + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ forgets to lock the supply cabinet at five.",
+        "options": [
+          "seldom",
+          "doesn't seldom",
+          "is seldom"
+        ],
+        "answer": 0,
+        "explanation": "'Seldom' sebelum verb utama 'forgets'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you usually tired after evening classes? / Yes, I ___ sleepy by ten o'clock.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Are you usually tired after evening classes?"
+          ],
+          [
+            "Arman",
+            "Yes, I ___ sleepy by ten o'clock."
+          ]
+        ],
+        "options": [
+          "usually",
+          "am usually",
+          "usually am"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'am' -> 'am usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They don't hardly ever miss a morning briefing.\"",
+        "draft": "They don't hardly ever miss a morning briefing.",
+        "options": [
+          "They don't hardly ever miss a morning briefing.",
+          "They hardly ever miss a morning briefing.",
+          "They are hardly ever miss a morning briefing."
+        ],
+        "answer": 1,
+        "explanation": "'Hardly ever' sudah bermakna negatif, jangan ditambah 'don't'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "The library elevator ___ out of service on weekends.",
+        "options": [
+          "is sometimes",
+          "sometimes is",
+          "does sometimes"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'is' -> 'is sometimes'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka tidak pernah minum kopi hitam setelah pukul enam.\".",
+        "targetSentence": "They never drink black coffee after six in the evening.",
+        "explanation": "'Never' tanpa 'don't'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ eats lunch at his desk during audit week.",
+        "options": [
+          "is often",
+          "often is",
+          "often"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb utama 'eats' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does Kevin ever help with inventory counts? / Yes, he ___ stays extra minutes to check Box C.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Does Kevin ever help with inventory counts?"
+          ],
+          [
+            "Adi",
+            "Yes, he ___ stays extra minutes to check Box C."
+          ]
+        ],
+        "options": [
+          "is often",
+          "does often",
+          "often"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'stays' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is usually the train crowded at seven AM?\"",
+        "draft": "Is usually the train crowded at seven AM?",
+        "options": [
+          "Does the train usually crowded at seven AM?",
+          "Is usually the train crowded at seven AM?",
+          "Is the train usually crowded at seven AM?"
+        ],
+        "answer": 2,
+        "explanation": "Pada kalimat tanya, adverb diletakkan SETELAH subjek.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you ever take the morning ferry to Batam?",
+        "options": [
+          "Do",
+          "Are",
+          "Does"
+        ],
+        "answer": 0,
+        "explanation": "Dengan verb utama 'take', pertanyaan memakai 'Do you ever ...?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How often does the airport shuttle leave here? / It ___ departs every thirty minutes on the hour.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How often does the airport shuttle leave here?"
+          ],
+          [
+            "Kiki",
+            "It ___ departs every thirty minutes on the hour."
+          ]
+        ],
+        "options": [
+          "normally",
+          "is normally",
+          "does normally"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'departs' -> 'normally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We sometimes are late when storms flood the road.\"",
+        "draft": "We sometimes are late when storms flood the road.",
+        "options": [
+          "We are sometimes late when storms flood the road.",
+          "We do sometimes late when storms flood the road.",
+          "We sometimes are late when storms flood the road."
+        ],
+        "answer": 0,
+        "explanation": "Adverb 'sometimes' berada setelah 'are'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami jarang terlambat untuk panggilan mingguan klien.\".",
+        "targetSentence": "We are rarely late for weekly client calls.",
+        "explanation": "'Rarely' setelah 'are'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our team ___ holds short stand-up meetings on Fridays.",
+        "options": [
+          "sometimes",
+          "are sometimes",
+          "does sometimes"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb utama 'holds' -> 'sometimes'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the lab Wi-Fi reliable during rainstorms? / Well, the signal ___ drops during heavy thunder.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Is the lab Wi-Fi reliable during rainstorms?"
+          ],
+          [
+            "Sinta",
+            "Well, the signal ___ drops during heavy thunder."
+          ]
+        ],
+        "options": [
+          "does sometimes",
+          "sometimes",
+          "is sometimes"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'drops' -> 'sometimes'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does she always brings her laptop to meetings?\"",
+        "draft": "Does she always brings her laptop to meetings?",
+        "options": [
+          "Does she always bring her laptop to meetings?",
+          "Is she always bring her laptop to meetings?",
+          "Does she always brings her laptop to meetings?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Does', verb tetap V1 tanpa '-s'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is the reception lobby ___ quiet after seven?",
+        "options": [
+          "alwaysly",
+          "oftenly",
+          "usually"
+        ],
+        "answer": 2,
+        "explanation": "Pola 'Is + subjek + adverb + adjective' -> 'usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Hardly ever—almost every stall takes QR scans.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Do you ___ bring cash to the campus canteen?"
+          ],
+          [
+            "Tia",
+            "Hardly ever—almost every stall takes QR scans."
+          ]
+        ],
+        "options": [
+          "alwaysly",
+          "often",
+          "usually are"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'bring' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My colleagues eat often lunch in the courtyard.\"",
+        "draft": "My colleagues eat often lunch in the courtyard.",
+        "options": [
+          "My colleagues eat often lunch in the courtyard.",
+          "My colleagues often eat lunch in the courtyard.",
+          "My colleagues are often eat lunch in the courtyard."
+        ],
+        "answer": 1,
+        "explanation": "'Often' diletakkan sebelum verb utama ('eat').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ take notes by hand instead of typing.",
+        "options": [
+          "am occasionally",
+          "does occasionally",
+          "occasionally"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb utama 'take' -> 'occasionally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tidak biasanya bekerja melewati pukul enam sore.\".",
+        "targetSentence": "He does not usually work past six in the evening.",
+        "explanation": "'Usually' di antara 'does not' dan V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ miss a shipping deadline because of checklists.",
+        "options": [
+          "hardly ever",
+          "don't hardly ever",
+          "are hardly ever"
+        ],
+        "answer": 0,
+        "explanation": "'Hardly ever' bermakna hampir tidak pernah; sebelum verb 'miss'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Ms. Dewi carrying two notebooks again? / Oh, she ___ brings backup paper just in case.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why is Ms. Dewi carrying two notebooks again?"
+          ],
+          [
+            "Dewi",
+            "Oh, she ___ brings backup paper just in case."
+          ]
+        ],
+        "options": [
+          "is always",
+          "always is",
+          "always"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'brings' -> 'always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She doesn't seldom check social media at work.\"",
+        "draft": "She doesn't seldom check social media at work.",
+        "options": [
+          "She seldom checks social media at work.",
+          "She isn't seldom check social media at work.",
+          "She doesn't seldom check social media at work."
+        ],
+        "answer": 0,
+        "explanation": "'Seldom' bernuansa negatif; jangan digabung 'doesn't'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleagues ___ ready ten minutes before the webinar.",
+        "options": [
+          "do always",
+          "are always",
+          "always are"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'are' -> 'are always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah kereta pagi biasanya penuh sesak pukul tujuh?\".",
+        "targetSentence": "Is the morning train usually crowded at seven?",
+        "explanation": "'Is + S + usually + adjective'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ checks her work inbox on Sunday mornings.",
+        "options": [
+          "rarely",
+          "doesn't rarely",
+          "is rarely"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'checks' -> 'rarely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are those emergency exits checked monthly? / Yes, the safety inspector ___ checks them every first Monday.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Are those emergency exits checked monthly?"
+          ],
+          [
+            "Ayu",
+            "Yes, the safety inspector ___ checks them every first Monday."
+          ]
+        ],
+        "options": [
+          "are always",
+          "always",
+          "is always"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'checks' -> 'always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You are alwaysly welcome in Study Room 2.\"",
+        "draft": "You are alwaysly welcome in Study Room 2.",
+        "options": [
+          "You always are welcome in Study Room 2.",
+          "You are alwaysly welcome in Study Room 2.",
+          "You are always welcome in Study Room 2."
+        ],
+        "answer": 2,
+        "explanation": "Tidak ada kata 'alwaysly'; gunakan 'always' setelah 'are'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the morning train usually crowded at seven?",
+        "options": [
+          "Do",
+          "Is",
+          "Does"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat dengan adjective 'crowded' tanpa verb aksi memakai 'Is'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you work from the library on Tuesdays? / I ___ study there in the morning when it's quiet.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Do you work from the library on Tuesdays?"
+          ],
+          [
+            "Oki",
+            "I ___ study there in the morning when it's quiet."
+          ]
+        ],
+        "options": [
+          "often am",
+          "often",
+          "am often"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'study' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you ever are nervous during presentations?\"",
+        "draft": "Do you ever are nervous during presentations?",
+        "options": [
+          "Do you ever nervous during presentations?",
+          "Do you ever are nervous during presentations?",
+          "Are you ever nervous during presentations?"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat dengan adjective 'nervous' butuh 'Are you ever ...?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami hampir tidak pernah melewatkan tenggat pengiriman paket.\".",
+        "targetSentence": "We hardly ever miss a parcel shipping deadline.",
+        "explanation": "'Hardly ever' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ eat together at the canteen near Building B.",
+        "options": [
+          "often",
+          "are often",
+          "do often"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'eat' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the coffee machine broken again? / No, it ___ clean and ready before seven.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Is the coffee machine broken again?"
+          ],
+          [
+            "Mira",
+            "No, it ___ clean and ready before seven."
+          ]
+        ],
+        "options": [
+          "is usually",
+          "usually is",
+          "usually"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'is' -> 'is usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The bus departs normally on time at 6:30.\"",
+        "draft": "The bus departs normally on time at 6:30.",
+        "options": [
+          "The bus departs normally on time at 6:30.",
+          "The bus normally departs on time at 6:30.",
+          "The bus is normally depart on time at 6:30."
+        ],
+        "answer": 1,
+        "explanation": "'Normally' sebelum verb utama ('departs').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ complains about long commutes into downtown.",
+        "options": [
+          "never",
+          "isn't never",
+          "doesn't never"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'complains' -> 'never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you ever watch English news clips at breakfast? / Yes, I ___ listen to ten-minute podcasts while eating.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Do you ever watch English news clips at breakfast?"
+          ],
+          [
+            "Taufik",
+            "Yes, I ___ listen to ten-minute podcasts while eating."
+          ]
+        ],
+        "options": [
+          "usually",
+          "am usually",
+          "do usually"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'listen' -> 'usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He never is absent without informing his lead.\"",
+        "draft": "He never is absent without informing his lead.",
+        "options": [
+          "He never is absent without informing his lead.",
+          "He is never absent without informing his lead.",
+          "He doesn't never absent without informing his lead."
+        ],
+        "answer": 1,
+        "explanation": "Adverb 'never' diletakkan setelah 'is'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "The cafeteria soup ___ warm and fresh at noon.",
+        "options": [
+          "does always",
+          "is always",
+          "always is"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'is' -> 'is always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Para mahasiswa magang hampir selalu duduk lima menit lebih awal.\".",
+        "targetSentence": "The interns are almost always seated five minutes early.",
+        "explanation": "'Almost always' setelah 'are'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do the interns ___ scan receipts before leaving?",
+        "options": [
+          "are always",
+          "alwaysly",
+          "always"
+        ],
+        "answer": 2,
+        "explanation": "'Do + S + always + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does our courier ever deliver parcels on Sundays? / No, weekend deliveries ___ happen unless urgent.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Does our courier ever deliver parcels on Sundays?"
+          ],
+          [
+            "Lina",
+            "No, weekend deliveries ___ happen unless urgent."
+          ]
+        ],
+        "options": [
+          "are hardly ever",
+          "hardly ever",
+          "don't hardly ever"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'happen' -> 'hardly ever'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Always I double-check attachments before sending.\"",
+        "draft": "Always I double-check attachments before sending.",
+        "options": [
+          "Always I double-check attachments before sending.",
+          "I always double-check attachments before sending.",
+          "I am always double-check attachments before sending."
+        ],
+        "answer": 1,
+        "explanation": "'Always' ditempatkan sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ misses an important meeting without notifying us.",
+        "options": [
+          "isn't almost never",
+          "almost never is",
+          "almost never"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'misses' -> 'almost never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya sesekali membuat catatan tulisan tangan daripada mengetik.\".",
+        "targetSentence": "I occasionally take notes by hand instead of typing.",
+        "explanation": "'Occasionally' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "I am ___ nervous before speaking in a big hall.",
+        "options": [
+          "am sometimes",
+          "sometimes",
+          "do sometimes"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'I am', langsung adverb 'sometimes'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are the trainees punctual for morning practice? / Yes, they ___ seated five minutes early.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Are the trainees punctual for morning practice?"
+          ],
+          [
+            "Wulan",
+            "Yes, they ___ seated five minutes early."
+          ]
+        ],
+        "options": [
+          "almost always are",
+          "do almost always",
+          "are almost always"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'are' -> 'are almost always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Seldomly we get heavy fog in August.\"",
+        "draft": "Seldomly we get heavy fog in August.",
+        "options": [
+          "We never get seldom fog in August.",
+          "Seldomly we get heavy fog in August.",
+          "We seldom get heavy fog in August."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan 'seldom' sebelum verb utama tanpa '-ly'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ receives deliveries before ten.",
+        "options": [
+          "does normally",
+          "normally",
+          "is normally"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'receives' -> 'normally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How often should we wipe the scanner glass? / We ___ clean it every Friday afternoon.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How often should we wipe the scanner glass?"
+          ],
+          [
+            "Sari",
+            "We ___ clean it every Friday afternoon."
+          ]
+        ],
+        "options": [
+          "always",
+          "are always",
+          "do always"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'clean' -> 'always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He usually doesn't stays past six o'clock.\"",
+        "draft": "He usually doesn't stays past six o'clock.",
+        "options": [
+          "He doesn't usually stays past six o'clock.",
+          "He usually doesn't stays past six o'clock.",
+          "He doesn't usually stay past six o'clock."
+        ],
+        "answer": 2,
+        "explanation": "'Usually' berada di antara 'doesn't' dan V1 ('stay').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia jarang memeriksa kotak masuk kerjanya pada hari Minggu.\".",
+        "targetSentence": "She rarely checks her work inbox on Sunday mornings.",
+        "explanation": "'Rarely' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are the security guards ___ posted near Gate 2?",
+        "options": [
+          "do always",
+          "always",
+          "alwaysly"
+        ],
+        "answer": 1,
+        "explanation": "'Are + S + always + V3/adj'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you ever skip warm-up stretches before running? / Almost ___—stretching prevents sore knees.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Do you ever skip warm-up stretches before running?"
+          ],
+          [
+            "Reno",
+            "Almost ___—stretching prevents sore knees."
+          ]
+        ],
+        "options": [
+          "often",
+          "never",
+          "always"
+        ],
+        "answer": 1,
+        "explanation": "'Almost never' = hampir tidak pernah.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many often do you visit the main branch?\"",
+        "draft": "How many often do you visit the main branch?",
+        "options": [
+          "How many often do you visit the main branch?",
+          "How often do you visit the main branch?",
+          "How much often do you visit the main branch?"
+        ],
+        "answer": 1,
+        "explanation": "Frasa tanya baku adalah 'How often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ brings a spare charger inside his backpack.",
+        "options": [
+          "is always",
+          "does always",
+          "always"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'brings' -> 'always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is your manager available without an appointment? / She ___ free between two and three on Wednesdays.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is your manager available without an appointment?"
+          ],
+          [
+            "Aris",
+            "She ___ free between two and three on Wednesdays."
+          ]
+        ],
+        "options": [
+          "usually is",
+          "usually",
+          "is usually"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'is' -> 'is usually'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Always they verify badges at Gate 1.\"",
+        "draft": "Always they verify badges at Gate 1.",
+        "options": [
+          "They are always verify badges at Gate 1.",
+          "Always they verify badges at Gate 1.",
+          "They always verify badges at Gate 1."
+        ],
+        "answer": 2,
+        "explanation": "Posisi netral: subjek diikuti 'always' lalu verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ stay past six unless an audit is due.",
+        "options": [
+          "seldom",
+          "don't seldom",
+          "are seldom"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'stay' -> 'seldom'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mesin kopi biasanya bersih dan siap sebelum pukul tujuh.\".",
+        "targetSentence": "The coffee machine is usually clean and ready before seven.",
+        "explanation": "'Usually' setelah 'is'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Akhiri dengan 'twice a month'."
         ],
         "skill": "adverb-frequency-flexibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch conducts a full safety audit ___.",
+        "options": [
+          "two times year",
+          "twice a year",
+          "a year twice"
+        ],
+        "answer": 1,
+        "explanation": "Frasa frekuensi spesifik ('twice a year') berada di akhir kalimat.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How often does the lab replace these air filters? / We change them ___—every January and July.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "How often does the lab replace these air filters?"
+          ],
+          [
+            "Dodi",
+            "We change them ___—every January and July."
+          ]
+        ],
+        "options": [
+          "a year twice",
+          "twice a year",
+          "two time year"
+        ],
+        "answer": 1,
+        "explanation": "Dua kali setahun -> 'twice a year'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You always must wear a helmet inside Zone C.\"",
+        "draft": "You always must wear a helmet inside Zone C.",
+        "options": [
+          "You must always wear a helmet inside Zone C.",
+          "You must to always wear a helmet inside Zone C.",
+          "You always must wear a helmet inside Zone C."
+        ],
+        "answer": 0,
+        "explanation": "Dengan modal ('must'), adverb diletakkan SETELAH modal -> 'must always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "___, the ferry schedule shifts slightly due to high tides.",
+        "options": [
+          "From time to time",
+          "Never",
+          "Hardly ever"
+        ],
+        "answer": 0,
+        "explanation": "'From time to time' umum diletakkan di awal kalimat dengan koma.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kantor cabang kami mengaudit stok gudang dua kali setahun.\".",
+        "targetSentence": "Our branch audits warehouse stock twice a year.",
+        "explanation": "Frasa 'twice a year' di akhir kalimat.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ stay until eight unless a quarterly audit closes.",
+        "options": [
+          "doesn't usually",
+          "usually doesn't",
+          "isn't usually"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif: 'doesn't + adverb + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we lock Cabinet B during lunch breaks? / Yes, staff ___ leave sensitive files unlocked.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Should we lock Cabinet B during lunch breaks?"
+          ],
+          [
+            "Bima",
+            "Yes, staff ___ leave sensitive files unlocked."
+          ]
+        ],
+        "options": [
+          "must never",
+          "never must",
+          "mustn't never"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'must' dan V1 -> 'must never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She usually doesn't stay past seven on Fridays.\"",
+        "draft": "She usually doesn't stay past seven on Fridays.",
+        "options": [
+          "She usually doesn't stay past seven on Fridays.",
+          "She doesn't usually stay past seven on Fridays.",
+          "She doesn't usually stays past seven on Fridays."
+        ],
+        "answer": 1,
+        "explanation": "'Usually' berada di antara 'doesn't' dan V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Remember: you ___ check the expiration date before shipping.",
+        "options": [
+          "must always",
+          "always must",
+          "must to always"
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal ('must'), adverb berada sebelum V1 -> 'must always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does Budi ever work from home on Mondays? / Actually, he ___ works remotely—he prefers his desk.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Does Budi ever work from home on Mondays?"
+          ],
+          [
+            "Eko",
+            "Actually, he ___ works remotely—he prefers his desk."
+          ]
+        ],
+        "options": [
+          "hardly ever",
+          "doesn't usually",
+          "isn't usually"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb V-s 'works' -> 'hardly ever'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We audit the warehouse two times a year.\"",
+        "draft": "We audit the warehouse two times a year.",
+        "options": [
+          "We audit the warehouse a year twice.",
+          "We audit the warehouse two times a year.",
+          "We audit the warehouse twice a year."
+        ],
+        "answer": 2,
+        "explanation": "Untuk 2 kali, gunakan 'twice a year'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda harus selalu mengenakan kacamata pengaman di Lab 1.\".",
+        "targetSentence": "You must always wear safety glasses in Lab One.",
+        "explanation": "Adverb di antara 'must' dan V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We hold bilingual training workshops ___.",
+        "options": [
+          "every Fridays other",
+          "every other Friday",
+          "other every Friday"
+        ],
+        "answer": 1,
+        "explanation": "'Every other Friday' berarti dua minggu sekali.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you inspect the warehouse doors every day? / Yes, and we audit the full stock ___.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Do you inspect the warehouse doors every day?"
+          ],
+          [
+            "Sari",
+            "Yes, and we audit the full stock ___."
+          ]
+        ],
+        "options": [
+          "a month on",
+          "on a monthly basis",
+          "monthly basis"
+        ],
+        "answer": 1,
+        "explanation": "Frasa formal -> 'on a monthly basis'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have visited never that historic harbor museum.\"",
+        "draft": "I have visited never that historic harbor museum.",
+        "options": [
+          "I have never visited that historic harbor museum.",
+          "I never have visited that historic harbor museum.",
+          "I have visited never that historic harbor museum."
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'have' dan V3 -> 'have never visited'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ misses a train; in five years, he was late once.",
+        "options": [
+          "doesn't scarcely ever",
+          "is scarcely ever",
+          "scarcely ever"
+        ],
+        "answer": 2,
+        "explanation": "'Scarcely ever' sebelum verb 'misses'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Thankfully no—I reach the terminal two hours early.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Have you ___ missed an international morning flight?"
+          ],
+          [
+            "Putri",
+            "Thankfully no—I reach the terminal two hours early."
+          ]
+        ],
+        "options": [
+          "ever",
+          "always",
+          "usually"
+        ],
+        "answer": 0,
+        "explanation": "'Have you ever + V3'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They hold team clinics every Fridays other.\"",
+        "draft": "They hold team clinics every Fridays other.",
+        "options": [
+          "They hold team clinics every other Friday.",
+          "They hold team clinics every others Friday.",
+          "They hold team clinics every Fridays other."
+        ],
+        "answer": 0,
+        "explanation": "Frasa yang benar adalah 'every other Friday'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ delivered parcels early, though today he's late.",
+        "options": [
+          "has always",
+          "always has",
+          "had alwaysly"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'has' dan V3 -> 'has always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia biasanya tidak tinggal melewati pukul tujuh malam.\".",
+        "targetSentence": "She does not usually stay past seven in the evening.",
+        "explanation": "Adverb di antara 'does not' dan V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we receive inquiries from overseas university libraries.",
+        "options": [
+          "Always",
+          "Never",
+          "Every now and then"
+        ],
+        "answer": 2,
+        "explanation": "'Every now and then' di awal kalimat.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the technician reset Router 2 just now? / Wait—we ___ reset it unless the orange light blinks.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Why did the technician reset Router 2 just now?"
+          ],
+          [
+            "Arman",
+            "Wait—we ___ reset it unless the orange light blinks."
+          ]
+        ],
+        "options": [
+          "rarely",
+          "don't rarely",
+          "are rarely"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'reset' -> 'rarely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Staff mustn't never share security keycards.\"",
+        "draft": "Staff mustn't never share security keycards.",
+        "options": [
+          "Staff never must share security keycards.",
+          "Staff mustn't never share security keycards.",
+          "Staff must never share security keycards."
+        ],
+        "answer": 2,
+        "explanation": "Hindari double negative; gunakan 'must never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Trainees ___ use protective gloves inside Chemistry Lab 1.",
+        "options": [
+          "should always",
+          "always should",
+          "should to always"
+        ],
+        "answer": 0,
+        "explanation": "Modal 'should' + 'always' + V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami meninjau kontrak pemasok secara berkala setiap kuartal.\".",
+        "targetSentence": "We review supplier contracts on a quarterly basis.",
+        "explanation": "'On a quarterly basis' di akhir klausa.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We review supplier contracts ___ to check price changes.",
+        "options": [
+          "on basis quarterly",
+          "on a quarterly basis",
+          "a quarterly basis"
+        ],
+        "answer": 1,
+        "explanation": "Ekspresi bisnis formal: 'on a quarterly basis'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can our interns skip the morning stand-up meeting? / No, everyone ___ join the ten-minute check-in at nine.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Can our interns skip the morning stand-up meeting?"
+          ],
+          [
+            "Adi",
+            "No, everyone ___ join the ten-minute check-in at nine."
+          ]
+        ],
+        "options": [
+          "has always to",
+          "should always",
+          "always should"
+        ],
+        "answer": 1,
+        "explanation": "Modal 'should' + 'always' + V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He scarcely never misses a morning briefing.\"",
+        "draft": "He scarcely never misses a morning briefing.",
+        "options": [
+          "He scarcely ever misses a morning briefing.",
+          "He doesn't scarcely ever miss a morning briefing.",
+          "He scarcely never misses a morning briefing."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku adalah 'scarcely ever'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ___ attended an international seminar in Singapore?",
+        "options": [
+          "never only",
+          "alwaysly",
+          "ever"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan pengalaman -> 'Have you ever + V3?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you get shipping delays during holiday weeks? / ___, carriers take an extra day during peak December.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Do you get shipping delays during holiday weeks?"
+          ],
+          [
+            "Kiki",
+            "___, carriers take an extra day during peak December."
+          ]
+        ],
+        "options": [
+          "Every now and then",
+          "Hardly",
+          "Never"
+        ],
+        "answer": 0,
+        "explanation": "Adverbial pembuka kalimat -> 'Every now and then,'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We check water quality on a monthly bases.\"",
+        "draft": "We check water quality on a monthly bases.",
+        "options": [
+          "We check water quality on a monthly bases.",
+          "We check water quality on a monthly basis.",
+          "We check water quality in a monthly basis."
+        ],
+        "answer": 1,
+        "explanation": "Tunggal: 'on a monthly basis'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dari waktu ke waktu, jadwal feri berubah karena pasang tinggi.\".",
+        "targetSentence": "From time to time, the ferry schedule shifts due to tides.",
+        "explanation": "Adverbial pembuka dengan koma.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ arrives late, even when monsoon traffic stalls buses.",
+        "options": [
+          "is hardly ever",
+          "hardly ever",
+          "doesn't hardly ever"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'arrives' -> 'hardly ever'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has Mr. Adi ever visited our Medan branch? / Yes, he ___ travels there once a quarter.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Has Mr. Adi ever visited our Medan branch?"
+          ],
+          [
+            "Sinta",
+            "Yes, he ___ travels there once a quarter."
+          ]
+        ],
+        "options": [
+          "routinely",
+          "is routinely",
+          "has routinely"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'travels' -> 'routinely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She can rarely finds time to read during finals.\"",
+        "draft": "She can rarely finds time to read during finals.",
+        "options": [
+          "She can rarely find time to read during finals.",
+          "She rarely can find time to read during finals.",
+          "She can rarely finds time to read during finals."
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'can', gunakan V1 ('find').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Staff members ___ share personal access pins with visitors.",
+        "options": [
+          "don't should never",
+          "should never",
+          "never should"
+        ],
+        "answer": 1,
+        "explanation": "Modal 'should' + 'never' + V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many times a month does the committee meet? / They gather ___—on the first and third Wednesdays.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How many times a month does the committee meet?"
+          ],
+          [
+            "Tia",
+            "They gather ___—on the first and third Wednesdays."
+          ]
+        ],
+        "options": [
+          "twice a month",
+          "two times month",
+          "every two month"
+        ],
+        "answer": 0,
+        "explanation": "Dua kali sebulan -> 'twice a month'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Have you alwaysly lived near the port district?\"",
+        "draft": "Have you alwaysly lived near the port district?",
+        "options": [
+          "Have you always lived near the port district?",
+          "Have always you lived near the port district?",
+          "Have you alwaysly lived near the port district?"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan 'always' di antara 'you' dan V3.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "They submit inventory reports ___ without fail.",
+        "options": [
+          "once a week",
+          "one time week",
+          "every one weeks"
+        ],
+        "answer": 0,
+        "explanation": "Frasa baku: 'once a week'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami mengadakan lokakarya dwibahasa setiap dua Jumat sekali.\".",
+        "targetSentence": "We hold bilingual workshops every other Friday.",
+        "explanation": "'Every other Friday' di akhir kalimat.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ invited external speakers to our Friday clinics.",
+        "options": [
+          "have occasionally",
+          "occasionally have",
+          "are occasionally"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'have' dan V3 -> 'have occasionally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do your colleagues eat out together every day? / Not daily—we grab lunch nearby ___.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Do your colleagues eat out together every day?"
+          ],
+          [
+            "Dewi",
+            "Not daily—we grab lunch nearby ___."
+          ]
+        ],
+        "options": [
+          "from time to time",
+          "oftenly",
+          "alwaysly"
+        ],
+        "answer": 0,
+        "explanation": "Frasa akhir klausa -> 'from time to time'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We send feedback summaries once the month.\"",
+        "draft": "We send feedback summaries once the month.",
+        "options": [
+          "We send feedback summaries once the month.",
+          "We send feedback summaries once a month.",
+          "We send feedback summaries one time a month."
+        ],
+        "answer": 1,
+        "explanation": "Frasa baku: 'once a month'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ always verify two figures before signing the sheet.",
+        "options": [
+          "should",
+          "are",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "Modal + 'always' + V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anggota staf tidak boleh pernah membagikan pin akses pribadi.\".",
+        "targetSentence": "Staff members must never share personal access pins.",
+        "explanation": "Adverb 'never' setelah modal 'must'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "My supervisor ___ works on Saturdays unless a launch happens.",
+        "options": [
+          "isn't almost never",
+          "almost never is",
+          "almost never"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'works' -> 'almost never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have the backup generators ever failed during blackouts? / Thankfully, they ___ performed reliably for five years.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Have the backup generators ever failed during blackouts?"
+          ],
+          [
+            "Ayu",
+            "Thankfully, they ___ performed reliably for five years."
+          ]
+        ],
+        "options": [
+          "have always",
+          "always have",
+          "are always"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'have' dan V3 -> 'have always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our branch has alwaysly supported green commuting.\"",
+        "draft": "Our branch has alwaysly supported green commuting.",
+        "options": [
+          "Our branch always hasly supported green commuting.",
+          "Our branch has alwaysly supported green commuting.",
+          "Our branch has always supported green commuting."
+        ],
+        "answer": 2,
+        "explanation": "'Has + always + V3' tanpa '-ly'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We meet our overseas mentor ___ for feedback.",
+        "options": [
+          "a month one",
+          "monthly once",
+          "once a month"
+        ],
+        "answer": 2,
+        "explanation": "Di akhir klausa -> 'once a month'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Room 4 empty on Thursday afternoons? / Yes, we hold workshops there ___—once every two weeks.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Is Room 4 empty on Thursday afternoons?"
+          ],
+          [
+            "Oki",
+            "Yes, we hold workshops there ___—once every two weeks."
+          ]
+        ],
+        "options": [
+          "other every Thursday",
+          "each Thursday two",
+          "every other Thursday"
+        ],
+        "answer": 2,
+        "explanation": "Dua minggu sekali -> 'every other Thursday'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Trainees should always to save backups locally.\"",
+        "draft": "Trainees should always to save backups locally.",
+        "options": [
+          "Trainees should always to save backups locally.",
+          "Trainees should always save backups locally.",
+          "Trainees always should save backups locally."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'should always', langsung V1 tanpa 'to'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia hampir tidak pernah melewatkan kereta pagi dalam lima tahun.\".",
+        "targetSentence": "He scarcely ever misses the morning train in five years.",
+        "explanation": "'Scarcely ever' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our campus library ___ stays open past midnight during finals.",
+        "options": [
+          "has often",
+          "often",
+          "is often"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum verb 'stays' -> 'often'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you reply to my text right away? / Sorry! I ___ check personal messages while teaching.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why didn't you reply to my text right away?"
+          ],
+          [
+            "Mira",
+            "Sorry! I ___ check personal messages while teaching."
+          ]
+        ],
+        "options": [
+          "am not normally",
+          "don't normally",
+          "normally don't"
+        ],
+        "answer": 1,
+        "explanation": "Negatif 'don't normally + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He check his calendar routinely at seven.\"",
+        "draft": "He check his calendar routinely at seven.",
+        "options": [
+          "He check his calendar routinely at seven.",
+          "He routinely checks his calendar at seven.",
+          "He routinely check his calendar at seven."
+        ],
+        "answer": 1,
+        "explanation": "'Routinely' sebelum verb V-s 'checks'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "___, the IT helpdesk runs system maintenance at 2 AM.",
+        "options": [
+          "Every Sunday",
+          "Never",
+          "Always"
+        ],
+        "answer": 0,
+        "explanation": "Frasa waktu rutin di awal kalimat: 'Every Sunday,'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How often do you practice English listening? / I listen to a podcast ___ during my train ride.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How often do you practice English listening?"
+          ],
+          [
+            "Taufik",
+            "I listen to a podcast ___ during my train ride."
+          ]
+        ],
+        "options": [
+          "every single morning",
+          "single every morning",
+          "all mornings single"
+        ],
+        "answer": 0,
+        "explanation": "Di akhir klausa -> 'every single morning'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why she never is early for morning sessions?\"",
+        "draft": "Why she never is early for morning sessions?",
+        "options": [
+          "Why she never is early for morning sessions?",
+          "Why is she never early for morning sessions?",
+          "Why does she never early for morning sessions?"
+        ],
+        "answer": 1,
+        "explanation": "Inversi pertanyaan dengan 'to be': 'Why is she never ...?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have the interns ___ forgotten to lock the equipment locker?",
+        "options": [
+          "ever",
+          "alwaysly",
+          "seldomly"
+        ],
+        "answer": 0,
+        "explanation": "'Have + S + ever + V3'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pernahkah Anda menghadiri seminar internasional di Singapura?\".",
+        "targetSentence": "Have you ever attended an international seminar in Singapore?",
+        "explanation": "'Have + S + ever + V3'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ checks his blood pressure every morning at seven.",
+        "options": [
+          "is routinely",
+          "routinely is",
+          "routinely"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'checks' -> 'routinely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we label chemical bottles after refilling? / Yes, technicians ___ label every bottle immediately.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Should we label chemical bottles after refilling?"
+          ],
+          [
+            "Lina",
+            "Yes, technicians ___ label every bottle immediately."
+          ]
+        ],
+        "options": [
+          "always must",
+          "must to always",
+          "must always"
+        ],
+        "answer": 2,
+        "explanation": "Di antara 'must' dan V1 -> 'must always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They don't usually needs reminders before deadlines.\"",
+        "draft": "They don't usually needs reminders before deadlines.",
+        "options": [
+          "They usually don't needs reminders before deadlines.",
+          "They don't usually needs reminders before deadlines.",
+          "They don't usually need reminders before deadlines."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'don't usually', verb tetap V1.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ encountered server downtime during morning peak hours.",
+        "options": [
+          "rarely have",
+          "are rarely",
+          "have rarely"
+        ],
+        "answer": 2,
+        "explanation": "Di antara 'have' dan V3 -> 'have rarely'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami jarang mengalami gangguan server saat jam sibuk pagi.\".",
+        "targetSentence": "We have rarely experienced server downtime during morning peak hours.",
+        "explanation": "Adverb di antara 'have' dan V3.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Visitors ___ wear helmets when walking across Bay 3.",
+        "options": [
+          "must always",
+          "always must",
+          "must to always"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'must' dan V1 -> 'must always'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How frequently does the system export billing logs? / It runs an automated export ___.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "How frequently does the system export billing logs?"
+          ],
+          [
+            "Wulan",
+            "It runs an automated export ___."
+          ]
+        ],
+        "options": [
+          "in daily",
+          "on a daily basis",
+          "daily basis"
+        ],
+        "answer": 1,
+        "explanation": "Ekspresi formal -> 'on a daily basis'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Every now and againly, storms delay evening ferries.\"",
+        "draft": "Every now and againly, storms delay evening ferries.",
+        "options": [
+          "Every now and then, storms delay evening ferries.",
+          "Every then and now, storms delay evening ferries.",
+          "Every now and againly, storms delay evening ferries."
+        ],
+        "answer": 0,
+        "explanation": "Idiom baku: 'Every now and then'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She sends budget summaries ___ on the 25th.",
+        "options": [
+          "a monthly",
+          "on monthly",
+          "monthly"
+        ],
+        "answer": 2,
+        "explanation": "Adverb tunggal di akhir kalimat: 'monthly'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you ever tried recording yourself speaking? / Yes, I ___ record two-minute answers for review.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Have you ever tried recording yourself speaking?"
+          ],
+          [
+            "Sari",
+            "Yes, I ___ record two-minute answers for review."
+          ]
+        ],
+        "options": [
+          "am occasionally",
+          "have occasionally",
+          "occasionally"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'record' -> 'occasionally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does the courier alwaysly ring the side gate bell?\"",
+        "draft": "Does the courier alwaysly ring the side gate bell?",
+        "options": [
+          "Does the courier always ring the side gate bell?",
+          "Is the courier always ring the side gate bell?",
+          "Does the courier alwaysly ring the side gate bell?"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan 'always', bukan 'alwaysly'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tim kami rutin mengadakan evaluasi singkat setiap akhir sprint.\".",
+        "targetSentence": "Our team regularly holds short reviews after every sprint.",
+        "explanation": "'Regularly' sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—I ___ eat fast food; maybe twice a year at most.",
+        "options": [
+          "seldom",
+          "don't seldom",
+          "am seldom"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum verb 'eat' -> 'seldom'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our old supervisor check attendance sheets closely? / Oh yes, he ___ cross-check every signature at five.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did our old supervisor check attendance sheets closely?"
+          ],
+          [
+            "Reno",
+            "Oh yes, he ___ cross-check every signature at five."
+          ]
+        ],
+        "options": [
+          "always would",
+          "used always",
+          "would always"
+        ],
+        "answer": 2,
+        "explanation": "Kebiasaan lampau -> 'would always + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have rarely been seeing such tidy lab logs.\"",
+        "draft": "I have rarely been seeing such tidy lab logs.",
+        "options": [
+          "I have rarely seen such tidy lab logs.",
+          "I rarely have seen such tidy lab logs.",
+          "I have rarely been seeing such tidy lab logs."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'have rarely', gunakan V3 'seen'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ leave confidential drafts unattended on shared desks.",
+        "options": [
+          "never must",
+          "mustn't never",
+          "must never"
+        ],
+        "answer": 2,
+        "explanation": "Di antara 'must' dan V1 -> 'must never'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does your campus run night shuttle buses? / They ___ run until ten, except during breaks.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Does your campus run night shuttle buses?"
+          ],
+          [
+            "Aris",
+            "They ___ run until ten, except during breaks."
+          ]
+        ],
+        "options": [
+          "are generally",
+          "have generally",
+          "generally"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'run' -> 'generally'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He would usually brings snacks for Friday reviews.\"",
+        "draft": "He would usually brings snacks for Friday reviews.",
+        "options": [
+          "He would usually bring snacks for Friday reviews.",
+          "He usually would bring snacks for Friday reviews.",
+          "He would usually brings snacks for Friday reviews."
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'would usually', gunakan V1 ('bring').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our team ___ holds short retrospectives after each sprint.",
+        "options": [
+          "is regularly",
+          "does regularly",
+          "regularly"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum verb 'holds' -> 'regularly'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Secara umum, saya lebih suka naik kereta ekspres pukul enam.\".",
+        "targetSentence": "Generally, I prefer taking the six o'clock express train.",
+        "explanation": "Adverb 'Generally,' di awal kalimat.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Akhiri dengan 'and she almost always does'."
         ],
         "skill": "adverb-frequency-auxiliary"
+      },
+      {
+        "type": "choice",
+        "prompt": "Seldom ___ such consistent growth across all five regions.",
+        "options": [
+          "we have seen",
+          "did we saw",
+          "have we seen"
+        ],
+        "answer": 2,
+        "explanation": "Inversi negatif setelah 'Seldom' di awal kalimat -> 'have we seen'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look at Slide 12—zero formatting flaws in an intern draft! / Truly! Seldom ___ a first draft look this polished.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Look at Slide 12—zero formatting flaws in an intern draft!"
+          ],
+          [
+            "Dodi",
+            "Truly! Seldom ___ a first draft look this polished."
+          ]
+        ],
+        "options": [
+          "has",
+          "does",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Inversi setelah 'Seldom' dengan V1 'look' membutuhkan 'does'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Seldom we have seen such clear data presentation.\"",
+        "draft": "Seldom we have seen such clear data presentation.",
+        "options": [
+          "Seldom did we seen such clear data presentation.",
+          "Seldom we have seen such clear data presentation.",
+          "Seldom have we seen such clear data presentation."
+        ],
+        "answer": 2,
+        "explanation": "Jika 'Seldom' di awal kalimat, wajib inversi ('have we seen').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ a workshop so well organized from start to finish.",
+        "options": [
+          "do trainees encounter",
+          "trainees encounter",
+          "encounter trainees"
+        ],
+        "answer": 0,
+        "explanation": "Inversi setelah 'Rarely' di awal kalimat -> 'do trainees encounter'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jarang sekali kami melihat pertumbuhan sekuat ini di semua wilayah.\".",
+        "targetSentence": "Seldom have we seen such strong growth across all regions.",
+        "explanation": "Inversi negatif 'Seldom have we seen'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never ___ to submit an incomplete compliance checklist.",
+        "options": [
+          "have we agreed",
+          "we have agreed",
+          "agreed we"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Never' di posisi awal -> inversi 'have we agreed'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Mr. Adi sighing at the office printer again? / Oh, it ___ jamming whenever we rush morning invoices!\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why is Mr. Adi sighing at the office printer again?"
+          ],
+          [
+            "Bima",
+            "Oh, it ___ jamming whenever we rush morning invoices!"
+          ]
+        ],
+        "options": [
+          "does always",
+          "is always",
+          "always is"
+        ],
+        "answer": 1,
+        "explanation": "Keluhan kebiasaan berulang -> 'is always + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Never I will accept unverified sources in reports.\"",
+        "draft": "Never I will accept unverified sources in reports.",
+        "options": [
+          "Never will I accept unverified sources in reports.",
+          "Never do I accepted unverified sources in reports.",
+          "Never I will accept unverified sources in reports."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Never' di awal kalimat -> inversi modal ('will I accept').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly ever ___ outside working hours unless emergencies arise.",
+        "options": [
+          "does the director call",
+          "the director calls",
+          "calls the director"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Hardly ever' di awal -> auxiliary 'does' sebelum subjek.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you ever get delayed at Border Gate 3 before? / Almost never—rarely ___ wait over five minutes there.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did you ever get delayed at Border Gate 3 before?"
+          ],
+          [
+            "Eko",
+            "Almost never—rarely ___ wait over five minutes there."
+          ]
+        ],
+        "options": [
+          "we did",
+          "had we to",
+          "did we"
+        ],
+        "answer": 2,
+        "explanation": "Inversi lampau setelah 'rarely' -> 'did we wait'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Rarely trainees finish all thirty items early.\"",
+        "draft": "Rarely trainees finish all thirty items early.",
+        "options": [
+          "Rarely trainees finish all thirty items early.",
+          "Rarely do trainees finish all thirty items early.",
+          "Rarely does trainees finish all thirty items early."
+        ],
+        "answer": 1,
+        "explanation": "'Rarely' di awal + subjek jamak -> inversi 'do trainees finish'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Belum pernah mereka menyetujui pengecualian tenggat sebelumnya.\".",
+        "targetSentence": "Never before have they agreed to waive a deadline.",
+        "explanation": "Inversi 'Never before have they + V3'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our printer ___ right when urgent invoices are due!",
+        "options": [
+          "jams always",
+          "is always jamming",
+          "always jams only"
+        ],
+        "answer": 1,
+        "explanation": "'Be + always + V-ing' mengungkapkan keluhan terhadap kebiasaan berulang.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has the committee approved exceptions to the deadline? / Never ___ agreed to waive that rule before.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Has the committee approved exceptions to the deadline?"
+          ],
+          [
+            "Sari",
+            "Never ___ agreed to waive that rule before."
+          ]
+        ],
+        "options": [
+          "they have",
+          "did they agreed",
+          "have they"
+        ],
+        "answer": 2,
+        "explanation": "'Never' di awal memicu inversi 'have they agreed'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly ever the director visits without calling ahead.\"",
+        "draft": "Hardly ever the director visits without calling ahead.",
+        "options": [
+          "Hardly ever does the director visits without calling ahead.",
+          "Hardly ever the director visits without calling ahead.",
+          "Hardly ever does the director visit without calling ahead."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Hardly ever', inversi 'does + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ his access badge inside the canteen locker?",
+        "options": [
+          "he leaves forever",
+          "does he forever leaving",
+          "is he forever leaving"
+        ],
+        "answer": 2,
+        "explanation": "'Be + forever + V-ing' mengungkapkan keluhan kebiasaan.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you buy a second backup battery for Kevin? / Because he ___ forgetting to charge his main pack!\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why did you buy a second backup battery for Kevin?"
+          ],
+          [
+            "Putri",
+            "Because he ___ forgetting to charge his main pack!"
+          ]
+        ],
+        "options": [
+          "constantly does",
+          "is constantly",
+          "constantly is"
+        ],
+        "answer": 1,
+        "explanation": "Keluhan kebiasaan -> 'is constantly + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not once the auditors found a math mistake.\"",
+        "draft": "Not once the auditors found a math mistake.",
+        "options": [
+          "Not once found the auditors a math mistake.",
+          "Not once the auditors found a math mistake.",
+          "Not once did the auditors find a math mistake."
+        ],
+        "answer": 2,
+        "explanation": "'Not once' di awal -> inversi 'did + S + V1 ('find')'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not once ___ any discrepancy during the external audit.",
+        "options": [
+          "did the inspectors find",
+          "the inspectors found",
+          "found the inspectors"
+        ],
+        "answer": 0,
+        "explanation": "'Not once' di awal memicu inversi ('did + S + V1').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pencetak lama kami selalu saja macet tepat saat sibuk!\".",
+        "targetSentence": "Our old printer is always jamming right during busy hours!",
+        "explanation": "Keluhan berulang memakai 'is always + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "She usually ___ confident, though inside she felt nervous.",
+        "options": [
+          "was usually appearing",
+          "appeared",
+          "appearsly"
+        ],
+        "answer": 1,
+        "explanation": "Stative verb 'appear' dengan adverb sebelum verb utama.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does the port authority close Terminal 1 often? / No! Only rarely ___ passengers from Pier B.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Does the port authority close Terminal 1 often?"
+          ],
+          [
+            "Arman",
+            "No! Only rarely ___ passengers from Pier B."
+          ]
+        ],
+        "options": [
+          "do they divert",
+          "they divert",
+          "divert they"
+        ],
+        "answer": 0,
+        "explanation": "'Only rarely' di awal -> 'do they divert'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our printer always is jamming before deadlines!\"",
+        "draft": "Our printer always is jamming before deadlines!",
+        "options": [
+          "Our printer is always jamming before deadlines!",
+          "Our printer always jamming before deadlines!",
+          "Our printer always is jamming before deadlines!"
+        ],
+        "answer": 0,
+        "explanation": "Keluhan berulang: adverb di antara 'is' dan V-ing ('is always jamming').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Occasionally, ___ review archival files to verify baselines.",
+        "options": [
+          "will researchers",
+          "researchers are",
+          "researchers will"
+        ],
+        "answer": 2,
+        "explanation": "'Occasionally' tidak bersifat negatif sehingga tidak memicu inversi.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak sekali pun pengaudit menemukan angka yang hilang di buku.\".",
+        "targetSentence": "Not once did the auditors find a missing figure.",
+        "explanation": "Inversi 'Not once did + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little ___ how much work the logistics migration took!",
+        "options": [
+          "realized they",
+          "did they realize",
+          "they realized"
+        ],
+        "answer": 1,
+        "explanation": "'Little' bernuansa negatif di awal kalimat memicu inversi ('did they realize').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the auditors spot any errors in last year's ledger? / Not once ___ any missing signature on any page.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did the auditors spot any errors in last year's ledger?"
+          ],
+          [
+            "Adi",
+            "Not once ___ any missing signature on any page."
+          ]
+        ],
+        "options": [
+          "found they",
+          "did they find",
+          "they found"
+        ],
+        "answer": 1,
+        "explanation": "'Not once' di awal -> inversi 'did they find'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Little did they knew how expensive shipping would be.\"",
+        "draft": "Little did they knew how expensive shipping would be.",
+        "options": [
+          "Little did they know how expensive shipping would be.",
+          "Little they knew how expensive shipping would be.",
+          "Little did they knew how expensive shipping would be."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'did they', verb harus kembali ke V1 ('know').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scarcely ever ___ such clear charts in student reports.",
+        "options": [
+          "does an examiner see",
+          "an examiner sees",
+          "sees an examiner"
+        ],
+        "answer": 0,
+        "explanation": "'Scarcely ever' di awal memicu inversi 'does + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you and Sarah meet for project reviews weekly? / Not weekly; from time to time, ___ over lunch.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Do you and Sarah meet for project reviews weekly?"
+          ],
+          [
+            "Kiki",
+            "Not weekly; from time to time, ___ over lunch."
+          ]
+        ],
+        "options": [
+          "catch we up",
+          "we catch up",
+          "do we catch up"
+        ],
+        "answer": 1,
+        "explanation": "'From time to time' netral -> urutan normal 'we catch up'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"At no time staff should disclose client addresses.\"",
+        "draft": "At no time staff should disclose client addresses.",
+        "options": [
+          "At no time staff should disclose client addresses.",
+          "At no time should staff disclose client addresses.",
+          "At no time should staff to disclose client addresses."
+        ],
+        "answer": 1,
+        "explanation": "'At no time' negatif di awal memicu inversi 'should staff disclose'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hampir tidak pernah direktur menelepon di luar jam kerja.\".",
+        "targetSentence": "Hardly ever does the director call outside working hours.",
+        "explanation": "Inversi 'Hardly ever does + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only rarely ___ to reschedule interviews twice in one week.",
+        "options": [
+          "are we forced",
+          "we are forced",
+          "forced we are"
+        ],
+        "answer": 0,
+        "explanation": "'Only rarely' di awal memicu inversi 'are we forced'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How do passengers behave during overnight ferry crossings? / Hardly ever ___ anyone complain about cabin noise.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How do passengers behave during overnight ferry crossings?"
+          ],
+          [
+            "Sinta",
+            "Hardly ever ___ anyone complain about cabin noise."
+          ]
+        ],
+        "options": [
+          "is",
+          "has",
+          "does"
+        ],
+        "answer": 2,
+        "explanation": "Inversi setelah 'Hardly ever' -> 'does anyone complain'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only rarely I have needed a backup generator.\"",
+        "draft": "Only rarely I have needed a backup generator.",
+        "options": [
+          "Only rarely did I needed a backup generator.",
+          "Only rarely I have needed a backup generator.",
+          "Only rarely have I needed a backup generator."
+        ],
+        "answer": 2,
+        "explanation": "'Only rarely' di awal memicu inversi 'have I needed'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleague ___ during status meetings, slowing everyone down.",
+        "options": [
+          "interrupts constantly is",
+          "is constantly interrupting",
+          "constantly interrupts only"
+        ],
+        "answer": 1,
+        "explanation": "Keluhan kebiasaan terus-menerus memakai 'is constantly + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was our previous delivery van reliable? / Not at all! It ___ stalling right at busy crossroads.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Was our previous delivery van reliable?"
+          ],
+          [
+            "Tia",
+            "Not at all! It ___ stalling right at busy crossroads."
+          ]
+        ],
+        "options": [
+          "was forever",
+          "forever was",
+          "did forever"
+        ],
+        "answer": 0,
+        "explanation": "Keluhan lampau berulang -> 'was forever + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Scarcely ever we hear complaints about Shuttle 4.\"",
+        "draft": "Scarcely ever we hear complaints about Shuttle 4.",
+        "options": [
+          "Scarcely ever we hear complaints about Shuttle 4.",
+          "Scarcely ever do we hear complaints about Shuttle 4.",
+          "Scarcely ever are we hear complaints about Shuttle 4."
+        ],
+        "answer": 1,
+        "explanation": "'Scarcely ever' di awal -> inversi 'do we hear'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "At no time ___ any confidential data outside the building.",
+        "options": [
+          "carried staff",
+          "should staff carry",
+          "staff should carry"
+        ],
+        "answer": 1,
+        "explanation": "'At no time' memicu inversi 'should staff carry'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sedikit sekali mereka menyadari betapa rumitnya perpindahan data itu.\".",
+        "targetSentence": "Little did they realize how complex the data migration was.",
+        "explanation": "Inversi 'Little did + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "On very few occasions ___ the ferry service due to fog.",
+        "options": [
+          "suspends the port",
+          "does the port suspend",
+          "the port suspends"
+        ],
+        "answer": 1,
+        "explanation": "Ekspresi restriktif di awal memicu inversi ('does the port suspend').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you seen such rapid progress in Cohort 6? / Never before ___ twenty trainees pass on try one!\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Have you seen such rapid progress in Cohort 6?"
+          ],
+          [
+            "Dewi",
+            "Never before ___ twenty trainees pass on try one!"
+          ]
+        ],
+        "options": [
+          "have I seen",
+          "I have seen",
+          "did I saw"
+        ],
+        "answer": 0,
+        "explanation": "'Never before' di awal -> 'have I seen'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"From time to time, do we adjust office hours.\"",
+        "draft": "From time to time, do we adjust office hours.",
+        "options": [
+          "From time to time, do we adjust office hours.",
+          "From time to time, we adjust office hours.",
+          "From time to time, adjust we office hours."
+        ],
+        "answer": 1,
+        "explanation": "'From time to time' BUKAN negatif; jangan memakai inversi.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why are interns ___ to bring backup USB drives?",
+        "options": [
+          "always forgetting",
+          "always forget",
+          "forgetting always"
+        ],
+        "answer": 0,
+        "explanation": "'Are + S + always + V-ing' keluhan ringan berulang.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada saat di mana staf boleh membawa berkas rahasia keluar.\".",
+        "targetSentence": "At no time should staff carry confidential files outside.",
+        "explanation": "Inversi modal 'At no time should + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Seldom ___ such prompt replies from overseas customs.",
+        "options": [
+          "receive exporters",
+          "do exporters receive",
+          "exporters receive"
+        ],
+        "answer": 1,
+        "explanation": "'Seldom' di awal -> 'do exporters receive'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you check legacy archives often? / Scarcely ever ___ need to open anything before 2020.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Do you check legacy archives often?"
+          ],
+          [
+            "Ayu",
+            "Scarcely ever ___ need to open anything before 2020."
+          ]
+        ],
+        "options": [
+          "staff do",
+          "staff",
+          "do staff"
+        ],
+        "answer": 2,
+        "explanation": "'Scarcely ever' di awal -> 'do staff need'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why he is constantly losing his seminar folder?\"",
+        "draft": "Why he is constantly losing his seminar folder?",
+        "options": [
+          "Why does he constantly losing his seminar folder?",
+          "Why he is constantly losing his seminar folder?",
+          "Why is he constantly losing his seminar folder?"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan memakai inversi 'Why is he constantly losing ...?'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every so often, ___ an unannounced safety inspection.",
+        "options": [
+          "the board conducts",
+          "conducts the board",
+          "does the board conduct"
+        ],
+        "answer": 0,
+        "explanation": "'Every so often' positif -> urutan normal S + V.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Room 2 noisy during quiet reading hours? / Some guests ___ forgetting to switch phones to silent.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why is Room 2 noisy during quiet reading hours?"
+          ],
+          [
+            "Oki",
+            "Some guests ___ forgetting to switch phones to silent."
+          ]
+        ],
+        "options": [
+          "are always",
+          "always are",
+          "do always"
+        ],
+        "answer": 0,
+        "explanation": "Keluhan ringan berulang -> 'are always + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Never before has delegates praised a venue so warmly.\"",
+        "draft": "Never before has delegates praised a venue so warmly.",
+        "options": [
+          "Never before delegates have praised a venue so warmly.",
+          "Never before has delegates praised a venue so warmly.",
+          "Never before have delegates praised a venue so warmly."
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak 'delegates' memakai auxiliary 'have'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa dia terus-terusan meninggalkan kartu aksesnya di kantin?\".",
+        "targetSentence": "Why is he forever leaving his access card in the canteen?",
+        "explanation": "Keluhan pertanyaan 'Why is he forever + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "In none of those trials ___ the error rate exceed one percent.",
+        "options": [
+          "did",
+          "was",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "'In none of...' di awal + V1 'exceed' -> 'did'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our regional leads discuss this rule change? / At no time ___ considering canceling free shuttles.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did our regional leads discuss this rule change?"
+          ],
+          [
+            "Mira",
+            "At no time ___ considering canceling free shuttles."
+          ]
+        ],
+        "options": [
+          "did they",
+          "were they",
+          "they were"
+        ],
+        "answer": 1,
+        "explanation": "'At no time' di awal -> inversi 'were they considering'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"On very few occasions the port closes Pier A.\"",
+        "draft": "On very few occasions the port closes Pier A.",
+        "options": [
+          "On very few occasions does the port closes Pier A.",
+          "On very few occasions the port closes Pier A.",
+          "On very few occasions does the port close Pier A."
+        ],
+        "answer": 2,
+        "explanation": "'On very few occasions' di awal memicu inversi 'does the port close'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our old van ___ right on steep hills every winter.",
+        "options": [
+          "stalled forever was",
+          "forever stalled",
+          "was forever stalling"
+        ],
+        "answer": 2,
+        "explanation": "Keluhan masa lalu berulang: 'was forever + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How often does fog close Highway 9? / Only infrequently ___ the mountain pass completely.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How often does fog close Highway 9?"
+          ],
+          [
+            "Taufik",
+            "Only infrequently ___ the mountain pass completely."
+          ]
+        ],
+        "options": [
+          "closes weather",
+          "does weather close",
+          "weather closes"
+        ],
+        "answer": 1,
+        "explanation": "'Only infrequently' di awal -> 'does weather close'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"In none of the files did she found the signed form.\"",
+        "draft": "In none of the files did she found the signed form.",
+        "options": [
+          "In none of the files did she found the signed form.",
+          "In none of the files did she find the signed form.",
+          "In none of the files she found the signed form."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did she', wajib V1 ('find').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only infrequently ___ public funding for such small pilots.",
+        "options": [
+          "do councils approve",
+          "councils approve",
+          "approve councils"
+        ],
+        "answer": 0,
+        "explanation": "'Only infrequently' memicu inversi 'do + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sangat jarang pelabuhan menutup dermaga utama karena kabut tebal.\".",
+        "targetSentence": "Only rarely does the port close the main pier for fog.",
+        "explanation": "Inversi 'Only rarely does + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Most days, our shuttle ___ within two minutes of schedule.",
+        "options": [
+          "does arrive never",
+          "is arriving always",
+          "arrives"
+        ],
+        "answer": 2,
+        "explanation": "Frasa netral 'Most days' diikuti urutan S + V normal.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you review raw transcripts often? / Occasionally, ___ sample ten rows for quality checks.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Do you review raw transcripts often?"
+          ],
+          [
+            "Lina",
+            "Occasionally, ___ sample ten rows for quality checks."
+          ]
+        ],
+        "options": [
+          "am I",
+          "I",
+          "do I"
+        ],
+        "answer": 1,
+        "explanation": "'Occasionally' tidak memicu inversi -> 'I sample'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He was forever lose his locker keys last semester.\"",
+        "draft": "He was forever lose his locker keys last semester.",
+        "options": [
+          "He was forever losing his locker keys last semester.",
+          "He forever was losing his locker keys last semester.",
+          "He was forever lose his locker keys last semester."
+        ],
+        "answer": 0,
+        "explanation": "Keluhan berulang lampau memakai 'was forever + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never before ___ such clear acoustic insulation in Hall D.",
+        "options": [
+          "heard delegates",
+          "have delegates heard",
+          "delegates have heard"
+        ],
+        "answer": 1,
+        "explanation": "'Never before' wajib inversi 'have delegates heard'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hampir tidak pernah peserta pelatihan menemui materi serapi ini.\".",
+        "targetSentence": "Scarcely ever do trainees encounter material this well organized.",
+        "explanation": "Inversi 'Scarcely ever do + S + V1'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ his keys on reception tables despite reminders.",
+        "options": [
+          "is always misplacing",
+          "always misplaces only",
+          "misplaces always"
+        ],
+        "answer": 0,
+        "explanation": "Keluhan kebiasaan berulang memakai 'is always + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the supervisor know about the supplier strike? / Little ___ realize how long shipping would pause.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Did the supervisor know about the supplier strike?"
+          ],
+          [
+            "Wulan",
+            "Little ___ realize how long shipping would pause."
+          ]
+        ],
+        "options": [
+          "she did",
+          "she",
+          "did she"
+        ],
+        "answer": 2,
+        "explanation": "'Little' negatif di awal -> inversi 'did she realize'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only infrequently do councils approves grants quickly.\"",
+        "draft": "Only infrequently do councils approves grants quickly.",
+        "options": [
+          "Only infrequently do councils approve grants quickly.",
+          "Only infrequently councils approve grants quickly.",
+          "Only infrequently do councils approves grants quickly."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'do councils', verb tetap V1 tanpa '-s'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ see two storms hit the same harbor twice.",
+        "options": [
+          "meteorologists do",
+          "are meteorologists",
+          "do meteorologists"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum V1 'see', inversi dengan 'do meteorologists'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have our servers experienced voltage spikes before? / In none of last year's logs ___ voltage exceed limits.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Have our servers experienced voltage spikes before?"
+          ],
+          [
+            "Sari",
+            "In none of last year's logs ___ voltage exceed limits."
+          ]
+        ],
+        "options": [
+          "have",
+          "did",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "'In none of...' di awal + V1 'exceed' -> 'did'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Occasionally, can interns join client calls too.\"",
+        "draft": "Occasionally, can interns join client calls too.",
+        "options": [
+          "Occasionally, can interns join client calls too.",
+          "Occasionally, interns can join client calls too.",
+          "Occasionally, do interns can join client calls too."
+        ],
+        "answer": 1,
+        "explanation": "'Occasionally' positif tidak memakai inversi.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sesekali, para peneliti meninjau arsip lama sebagai pembanding.\".",
+        "targetSentence": "Occasionally, researchers review legacy archives as baselines.",
+        "explanation": "Adverb netral tanpa inversi.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once in a blue moon, ___ to stay past ten for upgrades.",
+        "options": [
+          "have we",
+          "do we have",
+          "we have"
+        ],
+        "answer": 2,
+        "explanation": "'Once in a blue moon' memakai urutan normal S + V.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you move Desk 5 away from the printer? / Those trays ___ jamming and rattling all day!\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why did you move Desk 5 away from the printer?"
+          ],
+          [
+            "Reno",
+            "Those trays ___ jamming and rattling all day!"
+          ]
+        ],
+        "options": [
+          "continually were",
+          "did continually",
+          "were continually"
+        ],
+        "answer": 2,
+        "explanation": "Keluhan kebiasaan lampau jamak -> 'were continually jamming'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Rarely did the courier arrives after five o'clock.\"",
+        "draft": "Rarely did the courier arrives after five o'clock.",
+        "options": [
+          "Rarely did the courier arrives after five o'clock.",
+          "Rarely did the courier arrive after five o'clock.",
+          "Rarely the courier arrived after five o'clock."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did + S', wajib V1 ('arrive').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "No sooner had we fixed Printer 1 than Printer 2 jammed—it ___ breaking down!",
+        "options": [
+          "did continually",
+          "was continually",
+          "continually was"
+        ],
+        "answer": 1,
+        "explanation": "'Was continually + V-ing' mengekspresikan keluhan berulang lampau.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does our institute publish special issues often? / Once in a while, ___ a joint volume with Leiden.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Does our institute publish special issues often?"
+          ],
+          [
+            "Aris",
+            "Once in a while, ___ a joint volume with Leiden."
+          ]
+        ],
+        "options": [
+          "do we release",
+          "release we",
+          "we release"
+        ],
+        "answer": 2,
+        "explanation": "'Once in a while' positif -> tanpa inversi ('we release').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not once did any participant complained about lighting.\"",
+        "draft": "Not once did any participant complained about lighting.",
+        "options": [
+          "Not once did any participant complained about lighting.",
+          "Not once did any participant complain about lighting.",
+          "Not once complained any participant about lighting."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did + S', gunakan V1 ('complain').",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly ___ entered the lobby when the fire bell rang.",
+        "options": [
+          "did we had",
+          "had we",
+          "we had"
+        ],
+        "answer": 1,
+        "explanation": "'Hardly' di awal dengan Past Perfect memicu inversi 'had we'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia selalu saja salah menaruh kunci loker semester lalu.\".",
+        "targetSentence": "He was always misplacing his locker keys last semester.",
+        "explanation": "Keluhan lampau berulang 'was always + V-ing'.",
+        "hints": [
+          "Adverb of frequency berada SEBELUM verb utama ('She always arrives early'), namun SETELAH 'to be' ('She is always punctual').",
+          "Dengan modal/auxiliary, adverb berada di tengah ('must always check', 'doesn't usually stay', 'have rarely seen')."
+        ],
+        "skill": "adverb-frequency"
       }
     ]
   }

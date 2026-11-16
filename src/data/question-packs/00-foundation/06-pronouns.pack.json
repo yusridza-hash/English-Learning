@@ -261,6 +261,1446 @@
           "Akhiri dengan 'is mine'."
         ],
         "skill": "pronoun-possessive"
+      },
+      {
+        "type": "choice",
+        "prompt": "We asked ___ to confirm the room booking.",
+        "options": [
+          "hers",
+          "her",
+          "she"
+        ],
+        "answer": 1,
+        "explanation": "Setelah verb 'asked', posisi objek memakai object pronoun 'her'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / We asked ___ to confirm the room booking.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "We asked ___ to confirm the room booking."
+          ]
+        ],
+        "options": [
+          "hers",
+          "her",
+          "she"
+        ],
+        "answer": 1,
+        "explanation": "Setelah verb 'asked', posisi objek memakai object pronoun 'her'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"We asked she to confirm the room booking.\"",
+        "draft": "We asked she to confirm the room booking.",
+        "options": [
+          "We asked her to confirm the room booking.",
+          "We asked it to confirm the room booking.",
+          "We asked one to confirm the room booking."
+        ],
+        "answer": 0,
+        "explanation": "Setelah verb 'asked', posisi objek memakai object pronoun 'her'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"she\" menjadi \"her\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ prepared the monthly inventory sheet.",
+        "options": [
+          "Them",
+          "Their",
+          "They"
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek kalimat memerlukan subject pronoun 'They'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: us · the · sent).",
+        "targetSentence": "They sent us the revised travel itinerary.",
+        "explanation": "Subject (They) + verb + object pronoun (us) + direct object.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please send the updated itinerary to ___.",
+        "options": [
+          "my",
+          "me",
+          "I"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ prepared the monthly inventory sheet.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "___ prepared the monthly inventory sheet."
+          ]
+        ],
+        "options": [
+          "They",
+          "Them",
+          "Their"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek kalimat memerlukan subject pronoun 'They'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Them prepared the monthly inventory sheet.\"",
+        "draft": "Them prepared the monthly inventory sheet.",
+        "options": [
+          "They prepared the monthly inventory sheet.",
+          "it prepared the monthly inventory sheet.",
+          "one prepared the monthly inventory sheet."
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek kalimat memerlukan subject pronoun 'They'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Them\" menjadi \"They\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "That black briefcase belongs to ___.",
+        "options": [
+          "his",
+          "him",
+          "he"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'him'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Please send the updated itinerary to ___.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "Please send the updated itinerary to ___."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "my"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Please send the updated itinerary to I.\"",
+        "draft": "Please send the updated itinerary to I.",
+        "options": [
+          "Please send the updated itinerary to my.",
+          "Please send the updated itinerary to one.",
+          "Please send the updated itinerary to me."
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"I\" menjadi \"me\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: to · him · She).",
+        "targetSentence": "She asked him to print the handouts.",
+        "explanation": "Subject (She) + verb + object pronoun (him).",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is the senior nurse on the night shift.",
+        "options": [
+          "Hers",
+          "She",
+          "Her"
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek sebelum 'is' membutuhkan 'She'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / That black briefcase belongs to ___.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "That black briefcase belongs to ___."
+          ]
+        ],
+        "options": [
+          "his",
+          "him",
+          "he"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'him'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"That black briefcase belongs to he.\"",
+        "draft": "That black briefcase belongs to he.",
+        "options": [
+          "That black briefcase belongs to one.",
+          "That black briefcase belongs to him.",
+          "That black briefcase belongs to it."
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'him'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"he\" menjadi \"him\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The manager thanked ___ for staying late.",
+        "options": [
+          "us",
+          "we",
+          "our"
+        ],
+        "answer": 0,
+        "explanation": "Setelah verb 'thanked', gunakan object pronoun 'us'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ is the senior nurse on the night shift.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "___ is the senior nurse on the night shift."
+          ]
+        ],
+        "options": [
+          "Her",
+          "Hers",
+          "She"
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek sebelum 'is' membutuhkan 'She'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Her is the senior nurse on the night shift.\"",
+        "draft": "Her is the senior nurse on the night shift.",
+        "options": [
+          "it is the senior nurse on the night shift.",
+          "one is the senior nurse on the night shift.",
+          "She is the senior nurse on the night shift."
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek sebelum 'is' membutuhkan 'She'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Her\" menjadi \"She\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ forgot to lock the supply cabinet.",
+        "options": [
+          "Him",
+          "His",
+          "He"
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek membutuhkan 'He'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: a · me · call).",
+        "targetSentence": "Please give me a call before noon.",
+        "explanation": "Verb + indirect object pronoun (me).",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you help ___ carry these archive boxes?",
+        "options": [
+          "their",
+          "them",
+          "they"
+        ],
+        "answer": 1,
+        "explanation": "Setelah verb 'help', gunakan object pronoun 'them'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / The manager thanked ___ for staying late.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "The manager thanked ___ for staying late."
+          ]
+        ],
+        "options": [
+          "our",
+          "us",
+          "we"
+        ],
+        "answer": 1,
+        "explanation": "Setelah verb 'thanked', gunakan object pronoun 'us'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"The manager thanked we for staying late.\"",
+        "draft": "The manager thanked we for staying late.",
+        "options": [
+          "The manager thanked it for staying late.",
+          "The manager thanked one for staying late.",
+          "The manager thanked us for staying late."
+        ],
+        "answer": 2,
+        "explanation": "Setelah verb 'thanked', gunakan object pronoun 'us'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"we\" menjadi \"us\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "I saw ___ at the central train station.",
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "answer": 0,
+        "explanation": "Posisi objek memakai 'you' (bukan possessive 'your').",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: We · met · the).",
+        "targetSentence": "We met them near the central library.",
+        "explanation": "Subject (We) + verb + object pronoun (them).",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ open the library at eight sharp.",
+        "options": [
+          "Our",
+          "We",
+          "Us"
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek memakai 'We'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ forgot to lock the supply cabinet.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "___ forgot to lock the supply cabinet."
+          ]
+        ],
+        "options": [
+          "His",
+          "He",
+          "Him"
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek membutuhkan 'He'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Him forgot to lock the supply cabinet.\"",
+        "draft": "Him forgot to lock the supply cabinet.",
+        "options": [
+          "it forgot to lock the supply cabinet.",
+          "one forgot to lock the supply cabinet.",
+          "He forgot to lock the supply cabinet."
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek membutuhkan 'He'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Him\" menjadi \"He\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please give ___ a call before leaving.",
+        "options": [
+          "I",
+          "mine",
+          "me"
+        ],
+        "answer": 2,
+        "explanation": "Object pronoun setelah 'give' adalah 'me'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Can you help ___ carry these archive boxes?\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "Can you help ___ carry these archive boxes?"
+          ]
+        ],
+        "options": [
+          "they",
+          "their",
+          "them"
+        ],
+        "answer": 2,
+        "explanation": "Setelah verb 'help', gunakan object pronoun 'them'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Can you help they carry these archive boxes?\"",
+        "draft": "Can you help they carry these archive boxes?",
+        "options": [
+          "Can you help one carry these archive boxes?",
+          "Can you help them carry these archive boxes?",
+          "Can you help it carry these archive boxes?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah verb 'help', gunakan object pronoun 'them'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"they\" menjadi \"them\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: He · the · her.).",
+        "targetSentence": "He left the signed forms with her.",
+        "explanation": "Preposisi 'with' diikuti object pronoun 'her'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "My supervisor invited ___ to the briefing.",
+        "options": [
+          "his",
+          "him",
+          "he"
+        ],
+        "answer": 1,
+        "explanation": "Objek dari 'invited' adalah 'him'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / I saw ___ at the central train station.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "I saw ___ at the central train station."
+          ]
+        ],
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "answer": 0,
+        "explanation": "Posisi objek memakai 'you' (bukan possessive 'your').",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"I saw your at the central train station.\"",
+        "draft": "I saw your at the central train station.",
+        "options": [
+          "I saw you at the central train station.",
+          "I saw it at the central train station.",
+          "I saw one at the central train station."
+        ],
+        "answer": 0,
+        "explanation": "Posisi objek memakai 'you' (bukan possessive 'your').",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"your\" menjadi \"you\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ works smoothly after the software patch.",
+        "options": [
+          "It",
+          "Its",
+          "It's"
+        ],
+        "answer": 0,
+        "explanation": "Subjek benda tunggal memakai subject pronoun 'It'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ open the library at eight sharp.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "___ open the library at eight sharp."
+          ]
+        ],
+        "options": [
+          "We",
+          "Us",
+          "Our"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek memakai 'We'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Us open the library at eight sharp.\"",
+        "draft": "Us open the library at eight sharp.",
+        "options": [
+          "We open the library at eight sharp.",
+          "it open the library at eight sharp.",
+          "one open the library at eight sharp."
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek memakai 'We'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Us\" menjadi \"We\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Leave the signed invoices with ___.",
+        "options": [
+          "she",
+          "hers",
+          "her"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'with', gunakan object pronoun 'her'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: to · us · the).",
+        "targetSentence": "The coordinator invited us to the workshop.",
+        "explanation": "Verb 'invited' diikuti object pronoun 'us'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ are waiting near Gate 5.",
+        "options": [
+          "Theirs",
+          "They",
+          "Them"
+        ],
+        "answer": 1,
+        "explanation": "Subjek sebelum 'are' memakai 'They'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Please give ___ a call before leaving.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "Please give ___ a call before leaving."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": 0,
+        "explanation": "Object pronoun setelah 'give' adalah 'me'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Please give I a call before leaving.\"",
+        "draft": "Please give I a call before leaving.",
+        "options": [
+          "Please give one a call before leaving.",
+          "Please give me a call before leaving.",
+          "Please give my a call before leaving."
+        ],
+        "answer": 1,
+        "explanation": "Object pronoun setelah 'give' adalah 'me'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"I\" menjadi \"me\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The tutor praised ___ for clear handwriting.",
+        "options": [
+          "ours",
+          "us",
+          "we"
+        ],
+        "answer": 1,
+        "explanation": "Objek dari 'praised' adalah 'us'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: me · Can · you).",
+        "targetSentence": "Can you help me carry these boxes?",
+        "explanation": "Verb 'help' diikuti object pronoun 'me'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did you email ___ the revised budget?",
+        "options": [
+          "they",
+          "theirs",
+          "them"
+        ],
+        "answer": 2,
+        "explanation": "Indirect object setelah 'email' memakai 'them'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / My supervisor invited ___ to the briefing.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "My supervisor invited ___ to the briefing."
+          ]
+        ],
+        "options": [
+          "he",
+          "his",
+          "him"
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'invited' adalah 'him'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"My supervisor invited he to the briefing.\"",
+        "draft": "My supervisor invited he to the briefing.",
+        "options": [
+          "My supervisor invited it to the briefing.",
+          "My supervisor invited one to the briefing.",
+          "My supervisor invited him to the briefing."
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'invited' adalah 'him'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"he\" menjadi \"him\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ checked every receipt twice yesterday.",
+        "options": [
+          "Me",
+          "My",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Subjek kalimat memerlukan 'I'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ works smoothly after the software patch.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "___ works smoothly after the software patch."
+          ]
+        ],
+        "options": [
+          "Its",
+          "It's",
+          "It"
+        ],
+        "answer": 2,
+        "explanation": "Subjek benda tunggal memakai subject pronoun 'It'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Its works smoothly after the software patch.\"",
+        "draft": "Its works smoothly after the software patch.",
+        "options": [
+          "It works smoothly after the software patch.",
+          "it works smoothly after the software patch.",
+          "one works smoothly after the software patch."
+        ],
+        "answer": 0,
+        "explanation": "Subjek benda tunggal memakai subject pronoun 'It'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Its\" menjadi \"It\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: I · at · him).",
+        "targetSentence": "I saw him at the station yesterday.",
+        "explanation": "Subject (I) + verb + object pronoun (him).",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait for ___ outside the main entrance.",
+        "options": [
+          "our",
+          "us",
+          "we"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'for', gunakan 'us'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Leave the signed invoices with ___.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "Leave the signed invoices with ___."
+          ]
+        ],
+        "options": [
+          "she",
+          "hers",
+          "her"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'with', gunakan object pronoun 'her'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Leave the signed invoices with she.\"",
+        "draft": "Leave the signed invoices with she.",
+        "options": [
+          "Leave the signed invoices with one.",
+          "Leave the signed invoices with her.",
+          "Leave the signed invoices with it."
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'with', gunakan object pronoun 'her'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"she\" menjadi \"her\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ has a meeting with the client at noon.",
+        "options": [
+          "Him",
+          "His",
+          "He"
+        ],
+        "answer": 2,
+        "explanation": "Subjek sebelum 'has' memakai 'He'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ are waiting near Gate 5.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "___ are waiting near Gate 5."
+          ]
+        ],
+        "options": [
+          "Them",
+          "Theirs",
+          "They"
+        ],
+        "answer": 2,
+        "explanation": "Subjek sebelum 'are' memakai 'They'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Them are waiting near Gate 5.\"",
+        "draft": "Them are waiting near Gate 5.",
+        "options": [
+          "it are waiting near Gate 5.",
+          "one are waiting near Gate 5.",
+          "They are waiting near Gate 5."
+        ],
+        "answer": 2,
+        "explanation": "Subjek sebelum 'are' memakai 'They'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Them\" menjadi \"They\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier handed ___ the sealed parcel.",
+        "options": [
+          "mine",
+          "me",
+          "I"
+        ],
+        "answer": 1,
+        "explanation": "Objek penerima setelah 'handed' memakai 'me'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: The · them · three).",
+        "targetSentence": "The librarian handed them three reference books.",
+        "explanation": "Indirect object pronoun 'them' setelah verb.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ need extra chairs for the seminar.",
+        "options": [
+          "Our",
+          "We",
+          "Us"
+        ],
+        "answer": 1,
+        "explanation": "Subjek sebelum 'need' adalah 'We'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / The tutor praised ___ for clear handwriting.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "The tutor praised ___ for clear handwriting."
+          ]
+        ],
+        "options": [
+          "we",
+          "ours",
+          "us"
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'praised' adalah 'us'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"The tutor praised we for clear handwriting.\"",
+        "draft": "The tutor praised we for clear handwriting.",
+        "options": [
+          "The tutor praised it for clear handwriting.",
+          "The tutor praised one for clear handwriting.",
+          "The tutor praised us for clear handwriting."
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'praised' adalah 'us'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"we\" menjadi \"us\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you remind ___ about Friday's deadline?",
+        "options": [
+          "her",
+          "she",
+          "hers"
+        ],
+        "answer": 0,
+        "explanation": "Objek dari 'remind' adalah 'her'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: for · her · the).",
+        "targetSentence": "Wait for her outside the seminar hall.",
+        "explanation": "Preposisi 'for' diikuti 'her'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "I met ___ during last month's workshop.",
+        "options": [
+          "his",
+          "him",
+          "he"
+        ],
+        "answer": 1,
+        "explanation": "Objek dari 'met' adalah 'him'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Did you email ___ the revised budget?\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "Did you email ___ the revised budget?"
+          ]
+        ],
+        "options": [
+          "them",
+          "they",
+          "theirs"
+        ],
+        "answer": 0,
+        "explanation": "Indirect object setelah 'email' memakai 'them'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Did you email they the revised budget?\"",
+        "draft": "Did you email they the revised budget?",
+        "options": [
+          "Did you email one the revised budget?",
+          "Did you email them the revised budget?",
+          "Did you email it the revised budget?"
+        ],
+        "answer": 1,
+        "explanation": "Indirect object setelah 'email' memakai 'them'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"they\" menjadi \"them\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ contains all safety guidelines.",
+        "options": [
+          "It",
+          "Its",
+          "Them"
+        ],
+        "answer": 0,
+        "explanation": "Subjek benda tunggal adalah 'It'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ checked every receipt twice yesterday.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "___ checked every receipt twice yesterday."
+          ]
+        ],
+        "options": [
+          "My",
+          "I",
+          "Me"
+        ],
+        "answer": 1,
+        "explanation": "Subjek kalimat memerlukan 'I'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Me checked every receipt twice yesterday.\"",
+        "draft": "Me checked every receipt twice yesterday.",
+        "options": [
+          "one checked every receipt twice yesterday.",
+          "I checked every receipt twice yesterday.",
+          "it checked every receipt twice yesterday."
+        ],
+        "answer": 1,
+        "explanation": "Subjek kalimat memerlukan 'I'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Me\" menjadi \"I\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: us · for · our).",
+        "targetSentence": "She thanked us for our timely feedback.",
+        "explanation": "Object pronoun 'us' setelah 'thanked'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tell ___ to arrive ten minutes early.",
+        "options": [
+          "they",
+          "their",
+          "them"
+        ],
+        "answer": 2,
+        "explanation": "Objek setelah 'Tell' adalah 'them'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / Wait for ___ outside the main entrance.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How should we handle this update?"
+          ],
+          [
+            "Budi",
+            "Wait for ___ outside the main entrance."
+          ]
+        ],
+        "options": [
+          "we",
+          "our",
+          "us"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'for', gunakan 'us'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Wait for we outside the main entrance.\"",
+        "draft": "Wait for we outside the main entrance.",
+        "options": [
+          "Wait for one outside the main entrance.",
+          "Wait for us outside the main entrance.",
+          "Wait for it outside the main entrance."
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'for', gunakan 'us'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"we\" menjadi \"us\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ always brings her own reusable cup.",
+        "options": [
+          "Hers",
+          "She",
+          "Her"
+        ],
+        "answer": 1,
+        "explanation": "Subjek sebelum 'always brings' adalah 'She'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih subject atau object pronoun yang tepat: \"How should we handle this update? / ___ has a meeting with the client at noon.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How should we handle this update?"
+          ],
+          [
+            "Lia",
+            "___ has a meeting with the client at noon."
+          ]
+        ],
+        "options": [
+          "Him",
+          "His",
+          "He"
+        ],
+        "answer": 2,
+        "explanation": "Subjek sebelum 'has' memakai 'He'.",
+        "hints": [
+          "Lihat apakah kata ganti berada sebelum verb (subject) atau setelah verb/preposisi (object).",
+          "Pilih pronoun sesuai fungsinya."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan subject/object pronoun pada kalimat berikut: \"Him has a meeting with the client at noon.\"",
+        "draft": "Him has a meeting with the client at noon.",
+        "options": [
+          "one has a meeting with the client at noon.",
+          "He has a meeting with the client at noon.",
+          "it has a meeting with the client at noon."
+        ],
+        "answer": 1,
+        "explanation": "Subjek sebelum 'has' memakai 'He'.",
+        "hints": [
+          "Cek apakah posisi kata ganti adalah pelaku atau penerima/setelah preposisi.",
+          "Ganti \"Him\" menjadi \"He\"."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The security guard guided ___ to Room 201.",
+        "options": [
+          "our",
+          "us",
+          "we"
+        ],
+        "answer": 1,
+        "explanation": "Objek setelah 'guided' adalah 'us'.",
+        "hints": [
+          "Cek apakah rumpang berada di posisi subjek (pelaku) atau objek (setelah verb/preposisi).",
+          "Subject: I/we/they/he/she; Object: me/us/them/him/her."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subject dan object pronoun yang tepat (7 kata; fokus: We · him · about).",
+        "targetSentence": "We reminded him about Friday's safety briefing.",
+        "explanation": "Object pronoun 'him' setelah 'reminded'.",
+        "hints": [
+          "Letakkan subject pronoun di awal klausa.",
+          "Object pronoun selalu setelah kata kerja atau preposisi."
+        ],
+        "skill": "pronoun-object"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Tambahkan 'with steady practice'."
         ],
         "skill": "pronoun-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "That blue notebook on the desk is ___.",
+        "options": [
+          "my",
+          "me",
+          "mine"
+        ],
+        "answer": 2,
+        "explanation": "Possessive pronoun berdiri sendiri tanpa noun -> 'mine'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / That blue notebook on the desk is ___.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "That blue notebook on the desk is ___."
+          ]
+        ],
+        "options": [
+          "mine",
+          "my",
+          "me"
+        ],
+        "answer": 0,
+        "explanation": "Possessive pronoun berdiri sendiri tanpa noun -> 'mine'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"This blue folder is my, not yours.\"",
+        "draft": "This blue folder is my, not yours.",
+        "options": [
+          "This blue folder is me, not yours.",
+          "This blue folder is my, not yours.",
+          "This blue folder is mine, not yours."
+        ],
+        "answer": 2,
+        "explanation": "Tanpa noun di belakangnya, gunakan possessive pronoun 'mine'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is this ___ boarding pass or someone else's?",
+        "options": [
+          "your",
+          "yours",
+          "you"
+        ],
+        "answer": 0,
+        "explanation": "Possessive adjective sebelum noun 'boarding pass' -> 'your'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (8 kata; fokus: by · the · The).",
+        "targetSentence": "The interns organized the whole booth by themselves.",
+        "explanation": "'by themselves' berarti secara mandiri.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our office is larger than ___.",
+        "options": [
+          "them",
+          "theirs",
+          "their"
+        ],
+        "answer": 1,
+        "explanation": "Membandingkan milik tanpa mengulang noun 'office' -> 'theirs'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Is this ___ boarding pass or someone else's?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "Is this ___ boarding pass or someone else's?"
+          ]
+        ],
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "answer": 1,
+        "explanation": "Possessive adjective sebelum noun 'boarding pass' -> 'your'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"The dog hurt it's paw on the gravel.\"",
+        "draft": "The dog hurt it's paw on the gravel.",
+        "options": [
+          "The dog hurt itselfs paw on the gravel.",
+          "The dog hurt it's paw on the gravel.",
+          "The dog hurt its paw on the gravel."
+        ],
+        "answer": 2,
+        "explanation": "'its' tanpa apostrof adalah bentuk kepemilikan.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Each laptop has ___ own charging cable.",
+        "options": [
+          "it",
+          "its",
+          "it's"
+        ],
+        "answer": 1,
+        "explanation": "Possessive adjective untuk benda adalah 'its' (tanpa apostrof!).",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Our office is larger than ___.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "Our office is larger than ___."
+          ]
+        ],
+        "options": [
+          "their",
+          "them",
+          "theirs"
+        ],
+        "answer": 2,
+        "explanation": "Membandingkan milik tanpa mengulang noun 'office' -> 'theirs'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"They completed the setup by theirselves.\"",
+        "draft": "They completed the setup by theirselves.",
+        "options": [
+          "They completed the setup by theirselves.",
+          "They completed the setup by themselves.",
+          "They completed the setup by themself."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk baku reflexive jamak adalah 'themselves'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: has · its · own).",
+        "targetSentence": "Every laptop has its own protective sleeve.",
+        "explanation": "Possessive 'its' tanpa apostrof.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "I cut ___ while opening the cardboard box.",
+        "options": [
+          "mine",
+          "myself",
+          "me"
+        ],
+        "answer": 1,
+        "explanation": "Subjek dan objek orang yang sama ('I') memakai reflexive pronoun 'myself'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Each laptop has ___ own charging cable.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "Each laptop has ___ own charging cable."
+          ]
+        ],
+        "options": [
+          "its",
+          "it's",
+          "it"
+        ],
+        "answer": 0,
+        "explanation": "Possessive adjective untuk benda adalah 'its' (tanpa apostrof!).",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"He fixed the broken shelf by hisself.\"",
+        "draft": "He fixed the broken shelf by hisself.",
+        "options": [
+          "He fixed the broken shelf by him.",
+          "He fixed the broken shelf by hisself.",
+          "He fixed the broken shelf by himself."
+        ],
+        "answer": 2,
+        "explanation": "'Hisself' tidak baku; gunakan 'himself'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "She taught ___ how to build spreadsheets.",
+        "options": [
+          "hers",
+          "herself",
+          "her"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'She' melakukan aksi kepada dirinya sendiri -> 'herself'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / I cut ___ while opening the cardboard box.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "I cut ___ while opening the cardboard box."
+          ]
+        ],
+        "options": [
+          "mine",
+          "myself",
+          "me"
+        ],
+        "answer": 1,
+        "explanation": "Subjek dan objek orang yang sama ('I') memakai reflexive pronoun 'myself'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Our proposal is stronger than their.\"",
+        "draft": "Our proposal is stronger than their.",
+        "options": [
+          "Our proposal is stronger than them.",
+          "Our proposal is stronger than their.",
+          "Our proposal is stronger than theirs."
+        ],
+        "answer": 2,
+        "explanation": "Bandingkan dua milik tanpa mengulang noun -> 'theirs'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "We introduced ___ to the visiting clients.",
+        "options": [
+          "ourselves",
+          "us",
+          "our"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'We' -> reflexive jamak 'ourselves'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: is · Our · than).",
+        "targetSentence": "Our final proposal is clearer than theirs.",
+        "explanation": "Possessive pronoun 'theirs' tanpa mengulang noun.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The interns organized the whole booth by ___.",
+        "options": [
+          "theirself",
+          "them",
+          "themselves"
+        ],
+        "answer": 2,
+        "explanation": "'by themselves' berarti secara mandiri tanpa bantuan.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / She taught ___ how to build spreadsheets.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "She taught ___ how to build spreadsheets."
+          ]
+        ],
+        "options": [
+          "her",
+          "hers",
+          "herself"
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'She' melakukan aksi kepada dirinya sendiri -> 'herself'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"She introduced her to the new interns.\"",
+        "draft": "She introduced her to the new interns.",
+        "options": [
+          "She introduced hers to the new interns.",
+          "She introduced her to the new interns.",
+          "She introduced herself to the new interns."
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'She' memperkenalkan dirinya sendiri -> 'herself'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Whose badge is this? Is it ___?",
+        "options": [
+          "she",
+          "hers",
+          "her"
+        ],
+        "answer": 1,
+        "explanation": "Berdiri sendiri di akhir kalimat tanpa noun -> 'hers'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: to · how · She).",
+        "targetSentence": "She taught herself how to analyze spreadsheets.",
+        "explanation": "Reflexive 'herself' untuk subjek 'She'.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "He repaired the jammed printer ___.",
+        "options": [
+          "his",
+          "him",
+          "himself"
+        ],
+        "answer": 2,
+        "explanation": "Reflexive penekanan untuk 'He' adalah 'himself'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / We introduced ___ to the visiting clients.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "We introduced ___ to the visiting clients."
+          ]
+        ],
+        "options": [
+          "our",
+          "ourselves",
+          "us"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'We' -> reflexive jamak 'ourselves'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"A colleague of my recommended this tool.\"",
+        "draft": "A colleague of my recommended this tool.",
+        "options": [
+          "A colleague of mine recommended this tool.",
+          "A colleague of me recommended this tool.",
+          "A colleague of my recommended this tool."
+        ],
+        "answer": 0,
+        "explanation": "Pola baku: 'a colleague of mine'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The company updated ___ privacy policy last month.",
+        "options": [
+          "it's",
+          "their",
+          "its"
+        ],
+        "answer": 2,
+        "explanation": "Perusahaan tunggal memakai possessive 'its'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / The interns organized the whole booth by ___.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "The interns organized the whole booth by ___."
+          ]
+        ],
+        "options": [
+          "themselves",
+          "theirself",
+          "them"
+        ],
+        "answer": 0,
+        "explanation": "'by themselves' berarti secara mandiri tanpa bantuan.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"These safety glasses are our.\"",
+        "draft": "These safety glasses are our.",
+        "options": [
+          "These safety glasses are ours.",
+          "These safety glasses are us.",
+          "These safety glasses are our."
+        ],
+        "answer": 0,
+        "explanation": "Di akhir kalimat tanpa noun, gunakan 'ours'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (8 kata; fokus: A · at · of).",
+        "targetSentence": "A friend of mine works at that clinic.",
+        "explanation": "Pola 'a friend of mine'.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't blame ___ for the sudden power outage.",
+        "options": [
+          "your",
+          "yourself",
+          "you"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat perintah kepada 'you' -> reflexive 'yourself'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Whose badge is this? Is it ___?\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "Whose badge is this? Is it ___?"
+          ]
+        ],
+        "options": [
+          "hers",
+          "her",
+          "she"
+        ],
+        "answer": 0,
+        "explanation": "Berdiri sendiri di akhir kalimat tanpa noun -> 'hers'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Did you prepare this meal by you?\"",
+        "draft": "Did you prepare this meal by you?",
+        "options": [
+          "Did you prepare this meal by yours?",
+          "Did you prepare this meal by you?",
+          "Did you prepare this meal by yourself?"
+        ],
+        "answer": 2,
+        "explanation": "Makna 'sendirian/tanpa bantuan' memakai 'by yourself'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "These safety helmets are ___, not theirs.",
+        "options": [
+          "us",
+          "ours",
+          "our"
+        ],
+        "answer": 1,
+        "explanation": "Berdiri sendiri tanpa noun -> possessive pronoun 'ours'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / He repaired the jammed printer ___.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "He repaired the jammed printer ___."
+          ]
+        ],
+        "options": [
+          "him",
+          "himself",
+          "his"
+        ],
+        "answer": 1,
+        "explanation": "Reflexive penekanan untuk 'He' adalah 'himself'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"The printer turns it off automatically.\"",
+        "draft": "The printer turns it off automatically.",
+        "options": [
+          "The printer turns its off automatically.",
+          "The printer turns it off automatically.",
+          "The printer turns itself off automatically."
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'The printer' mematikan dirinya sendiri -> 'itself'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "You must bring ___ own ID card to enter.",
+        "options": [
+          "your",
+          "yours",
+          "yourself"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum 'own ID card', gunakan possessive adjective 'your'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: is · blue · This).",
+        "targetSentence": "This blue security badge is definitely yours.",
+        "explanation": "Possessive pronoun 'yours' di akhir kalimat.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the cat; ___ cleaning ___ paws.",
+        "options": [
+          "it's / its",
+          "its / it's",
+          "its / its"
+        ],
+        "answer": 0,
+        "explanation": "'it's' = it is; 'its' = milik (paws).",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / The company updated ___ privacy policy last month.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "The company updated ___ privacy policy last month."
+          ]
+        ],
+        "options": [
+          "their",
+          "its",
+          "it's"
+        ],
+        "answer": 1,
+        "explanation": "Perusahaan tunggal memakai possessive 'its'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Is that tablet your or Maya's?\"",
+        "draft": "Is that tablet your or Maya's?",
+        "options": [
+          "Is that tablet yours or Maya's?",
+          "Is that tablet you or Maya's?",
+          "Is that tablet your or Maya's?"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa noun setelahnya, gunakan 'yours'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did all guests enjoy ___ at the reception?",
+        "options": [
+          "them",
+          "their",
+          "themselves"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'enjoy themselves' untuk subjek jamak 'guests'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: The · down · after).",
+        "targetSentence": "The printer shuts itself down after midnight.",
+        "explanation": "Reflexive 'itself' untuk benda tunggal.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The decision is entirely ___ to make.",
+        "options": [
+          "yours",
+          "your",
+          "you"
+        ],
+        "answer": 0,
+        "explanation": "Berdiri sendiri setelah 'is' -> 'yours'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Don't blame ___ for the sudden power outage.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "Don't blame ___ for the sudden power outage."
+          ]
+        ],
+        "options": [
+          "you",
+          "your",
+          "yourself"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat perintah kepada 'you' -> reflexive 'yourself'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"We should prepare us for the audit.\"",
+        "draft": "We should prepare us for the audit.",
+        "options": [
+          "We should prepare us for the audit.",
+          "We should prepare ourselves for the audit.",
+          "We should prepare our for the audit."
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'We' mempersiapkan diri sendiri -> 'ourselves'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "He forgot ___ umbrella inside the taxi.",
+        "options": [
+          "his",
+          "him",
+          "himself"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'umbrella', gunakan possessive adjective 'his'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / These safety helmets are ___, not theirs.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "These safety helmets are ___, not theirs."
+          ]
+        ],
+        "options": [
+          "our",
+          "us",
+          "ours"
+        ],
+        "answer": 2,
+        "explanation": "Berdiri sendiri tanpa noun -> possessive pronoun 'ours'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Its important to verify every invoice.\"",
+        "draft": "Its important to verify every invoice.",
+        "options": [
+          "Its important to verify every invoice.",
+          "It's important to verify every invoice.",
+          "Its' important to verify every invoice."
+        ],
+        "answer": 1,
+        "explanation": "'It's' = It is (singkatan subjek + to be).",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: to · We · the).",
+        "targetSentence": "We introduced ourselves to the visiting mentors.",
+        "explanation": "Reflexive jamak 'ourselves' untuk 'We'.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Make ___ comfortable while waiting for the doctor.",
+        "options": [
+          "yourself",
+          "you",
+          "yours"
+        ],
+        "answer": 0,
+        "explanation": "Idiom 'make yourself comfortable'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / You must bring ___ own ID card to enter.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "You must bring ___ own ID card to enter."
+          ]
+        ],
+        "options": [
+          "your",
+          "yours",
+          "yourself"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum 'own ID card', gunakan possessive adjective 'your'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"The interns blamed them for the delay.\"",
+        "draft": "The interns blamed them for the delay.",
+        "options": [
+          "The interns blamed theirselves for the delay.",
+          "The interns blamed them for the delay.",
+          "The interns blamed themselves for the delay."
+        ],
+        "answer": 2,
+        "explanation": "Menyalahkan diri sendiri memakai 'themselves'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The machine turns ___ off after ten minutes.",
+        "options": [
+          "itself",
+          "it",
+          "its"
+        ],
+        "answer": 0,
+        "explanation": "Subjek benda tunggal melakukan aksi pada dirinya -> 'itself'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Look at the cat; ___ cleaning ___ paws.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "Look at the cat; ___ cleaning ___ paws."
+          ]
+        ],
+        "options": [
+          "its / it's",
+          "its / its",
+          "it's / its"
+        ],
+        "answer": 2,
+        "explanation": "'it's' = it is; 'its' = milik (paws).",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Whose notebook is this? It is her.\"",
+        "draft": "Whose notebook is this? It is her.",
+        "options": [
+          "Whose notebook is this? It is she.",
+          "Whose notebook is this? It is her.",
+          "Whose notebook is this? It is hers."
+        ],
+        "answer": 2,
+        "explanation": "Possessive pronoun tanpa noun -> 'hers'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "I am sure this folder is not ___; mine is green.",
+        "options": [
+          "she",
+          "hers",
+          "her"
+        ],
+        "answer": 1,
+        "explanation": "Berdiri sendiri tanpa noun -> 'hers'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: for · Make · while).",
+        "targetSentence": "Make yourself comfortable while waiting for boarding.",
+        "explanation": "Idiom 'Make yourself comfortable'.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "We brought ___ laptops to the seminar.",
+        "options": [
+          "our",
+          "ours",
+          "us"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'laptops', gunakan 'our'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Did all guests enjoy ___ at the reception?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "Did all guests enjoy ___ at the reception?"
+          ]
+        ],
+        "options": [
+          "them",
+          "their",
+          "themselves"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'enjoy themselves' untuk subjek jamak 'guests'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"He gave me him old transit card.\"",
+        "draft": "He gave me him old transit card.",
+        "options": [
+          "He gave me his old transit card.",
+          "He gave me himself old transit card.",
+          "He gave me him old transit card."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun phrase 'old transit card', gunakan 'his'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Let us remind ___ to back up the files daily.",
+        "options": [
+          "us",
+          "our",
+          "ourselves"
+        ],
+        "answer": 2,
+        "explanation": "Objek refleksif dari 'us' adalah 'ourselves'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: is · not · desk).",
+        "targetSentence": "That corner desk is mine, not his.",
+        "explanation": "Possessive pronouns 'mine' dan 'his'.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "They built that prototype completely by ___.",
+        "options": [
+          "them",
+          "themselves",
+          "themself"
+        ],
+        "answer": 1,
+        "explanation": "'Themself' tidak baku; bentuk jamak yang benar adalah 'themselves'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / The decision is entirely ___ to make.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "The decision is entirely ___ to make."
+          ]
+        ],
+        "options": [
+          "yours",
+          "your",
+          "you"
+        ],
+        "answer": 0,
+        "explanation": "Berdiri sendiri setelah 'is' -> 'yours'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"We enjoyed us at the company picnic.\"",
+        "draft": "We enjoyed us at the company picnic.",
+        "options": [
+          "We enjoyed us at the company picnic.",
+          "We enjoyed ourselves at the company picnic.",
+          "We enjoyed our at the company picnic."
+        ],
+        "answer": 1,
+        "explanation": "Idiom 'enjoy oneself' untuk 'We' adalah 'enjoyed ourselves'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "My report is longer than ___.",
+        "options": [
+          "he",
+          "his",
+          "him"
+        ],
+        "answer": 1,
+        "explanation": "Possessive pronoun untuk 'he' adalah 'his' (miliknya).",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / He forgot ___ umbrella inside the taxi.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "He forgot ___ umbrella inside the taxi."
+          ]
+        ],
+        "options": [
+          "himself",
+          "his",
+          "him"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'umbrella', gunakan possessive adjective 'his'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"That seat near the window is mines.\"",
+        "draft": "That seat near the window is mines.",
+        "options": [
+          "That seat near the window is mine.",
+          "That seat near the window is my.",
+          "That seat near the window is mines."
+        ],
+        "answer": 0,
+        "explanation": "'Mine' tidak pernah ditambah -s.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: The · every · signed).",
+        "targetSentence": "The director herself signed every training certificate.",
+        "explanation": "Intensive pronoun 'herself' untuk penekanan.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Always lock ___ locker before going to lunch.",
+        "options": [
+          "your",
+          "yours",
+          "you"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'locker', gunakan 'your'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / Make ___ comfortable while waiting for the doctor.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Mentor",
+            "Make ___ comfortable while waiting for the doctor."
+          ]
+        ],
+        "options": [
+          "you",
+          "yours",
+          "yourself"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'make yourself comfortable'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"Every department has it's own budget.\"",
+        "draft": "Every department has it's own budget.",
+        "options": [
+          "Every department has its own budget.",
+          "Every department has itself own budget.",
+          "Every department has it's own budget."
+        ],
+        "answer": 0,
+        "explanation": "Kepemilikan benda tunggal memakai 'its'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The director ___ signed every certificate.",
+        "options": [
+          "hers",
+          "herself",
+          "her"
+        ],
+        "answer": 1,
+        "explanation": "Intensive pronoun menegaskan subjek 'The director' -> 'herself' (atau himself).",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih possessive atau reflexive pronoun yang tepat dalam dialog: \"Let me double-check whose item or responsibility this is. / The machine turns ___ off after ten minutes.\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let me double-check whose item or responsibility this is."
+          ],
+          [
+            "Colleague",
+            "The machine turns ___ off after ten minutes."
+          ]
+        ],
+        "options": [
+          "itself",
+          "it",
+          "its"
+        ],
+        "answer": 0,
+        "explanation": "Subjek benda tunggal melakukan aksi pada dirinya -> 'itself'.",
+        "hints": [
+          "Perhatikan apakah ada noun setelah rumpang.",
+          "Hati-hati membedakan 'its' (milik) dan 'it's' (it is)."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan possessive atau reflexive pronoun berikut: \"You can pour you some fresh coffee.\"",
+        "draft": "You can pour you some fresh coffee.",
+        "options": [
+          "You can pour you some fresh coffee.",
+          "You can pour yourself some fresh coffee.",
+          "You can pour yours some fresh coffee."
+        ],
+        "answer": 1,
+        "explanation": "Menuangkan untuk diri sendiri memakai 'yourself'.",
+        "hints": [
+          "Cek bentuk baku reflexive (-self/-selves) dan 'its' vs 'it's'.",
+          "Tanpa noun di belakang, pakai mine/yours/hers/ours/theirs."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "That desk in the corner is ___.",
+        "options": [
+          "me",
+          "mine",
+          "my"
+        ],
+        "answer": 1,
+        "explanation": "Berdiri sendiri di akhir kalimat -> 'mine'.",
+        "hints": [
+          "Bedakan possessive adjective (+ noun) vs possessive pronoun (tanpa noun).",
+          "Gunakan reflexive (-self/-selves) bila subjek dan objek sama."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan possessive atau reflexive pronoun yang tepat (7 kata; fokus: for · the · blame).",
+        "targetSentence": "Don't blame yourself for the network outage.",
+        "explanation": "Reflexive 'yourself' pada kalimat imperatif.",
+        "hints": [
+          "Pastikan tidak menulis 'its' dengan apostrof untuk kepemilikan.",
+          "Gunakan -self/-selves jika pelaku dan penerima sama."
+        ],
+        "skill": "pronoun-object"
       }
     ],
     "complex": [
@@ -830,6 +3710,1446 @@
           "Lanjutkan dengan verb 'recommended'."
         ],
         "skill": "pronoun-possessive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Between you and ___, the deadline looks unrealistic.",
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'Between', kedua objek memakai object pronoun -> 'me'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Between you and ___, the deadline looks unrealistic.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "Between you and ___, the deadline looks unrealistic."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'Between', kedua objek memakai object pronoun -> 'me'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Between you and I, this timeline is tight.\"",
+        "draft": "Between you and I, this timeline is tight.",
+        "options": [
+          "Between you and me, this timeline is tight.",
+          "Between you and myself, this timeline is tight.",
+          "Between you and I, this timeline is tight."
+        ],
+        "answer": 0,
+        "explanation": "Preposisi 'Between' selalu diikuti object pronoun 'me'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleague and ___ will present the prototype tomorrow.",
+        "options": [
+          "I",
+          "me",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek majemuk sebelum verb 'will present' memakai 'I'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: and · me, · the).",
+        "targetSentence": "Between you and me, the deadline seems tight.",
+        "explanation": "Preposisi 'Between' diikuti object pronouns 'you and me'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Everyone must bring ___ own laptop to the lab.",
+        "options": [
+          "him",
+          "them",
+          "their"
+        ],
+        "answer": 2,
+        "explanation": "Untuk indefinite singular umum ('Everyone') dalam bahasa Inggris modern/IELTS, gunakan gender-neutral 'their'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / My colleague and ___ will present the prototype tomorrow.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "My colleague and ___ will present the prototype tomorrow."
+          ]
+        ],
+        "options": [
+          "myself",
+          "I",
+          "me"
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek majemuk sebelum verb 'will present' memakai 'I'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"My colleague and me drafted the audit memo.\"",
+        "draft": "My colleague and me drafted the audit memo.",
+        "options": [
+          "My colleague and me drafted the audit memo.",
+          "My colleague and I drafted the audit memo.",
+          "My colleague and myself drafted the audit memo."
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek majemuk memakai 'I'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did the committee select for the scholarship?",
+        "options": [
+          "Whose",
+          "Whom",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Dalam ragam formal sebagai objek ('select whom'), gunakan 'Whom'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Everyone must bring ___ own laptop to the lab.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "Everyone must bring ___ own laptop to the lab."
+          ]
+        ],
+        "options": [
+          "their",
+          "him",
+          "them"
+        ],
+        "answer": 0,
+        "explanation": "Untuk indefinite singular umum ('Everyone') dalam bahasa Inggris modern/IELTS, gunakan gender-neutral 'their'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Please send the files to Maya or myself.\"",
+        "draft": "Please send the files to Maya or myself.",
+        "options": [
+          "Please send the files to Maya or myself.",
+          "Please send the files to Maya or me.",
+          "Please send the files to Maya or I."
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan 'me', bukan 'myself'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: I · My · and).",
+        "targetSentence": "My colleague and I presented the final prototype.",
+        "explanation": "Subjek majemuk memakai 'I'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ submitted the cleanest architectural draft?",
+        "options": [
+          "Who",
+          "Whom",
+          "Whose"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek kata kerja 'submitted' memakai 'Who'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / ___ did the committee select for the scholarship?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "___ did the committee select for the scholarship?"
+          ]
+        ],
+        "options": [
+          "Whom",
+          "Who",
+          "Whose"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ragam formal sebagai objek ('select whom'), gunakan 'Whom'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Who's luggage is waiting near Gate 4?\"",
+        "draft": "Who's luggage is waiting near Gate 4?",
+        "options": [
+          "Whose luggage is waiting near Gate 4?",
+          "Whom luggage is waiting near Gate 4?",
+          "Who's luggage is waiting near Gate 4?"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan kepemilikan memakai 'Whose', bukan 'Who's' (who is).",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The manager asked both Maya and ___ to stay.",
+        "options": [
+          "I",
+          "myself",
+          "me"
+        ],
+        "answer": 2,
+        "explanation": "Posisi objek dari 'asked' memakai 'me' (jangan pakai 'myself' sebagai pengganti 'me').",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / ___ submitted the cleanest architectural draft?\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "___ submitted the cleanest architectural draft?"
+          ]
+        ],
+        "options": [
+          "Who",
+          "Whom",
+          "Whose"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek kata kerja 'submitted' memakai 'Who'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"To who did you forward the signed contract?\"",
+        "draft": "To who did you forward the signed contract?",
+        "options": [
+          "To who did you forward the signed contract?",
+          "To whom did you forward the signed contract?",
+          "To whose did you forward the signed contract?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'To', gunakan bentuk objek 'whom'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "It was ___ who spotted the accounting error.",
+        "options": [
+          "she",
+          "her",
+          "hers"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ragam formal setelah 'It was ... who', gunakan subject form 'she' (atau dalam informal 'her').",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: To · we · this).",
+        "targetSentence": "To whom should we address this formal inquiry?",
+        "explanation": "Preposisi 'To' + object pronoun formal 'whom'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nobody left ___ badge at reception yesterday.",
+        "options": [
+          "him",
+          "them",
+          "their"
+        ],
+        "answer": 2,
+        "explanation": "Indefinite pronoun 'Nobody' mengambil possessive netral 'their'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / The manager asked both Maya and ___ to stay.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "The manager asked both Maya and ___ to stay."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Posisi objek dari 'asked' memakai 'me' (jangan pakai 'myself' sebagai pengganti 'me').",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Him and his partner launched a small studio.\"",
+        "draft": "Him and his partner launched a small studio.",
+        "options": [
+          "He and his partner launched a small studio.",
+          "Himself and his partner launched a small studio.",
+          "Him and his partner launched a small studio."
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek kalimat memakai 'He'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "One should always back up ___ research files.",
+        "options": [
+          "your's",
+          "one's",
+          "their's"
+        ],
+        "answer": 1,
+        "explanation": "Jika subjeknya 'One' secara konsisten, bentuk kepemilikan formal adalah 'one's'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (9 kata; fokus: The · two · data).",
+        "targetSentence": "The two departments share research data with each other.",
+        "explanation": "Reciprocal pronoun 'each other'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The two departments regularly share data with ___.",
+        "options": [
+          "each other",
+          "themselves",
+          "them"
+        ],
+        "answer": 0,
+        "explanation": "Hubungan timbal balik antar pihak memakai reciprocal pronoun 'each other'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / It was ___ who spotted the accounting error.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "It was ___ who spotted the accounting error."
+          ]
+        ],
+        "options": [
+          "she",
+          "her",
+          "hers"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ragam formal setelah 'It was ... who', gunakan subject form 'she' (atau dalam informal 'her').",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"The manager praised John and I for accuracy.\"",
+        "draft": "The manager praised John and I for accuracy.",
+        "options": [
+          "The manager praised John and myself for accuracy.",
+          "The manager praised John and I for accuracy.",
+          "The manager praised John and me for accuracy."
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'praised' memakai 'me'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "All three teams congratulated ___ after the launch.",
+        "options": [
+          "them",
+          "one another",
+          "itself"
+        ],
+        "answer": 1,
+        "explanation": "Aksi timbal balik di antara lebih dari dua pihak memakai 'one another' / 'each other'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Nobody left ___ badge at reception yesterday.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "Nobody left ___ badge at reception yesterday."
+          ]
+        ],
+        "options": [
+          "them",
+          "their",
+          "him"
+        ],
+        "answer": 1,
+        "explanation": "Indefinite pronoun 'Nobody' mengambil possessive netral 'their'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Neither of the reports had their cover page.\"",
+        "draft": "Neither of the reports had their cover page.",
+        "options": [
+          "Neither of the reports had it's cover page.",
+          "Neither of the reports had their cover page.",
+          "Neither of the reports had its cover page."
+        ],
+        "answer": 2,
+        "explanation": "Untuk benda tunggal ('Neither of the reports'), gunakan 'its'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: or · to · me.).",
+        "targetSentence": "Please forward the agenda to Maya or me.",
+        "explanation": "Setelah preposisi 'to' gunakan 'me'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "To ___ should we address the formal complaint?",
+        "options": [
+          "whom",
+          "who",
+          "whose"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'To', bentuk objek formal wajib 'whom'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / One should always back up ___ research files.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "One should always back up ___ research files."
+          ]
+        ],
+        "options": [
+          "one's",
+          "their's",
+          "your's"
+        ],
+        "answer": 0,
+        "explanation": "Jika subjeknya 'One' secara konsisten, bentuk kepemilikan formal adalah 'one's'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Whose going to chair tomorrow's seminar?\"",
+        "draft": "Whose going to chair tomorrow's seminar?",
+        "options": [
+          "Who's going to chair tomorrow's seminar?",
+          "Whom going to chair tomorrow's seminar?",
+          "Whose going to chair tomorrow's seminar?"
+        ],
+        "answer": 0,
+        "explanation": "Makna 'Who is going' disingkat menjadi 'Who's'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ smartphone is ringing inside the seminar hall?",
+        "options": [
+          "Whose",
+          "Who's",
+          "Whom"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan kepemilikan sebelum noun 'smartphone' memakai 'Whose'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / The two departments regularly share data with ___.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "The two departments regularly share data with ___."
+          ]
+        ],
+        "options": [
+          "them",
+          "each other",
+          "themselves"
+        ],
+        "answer": 1,
+        "explanation": "Hubungan timbal balik antar pihak memakai reciprocal pronoun 'each other'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"The two teams compete against themselves weekly.\"",
+        "draft": "The two teams compete against themselves weekly.",
+        "options": [
+          "The two teams compete against themselves weekly.",
+          "The two teams compete against each other weekly.",
+          "The two teams compete against theirselves weekly."
+        ],
+        "answer": 1,
+        "explanation": "Aksi timbal balik antar dua pihak memakai 'each other'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ responsible for locking the main archive?",
+        "options": [
+          "Whom",
+          "Who's",
+          "Whose"
+        ],
+        "answer": 1,
+        "explanation": "'Who's' adalah singkatan dari 'Who is'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: 3? · was · left).",
+        "targetSentence": "Whose laptop was left inside Seminar Room 3?",
+        "explanation": "Kepemilikan sebelum noun memakai 'Whose'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please forward the contract to either David or ___.",
+        "options": [
+          "I",
+          "myself",
+          "me"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / All three teams congratulated ___ after the launch.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "All three teams congratulated ___ after the launch."
+          ]
+        ],
+        "options": [
+          "them",
+          "one another",
+          "itself"
+        ],
+        "answer": 1,
+        "explanation": "Aksi timbal balik di antara lebih dari dua pihak memakai 'one another' / 'each other'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"She speaks faster than me do.\"",
+        "draft": "She speaks faster than me do.",
+        "options": [
+          "She speaks faster than me do.",
+          "She speaks faster than I do.",
+          "She speaks faster than myself do."
+        ],
+        "answer": 1,
+        "explanation": "Sebelum kata kerja 'do', gunakan subjek 'I'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither of the interns brought ___ security pass.",
+        "options": [
+          "them",
+          "their",
+          "they"
+        ],
+        "answer": 1,
+        "explanation": "'Neither of ...' diikuti possessive netral 'their' (atau 'his/her' formal).",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: by · form · must).",
+        "targetSentence": "Everyone must submit their signed form by Friday.",
+        "explanation": "Possessive netral 'their' untuk 'Everyone'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The award was divided equally among ___.",
+        "options": [
+          "us",
+          "we",
+          "ourselves"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'among', gunakan object pronoun 'us'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / To ___ should we address the formal complaint?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "To ___ should we address the formal complaint?"
+          ]
+        ],
+        "options": [
+          "who",
+          "whose",
+          "whom"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'To', bentuk objek formal wajib 'whom'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Give the extra keys to whoever needs it.\"",
+        "draft": "Give the extra keys to whoever needs it.",
+        "options": [
+          "Give the extra keys to whoever needs it.",
+          "Give the extra keys to whoever needs them.",
+          "Give the extra keys to whomever needs it."
+        ],
+        "answer": 1,
+        "explanation": "'keys' bersifat jamak sehingga dirujuk dengan 'them'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Someone forgot ___ umbrella near Counter 2.",
+        "options": [
+          "them",
+          "they",
+          "their"
+        ],
+        "answer": 2,
+        "explanation": "Possessive untuk 'Someone' memakai 'their' sebelum noun 'umbrella'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / ___ smartphone is ringing inside the seminar hall?\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "___ smartphone is ringing inside the seminar hall?"
+          ]
+        ],
+        "options": [
+          "Whom",
+          "Whose",
+          "Who's"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan kepemilikan sebelum noun 'smartphone' memakai 'Whose'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"One should protect your password carefully.\"",
+        "draft": "One should protect your password carefully.",
+        "options": [
+          "One should protect your password carefully.",
+          "One should protect one's password carefully.",
+          "One should protect you password carefully."
+        ],
+        "answer": 1,
+        "explanation": "Jaga konsistensi pronoun 'One ... one's'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: is · the · That).",
+        "targetSentence": "That is the analyst whose chart clarified everything.",
+        "explanation": "Relative possessive 'whose'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Just between you and ___, sales rose faster.",
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Preposisi 'between' selalu diikuti object pronoun ('you and me').",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / ___ responsible for locking the main archive?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "___ responsible for locking the main archive?"
+          ]
+        ],
+        "options": [
+          "Whom",
+          "Who's",
+          "Whose"
+        ],
+        "answer": 1,
+        "explanation": "'Who's' adalah singkatan dari 'Who is'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Did you invite Sarah and I to lunch?\"",
+        "draft": "Did you invite Sarah and I to lunch?",
+        "options": [
+          "Did you invite Sarah and myself to lunch?",
+          "Did you invite Sarah and I to lunch?",
+          "Did you invite Sarah and me to lunch?"
+        ],
+        "answer": 2,
+        "explanation": "Objek dari 'invite' adalah 'me'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "She is taller than ___ am.",
+        "options": [
+          "myself",
+          "I",
+          "me"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum kata kerja 'am', wajib menggunakan subject pronoun 'I'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Please forward the contract to either David or ___.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "Please forward the contract to either David or ___."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Me and my team completed the inventory early.\"",
+        "draft": "Me and my team completed the inventory early.",
+        "options": [
+          "Me and my team completed the inventory early.",
+          "My team and I completed the inventory early.",
+          "My team and me completed the inventory early."
+        ],
+        "answer": 1,
+        "explanation": "Posisi subjek memakai 'I' dan sopan diletakkan kedua.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both the intern and ___ checked the figures.",
+        "options": [
+          "me",
+          "my",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek majemuk sebelum 'checked' memakai 'I'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: me · and · The).",
+        "targetSentence": "The supervisor thanked both David and me warmly.",
+        "explanation": "Objek majemuk memakai 'me'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "The client wrote directly to my supervisor and ___.",
+        "options": [
+          "myself",
+          "me",
+          "I"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'me'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Neither of the interns brought ___ security pass.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "Neither of the interns brought ___ security pass."
+          ]
+        ],
+        "options": [
+          "them",
+          "their",
+          "they"
+        ],
+        "answer": 1,
+        "explanation": "'Neither of ...' diikuti possessive netral 'their' (atau 'his/her' formal).",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Every trainee brought his or her's notebook.\"",
+        "draft": "Every trainee brought his or her's notebook.",
+        "options": [
+          "Every trainee brought his or her's notebook.",
+          "Every trainee brought their notebook.",
+          "Every trainee brought themself notebook."
+        ],
+        "answer": 1,
+        "explanation": "'her's' tidak ada; gunakan 'their' atau 'his or her'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ do you think will lead the next audit?",
+        "options": [
+          "Whose",
+          "Who",
+          "Whom"
+        ],
+        "answer": 1,
+        "explanation": "'Who' adalah subjek bagi 'will lead' (sisipan 'do you think' tidak mengubah kasus subjek).",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: do · the · Who).",
+        "targetSentence": "Who do you think will lead the briefing?",
+        "explanation": "Subjek klausa 'will lead' memakai 'Who'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "The candidate ___ we interviewed yesterday accepted.",
+        "options": [
+          "whom",
+          "whose",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "Relative pronoun sebagai objek dari 'we interviewed' dalam ragam formal memakai 'whom'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / The award was divided equally among ___.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "The award was divided equally among ___."
+          ]
+        ],
+        "options": [
+          "we",
+          "ourselves",
+          "us"
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'among', gunakan object pronoun 'us'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Whom is responsible for the backup server?\"",
+        "draft": "Whom is responsible for the backup server?",
+        "options": [
+          "Who is responsible for the backup server?",
+          "Whose is responsible for the backup server?",
+          "Whom is responsible for the backup server?"
+        ],
+        "answer": 0,
+        "explanation": "Posisi subjek pertanyaan memakai 'Who'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every participant received ___ certificate via email.",
+        "options": [
+          "them",
+          "their",
+          "they"
+        ],
+        "answer": 1,
+        "explanation": "Possessive sebelum noun 'certificate' -> 'their'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Someone forgot ___ umbrella near Counter 2.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "Someone forgot ___ umbrella near Counter 2."
+          ]
+        ],
+        "options": [
+          "they",
+          "their",
+          "them"
+        ],
+        "answer": 1,
+        "explanation": "Possessive untuk 'Someone' memakai 'their' sebelum noun 'umbrella'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"The award belongs to we who worked overtime.\"",
+        "draft": "The award belongs to we who worked overtime.",
+        "options": [
+          "The award belongs to we who worked overtime.",
+          "The award belongs to us who worked overtime.",
+          "The award belongs to our who worked overtime."
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'to', gunakan object pronoun 'us'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: One · one's · before).",
+        "targetSentence": "One should verify one's references before submitting essays.",
+        "explanation": "Konsistensi subjek formal 'One ... one's'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "This is the colleague ___ laptop stopped working.",
+        "options": [
+          "who's",
+          "whom",
+          "whose"
+        ],
+        "answer": 2,
+        "explanation": "Menunjukkan kepemilikan ('whose laptop') -> 'whose'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / Just between you and ___, sales rose faster.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Coordinator",
+            "Just between you and ___, sales rose faster."
+          ]
+        ],
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": 0,
+        "explanation": "Preposisi 'between' selalu diikuti object pronoun ('you and me').",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"That is the researcher who's paper won.\"",
+        "draft": "That is the researcher who's paper won.",
+        "options": [
+          "That is the researcher whom paper won.",
+          "That is the researcher who's paper won.",
+          "That is the researcher whose paper won."
+        ],
+        "answer": 2,
+        "explanation": "Kepemilikan sebelum noun 'paper' memakai 'whose'.",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "We rely on ___ to verify daily lab logs.",
+        "options": [
+          "them",
+          "they",
+          "themselves"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'on', gunakan object pronoun 'them'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih pronoun baku yang tepat dalam komunikasi formal/akademik: \"Can we clarify the wording in this memo? / She is taller than ___ am.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Can we clarify the wording in this memo?"
+          ],
+          [
+            "Auditor",
+            "She is taller than ___ am."
+          ]
+        ],
+        "options": [
+          "myself",
+          "I",
+          "me"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum kata kerja 'am', wajib menggunakan subject pronoun 'I'.",
+        "hints": [
+          "Periksa apakah kata ganti berfungsi sebagai subjek, objek preposisi, atau kepemilikan.",
+          "Jangan memakai 'myself' jika bukan refleksif."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan pronoun majemuk, kasus objek, atau kepemilikan formal berikut: \"Please ask both him and I before editing.\"",
+        "draft": "Please ask both him and I before editing.",
+        "options": [
+          "Please ask both him and me before editing.",
+          "Please ask both he and I before editing.",
+          "Please ask both him and I before editing."
+        ],
+        "answer": 0,
+        "explanation": "Setelah verb 'ask', kedua objek memakai bentuk objek ('him and me').",
+        "hints": [
+          "Uji klausa majemuk dengan menghilangkan salah satu nama.",
+          "Bedakan whose (milik) vs who's (who is) dan who vs whom."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "She runs faster than ___ does.",
+        "options": [
+          "himself",
+          "he",
+          "him"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum auxiliary 'does', subjeknya adalah 'he'.",
+        "hints": [
+          "Hapus nama orang pertama untuk menguji pronoun kedua (mis. 'asked [Maya and] me').",
+          "Setelah preposisi (between/to/for/with), selalu pakai object pronoun."
+        ],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal berikut dengan pilihan pronoun yang tepat (8 kata; fokus: I · do. · She).",
+        "targetSentence": "She speaks slightly faster than I usually do.",
+        "explanation": "Subjek klausa pembanding memakai 'I'.",
+        "hints": [
+          "Gunakan 'I' untuk subjek dan 'me' setelah verb/preposisi.",
+          "Gunakan 'whose' untuk kepemilikan dan 'whom' setelah preposisi."
+        ],
+        "skill": "pronoun-subject"
       }
     ]
   }

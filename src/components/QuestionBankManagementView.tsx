@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { CURRICULUM } from "../data/curriculum";
-import { QUESTION_BANK } from "../data/questionBank";
+import { ensureModuleLoaded, QUESTION_BANK } from "../data/questionBank";
 import {
   clearCustomQuestionPacks,
   deleteCustomPack,
@@ -132,7 +132,7 @@ export const QuestionBankManagementView: React.FC<QuestionBankManagementViewProp
   };
 
   // Export Handlers
-  const handleExportJSON = (moduleKey?: string, customPack?: QuestionPack) => {
+  const handleExportJSON = async (moduleKey?: string, customPack?: QuestionPack) => {
     let pack: QuestionPack;
     let filename: string;
 
@@ -141,6 +141,7 @@ export const QuestionBankManagementView: React.FC<QuestionBankManagementViewProp
       filename = `${pack.moduleKey.replace(/\//g, "--")}-custom-pack.json`;
     } else {
       const targetKey = moduleKey || selectedModuleKey;
+      await ensureModuleLoaded(targetKey);
       const modData = QUESTION_BANK[targetKey];
       if (!modData) {
         setStatusMessage({ ok: false, text: "Modul tidak ditemukan." });
@@ -172,8 +173,9 @@ export const QuestionBankManagementView: React.FC<QuestionBankManagementViewProp
     setStatusMessage({ ok: true, text: `Export JSON untuk "${pack.moduleKey}" berhasil diunduh.` });
   };
 
-  const handleExportCSV = (moduleKey?: string) => {
+  const handleExportCSV = async (moduleKey?: string) => {
     const targetKey = moduleKey || selectedModuleKey;
+    await ensureModuleLoaded(targetKey);
     const modData = QUESTION_BANK[targetKey];
     if (!modData) {
       setStatusMessage({ ok: false, text: "Modul tidak ditemukan." });

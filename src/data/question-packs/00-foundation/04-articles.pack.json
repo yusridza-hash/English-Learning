@@ -266,6 +266,1446 @@
           "Lanjutkan dengan 'and the notebook has grid pages'."
         ],
         "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ umbrella for today's orientation.",
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an\" karena frasa \"umbrella\" diawali bunyi vokal /ʌ/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ umbrella.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ umbrella."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"umbrella\" diawali bunyi vokal /ʌ/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a umbrella before noon.\"",
+        "draft": "She requested a umbrella before noon.",
+        "options": [
+          "She requested umbrella before noon.",
+          "She requested those umbrella before noon.",
+          "She requested an umbrella before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an umbrella\" karena diawali bunyi vokal /ʌ/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ hour-long briefing for today's orientation.",
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an\" karena frasa \"hour-long briefing\" huruf 'h' pada 'hour' tidak dibaca (bunyi vokal /aʊ/).",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (5 kata; fokus: an · bring · Please).",
+        "targetSentence": "Please bring an umbrella tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"umbrella\" diawali bunyi vokal /ʌ/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ honest feedback form for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"honest feedback form\" huruf 'h' pada 'honest' bisu sehingga berbunyi vokal.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ hour-long briefing.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ hour-long briefing."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"hour-long briefing\" huruf 'h' pada 'hour' tidak dibaca (bunyi vokal /aʊ/).",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a hour-long briefing before noon.\"",
+        "draft": "She requested a hour-long briefing before noon.",
+        "options": [
+          "She requested those hour-long briefing before noon.",
+          "She requested an hour-long briefing before noon.",
+          "She requested hour-long briefing before noon."
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"an hour-long briefing\" karena huruf 'h' pada 'hour' tidak dibaca (bunyi vokal /aʊ/).",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ MBA graduate for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"MBA graduate\" singkatan 'MBA' dilafalkan /ɛm biː eɪ/ (bunyi vokal).",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ honest feedback form.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ honest feedback form."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"an\" karena \"honest feedback form\" huruf 'h' pada 'honest' bisu sehingga berbunyi vokal.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a honest feedback form before noon.\"",
+        "draft": "She requested a honest feedback form before noon.",
+        "options": [
+          "She requested an honest feedback form before noon.",
+          "She requested honest feedback form before noon.",
+          "She requested those honest feedback form before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an honest feedback form\" karena huruf 'h' pada 'honest' bisu sehingga berbunyi vokal.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · bring · Please).",
+        "targetSentence": "Please bring an hour-long briefing tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"hour-long briefing\" huruf 'h' pada 'hour' tidak dibaca (bunyi vokal /aʊ/).",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ urgent email for today's orientation.",
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an\" karena frasa \"urgent email\" 'urgent' berawal bunyi vokal /ɜː/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ MBA graduate.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ MBA graduate."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"MBA graduate\" singkatan 'MBA' dilafalkan /ɛm biː eɪ/ (bunyi vokal).",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a MBA graduate before noon.\"",
+        "draft": "She requested a MBA graduate before noon.",
+        "options": [
+          "She requested an MBA graduate before noon.",
+          "She requested MBA graduate before noon.",
+          "She requested those MBA graduate before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an MBA graduate\" karena singkatan 'MBA' dilafalkan /ɛm biː eɪ/ (bunyi vokal).",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ airport shuttle for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"airport shuttle\" 'airport' berawal bunyi vokal /eə/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ urgent email.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ urgent email."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"urgent email\" 'urgent' berawal bunyi vokal /ɜː/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a urgent email before noon.\"",
+        "draft": "She requested a urgent email before noon.",
+        "options": [
+          "She requested urgent email before noon.",
+          "She requested those urgent email before noon.",
+          "She requested an urgent email before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an urgent email\" karena 'urgent' berawal bunyi vokal /ɜː/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ invoice number for today's orientation.",
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an\" karena frasa \"invoice number\" 'invoice' berawal bunyi vokal /ɪ/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (7 kata; fokus: an · form · bring).",
+        "targetSentence": "Please bring an honest feedback form tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"honest feedback form\" huruf 'h' pada 'honest' bisu sehingga berbunyi vokal.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ elevator keycard for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"elevator keycard\" 'elevator' berawal bunyi vokal /e/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ airport shuttle.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ airport shuttle."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"an\" karena \"airport shuttle\" 'airport' berawal bunyi vokal /eə/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a airport shuttle before noon.\"",
+        "draft": "She requested a airport shuttle before noon.",
+        "options": [
+          "She requested those airport shuttle before noon.",
+          "She requested an airport shuttle before noon.",
+          "She requested airport shuttle before noon."
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"an airport shuttle\" karena 'airport' berawal bunyi vokal /eə/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ IT specialist for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"IT specialist\" singkatan 'IT' dilafalkan /aɪ tiː/ (bunyi vokal).",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · MBA · bring).",
+        "targetSentence": "Please bring an MBA graduate tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"MBA graduate\" singkatan 'MBA' dilafalkan /ɛm biː eɪ/ (bunyi vokal).",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ envelope for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "an",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"an\" karena frasa \"envelope\" 'envelope' berawal bunyi vokal /e/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ invoice number.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ invoice number."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"invoice number\" 'invoice' berawal bunyi vokal /ɪ/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a invoice number before noon.\"",
+        "draft": "She requested a invoice number before noon.",
+        "options": [
+          "She requested an invoice number before noon.",
+          "She requested invoice number before noon.",
+          "She requested those invoice number before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an invoice number\" karena 'invoice' berawal bunyi vokal /ɪ/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ university campus for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"university campus\" 'university' berawal bunyi konsonan /j/ (juː).",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ elevator keycard.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ elevator keycard."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"an\" karena \"elevator keycard\" 'elevator' berawal bunyi vokal /e/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a elevator keycard before noon.\"",
+        "draft": "She requested a elevator keycard before noon.",
+        "options": [
+          "She requested an elevator keycard before noon.",
+          "She requested elevator keycard before noon.",
+          "She requested those elevator keycard before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an elevator keycard\" karena 'elevator' berawal bunyi vokal /e/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · bring · email).",
+        "targetSentence": "Please bring an urgent email tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"urgent email\" 'urgent' berawal bunyi vokal /ɜː/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ European client for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"European client\" 'European' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ IT specialist.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ IT specialist."
+          ]
+        ],
+        "options": [
+          "— (tanpa article)",
+          "an",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Pilih \"an\" karena \"IT specialist\" singkatan 'IT' dilafalkan /aɪ tiː/ (bunyi vokal).",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a IT specialist before noon.\"",
+        "draft": "She requested a IT specialist before noon.",
+        "options": [
+          "She requested IT specialist before noon.",
+          "She requested those IT specialist before noon.",
+          "She requested an IT specialist before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an IT specialist\" karena singkatan 'IT' dilafalkan /aɪ tiː/ (bunyi vokal).",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ one-day pass for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"one-day pass\" 'one' berawal bunyi konsonan /w/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ envelope.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ envelope."
+          ]
+        ],
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"an\" karena \"envelope\" 'envelope' berawal bunyi vokal /e/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested a envelope before noon.\"",
+        "draft": "She requested a envelope before noon.",
+        "options": [
+          "She requested an envelope before noon.",
+          "She requested envelope before noon.",
+          "She requested those envelope before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an envelope\" karena 'envelope' berawal bunyi vokal /e/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"a\" menjadi \"an\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ uniform badge for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"uniform badge\" 'uniform' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · bring · Please). — Please bring an airport",
+        "targetSentence": "Please bring an airport shuttle tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"airport shuttle\" 'airport' berawal bunyi vokal /eə/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ useful handbook for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"useful handbook\" 'useful' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ university campus.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ university campus."
+          ]
+        ],
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Pilih \"a\" karena \"university campus\" 'university' berawal bunyi konsonan /j/ (juː).",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an university campus before noon.\"",
+        "draft": "She requested an university campus before noon.",
+        "options": [
+          "She requested those university campus before noon.",
+          "She requested a university campus before noon.",
+          "She requested university campus before noon."
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a university campus\" karena 'university' berawal bunyi konsonan /j/ (juː).",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ laptop charger for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"laptop charger\" 'laptop' berawal bunyi konsonan /l/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · bring · number).",
+        "targetSentence": "Please bring an invoice number tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"invoice number\" 'invoice' berawal bunyi vokal /ɪ/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ receipt for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"receipt\" 'receipt' berawal bunyi konsonan /r/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ European client.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ European client."
+          ]
+        ],
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Pilih \"a\" karena \"European client\" 'European' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an European client before noon.\"",
+        "draft": "She requested an European client before noon.",
+        "options": [
+          "She requested European client before noon.",
+          "She requested those European client before noon.",
+          "She requested a European client before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"a European client\" karena 'European' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ meeting room for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"meeting room\" 'meeting' berawal bunyi konsonan /m/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ one-day pass.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ one-day pass."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"a\" karena \"one-day pass\" 'one' berawal bunyi konsonan /w/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an one-day pass before noon.\"",
+        "draft": "She requested an one-day pass before noon.",
+        "options": [
+          "She requested a one-day pass before noon.",
+          "She requested one-day pass before noon.",
+          "She requested those one-day pass before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a one-day pass\" karena 'one' berawal bunyi konsonan /w/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · bring · Please). — Please bring an elevator",
+        "targetSentence": "Please bring an elevator keycard tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"elevator keycard\" 'elevator' berawal bunyi vokal /e/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ train ticket for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"train ticket\" 'train' berawal bunyi konsonan /t/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ uniform badge.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ uniform badge."
+          ]
+        ],
+        "options": [
+          "an",
+          "— (tanpa article)",
+          "a"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"a\" karena \"uniform badge\" 'uniform' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an uniform badge before noon.\"",
+        "draft": "She requested an uniform badge before noon.",
+        "options": [
+          "She requested uniform badge before noon.",
+          "She requested those uniform badge before noon.",
+          "She requested a uniform badge before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"a uniform badge\" karena 'uniform' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ hospital clinic for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"hospital clinic\" 'hospital' dibaca dengan /h/ berbunyi konsonan.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ useful handbook.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ useful handbook."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"a\" karena \"useful handbook\" 'useful' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an useful handbook before noon.\"",
+        "draft": "She requested an useful handbook before noon.",
+        "options": [
+          "She requested those useful handbook before noon.",
+          "She requested a useful handbook before noon.",
+          "She requested useful handbook before noon."
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a useful handbook\" karena 'useful' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ unique solution for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"unique solution\" 'unique' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: an · IT · bring).",
+        "targetSentence": "Please bring an IT specialist tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"IT specialist\" singkatan 'IT' dilafalkan /aɪ tiː/ (bunyi vokal).",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ online portal for today's orientation.",
+        "options": [
+          "an",
+          "a",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"an\" karena frasa \"online portal\" 'online' berawal bunyi vokal /ɒ/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ laptop charger.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ laptop charger."
+          ]
+        ],
+        "options": [
+          "an",
+          "— (tanpa article)",
+          "a"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"a\" karena \"laptop charger\" 'laptop' berawal bunyi konsonan /l/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an laptop charger before noon.\"",
+        "draft": "She requested an laptop charger before noon.",
+        "options": [
+          "She requested laptop charger before noon.",
+          "She requested those laptop charger before noon.",
+          "She requested a laptop charger before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"a laptop charger\" karena 'laptop' berawal bunyi konsonan /l/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ annual audit for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"annual audit\" 'annual' berawal bunyi vokal /æ/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (5 kata; fokus: an · bring · Please). — Please bring an envelope",
+        "targetSentence": "Please bring an envelope tomorrow.",
+        "explanation": "Article \"an\" digunakan karena \"envelope\" 'envelope' berawal bunyi vokal /e/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ printer cable for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"a\" karena frasa \"printer cable\" 'printer' berawal bunyi konsonan /p/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ receipt.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ receipt."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Pilih \"a\" karena \"receipt\" 'receipt' berawal bunyi konsonan /r/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an receipt before noon.\"",
+        "draft": "She requested an receipt before noon.",
+        "options": [
+          "She requested a receipt before noon.",
+          "She requested receipt before noon.",
+          "She requested those receipt before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a receipt\" karena 'receipt' berawal bunyi konsonan /r/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ HR coordinator for today's orientation.",
+        "options": [
+          "a",
+          "— (tanpa article)",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"an\" karena frasa \"HR coordinator\" singkatan 'HR' dilafalkan /eɪtʃ/ (bunyi vokal).",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ meeting room.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ meeting room."
+          ]
+        ],
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Pilih \"a\" karena \"meeting room\" 'meeting' berawal bunyi konsonan /m/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an meeting room before noon.\"",
+        "draft": "She requested an meeting room before noon.",
+        "options": [
+          "She requested meeting room before noon.",
+          "She requested those meeting room before noon.",
+          "She requested a meeting room before noon."
+        ],
+        "answer": 2,
+        "explanation": "Gunakan \"a meeting room\" karena 'meeting' berawal bunyi konsonan /m/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: a · bring · campus).",
+        "targetSentence": "Please bring a university campus tomorrow.",
+        "explanation": "Article \"a\" digunakan karena \"university campus\" 'university' berawal bunyi konsonan /j/ (juː).",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ hotel voucher for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"hotel voucher\" 'hotel' berawal bunyi konsonan /h/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ train ticket.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Trainer",
+            "Please bring ___ train ticket."
+          ]
+        ],
+        "options": [
+          "— (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explanation": "Pilih \"a\" karena \"train ticket\" 'train' berawal bunyi konsonan /t/.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an train ticket before noon.\"",
+        "draft": "She requested an train ticket before noon.",
+        "options": [
+          "She requested a train ticket before noon.",
+          "She requested train ticket before noon.",
+          "She requested those train ticket before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a train ticket\" karena 'train' berawal bunyi konsonan /t/.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ unsigned contract for today's orientation.",
+        "options": [
+          "— (tanpa article)",
+          "an",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Gunakan \"an\" karena frasa \"unsigned contract\" 'unsigned' berawal bunyi vokal /ʌ/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article 'a' atau 'an' yang tepat sesuai bunyi awal kata: \"What should I bring to the front desk? / Please bring ___ hospital clinic.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "What should I bring to the front desk?"
+          ],
+          [
+            "Intern",
+            "Please bring ___ hospital clinic."
+          ]
+        ],
+        "options": [
+          "an",
+          "— (tanpa article)",
+          "a"
+        ],
+        "answer": 2,
+        "explanation": "Pilih \"a\" karena \"hospital clinic\" 'hospital' dibaca dengan /h/ berbunyi konsonan.",
+        "hints": [
+          "Ucapkan kata setelah rumpang dalam hati.",
+          "Bunyi vokal memakai 'an', bunyi konsonan (/j/, /w/, /h/) memakai 'a'."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemakaian 'a' atau 'an' pada kalimat ini: \"She requested an hospital clinic before noon.\"",
+        "draft": "She requested an hospital clinic before noon.",
+        "options": [
+          "She requested a hospital clinic before noon.",
+          "She requested hospital clinic before noon.",
+          "She requested those hospital clinic before noon."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a hospital clinic\" karena 'hospital' dibaca dengan /h/ berbunyi konsonan.",
+        "hints": [
+          "Periksa bunyi awal kata benda tunggal setelah article.",
+          "Ganti \"an\" menjadi \"a\"."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need ___ user guide for today's orientation.",
+        "options": [
+          "a",
+          "an",
+          "— (tanpa article)"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan \"a\" karena frasa \"user guide\" 'user' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Fokus pada bunyi pengucapan awal kata, bukan sekadar huruf tulisannya.",
+          "Bunyi vokal -> an; bunyi konsonan -> a."
+        ],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'a' atau 'an' yang tepat (6 kata; fokus: a · bring · client).",
+        "targetSentence": "Please bring a European client tomorrow.",
+        "explanation": "Article \"a\" digunakan karena \"European client\" 'European' berawal bunyi konsonan /j/.",
+        "hints": [
+          "Awali dengan 'Please bring'.",
+          "Pasangkan article dengan frasa benda tunggal."
+        ],
+        "skill": "articles-a-an"
       }
     ],
     "intermediate": [
@@ -551,6 +1991,1446 @@
           "Lanjutkan dengan 'the better seat you get'."
         ],
         "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "I bought a notebook yesterday. ___ notebook has numbered pages.",
+        "options": [
+          "An",
+          "The",
+          "A"
+        ],
+        "answer": 1,
+        "explanation": "Penyebutan kedua ('notebook' yang sudah disebut sebelumnya) memakai 'The'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Do you have ___ spare adapter I can borrow?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Do you have ___ spare adapter I can borrow?"
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "the"
+        ],
+        "answer": 1,
+        "explanation": "Penyebutan umum ('a spare adapter' yang mana saja).",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"I read a article yesterday. A article was clear.\"",
+        "draft": "I read a article yesterday. A article was clear.",
+        "options": [
+          "I read a article yesterday. A article was clear.",
+          "I read an article yesterday. The article was clear.",
+          "I read an article yesterday. A article was clear."
+        ],
+        "answer": 1,
+        "explanation": "Penyebutan awal 'an article', penyebutan kedua 'The article'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please close ___ door behind you; it is noisy outside.",
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Kedua pembicara tahu pintu spesifik mana yang dimaksud -> 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: new · the · The).",
+        "targetSentence": "The new intern reviewed the monthly invoice carefully.",
+        "explanation": "Merujuk intern dan invoice spesifik dengan 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "There is ___ package on reception, and ___ package is for Maya.",
+        "options": [
+          "the / a",
+          "an / the",
+          "a / the"
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan pertama memakai 'a', penyebutan kedua merujuk spesifik memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Yes, take ___ black adapter on my desk.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Yes, take ___ black adapter on my desk."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Benda spesifik ('black adapter on my desk') memakai 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"She is a fastest runner on the track team.\"",
+        "draft": "She is a fastest runner on the track team.",
+        "options": [
+          "She is an fastest runner on the track team.",
+          "She is a fastest runner on the track team.",
+          "She is the fastest runner on the track team."
+        ],
+        "answer": 2,
+        "explanation": "Superlative 'fastest' wajib didahului 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you pass ___ stapler next to your keyboard?",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Bendanya spesifik ('next to your keyboard') sehingga memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Did you send ___ quarterly report to finance?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Did you send ___ quarterly report to finance?"
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Laporan spesifik yang sudah diketahui kedua pembicara -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Please turn off a projector when the class ends.\"",
+        "draft": "Please turn off a projector when the class ends.",
+        "options": [
+          "Please turn off the projector when the class ends.",
+          "Please turn off an projector when the class ends.",
+          "Please turn off a projector when the class ends."
+        ],
+        "answer": 0,
+        "explanation": "Proyektor spesifik di kelas memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: a · She · the).",
+        "targetSentence": "She booked a quiet room near the station.",
+        "explanation": "Kamar belum spesifik ('a'), stasiun sudah spesifik ('the').",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "She booked ___ hotel near the station. ___ hotel includes breakfast.",
+        "options": [
+          "the / A",
+          "an / The",
+          "a / The"
+        ],
+        "answer": 2,
+        "explanation": "Hotel disebut pertama kali ('a'), lalu dirujuk ulang ('The').",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Not yet, I am waiting for ___ updated table.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Not yet, I am waiting for ___ updated table."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "the"
+        ],
+        "answer": 0,
+        "explanation": "'updated' berawal bunyi vokal dan belum spesifik -> 'an'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"We stayed at the nice hotel; a hotel was quiet.\"",
+        "draft": "We stayed at the nice hotel; a hotel was quiet.",
+        "options": [
+          "We stayed at a nice hotel; the hotel was quiet.",
+          "We stayed at an nice hotel; the hotel was quiet.",
+          "We stayed at the nice hotel; a hotel was quiet."
+        ],
+        "answer": 0,
+        "explanation": "Pertama kali disebut memakai 'a', penyebutan kedua 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ sun rises early during summer months.",
+        "options": [
+          "The",
+          "A",
+          "An"
+        ],
+        "answer": 0,
+        "explanation": "Benda unik di alam semesta ('sun') memakai 'The'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Where is ___ key to the storage cabinet?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Where is ___ key to the storage cabinet?"
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Kunci spesifik lemari penyimpanan -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Read a second page carefully before signing.\"",
+        "draft": "Read a second page carefully before signing.",
+        "options": [
+          "Read the second page carefully before signing.",
+          "Read an second page carefully before signing.",
+          "Read a second page carefully before signing."
+        ],
+        "answer": 0,
+        "explanation": "Bilangan bertingkat 'second' memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please read ___ third paragraph of the memo.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Bilangan bertingkat (ordinal: first, second, third) memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: of · the · the).",
+        "targetSentence": "Please read the third paragraph of the report.",
+        "explanation": "Ordinal 'third' dan report spesifik memakai 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "This is ___ fastest route to the airport.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk superlative ('fastest') selalu didahului 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / It is in ___ top drawer of the desk.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "It is in ___ top drawer of the desk."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "'the top drawer' merujuk laci paling atas yang spesifik.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"A moon looked remarkably clear last night.\"",
+        "draft": "A moon looked remarkably clear last night.",
+        "options": [
+          "The moon looked remarkably clear last night.",
+          "An moon looked remarkably clear last night.",
+          "A moon looked remarkably clear last night."
+        ],
+        "answer": 0,
+        "explanation": "Benda unik ('moon') memakai 'The'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "We hired ___ engineer. ___ engineer starts next Monday.",
+        "options": [
+          "a / The",
+          "an / The",
+          "the / An"
+        ],
+        "answer": 1,
+        "explanation": "'engineer' berawal bunyi vokal -> 'an'; penyebutan kedua -> 'The'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: is · to · the).",
+        "targetSentence": "This is the fastest route to the terminal.",
+        "explanation": "Superlative 'fastest' dan terminal tujuan memakai 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at ___ whiteboard; the agenda is written there.",
+        "options": [
+          "an",
+          "the",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Papan tulis spesifik di ruang kelas/rapat memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Who won ___ first prize in the design contest?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Who won ___ first prize in the design contest?"
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Bilangan bertingkat 'first' memakai 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Pass me a blue folder sitting on your chair.\"",
+        "draft": "Pass me a blue folder sitting on your chair.",
+        "options": [
+          "Pass me the blue folder sitting on your chair.",
+          "Pass me an blue folder sitting on your chair.",
+          "Pass me a blue folder sitting on your chair."
+        ],
+        "answer": 0,
+        "explanation": "Folder sudah diidentifikasi spesifik ('sitting on your chair') -> 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ordered ___ espresso and ___ croissant; ___ espresso was hot.",
+        "options": [
+          "the / a / an",
+          "an / a / the",
+          "a / an / a"
+        ],
+        "answer": 1,
+        "explanation": "Penyebutan awal 'an/a', lalu merujuk kembali espresso spesifik memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / A junior team from ___ architecture school in Surabaya.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "A junior team from ___ architecture school in Surabaya."
+          ]
+        ],
+        "options": [
+          "the",
+          "an",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "'architecture' berawal bunyi vokal dan belum spesifik sebelumnya -> 'an'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"He sent me an email. An email had two files.\"",
+        "draft": "He sent me an email. An email had two files.",
+        "options": [
+          "He sent me an email. The email had two files.",
+          "He sent me a email. The email had two files.",
+          "He sent me an email. An email had two files."
+        ],
+        "answer": 0,
+        "explanation": "Penyebutan kedua dari 'an email' memakai 'The email'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: a · He · and).",
+        "targetSentence": "He bought a laptop and the charger worked.",
+        "explanation": "Penyebutan pertama 'a', penyebutan charger spesifik 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who is ___ director of the finance department?",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Jabatan tunggal spesifik di departemen memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / She works at ___ international agency downtown.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "She works at ___ international agency downtown."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "the"
+        ],
+        "answer": 0,
+        "explanation": "'international' diawali bunyi vokal -> 'an'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"That was a most informative session today.\"",
+        "draft": "That was a most informative session today.",
+        "options": [
+          "That was an most informative session today.",
+          "That was a most informative session today.",
+          "That was the most informative session today."
+        ],
+        "answer": 2,
+        "explanation": "Superlative 'most informative' membutuhkan 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "I lost ___ USB drive I borrowed from you.",
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "'USB drive' sudah spesifik ('I borrowed from you') sehingga memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Is that ___ agency near the city library?\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Is that ___ agency near the city library?"
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Merujuk agensi yang baru saja disebut -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Check a battery icon on the top right corner.\"",
+        "draft": "Check a battery icon on the top right corner.",
+        "options": [
+          "Check the battery icon on the top right corner.",
+          "Check an battery icon on the top right corner.",
+          "Check a battery icon on the top right corner."
+        ],
+        "answer": 0,
+        "explanation": "Ikon spesifik pada layar memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "She works at ___ clinic on Oak Street. ___ clinic opens at 7.",
+        "options": [
+          "the / A",
+          "an / The",
+          "a / The"
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan awal 'a clinic', lalu spesifik 'The clinic'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: off · the · the).",
+        "targetSentence": "Turn off the projector after the afternoon briefing.",
+        "explanation": "Benda spesifik di ruang rapat memakai 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Turn off ___ lights when leaving the lab.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Lampu spesifik di ruangan lab memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Please turn down ___ volume on the speaker.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Please turn down ___ volume on the speaker."
+          ]
+        ],
+        "options": [
+          "an",
+          "the",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Volume pada speaker tertentu -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Can you open a window right behind you?\"",
+        "draft": "Can you open a window right behind you?",
+        "options": [
+          "Can you open the window right behind you?",
+          "Can you open an window right behind you?",
+          "Can you open a window right behind you?"
+        ],
+        "answer": 0,
+        "explanation": "Jendela spesifik ('right behind you') memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "That was ___ best workshop of the semester.",
+        "options": [
+          "an",
+          "the",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Superlative 'best' wajib didahului 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: An · the · annual).",
+        "targetSentence": "An experienced auditor checked the annual financial records.",
+        "explanation": "'An' untuk penyebutan umum, 'the' untuk catatan spesifik.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "We saw ___ empty desk in ___ corner of the hall.",
+        "options": [
+          "an / the",
+          "a / a",
+          "the / a"
+        ],
+        "answer": 0,
+        "explanation": "'empty desk' tidak spesifik ('an'); 'the corner of the hall' spesifik ('the').",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Sure, let me grab ___ remote on the shelf.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Sure, let me grab ___ remote on the shelf."
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Remote spesifik di rak -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"This is a best hotel price we found online.\"",
+        "draft": "This is a best hotel price we found online.",
+        "options": [
+          "This is an best hotel price we found online.",
+          "This is a best hotel price we found online.",
+          "This is the best hotel price we found online."
+        ],
+        "answer": 2,
+        "explanation": "Superlative 'best' memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Send me ___ link to the recording from Friday.",
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Tautan rekaman spesifik dari hari Jumat memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / We need ___ quiet table to discuss the draft.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "We need ___ quiet table to discuss the draft."
+          ]
+        ],
+        "options": [
+          "an",
+          "a",
+          "the"
+        ],
+        "answer": 1,
+        "explanation": "Meja tenang yang mana saja (tidak spesifik) -> 'a'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"She bought a umbrella and the raincoat; a umbrella is blue.\"",
+        "draft": "She bought a umbrella and the raincoat; a umbrella is blue.",
+        "options": [
+          "She bought an umbrella and a raincoat; the umbrella is blue.",
+          "She bought a umbrella and a raincoat; a umbrella is blue.",
+          "She bought a umbrella and the raincoat; a umbrella is blue."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan 'an umbrella' pada penyebutan pertama dan 'the umbrella' pada penyebutan kedua.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: Can · the · you).",
+        "targetSentence": "Can you pass the blue folder beside you?",
+        "explanation": "Objek spesifik didefinisikan posisinya -> 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you check ___ battery level on the tablet?",
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Merujuk level baterai spesifik pada tablet itu -> 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Let's sit at ___ corner booth by the window.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Let's sit at ___ corner booth by the window."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Booth spesifik di sudut dekat jendela -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"We met at a main entrance of the museum.\"",
+        "draft": "We met at a main entrance of the museum.",
+        "options": [
+          "We met at the main entrance of the museum.",
+          "We met at an main entrance of the museum.",
+          "We met at a main entrance of the museum."
+        ],
+        "answer": 0,
+        "explanation": "Pintu masuk utama spesifik museum memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch needs ___ new printer because ___ old one broke.",
+        "options": [
+          "the / a",
+          "an / the",
+          "a / the"
+        ],
+        "answer": 2,
+        "explanation": "'a new printer' umum; 'the old one' merujuk printer lama yang spesifik.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / What was ___ best part of the training?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "What was ___ best part of the training?"
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Superlative 'best' selalu memakai 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Sign on a dotted line at the bottom.\"",
+        "draft": "Sign on a dotted line at the bottom.",
+        "options": [
+          "Sign on the dotted line at the bottom.",
+          "Sign on an dotted line at the bottom.",
+          "Sign on a dotted line at the bottom."
+        ],
+        "answer": 0,
+        "explanation": "Garis titik-titik spesifik pada formulir memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please sign at ___ bottom of page two.",
+        "options": [
+          "an",
+          "the",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Frasa posisi spesifik 'at the bottom of' memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: sun · the · The).",
+        "targetSentence": "The sun shines brightly over the southern harbor.",
+        "explanation": "Benda unik ('The sun') dan pelabuhan spesifik ('the').",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "He found ___ umbrella near ___ main entrance.",
+        "options": [
+          "the / an",
+          "an / the",
+          "a / a"
+        ],
+        "answer": 1,
+        "explanation": "'an umbrella' (pertama disebut), 'the main entrance' (pintu utama yang spesifik).",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Honestly, ___ hands-on group exercise at the end.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Honestly, ___ hands-on group exercise at the end."
+          ]
+        ],
+        "options": [
+          "the",
+          "an",
+          "a"
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan baru hal umum -> 'a'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Look at a chart on page five.\"",
+        "draft": "Look at a chart on page five.",
+        "options": [
+          "Look at a chart on page five.",
+          "Look at the chart on page five.",
+          "Look at an chart on page five."
+        ],
+        "answer": 1,
+        "explanation": "Bagan spesifik di halaman lima memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Let's meet at ___ cafe across from our office.",
+        "options": [
+          "an",
+          "the",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Lokasi didefinisikan jelas ('across from our office') -> 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: a · We · the).",
+        "targetSentence": "We found a seat near the emergency exit.",
+        "explanation": "Kursi acak ('a seat'), pintu keluar spesifik ('the emergency exit').",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is ___ elevator on the left working today?",
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Lift spesifik ('on the left') memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Did the clinic hire ___ experienced nurse?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Did the clinic hire ___ experienced nurse?"
+          ]
+        ],
+        "options": [
+          "a",
+          "the",
+          "an"
+        ],
+        "answer": 2,
+        "explanation": "'experienced' diawali bunyi vokal /ɪ/ -> 'an'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"He ordered a sandwich. A sandwich tasted fresh.\"",
+        "draft": "He ordered a sandwich. A sandwich tasted fresh.",
+        "options": [
+          "He ordered the sandwich. A sandwich tasted fresh.",
+          "He ordered a sandwich. A sandwich tasted fresh.",
+          "He ordered a sandwich. The sandwich tasted fresh."
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan kedua memakai 'The sandwich'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "She gave me ___ useful tip; ___ tip saved me an hour.",
+        "options": [
+          "the / a",
+          "a / the",
+          "an / a"
+        ],
+        "answer": 1,
+        "explanation": "'a useful tip' (awal bunyi /j/) lalu penyebutan kedua 'the tip'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Yes, ___ nurse starts next Tuesday.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Yes, ___ nurse starts next Tuesday."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan kedua ('nurse' yang baru dibahas) -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"I visited a new branch; a branch is huge.\"",
+        "draft": "I visited a new branch; a branch is huge.",
+        "options": [
+          "I visited the new branch; a branch is huge.",
+          "I visited a new branch; a branch is huge.",
+          "I visited a new branch; the branch is huge."
+        ],
+        "answer": 2,
+        "explanation": "Penyebutan kedua merujuk kembali cabang tersebut -> 'the branch'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: me · to · the).",
+        "targetSentence": "Send me the link to the recorded lecture.",
+        "explanation": "Tautan rekaman spesifik memakai 'the'.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "We climbed to ___ top of the observatory.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "'the top of' merujuk titik puncak spesifik -> 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Could you close ___ blinds on the east window?\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Budi",
+            "Could you close ___ blinds on the east window?"
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Tirai spesifik di jendela timur -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Who is a lead engineer on Project Alpha?\"",
+        "draft": "Who is a lead engineer on Project Alpha?",
+        "options": [
+          "Who is the lead engineer on Project Alpha?",
+          "Who is an lead engineer on Project Alpha?",
+          "Who is a lead engineer on Project Alpha?"
+        ],
+        "answer": 0,
+        "explanation": "Posisi tunggal spesifik pada proyek tertentu memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "I need ___ pen—any pen will do.",
+        "options": [
+          "a",
+          "the",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "Pen mana saja (tidak spesifik) memakai 'a'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan article a / an / the yang tepat: \"Let's check the details before we begin. / Done! Now ___ screen is much easier to read.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Let's check the details before we begin."
+          ],
+          [
+            "Rina",
+            "Done! Now ___ screen is much easier to read."
+          ]
+        ],
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Layar proyektor spesifik di ruangan itu -> 'the'.",
+        "hints": [
+          "Tanyakan apakah pendengar sudah tahu benda spesifik mana yang dimaksud.",
+          "Jika sudah jelas/unik/disebut ulang, pilih 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan article (a / an / the) dalam kalimat berikut: \"Please replace a ink cartridge in Printer 2.\"",
+        "draft": "Please replace a ink cartridge in Printer 2.",
+        "options": [
+          "Please replace an ink cartridge in Printer 2.",
+          "Please replace a ink cartridge in Printer 2.",
+          "Please replace the ink cartridge in Printer 2."
+        ],
+        "answer": 2,
+        "explanation": "Kartrid spesifik di Printer 2 memakai 'the'.",
+        "hints": [
+          "Cek apakah benda sudah spesifik atau merupakan penyebutan kedua.",
+          "Gunakan 'the' untuk superlative dan bilangan bertingkat."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Read ___ first chapter before Wednesday's seminar.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Ordinal 'first' wajib memakai 'the'.",
+        "hints": [
+          "Bedakan penyebutan pertama (a/an) dan penyebutan kedua/spesifik (the).",
+          "Superlative dan bilangan bertingkat memakai 'the'."
+        ],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini dengan penempatan article 'a / an / the' yang tepat (8 kata; fokus: of · the · the). — That was the best presen",
+        "targetSentence": "That was the best presentation of the workshop.",
+        "explanation": "Superlative 'the best' dan workshop spesifik.",
+        "hints": [
+          "Letakkan article tepat sebelum noun phrase-nya.",
+          "Superlative dan benda spesifik memakai 'the'."
+        ],
+        "skill": "articles-the"
       }
     ],
     "complex": [
@@ -834,6 +3714,1446 @@
           "Gunakan frasa kolektif 'the unemployed'."
         ],
         "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ information travels rapidly across digital networks.",
+        "options": [
+          "An",
+          "Ø (tanpa article)",
+          "The"
+        ],
+        "answer": 1,
+        "explanation": "Pernyataan umum tentang uncountable noun 'information' tidak memakai article (zero article).",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ information travels rapidly across digital networks.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "___ information travels rapidly across digital networks."
+          ]
+        ],
+        "options": [
+          "An",
+          "Ø (tanpa article)",
+          "The"
+        ],
+        "answer": 1,
+        "explanation": "Pernyataan umum tentang uncountable noun 'information' tidak memakai article (zero article).",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The information is valuable in modern business.\"",
+        "draft": "The information is valuable in modern business.",
+        "options": [
+          "Information is valuable in modern business.",
+          "An information is valuable in modern business.",
+          "The information is valuable in modern business."
+        ],
+        "answer": 0,
+        "explanation": "Pernyataan umum dengan uncountable noun 'information' memakai zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ information in yesterday's audit was incomplete.",
+        "options": [
+          "An",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Karena dibatasi spesifik ('in yesterday's audit'), gunakan 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (7 kata; fokus: across · global · digital).",
+        "targetSentence": "Information travels rapidly across global digital networks.",
+        "explanation": "Uncountable umum 'Information' memakai zero article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ electric buses reduce urban air pollution.",
+        "options": [
+          "The",
+          "A",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Plural noun untuk generalisasi umum tidak memakai article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ information in yesterday's audit was incomplete.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ information in yesterday's audit was incomplete."
+          ]
+        ],
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "An"
+        ],
+        "answer": 0,
+        "explanation": "Karena dibatasi spesifik ('in yesterday's audit'), gunakan 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"She goes to the university by the bus daily.\"",
+        "draft": "She goes to the university by the bus daily.",
+        "options": [
+          "She goes to university by bus daily.",
+          "She goes to a university by a bus daily.",
+          "She goes to the university by the bus daily."
+        ],
+        "answer": 0,
+        "explanation": "'go to university' (belajar) dan 'by bus' memakai zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ electric buses on Route 4 run until midnight.",
+        "options": [
+          "A",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Dibuat spesifik dengan 'on Route 4', sehingga memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ electric buses reduce urban air pollution.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "___ electric buses reduce urban air pollution."
+          ]
+        ],
+        "options": [
+          "The",
+          "A",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Plural noun untuk generalisasi umum tidak memakai article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The patience helps teachers support young learners.\"",
+        "draft": "The patience helps teachers support young learners.",
+        "options": [
+          "The patience helps teachers support young learners.",
+          "Patience helps teachers support young learners.",
+          "A patience helps teachers support young learners."
+        ],
+        "answer": 1,
+        "explanation": "Kata benda abstrak umum 'Patience' tidak memakai article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (7 kata; fokus: in · The · was).",
+        "targetSentence": "The information in yesterday's audit was incomplete.",
+        "explanation": "Spesifik ('in yesterday's audit') wajib memakai 'The'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Staff members need ___ clear safety equipment.",
+        "options": [
+          "Ø (tanpa article)",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explanation": "'Equipment' uncountable dan bermakna umum -> tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ electric buses on Route 4 run until midnight.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ electric buses on Route 4 run until midnight."
+          ]
+        ],
+        "options": [
+          "A",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Dibuat spesifik dengan 'on Route 4', sehingga memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"We usually eat the lunch in the cafeteria.\"",
+        "draft": "We usually eat the lunch in the cafeteria.",
+        "options": [
+          "We usually eat lunch in the cafeteria.",
+          "We usually eat a lunch in the cafeteria.",
+          "We usually eat the lunch in the cafeteria."
+        ],
+        "answer": 0,
+        "explanation": "Nama waktu makan umum 'lunch' tidak memakai article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ equipment in Laboratory B requires calibration.",
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "An"
+        ],
+        "answer": 0,
+        "explanation": "Peralatan spesifik ('in Laboratory B') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / Staff members need ___ clear safety equipment.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "Staff members need ___ clear safety equipment."
+          ]
+        ],
+        "options": [
+          "an",
+          "Ø (tanpa article)",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "'Equipment' uncountable dan bermakna umum -> tanpa article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The water is essential for all living organisms.\"",
+        "draft": "The water is essential for all living organisms.",
+        "options": [
+          "The water is essential for all living organisms.",
+          "Water is essential for all living organisms.",
+          "A water is essential for all living organisms."
+        ],
+        "answer": 1,
+        "explanation": "Pernyataan umum ilmiah memakai zero article 'Water'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "She travels to work by ___ train every weekday.",
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Pola sarana transportasi umum 'by + transport' (by train/bus/plane) tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: by · bus · Most).",
+        "targetSentence": "Most university students commute by public bus daily.",
+        "explanation": "'by public bus' memakai zero article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you usually eat ___ breakfast before seven?",
+        "options": [
+          "a",
+          "Ø (tanpa article)",
+          "the"
+        ],
+        "answer": 1,
+        "explanation": "Nama waktu makan umum (breakfast, lunch, dinner) tidak memakai article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ equipment in Laboratory B requires calibration.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ equipment in Laboratory B requires calibration."
+          ]
+        ],
+        "options": [
+          "Ø (tanpa article)",
+          "An",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "Peralatan spesifik ('in Laboratory B') memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"He sent me an useful advice about interviews.\"",
+        "draft": "He sent me an useful advice about interviews.",
+        "options": [
+          "He sent me an useful advice about interviews.",
+          "He sent me useful advice about interviews.",
+          "He sent me a useful advice about interviews."
+        ],
+        "answer": 1,
+        "explanation": "'Advice' adalah uncountable noun sehingga tidak boleh memakai 'a/an'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ breakfast served at that hotel was delicious.",
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Sarapan spesifik ('served at that hotel') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: for · Clean · rural).",
+        "targetSentence": "Clean water remains vital for rural health clinics.",
+        "explanation": "Substansi umum 'Clean water' tanpa article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Students attend ___ university to build research skills.",
+        "options": [
+          "a",
+          "Ø (tanpa article)",
+          "the"
+        ],
+        "answer": 1,
+        "explanation": "Merujuk fungsi institusi secara umum (attend university/go to school/in hospital) -> tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / She travels to work by ___ train every weekday.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "She travels to work by ___ train every weekday."
+          ]
+        ],
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Pola sarana transportasi umum 'by + transport' (by train/bus/plane) tanpa article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The equipment are very expensive to replace.\"",
+        "draft": "The equipment are very expensive to replace.",
+        "options": [
+          "An equipment is very expensive to replace.",
+          "The equipment are very expensive to replace.",
+          "Equipment is very expensive to replace."
+        ],
+        "answer": 2,
+        "explanation": "'Equipment' uncountable tunggal dan bermakna umum tanpa article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Visitors parked near ___ university across the bridge.",
+        "options": [
+          "Ø (tanpa article)",
+          "an",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Merujuk gedung fisik kampus spesifik -> pakai 'the'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / Do you usually eat ___ breakfast before seven?\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "Do you usually eat ___ breakfast before seven?"
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Nama waktu makan umum (breakfast, lunch, dinner) tidak memakai article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"They studied the biology at high school.\"",
+        "draft": "They studied the biology at high school.",
+        "options": [
+          "They studied the biology at high school.",
+          "They studied biology at high school.",
+          "They studied a biology at high school."
+        ],
+        "answer": 1,
+        "explanation": "Nama mata pelajaran umum tidak memakai article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: B · in · The).",
+        "targetSentence": "The equipment in Laboratory B requires weekly calibration.",
+        "explanation": "Dibatasi lokasi spesifik -> 'The equipment'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ patience is essential when training new interns.",
+        "options": [
+          "A",
+          "Ø (tanpa article)",
+          "The"
+        ],
+        "answer": 1,
+        "explanation": "Konsep abstrak umum ('patience') tidak memakai article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ breakfast served at that hotel was delicious.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "___ breakfast served at that hotel was delicious."
+          ]
+        ],
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Sarapan spesifik ('served at that hotel') memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The dogs are loyal companions for families.\"",
+        "draft": "The dogs are loyal companions for families.",
+        "options": [
+          "The dogs are loyal companions for families.",
+          "Dogs are loyal companions for families.",
+          "A dogs are loyal companions for families."
+        ],
+        "answer": 1,
+        "explanation": "Generalisasi plural noun 'Dogs' memakai zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ advice she gave me saved the whole project.",
+        "options": [
+          "Ø (tanpa article)",
+          "An",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "Nasihat spesifik ('she gave me') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / Students attend ___ university to build research skills.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "Students attend ___ university to build research skills."
+          ]
+        ],
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Merujuk fungsi institusi secara umum (attend university/go to school/in hospital) -> tanpa article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"I never drink a coffee after six in evening.\"",
+        "draft": "I never drink a coffee after six in evening.",
+        "options": [
+          "I never drink a coffee after six in evening.",
+          "I never drink coffee after six in the evening.",
+          "I never drink the coffee after six in evening."
+        ],
+        "answer": 1,
+        "explanation": "'coffee' umum tanpa article, sedangkan 'in the evening' memakai 'the'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "We rarely receive ___ feedback after online forms.",
+        "options": [
+          "a",
+          "the",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "'Feedback' uncountable umum tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: and · help · guide).",
+        "targetSentence": "Patience and clarity help instructors guide beginners effectively.",
+        "explanation": "Konsep abstrak umum tanpa article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ feedback from Friday's seminar was encouraging.",
+        "options": [
+          "Ø (tanpa article)",
+          "A",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "Umpan balik spesifik ('from Friday's seminar') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / Visitors parked near ___ university across the bridge.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "Visitors parked near ___ university across the bridge."
+          ]
+        ],
+        "options": [
+          "an",
+          "the",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Merujuk gedung fisik kampus spesifik -> pakai 'the'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"She climbed the Mount Rinjani last August.\"",
+        "draft": "She climbed the Mount Rinjani last August.",
+        "options": [
+          "She climbed the Mount Rinjani last August.",
+          "She climbed Mount Rinjani last August.",
+          "She climbed a Mount Rinjani last August."
+        ],
+        "answer": 1,
+        "explanation": "Nama puncak gunung tunggal tidak memakai 'the'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "He speaks ___ Japanese fluently at client meetings.",
+        "options": [
+          "a",
+          "Ø (tanpa article)",
+          "the"
+        ],
+        "answer": 1,
+        "explanation": "Nama bahasa tanpa kata 'language' tidak memakai article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: The · from · very).",
+        "targetSentence": "The feedback from Friday's workshop sounded very encouraging.",
+        "explanation": "Feedback spesifik -> 'The feedback'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "They discussed ___ history during the afternoon lecture.",
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Mata pelajaran atau bidang akademik umum tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ patience is essential when training new interns.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ patience is essential when training new interns."
+          ]
+        ],
+        "options": [
+          "A",
+          "Ø (tanpa article)",
+          "The"
+        ],
+        "answer": 1,
+        "explanation": "Konsep abstrak umum ('patience') tidak memakai article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"We discussed the climate change in general terms.\"",
+        "draft": "We discussed the climate change in general terms.",
+        "options": [
+          "We discussed climate change in general terms.",
+          "We discussed a climate change in general terms.",
+          "We discussed the climate change in general terms."
+        ],
+        "answer": 0,
+        "explanation": "Konsep umum 'climate change' tidak memakai article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ history of coastal trade shaped this port city.",
+        "options": [
+          "A",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Karena dispesifikkan ('of coastal trade'), gunakan 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ advice she gave me saved the whole project.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "___ advice she gave me saved the whole project."
+          ]
+        ],
+        "options": [
+          "Ø (tanpa article)",
+          "An",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "Nasihat spesifik ('she gave me') memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The happiness cannot be measured by salary alone.\"",
+        "draft": "The happiness cannot be measured by salary alone.",
+        "options": [
+          "A happiness cannot be measured by salary alone.",
+          "The happiness cannot be measured by salary alone.",
+          "Happiness cannot be measured by salary alone."
+        ],
+        "answer": 2,
+        "explanation": "Abstrak umum 'Happiness' memakai zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (7 kata; fokus: via · email. · urgent).",
+        "targetSentence": "Colleagues usually discuss urgent updates via email.",
+        "explanation": "'via email' tanpa article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Clean ___ water is vital for rural clinics.",
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Substansi umum ('Clean water') tidak memakai article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / We rarely receive ___ feedback after online forms.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "We rarely receive ___ feedback after online forms."
+          ]
+        ],
+        "options": [
+          "a",
+          "the",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "'Feedback' uncountable umum tanpa article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"Drivers should rest at the night on long trips.\"",
+        "draft": "Drivers should rest at the night on long trips.",
+        "options": [
+          "Drivers should rest at night on long trips.",
+          "Drivers should rest at a night on long trips.",
+          "Drivers should rest at the night on long trips."
+        ],
+        "answer": 0,
+        "explanation": "Ekspresi baku adalah 'at night' tanpa article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ water in this flask contains dissolved minerals.",
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Air spesifik ('in this flask') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ feedback from Friday's seminar was encouraging.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "___ feedback from Friday's seminar was encouraging."
+          ]
+        ],
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Umpan balik spesifik ('from Friday's seminar') memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"Did you bring a luggage for the two-day trip?\"",
+        "draft": "Did you bring a luggage for the two-day trip?",
+        "options": [
+          "Did you bring a luggage for the two-day trip?",
+          "Did you bring luggage for the two-day trip?",
+          "Did you bring luggages for the two-day trip?"
+        ],
+        "answer": 1,
+        "explanation": "'Luggage' uncountable sehingga tidak memakai 'a' atau '-s'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Most commuters go home at ___ night after shifts.",
+        "options": [
+          "the",
+          "a",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Ekspresi tetap 'at night' tanpa article (berbeda dengan 'in the morning').",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: in · buses · noise).",
+        "targetSentence": "Electric buses reduce noise pollution in crowded cities.",
+        "explanation": "Generalisasi jamak tanpa article.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ passengers on Flight 204 boarded on time.",
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Penumpang spesifik ('on Flight 204') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / He speaks ___ Japanese fluently at client meetings.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "He speaks ___ Japanese fluently at client meetings."
+          ]
+        ],
+        "options": [
+          "Ø (tanpa article)",
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "Nama bahasa tanpa kata 'language' tidak memakai article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The Japanese is taught in this language center.\"",
+        "draft": "The Japanese is taught in this language center.",
+        "options": [
+          "A Japanese is taught in this language center.",
+          "The Japanese is taught in this language center.",
+          "Japanese is taught in this language center."
+        ],
+        "answer": 2,
+        "explanation": "Nama bahasa secara umum tidak memakai 'the'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ passengers generally prefer direct flights.",
+        "options": [
+          "The",
+          "A",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Generalisasi seluruh penumpang secara umum memakai zero article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: at · our · The).",
+        "targetSentence": "The breakfast served at our hotel included fruit.",
+        "explanation": "Sarapan spesifik -> 'The breakfast'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our team communicates via ___ email for audit trails.",
+        "options": [
+          "an",
+          "the",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Pola 'via email / by email' sebagai media umum tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / They discussed ___ history during the afternoon lecture.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "They discussed ___ history during the afternoon lecture."
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Mata pelajaran atau bidang akademik umum tanpa article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"Students gained an experience during summer internships.\"",
+        "draft": "Students gained an experience during summer internships.",
+        "options": [
+          "Students gained experience during summer internships.",
+          "Students gained a experience during summer internships.",
+          "Students gained an experience during summer internships."
+        ],
+        "answer": 0,
+        "explanation": "'Experience' (pengalaman kerja secara umum) uncountable tanpa 'a/an'.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ coffee keeps many researchers awake late.",
+        "options": [
+          "A",
+          "Ø (tanpa article)",
+          "The"
+        ],
+        "answer": 1,
+        "explanation": "Minuman secara umum ('coffee') memakai zero article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ history of coastal trade shaped this port city.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ history of coastal trade shaped this port city."
+          ]
+        ],
+        "options": [
+          "A",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Karena dispesifikkan ('of coastal trade'), gunakan 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The technology evolves rapidly across industries.\"",
+        "draft": "The technology evolves rapidly across industries.",
+        "options": [
+          "A technology evolves rapidly across industries.",
+          "The technology evolves rapidly across industries.",
+          "Technology evolves rapidly across industries."
+        ],
+        "answer": 2,
+        "explanation": "Konsep umum 'Technology' tidak memakai article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: Good · avoid · helps).",
+        "targetSentence": "Good advice helps young analysts avoid costly mistakes.",
+        "explanation": "Uncountable 'Good advice' tanpa 'a/an'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ coffee on the meeting table is already cold.",
+        "options": [
+          "The",
+          "Ø (tanpa article)",
+          "A"
+        ],
+        "answer": 0,
+        "explanation": "Kopi spesifik di meja rapat memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / Clean ___ water is vital for rural clinics.\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Trainer",
+            "Clean ___ water is vital for rural clinics."
+          ]
+        ],
+        "options": [
+          "the",
+          "a",
+          "Ø (tanpa article)"
+        ],
+        "answer": 2,
+        "explanation": "Substansi umum ('Clean water') tidak memakai article.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"Our company ships parcels by the air freight.\"",
+        "draft": "Our company ships parcels by the air freight.",
+        "options": [
+          "Our company ships parcels by an air freight.",
+          "Our company ships parcels by the air freight.",
+          "Our company ships parcels by air freight."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'by' untuk moda pengiriman/transportasi, gunakan zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many companies invest in ___ renewable energy.",
+        "options": [
+          "the",
+          "Ø (tanpa article)",
+          "a"
+        ],
+        "answer": 1,
+        "explanation": "Konsep energi terbarukan secara umum tanpa article.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih penggunaan zero article (Ø) atau 'the' yang tepat dalam dialog: \"Let's review this sentence for the newsletter. / ___ water in this flask contains dissolved minerals.\"",
+        "dialogue": [
+          [
+            "Trainer",
+            "Let's review this sentence for the newsletter."
+          ],
+          [
+            "Analyst",
+            "___ water in this flask contains dissolved minerals."
+          ]
+        ],
+        "options": [
+          "A",
+          "The",
+          "Ø (tanpa article)"
+        ],
+        "answer": 1,
+        "explanation": "Air spesifik ('in this flask') memakai 'The'.",
+        "hints": [
+          "Amati apakah ada frasa penjelas spesifik setelah kata benda.",
+          "Generalisasi plural/uncountable tidak memakai 'the'."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan zero article / uncountable noun pada kalimat berikut: \"The research shows that sleep improves memory.\"",
+        "draft": "The research shows that sleep improves memory.",
+        "options": [
+          "The research shows that sleep improves memory.",
+          "Research shows that sleep improves memory.",
+          "A research shows that sleep improves memory."
+        ],
+        "answer": 1,
+        "explanation": "Pernyataan umum dengan uncountable 'Research' memakai zero article.",
+        "hints": [
+          "Hapus 'a/an/the' sebelum uncountable atau generalisasi umum.",
+          "Perhatikan ekspresi baku seperti at night, by bus, eat lunch."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ software we installed yesterday runs smoothly.",
+        "options": [
+          "Ø (tanpa article)",
+          "A",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "Perangkat lunak spesifik ('we installed yesterday') memakai 'The'.",
+        "hints": [
+          "Cek apakah kata benda bermakna umum (zero article) atau dibatasi frasa spesifik (the).",
+          "Perhatikan uncountable noun dan ekspresi tetap seperti by train / at night."
+        ],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berikut dengan aturan zero article dan 'the' yang tepat (8 kata; fokus: of · The · this).",
+        "targetSentence": "The history of maritime trade shaped this region.",
+        "explanation": "Dibatasi 'of maritime trade' -> 'The history'.",
+        "hints": [
+          "Generalisasi abstrak/plural tidak memakai article.",
+          "Tambahkan 'the' hanya jika ada pembatas spesifik."
+        ],
+        "skill": "articles-zero"
       }
     ]
   }

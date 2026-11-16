@@ -261,6 +261,1446 @@
           "Verb dasar setelah subjek adalah 'accept'."
         ],
         "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is the regional training center located?",
+        "options": [
+          "Where",
+          "Who",
+          "When"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan tempat/lokasi memakai 'Where'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Usually at seven thirty sharp.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "___ does our morning shift start?"
+          ],
+          [
+            "Dodi",
+            "Usually at seven thirty sharp."
+          ]
+        ],
+        "options": [
+          "Where",
+          "What time",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan jam -> 'What time'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Where you work in this large campus?\"",
+        "draft": "Where you work in this large campus?",
+        "options": [
+          "Where are you work on this large campus?",
+          "Where you work in this large campus?",
+          "Where do you work on this large campus?"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat tanya dengan verb aksi 'work' wajib memakai auxiliary 'do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ does the morning seminar begin tomorrow?",
+        "options": [
+          "Where",
+          "What time",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan jam mulai acara memakai 'What time' / 'When'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Di mana lokasi pusat pelatihan wilayah itu berada?\".",
+        "targetSentence": "Where is the regional training center located?",
+        "explanation": "Wh-word + is + subject + adjective/participle.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is chairing this afternoon's budget call?",
+        "options": [
+          "Where",
+          "Who",
+          "What"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan orang sebagai subjek memakai 'Who'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Ms. Sari holds all the spare keys.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "___ is responsible for Room 4 keys?"
+          ],
+          [
+            "Bima",
+            "Ms. Sari holds all the spare keys."
+          ]
+        ],
+        "options": [
+          "How",
+          "Who",
+          "Where"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan orang penanggung jawab -> 'Who'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is she like strong black coffee?\"",
+        "draft": "Is she like strong black coffee?",
+        "options": [
+          "Do she like strong black coffee?",
+          "Is she like strong black coffee?",
+          "Does she like strong black coffee?"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'like' memakai auxiliary 'Does', bukan 'Is'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did you store the extra printer cartridges?",
+        "options": [
+          "Why",
+          "Where",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan tempat penyimpanan memakai 'Where'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Drop them inside Tray B at Reception.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "___ do the interns submit daily forms?"
+          ],
+          [
+            "Eko",
+            "Drop them inside Tray B at Reception."
+          ]
+        ],
+        "options": [
+          "How old",
+          "Where",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan tempat pengumpulan -> 'Where'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does the interns ready for the workshop?\"",
+        "draft": "Does the interns ready for the workshop?",
+        "options": [
+          "Does the interns ready for the workshop?",
+          "Are the interns ready for the workshop?",
+          "Do the interns ready for the workshop?"
+        ],
+        "answer": 1,
+        "explanation": "'Ready' adalah adjective -> gunakan 'Are', bukan 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jam berapa seminar pagi besok dimulai?\".",
+        "targetSentence": "What time does tomorrow's morning seminar start?",
+        "explanation": "What time + does + subject + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ are those technicians wearing bright helmets?",
+        "options": [
+          "Who",
+          "Where",
+          "Why"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan alasan memakai 'Why'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Twenty-five sets will be enough.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "___ many copies should I print today?"
+          ],
+          [
+            "Sari",
+            "Twenty-five sets will be enough."
+          ]
+        ],
+        "options": [
+          "What",
+          "Which",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan jumlah terhitung -> 'How many'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many coffee do we have left?\"",
+        "draft": "How many coffee do we have left?",
+        "options": [
+          "How many coffee do we have left?",
+          "How much coffee do we have left?",
+          "How many coffees do we have left?"
+        ],
+        "answer": 1,
+        "explanation": "'Coffee' uncountable memakai 'How much'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ many laptops do we need for the workshop?",
+        "options": [
+          "What",
+          "Which",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan jumlah countable jamak memakai 'How many'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Because the courier arrives in five minutes.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "___ are those boxes stacked near the door?"
+          ],
+          [
+            "Putri",
+            "Because the courier arrives in five minutes."
+          ]
+        ],
+        "options": [
+          "Why",
+          "Who",
+          "Where"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan alasan -> 'Why'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much chairs are in Conference Room B?\"",
+        "draft": "How much chairs are in Conference Room B?",
+        "options": [
+          "How many chairs are in Conference Room B?",
+          "How much chair are in Conference Room B?",
+          "How much chairs are in Conference Room B?"
+        ],
+        "answer": 0,
+        "explanation": "'Chairs' countable jamak memakai 'How many'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ folder belongs to the logistics team—red or blue?",
+        "options": [
+          "Which",
+          "Who",
+          "Where"
+        ],
+        "answer": 0,
+        "explanation": "Memilih dari opsi terbatas memakai 'Which'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang memimpin rapat anggaran siang ini?\".",
+        "targetSentence": "Who is chairing this afternoon's budget call?",
+        "explanation": "Subject question memakai 'Who is + V-ing'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ do the interns commute from the north dorm?",
+        "options": [
+          "How",
+          "What",
+          "Who"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan cara/transportasi memakai 'How'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"The 7:00 express gets you there faster.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "___ train leaves earlier—the 7:00 or 7:30?"
+          ],
+          [
+            "Arman",
+            "The 7:00 express gets you there faster."
+          ]
+        ],
+        "options": [
+          "Which",
+          "Who",
+          "Why"
+        ],
+        "answer": 0,
+        "explanation": "Memilih dari dua opsi -> 'Which'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"What time the morning train leaves?\"",
+        "draft": "What time the morning train leaves?",
+        "options": [
+          "What time does the morning train leave?",
+          "What time is the morning train leaves?",
+          "What time the morning train leaves?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan wajib menempatkan auxiliary 'does' sebelum subjek + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ often do ferries cross to that island?",
+        "options": [
+          "What",
+          "When",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan frekuensi memakai 'How often'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa para teknisi itu memakai helm terang?\".",
+        "targetSentence": "Why are those technicians wearing bright helmets?",
+        "explanation": "Why + are + subject + V-ing.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ does a two-day conference pass cost?",
+        "options": [
+          "How much",
+          "How many",
+          "How long"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan harga memakai 'How much'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"About twelve minutes along the park path.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "___ does it take to walk to the station?"
+          ],
+          [
+            "Adi",
+            "About twelve minutes along the park path."
+          ]
+        ],
+        "options": [
+          "How far",
+          "How often",
+          "How long"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan durasi waktu -> 'How long'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why she is waiting outside the clinic?\"",
+        "draft": "Why she is waiting outside the clinic?",
+        "options": [
+          "Why is she waiting outside the clinic?",
+          "Why does she waiting outside the clinic?",
+          "Why she is waiting outside the clinic?"
+        ],
+        "answer": 0,
+        "explanation": "Dalam pertanyaan, 'is' diinversi ke depan subjek 'she'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is inside that locked wooden crate?",
+        "options": [
+          "Where",
+          "What",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan benda memakai 'What'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Roughly two kilometers down Main Road.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "___ far is the clinic from the hostel?"
+          ],
+          [
+            "Kiki",
+            "Roughly two kilometers down Main Road."
+          ]
+        ],
+        "options": [
+          "What",
+          "Who",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan jarak -> 'How far'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do Mr. Tan handle all shipping invoices?\"",
+        "draft": "Do Mr. Tan handle all shipping invoices?",
+        "options": [
+          "Is Mr. Tan handle all shipping invoices?",
+          "Do Mr. Tan handle all shipping invoices?",
+          "Does Mr. Tan handle all shipping invoices?"
+        ],
+        "answer": 2,
+        "explanation": "Subjek tunggal 'Mr. Tan' memakai 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak laptop yang kita butuhkan untuk lokakarya?\".",
+        "targetSentence": "How many laptops do we need for the workshop?",
+        "explanation": "How many + plural + do + we + need.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the security guards check badges at Gate 1?",
+        "options": [
+          "Does",
+          "Do",
+          "Are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak 'the security guards' + V1 'check' memakai 'Do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Every Friday before shutting down.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "___ often do you back up project files?"
+          ],
+          [
+            "Sinta",
+            "Every Friday before shutting down."
+          ]
+        ],
+        "options": [
+          "Why",
+          "How",
+          "When"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan kekerapan -> 'How often'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who's folder is lying on the desk?\"",
+        "draft": "Who's folder is lying on the desk?",
+        "options": [
+          "Whose folder is lying on the desk?",
+          "Whom folder is lying on the desk?",
+          "Who's folder is lying on the desk?"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan pemilik memakai 'Whose', bukan 'Who's'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ your supervisor in the accounting office right now?",
+        "options": [
+          "Is",
+          "Does",
+          "Are"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat tanpa kata kerja aksi, subjek tunggal -> 'Is'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I think it belongs to Kevin.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "___ laptop is charging on Table 3?"
+          ],
+          [
+            "Tia",
+            "I think it belongs to Kevin."
+          ]
+        ],
+        "options": [
+          "Which",
+          "Whose",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan kepemilikan -> 'Whose'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How often you visit the regional warehouse?\"",
+        "draft": "How often you visit the regional warehouse?",
+        "options": [
+          "How often you visit the regional warehouse?",
+          "How often do you visit the regional warehouse?",
+          "How often are you visit the regional warehouse?"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan Present Simple butuh 'do' sebelum 'you'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ long does the express train take to Bandung?",
+        "options": [
+          "What",
+          "When",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan durasi memakai 'How long'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seberapa sering feri menyeberang ke pulau itu?\".",
+        "targetSentence": "How often do ferries cross to that island?",
+        "explanation": "How often + do + subject + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ do students register for the English clinic?",
+        "options": [
+          "Who",
+          "Which",
+          "Where"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan tempat mendaftar -> 'Where'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, plug in the white USB cable.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "___ this printer work without Wi-Fi?"
+          ],
+          [
+            "Dewi",
+            "Yes, plug in the white USB cable."
+          ]
+        ],
+        "options": [
+          "Is",
+          "Do",
+          "Does"
+        ],
+        "answer": 2,
+        "explanation": "Subjek tunggal + verb 'work' -> 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are this printer support wireless printing?\"",
+        "draft": "Are this printer support wireless printing?",
+        "options": [
+          "Are this printer support wireless printing?",
+          "Does this printer support wireless printing?",
+          "Do this printer support wireless printing?"
+        ],
+        "answer": 1,
+        "explanation": "Verb 'support' + subjek tunggal membutuhkan 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ notebook is sitting beside the coffee flask?",
+        "options": [
+          "Whom",
+          "Whose",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan kepemilikan benda memakai 'Whose'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa harga tiket konferensi untuk dua hari?\".",
+        "targetSentence": "How much does a two-day conference pass cost?",
+        "explanation": "How much + does + subject + cost.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you ready to share your quarterly slides?",
+        "options": [
+          "Are",
+          "Do",
+          "Is"
+        ],
+        "answer": 0,
+        "explanation": "Adjective 'ready' + subjek 'you' memakai 'Are'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Almost; they are putting on goggles now.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "___ the trainees ready for the lab check?"
+          ],
+          [
+            "Ayu",
+            "Almost; they are putting on goggles now."
+          ]
+        ],
+        "options": [
+          "Are",
+          "Do",
+          "Is"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak + adjective 'ready' -> 'Are'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Where does the visitors park their cars?\"",
+        "draft": "Where does the visitors park their cars?",
+        "options": [
+          "Where does the visitors park their cars?",
+          "Where do the visitors park their cars?",
+          "Where are the visitors park their cars?"
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak 'the visitors' memakai 'do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ she attend the Friday workshop every week?",
+        "options": [
+          "Does",
+          "Is",
+          "Do"
+        ],
+        "answer": 0,
+        "explanation": "Subjek tunggal 'she' + verb 'attend' memakai 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Ask IT; they rotated it this morning.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "___ you know the new archive password?"
+          ],
+          [
+            "Oki",
+            "Ask IT; they rotated it this morning."
+          ]
+        ],
+        "options": [
+          "Do",
+          "Are",
+          "Does"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'you' + verb 'know' -> 'Do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When will the courier arrives today?\"",
+        "draft": "When will the courier arrives today?",
+        "options": [
+          "When does the courier arrives today?",
+          "When will the courier arrives today?",
+          "When will the courier arrive today?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will + S', verb tetap bentuk dasar 'arrive'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah pengawas Anda ada di kantor akuntansi sekarang?\".",
+        "targetSentence": "Is your supervisor in the accounting office right now?",
+        "explanation": "Inversi 'Is + subject + prepositional phrase'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ far is the airport terminal from here?",
+        "options": [
+          "How",
+          "What",
+          "Where"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan jarak memakai 'How far'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"He is visiting the port branch until noon.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "___ is the warehouse manager today?"
+          ],
+          [
+            "Mira",
+            "He is visiting the port branch until noon."
+          ]
+        ],
+        "options": [
+          "Where",
+          "Who",
+          "When"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan keberadaan orang -> 'Where'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How far it is from here to Terminal 3?\"",
+        "draft": "How far it is from here to Terminal 3?",
+        "options": [
+          "How far does it from here to Terminal 3?",
+          "How far it is from here to Terminal 3?",
+          "How far is it from here to Terminal 3?"
+        ],
+        "answer": 2,
+        "explanation": "Inversi pertanyaan memakai 'is it', bukan 'it is'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did the supplier call right after lunch?",
+        "options": [
+          "Which",
+          "Why",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan alasan menelepon memakai 'Why'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"It is free for registered university students.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "___ much does the weekend seminar cost?"
+          ],
+          [
+            "Taufik",
+            "It is free for registered university students."
+          ]
+        ],
+        "options": [
+          "Which",
+          "How",
+          "What"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan harga -> 'How much'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"What does 'SOP' stands for in manuals?\"",
+        "draft": "What does 'SOP' stands for in manuals?",
+        "options": [
+          "What does 'SOP' stand for in manuals?",
+          "What is 'SOP' stand for in manuals?",
+          "What does 'SOP' stands for in manuals?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'does', verb kembali ke V1 dasar 'stand'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ your colleagues prefer tea or black coffee?",
+        "options": [
+          "Are",
+          "Does",
+          "Do"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak + verb 'prefer' memakai 'Do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seberapa jauh terminal bandara dari tempat ini?\".",
+        "targetSentence": "How far is the airport terminal from here?",
+        "explanation": "How far + is + subject.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ old is the renovated library building?",
+        "options": [
+          "What",
+          "When",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan usia memakai 'How old'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, check the grey bag in Locker 1.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "___ we have enough adapters for five tables?"
+          ],
+          [
+            "Lina",
+            "Yes, check the grey bag in Locker 1."
+          ]
+        ],
+        "options": [
+          "Does",
+          "Do",
+          "Are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'we' + V1 'have' -> 'Do'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who does open the main library at seven?\"",
+        "draft": "Who does open the main library at seven?",
+        "options": [
+          "Who does open the main library at seven?",
+          "Who opens the main library at seven?",
+          "Who open the main library at seven?"
+        ],
+        "answer": 1,
+        "explanation": "Subject question 'Who' tidak perlu 'does'; langsung verb tunggal 'opens'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ will the director arrive at Platform 2?",
+        "options": [
+          "When",
+          "Who",
+          "What"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan waktu kedatangan memakai 'When'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tas laptop siapa yang tergeletak di dekat termos?\".",
+        "targetSentence": "Whose laptop bag is sitting beside the flask?",
+        "explanation": "'Whose' untuk kepemilikan.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ much ink is left inside the black tank?",
+        "options": [
+          "Who",
+          "How",
+          "What"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan jumlah uncountable memakai 'How much'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, it stays open until nine.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "___ this room open for evening study?"
+          ],
+          [
+            "Wulan",
+            "Yes, it stays open until nine."
+          ]
+        ],
+        "options": [
+          "Does",
+          "Are",
+          "Is"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'open' + subjek tunggal -> 'Is'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Which gate does leave the shuttle from?\"",
+        "draft": "Which gate does leave the shuttle from?",
+        "options": [
+          "Which gate does the shuttle leave from?",
+          "Which gate leaves the shuttle from?",
+          "Which gate does leave the shuttle from?"
+        ],
+        "answer": 0,
+        "explanation": "Inversi benar: Wh + does + subject + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ these safety glasses clean and ready?",
+        "options": [
+          "Do",
+          "Is",
+          "Are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak + adjective 'clean' memakai 'Are'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Around 10:15 right after the storm hit.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "___ did the power go out earlier?"
+          ],
+          [
+            "Sari",
+            "Around 10:15 right after the storm hit."
+          ]
+        ],
+        "options": [
+          "When",
+          "Where",
+          "Who"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan waktu kejadian -> 'When'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How long you stayed at the trade expo?\"",
+        "draft": "How long you stayed at the trade expo?",
+        "options": [
+          "How long did you stay at the trade expo?",
+          "How long were you stay at the trade expo?",
+          "How long you stayed at the trade expo?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan lampau dengan verb 'stay' memakai 'did you stay'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bagaimana cara mahasiswa mendaftar klinik bahasa Inggris?\".",
+        "targetSentence": "How do students register for the English clinic?",
+        "explanation": "How + do + subject + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the morning delivery van stop behind Hall B?",
+        "options": [
+          "Do",
+          "Does",
+          "Is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek tunggal + verb 'stop' memakai 'Does'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Standard A4 80gsm sheets work best.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "___ kind of paper fits Tray 1?"
+          ],
+          [
+            "Reno",
+            "Standard A4 80gsm sheets work best."
+          ]
+        ],
+        "options": [
+          "How",
+          "Who",
+          "What"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan jenis benda -> 'What kind of'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does every badge works on Door 4?\"",
+        "draft": "Does every badge works on Door 4?",
+        "options": [
+          "Do every badge work on Door 4?",
+          "Does every badge works on Door 4?",
+          "Does every badge work on Door 4?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Does', verb tetap V1 dasar 'work'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ kind of spreadsheet software do you use?",
+        "options": [
+          "What",
+          "How",
+          "Who"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan jenis sesuatu memakai 'What kind of'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Take Bus 4 and get off at Gate North.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "___ do you reach the convention center?"
+          ],
+          [
+            "Aris",
+            "Take Bus 4 and get off at Gate North."
+          ]
+        ],
+        "options": [
+          "Who",
+          "Why",
+          "How"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan cara menuju tempat -> 'How'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why are they need two extra adapters?\"",
+        "draft": "Why are they need two extra adapters?",
+        "options": [
+          "Why does they need two extra adapters?",
+          "Why are they need two extra adapters?",
+          "Why do they need two extra adapters?"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'need' memakai auxiliary 'do', bukan 'are'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did you send the updated attendance list to?",
+        "options": [
+          "Who",
+          "Where",
+          "Why"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan penerima orang memakai 'Who'.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kapan direktur akan tiba di Peron Dua?\".",
+        "targetSentence": "When will the director arrive at Platform 2?",
+        "explanation": "When + will + subject + V1.",
+        "hints": [
+          "Perhatikan kata tanya (Who/What/Where/When/Why/How) dan posisi auxiliary sebelum subjek.",
+          "Sesuaikan auxiliary (do/does/am/is/are) dengan subjek dan jenis kata kerja."
+        ],
+        "skill": "question-form"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Tambahkan keterangan tempat 'outside the main lobby?'."
         ],
         "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did the regional auditor arrive yesterday?",
+        "options": [
+          "Which",
+          "When",
+          "Who"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan waktu lampau memakai 'When did ...'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Twelve supervisors and four interns attended.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "___ attended the regional briefing on Friday?"
+          ],
+          [
+            "Dodi",
+            "Twelve supervisors and four interns attended."
+          ]
+        ],
+        "options": [
+          "Who did",
+          "Whom",
+          "Who"
+        ],
+        "answer": 2,
+        "explanation": "Subject question menanyakan pelaku -> langsung 'Who attended'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who did sign the delivery slip yesterday?\"",
+        "draft": "Who did sign the delivery slip yesterday?",
+        "options": [
+          "Who sign the delivery slip yesterday?",
+          "Who did sign the delivery slip yesterday?",
+          "Who signed the delivery slip yesterday?"
+        ],
+        "answer": 2,
+        "explanation": "Subject question lampau langsung memakai V2 'signed' tanpa 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where ___ the trainees park their bicycles this morning?",
+        "options": [
+          "were",
+          "do",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan lampau dengan V1 'park' memakai auxiliary 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang memimpin latihan keselamatan kemarin pagi?\".",
+        "targetSentence": "Who led the safety drill yesterday morning?",
+        "explanation": "Subject question tanpa auxiliary 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ the emergency drill yesterday morning?",
+        "options": [
+          "did lead",
+          "was led",
+          "led"
+        ],
+        "answer": 2,
+        "explanation": "Subject question lampau langsung memakai V2 aktif 'led' tanpa 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I placed them in Drawer 4 yesterday.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Where ___ you keep those archived invoices?"
+          ],
+          [
+            "Bima",
+            "I placed them in Drawer 4 yesterday."
+          ]
+        ],
+        "options": [
+          "were",
+          "do",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Lampau + V1 'keep' -> 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did she went to the Surabaya branch?\"",
+        "draft": "Did she went to the Surabaya branch?",
+        "options": [
+          "Was she go to the Surabaya branch?",
+          "Did she went to the Surabaya branch?",
+          "Did she go to the Surabaya branch?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Did', verb wajib kembali ke V1 'go'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ you speak with at Customs Desk 2?",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Object question ('you' sebagai subjek, 'Who' sebagai objek) memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, every single seat was taken.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "___ the conference hall crowded yesterday morning?"
+          ],
+          [
+            "Eko",
+            "Yes, every single seat was taken."
+          ]
+        ],
+        "options": [
+          "Did",
+          "Were",
+          "Was"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'crowded' + tunggal lampau -> 'Was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Were the courier deliver the parcel on time?\"",
+        "draft": "Were the courier deliver the parcel on time?",
+        "options": [
+          "Was the courier deliver the parcel on time?",
+          "Were the courier deliver the parcel on time?",
+          "Did the courier deliver the parcel on time?"
+        ],
+        "answer": 2,
+        "explanation": "Verb aksi 'deliver' memakai 'Did', bukan 'Were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang Anda hubungi di pos bea cukai tadi?\".",
+        "targetSentence": "Who did you contact at customs yesterday?",
+        "explanation": "Object question memakai 'did you'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the parcel arrive safely before noon yesterday?",
+        "options": [
+          "Did",
+          "Was",
+          "Were"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'the parcel' + V1 'arrive' lampau memakai 'Did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"He ran out of thermal paper in his printer.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Why didn't the courier ___ the receipt?"
+          ],
+          [
+            "Sari",
+            "He ran out of thermal paper in his printer."
+          ]
+        ],
+        "options": [
+          "printing",
+          "print",
+          "printed"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'didn't', gunakan V1 'print'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did the trainees ready before eight?\"",
+        "draft": "Did the trainees ready before eight?",
+        "options": [
+          "Was the trainees ready before eight?",
+          "Did the trainees ready before eight?",
+          "Were the trainees ready before eight?"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'ready' membutuhkan 'Were', bukan 'Did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the meeting rooms clean before the guests arrived?",
+        "options": [
+          "Was",
+          "Were",
+          "Did"
+        ],
+        "answer": 1,
+        "explanation": "Adjective 'clean' + subjek jamak 'rooms' lampau memakai 'Were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"They booked rooms near Central Station.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Which hotel ___ the delegates stay at?"
+          ],
+          [
+            "Putri",
+            "They booked rooms near Central Station."
+          ]
+        ],
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Lampau + V1 'stay' -> 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why you didn't answer the desk phone?\"",
+        "draft": "Why you didn't answer the desk phone?",
+        "options": [
+          "Why wasn't you answer the desk phone?",
+          "Why you didn't answer the desk phone?",
+          "Why didn't you answer the desk phone?"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan negatif wajib menginversi 'didn't' ke depan subjek 'you'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long ___ the power outage last last night?",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'last' (berlangsung) membutuhkan auxiliary 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah semua paket tiba dengan selamat sebelum siang?\".",
+        "targetSentence": "Did all parcels arrive safely before noon?",
+        "explanation": "Did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "What caused the delay on Highway 4—fog ___ roadwork?",
+        "options": [
+          "or",
+          "and",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "Alternative question memberikan dua pilihan dihubungkan 'or'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I called the warehouse supervisor.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who ___ you call from the port gate?"
+          ],
+          [
+            "Arman",
+            "I called the warehouse supervisor."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Object question ('you' subjek) memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"What did happen at Terminal 3 last night?\"",
+        "draft": "What did happen at Terminal 3 last night?",
+        "options": [
+          "What did happen at Terminal 3 last night?",
+          "What happened at Terminal 3 last night?",
+          "What was happened at Terminal 3 last night?"
+        ],
+        "answer": 1,
+        "explanation": "Subject question 'What' langsung memakai V2 'happened'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why didn't the courier ___ the signed slip upstairs?",
+        "options": [
+          "leave",
+          "left",
+          "leaving"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', kata kerja wajib kembali ke V1 'leave'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa kurir tidak meninggalkan struk bertanda tangan?\".",
+        "targetSentence": "Why didn't the courier leave the signed slip?",
+        "explanation": "Why + didn't + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which gate ___ Flight 204 depart from yesterday?",
+        "options": [
+          "did",
+          "was",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "Kejadian lampau ('yesterday') + V1 'depart' memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I did, right after the truck arrived.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who ___ the warehouse supervisor?"
+          ],
+          [
+            "Adi",
+            "I did, right after the truck arrived."
+          ]
+        ],
+        "options": [
+          "was call",
+          "called",
+          "did called"
+        ],
+        "answer": 1,
+        "explanation": "Subject question langsung V2 'called'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who you invited to the quarterly seminar?\"",
+        "draft": "Who you invited to the quarterly seminar?",
+        "options": [
+          "Who were you invite to the quarterly seminar?",
+          "Who you invited to the quarterly seminar?",
+          "Who did you invite to the quarterly seminar?"
+        ],
+        "answer": 2,
+        "explanation": "Object question butuh 'did' sebelum subjek 'you'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ there enough chairs at Tuesday's briefing?",
+        "options": [
+          "Was",
+          "Were",
+          "Did"
+        ],
+        "answer": 1,
+        "explanation": "Eksistensi jamak lampau -> 'Were there ...?'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Ten tablets were fully charged this morning.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How many tablets ___ ready for loan?"
+          ],
+          [
+            "Kiki",
+            "Ten tablets were fully charged this morning."
+          ]
+        ],
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'ready' + jamak lampau -> 'were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did the lab was closed during lunch?\"",
+        "draft": "Did the lab was closed during lunch?",
+        "options": [
+          "Did the lab closed during lunch?",
+          "Did the lab was closed during lunch?",
+          "Was the lab closed during lunch?"
+        ],
+        "answer": 2,
+        "explanation": "Hindari 'Did + was'; gunakan 'Was the lab closed?'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dari gerbang mana pesawat kita berangkat kemarin?\".",
+        "targetSentence": "Which gate did our flight depart from yesterday?",
+        "explanation": "Which gate + did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "What ___ the supervisor tell the new interns?",
+        "options": [
+          "was",
+          "does",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "'tell' adalah verb aksi sehingga membutuhkan 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, she said the guide was wonderful.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did your sister ___ the museum tour yesterday?"
+          ],
+          [
+            "Sinta",
+            "Yes, she said the guide was wonderful."
+          ]
+        ],
+        "options": [
+          "enjoyed",
+          "enjoys",
+          "enjoy"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Did + S', pakai V1 'enjoy'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much did the tickets costed yesterday?\"",
+        "draft": "How much did the tickets costed yesterday?",
+        "options": [
+          "How much were the tickets cost yesterday?",
+          "How much did the tickets costed yesterday?",
+          "How much did the tickets cost yesterday?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'did', tetap V1 dasar 'cost' (tidak pernah 'costed').",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ in charge of Lab 3 last semester?",
+        "options": [
+          "was",
+          "did",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa verb aksi, subjek tunggal lampau memakai 'was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"An open fridge door triggered the sensor.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What ___ that loud beep in Lab 2?"
+          ],
+          [
+            "Tia",
+            "An open fridge door triggered the sensor."
+          ]
+        ],
+        "options": [
+          "did cause",
+          "was cause",
+          "caused"
+        ],
+        "answer": 2,
+        "explanation": "Subject question langsung V2 'caused'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Were you saw the updated gate number?\"",
+        "draft": "Were you saw the updated gate number?",
+        "options": [
+          "Were you saw the updated gate number?",
+          "Did you see the updated gate number?",
+          "Were you see the updated gate number?"
+        ],
+        "answer": 1,
+        "explanation": "Verb aksi lampau dalam pertanyaan memakai 'Did + S + V1'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many bags ___ the passenger check at Desk 5?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'check' memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa lama pemadaman listrik berlangsung semalam?\".",
+        "targetSentence": "How long did the power outage last last night?",
+        "explanation": "How long + did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ your brother work in Bandung last year?",
+        "options": [
+          "Did",
+          "Was",
+          "Were"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'work' lampau memakai 'Did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"They fixed it around three yesterday.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "When did the maintenance team ___ the fan?"
+          ],
+          [
+            "Dewi",
+            "They fixed it around three yesterday."
+          ]
+        ],
+        "options": [
+          "repair",
+          "repaired",
+          "repairs"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'did + S', pakai V1 'repair'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why wasn't she attend the Friday call?\"",
+        "draft": "Why wasn't she attend the Friday call?",
+        "options": [
+          "Why weren't she attend the Friday call?",
+          "Why wasn't she attend the Friday call?",
+          "Why didn't she attend the Friday call?"
+        ],
+        "answer": 2,
+        "explanation": "Dengan verb aksi 'attend', gunakan 'didn't'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ the ferry late arriving at the harbor?",
+        "options": [
+          "was",
+          "did",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Adjective 'late' + subjek tunggal lampau -> 'was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada cukup kursi pada pengarahan hari Selasa?\".",
+        "targetSentence": "Were there enough chairs at Tuesday's briefing?",
+        "explanation": "Lampau jamak memakai 'Were there'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where ___ the backup cables stored before moving?",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "Pasif lampau jamak ('cables stored') memakai 'were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Let's take the tram; it looks cloudy.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "___ you rather walk or take the tram?"
+          ],
+          [
+            "Ayu",
+            "Let's take the tram; it looks cloudy."
+          ]
+        ],
+        "options": [
+          "Are",
+          "Would",
+          "Did"
+        ],
+        "answer": 1,
+        "explanation": "Alternative polite question -> 'Would you rather ...?'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Which trainee did won the design prize?\"",
+        "draft": "Which trainee did won the design prize?",
+        "options": [
+          "Which trainee did won the design prize?",
+          "Which trainee won the design prize?",
+          "Which trainee did wins the design prize?"
+        ],
+        "answer": 1,
+        "explanation": "Subject question ('Which trainee') langsung V2 'won'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ these statistical charts so neatly?",
+        "options": [
+          "were drew",
+          "drew",
+          "did draw"
+        ],
+        "answer": 1,
+        "explanation": "Subject question lampau langsung memakai V2 'drew'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Kevin left it there before going upstairs.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Who ___ the attendance folder on Reception?"
+          ],
+          [
+            "Oki",
+            "Kevin left it there before going upstairs."
+          ]
+        ],
+        "options": [
+          "did left",
+          "was leave",
+          "left"
+        ],
+        "answer": 2,
+        "explanation": "Subject question langsung V2 'left'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How long did lasted the safety briefing?\"",
+        "draft": "How long did lasted the safety briefing?",
+        "options": [
+          "How long did lasted the safety briefing?",
+          "How long did the safety briefing last?",
+          "How long was the safety briefing last?"
+        ],
+        "answer": 1,
+        "explanation": "Urutan baku: Wh + did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apa yang dikatakan pengawas kepada peserta baru?\".",
+        "targetSentence": "What did the supervisor tell the new interns?",
+        "explanation": "What + did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did everyone ___ their safety helmets on site?",
+        "options": [
+          "wore",
+          "wearing",
+          "wear"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Did everyone', verb tetap V1 dasar 'wear'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Heavy crosswinds slowed departures all morning.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why ___ those three flights delayed yesterday?"
+          ],
+          [
+            "Mira",
+            "Heavy crosswinds slowed departures all morning."
+          ]
+        ],
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Adjective/participle 'delayed' + jamak lampau -> 'were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did there any delays on Route 5 yesterday?\"",
+        "draft": "Did there any delays on Route 5 yesterday?",
+        "options": [
+          "Was there any delays on Route 5 yesterday?",
+          "Did there any delays on Route 5 yesterday?",
+          "Were there any delays on Route 5 yesterday?"
+        ],
+        "answer": 2,
+        "explanation": "Eksistensi jamak lampau memakai 'Were there', bukan 'Did there'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "How much ___ those two adapters cost yesterday?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'cost' lampau memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"He inspected every fire extinguisher label.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "What did the inspector ___ during his check?"
+          ],
+          [
+            "Taufik",
+            "He inspected every fire extinguisher label."
+          ]
+        ],
+        "options": [
+          "verify",
+          "verified",
+          "verifying"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'did + S', gunakan V1 'verify'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who did fix the broken projector cable?\"",
+        "draft": "Who did fix the broken projector cable?",
+        "options": [
+          "Who fixed the broken projector cable?",
+          "Who was fix the broken projector cable?",
+          "Who did fix the broken projector cable?"
+        ],
+        "answer": 0,
+        "explanation": "Subject question memakai V2 'fixed'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you prefer coffee or green tea during breaks?",
+        "options": [
+          "Do",
+          "Are",
+          "Did you"
+        ],
+        "answer": 0,
+        "explanation": "Alternative preference saat ini memakai 'Do you prefer ...?'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ruangan rapat sudah bersih sebelum tamu tiba?\".",
+        "targetSentence": "Were the meeting rooms clean before guests arrived?",
+        "explanation": "Adjective jamak lampau memakai 'Were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "What happened ___ the server crashed at two?",
+        "options": [
+          "who",
+          "which",
+          "when"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan kejadian pada titik waktu -> 'when'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, we submitted everything at four.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "___ your team finish all lab sheets on time?"
+          ],
+          [
+            "Lina",
+            "Yes, we submitted everything at four."
+          ]
+        ],
+        "options": [
+          "Were",
+          "Did",
+          "Was"
+        ],
+        "answer": 1,
+        "explanation": "Lampau + V1 'finish' -> 'Did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Where did they bought those ergonomic chairs?\"",
+        "draft": "Where did they bought those ergonomic chairs?",
+        "options": [
+          "Where were they buy those ergonomic chairs?",
+          "Where did they bought those ergonomic chairs?",
+          "Where did they buy those ergonomic chairs?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'did', gunakan V1 dasar 'buy'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who did HR ___ for the bilingual analyst role?",
+        "options": [
+          "hire",
+          "hired",
+          "hiring"
+        ],
+        "answer": 0,
+        "explanation": "Object question dengan 'did HR' memakai V1 'hire'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa kereta feri terlambat tiba di pelabuhan?\".",
+        "targetSentence": "Why was the ferry late arriving at the harbor?",
+        "explanation": "Adjective tunggal lampau memakai 'was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the train tickets cheaper online last month?",
+        "options": [
+          "Was",
+          "Were",
+          "Did"
+        ],
+        "answer": 1,
+        "explanation": "Adjective 'cheaper' + subjek jamak lampau -> 'Were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"It was about forty minutes in calm seas.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "How long ___ the ferry ride yesterday?"
+          ],
+          [
+            "Wulan",
+            "It was about forty minutes in calm seas."
+          ]
+        ],
+        "options": [
+          "was",
+          "did",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa verb aksi, durasi lampau memakai 'was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"What did you wrote in the audit column?\"",
+        "draft": "What did you wrote in the audit column?",
+        "options": [
+          "What did you wrote in the audit column?",
+          "What did you write in the audit column?",
+          "What were you write in the audit column?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did', verb kembali ke V1 dasar 'write'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ she cancel the client meeting early?",
+        "options": [
+          "does",
+          "did",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Verb 'cancel' lampau memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I was looking for the HDMI splitters.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What ___ you looking for inside Storage B?"
+          ],
+          [
+            "Sari",
+            "I was looking for the HDMI splitters."
+          ]
+        ],
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Past continuous dengan 'you' -> 'were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Was your colleagues able to catch the bus?\"",
+        "draft": "Was your colleagues able to catch the bus?",
+        "options": [
+          "Did your colleagues able to catch the bus?",
+          "Was your colleagues able to catch the bus?",
+          "Were your colleagues able to catch the bus?"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak 'your colleagues' memakai 'Were'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang menggambar grafik statistik serapi ini?\".",
+        "targetSentence": "Who drew these statistical charts so neatly?",
+        "explanation": "Subject question langsung V2 'drew'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ the interns solve that firewall issue?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'solve' memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"We met three battery suppliers from Penang.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Who ___ you meet at the trade expo?"
+          ],
+          [
+            "Reno",
+            "We met three battery suppliers from Penang."
+          ]
+        ],
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Object question memakai 'did'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why didn't the printer didn't turn on?\"",
+        "draft": "Why didn't the printer didn't turn on?",
+        "options": [
+          "Why wasn't the printer turn on?",
+          "Why didn't the printer didn't turn on?",
+          "Why didn't the printer turn on?"
+        ],
+        "answer": 2,
+        "explanation": "Gunakan 'didn't' satu kali saja dalam kalimat.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which report ___ more complete—April's or May's?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa verb aksi + tunggal -> 'was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, it was clear and concise.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "___ the printed manual useful for new interns?"
+          ],
+          [
+            "Aris",
+            "Yes, it was clear and concise."
+          ]
+        ],
+        "options": [
+          "Was",
+          "Did",
+          "Were"
+        ],
+        "answer": 0,
+        "explanation": "Adjective 'useful' + tunggal lampau -> 'Was'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When did he became team coordinator?\"",
+        "draft": "When did he became team coordinator?",
+        "options": [
+          "When was he become team coordinator?",
+          "When did he became team coordinator?",
+          "When did he become team coordinator?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'did', gunakan V1 dasar 'become'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did the clinic ___ open until seven yesterday?",
+        "options": [
+          "stayed",
+          "staying",
+          "stay"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Did + S', gunakan V1 dasar 'stay'.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa harga dua adaptor itu kemarin?\".",
+        "targetSentence": "How much did those two adapters cost yesterday?",
+        "explanation": "How much + did + subject + V1.",
+        "hints": [
+          "Pertanyaan lampau memakai 'did + S + V1' atau 'was/were + S'.",
+          "Untuk subject question (Who/What sebagai pelaku), langsung pakai verb aktif tanpa do/does/did."
+        ],
+        "skill": "question-form"
       }
     ],
     "complex": [
@@ -827,6 +3707,1446 @@
         "hints": [
           "Awali dengan 'On what evidence'.",
           "Lanjutkan susunan tanya 'did the panel base its final ruling?'."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you tell me where ___?",
+        "options": [
+          "does the conference hall be",
+          "the conference hall is",
+          "is the conference hall"
+        ],
+        "answer": 1,
+        "explanation": "Indirect question memakai urutan pernyataan Subject + Verb ('the conference hall is').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, Gate 4 is right down those escalators.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Excuse me, do you know where ___?"
+          ],
+          [
+            "Dodi",
+            "Yes, Gate 4 is right down those escalators."
+          ]
+        ],
+        "options": [
+          "does Gate 4",
+          "Boarding Gate 4 is",
+          "is Boarding Gate 4"
+        ],
+        "answer": 1,
+        "explanation": "Indirect question memakai S + V ('Boarding Gate 4 is').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could you tell me where is the seminar hall?\"",
+        "draft": "Could you tell me where is the seminar hall?",
+        "options": [
+          "Could you tell me where is the seminar hall?",
+          "Could you tell me where the seminar hall is?",
+          "Could you tell me where does the seminar hall?"
+        ],
+        "answer": 1,
+        "explanation": "Indirect question memakai urutan Subject + Verb ('the seminar hall is').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know what time ___ tomorrow?",
+        "options": [
+          "the shuttle leaves",
+          "does the shuttle leave",
+          "leaves the shuttle"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Do you know', klausa 'what time' tidak diinversi dan tidak memakai 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bisakah Anda memberi tahu di mana aula seminar berada?\".",
+        "targetSentence": "Could you tell me where the seminar hall is?",
+        "explanation": "Indirect question memakai Subject + Verb di akhir.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I am not sure whether the branch ___ open on Sundays.",
+        "options": [
+          "stay",
+          "stays",
+          "does stay"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat tidak langsung memakai 'whether' + Subject + Verb normal ('stays').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"It opens at nine sharp on weekdays.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Could you tell me what time ___?"
+          ],
+          [
+            "Bima",
+            "It opens at nine sharp on weekdays."
+          ]
+        ],
+        "options": [
+          "does the pharmacy open",
+          "opens the pharmacy",
+          "the pharmacy opens"
+        ],
+        "answer": 2,
+        "explanation": "Urutan pernyataan tanpa 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you know what time does the train leave?\"",
+        "draft": "Do you know what time does the train leave?",
+        "options": [
+          "Do you know what time does the train leave?",
+          "Do you know what time the train leaves?",
+          "Do you know what time leaves the train?"
+        ],
+        "answer": 1,
+        "explanation": "Hilangkan 'does' dalam indirect question dan sesuaikan verb menjadi 'leaves'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you ask reception how much ___?",
+        "options": [
+          "costs a weekly locker",
+          "a weekly locker costs",
+          "does a weekly locker cost"
+        ],
+        "answer": 1,
+        "explanation": "Embedded question: 'how much + Subject + Verb'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"She had to catch the 4:15 train.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Do you remember why ___ the seminar early?"
+          ],
+          [
+            "Eko",
+            "She had to catch the 4:15 train."
+          ]
+        ],
+        "options": [
+          "did Maya leave",
+          "left Maya",
+          "Maya left"
+        ],
+        "answer": 2,
+        "explanation": "Indirect lampau memakai Subject + V2 tanpa 'did'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I wonder why did she leave the meeting early.\"",
+        "draft": "I wonder why did she leave the meeting early.",
+        "options": [
+          "I wonder why she left the meeting early.",
+          "I wonder why left she the meeting early.",
+          "I wonder why did she leave the meeting early."
+        ],
+        "answer": 0,
+        "explanation": "Indirect lampau tidak memakai 'did'; gunakan V2 'left'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda tahu jam berapa kereta ekspres berangkat besok?\".",
+        "targetSentence": "Do you know what time the express train leaves tomorrow?",
+        "explanation": "Indirect question tanpa 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you remember why ___ the seminar early?",
+        "options": [
+          "did she leave",
+          "left she",
+          "she left"
+        ],
+        "answer": 2,
+        "explanation": "Klausa embedded lampau memakai Subject + V2 ('she left') tanpa 'did'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sure, let me message Help Desk now.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Can you ask IT if ___ any spare adapters?"
+          ],
+          [
+            "Sari",
+            "Sure, let me message Help Desk now."
+          ]
+        ],
+        "options": [
+          "there are",
+          "are there",
+          "do there"
+        ],
+        "answer": 0,
+        "explanation": "Indirect 'if + there are'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could you ask how much does this pass cost?\"",
+        "draft": "Could you ask how much does this pass cost?",
+        "options": [
+          "Could you ask how much costs this pass?",
+          "Could you ask how much does this pass cost?",
+          "Could you ask how much this pass costs?"
+        ],
+        "answer": 2,
+        "explanation": "Urutan indirect question: S + V ('this pass costs').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can anyone explain what ___ this sensor alert?",
+        "options": [
+          "triggering",
+          "triggers",
+          "does trigger"
+        ],
+        "answer": 1,
+        "explanation": "'What' sekaligus subjek dalam indirect question -> langsung verb tunggal 'triggers'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"A monthly pass costs two hundred thousand rupiah.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Would you mind telling me how much ___?"
+          ],
+          [
+            "Putri",
+            "A monthly pass costs two hundred thousand rupiah."
+          ]
+        ],
+        "options": [
+          "does a monthly pass cost",
+          "costs a monthly pass",
+          "a monthly pass costs"
+        ],
+        "answer": 2,
+        "explanation": "Indirect question tanpa 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you know if are there any seats left?\"",
+        "draft": "Do you know if are there any seats left?",
+        "options": [
+          "Do you know if do there any seats left?",
+          "Do you know if are there any seats left?",
+          "Do you know if there are any seats left?"
+        ],
+        "answer": 2,
+        "explanation": "Dalam klausa 'if', jangan membalik 'are there'; gunakan 'there are'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Would you mind telling me when ___ ready?",
+        "options": [
+          "are the updated badges will",
+          "the updated badges will be",
+          "will the updated badges be"
+        ],
+        "answer": 1,
+        "explanation": "Indirect question masa depan: 'when + Subject + will be'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda ingat mengapa dia meninggalkan rapat lebih awal?\".",
+        "targetSentence": "Do you remember why she left the meeting early?",
+        "explanation": "Indirect lampau memakai Subject + V2.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you have any idea who ___ the key box?",
+        "options": [
+          "did borrow",
+          "was borrow",
+          "borrowed"
+        ],
+        "answer": 2,
+        "explanation": "Embedded subject question tetap langsung verb ('borrowed').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I believe the regional analyst wrote it.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Do you have any idea who ___ this report?"
+          ],
+          [
+            "Arman",
+            "I believe the regional analyst wrote it."
+          ]
+        ],
+        "options": [
+          "wrote",
+          "did write",
+          "was wrote"
+        ],
+        "answer": 0,
+        "explanation": "Embedded subject question langsung V2 'wrote'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Please tell me when will the courier arrive.\"",
+        "draft": "Please tell me when will the courier arrive.",
+        "options": [
+          "Please tell me when the courier will arrive.",
+          "Please tell me when does the courier will arrive.",
+          "Please tell me when will the courier arrive."
+        ],
+        "answer": 0,
+        "explanation": "Modal 'will' diletakkan setelah subjek dalam indirect question.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please let me know if the courier ___ yet.",
+        "options": [
+          "has arrived",
+          "has been arrive",
+          "did arrive"
+        ],
+        "answer": 0,
+        "explanation": "Yes/No indirect question memakai 'if/whether + S + V'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bisakah Anda tanyakan berapa harga tiket bulanan itu?\".",
+        "targetSentence": "Could you ask how much that monthly pass costs?",
+        "explanation": "Indirect 'how much + Subject + Verb'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you confirm whether all interns ___ lunch?",
+        "options": [
+          "need",
+          "do need",
+          "needs"
+        ],
+        "answer": 0,
+        "explanation": "Indirect question tanpa 'do': 'whether + all interns + need'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, the parcel arrived ten minutes ago.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Could you check whether the courier ___ already?"
+          ],
+          [
+            "Adi",
+            "Yes, the parcel arrived ten minutes ago."
+          ]
+        ],
+        "options": [
+          "is come",
+          "has come",
+          "did came"
+        ],
+        "answer": 1,
+        "explanation": "Urutan S + V: 'the courier has come'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Can you check whether did he sign the contract?\"",
+        "draft": "Can you check whether did he sign the contract?",
+        "options": [
+          "Can you check whether did he sign the contract?",
+          "Can you check whether he signed the contract?",
+          "Can you check whether was he sign the contract?"
+        ],
+        "answer": 1,
+        "explanation": "Hilangkan 'did' dan ubah verb menjadi V2 'signed'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I wonder why the projector ___ turning on today.",
+        "options": [
+          "doesn't",
+          "not is",
+          "isn't"
+        ],
+        "answer": 2,
+        "explanation": "Continuous dalam embedded question: 'why + S + isn't + V-ing'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Probably before Friday afternoon.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Do you know when ___ the revised budget?"
+          ],
+          [
+            "Kiki",
+            "Probably before Friday afternoon."
+          ]
+        ],
+        "options": [
+          "we should submit",
+          "should we submit",
+          "do we submit"
+        ],
+        "answer": 0,
+        "explanation": "Modal tetap di belakang subjek ('we should submit').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I don't know where do the interns keep folders.\"",
+        "draft": "I don't know where do the interns keep folders.",
+        "options": [
+          "I don't know where the interns keep folders.",
+          "I don't know where keeps the interns folders.",
+          "I don't know where do the interns keep folders."
+        ],
+        "answer": 0,
+        "explanation": "Hindari 'do' di dalam indirect Wh-clause.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Silakan periksa apakah ada kursi kosong tersisa di Aula B.\".",
+        "targetSentence": "Please check if there are any empty seats left in Hall B.",
+        "explanation": "Indirect 'if + there are'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know whose laptop ___ near Desk 4?",
+        "options": [
+          "charging is",
+          "does charge",
+          "is charging"
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'whose laptop' langsung diikuti verb 'is charging'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Open the side cover and pull gently.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Can you explain how ___ this printer jam?"
+          ],
+          [
+            "Sinta",
+            "Open the side cover and pull gently."
+          ]
+        ],
+        "options": [
+          "clear I",
+          "to clear",
+          "do I clear"
+        ],
+        "answer": 1,
+        "explanation": "Pola ringkas valid: 'how + to + V1'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could you explain how should we reset the router?\"",
+        "draft": "Could you explain how should we reset the router?",
+        "options": [
+          "Could you explain how we should reset the router?",
+          "Could you explain how do we should reset the router?",
+          "Could you explain how should we reset the router?"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan urutan S + modal + V ('we should reset').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ask the guard which gate ___ for bus boarding.",
+        "options": [
+          "use we",
+          "we should use",
+          "should we use"
+        ],
+        "answer": 1,
+        "explanation": "Modal dalam indirect question diletakkan SETELAH subjek ('we should use').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Let's knock gently and check.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "I wonder if Mr. Hadi ___ inside Room 3."
+          ],
+          [
+            "Tia",
+            "Let's knock gently and check."
+          ]
+        ],
+        "options": [
+          "be",
+          "is",
+          "does"
+        ],
+        "answer": 1,
+        "explanation": "Urutan S + V: 'Mr. Hadi is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you remember what did happen at Desk 4?\"",
+        "draft": "Do you remember what did happen at Desk 4?",
+        "options": [
+          "Do you remember what did happen at Desk 4?",
+          "Do you remember what happened at Desk 4?",
+          "Do you remember what was happened at Desk 4?"
+        ],
+        "answer": 1,
+        "explanation": "Subject question 'what' langsung V2 'happened'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you verify how many boxes ___ yesterday?",
+        "options": [
+          "was arrived",
+          "arrived",
+          "did arrive"
+        ],
+        "answer": 1,
+        "explanation": "'How many boxes' subjek -> langsung V2 'arrived'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya ingin tahu kapan kartu akses baru akan siap.\".",
+        "targetSentence": "I would like to know when the new badges will be ready.",
+        "explanation": "Urutan 'when + Subject + will be'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tell me honestly how long ___ this audit.",
+        "options": [
+          "have you checked",
+          "did you checked",
+          "you have checked"
+        ],
+        "answer": 2,
+        "explanation": "Indirect question memakai urutan pernyataan ('you have checked').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"That is our finance director's signature.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Do you know whose signature ___ at the bottom?"
+          ],
+          [
+            "Dewi",
+            "That is our finance director's signature."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "does"
+        ],
+        "answer": 1,
+        "explanation": "Subjek tunggal 'whose signature' memakai 'is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody knows how far is it to the port.\"",
+        "draft": "Nobody knows how far is it to the port.",
+        "options": [
+          "Nobody knows how far is it to the port.",
+          "Nobody knows how far it is to the port.",
+          "Nobody knows how far does it to the port."
+        ],
+        "answer": 1,
+        "explanation": "Urutan pernyataan memakai 'it is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know who ___ responsible for travel claims?",
+        "options": [
+          "is",
+          "does",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Indirect subject question tanpa verb aksi -> 'who is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tolong jelaskan bagaimana kita harus menyambungkan proyektor ini.\".",
+        "targetSentence": "Please explain how we should connect this projector.",
+        "explanation": "Urutan 'how + Subject + should + V1'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you tell us if ___ any spare folders left?",
+        "options": [
+          "there are",
+          "are there",
+          "there is have"
+        ],
+        "answer": 0,
+        "explanation": "Indirect 'if + there are' (tidak diinversi 'are there').",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Roughly ninety minutes by ferry.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Could you verify how long ___ to Port Klang?"
+          ],
+          [
+            "Ayu",
+            "Roughly ninety minutes by ferry."
+          ]
+        ],
+        "options": [
+          "does the trip take",
+          "takes the trip",
+          "the trip takes"
+        ],
+        "answer": 2,
+        "explanation": "Indirect 'how long' memakai S + V.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She asked me why wasn't the printer working.\"",
+        "draft": "She asked me why wasn't the printer working.",
+        "options": [
+          "She asked me why didn't the printer working.",
+          "She asked me why wasn't the printer working.",
+          "She asked me why the printer wasn't working."
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'the printer' mendahului 'wasn't working'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need to find out where ___ the spare ink.",
+        "options": [
+          "stores HR",
+          "HR stores",
+          "does HR store"
+        ],
+        "answer": 1,
+        "explanation": "Urutan pernyataan setelah 'where': Subject + Verb.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, it leaves from Platform 6.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Did they tell you which platform ___ from?"
+          ],
+          [
+            "Oki",
+            "Yes, it leaves from Platform 6."
+          ]
+        ],
+        "options": [
+          "the train departs",
+          "does the train depart",
+          "departs the train"
+        ],
+        "answer": 0,
+        "explanation": "Indirect question tanpa 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Tell me which gate does Flight 10 leave from.\"",
+        "draft": "Tell me which gate does Flight 10 leave from.",
+        "options": [
+          "Tell me which gate does Flight 10 leave from.",
+          "Tell me which gate Flight 10 leaves from.",
+          "Tell me which gate leaves Flight 10 from."
+        ],
+        "answer": 1,
+        "explanation": "Hilangkan 'does' dan sesuaikan verb menjadi 'leaves'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada yang tahu seberapa jauh jaraknya ke pelabuhan.\".",
+        "targetSentence": "Nobody knows how far it is to the port.",
+        "explanation": "Urutan 'how far + it is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you happen to know when ___ back from Bali?",
+        "options": [
+          "does Mr. Adi fly",
+          "flies Mr. Adi",
+          "Mr. Adi flies"
+        ],
+        "answer": 2,
+        "explanation": "Indirect question Present Simple tanpa 'does'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"IT is upgrading the main firewall.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Do you know why ___ offline since noon?"
+          ],
+          [
+            "Mira",
+            "IT is upgrading the main firewall."
+          ]
+        ],
+        "options": [
+          "has the server been",
+          "did the server be",
+          "the server has been"
+        ],
+        "answer": 2,
+        "explanation": "Urutan pernyataan: S + has been.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you know whether is the lab open today?\"",
+        "draft": "Do you know whether is the lab open today?",
+        "options": [
+          "Do you know whether is the lab open today?",
+          "Do you know whether the lab is open today?",
+          "Do you know whether does the lab open today?"
+        ],
+        "answer": 1,
+        "explanation": "Urutan S + V: 'the lab is open'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I don't know whether ___ accept digital vouchers here.",
+        "options": [
+          "are they",
+          "they",
+          "do they"
+        ],
+        "answer": 1,
+        "explanation": "Subjek sebelum verb: 'whether they accept'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Two missing invoices delayed submission.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Could you confirm what ___ the audit delay?"
+          ],
+          [
+            "Taufik",
+            "Two missing invoices delayed submission."
+          ]
+        ],
+        "options": [
+          "caused",
+          "did cause",
+          "was cause"
+        ],
+        "answer": 0,
+        "explanation": "Embedded subject question langsung V2 'caused'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could you confirm who did sent this email?\"",
+        "draft": "Could you confirm who did sent this email?",
+        "options": [
+          "Could you confirm who was send this email?",
+          "Could you confirm who did sent this email?",
+          "Could you confirm who sent this email?"
+        ],
+        "answer": 2,
+        "explanation": "Subject question langsung V2 'sent' tanpa 'did'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you show me how ___ this security pass?",
+        "options": [
+          "do I scan",
+          "to scan",
+          "scan I"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan cara ringkas setelah Wh-word bisa memakai 'how + to + V1'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda tahu siapa yang menulis laporan regional ini?\".",
+        "targetSentence": "Do you know who wrote this regional report?",
+        "explanation": "Embedded subject question langsung V2 'wrote'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know what ___ 'KPI' stands for?",
+        "options": [
+          "does the abbreviation",
+          "is the abbreviation",
+          "the abbreviation"
+        ],
+        "answer": 2,
+        "explanation": "Urutan Subject + Verb: 'what the abbreviation stands for'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Inside the grey lockbox by the exit.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Can you remind me where ___ spare keys?"
+          ],
+          [
+            "Lina",
+            "Inside the grey lockbox by the exit."
+          ]
+        ],
+        "options": [
+          "the team keeps",
+          "does the team keep",
+          "keeps the team"
+        ],
+        "answer": 0,
+        "explanation": "Indirect tanpa 'does': S + V.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I am unsure what kind of card does this kiosk take.\"",
+        "draft": "I am unsure what kind of card does this kiosk take.",
+        "options": [
+          "I am unsure what kind of card this kiosk takes.",
+          "I am unsure what kind of card takes this kiosk.",
+          "I am unsure what kind of card does this kiosk take."
+        ],
+        "answer": 0,
+        "explanation": "Hilangkan 'does' -> 'this kiosk takes'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nobody knows how far ___ to Terminal 3.",
+        "options": [
+          "is it",
+          "does it",
+          "it is"
+        ],
+        "answer": 2,
+        "explanation": "Embedded 'how far' memakai 'it is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Beri tahu saya apakah kurirnya sudah datang atau belum.\".",
+        "targetSentence": "Let me know whether the courier has arrived yet.",
+        "explanation": "Indirect 'whether + Subject + has arrived'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you check if the meeting room ___ free now?",
+        "options": [
+          "does",
+          "be",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Urutan S + V: 'the meeting room is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"No, the café only takes cards or QR.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Do you happen to know if ___ cash here?"
+          ],
+          [
+            "Wulan",
+            "No, the café only takes cards or QR."
+          ]
+        ],
+        "options": [
+          "they accept",
+          "do they accept",
+          "are they accept"
+        ],
+        "answer": 0,
+        "explanation": "Indirect 'if + they accept'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Please let us know how long did you wait.\"",
+        "draft": "Please let us know how long did you wait.",
+        "options": [
+          "Please let us know how long did you wait.",
+          "Please let us know how long you waited.",
+          "Please let us know how long were you wait."
+        ],
+        "answer": 1,
+        "explanation": "Hilangkan 'did' -> 'you waited'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I'd like to ask what kind of files ___.",
+        "options": [
+          "this scanner supports",
+          "does this scanner support",
+          "supports this scanner"
+        ],
+        "answer": 0,
+        "explanation": "Indirect: 'what kind of files + Subject + Verb'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"So attendees can read the dark slides.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Could you tell me why ___ dimmed?"
+          ],
+          [
+            "Sari",
+            "So attendees can read the dark slides."
+          ]
+        ],
+        "options": [
+          "the lights are",
+          "are the lights",
+          "do the lights"
+        ],
+        "answer": 0,
+        "explanation": "Urutan pernyataan: S + are.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Can anyone check whose laptop is this?\"",
+        "draft": "Can anyone check whose laptop is this?",
+        "options": [
+          "Can anyone check whose laptop is this?",
+          "Can anyone check whose laptop this is?",
+          "Can anyone check whose is this laptop?"
+        ],
+        "answer": 1,
+        "explanation": "Urutan tidak langsung: 'whose laptop this is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bisakah Anda tunjukkan cara memindai kartu akses ini?\".",
+        "targetSentence": "Could you show me how to scan this access card?",
+        "explanation": "Pola 'how + to + V1'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who did you say ___ the annual keynote?",
+        "options": [
+          "did delivering",
+          "was deliver",
+          "is delivering"
+        ],
+        "answer": 2,
+        "explanation": "Klausa sisipan 'did you say' tidak mengubah posisi 'Who' sebagai subjek bagi 'is delivering'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Just bring your passport and letter.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "I'd like to know what documents ___ tomorrow."
+          ],
+          [
+            "Reno",
+            "Just bring your passport and letter."
+          ]
+        ],
+        "options": [
+          "must I bring",
+          "do I must bring",
+          "I must bring"
+        ],
+        "answer": 2,
+        "explanation": "Modal setelah subjek: 'I must bring'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We asked where are the spare batteries kept.\"",
+        "draft": "We asked where are the spare batteries kept.",
+        "options": [
+          "We asked where do the spare batteries kept.",
+          "We asked where are the spare batteries kept.",
+          "We asked where the spare batteries are kept."
+        ],
+        "answer": 2,
+        "explanation": "Urutan pernyataan: 'the spare batteries are kept'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you clarify why ___ two different totals?",
+        "options": [
+          "shows Table 2",
+          "Table 2 shows",
+          "does Table 2 show"
+        ],
+        "answer": 1,
+        "explanation": "Indirect 'why' memakai 'Table 2 shows'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"They scheduled it for next Monday morning.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Did HR mention when ___ the orientation?"
+          ],
+          [
+            "Aris",
+            "They scheduled it for next Monday morning."
+          ]
+        ],
+        "options": [
+          "do they hold",
+          "they will hold",
+          "will they hold"
+        ],
+        "answer": 1,
+        "explanation": "Modal 'will' setelah subjek 'they'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do you know when does the workshop finish?\"",
+        "draft": "Do you know when does the workshop finish?",
+        "options": [
+          "Do you know when finishes the workshop?",
+          "Do you know when does the workshop finish?",
+          "Do you know when the workshop finishes?"
+        ],
+        "answer": 2,
+        "explanation": "Hilangkan 'does' dan ubah menjadi 'finishes'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know whether ___ a power strip nearby?",
+        "options": [
+          "does there",
+          "there is",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "Indirect eksistensi: 'whether there is'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
+        ],
+        "skill": "question-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya tidak yakin jenis berkas apa yang didukung pemindai ini.\".",
+        "targetSentence": "I am unsure what file types this scanner supports.",
+        "explanation": "Indirect: 'what file types + S + V'.",
+        "hints": [
+          "Dalam embedded/indirect question ('Do you know where...?', 'Could you tell me why...?'), gunakan urutan kata pernyataan (Subject + Verb), BUKAN inversi.",
+          "Hindari 'that' atau auxiliary 'do/does/did' di dalam indirect Wh-clause."
         ],
         "skill": "question-form"
       }

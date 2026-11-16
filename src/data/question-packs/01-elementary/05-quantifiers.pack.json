@@ -266,6 +266,1446 @@
           "Pasangkan to be jamak 'are connected'."
         ],
         "skill": "quantifier-much-many"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ laptops do we need for the orientation workshop?",
+        "options": [
+          "a little",
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Laptops' adalah plural countable noun -> gunakan 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you print enough handouts for Room B? / Yes, we still have ___ copies left on the desk.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Did you print enough handouts for Room B?"
+          ],
+          [
+            "Dodi",
+            "Yes, we still have ___ copies left on the desk."
+          ]
+        ],
+        "options": [
+          "a few",
+          "a little",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Copies' plural countable -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many money do we need for bus tickets?\"",
+        "draft": "How many money do we need for bus tickets?",
+        "options": [
+          "How a lot money do we need for bus tickets?",
+          "How many money do we need for bus tickets?",
+          "How much money do we need for bus tickets?"
+        ],
+        "answer": 2,
+        "explanation": "'Money' adalah uncountable noun -> gunakan 'How much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ ink is left in the reception printer?",
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Ink' adalah uncountable noun -> gunakan 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak tas kerja yang Anda bawa ke bandara?\".",
+        "targetSentence": "How many work bags are you bringing to the airport?",
+        "explanation": "'Bags' jamak memakai 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There aren't ___ spare chairs left inside Seminar Room B.",
+        "options": [
+          "many",
+          "much",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Chairs' jamak bisa dihitung di kalimat negatif -> 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"About fifteen minutes, so grab your coat.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How ___ time do we have until the taxi arrives?"
+          ],
+          [
+            "Bima",
+            "About fifteen minutes, so grab your coat."
+          ]
+        ],
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Time' uncountable -> 'How much time'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We received a few information about the exam.\"",
+        "draft": "We received a few information about the exam.",
+        "options": [
+          "We received many information about the exam.",
+          "We received a few information about the exam.",
+          "We received some information about the exam."
+        ],
+        "answer": 2,
+        "explanation": "'Information' uncountable, tidak bisa memakai 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We don't have ___ time before the boarding gate closes.",
+        "options": [
+          "a few",
+          "much",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "'Time' uncountable di kalimat negatif -> 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, ten labeled trays are right on top.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Are there ___ vegetarian meals in the catering box?"
+          ],
+          [
+            "Eko",
+            "Yes, ten labeled trays are right on top."
+          ]
+        ],
+        "options": [
+          "much",
+          "a little",
+          "any"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan jamak -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There isn't many time left before departure.\"",
+        "draft": "There isn't many time left before departure.",
+        "options": [
+          "There isn't a few time left before departure.",
+          "There isn't many time left before departure.",
+          "There isn't much time left before departure."
+        ],
+        "answer": 2,
+        "explanation": "'Time' uncountable -> gunakan 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak banyak waktu tersisa sebelum presentasi dimulai.\".",
+        "targetSentence": "There is not much time left before the presentation starts.",
+        "explanation": "'Time' uncountable memakai 'not much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please bring ___ paper clips from the supply cabinet.",
+        "options": [
+          "some",
+          "much",
+          "any"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan/kalimat positif dengan jamak -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I buy more sugar for the pantry? / No need—there is still ___ left in the jar.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Should I buy more sugar for the pantry?"
+          ],
+          [
+            "Sari",
+            "No need—there is still ___ left in the jar."
+          ]
+        ],
+        "options": [
+          "many",
+          "a few",
+          "a lot"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa noun sesudahnya untuk uncountable positif -> 'a lot'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She brought much suitcases onto the airport shuttle.\"",
+        "draft": "She brought much suitcases onto the airport shuttle.",
+        "options": [
+          "She brought much suitcases onto the airport shuttle.",
+          "She brought many suitcases onto the airport shuttle.",
+          "She brought a little suitcases onto the airport shuttle."
+        ],
+        "answer": 1,
+        "explanation": "'Suitcases' jamak bisa dihitung -> gunakan 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are there ___ clean mugs left on the kitchen shelf?",
+        "options": [
+          "much",
+          "little",
+          "any"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan umum dengan plural countable -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Eight medium bags and two camera cases.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "How ___ suitcases are we loading into the van?"
+          ],
+          [
+            "Putri",
+            "Eight medium bags and two camera cases."
+          ]
+        ],
+        "options": [
+          "many",
+          "much",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Suitcases' jamak -> 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Would you like any coffee while reading?\"",
+        "draft": "Would you like any coffee while reading?",
+        "options": [
+          "Would you like many coffee while reading?",
+          "Would you like any coffee while reading?",
+          "Would you like some coffee while reading?"
+        ],
+        "answer": 2,
+        "explanation": "Dalam tawaran sopan, gunakan 'some', bukan 'any'/'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "I added ___ sugar to the guest speaker's coffee.",
+        "options": [
+          "a little",
+          "a few",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Sugar' uncountable dalam jumlah kecil positif -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hanya ada beberapa kursi kosong di baris depan.\".",
+        "targetSentence": "There are only a few empty seats in the front row.",
+        "explanation": "'Seats' jamak memakai 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only ___ interns signed up for the Saturday shuttle.",
+        "options": [
+          "a few",
+          "a little",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Interns' plural countable -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Just half a spoonful, please.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Can I put ___ honey in your ginger tea?"
+          ],
+          [
+            "Arman",
+            "Just half a spoonful, please."
+          ]
+        ],
+        "options": [
+          "many",
+          "few",
+          "some"
+        ],
+        "answer": 2,
+        "explanation": "Penawaran sopan -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are a little apples inside the fruit basket.\"",
+        "draft": "There are a little apples inside the fruit basket.",
+        "options": [
+          "There are a few apples inside the fruit basket.",
+          "There are much apples inside the fruit basket.",
+          "There are a little apples inside the fruit basket."
+        ],
+        "answer": 0,
+        "explanation": "'Apples' countable jamak -> gunakan 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "She receives ___ emails from overseas vendors every morning.",
+        "options": [
+          "much",
+          "a little",
+          "a lot of"
+        ],
+        "answer": 2,
+        "explanation": "'Emails' plural countable dalam kalimat positif -> 'a lot of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tolong tuangkan sedikit susu ke cangkir tamu.\".",
+        "targetSentence": "Please pour a little milk into the guest's cup.",
+        "explanation": "'Milk' uncountable memakai 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There isn't ___ milk left for the morning tea break.",
+        "options": [
+          "any",
+          "many",
+          "a few"
+        ],
+        "answer": 0,
+        "explanation": "'Milk' uncountable pada kalimat negatif -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did many trainees miss the morning briefing? / Not really—only ___ arrived ten minutes late.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did many trainees miss the morning briefing?"
+          ],
+          [
+            "Adi",
+            "Not really—only ___ arrived ten minutes late."
+          ]
+        ],
+        "options": [
+          "a little",
+          "much",
+          "a few"
+        ],
+        "answer": 2,
+        "explanation": "Merujuk pada 'trainees' (countable) -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much chairs did the janitor move upstairs?\"",
+        "draft": "How much chairs did the janitor move upstairs?",
+        "options": [
+          "How much chairs did the janitor move upstairs?",
+          "How many chairs did the janitor move upstairs?",
+          "How little chairs did the janitor move upstairs?"
+        ],
+        "answer": 1,
+        "explanation": "'Chairs' bisa dihitung -> 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ luggage can each passenger bring on board?",
+        "options": [
+          "many",
+          "few",
+          "much"
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' selalu uncountable -> 'How much luggage'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Less than two hundred thousand rupiah.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How ___ money did the branch spend on badges?"
+          ],
+          [
+            "Kiki",
+            "Less than two hundred thousand rupiah."
+          ]
+        ],
+        "options": [
+          "much",
+          "many",
+          "a few"
+        ],
+        "answer": 0,
+        "explanation": "'Money' uncountable -> 'How much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We didn't have some paper clips in the drawer.\"",
+        "draft": "We didn't have some paper clips in the drawer.",
+        "options": [
+          "We didn't have much paper clips in the drawer.",
+          "We didn't have some paper clips in the drawer.",
+          "We didn't have any paper clips in the drawer."
+        ],
+        "answer": 2,
+        "explanation": "Kalimat negatif memakai 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada pengisi daya cadangan di laci itu?\".",
+        "targetSentence": "Are there any spare chargers in that drawer?",
+        "explanation": "Pertanyaan jamak memakai 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ suitcases did the travel group check in?",
+        "options": [
+          "little",
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Suitcases' bisa dihitung jamak -> 'How many suitcases'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there ___ coffee left in the thermal flask? / Sorry, there isn't ___ left—let's brew fresh.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Is there ___ coffee left in the thermal flask?"
+          ],
+          [
+            "Sinta",
+            "Sorry, there isn't ___ left—let's brew fresh."
+          ]
+        ],
+        "options": [
+          "a few",
+          "any",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat negatif uncountable -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He gave me many good advice before the talk.\"",
+        "draft": "He gave me many good advice before the talk.",
+        "options": [
+          "He gave me a lot of good advice before the talk.",
+          "He gave me a few good advice before the talk.",
+          "He gave me many good advice before the talk."
+        ],
+        "answer": 0,
+        "explanation": "'Advice' adalah uncountable noun -> gunakan 'a lot of' / 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could I have ___ water before starting the interview?",
+        "options": [
+          "few",
+          "some",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "Permintaan sopan menawarkan/meminta -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Forty-two guests before nine o'clock.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How ___ people signed the attendance sheet?"
+          ],
+          [
+            "Tia",
+            "Forty-two guests before nine o'clock."
+          ]
+        ],
+        "options": [
+          "many",
+          "much",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'People' plural countable -> 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only a little guests arrived before eight.\"",
+        "draft": "Only a little guests arrived before eight.",
+        "options": [
+          "Only much guests arrived before eight.",
+          "Only a little guests arrived before eight.",
+          "Only a few guests arrived before eight."
+        ],
+        "answer": 2,
+        "explanation": "'Guests' countable jamak -> gunakan 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We still have ___ seats open near the front row.",
+        "options": [
+          "a little",
+          "some",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Seats' jamak positif -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami menerima banyak umpan balik setelah lokakarya pagi.\".",
+        "targetSentence": "We received a lot of feedback after the morning workshop.",
+        "explanation": "'Feedback' uncountable memakai 'a lot of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "He didn't make ___ mistakes in his quarterly summary.",
+        "options": [
+          "much",
+          "little",
+          "many"
+        ],
+        "answer": 2,
+        "explanation": "'Mistakes' plural countable -> 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, please! Grab the smaller carton.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Do you need ___ help carrying those boxes?"
+          ],
+          [
+            "Dewi",
+            "Yes, please! Grab the smaller carton."
+          ]
+        ],
+        "options": [
+          "any",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "Penawaran/pertanyaan uncountable 'help' -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are there some spare headsets in Cabinet B?\"",
+        "draft": "Are there some spare headsets in Cabinet B?",
+        "options": [
+          "Are there some spare headsets in Cabinet B?",
+          "Are there any spare headsets in Cabinet B?",
+          "Are there much spare headsets in Cabinet B?"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan informasi biasa memakai 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Does the lab need ___ new thermometers this month?",
+        "options": [
+          "much",
+          "little",
+          "any"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan umum -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bolehkah saya meminta air hangat sebelum wawancara?\".",
+        "targetSentence": "Could I have some warm water before the interview?",
+        "explanation": "Permintaan sopan memakai 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There is ___ traffic along the harbor road after six.",
+        "options": [
+          "a few",
+          "a lot of",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "'Traffic' uncountable -> 'a lot of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the sink dry today? / Because there is ___ water pressure on the third floor.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why is the sink dry today?"
+          ],
+          [
+            "Ayu",
+            "Because there is ___ water pressure on the third floor."
+          ]
+        ],
+        "options": [
+          "no",
+          "many",
+          "a few"
+        ],
+        "answer": 0,
+        "explanation": "'Water pressure' uncountable kosong -> 'no'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I don't have many luggage for this short trip.\"",
+        "draft": "I don't have many luggage for this short trip.",
+        "options": [
+          "I don't have a few luggage for this short trip.",
+          "I don't have many luggage for this short trip.",
+          "I don't have much luggage for this short trip."
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' uncountable -> gunakan 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—just give me ___ minutes to export the PDF.",
+        "options": [
+          "a few",
+          "a little",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Minutes' plural countable -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you take ___ photos at the museum visit? / Just ___—the guide asked us not to use flash.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Did you take ___ photos at the museum visit?"
+          ],
+          [
+            "Oki",
+            "Just ___—the guide asked us not to use flash."
+          ]
+        ],
+        "options": [
+          "a few",
+          "a little",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Photos' plural countable -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Please pour a few milk into the small pitcher.\"",
+        "draft": "Please pour a few milk into the small pitcher.",
+        "options": [
+          "Please pour a few milk into the small pitcher.",
+          "Please pour a little milk into the small pitcher.",
+          "Please pour many milk into the small pitcher."
+        ],
+        "answer": 1,
+        "explanation": "'Milk' uncountable -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak bagasi yang boleh dibawa penumpang?\".",
+        "targetSentence": "How much luggage can each passenger bring along?",
+        "explanation": "'Luggage' uncountable memakai 'How much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "She drank ___ warm tea before presenting her slides.",
+        "options": [
+          "a little",
+          "a few",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Tea' uncountable -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Three kilograms should be plenty.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "How ___ rice should we prepare for twenty guests?"
+          ],
+          [
+            "Mira",
+            "Three kilograms should be plenty."
+          ]
+        ],
+        "options": [
+          "much",
+          "many",
+          "a few"
+        ],
+        "answer": 0,
+        "explanation": "'Rice' uncountable -> 'How much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There aren't no folders left in Tray 1.\"",
+        "draft": "There aren't no folders left in Tray 1.",
+        "options": [
+          "There are no folders left in Tray 1.",
+          "There aren't much folders left in Tray 1.",
+          "There aren't no folders left in Tray 1."
+        ],
+        "answer": 0,
+        "explanation": "Hindari double negative ('aren't no') -> 'are no'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ data did the team download from the archive?",
+        "options": [
+          "few",
+          "much",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "'Data' diperlakukan sebagai uncountable di level dasar -> 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there ___ spare markers near the projector? / Check the blue tray; I left ___ there earlier.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Are there ___ spare markers near the projector?"
+          ],
+          [
+            "Taufik",
+            "Check the blue tray; I left ___ there earlier."
+          ]
+        ],
+        "options": [
+          "a little",
+          "some",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat positif jamak -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many equipment did the team carry?\"",
+        "draft": "How many equipment did the team carry?",
+        "options": [
+          "How a few equipment did the team carry?",
+          "How many equipment did the team carry?",
+          "How much equipment did the team carry?"
+        ],
+        "answer": 2,
+        "explanation": "'Equipment' uncountable -> 'How much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There are ___ helpful notes inside the welcome packet.",
+        "options": [
+          "much",
+          "little",
+          "some"
+        ],
+        "answer": 2,
+        "explanation": "'Notes' jamak positif -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tidak membuat banyak kesalahan pada laporan mingguan.\".",
+        "targetSentence": "He did not make many mistakes in the weekly report.",
+        "explanation": "'Mistakes' jamak memakai 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We saw ___ seagulls flying beside the harbor ferry.",
+        "options": [
+          "much",
+          "a few",
+          "a little"
+        ],
+        "answer": 1,
+        "explanation": "'Seagulls' jamak bisa dihitung -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"No, just one small backpack.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did Mr. Hadi bring ___ luggage to Surabaya?"
+          ],
+          [
+            "Lina",
+            "No, just one small backpack."
+          ]
+        ],
+        "options": [
+          "many",
+          "a few",
+          "much"
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' uncountable negatif -> 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We spotted much dolphins near the harbor.\"",
+        "draft": "We spotted much dolphins near the harbor.",
+        "options": [
+          "We spotted much dolphins near the harbor.",
+          "We spotted a lot of dolphins near the harbor.",
+          "We spotted a little dolphins near the harbor."
+        ],
+        "answer": 1,
+        "explanation": "Kalimat positif jamak memakai 'a lot of' atau 'many' (bukan 'much').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you have ___ information about the afternoon schedule?",
+        "options": [
+          "any",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Information' uncountable dalam pertanyaan -> 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami membeli beberapa camilan sehat untuk ruang istirahat.\".",
+        "targetSentence": "We bought some healthy snacks for the break room.",
+        "explanation": "Kalimat positif jamak memakai 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sorry, we have ___ budget left for extra posters.",
+        "options": [
+          "a few",
+          "no",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "'No' langsung di depan noun bermakna 'tidak ada sama sekali'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, two slices would be great.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Would you like ___ lemon slices with your water?"
+          ],
+          [
+            "Wulan",
+            "Yes, two slices would be great."
+          ]
+        ],
+        "options": [
+          "a little",
+          "some",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "Tawaran plural countable -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She needs a few water before speaking.\"",
+        "draft": "She needs a few water before speaking.",
+        "options": [
+          "She needs many water before speaking.",
+          "She needs a few water before speaking.",
+          "She needs a little water before speaking."
+        ],
+        "answer": 2,
+        "explanation": "'Water' uncountable -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "She bought ___ fresh fruit for the break room.",
+        "options": [
+          "a few",
+          "some",
+          "many"
+        ],
+        "answer": 1,
+        "explanation": "'Fruit' sebagai uncountable kolektif -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Six wide tables fit comfortably.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How ___ desks fit inside the study lounge?"
+          ],
+          [
+            "Sari",
+            "Six wide tables fit comfortably."
+          ]
+        ],
+        "options": [
+          "little",
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Desks' jamak -> 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They didn't send much invitations yesterday.\"",
+        "draft": "They didn't send much invitations yesterday.",
+        "options": [
+          "They didn't send many invitations yesterday.",
+          "They didn't send a little invitations yesterday.",
+          "They didn't send much invitations yesterday."
+        ],
+        "answer": 0,
+        "explanation": "'Invitations' countable jamak -> 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada tinta tersisa di pencetak kantor kami.\".",
+        "targetSentence": "There is no ink left in our office printer.",
+        "explanation": "Menyatakan nihil langsung memakai 'no ink'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ bottles of mineral water are in Box 4?",
+        "options": [
+          "little",
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Bottles' jamak bisa dihitung -> 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our survey collect ___ useful comments? / Yes, we got ___ great ideas from readers.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did our survey collect ___ useful comments?"
+          ],
+          [
+            "Reno",
+            "Yes, we got ___ great ideas from readers."
+          ]
+        ],
+        "options": [
+          "much",
+          "a little",
+          "a lot of"
+        ],
+        "answer": 2,
+        "explanation": "'Great ideas' jamak -> 'a lot of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could I borrow any pens for five minutes?\"",
+        "draft": "Could I borrow any pens for five minutes?",
+        "options": [
+          "Could I borrow any pens for five minutes?",
+          "Could I borrow some pens for five minutes?",
+          "Could I borrow much pens for five minutes?"
+        ],
+        "answer": 1,
+        "explanation": "Permintaan sopan memakai 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "I only spent ___ money on airport snacks.",
+        "options": [
+          "many",
+          "a little",
+          "a few"
+        ],
+        "answer": 1,
+        "explanation": "'Money' uncountable -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Hardly any; it is very quiet after eight.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is there ___ noise outside Lab 1 at night?"
+          ],
+          [
+            "Aris",
+            "Hardly any; it is very quiet after eight."
+          ]
+        ],
+        "options": [
+          "much",
+          "many",
+          "a few"
+        ],
+        "answer": 0,
+        "explanation": "'Noise' uncountable -> 'much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The report contains a few useful data.\"",
+        "draft": "The report contains a few useful data.",
+        "options": [
+          "The report contains a few useful data.",
+          "The report contains some useful data.",
+          "The report contains many useful data."
+        ],
+        "answer": 1,
+        "explanation": "'Data' di level ini uncountable -> 'some'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There weren't ___ passengers on the last night train.",
+        "options": [
+          "much",
+          "little",
+          "many"
+        ],
+        "answer": 2,
+        "explanation": "'Passengers' jamak -> 'many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak gelas bersih yang ada di rak atas?\".",
+        "targetSentence": "How many clean mugs are on the top shelf?",
+        "explanation": "'Mugs' jamak memakai 'How many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
       }
     ],
     "intermediate": [
@@ -551,6 +1991,1446 @@
           "Akhiri dengan klausa 'before the boarding gate closes'."
         ],
         "skill": "quantifier-general"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ people attended the evening seminar—only three showed up.",
+        "options": [
+          "A few",
+          "Little",
+          "Few"
+        ],
+        "answer": 2,
+        "explanation": "'Few' tanpa 'a' bermakna negatif (sangat sedikit/hampir tidak cukup).",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we order ten more chairs for Workshop 2? / No need—we already have ___ seats for everyone.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should we order ten more chairs for Workshop 2?"
+          ],
+          [
+            "Dodi",
+            "No need—we already have ___ seats for everyone."
+          ]
+        ],
+        "options": [
+          "enough",
+          "too",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Enough + noun' = kursi sudah cukup.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This hall is enough large for eighty attendees.\"",
+        "draft": "This hall is enough large for eighty attendees.",
+        "options": [
+          "This hall is large enough for eighty attendees.",
+          "This hall is too large enough for eighty attendees.",
+          "This hall is enough large for eighty attendees."
+        ],
+        "answer": 0,
+        "explanation": "'Enough' diletakkan SETELAH adjective -> 'large enough'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Thankfully, we still have ___ time to proofread the summary.",
+        "options": [
+          "few",
+          "a little",
+          "little"
+        ],
+        "answer": 1,
+        "explanation": "'A little' bermakna positif (masih cukup untuk melakukan sesuatu).",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ruang rapat ini cukup terang untuk merekam wawancara.\".",
+        "targetSentence": "This meeting room is bright enough for recording interviews.",
+        "explanation": "'Adjective + enough' -> 'bright enough'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—we had ___ help from the vendor, so we missed the deadline.",
+        "options": [
+          "a little",
+          "a few",
+          "little"
+        ],
+        "answer": 2,
+        "explanation": "'Little' tanpa 'a' menekankan hampir tidak ada bantuan (negatif).",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did they cancel the Tuesday yoga class? / Because very ___ members signed up this month.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why did they cancel the Tuesday yoga class?"
+          ],
+          [
+            "Bima",
+            "Because very ___ members signed up this month."
+          ]
+        ],
+        "options": [
+          "a few",
+          "little",
+          "few"
+        ],
+        "answer": 2,
+        "explanation": "Alasan batal = hampir tidak ada pendaftar -> 'few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither of the three reports included cost charts.\"",
+        "draft": "Neither of the three reports included cost charts.",
+        "options": [
+          "Both of the three reports included cost charts.",
+          "Neither of the three reports included cost charts.",
+          "None of the three reports included cost charts."
+        ],
+        "answer": 2,
+        "explanation": "'Neither' hanya untuk 2 benda; untuk 3+ gunakan 'None of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Yes, I know ___ helpful shortcuts in this spreadsheet.",
+        "options": [
+          "few",
+          "little",
+          "a few"
+        ],
+        "answer": 2,
+        "explanation": "Bernada positif punya beberapa trik -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you free to edit two more slides? / Yes, I still have ___ time before my train leaves.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Are you free to edit two more slides?"
+          ],
+          [
+            "Eko",
+            "Yes, I still have ___ time before my train leaves."
+          ]
+        ],
+        "options": [
+          "few",
+          "a little",
+          "little"
+        ],
+        "answer": 1,
+        "explanation": "Masih ada cukup waktu -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Sadly, a few students understood the unclear formula.\"",
+        "draft": "Sadly, a few students understood the unclear formula.",
+        "options": [
+          "Sadly, few students understood the unclear formula.",
+          "Sadly, little students understood the unclear formula.",
+          "Sadly, a few students understood the unclear formula."
+        ],
+        "answer": 0,
+        "explanation": "Konteks sedih/hampir tak ada butuh 'few' tanpa 'a'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sayangnya, sangat sedikit peserta yang membaca panduan awal.\".",
+        "targetSentence": "Sadly, very few participants read the initial guide.",
+        "explanation": "Nada negatif jumlah hampir nol memakai 'few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "These chairs are ___ narrow for tall delegates.",
+        "options": [
+          "much",
+          "too",
+          "enough"
+        ],
+        "answer": 1,
+        "explanation": "'Too + adjective' bermakna berlebihan (negatif).",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which of the two folders contains signed receipts? / ___ one! Both copies are still sitting on Adi's desk.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Which of the two folders contains signed receipts?"
+          ],
+          [
+            "Sari",
+            "___ one! Both copies are still sitting on Adi's desk."
+          ]
+        ],
+        "options": [
+          "Neither",
+          "Both",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "Dari dua pilihan ternyata tidak ada -> 'Neither one'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We packed enough of chairs? No, we don't have chairs enough.\"",
+        "draft": "We packed enough of chairs? No, we don't have chairs enough.",
+        "options": [
+          "We don't have too chairs.",
+          "We packed enough of chairs? No, we don't have chairs enough.",
+          "We don't have enough chairs."
+        ],
+        "answer": 2,
+        "explanation": "'Enough' selalu berada SEBELUM noun -> 'enough chairs'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is the lecture hall bright ___ for recording video?",
+        "options": [
+          "enough",
+          "too",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Enough' diletakkan SETELAH adjective ('bright enough').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can I sit in Desk 4 or Desk 5 today? / Take ___ desk—both monitors are working fine.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Can I sit in Desk 4 or Desk 5 today?"
+          ],
+          [
+            "Putri",
+            "Take ___ desk—both monitors are working fine."
+          ]
+        ],
+        "options": [
+          "either",
+          "neither",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "Mana saja dari dua pilihan -> 'either desk'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are too much errors in Column D right now.\"",
+        "draft": "There are too much errors in Column D right now.",
+        "options": [
+          "There are too many errors in Column D right now.",
+          "There are too little errors in Column D right now.",
+          "There are too much errors in Column D right now."
+        ],
+        "answer": 0,
+        "explanation": "'Errors' jamak countable -> 'too many errors'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We didn't print ___ copies for all sixty participants.",
+        "options": [
+          "enough",
+          "too",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Enough' diletakkan SEBELUM noun ('enough copies').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Untungnya, kami masih punya sedikit waktu untuk memeriksa berkas.\".",
+        "targetSentence": "Thankfully, we still have a little time to check files.",
+        "explanation": "Nada positif masih cukup memakai 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There is ___ much noise near the construction gate to record.",
+        "options": [
+          "too",
+          "enough",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "Uncountable berlebih -> 'too much noise'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did everyone step outside the lab? / It was ___ warm inside after the AC stopped.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Why did everyone step outside the lab?"
+          ],
+          [
+            "Arman",
+            "It was ___ warm inside after the AC stopped."
+          ]
+        ],
+        "options": [
+          "too",
+          "enough",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Too + adjective' = terlalu panas.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Both of the applicant forgot to sign Page 2.\"",
+        "draft": "Both of the applicant forgot to sign Page 2.",
+        "options": [
+          "Both of the applicant forgot to sign Page 2.",
+          "Both of the applicants forgot to sign Page 2.",
+          "Neither of the applicants forgot to sign both Page 2."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Both of the', noun wajib jamak ('applicants').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of the two candidates spoke both Indonesian and Japanese.",
+        "options": [
+          "Neither",
+          "Both only",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "Untuk tepat dua orang/benda dan negatif -> 'Neither of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak satu pun dari kedua laporan itu menyertakan grafik.\".",
+        "targetSentence": "Neither of the two reports included any charts.",
+        "explanation": "Untuk dua benda negatif gunakan 'Neither of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ managers signed the safety policy—every signature is here.",
+        "options": [
+          "Both",
+          "Neither",
+          "Either"
+        ],
+        "answer": 0,
+        "explanation": "Kedua-duanya ikut menandatangani (jamak) -> 'Both'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, every single box arrived before noon.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did our courier deliver ___ boxes on time?"
+          ],
+          [
+            "Adi",
+            "Yes, every single box arrived before noon."
+          ]
+        ],
+        "options": [
+          "neither",
+          "much",
+          "all the"
+        ],
+        "answer": 2,
+        "explanation": "Jamak keseluruhan -> 'all the boxes'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Thankfully, we still have little milk for two coffees.\"",
+        "draft": "Thankfully, we still have little milk for two coffees.",
+        "options": [
+          "Thankfully, we still have little milk for two coffees.",
+          "Thankfully, we still have a little milk for two coffees.",
+          "Thankfully, we still have few milk for two coffees."
+        ],
+        "answer": 1,
+        "explanation": "Konteks positif cukup -> 'a little milk'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "You can pick ___ Tuesday or Thursday for your onboarding.",
+        "options": [
+          "either",
+          "neither",
+          "both"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan salah satu dari dua -> 'either ... or ...'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was the speaker whispering into the mic? / Because she had very ___ voice left after five lectures.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why was the speaker whispering into the mic?"
+          ],
+          [
+            "Kiki",
+            "Because she had very ___ voice left after five lectures."
+          ]
+        ],
+        "options": [
+          "a little",
+          "few",
+          "little"
+        ],
+        "answer": 2,
+        "explanation": "Hampir tidak ada suara (negatif) -> 'little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Every employees received a digital security badge.\"",
+        "draft": "Every employees received a digital security badge.",
+        "options": [
+          "Every employees received a digital security badge.",
+          "Every employee received a digital security badge.",
+          "Every of employee received a digital security badge."
+        ],
+        "answer": 1,
+        "explanation": "'Every' diikuti noun tunggal ('employee').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tak satu pun dari ketiga printer itu punya tinta cukup.\".",
+        "targetSentence": "None of the three printers had enough ink.",
+        "explanation": "Untuk tiga atau lebih benda gunakan 'None of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of the five servers crashed during the night backup.",
+        "options": [
+          "None",
+          "Neither",
+          "Both"
+        ],
+        "answer": 0,
+        "explanation": "Untuk 3+ item dan nihil -> 'None of' (bukan 'Neither').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did any of those three printers finish the booklet? / No, ___ of them had enough black toner.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did any of those three printers finish the booklet?"
+          ],
+          [
+            "Sinta",
+            "No, ___ of them had enough black toner."
+          ]
+        ],
+        "options": [
+          "both",
+          "none",
+          "neither"
+        ],
+        "answer": 1,
+        "explanation": "Untuk 3 barang yang semuanya gagal -> 'none of them'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He drank too many coffee before his evening flight.\"",
+        "draft": "He drank too many coffee before his evening flight.",
+        "options": [
+          "He drank too much coffee before his evening flight.",
+          "He drank enough many coffee before his evening flight.",
+          "He drank too many coffee before his evening flight."
+        ],
+        "answer": 0,
+        "explanation": "'Coffee' uncountable -> 'too much coffee'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "She spent ___ hours formatting the footnotes properly.",
+        "options": [
+          "several",
+          "much",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Several' untuk plural countable dalam jumlah sedang ('beberapa').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, five meters reaches across the ceiling easily.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Are these cables long ___ to reach the projector?"
+          ],
+          [
+            "Tia",
+            "Yes, five meters reaches across the ceiling easily."
+          ]
+        ],
+        "options": [
+          "plenty",
+          "enough",
+          "too"
+        ],
+        "answer": 1,
+        "explanation": "Adjective + 'enough' -> 'long enough'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Either of the two managers were informed yet? No, neither were ready.\"",
+        "draft": "Either of the two managers were informed yet? No, neither were ready.",
+        "options": [
+          "None of the two managers was ready.",
+          "Either of the two managers were informed yet? No, neither were ready.",
+          "Neither of the two managers was ready."
+        ],
+        "answer": 2,
+        "explanation": "Di tulisan formal, 'neither of + jamak' memakai verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We have ___ of clean storage space on Drive B.",
+        "options": [
+          "plenty",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Plenty of' cocok untuk uncountable maupun countable berarti 'lebih dari cukup'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada terlalu banyak kebisingan di dekat pintu gerbang.\".",
+        "targetSentence": "There is too much noise near the entrance gate.",
+        "explanation": "'Noise' uncountable berlebih memakai 'too much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sadly, ___ tourists visit this museum on rainy Mondays.",
+        "options": [
+          "little",
+          "few",
+          "a few"
+        ],
+        "answer": 1,
+        "explanation": "Nada negatif/sepi ('sadly') dengan jamak -> 'few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you visited any branches in East Java yet? / Yes, I've toured ___ offices in Malang and Surabaya.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Have you visited any branches in East Java yet?"
+          ],
+          [
+            "Dewi",
+            "Yes, I've toured ___ offices in Malang and Surabaya."
+          ]
+        ],
+        "options": [
+          "little",
+          "a few",
+          "few"
+        ],
+        "answer": 1,
+        "explanation": "Bernada positif beberapa kantor -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has plenty friends across different campuses.\"",
+        "draft": "She has plenty friends across different campuses.",
+        "options": [
+          "She has plenty much friends across different campuses.",
+          "She has plenty friends across different campuses.",
+          "She has plenty of friends across different campuses."
+        ],
+        "answer": 2,
+        "explanation": "Wajib menyertakan 'of' -> 'plenty of friends'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There was ___ interest in the optional afternoon tour.",
+        "options": [
+          "little",
+          "few",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Interest' uncountable hampir tak ada -> 'little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda bisa memilih Selasa atau Kamis untuk sesi pelatihan.\".",
+        "targetSentence": "You can pick either Tuesday or Thursday for training.",
+        "explanation": "Pasangan pilihan 'either ... or'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are these boxes sturdy ___ to carry heavy glass jars?",
+        "options": [
+          "plenty",
+          "enough",
+          "too"
+        ],
+        "answer": 1,
+        "explanation": "Adjective + 'enough' ('sturdy enough').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you reject the first template? / It packed ___ much text onto a single slide.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why did you reject the first template?"
+          ],
+          [
+            "Ayu",
+            "It packed ___ much text onto a single slide."
+          ]
+        ],
+        "options": [
+          "enough",
+          "many",
+          "too"
+        ],
+        "answer": 2,
+        "explanation": "'Text' uncountable berlebih -> 'too much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The coffee was enough hot to burn my tongue.\"",
+        "draft": "The coffee was enough hot to burn my tongue.",
+        "options": [
+          "The coffee was enough hot to burn my tongue.",
+          "The coffee was too hot to drink safely.",
+          "The coffee was hot too to drink safely."
+        ],
+        "answer": 1,
+        "explanation": "Bermakna negatif berlebihan ('panas hingga tak nyaman') memakai 'too hot'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There were ___ many commuters on the 7 AM train.",
+        "options": [
+          "enough",
+          "little",
+          "too"
+        ],
+        "answer": 2,
+        "explanation": "Countable jamak berlebih -> 'too many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did both presenters send their slides in PDF? / Yes, ___ of them uploaded clean files last night.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Did both presenters send their slides in PDF?"
+          ],
+          [
+            "Oki",
+            "Yes, ___ of them uploaded clean files last night."
+          ]
+        ],
+        "options": [
+          "either",
+          "neither",
+          "both"
+        ],
+        "answer": 2,
+        "explanation": "Keduanya mengirim -> 'both of them'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"None of the two elevators is running this morning.\"",
+        "draft": "None of the two elevators is running this morning.",
+        "options": [
+          "Both of the two elevators is running this morning.",
+          "None of the two elevators is running this morning.",
+          "Neither of the two elevators is running this morning."
+        ],
+        "answer": 2,
+        "explanation": "Untuk tepat dua objek, gunakan 'Neither of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Setiap mahasiswa magang menerima kartu akses pribadi kemarin.\".",
+        "targetSentence": "Every intern received a personal access badge yesterday.",
+        "explanation": "'Every' + singular noun.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ participant received a numbered folder at registration.",
+        "options": [
+          "Many",
+          "Every",
+          "Both"
+        ],
+        "answer": 1,
+        "explanation": "'Every' + singular noun ('participant') untuk masing-masing peserta.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we pack extra batteries for the survey? / No, we have ___ of spare cells inside Bag B.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should we pack extra batteries for the survey?"
+          ],
+          [
+            "Mira",
+            "No, we have ___ of spare cells inside Bag B."
+          ]
+        ],
+        "options": [
+          "few",
+          "little",
+          "plenty"
+        ],
+        "answer": 2,
+        "explanation": "Lebih dari cukup -> 'plenty of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I know a little helpful phrases in Korean.\"",
+        "draft": "I know a little helpful phrases in Korean.",
+        "options": [
+          "I know a few helpful phrases in Korean.",
+          "I know little helpful phrases in Korean.",
+          "I know a little helpful phrases in Korean."
+        ],
+        "answer": 0,
+        "explanation": "'Phrases' jamak countable -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ room on Floor 2 has its own thermostat control.",
+        "options": [
+          "All",
+          "Few",
+          "Each"
+        ],
+        "answer": 2,
+        "explanation": "'Each' + singular noun menekankan satu per satu.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was the new policy ignored at first? / The memo wasn't direct ___ about the start date.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why was the new policy ignored at first?"
+          ],
+          [
+            "Taufik",
+            "The memo wasn't direct ___ about the start date."
+          ]
+        ],
+        "options": [
+          "much",
+          "enough",
+          "too"
+        ],
+        "answer": 1,
+        "explanation": "Adjective + 'enough' -> 'direct enough'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There was few rain during the dry month of August.\"",
+        "draft": "There was few rain during the dry month of August.",
+        "options": [
+          "There was little rain during the dry month of August.",
+          "There was a few rain during the dry month of August.",
+          "There was few rain during the dry month of August."
+        ],
+        "answer": 0,
+        "explanation": "'Rain' uncountable -> 'little rain'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "We checked ___ drafts—neither version had the missing footnote.",
+        "options": [
+          "either",
+          "every",
+          "both"
+        ],
+        "answer": 2,
+        "explanation": "'Neither' merujuk dua hal sebelumnya -> 'both drafts'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami belum mencetak cukup salinan untuk enam puluh tamu.\".",
+        "targetSentence": "We have not printed enough copies for sixty guests.",
+        "explanation": "'Enough' di depan noun ('enough copies').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There's ___ much glare on the whiteboard from Window 3.",
+        "options": [
+          "many",
+          "enough",
+          "too"
+        ],
+        "answer": 2,
+        "explanation": "'Glare' uncountable berlebih -> 'too much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did each volunteer get a reflective vest? / Yes, ___ volunteer received one at check-in.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did each volunteer get a reflective vest?"
+          ],
+          [
+            "Lina",
+            "Yes, ___ volunteer received one at check-in."
+          ]
+        ],
+        "options": [
+          "every",
+          "both",
+          "several"
+        ],
+        "answer": 0,
+        "explanation": "'Every' + singular noun ('volunteer').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You can take neither Tuesday or Thursday for the interview.\"",
+        "draft": "You can take neither Tuesday or Thursday for the interview.",
+        "options": [
+          "You can take either Tuesday or Thursday for the interview.",
+          "You can take both Tuesday or Thursday for the interview.",
+          "You can take neither Tuesday or Thursday for the interview."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'or' untuk pilihan adalah 'either ... or'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "I still have ___ cash left, so let's buy cold bottled water.",
+        "options": [
+          "a little",
+          "little",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "Positif masih ada cukup -> 'a little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kedua manajer menandatangani kebijakan keselamatan baru pagi ini.\".",
+        "targetSentence": "Both managers signed the new safety policy this morning.",
+        "explanation": "'Both' + plural noun.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "I bought ___ new adapters—would you like to borrow one?",
+        "options": [
+          "few",
+          "little",
+          "a few"
+        ],
+        "answer": 2,
+        "explanation": "Positif punya beberapa -> 'a few'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was there any parking near Station Gate A? / Almost none—there were ___ many delivery vans blocking it.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was there any parking near Station Gate A?"
+          ],
+          [
+            "Wulan",
+            "Almost none—there were ___ many delivery vans blocking it."
+          ]
+        ],
+        "options": [
+          "enough",
+          "much",
+          "too"
+        ],
+        "answer": 2,
+        "explanation": "'Vans' countable berlebih -> 'too many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Several of information on that page looked outdated.\"",
+        "draft": "Several of information on that page looked outdated.",
+        "options": [
+          "Several pieces of information on that page looked outdated.",
+          "Several informations on that page looked outdated.",
+          "Several of information on that page looked outdated."
+        ],
+        "answer": 0,
+        "explanation": "'Information' uncountable -> gunakan unit 'several pieces of information'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sadly, ___ progress was made before the electricity returned.",
+        "options": [
+          "a little",
+          "few",
+          "little"
+        ],
+        "answer": 2,
+        "explanation": "'Progress' uncountable minim sekali -> 'little'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do you want tea or iced coffee during the break? / ___ is fine; I'm happy with whichever is ready.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Do you want tea or iced coffee during the break?"
+          ],
+          [
+            "Sari",
+            "___ is fine; I'm happy with whichever is ready."
+          ]
+        ],
+        "options": [
+          "Neither",
+          "Both only",
+          "Either"
+        ],
+        "answer": 2,
+        "explanation": "Salah satu dari dua minuman -> 'Either is fine'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Each of the interns have a separate locker.\"",
+        "draft": "Each of the interns have a separate locker.",
+        "options": [
+          "Each of the interns have a separate locker.",
+          "Each of the interns has a separate locker.",
+          "Each of the intern have a separate locker."
+        ],
+        "answer": 1,
+        "explanation": "'Each of + plural noun' memakai verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami membawa banyak air minum untuk survei lapangan.\".",
+        "targetSentence": "We brought plenty of drinking water for the field survey.",
+        "explanation": "'Plenty of' + uncountable noun.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "The instructions weren't clear ___ for first-time users.",
+        "options": [
+          "enough",
+          "too",
+          "plenty"
+        ],
+        "answer": 0,
+        "explanation": "'Clear enough' = cukup jelas.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How was the turnout at Friday's optional coding clinic? / Great! ___ interns stayed for extra Q&A practice.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "How was the turnout at Friday's optional coding clinic?"
+          ],
+          [
+            "Reno",
+            "Great! ___ interns stayed for extra Q&A practice."
+          ]
+        ],
+        "options": [
+          "Little",
+          "Much",
+          "Several"
+        ],
+        "answer": 2,
+        "explanation": "'Interns' jamak positif sejumlah sedang -> 'Several'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The font size isn't too clear enough on Projector 2.\"",
+        "draft": "The font size isn't too clear enough on Projector 2.",
+        "options": [
+          "The font size isn't too clear enough on Projector 2.",
+          "The font size isn't clear enough on Projector 2.",
+          "The font size isn't enough clear on Projector 2."
+        ],
+        "answer": 1,
+        "explanation": "Jangan gabungkan 'too' dengan 'enough'; gunakan 'clear enough'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "There are ___ many notifications popping up during presentations.",
+        "options": [
+          "much",
+          "enough",
+          "too"
+        ],
+        "answer": 2,
+        "explanation": "Countable jamak berlebih -> 'too many'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Could you finish the entire audit before lunch? / Not quite—there was simply ___ much paperwork to check.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Could you finish the entire audit before lunch?"
+          ],
+          [
+            "Aris",
+            "Not quite—there was simply ___ much paperwork to check."
+          ]
+        ],
+        "options": [
+          "many",
+          "too",
+          "enough"
+        ],
+        "answer": 1,
+        "explanation": "'Paperwork' uncountable berlebih -> 'too much'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All of equipment inside Lab 3 needs calibration.\"",
+        "draft": "All of equipment inside Lab 3 needs calibration.",
+        "options": [
+          "All of the equipment inside Lab 3 needs calibration.",
+          "All equipment inside Lab 3 need calibration.",
+          "All of equipment inside Lab 3 needs calibration."
+        ],
+        "answer": 0,
+        "explanation": "Uncountable 'equipment' memakai 'All of the equipment' + verb tunggal 'needs'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of the two routes takes less than forty minutes right now.",
+        "options": [
+          "All",
+          "Either",
+          "None"
+        ],
+        "answer": 1,
+        "explanation": "Salah satu dari dua rute -> 'Either of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kotak-kotak ini terlalu berat untuk diangkat satu orang.\".",
+        "targetSentence": "These boxes are too heavy for one person to lift.",
+        "explanation": "'Too + adjective + for ... to V1'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
       }
     ],
     "complex": [
@@ -834,6 +3714,1446 @@
           "Sambungkan dengan 'though several studies mention it'."
         ],
         "skill": "quantifier-few-little"
+      },
+      {
+        "type": "choice",
+        "prompt": "A large number of research papers ___ peer review weekly.",
+        "options": [
+          "requires",
+          "is requiring",
+          "require"
+        ],
+        "answer": 2,
+        "explanation": "'A large number of + plural noun' bermakna 'banyak' -> memakai verb jamak ('require').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the registrar expand Hall A this semester? / Because the number of applicants ___ doubled since 2024.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Why did the registrar expand Hall A this semester?"
+          ],
+          [
+            "Dodi",
+            "Because the number of applicants ___ doubled since 2024."
+          ]
+        ],
+        "options": [
+          "have",
+          "are",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'The number of ...' selalu memakai verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The number of trainees have grown steadily this year.\"",
+        "draft": "The number of trainees have grown steadily this year.",
+        "options": [
+          "The number of trainees has grown steadily this year.",
+          "A number of trainees has grown steadily this year.",
+          "The number of trainees have grown steadily this year."
+        ],
+        "answer": 0,
+        "explanation": "'The number of ...' selalu memakai verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "The number of remote applicants ___ risen by forty percent.",
+        "options": [
+          "have",
+          "are",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'The number of + plural noun' merujuk jumlah angkanya (tunggal) -> verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jumlah pelamar jarak jauh meningkat empat puluh persen tahun ini.\".",
+        "targetSentence": "The number of remote applicants has risen forty percent this year.",
+        "explanation": "'The number of' diikuti verb tunggal 'has risen'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Each of the regional coordinators ___ an encrypted token.",
+        "options": [
+          "holds",
+          "hold",
+          "are holding"
+        ],
+        "answer": 0,
+        "explanation": "'Each of + plural noun' mengambil verb tunggal ('holds').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are many researchers submitting papers this week? / Yes, a large number of papers ___ arriving daily.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Are many researchers submitting papers this week?"
+          ],
+          [
+            "Bima",
+            "Yes, a large number of papers ___ arriving daily."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'A large number of + jamak' memakai verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"A large number of emails requires immediate replies.\"",
+        "draft": "A large number of emails requires immediate replies.",
+        "options": [
+          "A large number of emails requires immediate replies.",
+          "A large number of emails require immediate replies.",
+          "A large amount of emails require immediate replies."
+        ],
+        "answer": 1,
+        "explanation": "'A large number of + jamak' memakai verb jamak ('require').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the manager nor the two assistants ___ the key.",
+        "options": [
+          "have",
+          "has",
+          "was having"
+        ],
+        "answer": 0,
+        "explanation": "Dengan 'neither ... nor ...', verb mengikuti subjek terdekat ('the two assistants' -> jamak 'have').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did either the team lead or the interns spot the bug? / Actually, neither the lead nor the interns ___ seen it.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did either the team lead or the interns spot the bug?"
+          ],
+          [
+            "Eko",
+            "Actually, neither the lead nor the interns ___ seen it."
+          ]
+        ],
+        "options": [
+          "has",
+          "is",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Dengan 'neither ... nor ...', verb mengikuti subjek terdekat jamak ('interns' -> 'have').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither the director nor the advisors was told early.\"",
+        "draft": "Neither the director nor the advisors was told early.",
+        "options": [
+          "Neither the director nor the advisors were told early.",
+          "Neither the director nor the advisors is told early.",
+          "Neither the director nor the advisors was told early."
+        ],
+        "answer": 0,
+        "explanation": "Subjek terdekat ('advisors') jamak -> gunakan 'were'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sejumlah besar makalah riset memerlukan tinjauan sejawat mingguan.\".",
+        "targetSentence": "A large number of research papers require weekly peer review.",
+        "explanation": "'A large number of' diikuti verb jamak 'require'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Either the printers or the main router ___ resetting.",
+        "options": [
+          "needs",
+          "need",
+          "are needing"
+        ],
+        "answer": 0,
+        "explanation": "Subjek terdekat setelah 'or' tunggal ('the main router') -> 'needs'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has each member of the panel reviewed the CV? / Yes, each of the reviewers ___ added scoring notes.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Has each member of the panel reviewed the CV?"
+          ],
+          [
+            "Sari",
+            "Yes, each of the reviewers ___ added scoring notes."
+          ]
+        ],
+        "options": [
+          "were",
+          "has",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'Each of + plural noun' mengambil verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Each of the workshop folders contain three checklists.\"",
+        "draft": "Each of the workshop folders contain three checklists.",
+        "options": [
+          "Each of the workshop folders contains three checklists.",
+          "Each of the workshop folder contain three checklists.",
+          "Each of the workshop folders contain three checklists."
+        ],
+        "answer": 0,
+        "explanation": "'Each of + plural noun' memakai verb tunggal ('contains').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Three-quarters of the warehouse roof ___ repaired last June.",
+        "options": [
+          "have been",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Pecahan + singular/uncountable noun ('roof') mengambil verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How much of the laboratory furniture arrived intact? / Thankfully, all of the furniture ___ intact.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "How much of the laboratory furniture arrived intact?"
+          ],
+          [
+            "Putri",
+            "Thankfully, all of the furniture ___ intact."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Furniture' selalu uncountable -> verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"A great deal of laptops were issued to new staff.\"",
+        "draft": "A great deal of laptops were issued to new staff.",
+        "options": [
+          "A great deal of laptops was issued to new staff.",
+          "A great deal of laptops were issued to new staff.",
+          "A large number of laptops were issued to new staff."
+        ],
+        "answer": 2,
+        "explanation": "'A great deal of' hanya untuk uncountable; untuk jamak 'laptops', gunakan 'A large number of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two-thirds of the sample bottles ___ labeled before noon.",
+        "options": [
+          "has been",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Pecahan + plural noun ('sample bottles') mengambil verb jamak ('were').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Masing-masing koordinator wilayah memegang satu token keamanan terenkripsi.\".",
+        "targetSentence": "Each of the regional coordinators holds one encrypted security token.",
+        "explanation": "'Each of + plural noun' diikuti verb tunggal 'holds'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "A great deal of patience ___ required when mentoring newcomers.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'A great deal of' hanya untuk uncountable noun dan memakai verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did many of the volunteers stay for the evening shift? / Two-thirds of the volunteers ___ staying until eight.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Did many of the volunteers stay for the evening shift?"
+          ],
+          [
+            "Arman",
+            "Two-thirds of the volunteers ___ staying until eight."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Pecahan + jamak ('volunteers') -> verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly none of the guests read the back page.\"",
+        "draft": "Hardly none of the guests read the back page.",
+        "options": [
+          "Hardly any of the guests read the back page.",
+          "Hardly few of the guests read the back page.",
+          "Hardly none of the guests read the back page."
+        ],
+        "answer": 0,
+        "explanation": "'Hardly' sudah negatif; pasangkan dengan 'any', jangan 'none'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly ___ of the trainees knew the emergency exit code.",
+        "options": [
+          "none",
+          "few only",
+          "any"
+        ],
+        "answer": 2,
+        "explanation": "'Hardly' bermakna negatif sehingga berpasangan dengan 'any', bukan 'none'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baik manajer maupun kedua asistennya belum melihat kuncinya.\".",
+        "targetSentence": "Neither the manager nor the two assistants have seen the key.",
+        "explanation": "Subjek terdekat jamak ('the two assistants') -> 'have'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "The majority of our international clients ___ via email.",
+        "options": [
+          "is communicating",
+          "communicate",
+          "communicates"
+        ],
+        "answer": 1,
+        "explanation": "'The majority of + plural noun' mengambil verb jamak ('communicate').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How much of the grant went toward lab glassware? / Roughly one-third of the grant ___ spent on glassware.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "How much of the grant went toward lab glassware?"
+          ],
+          [
+            "Adi",
+            "Roughly one-third of the grant ___ spent on glassware."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "Pecahan + tunggal ('grant') -> 'was'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All of the laboratory equipment were calibrated Friday.\"",
+        "draft": "All of the laboratory equipment were calibrated Friday.",
+        "options": [
+          "All of the laboratory equipment were calibrated Friday.",
+          "All of the laboratory equipment was calibrated Friday.",
+          "All of the laboratory equipments were calibrated Friday."
+        ],
+        "answer": 1,
+        "explanation": "'Equipment' uncountable -> verb tunggal 'was'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Plenty of clean drinking water ___ stored in Tank B.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'Plenty of + uncountable noun' -> verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why do we need a stronger cloud backup? / Because a huge amount of data ___ generated every hour.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why do we need a stronger cloud backup?"
+          ],
+          [
+            "Kiki",
+            "Because a huge amount of data ___ generated every hour."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Amount of' + uncountable -> 'is'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Two-thirds of the survey responses was positive.\"",
+        "draft": "Two-thirds of the survey responses was positive.",
+        "options": [
+          "Two-thirds of the survey responses were positive.",
+          "Two-thirds of the survey response were positive.",
+          "Two-thirds of the survey responses was positive."
+        ],
+        "answer": 0,
+        "explanation": "Pecahan + jamak ('responses') memakai verb jamak 'were'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hampir tidak ada peserta magang yang mengetahui kode keluar darurat.\".",
+        "targetSentence": "Hardly any of the interns knew the emergency exit code.",
+        "explanation": "'Hardly any' menyatakan hampir tidak ada.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "All of the missing equipment ___ found inside Locker 5.",
+        "options": [
+          "were",
+          "have been",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'Equipment' adalah uncountable noun -> selalu verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did anyone bring the missing microphone cables? / Wait—not a single cable ___ inside Case 2.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did anyone bring the missing microphone cables?"
+          ],
+          [
+            "Sinta",
+            "Wait—not a single cable ___ inside Case 2."
+          ]
+        ],
+        "options": [
+          "are",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "'Not a single + singular noun' -> 'was'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Three-quarters of the report were written overnight.\"",
+        "draft": "Three-quarters of the report were written overnight.",
+        "options": [
+          "Three-quarters of the reports was written overnight.",
+          "Three-quarters of the report were written overnight.",
+          "Three-quarters of the report was written overnight."
+        ],
+        "answer": 2,
+        "explanation": "Pecahan + tunggal ('the report') memakai verb tunggal 'was'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither of the two submitted drafts ___ ready for press.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa formal/IELTS, 'Neither of + plural noun' memakai verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How are both drafts looking right now? / Neither of the two drafts ___ final statistics yet.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How are both drafts looking right now?"
+          ],
+          [
+            "Tia",
+            "Neither of the two drafts ___ final statistics yet."
+          ]
+        ],
+        "options": [
+          "are including",
+          "includes",
+          "include"
+        ],
+        "answer": 1,
+        "explanation": "'Neither of + plural noun' formal -> verb tunggal ('includes').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The amount of participants exceeded our hall limit.\"",
+        "draft": "The amount of participants exceeded our hall limit.",
+        "options": [
+          "The amount of participants exceeded our hall limit.",
+          "The number of participants exceeded our hall limit.",
+          "The quantity of participants exceeded our hall limit."
+        ],
+        "answer": 1,
+        "explanation": "Untuk countable jamak ('participants'), gunakan 'The number of', bukan 'amount of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "None of the archived financial data ___ altered after audit.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Dengan uncountable noun ('data'/'information' di konteks tunggal), 'None of the' memakai verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dua pertiga botol sampel telah diberi label sebelum tengah hari.\".",
+        "targetSentence": "Two-thirds of the sample bottles were labeled before noon.",
+        "explanation": "Pecahan + jamak memakai 'were labeled'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several pieces of outdated furniture ___ moved to storage.",
+        "options": [
+          "has been",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Inti subjeknya 'pieces' (jamak) -> verb jamak ('were').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our visitors complain about the shuttle? / No, hardly ___ of them mentioned any delay.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Did our visitors complain about the shuttle?"
+          ],
+          [
+            "Dewi",
+            "No, hardly ___ of them mentioned any delay."
+          ]
+        ],
+        "options": [
+          "none",
+          "nothing",
+          "any"
+        ],
+        "answer": 2,
+        "explanation": "'Hardly' negatif berpasangan dengan 'any'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not a single laptops were left plugged in overnight.\"",
+        "draft": "Not a single laptops were left plugged in overnight.",
+        "options": [
+          "Not a single laptop was left plugged in overnight.",
+          "Not a single laptop were left plugged in overnight.",
+          "Not a single laptops were left plugged in overnight."
+        ],
+        "answer": 0,
+        "explanation": "'Not a single' diikuti noun tunggal ('laptop') dan verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every single applicant in Batch 3 ___ interviewed in person.",
+        "options": [
+          "have been",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "'Every single + noun tunggal' selalu verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua peralatan laboratorium dikalibrasi ulang Jumat lalu.\".",
+        "targetSentence": "All of the laboratory equipment was recalibrated last Friday.",
+        "explanation": "'Equipment' uncountable -> 'was recalibrated'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "A couple of urgent emails ___ waiting in your inbox.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'A couple of + plural noun' bermakna 'dua/beberapa' -> verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there enough stationery for Cohort 5? / Yes, a great deal of paper ___ stocked in Closet 1.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Is there enough stationery for Cohort 5?"
+          ],
+          [
+            "Ayu",
+            "Yes, a great deal of paper ___ stocked in Closet 1."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'A great deal of' + uncountable -> 'is'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Either the interns or Ms. Dina are bringing badges.\"",
+        "draft": "Either the interns or Ms. Dina are bringing badges.",
+        "options": [
+          "Either the interns or Ms. Dina were bringing badges.",
+          "Either the interns or Ms. Dina are bringing badges.",
+          "Either the interns or Ms. Dina is bringing badges."
+        ],
+        "answer": 2,
+        "explanation": "Subjek terdekat setelah 'or' tunggal ('Ms. Dina') -> 'is'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not a single receipt from Tuesday ___ missing.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Not a single + singular noun' memakai verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who will chair tomorrow's orientation? / Either Ms. Sinta or the two mentors ___ chairing it.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Who will chair tomorrow's orientation?"
+          ],
+          [
+            "Oki",
+            "Either Ms. Sinta or the two mentors ___ chairing it."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Subjek terdekat setelah 'or' jamak ('the two mentors') -> 'are'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"A huge amount of paper clips were scattered nearby.\"",
+        "draft": "A huge amount of paper clips were scattered nearby.",
+        "options": [
+          "A huge amount of paper clips was scattered nearby.",
+          "A huge amount of paper clips were scattered nearby.",
+          "A huge number of paper clips were scattered nearby."
+        ],
+        "answer": 2,
+        "explanation": "'Paper clips' countable jamak memakai 'number of', bukan 'amount of'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kesabaran yang besar sangat dibutuhkan saat membimbing anggota baru.\".",
+        "targetSentence": "A great deal of patience is needed when mentoring new members.",
+        "explanation": "'A great deal of' + uncountable -> 'is needed'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Half of the budget ___ allocated to field equipment.",
+        "options": [
+          "are",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "'Half of + singular/uncountable (budget)' -> verb tunggal ('was').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you sort all the incoming parcels? / Yes, half of the parcels ___ already marked for Gate B.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did you sort all the incoming parcels?"
+          ],
+          [
+            "Mira",
+            "Yes, half of the parcels ___ already marked for Gate B."
+          ]
+        ],
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'Half of + plural noun' -> 'are'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither of those two schedules fit our flight.\"",
+        "draft": "Neither of those two schedules fit our flight.",
+        "options": [
+          "Neither of those two schedules fit our flight.",
+          "Neither of those two schedules fits our flight.",
+          "None of those two schedules fits our flight."
+        ],
+        "answer": 1,
+        "explanation": "'Neither of' formal memakai verb tunggal ('fits').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Half of the trainees ___ from engineering backgrounds.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'Half of + plural noun (trainees)' -> verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How is the storage room looking after renovation? / Several pieces of damaged shelving ___ replaced yesterday.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How is the storage room looking after renovation?"
+          ],
+          [
+            "Taufik",
+            "Several pieces of damaged shelving ___ replaced yesterday."
+          ]
+        ],
+        "options": [
+          "has been",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "'Pieces' (jamak) menentukan verb -> 'were'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Most of the luggage were delayed at transfer.\"",
+        "draft": "Most of the luggage were delayed at transfer.",
+        "options": [
+          "Most of the luggage were delayed at transfer.",
+          "Most of the luggage was delayed at transfer.",
+          "Most of the luggages were delayed at transfer."
+        ],
+        "answer": 1,
+        "explanation": "'Luggage' uncountable -> 'was'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "A huge amount of paper ___ saved by digital forms.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Amount of' hanya untuk uncountable noun dengan verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mayoritas klien internasional kami berkomunikasi melalui surel.\".",
+        "targetSentence": "The majority of our international clients communicate via email.",
+        "explanation": "'The majority of + plural noun' -> verb jamak 'communicate'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "The staff ___ all agreed on the new flexible schedule.",
+        "options": [
+          "has only",
+          "is",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Jika diikuti 'all', 'the staff' merujuk anggota individu -> jamak ('have').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did most of the luggage fit inside the van? / Yes, most of our luggage ___ neatly behind Row 3.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did most of the luggage fit inside the van?"
+          ],
+          [
+            "Lina",
+            "Yes, most of our luggage ___ neatly behind Row 3."
+          ]
+        ],
+        "options": [
+          "fits",
+          "fit",
+          "are fitting"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' uncountable -> verb tunggal ('fits').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"A couple of budget charts is still missing labels.\"",
+        "draft": "A couple of budget charts is still missing labels.",
+        "options": [
+          "A couple of budget charts are still missing labels.",
+          "A couple of budget chart is still missing labels.",
+          "A couple of budget charts is still missing labels."
+        ],
+        "answer": 0,
+        "explanation": "'A couple of + plural noun' memakai verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "No fewer than forty delegates ___ joined the online session.",
+        "options": [
+          "was",
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Dengan countable jamak ('delegates'), gunakan 'No fewer than' + verb jamak ('have').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada satu pun struk dari Selasa yang hilang.\".",
+        "targetSentence": "Not a single receipt from Tuesday is missing.",
+        "explanation": "'Not a single + singular noun' -> 'is missing'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "No less than three liters of oil ___ leaked from Valve 2.",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Kuantitas terukur tunggal ('three liters') + 'no less than' -> verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are our interns ready for client calls? / Yes, the majority of the interns ___ completed role-play.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Are our interns ready for client calls?"
+          ],
+          [
+            "Wulan",
+            "Yes, the majority of the interns ___ completed role-play."
+          ]
+        ],
+        "options": [
+          "is",
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "'The majority of + plural noun' -> 'have'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No less than thirty delegates signed the feedback wall.\"",
+        "draft": "No less than thirty delegates signed the feedback wall.",
+        "options": [
+          "No less than thirty delegates signed the feedback wall.",
+          "No fewer than thirty delegates signed the feedback wall.",
+          "No little than thirty delegates signed the feedback wall."
+        ],
+        "answer": 1,
+        "explanation": "Untuk countable jamak ('delegates'), gunakan 'fewer', bukan 'less'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Most of the luggage ___ already cleared customs inspection.",
+        "options": [
+          "are",
+          "has",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'Most of + uncountable (luggage)' -> verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the warehouse need extra guards? / Because a large quantity of medical gear ___ kept there.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Why did the warehouse need extra guards?"
+          ],
+          [
+            "Sari",
+            "Because a large quantity of medical gear ___ kept there."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Quantity of + uncountable' -> 'is'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Several pieces of valuable data was lost yesterday.\"",
+        "draft": "Several pieces of valuable data was lost yesterday.",
+        "options": [
+          "Several piece of valuable data were lost yesterday.",
+          "Several pieces of valuable data was lost yesterday.",
+          "Several pieces of valuable data were lost yesterday."
+        ],
+        "answer": 2,
+        "explanation": "Inti subjek 'pieces' (jamak) -> 'were'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak kurang dari empat puluh delegasi bergabung dalam sesi daring.\".",
+        "targetSentence": "No fewer than forty delegates joined the online session.",
+        "explanation": "'No fewer than' untuk benda dapat dihitung jamak.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Most of our interns ___ fluent in at least two languages.",
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'Most of + plural noun (interns)' -> verb jamak ('are').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did both technicians confirm the voltage test? / Wait—either one of them ___ available to sign now.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did both technicians confirm the voltage test?"
+          ],
+          [
+            "Reno",
+            "Wait—either one of them ___ available to sign now."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Either one of + plural' -> verb tunggal ('is').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Many a trainee have struggled with this clause.\"",
+        "draft": "Many a trainee have struggled with this clause.",
+        "options": [
+          "Many a trainees have struggled with this clause.",
+          "Many a trainee have struggled with this clause.",
+          "Many a trainee has struggled with this clause."
+        ],
+        "answer": 2,
+        "explanation": "Struktur 'Many a + singular noun' mengambil verb tunggal ('has').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both the courier and the receptionist ___ signed the logbook.",
+        "options": [
+          "is",
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "'Both A and B' selalu verb jamak ('have').",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many guests joined the tour after lunch? / No fewer than fifty delegates ___ waiting by Gate 1.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "How many guests joined the tour after lunch?"
+          ],
+          [
+            "Aris",
+            "No fewer than fifty delegates ___ waiting by Gate 1."
+          ]
+        ],
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "'No fewer than + countable jamak' -> 'were'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Half of our storage boxes is stacked in Bay 1.\"",
+        "draft": "Half of our storage boxes is stacked in Bay 1.",
+        "options": [
+          "Half of our storage boxes is stacked in Bay 1.",
+          "Half of our storage boxes are stacked in Bay 1.",
+          "Half of our storage box are stacked in Bay 1."
+        ],
+        "answer": 1,
+        "explanation": "'Half of + plural noun (boxes)' memakai 'are'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "choice",
+        "prompt": "Either my colleague or I ___ going to lead today's briefing.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 2,
+        "explanation": "Subjek terdekat setelah 'or' adalah 'I' -> 'am'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebagian besar bagasi kami sudah melewati pemeriksaan bea cukai.\".",
+        "targetSentence": "Most of our luggage has already cleared customs inspection.",
+        "explanation": "'Most of + luggage' -> 'has'.",
+        "hints": [
+          "Tentukan apakah noun setelah rumpang bersifat countable (bisa dihitung jamak) atau uncountable.",
+          "Perhatikan nuansa positif/cukup (a few / a little) vs hampir tidak ada (few / little)."
+        ],
+        "skill": "quantifier"
       }
     ]
   }

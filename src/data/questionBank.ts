@@ -6723,6 +6723,14 @@ declare const __QB_BUILD_AUDIT__:
       baseUpdatedAt: string;
       latestPackUpdatedAt: string;
       packMtimes: Record<string, { updatedAt: string }>;
+      packEntries?: Array<{
+        moduleKey: string;
+        path: string;
+        updatedAt: string;
+        simple: number;
+        intermediate: number;
+        complex: number;
+      }>;
     }
   | undefined;
 
@@ -6821,40 +6829,149 @@ export function applyQuestionPackToBank(rawPack: unknown): {
 
 const buildAudit = typeof __QB_BUILD_AUDIT__ !== "undefined" ? __QB_BUILD_AUDIT__ : undefined;
 
-// 1. Auto-discover all modular files in src/data/question-packs/**/*.{ts,json}
-const discoveredPackModules = import.meta.glob<{ default?: QuestionPack } | QuestionPack>(
-  "./question-packs/**/*.{ts,json}",
-  { eager: true }
+// 1. Lazy-discover modular files grouped by level folder so Vite splits 1 chunk per level
+const lazyPackModules = import.meta.glob<{ default?: QuestionPack } | QuestionPack>(
+  "./question-packs/**/*.{ts,json}"
 );
 
-export const DISCOVERED_PACK_FILES: DiscoveredPackEntry[] = [];
-
-Object.entries(discoveredPackModules).forEach(([filePath, mod]) => {
-  const payload = mod && typeof mod === "object" && "default" in mod ? mod.default : mod;
-  const res = applyQuestionPackToBank(payload);
-  if (res.ok && res.moduleKey) {
-    const normalizedPath = filePath.replace(/^\.\//, "src/data/");
-    const updatedAt =
-      buildAudit?.packMtimes?.[normalizedPath]?.updatedAt ||
-      buildAudit?.latestPackUpdatedAt ||
-      buildAudit?.builtAt ||
-      "";
-    DISCOVERED_PACK_FILES.push({
-      path: normalizedPath,
-      moduleKey: res.moduleKey,
-      added: res.addedCount,
-      addedByLevel: res.addedByLevel,
-      updatedAt,
-    });
+const LEVEL_PACK_LOADERS: Record<string, Array<{ filePath: string; load: () => Promise<unknown> }>> = {};
+Object.entries(lazyPackModules).forEach(([filePath, loader]) => {
+  const match = filePath.match(/^\.\/question-packs\/([^/]+)\//);
+  const levelId = match?.[1];
+  if (!levelId) return;
+  if (!LEVEL_PACK_LOADERS[levelId]) {
+    LEVEL_PACK_LOADERS[levelId] = [];
   }
+  LEVEL_PACK_LOADERS[levelId].push({ filePath, load: loader });
 });
 
-// 2. Also load any user/AI-imported packs stored in localStorage (if active)
+export const DISCOVERED_PACK_FILES: DiscoveredPackEntry[] = (buildAudit?.packEntries || []).map(
+  (entry) => ({
+    path: entry.path,
+    moduleKey: entry.moduleKey,
+    added: entry.simple + entry.intermediate + entry.complex,
+    addedByLevel: {
+      simple: entry.simple,
+      intermediate: entry.intermediate,
+      complex: entry.complex,
+    },
+    updatedAt: entry.updatedAt,
+  })
+);
+
+const loadedLevels = new Set<string>();
+const levelLoadPromises = new Map<string, Promise<void>>();
+const discoveredByModule = new Map<string, DiscoveredPackEntry>();
+DISCOVERED_PACK_FILES.forEach((entry) => {
+  discoveredByModule.set(entry.moduleKey, entry);
+});
+
+// Apply active browser custom packs immediately for any already-present modules
 getCustomQuestionPacks().forEach((customItem) => {
   if (customItem.isActive !== false) {
     applyQuestionPackToBank(customItem.pack);
   }
 });
+
+export function isLevelLoaded(levelId: string): boolean {
+  if (!LEVEL_PACK_LOADERS[levelId] || LEVEL_PACK_LOADERS[levelId].length === 0) {
+    return true;
+  }
+  return loadedLevels.has(levelId);
+}
+
+export function isModuleLoaded(moduleKey: string): boolean {
+  const levelId = moduleKey.split("/")[0] || "";
+  return isLevelLoaded(levelId);
+}
+
+export async function ensureLevelLoaded(levelId: string): Promise<void> {
+  const loaders = LEVEL_PACK_LOADERS[levelId];
+  if (!loaders || loaders.length === 0) {
+    loadedLevels.add(levelId);
+    return;
+  }
+  if (loadedLevels.has(levelId)) {
+    return;
+  }
+  const pending = levelLoadPromises.get(levelId);
+  if (pending) {
+    return pending;
+  }
+
+  const job = (async () => {
+    const loadedMods = await Promise.all(
+      loaders.map(async ({ filePath, load }) => ({
+        filePath,
+        mod: (await load()) as { default?: QuestionPack } | QuestionPack,
+      }))
+    );
+
+    loadedMods.forEach(({ filePath, mod }) => {
+      const payload = mod && typeof mod === "object" && "default" in mod ? mod.default : mod;
+      const res = applyQuestionPackToBank(payload);
+      if (res.ok && res.moduleKey) {
+        const normalizedPath = filePath.replace(/^\.\//, "src/data/");
+        const updatedAt =
+          buildAudit?.packMtimes?.[normalizedPath]?.updatedAt ||
+          buildAudit?.latestPackUpdatedAt ||
+          buildAudit?.builtAt ||
+          "";
+        const entry: DiscoveredPackEntry = {
+          path: normalizedPath,
+          moduleKey: res.moduleKey,
+          added: res.addedCount,
+          addedByLevel: res.addedByLevel,
+          updatedAt,
+        };
+        discoveredByModule.set(res.moduleKey, entry);
+        const existingIdx = DISCOVERED_PACK_FILES.findIndex(
+          (item) => item.moduleKey === res.moduleKey
+        );
+        if (existingIdx >= 0) {
+          DISCOVERED_PACK_FILES[existingIdx] = entry;
+        } else {
+          DISCOVERED_PACK_FILES.push(entry);
+        }
+      }
+    });
+
+    // Re-apply active custom packs in this level so user overrides stay on top
+    getCustomQuestionPacks().forEach((customItem) => {
+      if (
+        customItem.isActive !== false &&
+        customItem.pack.moduleKey.startsWith(`${levelId}/`)
+      ) {
+        applyQuestionPackToBank(customItem.pack);
+      }
+    });
+
+    loadedLevels.add(levelId);
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(new CustomEvent("el_qb_level_loaded", { detail: { levelId } }));
+    }
+  })();
+
+  levelLoadPromises.set(levelId, job);
+  try {
+    await job;
+  } catch (err) {
+    levelLoadPromises.delete(levelId);
+    throw err;
+  }
+}
+
+export async function ensureModuleLoaded(moduleKey: string): Promise<void> {
+  const levelId = moduleKey.split("/")[0] || "";
+  if (levelId) {
+    await ensureLevelLoaded(levelId);
+  }
+}
+
+export async function ensureAllLevelsLoaded(): Promise<void> {
+  const levelIds = Object.keys(LEVEL_PACK_LOADERS);
+  await Promise.all(levelIds.map((lvl) => ensureLevelLoaded(lvl)));
+}
 
 export interface ModulePackAuditRow {
   moduleKey: string;
@@ -6871,12 +6988,37 @@ export interface ModulePackAuditRow {
   packPath: string | null;
 }
 
-export function getQuestionBankAudit() {
-  const packMap = new Map<string, DiscoveredPackEntry>();
-  DISCOVERED_PACK_FILES.forEach((entry) => {
-    packMap.set(entry.moduleKey, entry);
-  });
+export function getModuleQuestionCountsAudit(moduleKey: string): LevelQuestionCounts {
+  const mod = QUESTION_BANK[moduleKey];
+  const levelId = moduleKey.split("/")[0] || "";
+  if (isLevelLoaded(levelId)) {
+    return {
+      simple: (mod?.levels.simple || []).length,
+      intermediate: (mod?.levels.intermediate || []).length,
+      complex: (mod?.levels.complex || []).length,
+    };
+  }
+  const base = BASE_QUESTION_COUNTS[moduleKey] || { simple: 0, intermediate: 0, complex: 0 };
+  const packEntry = discoveredByModule.get(moduleKey);
+  const packByLevel = packEntry?.addedByLevel || { simple: 0, intermediate: 0, complex: 0 };
+  const customForMod = getCustomQuestionPacks().filter(
+    (c) => c.isActive !== false && c.pack.moduleKey === moduleKey
+  );
+  const customSimple = customForMod.reduce((s, c) => s + (c.pack.levels.simple?.length || 0), 0);
+  const customInter = customForMod.reduce((s, c) => s + (c.pack.levels.intermediate?.length || 0), 0);
+  const customComplex = customForMod.reduce((s, c) => s + (c.pack.levels.complex?.length || 0), 0);
 
+  return {
+    simple: Math.max(mod?.levels.simple?.length || 0, base.simple + packByLevel.simple + customSimple),
+    intermediate: Math.max(
+      mod?.levels.intermediate?.length || 0,
+      base.intermediate + packByLevel.intermediate + customInter
+    ),
+    complex: Math.max(mod?.levels.complex?.length || 0, base.complex + packByLevel.complex + customComplex),
+  };
+}
+
+export function getQuestionBankAudit() {
   const customPacks = getCustomQuestionPacks();
   const customLatestAt = customPacks.reduce((latest, item) => {
     const ts = Date.parse(item.uploadedAt || "");
@@ -6889,54 +7031,59 @@ export function getQuestionBankAudit() {
   let totalBase = 0;
   let totalPackAdded = 0;
 
-  const modules: ModulePackAuditRow[] = Object.keys(QUESTION_BANK)
-    .sort()
-    .map((key) => {
-      const mod = QUESTION_BANK[key];
-      const base = BASE_QUESTION_COUNTS[key] || { simple: 0, intermediate: 0, complex: 0 };
-      const baseTotal = base.simple + base.intermediate + base.complex;
-      const simpleCount = (mod.levels.simple || []).length;
-      const intermediateCount = (mod.levels.intermediate || []).length;
-      const complexCount = (mod.levels.complex || []).length;
-      const totalCount = simpleCount + intermediateCount + complexCount;
+  const allKeys = Array.from(
+    new Set([...Object.keys(QUESTION_BANK), ...Array.from(discoveredByModule.keys())])
+  ).sort();
 
-      const packEntry = packMap.get(key);
-      const packAdded = packEntry ? packEntry.added : Math.max(0, totalCount - baseTotal);
-      const packAddedByLevel = packEntry
-        ? packEntry.addedByLevel
-        : {
-            simple: Math.max(0, simpleCount - base.simple),
-            intermediate: Math.max(0, intermediateCount - base.intermediate),
-            complex: Math.max(0, complexCount - base.complex),
-          };
+  const modules: ModulePackAuditRow[] = allKeys.map((key) => {
+    const mod = QUESTION_BANK[key];
+    const base = BASE_QUESTION_COUNTS[key] || { simple: 0, intermediate: 0, complex: 0 };
+    const baseTotal = base.simple + base.intermediate + base.complex;
+    const levelId = key.split("/")[0] || "other";
+    const packEntry = discoveredByModule.get(key);
 
-      totalSimple += simpleCount;
-      totalIntermediate += intermediateCount;
-      totalComplex += complexCount;
-      totalBase += baseTotal;
-      totalPackAdded += packAdded;
+    const counts = getModuleQuestionCountsAudit(key);
+    const simpleCount = counts.simple;
+    const intermediateCount = counts.intermediate;
+    const complexCount = counts.complex;
+    const totalCount = simpleCount + intermediateCount + complexCount;
 
-      const updatedAt =
-        packEntry?.updatedAt ||
-        buildAudit?.baseUpdatedAt ||
-        buildAudit?.builtAt ||
-        "";
+    const packAdded = packEntry ? packEntry.added : Math.max(0, totalCount - baseTotal);
+    const packAddedByLevel = packEntry
+      ? packEntry.addedByLevel
+      : {
+          simple: Math.max(0, simpleCount - base.simple),
+          intermediate: Math.max(0, intermediateCount - base.intermediate),
+          complex: Math.max(0, complexCount - base.complex),
+        };
 
-      return {
-        moduleKey: key,
-        moduleTitle: mod.title || key,
-        levelId: key.split("/")[0] || "other",
-        baseTotal,
-        packAdded,
-        packAddedByLevel,
-        simpleCount,
-        intermediateCount,
-        complexCount,
-        totalCount,
-        updatedAt,
-        packPath: packEntry?.path || null,
-      };
-    });
+    totalSimple += simpleCount;
+    totalIntermediate += intermediateCount;
+    totalComplex += complexCount;
+    totalBase += baseTotal;
+    totalPackAdded += packAdded;
+
+    const updatedAt =
+      packEntry?.updatedAt ||
+      buildAudit?.baseUpdatedAt ||
+      buildAudit?.builtAt ||
+      "";
+
+    return {
+      moduleKey: key,
+      moduleTitle: mod?.title || key,
+      levelId,
+      baseTotal,
+      packAdded,
+      packAddedByLevel,
+      simpleCount,
+      intermediateCount,
+      complexCount,
+      totalCount,
+      updatedAt,
+      packPath: packEntry?.path || null,
+    };
+  });
 
   const latestPackMs = Date.parse(buildAudit?.latestPackUpdatedAt || "") || 0;
   const overallLatestMs = Math.max(latestPackMs, customLatestAt);
@@ -6961,6 +7108,7 @@ export function getQuestionBankAudit() {
     customPacks,
   };
 }
+
 
 
 

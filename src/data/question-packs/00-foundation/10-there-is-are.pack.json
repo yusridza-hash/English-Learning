@@ -261,6 +261,1446 @@
           "Akhiri dengan 'in the ceramic jar?'."
         ],
         "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a free charging station near the main lobby.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'A charging station' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can we plug in our laptops here? / Yes, ___ a power strip under the desk.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we plug in our laptops here?"
+          ],
+          [
+            "Dodi",
+            "Yes, ___ a power strip under the desk."
+          ]
+        ],
+        "options": [
+          "there are",
+          "it is",
+          "there is"
+        ],
+        "answer": 2,
+        "explanation": "'A power strip' tunggal -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is twelve folders on the bottom shelf.\"",
+        "draft": "There is twelve folders on the bottom shelf.",
+        "options": [
+          "There is twelve folders on the bottom shelf.",
+          "There are twelve folders on the bottom shelf.",
+          "There has twelve folders on the bottom shelf."
+        ],
+        "answer": 1,
+        "explanation": "Kata benda jamak 'twelve folders' memakai 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ twelve laptops inside the mobile cart.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Twelve laptops' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada dua belas laptop di dalam kereta dorong itu.\".",
+        "targetSentence": "There are twelve laptops inside that mobile cart.",
+        "explanation": "'There are' untuk kata benda jamak.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ cold drinking water in the break room.",
+        "options": [
+          "These are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'Water' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we have enough seating for guests? / Don't worry; ___ thirty folding chairs stacked nearby.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Do we have enough seating for guests?"
+          ],
+          [
+            "Bima",
+            "Don't worry; ___ thirty folding chairs stacked nearby."
+          ]
+        ],
+        "options": [
+          "there are",
+          "there is",
+          "they are"
+        ],
+        "answer": 0,
+        "explanation": "'Thirty folding chairs' jamak -> 'there are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are a new café near the south gate.\"",
+        "draft": "There are a new café near the south gate.",
+        "options": [
+          "There have a new café near the south gate.",
+          "There are a new café near the south gate.",
+          "There is a new café near the south gate."
+        ],
+        "answer": 2,
+        "explanation": "'A new café' tunggal memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ three vacant desks on the second floor.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Three vacant desks' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the dispenser empty again? / No, ___ fresh cold water inside it.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Is the dispenser empty again?"
+          ],
+          [
+            "Eko",
+            "No, ___ fresh cold water inside it."
+          ]
+        ],
+        "options": [
+          "there is",
+          "there are",
+          "it has"
+        ],
+        "answer": 0,
+        "explanation": "'Water' uncountable -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are fresh water inside the dispenser.\"",
+        "draft": "There are fresh water inside the dispenser.",
+        "options": [
+          "There are fresh water inside the dispenser.",
+          "There is fresh water inside the dispenser.",
+          "There has fresh water inside the dispenser."
+        ],
+        "answer": 1,
+        "explanation": "Uncountable 'water' memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada stasiun pengisian daya gratis dekat lobi utama.\".",
+        "targetSentence": "There is a free charging station near the main lobby.",
+        "explanation": "'There is' untuk kata benda tunggal.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ an urgent email from the regional director.",
+        "options": [
+          "They are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'An urgent email' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How do we reach the third floor? / ___ two elevators right behind reception.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How do we reach the third floor?"
+          ],
+          [
+            "Sari",
+            "___ two elevators right behind reception."
+          ]
+        ],
+        "options": [
+          "There are",
+          "There is",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'Two elevators' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is two spare projectors in Room B.\"",
+        "draft": "There is two spare projectors in Room B.",
+        "options": [
+          "There have two spare projectors in Room B.",
+          "There is two spare projectors in Room B.",
+          "There are two spare projectors in Room B."
+        ],
+        "answer": 2,
+        "explanation": "'Two spare projectors' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ fresh markers beside every whiteboard.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Markers' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the morning commute slow? / ___ heavy traffic near the toll gate.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why is the morning commute slow?"
+          ],
+          [
+            "Putri",
+            "___ heavy traffic near the toll gate."
+          ]
+        ],
+        "options": [
+          "It has",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'Heavy traffic' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They are many tourists at the ferry terminal.\"",
+        "draft": "They are many tourists at the ferry terminal.",
+        "options": [
+          "They are many tourists at the ferry terminal.",
+          "There are many tourists at the ferry terminal.",
+          "There is many tourists at the ferry terminal."
+        ],
+        "answer": 1,
+        "explanation": "Menyatakan keberadaan memakai 'There are', bukan 'They are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ plenty of sunlight in Studio B.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'Sunlight' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada air minum dingin di ruang istirahat.\".",
+        "targetSentence": "There is cold drinking water in the break room.",
+        "explanation": "'Water' tak terhitung memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ two pharmacy branches near campus.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Two pharmacy branches' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where can I print my travel boarding pass? / ___ a public printer inside Business Corner.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Where can I print my travel boarding pass?"
+          ],
+          [
+            "Arman",
+            "___ a public printer inside Business Corner."
+          ]
+        ],
+        "options": [
+          "It is",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'A public printer' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are heavy traffic near the airport exit.\"",
+        "draft": "There are heavy traffic near the airport exit.",
+        "options": [
+          "There has heavy traffic near the airport exit.",
+          "There are heavy traffic near the airport exit.",
+          "There is heavy traffic near the airport exit."
+        ],
+        "answer": 2,
+        "explanation": "'Traffic' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a detailed map on page three.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'A detailed map' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada tiga meja kosong di lantai kedua.\".",
+        "targetSentence": "There are three vacant desks on the second floor.",
+        "explanation": "'There are' untuk jamak.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ several new interns joining today.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Several new interns' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we still have markers for Room B? / Yes, ___ six black markers in this box.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Do we still have markers for Room B?"
+          ],
+          [
+            "Adi",
+            "Yes, ___ six black markers in this box."
+          ]
+        ],
+        "options": [
+          "there is",
+          "they are",
+          "there are"
+        ],
+        "answer": 2,
+        "explanation": "'Six black markers' jamak -> 'there are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is five interns waiting in reception.\"",
+        "draft": "There is five interns waiting in reception.",
+        "options": [
+          "There are five interns waiting in reception.",
+          "There have five interns waiting in reception.",
+          "There is five interns waiting in reception."
+        ],
+        "answer": 0,
+        "explanation": "'Five interns' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ heavy traffic on the bridge right now.",
+        "options": [
+          "They are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'Traffic' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why does this report look incomplete? / Look closely; ___ a missing chart on page 4.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why does this report look incomplete?"
+          ],
+          [
+            "Kiki",
+            "Look closely; ___ a missing chart on page 4."
+          ]
+        ],
+        "options": [
+          "it has",
+          "there is",
+          "there are"
+        ],
+        "answer": 1,
+        "explanation": "'A missing chart' tunggal -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It is a printer inside the study room.\"",
+        "draft": "It is a printer inside the study room.",
+        "options": [
+          "It is a printer inside the study room.",
+          "There is a printer inside the study room.",
+          "There are a printer inside the study room."
+        ],
+        "answer": 1,
+        "explanation": "Menyatakan keberadaan benda memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada pesan penting dari direktur wilayah.\".",
+        "targetSentence": "There is an urgent message from the regional director.",
+        "explanation": "Tunggal memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ four emergency exits inside Hall A.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Four emergency exits' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who can answer tax questions today? / ___ two accountants working in Office 5.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Who can answer tax questions today?"
+          ],
+          [
+            "Sinta",
+            "___ two accountants working in Office 5."
+          ]
+        ],
+        "options": [
+          "There is",
+          "They are",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Two accountants' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are useful information in that memo.\"",
+        "draft": "There are useful information in that memo.",
+        "options": [
+          "There has useful information in that memo.",
+          "There are useful information in that memo.",
+          "There is useful information in that memo."
+        ],
+        "answer": 2,
+        "explanation": "'Information' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a quiet study corner near the window.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'A quiet study corner' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the pantry stocked for the seminar? / Yes, ___ fresh tea and mineral water.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Is the pantry stocked for the seminar?"
+          ],
+          [
+            "Tia",
+            "Yes, ___ fresh tea and mineral water."
+          ]
+        ],
+        "options": [
+          "there is",
+          "there are",
+          "it is"
+        ],
+        "answer": 0,
+        "explanation": "Subjek pertama 'fresh tea' tak terhitung -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is four security cameras on floor two.\"",
+        "draft": "There is four security cameras on floor two.",
+        "options": [
+          "There have four security cameras on floor two.",
+          "There is four security cameras on floor two.",
+          "There are four security cameras on floor two."
+        ],
+        "answer": 2,
+        "explanation": "'Four security cameras' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ twenty paper cups left in the drawer.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Twenty paper cups' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada empat pintu darurat di dalam Aula A.\".",
+        "targetSentence": "There are four emergency exits inside Hall A.",
+        "explanation": "Jamak memakai 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ useful advice in this safety booklet.",
+        "options": [
+          "They are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'Advice' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where can interns store their helmets? / ___ twelve lockers along the side hallway.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Where can interns store their helmets?"
+          ],
+          [
+            "Dewi",
+            "___ twelve lockers along the side hallway."
+          ]
+        ],
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Twelve lockers' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are an extra notebook on your chair.\"",
+        "draft": "There are an extra notebook on your chair.",
+        "options": [
+          "There has an extra notebook on your chair.",
+          "There are an extra notebook on your chair.",
+          "There is an extra notebook on your chair."
+        ],
+        "answer": 2,
+        "explanation": "'An extra notebook' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ two electric buses waiting outside Gate 1.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Two electric buses' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada lalu lintas padat di dekat pintu tol sekarang.\".",
+        "targetSentence": "There is heavy traffic near the toll gate right now.",
+        "explanation": "'Traffic' tak terhitung memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ an ATM next to the campus bookstore.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'An ATM' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we need extra HDMI cables? / Maybe; ___ only one spare cable left.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Do we need extra HDMI cables?"
+          ],
+          [
+            "Ayu",
+            "Maybe; ___ only one spare cable left."
+          ]
+        ],
+        "options": [
+          "there is",
+          "there are",
+          "it has"
+        ],
+        "answer": 0,
+        "explanation": "'One spare cable' tunggal -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is several emails waiting for your reply.\"",
+        "draft": "There is several emails waiting for your reply.",
+        "options": [
+          "There have several emails waiting for your reply.",
+          "There is several emails waiting for your reply.",
+          "There are several emails waiting for your reply."
+        ],
+        "answer": 2,
+        "explanation": "'Several emails' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ five blank forms on the reception counter.",
+        "options": [
+          "It is",
+          "There are",
+          "There is"
+        ],
+        "answer": 1,
+        "explanation": "'Five blank forms' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there quiet spaces upstairs? / Yes, ___ four small study booths.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Are there quiet spaces upstairs?"
+          ],
+          [
+            "Oki",
+            "Yes, ___ four small study booths."
+          ]
+        ],
+        "options": [
+          "there is",
+          "they are",
+          "there are"
+        ],
+        "answer": 2,
+        "explanation": "'Four small study booths' jamak -> 'there are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are reliable software on every tablet.\"",
+        "draft": "There are reliable software on every tablet.",
+        "options": [
+          "There is reliable software on every tablet.",
+          "There has reliable software on every tablet.",
+          "There are reliable software on every tablet."
+        ],
+        "answer": 0,
+        "explanation": "'Software' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada dua bus listrik menunggu di luar Gerbang 1.\".",
+        "targetSentence": "There are two electric buses waiting outside Gate 1.",
+        "explanation": "Jamak memakai 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ good coffee inside the seminar pantry.",
+        "options": [
+          "They are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'Coffee' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How do we check clinic opening hours? / ___ an information sign outside Gate A.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "How do we check clinic opening hours?"
+          ],
+          [
+            "Mira",
+            "___ an information sign outside Gate A."
+          ]
+        ],
+        "options": [
+          "It has",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'An information sign' tunggal -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is ten glass bottles in the crate.\"",
+        "draft": "There is ten glass bottles in the crate.",
+        "options": [
+          "There are ten glass bottles in the crate.",
+          "There have ten glass bottles in the crate.",
+          "There is ten glass bottles in the crate."
+        ],
+        "answer": 0,
+        "explanation": "'Ten glass bottles' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ many reference journals on the top shelf.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Reference journals' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the courier stop twice? / ___ three separate parcels for Finance.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did the courier stop twice?"
+          ],
+          [
+            "Taufik",
+            "___ three separate parcels for Finance."
+          ]
+        ],
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Three separate parcels' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are a quiet waiting area upstairs.\"",
+        "draft": "There are a quiet waiting area upstairs.",
+        "options": [
+          "There is a quiet waiting area upstairs.",
+          "There has a quiet waiting area upstairs.",
+          "There are a quiet waiting area upstairs."
+        ],
+        "answer": 0,
+        "explanation": "'A quiet waiting area' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a backup battery under the desk.",
+        "options": [
+          "They are",
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explanation": "'A backup battery' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada nasihat berguna dalam buku panduan keselamatan ini.\".",
+        "targetSentence": "There is useful advice in this safety booklet.",
+        "explanation": "'Advice' tak terhitung memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ six parking spaces left near Exit C.",
+        "options": [
+          "There are",
+          "There is",
+          "It is"
+        ],
+        "answer": 0,
+        "explanation": "'Six parking spaces' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we have any lab guidance yet? / Yes, ___ clear advice in the welcome PDF.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Do we have any lab guidance yet?"
+          ],
+          [
+            "Lina",
+            "Yes, ___ clear advice in the welcome PDF."
+          ]
+        ],
+        "options": [
+          "it has",
+          "there is",
+          "there are"
+        ],
+        "answer": 1,
+        "explanation": "'Advice' uncountable -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There has three exits behind the stage.\"",
+        "draft": "There has three exits behind the stage.",
+        "options": [
+          "There are three exits behind the stage.",
+          "There is three exits behind the stage.",
+          "There has three exits behind the stage."
+        ],
+        "answer": 0,
+        "explanation": "Bahasa Inggris tidak memakai 'There has/have' untuk eksistensi; gunakan 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ clean equipment inside Storage Room 4.",
+        "options": [
+          "There are",
+          "They are",
+          "There is"
+        ],
+        "answer": 2,
+        "explanation": "'Equipment' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada sepuluh kotak brosur di meja resepsionis.\".",
+        "targetSentence": "There are ten boxes of flyers at reception.",
+        "explanation": "'Boxes' jamak memakai 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ two lab supervisors on duty tonight.",
+        "options": [
+          "It is",
+          "There are",
+          "There is"
+        ],
+        "answer": 1,
+        "explanation": "'Two lab supervisors' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many buses serve Route 2? / ___ four electric buses running today.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "How many buses serve Route 2?"
+          ],
+          [
+            "Wulan",
+            "___ four electric buses running today."
+          ]
+        ],
+        "options": [
+          "There are",
+          "There is",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'Four electric buses' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There have a seminar room near the lift.\"",
+        "draft": "There have a seminar room near the lift.",
+        "options": [
+          "There is a seminar room near the lift.",
+          "There are a seminar room near the lift.",
+          "There have a seminar room near the lift."
+        ],
+        "answer": 0,
+        "explanation": "Jangan gunakan 'There have'; gunakan 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a digital clock above the elevator.",
+        "options": [
+          "There are",
+          "They are",
+          "There is"
+        ],
+        "answer": 2,
+        "explanation": "'A digital clock' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is anyone available at Help Desk? / Yes, ___ a senior technician on duty.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Is anyone available at Help Desk?"
+          ],
+          [
+            "Sari",
+            "Yes, ___ a senior technician on duty."
+          ]
+        ],
+        "options": [
+          "there are",
+          "he is",
+          "there is"
+        ],
+        "answer": 2,
+        "explanation": "Menyatakan keberadaan seseorang -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are clean furniture in the new lobby.\"",
+        "draft": "There are clean furniture in the new lobby.",
+        "options": [
+          "There are clean furniture in the new lobby.",
+          "There is clean furniture in the new lobby.",
+          "There has clean furniture in the new lobby."
+        ],
+        "answer": 1,
+        "explanation": "'Furniture' uncountable -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada sudut belajar yang tenang di dekat jendela.\".",
+        "targetSentence": "There is a quiet study corner near the window.",
+        "explanation": "Tunggal memakai 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ eight chairs around the round table.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Eight chairs' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What is inside that silver suitcase? / ___ delicate camera lenses and batteries.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "What is inside that silver suitcase?"
+          ],
+          [
+            "Reno",
+            "___ delicate camera lenses and batteries."
+          ]
+        ],
+        "options": [
+          "They are",
+          "There are",
+          "There is"
+        ],
+        "answer": 1,
+        "explanation": "'Delicate camera lenses' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is twenty student names on this list.\"",
+        "draft": "There is twenty student names on this list.",
+        "options": [
+          "There is twenty student names on this list.",
+          "There are twenty student names on this list.",
+          "There have twenty student names on this list."
+        ],
+        "answer": 1,
+        "explanation": "'Twenty student names' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ enough paper in Tray 2 for printing.",
+        "options": [
+          "There is",
+          "There are",
+          "They are"
+        ],
+        "answer": 0,
+        "explanation": "'Paper' (material tak terhitung) -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the conference hall bright? / ___ wide windows facing the garden.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Why is the conference hall bright?"
+          ],
+          [
+            "Aris",
+            "___ wide windows facing the garden."
+          ]
+        ],
+        "options": [
+          "They are",
+          "There are",
+          "There is"
+        ],
+        "answer": 1,
+        "explanation": "'Wide windows' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are a medical kit under the counter.\"",
+        "draft": "There are a medical kit under the counter.",
+        "options": [
+          "There is a medical kit under the counter.",
+          "There has a medical kit under the counter.",
+          "There are a medical kit under the counter."
+        ],
+        "answer": 0,
+        "explanation": "'A medical kit' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ three train platforms at this small station.",
+        "options": [
+          "There is",
+          "It is",
+          "There are"
+        ],
+        "answer": 2,
+        "explanation": "'Three train platforms' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada enam tempat parkir tersisa dekat pintu keluar.\".",
+        "targetSentence": "There are six parking spaces left near the exit.",
+        "explanation": "Jamak memakai 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Akhiri dengan 'next year'."
         ],
         "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any empty lockers near the gym entrance?",
+        "options": [
+          "Are they",
+          "Are there",
+          "Is there"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan jamak memakai 'Are there any ...?'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"No, there aren't any left; let's print more.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "___ any extra badges in that box?"
+          ],
+          [
+            "Dodi",
+            "No, there aren't any left; let's print more."
+          ]
+        ],
+        "options": [
+          "Is there",
+          "Do there",
+          "Are there"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan benda jamak 'badges' -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is there any extra chairs in Room B?\"",
+        "draft": "Is there any extra chairs in Room B?",
+        "options": [
+          "Are there any extra chairs in Room B?",
+          "Do there any extra chairs in Room B?",
+          "Is there any extra chairs in Room B?"
+        ],
+        "answer": 0,
+        "explanation": "Kata benda jamak 'chairs' memakai pertanyaan 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any cold milk left in the office fridge?",
+        "options": [
+          "Are there",
+          "Is it",
+          "Is there"
+        ],
+        "answer": 2,
+        "explanation": "'Milk' uncountable -> pertanyaan memakai 'Is there any ...?'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada kursi kosong tersisa di ruang seminar?\".",
+        "targetSentence": "Are there any empty chairs left in the seminar room?",
+        "explanation": "Pertanyaan jamak memakai 'Are there any'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any spare chairs inside Seminar Room B.",
+        "options": [
+          "aren't",
+          "isn't",
+          "don't"
+        ],
+        "answer": 0,
+        "explanation": "'Spare chairs' jamak negatif -> 'aren't any'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"There is enough for fifty pages.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "How much paper ___ in Tray 1?"
+          ],
+          [
+            "Bima",
+            "There is enough for fifty pages."
+          ]
+        ],
+        "options": [
+          "there is",
+          "is there",
+          "are there"
+        ],
+        "answer": 1,
+        "explanation": "'Paper' uncountable dalam pertanyaan -> 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are there any cold water in the dispenser?\"",
+        "draft": "Are there any cold water in the dispenser?",
+        "options": [
+          "Do there any cold water in the dispenser?",
+          "Are there any cold water in the dispenser?",
+          "Is there any cold water in the dispenser?"
+        ],
+        "answer": 2,
+        "explanation": "'Water' uncountable memakai 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ no paper left inside the copier tray.",
+        "options": [
+          "has",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'No + uncountable noun' memakai verb tunggal positif 'is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there any sugar left for tea? / Sorry, there ___ any sugar left in the jar.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Is there any sugar left for tea?"
+          ],
+          [
+            "Eko",
+            "Sorry, there ___ any sugar left in the jar."
+          ]
+        ],
+        "options": [
+          "isn't",
+          "aren't",
+          "doesn't"
+        ],
+        "answer": 0,
+        "explanation": "'Sugar' uncountable negatif -> 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There isn't any spare markers left.\"",
+        "draft": "There isn't any spare markers left.",
+        "options": [
+          "There isn't any spare markers left.",
+          "There aren't any spare markers left.",
+          "There don't any spare markers left."
+        ],
+        "answer": 1,
+        "explanation": "'Markers' jamak negatif memakai 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak ruang rapat yang ada di lantai empat?\".",
+        "targetSentence": "How many meeting rooms are there on the fourth floor?",
+        "explanation": "How many + plural + are there.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many meeting rooms ___ on the fourth floor?",
+        "options": [
+          "are there",
+          "is there",
+          "there are"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan jumlah jamak memakai 'How many ... are there?'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"There are fourteen seats in total.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How many seats ___ on the shuttle van?"
+          ],
+          [
+            "Sari",
+            "There are fourteen seats in total."
+          ]
+        ],
+        "options": [
+          "is there",
+          "there are",
+          "are there"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There aren't any fresh coffee left today.\"",
+        "draft": "There aren't any fresh coffee left today.",
+        "options": [
+          "There doesn't any fresh coffee left today.",
+          "There aren't any fresh coffee left today.",
+          "There isn't any fresh coffee left today."
+        ],
+        "answer": 2,
+        "explanation": "'Coffee' uncountable memakai 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How much time ___ before our boarding closes?",
+        "options": [
+          "is there",
+          "are there",
+          "there is"
+        ],
+        "answer": 0,
+        "explanation": "'Time' uncountable -> 'How much time is there?'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there any errors on page six? / Thankfully, there ___ any mistakes at all.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Are there any errors on page six?"
+          ],
+          [
+            "Putri",
+            "Thankfully, there ___ any mistakes at all."
+          ]
+        ],
+        "options": [
+          "don't",
+          "aren't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "'Mistakes' jamak negatif -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many desks is there in Office 4?\"",
+        "draft": "How many desks is there in Office 4?",
+        "options": [
+          "How many desks there are in Office 4?",
+          "How many desks is there in Office 4?",
+          "How many desks are there in Office 4?"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan jamak berinversi menjadi 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ enough microphones for all four panelists?",
+        "options": [
+          "Are there",
+          "Is there",
+          "Have there"
+        ],
+        "answer": 0,
+        "explanation": "'Microphones' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada tinta tersisa di dalam kartrid hitam.\".",
+        "targetSentence": "There isn't any ink left inside the black cartridge.",
+        "explanation": "'Ink' tak terhitung memakai 'isn't any'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any coffee beans inside that jar.",
+        "options": [
+          "doesn't",
+          "aren't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "'Coffee beans' jamak -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, there is one across from the bank.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "___ an open clinic near Campus North?"
+          ],
+          [
+            "Arman",
+            "Yes, there is one across from the bank."
+          ]
+        ],
+        "options": [
+          "Are there",
+          "Does there",
+          "Is there"
+        ],
+        "answer": 2,
+        "explanation": "Benda tunggal 'an open clinic' -> 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much time are there before boarding?\"",
+        "draft": "How much time are there before boarding?",
+        "options": [
+          "How much time are there before boarding?",
+          "How much time is there before boarding?",
+          "How much time there is before boarding?"
+        ],
+        "answer": 1,
+        "explanation": "'Time' uncountable memakai 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ no excuse for missing safety checks.",
+        "options": [
+          "are",
+          "have",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'No excuse' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa banyak waktu tersisa sebelum gerbang ditutup?\".",
+        "targetSentence": "How much time is there before the gate closes?",
+        "explanation": "'Time' tak terhitung memakai 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ an ATM near Platform 4 at this station?",
+        "options": [
+          "Is there",
+          "Are there",
+          "Has there"
+        ],
+        "answer": 0,
+        "explanation": "'An ATM' tunggal -> 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you take a locker key? / Look at the board; there ___ no free lockers now.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why didn't you take a locker key?"
+          ],
+          [
+            "Adi",
+            "Look at the board; there ___ no free lockers now."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "'No free lockers' jamak -> 'are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There isn't no spare key inside this box.\"",
+        "draft": "There isn't no spare key inside this box.",
+        "options": [
+          "There isn't no spare key inside this box.",
+          "There is no spare key inside this box.",
+          "There aren't no spare key inside this box."
+        ],
+        "answer": 1,
+        "explanation": "Hindari double negative 'isn't no'; gunakan 'is no' atau 'isn't any'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many interns ___ in this morning's cohort?",
+        "options": [
+          "they are",
+          "are there",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "'Interns' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there any trains after ten? / No, there ___ any departures until five a.m.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Are there any trains after ten?"
+          ],
+          [
+            "Kiki",
+            "No, there ___ any departures until five a.m."
+          ]
+        ],
+        "options": [
+          "isn't",
+          "don't",
+          "aren't"
+        ],
+        "answer": 2,
+        "explanation": "'Departures' jamak -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are there an urgent message for Maya?\"",
+        "draft": "Are there an urgent message for Maya?",
+        "options": [
+          "Has there an urgent message for Maya?",
+          "Are there an urgent message for Maya?",
+          "Is there an urgent message for Maya?"
+        ],
+        "answer": 2,
+        "explanation": "'An urgent message' tunggal memakai 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada apotek yang buka dekat asrama ini?\".",
+        "targetSentence": "Is there an open pharmacy near this hostel?",
+        "explanation": "Tunggal memakai 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any ink inside the black cartridge.",
+        "options": [
+          "isn't",
+          "aren't",
+          "doesn't"
+        ],
+        "answer": 0,
+        "explanation": "'Ink' uncountable -> 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"There are eighty illustrated pages.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How many pages ___ in the user guide?"
+          ],
+          [
+            "Sinta",
+            "There are eighty illustrated pages."
+          ]
+        ],
+        "options": [
+          "are there",
+          "is there",
+          "there are"
+        ],
+        "answer": 0,
+        "explanation": "'Pages' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are no paper inside Tray 2.\"",
+        "draft": "There are no paper inside Tray 2.",
+        "options": [
+          "There are no paper inside Tray 2.",
+          "There is no paper inside Tray 2.",
+          "There has no paper inside Tray 2."
+        ],
+        "answer": 1,
+        "explanation": "'Paper' uncountable -> 'There is no'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any vegetarian dishes on today's canteen menu?",
+        "options": [
+          "Are there",
+          "Is there",
+          "Have there"
+        ],
+        "answer": 0,
+        "explanation": "'Dishes' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there any hot water in the flask? / Wait—no, there ___ any left inside.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Is there any hot water in the flask?"
+          ],
+          [
+            "Tia",
+            "Wait—no, there ___ any left inside."
+          ]
+        ],
+        "options": [
+          "aren't",
+          "hasn't",
+          "isn't"
+        ],
+        "answer": 2,
+        "explanation": "'Hot water' uncountable -> 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many interns there are today?\"",
+        "draft": "How many interns there are today?",
+        "options": [
+          "How many interns are there today?",
+          "How many interns is there today?",
+          "How many interns there are today?"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat tanya wajib menginversi 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How much luggage ___ left on Belt 2?",
+        "options": [
+          "they are",
+          "is there",
+          "are there"
+        ],
+        "answer": 1,
+        "explanation": "'Luggage' uncountable -> 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada bus umum yang beroperasi setelah tengah malam.\".",
+        "targetSentence": "There are no public buses running after midnight.",
+        "explanation": "Jamak memakai 'There are no'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ no public buses running after midnight.",
+        "options": [
+          "have",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'No public buses' jamak -> 'There are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"There isn't any free checked bag on basic fares.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "How much luggage ___ for one passenger?"
+          ],
+          [
+            "Dewi",
+            "There isn't any free checked bag on basic fares."
+          ]
+        ],
+        "options": [
+          "is there",
+          "are there",
+          "there is"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' uncountable -> 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There doesn't have any free seats left.\"",
+        "draft": "There doesn't have any free seats left.",
+        "options": [
+          "There isn't any free seats left.",
+          "There doesn't have any free seats left.",
+          "There aren't any free seats left."
+        ],
+        "answer": 2,
+        "explanation": "Eksistensi negatif jamak memakai 'There aren't', bukan 'doesn't have'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a quiet pharmacy open near the hostel?",
+        "options": [
+          "Are there",
+          "Does there",
+          "Is there"
+        ],
+        "answer": 2,
+        "explanation": "'A quiet pharmacy' tunggal -> 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada kesalahan ketik di dalam laporan terbaru.\".",
+        "targetSentence": "There aren't any typos in the latest report.",
+        "explanation": "'aren't any' untuk jamak negatif.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any errors in the updated spreadsheet.",
+        "options": [
+          "aren't",
+          "isn't",
+          "haven't"
+        ],
+        "answer": 0,
+        "explanation": "'Errors' jamak negatif -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there vegetarian snacks at the event? / Yes, ___ plenty of fruit and vegetable wraps.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Are there vegetarian snacks at the event?"
+          ],
+          [
+            "Ayu",
+            "Yes, ___ plenty of fruit and vegetable wraps."
+          ]
+        ],
+        "options": [
+          "there is",
+          "they are",
+          "there are"
+        ],
+        "answer": 2,
+        "explanation": "Setelah menjawab 'Yes', 'plenty of wraps' jamak -> 'there are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is there enough folders for everyone?\"",
+        "draft": "Is there enough folders for everyone?",
+        "options": [
+          "Is there enough folders for everyone?",
+          "Are there enough folders for everyone?",
+          "Do there enough folders for everyone?"
+        ],
+        "answer": 1,
+        "explanation": "'Folders' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many pages ___ in that contract annex?",
+        "options": [
+          "there are",
+          "are there",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "'Pages' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there a deadline extension? / No, there ___ no extra days for submissions.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Is there a deadline extension?"
+          ],
+          [
+            "Oki",
+            "No, there ___ no extra days for submissions."
+          ]
+        ],
+        "options": [
+          "is",
+          "have",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'No extra days' jamak -> 'are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There aren't no buses after eleven.\"",
+        "draft": "There aren't no buses after eleven.",
+        "options": [
+          "There is no buses after eleven.",
+          "There aren't no buses after eleven.",
+          "There are no buses after eleven."
+        ],
+        "answer": 2,
+        "explanation": "Hindari double negative 'aren't no'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada hidangan vegetarian di menu kantin hari ini?\".",
+        "targetSentence": "Are there any vegetarian meals on today's canteen menu?",
+        "explanation": "Jamak memakai 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any feedback from the client yet.",
+        "options": [
+          "aren't",
+          "hasn't",
+          "isn't"
+        ],
+        "answer": 2,
+        "explanation": "'Feedback' uncountable -> 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"There are twelve regional offices now.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "How many branches ___ across Java?"
+          ],
+          [
+            "Mira",
+            "There are twelve regional offices now."
+          ]
+        ],
+        "options": [
+          "there are",
+          "are there",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "'Branches' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much luggage are there on Cart 3?\"",
+        "draft": "How much luggage are there on Cart 3?",
+        "options": [
+          "How much luggage is there on Cart 3?",
+          "How much luggage there is on Cart 3?",
+          "How much luggage are there on Cart 3?"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' uncountable -> 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ enough bandwidth for twenty video calls?",
+        "options": [
+          "Is there",
+          "Are there",
+          "Do there"
+        ],
+        "answer": 0,
+        "explanation": "'Bandwidth' uncountable -> 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we have any urgent messages? / No, there ___ any new notices today.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Do we have any urgent messages?"
+          ],
+          [
+            "Taufik",
+            "No, there ___ any new notices today."
+          ]
+        ],
+        "options": [
+          "isn't",
+          "haven't",
+          "aren't"
+        ],
+        "answer": 2,
+        "explanation": "'New notices' jamak -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There don't exist any errors in Table 1.\"",
+        "draft": "There don't exist any errors in Table 1.",
+        "options": [
+          "There don't exist any errors in Table 1.",
+          "There aren't any errors in Table 1.",
+          "There isn't any errors in Table 1."
+        ],
+        "answer": 1,
+        "explanation": "Kalimat natural eksistensi negatif adalah 'There aren't any errors'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many volunteers ___ at Medical Booth 1?",
+        "options": [
+          "there are",
+          "are there",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "'Volunteers' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada biaya tambahan untuk pendaftaran daring lebih awal.\".",
+        "targetSentence": "There is no extra fee for early online registration.",
+        "explanation": "Tunggal memakai 'There is no'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ no need to print double copies today.",
+        "options": [
+          "are",
+          "has",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'No need' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, check the small silver canister.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "___ any coffee pods near the machine?"
+          ],
+          [
+            "Lina",
+            "Yes, check the small silver canister."
+          ]
+        ],
+        "options": [
+          "Are there",
+          "Is there",
+          "Have there"
+        ],
+        "answer": 0,
+        "explanation": "'Pods' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are there any useful feedback yet?\"",
+        "draft": "Are there any useful feedback yet?",
+        "options": [
+          "Does there any useful feedback yet?",
+          "Are there any useful feedback yet?",
+          "Is there any useful feedback yet?"
+        ],
+        "answer": 2,
+        "explanation": "'Feedback' uncountable -> 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any direct flights to Lombok on Sundays?",
+        "options": [
+          "Are there",
+          "Is there",
+          "Have there"
+        ],
+        "answer": 0,
+        "explanation": "'Direct flights' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Berapa jumlah sukarelawan di posko medis satu?\".",
+        "targetSentence": "How many volunteers are there at Medical Booth 1?",
+        "explanation": "How many + plural + are there.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any free Wi-Fi inside that old warehouse.",
+        "options": [
+          "aren't",
+          "hasn't",
+          "isn't"
+        ],
+        "answer": 2,
+        "explanation": "'Wi-Fi' uncountable -> 'isn't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there enough bandwidth for everyone? / Yes, ___ high-speed fiber across all floors.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Is there enough bandwidth for everyone?"
+          ],
+          [
+            "Wulan",
+            "Yes, ___ high-speed fiber across all floors."
+          ]
+        ],
+        "options": [
+          "there are",
+          "it has",
+          "there is"
+        ],
+        "answer": 2,
+        "explanation": "'High-speed fiber' tunggal/tak terhitung -> 'there is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is no spare chargers in reception.\"",
+        "draft": "There is no spare chargers in reception.",
+        "options": [
+          "There is no spare chargers in reception.",
+          "There are no spare chargers in reception.",
+          "There have no spare chargers in reception."
+        ],
+        "answer": 1,
+        "explanation": "'Chargers' jamak -> 'There are no'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How much oil ___ left in the backup generator?",
+        "options": [
+          "is there",
+          "are there",
+          "there is"
+        ],
+        "answer": 0,
+        "explanation": "'Oil' uncountable -> 'is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many buses go to Terminal 3? / ___ one shuttle leaving every ten minutes.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "How many buses go to Terminal 3?"
+          ],
+          [
+            "Sari",
+            "___ one shuttle leaving every ten minutes."
+          ]
+        ],
+        "options": [
+          "There are",
+          "It has",
+          "There is"
+        ],
+        "answer": 2,
+        "explanation": "'One shuttle' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many stops is there before Terminal 2?\"",
+        "draft": "How many stops is there before Terminal 2?",
+        "options": [
+          "How many stops is there before Terminal 2?",
+          "How many stops are there before Terminal 2?",
+          "How many stops there are before Terminal 2?"
+        ],
+        "answer": 1,
+        "explanation": "'Stops' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada umpan balik klien mengenai tata letak baru?\".",
+        "targetSentence": "Is there any client feedback on the new layout?",
+        "explanation": "'Feedback' tak terhitung memakai 'Is there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any empty folders inside the top drawer?",
+        "options": [
+          "Are there",
+          "Is there",
+          "Do there"
+        ],
+        "answer": 0,
+        "explanation": "'Folders' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there any blankets on night flights? / No, there ___ any free blankets on short routes.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Are there any blankets on night flights?"
+          ],
+          [
+            "Reno",
+            "No, there ___ any free blankets on short routes."
+          ]
+        ],
+        "options": [
+          "don't",
+          "aren't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "'Blankets' jamak -> 'aren't'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There aren't some markers inside this pouch.\"",
+        "draft": "There aren't some markers inside this pouch.",
+        "options": [
+          "There aren't any markers inside this pouch.",
+          "There isn't any markers inside this pouch.",
+          "There aren't some markers inside this pouch."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat negatif memakai 'any', bukan 'some'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ no extra fee for early check-in today.",
+        "options": [
+          "are",
+          "has",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'An extra fee / no extra fee' tunggal -> 'There is'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is there a quiet corner for calls? / Yes, ___ two soundproof phone booths nearby.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is there a quiet corner for calls?"
+          ],
+          [
+            "Aris",
+            "Yes, ___ two soundproof phone booths nearby."
+          ]
+        ],
+        "options": [
+          "they are",
+          "there are",
+          "there is"
+        ],
+        "answer": 1,
+        "explanation": "'Two soundproof booths' jamak -> 'there are'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is there any towels near the pool?\"",
+        "draft": "Is there any towels near the pool?",
+        "options": [
+          "Are there any towels near the pool?",
+          "Have there any towels near the pool?",
+          "Is there any towels near the pool?"
+        ],
+        "answer": 0,
+        "explanation": "'Towels' jamak -> 'Are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many stops ___ between here and the port?",
+        "options": [
+          "there are",
+          "are there",
+          "is there"
+        ],
+        "answer": 1,
+        "explanation": "'Stops' jamak -> 'are there'.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada spidol cadangan di dalam kotak biru.\".",
+        "targetSentence": "There aren't any spare markers inside the blue box.",
+        "explanation": "'aren't any' untuk jamak negatif.",
+        "hints": [
+          "Cek apakah kata benda setelah 'There' tunggal, tak terhitung, atau jamak.",
+          "Sesuaikan is/are dan penggunaan some/any."
+        ],
+        "skill": "there-is-are"
       }
     ],
     "complex": [
@@ -827,6 +3707,1446 @@
         "hints": [
           "Awali dengan 'There appears to be'.",
           "Lanjutkan dengan 'a minor discrepancy in section four'."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the desk: there ___ a laptop and two folders.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Proximity agreement: noun pertama setelah 'there' tunggal ('a laptop') -> 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What is on top of the archive cabinet? / There ___ a stapler and three notebooks.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "What is on top of the archive cabinet?"
+          ],
+          [
+            "Dodi",
+            "There ___ a stapler and three notebooks."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Noun pertama tunggal ('a stapler') menentukan 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There are a laptop and two folders on the table.\"",
+        "draft": "There are a laptop and two folders on the table.",
+        "options": [
+          "There was a laptop and two folders on the table.",
+          "There are a laptop and two folders on the table.",
+          "There is a laptop and two folders on the table."
+        ],
+        "answer": 2,
+        "explanation": "Dengan daftar berderet, verb mengikuti noun pertama tunggal ('a laptop') -> 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ two folders and one laptop on that shelf.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Noun pertama setelah 'there' jamak ('two folders') -> 'are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada satu laptop dan dua map di atas meja itu.\".",
+        "targetSentence": "There is one laptop and two folders on that desk.",
+        "explanation": "Proximity agreement: kata benda pertama tunggal -> 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ a brief power outage in Lab 3 yesterday.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Kejadian lampau tunggal ('yesterday', 'a power outage') -> 'was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was the server offline last night? / There ___ a sudden voltage spike at midnight.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why was the server offline last night?"
+          ],
+          [
+            "Bima",
+            "There ___ a sudden voltage spike at midnight."
+          ]
+        ],
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Kejadian lampau tunggal -> 'was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There is two folders and a laptop on the shelf.\"",
+        "draft": "There is two folders and a laptop on the shelf.",
+        "options": [
+          "There are two folders and a laptop on the shelf.",
+          "There was two folders and a laptop on the shelf.",
+          "There is two folders and a laptop on the shelf."
+        ],
+        "answer": 0,
+        "explanation": "Noun pertama jamak ('two folders') memakai 'There are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ twenty applicants at the job fair last Friday.",
+        "options": [
+          "is",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Kejadian lampau jamak ('last Friday', 'twenty applicants') -> 'were'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were many students at the Friday seminar? / Yes, there ___ nearly ninety attendees.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Were many students at the Friday seminar?"
+          ],
+          [
+            "Eko",
+            "Yes, there ___ nearly ninety attendees."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Lampau jamak -> 'were'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There were a power outage in Hall B yesterday.\"",
+        "draft": "There were a power outage in Hall B yesterday.",
+        "options": [
+          "There were a power outage in Hall B yesterday.",
+          "There was a power outage in Hall B yesterday.",
+          "There is a power outage in Hall B yesterday."
+        ],
+        "answer": 1,
+        "explanation": "'A power outage' tunggal lampau memakai 'There was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ada dua map dan satu laptop di dalam laci.\".",
+        "targetSentence": "There are two folders and one laptop inside the drawer.",
+        "explanation": "Proximity agreement: kata benda pertama jamak -> 'are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ a mandatory safety drill tomorrow at nine.",
+        "options": [
+          "is being",
+          "are",
+          "will be"
+        ],
+        "answer": 2,
+        "explanation": "Jadwal masa depan tunggal memakai 'There will be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will we have a break after Session 2? / Yes, there ___ a fifteen-minute coffee break.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Will we have a break after Session 2?"
+          ],
+          [
+            "Sari",
+            "Yes, there ___ a fifteen-minute coffee break."
+          ]
+        ],
+        "options": [
+          "was",
+          "will be",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Rencana masa depan -> 'will be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There was twenty candidates at the fair yesterday.\"",
+        "draft": "There was twenty candidates at the fair yesterday.",
+        "options": [
+          "There were twenty candidates at the fair yesterday.",
+          "There are twenty candidates at the fair yesterday.",
+          "There was twenty candidates at the fair yesterday."
+        ],
+        "answer": 0,
+        "explanation": "'Twenty candidates' jamak lampau -> 'There were'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ too much noise outside during the exam yesterday.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'Noise' uncountable lampau -> 'There was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has attendance improved this semester? / Yes, there ___ a steady increase since February.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Has attendance improved this semester?"
+          ],
+          [
+            "Putri",
+            "Yes, there ___ a steady increase since February."
+          ]
+        ],
+        "options": [
+          "have been",
+          "was",
+          "has been"
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect tunggal -> 'has been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There will a safety workshop tomorrow at ten.\"",
+        "draft": "There will a safety workshop tomorrow at ten.",
+        "options": [
+          "There is be a safety workshop tomorrow at ten.",
+          "There will a safety workshop tomorrow at ten.",
+          "There will be a safety workshop tomorrow at ten."
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'will', wajib menyertakan 'be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ been several updates to the tax policy recently.",
+        "options": [
+          "have",
+          "has",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'Several updates' jamak dalam Present Perfect -> 'There have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Terjadi pemadaman listrik singkat di gedung kemarin.\".",
+        "targetSentence": "There was a brief power outage in the building yesterday.",
+        "explanation": "Lampau tunggal memakai 'There was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ been a noticeable drop in paper waste lately.",
+        "options": [
+          "is",
+          "has",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'A noticeable drop' tunggal dalam Present Perfect -> 'There has been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What else is inside the welcome kit? / There ___ two name badges and a campus map.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "What else is inside the welcome kit?"
+          ],
+          [
+            "Arman",
+            "There ___ two name badges and a campus map."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Noun pertama jamak ('two name badges') -> 'are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There has been several errors in this log lately.\"",
+        "draft": "There has been several errors in this log lately.",
+        "options": [
+          "There has been several errors in this log lately.",
+          "There have been several errors in this log lately.",
+          "There have be several errors in this log lately."
+        ],
+        "answer": 1,
+        "explanation": "'Several errors' jamak memakai 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look inside: there ___ an instruction sheet and three cables.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Noun pertama tunggal ('an instruction sheet') -> 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Akan ada latihan keselamatan wajib besok pukul sembilan.\".",
+        "targetSentence": "There will be a mandatory safety drill tomorrow at nine.",
+        "explanation": "Masa depan memakai 'There will be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ three cables and an adapter in this pouch.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Noun pertama jamak ('three cables') -> 'are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is that old corner lot empty now? / There ___ to be a historic print shop there.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why is that old corner lot empty now?"
+          ],
+          [
+            "Adi",
+            "There ___ to be a historic print shop there."
+          ]
+        ],
+        "options": [
+          "used",
+          "was",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Keadaan kebiasaan lampau -> 'used to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There have been a sharp drop in late arrivals.\"",
+        "draft": "There have been a sharp drop in late arrivals.",
+        "options": [
+          "There has be a sharp drop in late arrivals.",
+          "There have been a sharp drop in late arrivals.",
+          "There has been a sharp drop in late arrivals."
+        ],
+        "answer": 2,
+        "explanation": "'A sharp drop' tunggal memakai 'has been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ to be an old bookstore beside this station.",
+        "options": [
+          "use",
+          "was",
+          "used"
+        ],
+        "answer": 2,
+        "explanation": "Keadaan masa lalu yang sudah tidak ada -> 'There used to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are there errors in this calculation? / Actually, there appears ___ a rounding error here.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Are there errors in this calculation?"
+          ],
+          [
+            "Kiki",
+            "Actually, there appears ___ a rounding error here."
+          ]
+        ],
+        "options": [
+          "to be",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Pola 'there appears to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There used to being a clinic on this street.\"",
+        "draft": "There used to being a clinic on this street.",
+        "options": [
+          "There use to be a clinic on this street.",
+          "There used to being a clinic on this street.",
+          "There used to be a clinic on this street."
+        ],
+        "answer": 2,
+        "explanation": "'Used to' selalu diikuti 'be' dasar ('used to be').",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sudah ada beberapa pembaruan kebijakan pajak akhir-akhir ini.\".",
+        "targetSentence": "There have been several updates to tax policy recently.",
+        "explanation": "Present Perfect jamak memakai 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ be fewer delays once the new lane opens.",
+        "options": [
+          "is",
+          "are",
+          "should"
+        ],
+        "answer": 2,
+        "explanation": "Modal + be eksistensi ('should be', 'will be', 'might be') -> 'should'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was there enough food at yesterday's expo? / Yes, there ___ plenty of sandwiches for all.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Was there enough food at yesterday's expo?"
+          ],
+          [
+            "Sinta",
+            "Yes, there ___ plenty of sandwiches for all."
+          ]
+        ],
+        "options": [
+          "were",
+          "was",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Opsi tunggal vs jamak: 'plenty of sandwiches' jamak -> 'were'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There seems to being a delay at Customs.\"",
+        "draft": "There seems to being a delay at Customs.",
+        "options": [
+          "There seems to being a delay at Customs.",
+          "There seems to be a delay at Customs.",
+          "There seem to being a delay at Customs."
+        ],
+        "answer": 1,
+        "explanation": "'There seems' diikuti 'to be', bukan 'to being'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ there any delays on the morning flight yesterday?",
+        "options": [
+          "Were",
+          "Was",
+          "Are"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan lampau jamak ('yesterday', 'delays') -> 'Were there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How have customer complaints changed? / There ___ far fewer complaints since the update.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How have customer complaints changed?"
+          ],
+          [
+            "Tia",
+            "There ___ far fewer complaints since the update."
+          ]
+        ],
+        "options": [
+          "was",
+          "have been",
+          "has been"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect jamak ('fewer complaints') -> 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There seem to be an extra fee on line five.\"",
+        "draft": "There seem to be an extra fee on line five.",
+        "options": [
+          "There seeming to be an extra fee on line five.",
+          "There seem to be an extra fee on line five.",
+          "There seems to be an extra fee on line five."
+        ],
+        "answer": 2,
+        "explanation": "'An extra fee' tunggal memakai 'seems to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ there enough water at the finish line yesterday?",
+        "options": [
+          "Did",
+          "Was",
+          "Were"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan lampau uncountable ('water') -> 'Was there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sudah ada penurunan nyata dalam limbah kertas tahun ini.\".",
+        "targetSentence": "There has been a clear drop in paper waste this year.",
+        "explanation": "Present Perfect tunggal memakai 'has been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ be a short Q&A session right after lunch.",
+        "options": [
+          "is",
+          "were",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Rencana masa depan -> 'There will be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did we miss the emergency exit sign? / Look; there ought ___ a sign above Door 2.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Did we miss the emergency exit sign?"
+          ],
+          [
+            "Dewi",
+            "Look; there ought ___ a sign above Door 2."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "to be"
+        ],
+        "answer": 2,
+        "explanation": "'Ought' wajib memakai 'to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There wasn't any seats left on the evening train.\"",
+        "draft": "There wasn't any seats left on the evening train.",
+        "options": [
+          "There weren't any seats left on the evening train.",
+          "There isn't any seats left on the evening train.",
+          "There wasn't any seats left on the evening train."
+        ],
+        "answer": 0,
+        "explanation": "'Seats' jamak lampau negatif memakai 'weren't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inside the package, there ___ a badge, two pens, and a map.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Noun pertama tunggal ('a badge') -> 'There is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dulu ada toko buku tua di samping stasiun ini.\".",
+        "targetSentence": "There used to be an old bookstore beside this station.",
+        "explanation": "Kebiasaan/keadaan lampau memakai 'used to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ several clear benefits to hybrid scheduling.",
+        "options": [
+          "seems to be",
+          "is seeming",
+          "seem to be"
+        ],
+        "answer": 2,
+        "explanation": "Raising verb jamak ('several benefits') -> 'There seem to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What might delay tomorrow's ferry? / Weather charts say there ___ be strong winds.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What might delay tomorrow's ferry?"
+          ],
+          [
+            "Ayu",
+            "Weather charts say there ___ be strong winds."
+          ]
+        ],
+        "options": [
+          "might",
+          "is",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan masa depan -> 'There might be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There weren't enough water at the camp.\"",
+        "draft": "There weren't enough water at the camp.",
+        "options": [
+          "There weren't enough water at the camp.",
+          "There wasn't enough water at the camp.",
+          "There isn't enough water at the camp."
+        ],
+        "answer": 1,
+        "explanation": "'Water' uncountable lampau negatif -> 'wasn't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ a slight misunderstanding over the delivery date.",
+        "options": [
+          "appears to be",
+          "appear to be",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'A slight misunderstanding' tunggal -> 'There appears to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were there any free seats on Flight 402? / No, there ___ a single seat left yesterday.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Were there any free seats on Flight 402?"
+          ],
+          [
+            "Oki",
+            "No, there ___ a single seat left yesterday."
+          ]
+        ],
+        "options": [
+          "wasn't",
+          "weren't",
+          "isn't"
+        ],
+        "answer": 0,
+        "explanation": "'A single seat' lampau tunggal negatif -> 'wasn't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is there will be a coffee break at noon?\"",
+        "draft": "Is there will be a coffee break at noon?",
+        "options": [
+          "Is there will be a coffee break at noon?",
+          "Will there be a coffee break at noon?",
+          "Are there will be a coffee break at noon?"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat tanya masa depan diawali 'Will there be...'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tampaknya ada kesalahan ketik pada baris ketiga.\".",
+        "targetSentence": "There appears to be a typo on the third line.",
+        "explanation": "Pola formal 'There appears to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ a workshop and three clinics planned next month.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Noun pertama tunggal ('a workshop') -> 'is'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will there be printed handouts tomorrow? / No, there ___ only be digital PDFs.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Will there be printed handouts tomorrow?"
+          ],
+          [
+            "Mira",
+            "No, there ___ only be digital PDFs."
+          ]
+        ],
+        "options": [
+          "are",
+          "will",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Masa depan -> 'will only be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There might is a short delay due to rain.\"",
+        "draft": "There might is a short delay due to rain.",
+        "options": [
+          "There might is a short delay due to rain.",
+          "There might be a short delay due to rain.",
+          "There might are a short delay due to rain."
+        ],
+        "answer": 1,
+        "explanation": "Setelah modal 'might', gunakan verb dasar 'be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ there be enough chairs for fifty guests tomorrow?",
+        "options": [
+          "Will",
+          "Is",
+          "Are"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat tanya masa depan: 'Will there be ...?'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the supervisor call an extra meeting? / Because there seem ___ several budget gaps.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did the supervisor call an extra meeting?"
+          ],
+          [
+            "Taufik",
+            "Because there seem ___ several budget gaps."
+          ]
+        ],
+        "options": [
+          "to be",
+          "being",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Jamak 'several budget gaps' -> 'there seem to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There ought be a warning label on this box.\"",
+        "draft": "There ought be a warning label on this box.",
+        "options": [
+          "There ought being a warning label on this box.",
+          "There ought be a warning label on this box.",
+          "There ought to be a warning label on this box."
+        ],
+        "answer": 2,
+        "explanation": "Modal 'ought' wajib diikuti 'to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ any parking spots left when we arrived last night.",
+        "options": [
+          "wasn't",
+          "aren't",
+          "weren't"
+        ],
+        "answer": 2,
+        "explanation": "Lampau jamak negatif -> 'weren't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah akan ada cukup kursi untuk semua tamu besok?\".",
+        "targetSentence": "Will there be enough chairs for all guests tomorrow?",
+        "explanation": "Pertanyaan masa depan: 'Will there be...'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ enough bandwidth during Tuesday's live webinar.",
+        "options": [
+          "wasn't",
+          "weren't",
+          "isn't"
+        ],
+        "answer": 0,
+        "explanation": "Lampau uncountable negatif -> 'wasn't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you check if anything fell out? / Yes, there wasn't ___ left inside the pouch.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did you check if anything fell out?"
+          ],
+          [
+            "Lina",
+            "Yes, there wasn't ___ left inside the pouch."
+          ]
+        ],
+        "options": [
+          "anything",
+          "nothing",
+          "something"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat negatif memakai 'anything'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Was there any questions from the audience?\"",
+        "draft": "Was there any questions from the audience?",
+        "options": [
+          "Did there any questions from the audience?",
+          "Was there any questions from the audience?",
+          "Were there any questions from the audience?"
+        ],
+        "answer": 2,
+        "explanation": "'Questions' jamak lampau -> 'Were there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ two major revisions since our January draft.",
+        "options": [
+          "are",
+          "have been",
+          "has been"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect jamak ('since January') -> 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada tempat parkir tersisa saat kami tiba semalam.\".",
+        "targetSentence": "There weren't any parking spots left when we arrived.",
+        "explanation": "Lampau jamak negatif -> 'There weren't'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ a sharp rise in train ridership this year.",
+        "options": [
+          "has been",
+          "have been",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect tunggal -> 'has been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was there much rain last week in Bogor? / Yes, there ___ heavy showers every afternoon.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was there much rain last week in Bogor?"
+          ],
+          [
+            "Wulan",
+            "Yes, there ___ heavy showers every afternoon."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "'Heavy showers' jamak lampau -> 'were'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Were there enough feedback from the pilot?\"",
+        "draft": "Were there enough feedback from the pilot?",
+        "options": [
+          "Was there enough feedback from the pilot?",
+          "Did there enough feedback from the pilot?",
+          "Were there enough feedback from the pilot?"
+        ],
+        "answer": 0,
+        "explanation": "'Feedback' uncountable lampau -> 'Was there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before the upgrade, there ___ only one elevator here.",
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Kondisi lampau tunggal -> 'was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened during the system check? / There ___ a printer jam and two error alerts.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What happened during the system check?"
+          ],
+          [
+            "Sari",
+            "There ___ a printer jam and two error alerts."
+          ]
+        ],
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Noun pertama tunggal ('a printer jam') -> 'was'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There isn't nothing wrong with this sensor.\"",
+        "draft": "There isn't nothing wrong with this sensor.",
+        "options": [
+          "There aren't anything wrong with this sensor.",
+          "There isn't nothing wrong with this sensor.",
+          "There isn't anything wrong with this sensor."
+        ],
+        "answer": 2,
+        "explanation": "Hindari double negative; gunakan 'isn't anything'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seharusnya ada sekring cadangan di dalam kotak perkakas.\".",
+        "targetSentence": "There ought to be a spare fuse inside the toolbox.",
+        "explanation": "Pola 'ought to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—is there ___ important missing from this file?",
+        "options": [
+          "anything",
+          "nothing",
+          "some"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan memakai indefinite 'anything' setelah 'is there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have there been any responses to our memo? / Yes, there ___ three replies already.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Have there been any responses to our memo?"
+          ],
+          [
+            "Reno",
+            "Yes, there ___ three replies already."
+          ]
+        ],
+        "options": [
+          "have been",
+          "has been",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect jamak -> 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There has be three updates since last Monday.\"",
+        "draft": "There has be three updates since last Monday.",
+        "options": [
+          "There has be three updates since last Monday.",
+          "There have been three updates since last Monday.",
+          "There are been three updates since last Monday."
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect jamak wajib memakai 'have been'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the sign; there is ___ wrong with Terminal 1.",
+        "options": [
+          "none",
+          "something",
+          "anything"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat berita afirmatif memakai 'something'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is something blocking the loading bay? / Look; there ___ two crates and a cart there.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is something blocking the loading bay?"
+          ],
+          [
+            "Aris",
+            "Look; there ___ two crates and a cart there."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Noun pertama jamak ('two crates') -> 'are'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"There appears to be two typos on page nine.\"",
+        "draft": "There appears to be two typos on page nine.",
+        "options": [
+          "There appear to be two typos on page nine.",
+          "There appearing to be two typos on page nine.",
+          "There appears to be two typos on page nine."
+        ],
+        "answer": 0,
+        "explanation": "'Two typos' jamak -> 'There appear to be'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "choice",
+        "prompt": "There seems ___ a typo in the third header row.",
+        "options": [
+          "being",
+          "be",
+          "to be"
+        ],
+        "answer": 2,
+        "explanation": "Pola 'There seems + to be + noun'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
+        ],
+        "skill": "there-is-are"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah ada banyak peserta pada seminar hari Jumat?\".",
+        "targetSentence": "Were there many attendees at the Friday seminar?",
+        "explanation": "Pertanyaan lampau jamak memakai 'Were there'.",
+        "hints": [
+          "Pada daftar berderet ('There is/are X and Y'), verb umumnya mengikuti noun PERTAMA (proximity agreement).",
+          "Perhatikan ragam waktu: There was/were (lampau), There will be (masa depan), There used to be."
         ],
         "skill": "there-is-are"
       }

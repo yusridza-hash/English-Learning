@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { LegacyModuleData } from "../data/legacyModules";
 import { getStagePedagogy } from "../data/lessonEnrichment";
-import { QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
+import { ensureModuleLoaded, isModuleLoaded, QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import {
   getChecks,
@@ -71,6 +71,8 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
   });
 
   const [writingDraft, setWritingDraft] = useState<string>("");
+  const [bankLoading, setBankLoading] = useState<boolean>(() => !isModuleLoaded(data.key));
+  const [bankLoadError, setBankLoadError] = useState<string>("");
   const [quizLevels, setQuizLevels] = useState<QuizLevelConfig[]>(() =>
     buildLegacyQuizLevels(data.key)
   );
@@ -88,6 +90,40 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
       }))
     )
   );
+
+  const loadModuleBank = (cancelledCheck?: () => boolean) => {
+    if (isModuleLoaded(data.key)) {
+      setBankLoading(false);
+      setBankLoadError("");
+      return;
+    }
+    setBankLoading(true);
+    setBankLoadError("");
+    ensureModuleLoaded(data.key)
+      .then(() => {
+        if (cancelledCheck?.()) return;
+        const freshLevels = buildLegacyQuizLevels(data.key);
+        setQuestionStates((prevStates) => {
+          const hasStarted = prevStates.flat().some((s) => s.attempts > 0 || s.completed);
+          if (hasStarted) return prevStates;
+          setQuizLevels(freshLevels);
+          return freshLevels.map((lvl) =>
+            lvl.questions.map(() => ({
+              attempts: 0,
+              points: 0,
+              correct: false,
+              completed: false,
+            }))
+          );
+        });
+        setBankLoading(false);
+      })
+      .catch(() => {
+        if (cancelledCheck?.()) return;
+        setBankLoading(false);
+        setBankLoadError("Gagal memuat bank soal penuh level ini. Cek koneksi atau muat ulang.");
+      });
+  };
 
   useEffect(() => {
     document.body.dataset.module = data.key;
@@ -109,6 +145,9 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
       )
     );
 
+    let cancelled = false;
+    loadModuleBank(() => cancelled);
+
     const applyResumeState = () => {
       const parsed = parseModuleResumeHash(window.location.hash);
       recordModuleHistory({
@@ -129,7 +168,10 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
 
     applyResumeState();
     window.addEventListener("el_route_change", applyResumeState);
-    return () => window.removeEventListener("el_route_change", applyResumeState);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("el_route_change", applyResumeState);
+    };
   }, [data]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
@@ -138,7 +180,7 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
     saveChecks(data.key, next);
   };
 
-  const handleOpenLevelModal = (levelIndex: number) => {
+  const handleOpenLevelModal = async (levelIndex: number) => {
     const subLevel: SubLevelKey = LEVEL_KEYS[levelIndex] || "simple";
     recordModuleHistory({
       moduleKey: data.key,
@@ -147,13 +189,17 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
       subLevel,
       anchorId: `latihan-${subLevel}`,
     });
+    if (!isModuleLoaded(data.key)) {
+      await ensureModuleLoaded(data.key).catch(() => undefined);
+    }
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
 
-  const handleRandomizeLevel = (levelIndex: number) => {
+  const handleRandomizeLevel = async (levelIndex: number) => {
     const lvlKey = LEVEL_KEYS[levelIndex];
     if (!lvlKey) return;
+    await ensureModuleLoaded(data.key).catch(() => undefined);
     const baseQs = QUESTION_BANK[data.key]?.levels?.[lvlKey] || [];
     const newQuestions = getRandomizedLevelQuestions(data.key, lvlKey, baseQs, 10);
 
@@ -821,6 +867,20 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
         </nav>
 
         {renderMaterialSections()}
+
+        {bankLoading && (
+          <p className="note" role="status" aria-live="polite">
+            Memuat bank soal level ini (100+ soal per tingkat)...
+          </p>
+        )}
+        {bankLoadError && (
+          <div className="warn" role="alert" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: ".75rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+            <span>{bankLoadError}</span>
+            <button type="button" className="filter-pill" onClick={() => loadModuleBank()}>
+              ↻ Coba Muat Ulang
+            </button>
+          </div>
+        )}
 
         <LevelQuizSummarySection
           moduleKey={data.key}

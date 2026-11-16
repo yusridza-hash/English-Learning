@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BUILT, CURRICULUM, TOTAL_MODULES } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
-import { QUESTION_BANK } from "../data/questionBank";
+import { ensureAllLevelsLoaded, QUESTION_BANK } from "../data/questionBank";
 import {
   getQuestionSignature,
   pickNonRepeatingQuestions,
@@ -131,6 +131,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
 
   // Daily Spaced Repetition state
   const [dailyActive, setDailyActive] = useState(false);
+  const [dailyLoading, setDailyLoading] = useState(false);
+  const [dailyError, setDailyError] = useState("");
   const [dailyItems, setDailyItems] = useState<DailyReviewItem[]>([]);
   const [dailyStates, setDailyStates] = useState<QuestionProgressState[]>([]);
 
@@ -206,19 +208,28 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
     onNavigate(path);
   };
 
-  const handleStartDailyReview = () => {
-    const currentErrors = getErrorJournal().map((e) => e.moduleKey);
-    const generated = generateDailyReviewSet(scores, currentErrors, 10);
-    setDailyItems(generated);
-    setDailyStates(
-      generated.map(() => ({
-        attempts: 0,
-        points: 0,
-        correct: false,
-        completed: false,
-      }))
-    );
-    setDailyActive(true);
+  const handleStartDailyReview = async () => {
+    setDailyLoading(true);
+    setDailyError("");
+    try {
+      await ensureAllLevelsLoaded();
+      const currentErrors = getErrorJournal().map((e) => e.moduleKey);
+      const generated = generateDailyReviewSet(scores, currentErrors, 10);
+      setDailyItems(generated);
+      setDailyStates(
+        generated.map(() => ({
+          attempts: 0,
+          points: 0,
+          correct: false,
+          completed: false,
+        }))
+      );
+      setDailyActive(true);
+    } catch {
+      setDailyError("Gagal memuat sebagian bank soal untuk Latihan Harian. Silakan coba lagi.");
+    } finally {
+      setDailyLoading(false);
+    }
   };
 
   const handleUpdateDailyQuestion = (idx: number, nextState: QuestionProgressState) => {
@@ -584,9 +595,14 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
             type="button"
             className="check-quiz"
             style={{ marginTop: 0 }}
+            disabled={dailyLoading}
             onClick={handleStartDailyReview}
           >
-            {dailyActive ? "↻ Acak 10 Soal Baru" : "▸ Mulai Latihan Harian (10 Soal)"}
+            {dailyLoading
+              ? "Memuat Bank Soal..."
+              : dailyActive
+              ? "↻ Acak 10 Soal Baru"
+              : "▸ Mulai Latihan Harian (10 Soal)"}
           </button>
           {dailyActive && (
             <button
@@ -598,6 +614,11 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
             </button>
           )}
         </div>
+        {dailyError && (
+          <p className="warn" role="alert" style={{ marginTop: ".65rem" }}>
+            {dailyError}
+          </p>
+        )}
 
         {dailyActive && (
           <div className="daily-review-box guided-learning">

@@ -261,6 +261,1446 @@
           "Letakkan 'yet?' di bagian paling akhir."
         ],
         "skill": "present-perfect-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "I have ___ finished formatting all twelve seminar slides.",
+        "options": [
+          "yet",
+          "yesterday",
+          "already"
+        ],
+        "answer": 2,
+        "explanation": "'Already' di kalimat positif berada di antara 'have' dan V3.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, I sent it ten minutes ago.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Have you sent the weekly sales chart to Ms. Dewi ___?"
+          ],
+          [
+            "Dodi",
+            "Yes, I sent it ten minutes ago."
+          ]
+        ],
+        "options": [
+          "already",
+          "just",
+          "yet"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan 'sudah atau belum' memakai 'yet' di akhir kalimat.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has work at this company since 2020.\"",
+        "draft": "She has work at this company since 2020.",
+        "options": [
+          "She have worked at this company since 2020.",
+          "She has work at this company since 2020.",
+          "She has worked at this company since 2020."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'has', wajib gunakan V3 ('worked').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Has the courier delivered the spare headsets ___?",
+        "options": [
+          "since",
+          "yet",
+          "already"
+        ],
+        "answer": 1,
+        "explanation": "'Yet' di akhir kalimat tanya menanyakan apakah sudah terjadi.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya sudah menyelesaikan penyusunan dua belas salindia seminar.\".",
+        "targetSentence": "I have already finished formatting twelve seminar slides.",
+        "explanation": "'Already' di antara 'have' dan V3.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We haven't received the hotel confirmation email ___.",
+        "options": [
+          "already",
+          "ever",
+          "yet"
+        ],
+        "answer": 2,
+        "explanation": "'Yet' di akhir kalimat negatif berarti 'belum'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Would you like some fresh coffee right now? / No thanks, I've ___ had two cups this morning.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Would you like some fresh coffee right now?"
+          ],
+          [
+            "Bima",
+            "No thanks, I've ___ had two cups this morning."
+          ]
+        ],
+        "options": [
+          "ever",
+          "already",
+          "yet"
+        ],
+        "answer": 1,
+        "explanation": "Sudah terjadi lebih awal dari dugaan -> 'already'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Have you finished the quarterly report already?\"",
+        "draft": "Have you finished the quarterly report already?",
+        "options": [
+          "Have you finished the quarterly report yet?",
+          "Have you finish the quarterly report yet?",
+          "Have you finished the quarterly report already?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan netral 'apakah sudah' memakai 'yet' di akhir kalimat.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ worked at this logistics firm since 2021.",
+        "options": [
+          "have",
+          "is",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "Subjek tunggal 'She' memakai 'has + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long have you worked at the port clinic? / I've worked there ___ five years now.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "How long have you worked at the port clinic?"
+          ],
+          [
+            "Eko",
+            "I've worked there ___ five years now."
+          ]
+        ],
+        "options": [
+          "ago",
+          "for",
+          "since"
+        ],
+        "answer": 1,
+        "explanation": "Durasi 'five years' memakai 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We live in Semarang since three years.\"",
+        "draft": "We live in Semarang since three years.",
+        "options": [
+          "We live in Semarang since three years.",
+          "We have lived in Semarang for three years.",
+          "We have lived in Semarang since three years."
+        ],
+        "answer": 1,
+        "explanation": "Durasi ('three years') memakai 'for' + Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah kurir sudah mengantarkan perangkat audio cadangan?\".",
+        "targetSentence": "Has the courier delivered the spare headsets yet?",
+        "explanation": "Pertanyaan 'sudah/belum' memakai 'yet' di akhir.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ___ presented a research poster in English?",
+        "options": [
+          "never",
+          "yet",
+          "ever"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan pengalaman hidup memakai 'Have you ever + V3?'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where is Adi? Nobody saw him after lunch. / He has ___ to the bank to deposit checks.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Where is Adi? Nobody saw him after lunch."
+          ],
+          [
+            "Sari",
+            "He has ___ to the bank to deposit checks."
+          ]
+        ],
+        "options": [
+          "went",
+          "gone",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Sedang pergi dan belum kembali -> 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He hasn't replied to my email already.\"",
+        "draft": "He hasn't replied to my email already.",
+        "options": [
+          "He hasn't replied to my email already.",
+          "He hasn't replied to my email yet.",
+          "He haven't replied to my email yet."
+        ],
+        "answer": 1,
+        "explanation": "Dalam kalimat negatif 'belum', gunakan 'yet' di akhir.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He has ___ visited Bali, though he travels for work often.",
+        "options": [
+          "yet",
+          "never",
+          "ever"
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman negatif tanpa 'not' -> 'has never visited'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, twice! The giant palms are unforgettable.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Have you ___ visited the botanical garden in Bogor?"
+          ],
+          [
+            "Putri",
+            "Yes, twice! The giant palms are unforgettable."
+          ]
+        ],
+        "options": [
+          "never",
+          "yet",
+          "ever"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan pengalaman -> 'Have you ever ...?'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have never went to a tech expo in Tokyo.\"",
+        "draft": "I have never went to a tech expo in Tokyo.",
+        "options": [
+          "I have never went to a tech expo in Tokyo.",
+          "I have never been to a tech expo in Tokyo.",
+          "I never have gone to a tech expo in Tokyo."
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman pernah mengunjungi memakai V3 'been'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They have lived near the harbor ___ six years.",
+        "options": [
+          "since",
+          "during",
+          "for"
+        ],
+        "answer": 2,
+        "explanation": "Durasi waktu ('six years') memakai 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami belum menerima surel konfirmasi hotel tersebut.\".",
+        "targetSentence": "We have not received the hotel confirmation email yet.",
+        "explanation": "Negatif 'belum' memakai 'yet'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ms. Sari has taught academic writing ___ 2019.",
+        "options": [
+          "for",
+          "from",
+          "since"
+        ],
+        "answer": 2,
+        "explanation": "Titik awal waktu ('2019') memakai 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is your hair still wet? / I've ___ walked in from a sudden rainstorm!\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Why is your hair still wet?"
+          ],
+          [
+            "Arman",
+            "I've ___ walked in from a sudden rainstorm!"
+          ]
+        ],
+        "options": [
+          "yet",
+          "for",
+          "just"
+        ],
+        "answer": 2,
+        "explanation": "Baru saja terjadi -> 'just'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Look! The delivery truck just has arrived.\"",
+        "draft": "Look! The delivery truck just has arrived.",
+        "options": [
+          "Look! The delivery truck just has arrived.",
+          "Look! The delivery truck has just arrived.",
+          "Look! The delivery truck just arrived has."
+        ],
+        "answer": 1,
+        "explanation": "'Just' ditempatkan DI ANTARA 'has' dan V3 ('has just arrived').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look! Someone has ___ left a fresh box of markers here.",
+        "options": [
+          "yet",
+          "for",
+          "just"
+        ],
+        "answer": 2,
+        "explanation": "Baru saja terjadi -> 'has just + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia telah bekerja di perusahaan logistik ini sejak 2021.\".",
+        "targetSentence": "She has worked at this logistics firm since 2021.",
+        "explanation": "Titik awal tahun memakai 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleagues ___ already uploaded their quarterly budgets.",
+        "options": [
+          "has",
+          "are",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak 'My colleagues' -> 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has the printer arrived from IT Support? / Not ___—they said it will reach us after two.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Has the printer arrived from IT Support?"
+          ],
+          [
+            "Adi",
+            "Not ___—they said it will reach us after two."
+          ]
+        ],
+        "options": [
+          "yet",
+          "already",
+          "since"
+        ],
+        "answer": 0,
+        "explanation": "Jawaban pendek 'belum' -> 'Not yet'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They has already signed the confidentiality form.\"",
+        "draft": "They has already signed the confidentiality form.",
+        "options": [
+          "They has already signed the confidentiality form.",
+          "They have already signed the confidentiality form.",
+          "They have already sign the confidentiality form."
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak 'They' memakai 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He hasn't ___ the new safety guidelines yet.",
+        "options": [
+          "reading",
+          "reads",
+          "read"
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'read' adalah 'read'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long has this ferry route been operating? / It has operated reliably ___ 2018.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How long has this ferry route been operating?"
+          ],
+          [
+            "Kiki",
+            "It has operated reliably ___ 2018."
+          ]
+        ],
+        "options": [
+          "since",
+          "for",
+          "from"
+        ],
+        "answer": 0,
+        "explanation": "Titik awal tahun ('2018') -> 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How long have you know your project mentor?\"",
+        "draft": "How long have you know your project mentor?",
+        "options": [
+          "How long have you knew your project mentor?",
+          "How long have you know your project mentor?",
+          "How long have you known your project mentor?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'have you', gunakan V3 'known'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka telah tinggal di dekat pelabuhan selama enam tahun.\".",
+        "targetSentence": "They have lived near the harbor for six years.",
+        "explanation": "Durasi tahun memakai 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have the interns ___ all forty visitor badges?",
+        "options": [
+          "printed",
+          "print",
+          "printing"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Have + S', wajib V3 ('printed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have the trainees finished Lab Check 2? / Yes, every group ___ uploaded its worksheet.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Have the trainees finished Lab Check 2?"
+          ],
+          [
+            "Sinta",
+            "Yes, every group ___ uploaded its worksheet."
+          ]
+        ],
+        "options": [
+          "have",
+          "is",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'Every group' tunggal -> 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has waited here since two hours.\"",
+        "draft": "She has waited here since two hours.",
+        "options": [
+          "She waited here since two hours.",
+          "She has waited here since two hours.",
+          "She has waited here for two hours."
+        ],
+        "answer": 2,
+        "explanation": "Durasi 'two hours' wajib memakai 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We have ___ this accounting software for three months.",
+        "options": [
+          "used",
+          "use",
+          "using"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect: 'have + V3' ('used').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Sarah still booking flights for Friday? / No need—she has ___ booked our return tickets!\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Is Sarah still booking flights for Friday?"
+          ],
+          [
+            "Tia",
+            "No need—she has ___ booked our return tickets!"
+          ]
+        ],
+        "options": [
+          "never",
+          "already",
+          "yet"
+        ],
+        "answer": 1,
+        "explanation": "Sudah selesai -> 'already'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We haven't ever ate anything since breakfast.\"",
+        "draft": "We haven't ever ate anything since breakfast.",
+        "options": [
+          "We haven't ever ate anything since breakfast.",
+          "We haven't eaten anything since breakfast.",
+          "We haven't ate anything since breakfast."
+        ],
+        "answer": 1,
+        "explanation": "V3 dari 'eat' adalah 'eaten'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She has ___ three international workshops so far this year.",
+        "options": [
+          "attended",
+          "attend",
+          "attending"
+        ],
+        "answer": 0,
+        "explanation": "'So far' menandai Present Perfect -> 'has attended'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pernahkah Anda mempresentasikan poster riset dalam bahasa Inggris?\".",
+        "targetSentence": "Have you ever presented a research poster in English?",
+        "explanation": "Pertanyaan pengalaman memakai 'Have you ever + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "No, we haven't ___ any message from Customs today.",
+        "options": [
+          "received",
+          "receive",
+          "receives"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'haven't', wajib V3 ('received').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you ever tried recording a podcast intro? / No, I've ___ tried recording audio before.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Have you ever tried recording a podcast intro?"
+          ],
+          [
+            "Dewi",
+            "No, I've ___ tried recording audio before."
+          ]
+        ],
+        "options": [
+          "yet",
+          "never",
+          "ever"
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman tidak pernah -> 'never'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Has the intern print all forty handouts yet?\"",
+        "draft": "Has the intern print all forty handouts yet?",
+        "options": [
+          "Has the intern print all forty handouts yet?",
+          "Has the intern printed all forty handouts yet?",
+          "Have the intern printed all forty handouts yet?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Has + S', gunakan V3 ('printed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I've ___ back from the airport—traffic was clear!",
+        "options": [
+          "just came",
+          "come just",
+          "just come"
+        ],
+        "answer": 2,
+        "explanation": "'Just' berada sebelum V3 ('just come').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tidak pernah mengunjungi Bali meskipun sering bertugas.\".",
+        "targetSentence": "He has never visited Bali despite frequent work trips.",
+        "explanation": "Pengalaman negatif memakai 'has never + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long ___ Mr. Hadi managed the Surabaya warehouse?",
+        "options": [
+          "have",
+          "did",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "Subjek tunggal + V3 'managed' -> 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sorry! I was stuck downstairs waiting for badges.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Where have you ___? We started five minutes ago!"
+          ],
+          [
+            "Ayu",
+            "Sorry! I was stuck downstairs waiting for badges."
+          ]
+        ],
+        "options": [
+          "went",
+          "been",
+          "gone"
+        ],
+        "answer": 1,
+        "explanation": "Sudah kembali -> 'Where have you been?'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I've already spoke with the venue coordinator.\"",
+        "draft": "I've already spoke with the venue coordinator.",
+        "options": [
+          "I've already speak with the venue coordinator.",
+          "I've already spoke with the venue coordinator.",
+          "I've already spoken with the venue coordinator."
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'speak' adalah 'spoken'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ known each other since university orientation.",
+        "options": [
+          "are",
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'They' + V3 'known' -> 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long have they lived in Yogyakarta? / They've lived there ___ graduating in 2020.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "How long have they lived in Yogyakarta?"
+          ],
+          [
+            "Oki",
+            "They've lived there ___ graduating in 2020."
+          ]
+        ],
+        "options": [
+          "during",
+          "since",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "Titik awal kejadian -> 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody have called Reception since noon.\"",
+        "draft": "Nobody have called Reception since noon.",
+        "options": [
+          "Nobody has called Reception since noon.",
+          "Nobody has call Reception since noon.",
+          "Nobody have called Reception since noon."
+        ],
+        "answer": 0,
+        "explanation": "'Nobody' adalah subjek tunggal -> gunakan 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Lihat! Seseorang baru saja meninggalkan sekotak spidol baru.\".",
+        "targetSentence": "Look! Someone has just left a new box of markers.",
+        "explanation": "'Just' di antara 'has' dan V3.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She has ___ written two chapters of her thesis draft.",
+        "options": [
+          "ever",
+          "already",
+          "yet"
+        ],
+        "answer": 1,
+        "explanation": "'Already' di tengah kalimat positif.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has Kevin checked all fifty survey envelopes? / No, he hasn't opened Box 3 ___.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Has Kevin checked all fifty survey envelopes?"
+          ],
+          [
+            "Mira",
+            "No, he hasn't opened Box 3 ___."
+          ]
+        ],
+        "options": [
+          "just",
+          "yet",
+          "already"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat negatif 'belum' -> 'yet'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She is gone to London three times for conferences.\"",
+        "draft": "She is gone to London three times for conferences.",
+        "options": [
+          "She has gone to London three times for conferences.",
+          "She is gone to London three times for conferences.",
+          "She has been to London three times for conferences."
+        ],
+        "answer": 2,
+        "explanation": "Pengalaman berkali-kali sudah kembali memakai 'has been to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Has the technician ___ the broken cable in Room 3 yet?",
+        "options": [
+          "replaced",
+          "replace",
+          "replacing"
+        ],
+        "answer": 0,
+        "explanation": "'Has + S + V3' ('replaced').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why does the meeting room smell so fresh? / Housekeeping has ___ cleaned and aired it out.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why does the meeting room smell so fresh?"
+          ],
+          [
+            "Taufik",
+            "Housekeeping has ___ cleaned and aired it out."
+          ]
+        ],
+        "options": [
+          "yet",
+          "ever",
+          "just"
+        ],
+        "answer": 2,
+        "explanation": "Baru saja selesai -> 'just'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He hasn't write the closing summary yet.\"",
+        "draft": "He hasn't write the closing summary yet.",
+        "options": [
+          "He hasn't written the closing summary yet.",
+          "He hasn't wrote the closing summary yet.",
+          "He hasn't write the closing summary yet."
+        ],
+        "answer": 0,
+        "explanation": "V3 dari 'write' adalah 'written'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ had no power interruptions since last Tuesday.",
+        "options": [
+          "has",
+          "are",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'We' -> 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ke mana Kevin pergi? Kursi mejanya kosong.\".",
+        "targetSentence": "Where has Kevin gone? His desk chair is empty.",
+        "explanation": "Belum kembali memakai 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He has ___ spoken to the regional director about leave.",
+        "options": [
+          "yet",
+          "since",
+          "already"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat positif memakai 'already'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long has Mr. Anton waited outside? / He's waited patiently ___ twenty minutes.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "How long has Mr. Anton waited outside?"
+          ],
+          [
+            "Lina",
+            "He's waited patiently ___ twenty minutes."
+          ]
+        ],
+        "options": [
+          "from",
+          "for",
+          "since"
+        ],
+        "answer": 1,
+        "explanation": "Durasi menit -> 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We have been knowing him for five years.\"",
+        "draft": "We have been knowing him for five years.",
+        "options": [
+          "We have knew him for five years.",
+          "We have been knowing him for five years.",
+          "We have known him for five years."
+        ],
+        "answer": 2,
+        "explanation": "'Know' stative verb -> Present Perfect Simple ('have known').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I haven't ___ to Medan before, so I'm excited to visit.",
+        "options": [
+          "went",
+          "been",
+          "gone"
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman pernah pergi -> 'have/haven't been to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dari mana saja Anda? Kami mulai lima menit lalu.\".",
+        "targetSentence": "Where have you been? We started five minutes ago.",
+        "explanation": "Sudah kembali memakai 'have you been'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where has Kevin ___? His desk chair is empty.",
+        "options": [
+          "gone",
+          "been",
+          "went"
+        ],
+        "answer": 0,
+        "explanation": "Pergi dan belum kembali -> 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you seen the updated shift roster? / Yes, I ___ already saved it to my phone.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Have you seen the updated shift roster?"
+          ],
+          [
+            "Wulan",
+            "Yes, I ___ already saved it to my phone."
+          ]
+        ],
+        "options": [
+          "has",
+          "am",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "'I' + 'have already saved'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did you ever visited the maritime museum?\"",
+        "draft": "Did you ever visited the maritime museum?",
+        "options": [
+          "Did you ever visited the maritime museum?",
+          "Have you ever visited the maritime museum?",
+          "Have you ever visit the maritime museum?"
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman seumur hidup memakai 'Have you ever + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch has reduced paper printing ___ April.",
+        "options": [
+          "ago",
+          "since",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "Titik awal bulan ('April') memakai 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has anyone seen my blue laser pointer? / Someone has ___ it right next to Projector 1.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Has anyone seen my blue laser pointer?"
+          ],
+          [
+            "Sari",
+            "Someone has ___ it right next to Projector 1."
+          ]
+        ],
+        "options": [
+          "leaving",
+          "left",
+          "leave"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'has', gunakan V3 'left'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The bus has left for ten minutes ago.\"",
+        "draft": "The bus has left for ten minutes ago.",
+        "options": [
+          "The bus has left since ten minutes ago.",
+          "The bus has left for ten minutes ago.",
+          "The bus left ten minutes ago."
+        ],
+        "answer": 2,
+        "explanation": "Ada 'ago' (waktu lampau selesai) -> Past Simple 'left'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang kami telah mengurangi pencetakan kertas sejak April.\".",
+        "targetSentence": "Our branch has reduced paper printing since April.",
+        "explanation": "Tunggal + 'has + V3 + since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We've held twelve study clinics ___ the start of term.",
+        "options": [
+          "for",
+          "during",
+          "since"
+        ],
+        "answer": 2,
+        "explanation": "Titik awal periode -> 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you nervous about speaking with overseas clients? / A bit, because I haven't ___ many calls in English.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Are you nervous about speaking with overseas clients?"
+          ],
+          [
+            "Reno",
+            "A bit, because I haven't ___ many calls in English."
+          ]
+        ],
+        "options": [
+          "made",
+          "make",
+          "making"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'haven't', wajib V3 ('made').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My colleagues has sent the PDF already.\"",
+        "draft": "My colleagues has sent the PDF already.",
+        "options": [
+          "My colleagues have sent the PDF already.",
+          "My colleagues have send the PDF already.",
+          "My colleagues has sent the PDF already."
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'My colleagues' memakai 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They've waited in Lobby B ___ nearly forty minutes.",
+        "options": [
+          "ago",
+          "for",
+          "since"
+        ],
+        "answer": 1,
+        "explanation": "Durasi ('nearly forty minutes') -> 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many quarterly reports has your team published? / We've published eight clean reports ___ January 2025.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "How many quarterly reports has your team published?"
+          ],
+          [
+            "Aris",
+            "We've published eight clean reports ___ January 2025."
+          ]
+        ],
+        "options": [
+          "ago",
+          "since",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "Titik awal tanggal -> 'since'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I haven't never missed an orientation check-in.\"",
+        "draft": "I haven't never missed an orientation check-in.",
+        "options": [
+          "I have never missed an orientation check-in.",
+          "I haven't ever missed no orientation check-in.",
+          "I haven't never missed an orientation check-in."
+        ],
+        "answer": 0,
+        "explanation": "Hindari double negative; gunakan 'have never'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ___ used a digital signature app before?",
+        "options": [
+          "for",
+          "ever",
+          "yet"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan pengalaman -> 'ever'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tim telah menanti dengan sabar selama empat puluh menit.\".",
+        "targetSentence": "The team has waited patiently for forty minutes.",
+        "explanation": "Durasi menit memakai 'for'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Sambungkan 'since we launched the mobile platform'."
         ],
         "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ Mr. Hadi at last month's trade expo in Surabaya.",
+        "options": [
+          "has met",
+          "met",
+          "have met"
+        ],
+        "answer": 1,
+        "explanation": "Waktu lampau spesifik ('last month') -> wajib Past Simple ('met').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you speak with the customs officer yesterday? / Yes, I ___ her at Gate 4 around three.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Did you speak with the customs officer yesterday?"
+          ],
+          [
+            "Dodi",
+            "Yes, I ___ her at Gate 4 around three."
+          ]
+        ],
+        "options": [
+          "meet",
+          "met",
+          "have met"
+        ],
+        "answer": 1,
+        "explanation": "Momen spesifik kemarin memakai Past Simple V2 ('met').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have met our regional client last Monday.\"",
+        "draft": "I have met our regional client last Monday.",
+        "options": [
+          "I have met our regional client last Monday.",
+          "I met our regional client last Monday.",
+          "I have meet our regional client last Monday."
+        ],
+        "answer": 1,
+        "explanation": "'Last Monday' -> wajib Past Simple V2 ('met').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ three different project managers so far this quarter.",
+        "options": [
+          "met",
+          "meets",
+          "has met"
+        ],
+        "answer": 2,
+        "explanation": "'So far this quarter' (belum selesai) memakai Present Perfect ('has met').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya bertemu klien regional itu di pameran dagang bulan lalu.\".",
+        "targetSentence": "I met the regional client at the trade expo last month.",
+        "explanation": "Waktu lampau spesifik -> Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "When ___ the finance office send out those tax receipts?",
+        "options": [
+          "has",
+          "did",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'When' menanyakan waktu spesifik lampau -> Past Simple 'did'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you heard from our overseas supplier today? / Not yet, though I ___ them two reminders this week.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Have you heard from our overseas supplier today?"
+          ],
+          [
+            "Bima",
+            "Not yet, though I ___ them two reminders this week."
+          ]
+        ],
+        "options": [
+          "sent",
+          "send",
+          "have sent"
+        ],
+        "answer": 2,
+        "explanation": "'This week' belum selesai memakai Present Perfect ('have sent').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When have you sent the final budget email?\"",
+        "draft": "When have you sent the final budget email?",
+        "options": [
+          "When have you sent the final budget email?",
+          "When did you send the final budget email?",
+          "When have you send the final budget email?"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan 'When' lampau memakai Past Simple ('did you send').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ any technical glitches since Tuesday's update.",
+        "options": [
+          "haven't had",
+          "didn't have",
+          "hadn't have"
+        ],
+        "answer": 0,
+        "explanation": "Rentang 'since Tuesday' -> Present Perfect ('haven't had').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did you upgrade the reception desktop? / We ___ it two weeks ago on Saturday.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "When did you upgrade the reception desktop?"
+          ],
+          [
+            "Eko",
+            "We ___ it two weeks ago on Saturday."
+          ]
+        ],
+        "options": [
+          "upgrade",
+          "upgraded",
+          "have upgraded"
+        ],
+        "answer": 1,
+        "explanation": "'Two weeks ago' wajib Past Simple ('upgraded').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They have moved to Surabaya in 2021.\"",
+        "draft": "They have moved to Surabaya in 2021.",
+        "options": [
+          "They moved to Surabaya in 2021.",
+          "They has moved to Surabaya in 2021.",
+          "They have moved to Surabaya in 2021."
+        ],
+        "answer": 0,
+        "explanation": "'In 2021' wajib Past Simple ('moved').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia telah bertemu tiga manajer berbeda sejauh ini di kuartal ini.\".",
+        "targetSentence": "She has met three different managers so far this quarter.",
+        "explanation": "Periode berjalan -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—someone ___ the projector cable! Look, it's unplugged now.",
+        "options": [
+          "pulled",
+          "pulls",
+          "has pulled"
+        ],
+        "answer": 2,
+        "explanation": "Kejadian baru dengan bukti nyata saat ini -> 'has pulled'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How is the new sorting app performing? / Great! Error rates ___ steadily since April.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How is the new sorting app performing?"
+          ],
+          [
+            "Sari",
+            "Great! Error rates ___ steadily since April."
+          ]
+        ],
+        "options": [
+          "fell",
+          "fall",
+          "have fallen"
+        ],
+        "answer": 2,
+        "explanation": "'Since April' -> Present Perfect ('have fallen').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She worked here since three years and still stays.\"",
+        "draft": "She worked here since three years and still stays.",
+        "options": [
+          "She has worked here for three years and still stays.",
+          "She has worked here since three years and still stays.",
+          "She worked here since three years and still stays."
+        ],
+        "answer": 0,
+        "explanation": "Masih berlangsung -> 'has worked' + durasi 'for three years'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many workshops ___ you attended this semester?",
+        "options": [
+          "are",
+          "have",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'This semester' + V3 'attended' -> 'have'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where is your umbrella, Adi? It's pouring outside! / Oh no, I ___ it somewhere and can't walk out now!\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Where is your umbrella, Adi? It's pouring outside!"
+          ],
+          [
+            "Putri",
+            "Oh no, I ___ it somewhere and can't walk out now!"
+          ]
+        ],
+        "options": [
+          "have lost",
+          "lose",
+          "did lose"
+        ],
+        "answer": 0,
+        "explanation": "Kondisi hilang sekarang -> 'have lost'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This is the cleanest chart I ever saw.\"",
+        "draft": "This is the cleanest chart I ever saw.",
+        "options": [
+          "This is the cleanest chart I ever see.",
+          "This is the cleanest chart I ever saw.",
+          "This is the cleanest chart I have ever seen."
+        ],
+        "answer": 2,
+        "explanation": "Superlatif + 'ever' -> 'have ever seen'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many workshops ___ you attend last semester?",
+        "options": [
+          "were",
+          "did",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'Last semester' selesai + V1 'attend' -> 'did'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kapan kantor keuangan mengirimkan tanda terima pajak tersebut?\".",
+        "targetSentence": "When did the finance office send those tax receipts?",
+        "explanation": "'When' -> Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ two new cargo vans in 2023.",
+        "options": [
+          "have bought",
+          "bought",
+          "has bought"
+        ],
+        "answer": 1,
+        "explanation": "Tahun spesifik lampau ('in 2023') wajib Past Simple ('bought').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long did Ms. Maya work at the Medan office? / She ___ there for four years before moving to Jakarta.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "How long did Ms. Maya work at the Medan office?"
+          ],
+          [
+            "Arman",
+            "She ___ there for four years before moving to Jakarta."
+          ]
+        ],
+        "options": [
+          "worked",
+          "has worked",
+          "works"
+        ],
+        "answer": 0,
+        "explanation": "Sudah berakhir ('before moving') -> Past Simple ('worked').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He lived in Bandung for five years and still lives there.\"",
+        "draft": "He lived in Bandung for five years and still lives there.",
+        "options": [
+          "He has lived in Bandung for five years and still lives there.",
+          "He lives in Bandung for five years.",
+          "He lived in Bandung for five years and still lives there."
+        ],
+        "answer": 0,
+        "explanation": "Masih berlangsung hingga kini -> 'has lived'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ forty online orders already today.",
+        "options": [
+          "ships",
+          "has shipped",
+          "shipped"
+        ],
+        "answer": 1,
+        "explanation": "'Already today' -> 'has shipped'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami tidak mengalami gangguan teknis sejak pembaruan hari Selasa.\".",
+        "targetSentence": "We have not had any technical glitches since Tuesday's update.",
+        "explanation": "'Since' -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ my transit pass yesterday afternoon—I'm using a ticket now.",
+        "options": [
+          "lost",
+          "have lost",
+          "lose"
+        ],
+        "answer": 0,
+        "explanation": "Waktu spesifik 'yesterday afternoon' -> Past Simple ('lost').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"And how long has Ms. Maya worked in Jakarta? / She ___ here for three years and still leads our team.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "And how long has Ms. Maya worked in Jakarta?"
+          ],
+          [
+            "Adi",
+            "She ___ here for three years and still leads our team."
+          ]
+        ],
+        "options": [
+          "has worked",
+          "worked",
+          "works"
+        ],
+        "answer": 0,
+        "explanation": "Masih berlangsung sampai kini -> Present Perfect ('has worked').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We haven't had no technical glitches since Friday.\"",
+        "draft": "We haven't had no technical glitches since Friday.",
+        "options": [
+          "We haven't had any technical glitches since Friday.",
+          "We didn't have any technical glitches since Friday.",
+          "We haven't had no technical glitches since Friday."
+        ],
+        "answer": 0,
+        "explanation": "'Haven't had any' + 'since Friday'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Oh no! I ___ my transit pass—I can't get through Gate 2 now!",
+        "options": [
+          "have lost",
+          "lost only",
+          "lose"
+        ],
+        "answer": 0,
+        "explanation": "Hasil terasa saat ini -> 'have lost'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the printer light blinking green now? / Great—the technician ___ finally fixed the paper sensor!\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why is the printer light blinking green now?"
+          ],
+          [
+            "Kiki",
+            "Great—the technician ___ finally fixed the paper sensor!"
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Hasil terlihat sekarang -> 'has finally fixed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The courier has arrived twenty minutes ago.\"",
+        "draft": "The courier has arrived twenty minutes ago.",
+        "options": [
+          "The courier arrived twenty minutes ago.",
+          "The courier has arrive twenty minutes ago.",
+          "The courier has arrived twenty minutes ago."
+        ],
+        "answer": 0,
+        "explanation": "Penanda 'ago' wajib Past Simple ('arrived').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang kami membeli dua van kargo baru pada tahun 2023.\".",
+        "targetSentence": "Our branch bought two new cargo vans in 2023.",
+        "explanation": "Tahun spesifik -> Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "At 4 PM, have you seen the email I ___ earlier this morning?",
+        "options": [
+          "email",
+          "emailed",
+          "have emailed"
+        ],
+        "answer": 1,
+        "explanation": "Jika pagi sudah berlalu (sore hari) -> Past Simple ('emailed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many emails have you answered so far today? / I ___ twenty-five messages already!\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How many emails have you answered so far today?"
+          ],
+          [
+            "Sinta",
+            "I ___ twenty-five messages already!"
+          ]
+        ],
+        "options": [
+          "answered only",
+          "answer",
+          "have answered"
+        ],
+        "answer": 2,
+        "explanation": "'So far today' -> Present Perfect ('have answered').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did you ever visited the Singapore port museum?\"",
+        "draft": "Did you ever visited the Singapore port museum?",
+        "options": [
+          "Did you ever visited the Singapore port museum?",
+          "Have you ever visited the Singapore port museum?",
+          "Have you ever visit the Singapore port museum?"
+        ],
+        "answer": 1,
+        "explanation": "Pengalaman memakai 'Have you ever + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Good morning! ___ you checked the agenda I sent just now?",
+        "options": [
+          "Are",
+          "Have",
+          "Did only"
+        ],
+        "answer": 1,
+        "explanation": "Pagi masih berjalan -> 'Have you checked'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What time did the ferry leave Harbour B? / It ___ right on schedule at 7:15 AM.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What time did the ferry leave Harbour B?"
+          ],
+          [
+            "Tia",
+            "It ___ right on schedule at 7:15 AM."
+          ]
+        ],
+        "options": [
+          "has departed",
+          "departs",
+          "departed"
+        ],
+        "answer": 2,
+        "explanation": "Menjawab 'What time did...' -> Past Simple ('departed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That's the second time the printer jammed today!\"",
+        "draft": "That's the second time the printer jammed today!",
+        "options": [
+          "That's the second time the printer jam today!",
+          "That's the second time the printer jammed today!",
+          "That's the second time the printer has jammed today!"
+        ],
+        "answer": 2,
+        "explanation": "'That's the second time...' wajib Present Perfect ('has jammed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "This is the cleanest report Cohort 5 ___ all term.",
+        "options": [
+          "wrote",
+          "writes",
+          "has written"
+        ],
+        "answer": 2,
+        "explanation": "Superlatif pengalaman -> 'has written'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang kami telah mengirim empat puluh pesanan hari ini.\".",
+        "targetSentence": "Our branch has shipped forty orders already today.",
+        "explanation": "'Already today' -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ the Singapore office four times since joining us.",
+        "options": [
+          "visited",
+          "visits",
+          "has visited"
+        ],
+        "answer": 2,
+        "explanation": "Dari masa lalu sampai sekarang -> 'has visited'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have you ever given a talk to over a hundred guests? / Yes! Actually, I ___ one last November in Bandung.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Have you ever given a talk to over a hundred guests?"
+          ],
+          [
+            "Dewi",
+            "Yes! Actually, I ___ one last November in Bandung."
+          ]
+        ],
+        "options": [
+          "have given",
+          "give",
+          "gave"
+        ],
+        "answer": 2,
+        "explanation": "Kejadian spesifik 'last November' -> Past Simple ('gave').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How many slides did you create this week so far?\"",
+        "draft": "How many slides did you create this week so far?",
+        "options": [
+          "How many slides have you create this week so far?",
+          "How many slides did you create this week so far?",
+          "How many slides have you created this week so far?"
+        ],
+        "answer": 2,
+        "explanation": "'This week so far' -> Present Perfect ('have you created').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ in Jakarta for five years before moving to Bandung.",
+        "options": [
+          "lives",
+          "lived",
+          "has lived"
+        ],
+        "answer": 1,
+        "explanation": "Durasi yang SUDAH SELESAI ('before moving') -> Past Simple ('lived').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tinggal di Jakarta selama lima tahun sebelum pindah.\".",
+        "targetSentence": "He lived in Jakarta for five years before moving.",
+        "explanation": "Periode selesai -> Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ in Bandung for five years and still loves the climate.",
+        "options": [
+          "lived",
+          "lives",
+          "has lived"
+        ],
+        "answer": 2,
+        "explanation": "Durasi MASIH BERLANJUT hingga kini -> Present Perfect ('has lived').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is this your first visit to this harbor archive? / Yes, it's the most organized archive I ___ ever seen!\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Is this your first visit to this harbor archive?"
+          ],
+          [
+            "Ayu",
+            "Yes, it's the most organized archive I ___ ever seen!"
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'The most ... I have ever + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has graduated from college three years ago.\"",
+        "draft": "She has graduated from college three years ago.",
+        "options": [
+          "She was graduated from college three years ago.",
+          "She has graduated from college three years ago.",
+          "She graduated from college three years ago."
+        ],
+        "answer": 2,
+        "explanation": "'Three years ago' -> Past Simple ('graduated').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the team ever tested this backup script on Linux?",
+        "options": [
+          "Did",
+          "Does",
+          "Has"
+        ],
+        "answer": 2,
+        "explanation": "Pengalaman hingga sekarang dengan 'ever' + V3 -> 'Has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the floor in Lobby A still damp? / Cleaners have ___ mopped it five minutes ago? No—cleaners have ___ mopped it.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why is the floor in Lobby A still damp?"
+          ],
+          [
+            "Oki",
+            "Cleaners have ___ mopped it five minutes ago? No—cleaners have ___ mopped it."
+          ]
+        ],
+        "options": [
+          "ago",
+          "yesterday",
+          "just"
+        ],
+        "answer": 2,
+        "explanation": "Dengan 'have + V3', gunakan 'just'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Sales grew sharply over the past four months until today.\"",
+        "draft": "Sales grew sharply over the past four months until today.",
+        "options": [
+          "Sales has grown sharply over the past four months.",
+          "Sales grew sharply over the past four months until today.",
+          "Sales have grown sharply over the past four months until today."
+        ],
+        "answer": 2,
+        "explanation": "Rentang hingga hari ini -> 'have grown'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia telah tinggal di Bandung selama lima tahun dan masih suka.\".",
+        "targetSentence": "He has lived in Bandung for five years and still stays.",
+        "explanation": "Masih berlangsung -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ just after eleven yesterday morning.",
+        "options": [
+          "arrives",
+          "arrived",
+          "has arrived"
+        ],
+        "answer": 1,
+        "explanation": "Waktu lampau selesai ('yesterday morning') -> 'arrived'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our guests enjoy the museum tour yesterday? / Yes, they said it was the best workshop they ___.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did our guests enjoy the museum tour yesterday?"
+          ],
+          [
+            "Mira",
+            "Yes, they said it was the best workshop they ___."
+          ]
+        ],
+        "options": [
+          "have attended",
+          "attend",
+          "attended"
+        ],
+        "answer": 2,
+        "explanation": "Konteks cerita kemarin -> Past Simple ('attended').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have lost my keycard yesterday near Gate 2.\"",
+        "draft": "I have lost my keycard yesterday near Gate 2.",
+        "options": [
+          "I lost my keycard yesterday near Gate 2.",
+          "I have lose my keycard yesterday near Gate 2.",
+          "I have lost my keycard yesterday near Gate 2."
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday' -> Past Simple V2 ('lost').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Still waiting—the courier ___ arrived yet, and it's already noon.",
+        "options": [
+          "didn't",
+          "isn't",
+          "hasn't"
+        ],
+        "answer": 2,
+        "explanation": "Kondisi belum terjadi hingga kini ('yet') -> 'hasn't'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has the conference schedule changed again? / Yes! This is the third time they ___ the room.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Has the conference schedule changed again?"
+          ],
+          [
+            "Taufik",
+            "Yes! This is the third time they ___ the room."
+          ]
+        ],
+        "options": [
+          "have changed",
+          "changed",
+          "change"
+        ],
+        "answer": 0,
+        "explanation": "'The third time ...' -> Present Perfect ('have changed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"What time has the workshop started this morning?\"",
+        "draft": "What time has the workshop started this morning?",
+        "options": [
+          "What time has the workshop started this morning?",
+          "What time did the workshop start this morning?",
+          "What time has the workshop start this morning?"
+        ],
+        "answer": 1,
+        "explanation": "'What time...?' menanyakan titik spesifik -> 'did ... start'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sales ___ by eighteen percent over the past six weeks.",
+        "options": [
+          "grow",
+          "have grown",
+          "grew"
+        ],
+        "answer": 1,
+        "explanation": "'Over the past six weeks' -> Present Perfect ('have grown').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ini laporan paling rapi yang pernah ditulis oleh angkatan lima.\".",
+        "targetSentence": "This is the cleanest report Cohort Five has ever written.",
+        "explanation": "Superlatif + 'ever'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sales ___ sharply during the December holiday week last year.",
+        "options": [
+          "have grown",
+          "grow",
+          "grew"
+        ],
+        "answer": 2,
+        "explanation": "Periode lampau tertutup ('last year') -> Past Simple ('grew').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Mr. Kevin finish reading the draft? / Not yet; he ___ only checked pages one to five.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did Mr. Kevin finish reading the draft?"
+          ],
+          [
+            "Lina",
+            "Not yet; he ___ only checked pages one to five."
+          ]
+        ],
+        "options": [
+          "was",
+          "has",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'Not yet' + situasi kini -> 'has only checked'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He has worked at that bank for two years before resigning.\"",
+        "draft": "He has worked at that bank for two years before resigning.",
+        "options": [
+          "He has worked at that bank for two years before resigning.",
+          "He worked at that bank for two years before resigning.",
+          "He has work at that bank for two years before resigning."
+        ],
+        "answer": 1,
+        "explanation": "Sudah berakhir -> Past Simple ('worked').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "That's the second time the hallway printer ___ today!",
+        "options": [
+          "jams",
+          "has jammed",
+          "jammed"
+        ],
+        "answer": 1,
+        "explanation": "'That's the second time ...' -> Present Perfect ('has jammed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ini kedua kalinya pencetak koridor macet hari ini!\".",
+        "targetSentence": "That is the second time the hallway printer has jammed today!",
+        "explanation": "'The second time' -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ three clients before lunch yesterday.",
+        "options": [
+          "called",
+          "have called",
+          "call"
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday' -> Past Simple 'called'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did you buy that waterproof courier bag? / I ___ it at a trade fair back in 2022.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "When did you buy that waterproof courier bag?"
+          ],
+          [
+            "Wulan",
+            "I ___ it at a trade fair back in 2022."
+          ]
+        ],
+        "options": [
+          "buy",
+          "bought",
+          "have bought"
+        ],
+        "answer": 1,
+        "explanation": "'Back in 2022' -> Past Simple ('bought').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Have they received the spare cables last Tuesday?\"",
+        "draft": "Have they received the spare cables last Tuesday?",
+        "options": [
+          "Have they received the spare cables last Tuesday?",
+          "Did they receive the spare cables last Tuesday?",
+          "Have they receive the spare cables last Tuesday?"
+        ],
+        "answer": 1,
+        "explanation": "'Last Tuesday' memaksa Past Simple ('Did they receive').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the clean desks—who ___ the study lounge?",
+        "options": [
+          "tidies",
+          "has tidied",
+          "tidied"
+        ],
+        "answer": 1,
+        "explanation": "Hasil nyata terlihat sekarang -> 'has tidied'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have we saved money since switching to digital forms? / Yes, paper expenses ___ by thirty percent since March.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Have we saved money since switching to digital forms?"
+          ],
+          [
+            "Sari",
+            "Yes, paper expenses ___ by thirty percent since March."
+          ]
+        ],
+        "options": [
+          "dropped",
+          "drop",
+          "have dropped"
+        ],
+        "answer": 2,
+        "explanation": "'Since March' -> Present Perfect ('have dropped').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My laptop has crashed three times last week.\"",
+        "draft": "My laptop has crashed three times last week.",
+        "options": [
+          "My laptop was crashed three times last week.",
+          "My laptop has crashed three times last week.",
+          "My laptop crashed three times last week."
+        ],
+        "answer": 2,
+        "explanation": "'Last week' selesai -> Past Simple ('crashed').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penjualan telah tumbuh delapan belas persen selama enam minggu terakhir.\".",
+        "targetSentence": "Sales have grown eighteen percent over the past six weeks.",
+        "explanation": "'Over the past six weeks' -> Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did you finish the audit? Yes, I ___ it two hours ago.",
+        "options": [
+          "submitted",
+          "have submitted",
+          "submit"
+        ],
+        "answer": 0,
+        "explanation": "'Two hours ago' wajib Past Simple ('submitted').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why are you smiling at the dashboard? / Our server uptime ___ ninety-nine percent this month.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why are you smiling at the dashboard?"
+          ],
+          [
+            "Reno",
+            "Our server uptime ___ ninety-nine percent this month."
+          ]
+        ],
+        "options": [
+          "has reached",
+          "reached",
+          "reach"
+        ],
+        "answer": 0,
+        "explanation": "'This month' belum berakhir -> Present Perfect ('has reached').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has wrote four client updates since noon.\"",
+        "draft": "She has wrote four client updates since noon.",
+        "options": [
+          "She wrote four client updates since noon.",
+          "She has wrote four client updates since noon.",
+          "She has written four client updates since noon."
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'write' adalah 'written'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nobody ___ broken this lab safety rule since 2022.",
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'Since 2022' + V3 'broken' -> 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you check Locker 4 before leaving yesterday? / Yes, I ___ it right before locking up at six.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Did you check Locker 4 before leaving yesterday?"
+          ],
+          [
+            "Aris",
+            "Yes, I ___ it right before locking up at six."
+          ]
+        ],
+        "options": [
+          "checked",
+          "have checked",
+          "check"
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday ... at six' -> Past Simple ('checked').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody didn't sign the logbook since morning.\"",
+        "draft": "Nobody didn't sign the logbook since morning.",
+        "options": [
+          "Nobody hasn't signed the logbook since morning.",
+          "Nobody didn't sign the logbook since morning.",
+          "Nobody has signed the logbook since morning."
+        ],
+        "answer": 2,
+        "explanation": "'Since morning' + 'Nobody' -> 'has signed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "What time ___ the keynote speaker land at Terminal 3?",
+        "options": [
+          "have",
+          "did",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "'What time ...?' menanyakan momen spesifik -> Past Simple 'did'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kurir tiba tepat setelah pukul sebelas kemarin pagi.\".",
+        "targetSentence": "The courier arrived just after eleven yesterday morning.",
+        "explanation": "'Yesterday morning' -> Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Tambahkan 'with local farmers for nearly a decade'."
         ],
         "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "choice",
+        "prompt": "It has been three years since we ___ our warehouse roof.",
+        "options": [
+          "repaired",
+          "have repaired",
+          "repair"
+        ],
+        "answer": 0,
+        "explanation": "'It has been + durasi + since + S + V2' -> klausa setelah 'since' berbentuk Past Simple ('repaired').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long is it since we last upgraded the firewall? / It has been nearly two years since we ___ it.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "How long is it since we last upgraded the firewall?"
+          ],
+          [
+            "Dodi",
+            "It has been nearly two years since we ___ it."
+          ]
+        ],
+        "options": [
+          "update",
+          "updated",
+          "have updated"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'It has been + durasi + since', verb berbentuk Past Simple ('updated').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It has been four years since we have visited Medan.\"",
+        "draft": "It has been four years since we have visited Medan.",
+        "options": [
+          "It has been four years since we visit Medan.",
+          "It has been four years since we have visited Medan.",
+          "It has been four years since we visited Medan."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'It has been + durasi + since', gunakan Past Simple ('visited').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once everyone ___ the NDA, we will open the data room.",
+        "options": [
+          "has signed",
+          "signed only",
+          "will sign"
+        ],
+        "answer": 0,
+        "explanation": "Dalam time clause ('once/when/as soon as'), Present Perfect ('has signed') menandai syarat selesai.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sudah tiga tahun sejak kami memperbaiki atap gudang kami.\".",
+        "targetSentence": "It has been three years since we repaired our warehouse roof.",
+        "explanation": "Setelah 'It has been X years since', gunakan V2.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We won't launch Phase 2 until all interns ___ training.",
+        "options": [
+          "have completed",
+          "will complete",
+          "completed"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'until' untuk syarat masa depan -> 'have completed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When can we share the new product screenshots publicly? / Once Legal ___ the final license terms, we'll publish them.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "When can we share the new product screenshots publicly?"
+          ],
+          [
+            "Bima",
+            "Once Legal ___ the final license terms, we'll publish them."
+          ]
+        ],
+        "options": [
+          "will approve",
+          "approved",
+          "has approved"
+        ],
+        "answer": 2,
+        "explanation": "'Once' + Present Perfect menandai syarat selesai.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Once everyone will sign the NDA, we will begin.\"",
+        "draft": "Once everyone will sign the NDA, we will begin.",
+        "options": [
+          "Once everyone signed the NDA, we will begin.",
+          "Once everyone will sign the NDA, we will begin.",
+          "Once everyone has signed the NDA, we will begin."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'once', jangan memakai 'will'; gunakan 'has signed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many scholars ___ that urban heat islands raise night energy use.",
+        "options": [
+          "are noted",
+          "have noted",
+          "noted only"
+        ],
+        "answer": 1,
+        "explanation": "Klaim temuan riset IELTS memakai Present Perfect ('have noted').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where is Kevin? I need his signature on Page 4. / He ___ to the central lab; he won't be back until three.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Where is Kevin? I need his signature on Page 4."
+          ],
+          [
+            "Eko",
+            "He ___ to the central lab; he won't be back until three."
+          ]
+        ],
+        "options": [
+          "has been",
+          "went",
+          "has gone"
+        ],
+        "answer": 2,
+        "explanation": "Sedang di sana dan belum kembali -> 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait until the technician will fix the main switch.\"",
+        "draft": "Wait until the technician will fix the main switch.",
+        "options": [
+          "Wait until the technician fixed the main switch.",
+          "Wait until the technician will fix the main switch.",
+          "Wait until the technician has fixed the main switch."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'until', jangan memakai 'will'; pakai 'has fixed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Begitu semua orang menandatangani NDA, ruang data akan dibuka.\".",
+        "targetSentence": "Once everyone has signed the NDA, the data room opens.",
+        "explanation": "'Once' + Present Perfect untuk syarat tuntas.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Over the last decade, coastal transit ___ dramatically.",
+        "options": [
+          "evolves",
+          "has evolved",
+          "evolved"
+        ],
+        "answer": 1,
+        "explanation": "'Over the last decade' hingga kini -> 'has evolved'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has Maya ever traveled to Kuala Lumpur for work? / Yes, she ___ to Kuala Lumpur three times this year.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Has Maya ever traveled to Kuala Lumpur for work?"
+          ],
+          [
+            "Sari",
+            "Yes, she ___ to Kuala Lumpur three times this year."
+          ]
+        ],
+        "options": [
+          "has been",
+          "has gone",
+          "went only"
+        ],
+        "answer": 0,
+        "explanation": "Sudah kembali -> 'has been'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She has gone to Jakarta five times this year for training.\"",
+        "draft": "She has gone to Jakarta five times this year for training.",
+        "options": [
+          "She has been to Jakarta five times this year for training.",
+          "She has went to Jakarta five times this year for training.",
+          "She has gone to Jakarta five times this year for training."
+        ],
+        "answer": 0,
+        "explanation": "Sudah kembali memakai 'has been to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "As soon as you ___ reading this brief, please shred the notes.",
+        "options": [
+          "have finished",
+          "will finish",
+          "finished"
+        ],
+        "answer": 0,
+        "explanation": "'As soon as' + Present Perfect menandai penyelesaian penuh.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I mention any studies in the IELTS essay intro? / Yes—'Recent studies ___ shown' connects findings to today.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Should I mention any studies in the IELTS essay intro?"
+          ],
+          [
+            "Putri",
+            "Yes—'Recent studies ___ shown' connects findings to today."
+          ]
+        ],
+        "options": [
+          "have",
+          "did",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Temuan relevan kini -> 'have shown'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not since 2020 the port has seen such high volume.\"",
+        "draft": "Not since 2020 the port has seen such high volume.",
+        "options": [
+          "Not since 2020 the port has seen such high volume.",
+          "Not since 2020 has the port seen such high volume.",
+          "Not since 2020 did the port seen such high volume."
+        ],
+        "answer": 1,
+        "explanation": "'Not since 2020' di awal memicu inversi ('has the port seen').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ to Surabaya twice this year for regional audits.",
+        "options": [
+          "has gone",
+          "went only",
+          "has been"
+        ],
+        "answer": 2,
+        "explanation": "Mengunjungi dan sudah kembali -> 'has been to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Banyak peneliti mencatat bahwa panas kota menaikkan pemakaian listrik.\".",
+        "targetSentence": "Many scholars have noted that urban heat raises electricity use.",
+        "explanation": "Klaim riset akademik memakai 'have noted'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ to the central post office; he'll be back around noon.",
+        "options": [
+          "went only",
+          "has gone",
+          "has been"
+        ],
+        "answer": 1,
+        "explanation": "Sedang di sana dan belum pulang -> 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have the board members announced next year's budget? / Not yet; the committee ___ to issue a formal memo.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Have the board members announced next year's budget?"
+          ],
+          [
+            "Arman",
+            "Not yet; the committee ___ to issue a formal memo."
+          ]
+        ],
+        "options": [
+          "did yet",
+          "has yet",
+          "has already"
+        ],
+        "answer": 1,
+        "explanation": "Ekspresi formal 'has yet to + V1'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The council have yet to announce its parking policy.\"",
+        "draft": "The council have yet to announce its parking policy.",
+        "options": [
+          "The council has yet to announce its parking policy.",
+          "The council is yet announce its parking policy.",
+          "The council have yet to announce its parking policy."
+        ],
+        "answer": 0,
+        "explanation": "'The council' tunggal -> 'has yet to announce'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two weeks ___ passed since the supplier acknowledged our claim.",
+        "options": [
+          "has",
+          "did",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak 'Two weeks' -> 'have passed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Selama dekade terakhir, transportasi pesisir telah berkembang pesat.\".",
+        "targetSentence": "Over the last decade, coastal transit has evolved dramatically.",
+        "explanation": "'Over the last decade' memakai Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the auditor ___ every receipt, payment can proceed.",
+        "options": [
+          "verified",
+          "has verified",
+          "will verify"
+        ],
+        "answer": 1,
+        "explanation": "Klausa syarat 'after' -> 'has verified'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can we unlock Archive Room B right now? / Wait until IT ___ installing the new card reader.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Can we unlock Archive Room B right now?"
+          ],
+          [
+            "Adi",
+            "Wait until IT ___ installing the new card reader."
+          ]
+        ],
+        "options": [
+          "finished",
+          "has finished",
+          "will finish"
+        ],
+        "answer": 1,
+        "explanation": "'Until' + 'has finished'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Over the last decade, public transit improved dramatically.\"",
+        "draft": "Over the last decade, public transit improved dramatically.",
+        "options": [
+          "Over the last decade, public transit has improved dramatically.",
+          "Over the last decade, public transit improves dramatically.",
+          "Over the last decade, public transit improved dramatically."
+        ],
+        "answer": 0,
+        "explanation": "'Over the last decade' hingga kini memerlukan Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not since 2018 ___ port volume climbed so steadily.",
+        "options": [
+          "did",
+          "have",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "Inversi negatif 'Not since 2018' + V3 'climbed' -> 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How has urban rail changed over the past ten years? / Ridership ___ doubled since the northern line opened.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How has urban rail changed over the past ten years?"
+          ],
+          [
+            "Kiki",
+            "Ridership ___ doubled since the northern line opened."
+          ]
+        ],
+        "options": [
+          "was",
+          "has",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'Since' -> 'has doubled'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How long is it since you last have updated your PIN?\"",
+        "draft": "How long is it since you last have updated your PIN?",
+        "options": [
+          "How long is it since you last have updated your PIN?",
+          "How long is it since you last updated your PIN?",
+          "How long is it since you last update your PIN?"
+        ],
+        "answer": 1,
+        "explanation": "Klausa setelah 'since you last ...' memakai Past Simple.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Komite peninjau masih belum mengeluarkan keputusan akhir pendanaan.\".",
+        "targetSentence": "The review committee has yet to issue its final decision.",
+        "explanation": "Ekspresi formal 'has yet to + V1'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long is it since you last ___ your security passphrase?",
+        "options": [
+          "have updated",
+          "update",
+          "updated"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'since you last ...' -> Past Simple V2 ('updated').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have we ever seen shipping times this steady before? / Not since 2019 ___ logistics run so smoothly.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Have we ever seen shipping times this steady before?"
+          ],
+          [
+            "Sinta",
+            "Not since 2019 ___ logistics run so smoothly."
+          ]
+        ],
+        "options": [
+          "were",
+          "have",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'Not since 2019' + V3 'run' -> inversi 'have logistics run'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"As soon as you will finish packing, lock Gate B.\"",
+        "draft": "As soon as you will finish packing, lock Gate B.",
+        "options": [
+          "As soon as you finished packing, lock Gate B.",
+          "As soon as you will finish packing, lock Gate B.",
+          "As soon as you have finished packing, lock Gate B."
+        ],
+        "answer": 2,
+        "explanation": "'As soon as' memakai Present Perfect ('have finished').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "This marks the first semester that all thirty candidates ___.",
+        "options": [
+          "passed",
+          "pass",
+          "have passed"
+        ],
+        "answer": 2,
+        "explanation": "'The first semester/time that ...' -> 'have passed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What should interns do after checking all cartons? / As soon as they ___ counting, have them email Room 1.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What should interns do after checking all cartons?"
+          ],
+          [
+            "Tia",
+            "As soon as they ___ counting, have them email Room 1."
+          ]
+        ],
+        "options": [
+          "will finish",
+          "finished",
+          "have finished"
+        ],
+        "answer": 2,
+        "explanation": "'As soon as' + 'have finished'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Recent studies confirms a link between posture and fatigue.\"",
+        "draft": "Recent studies confirms a link between posture and fatigue.",
+        "options": [
+          "Recent studies has confirmed a link between posture and fatigue.",
+          "Recent studies confirms a link between posture and fatigue.",
+          "Recent studies have confirmed a link between posture and fatigue."
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak + temuan terkini -> 'have confirmed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several recent studies ___ a strong link between sleep and focus.",
+        "options": [
+          "confirmed",
+          "confirm",
+          "have confirmed"
+        ],
+        "answer": 2,
+        "explanation": "'Recent studies' hingga kini -> 'have confirmed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia pergi ke kantor pos pusat dan belum kembali.\".",
+        "targetSentence": "He has gone to the central post office.",
+        "explanation": "Belum kembali memakai 'has gone'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please wait in Lobby A until Reception ___ your badge.",
+        "options": [
+          "printed",
+          "has printed",
+          "will print"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'until' -> 'has printed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Mr. Hadi back from the customs warehouse yet? / Yes! He ___ already returned with the receipts.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Is Mr. Hadi back from the customs warehouse yet?"
+          ],
+          [
+            "Dewi",
+            "Yes! He ___ already returned with the receipts."
+          ]
+        ],
+        "options": [
+          "has",
+          "is",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Sudah kembali -> 'has already returned'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Where is Budi? He has been to the post office and isn't back yet.\"",
+        "draft": "Where is Budi? He has been to the post office and isn't back yet.",
+        "options": [
+          "Where is Budi? He has went to the post office and isn't back yet.",
+          "Where is Budi? He has been to the post office and isn't back yet.",
+          "Where is Budi? He has gone to the post office and isn't back yet."
+        ],
+        "answer": 2,
+        "explanation": "Belum kembali memakai 'has gone to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only once ___ seen such accurate forecasting from an intern.",
+        "options": [
+          "did I",
+          "have I",
+          "I have"
+        ],
+        "answer": 1,
+        "explanation": "Inversi setelah 'Only once' -> 'have I seen'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia sudah pergi ke Surabaya tiga kali tahun ini.\".",
+        "targetSentence": "She has been to Surabaya three times this year.",
+        "explanation": "Sudah kembali memakai 'has been to'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The review committee ___ to issue its final decision on funding.",
+        "options": [
+          "has yet",
+          "has already",
+          "did yet"
+        ],
+        "answer": 0,
+        "explanation": "Ekspresi formal akademik: 'has yet to + V1' berarti 'masih belum'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the report shift to Present Perfect here? / Because 'since 2022' tracks a trend that ___ continued to now.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why did the report shift to Present Perfect here?"
+          ],
+          [
+            "Ayu",
+            "Because 'since 2022' tracks a trend that ___ continued to now."
+          ]
+        ],
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "Berlanjut sampai sekarang -> 'has continued'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Never before we have received such clear audit notes.\"",
+        "draft": "Never before we have received such clear audit notes.",
+        "options": [
+          "Never before have we received such clear audit notes.",
+          "Never before did we received such clear audit notes.",
+          "Never before we have received such clear audit notes."
+        ],
+        "answer": 0,
+        "explanation": "'Never before' di awal memicu inversi ('have we received').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never before ___ encountered so many bilingual entries.",
+        "options": [
+          "have we",
+          "we have",
+          "did we"
+        ],
+        "answer": 0,
+        "explanation": "Inversi negatif 'Never before + have we + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has anyone seen such clean bilingual formatting before? / Seldom ___ witnessed a group project this thorough.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Has anyone seen such clean bilingual formatting before?"
+          ],
+          [
+            "Oki",
+            "Seldom ___ witnessed a group project this thorough."
+          ]
+        ],
+        "options": [
+          "did I",
+          "have I",
+          "I have"
+        ],
+        "answer": 1,
+        "explanation": "Inversi setelah 'Seldom' -> 'have I witnessed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Since joining our team, she launched three workshops.\"",
+        "draft": "Since joining our team, she launched three workshops.",
+        "options": [
+          "Since joining our team, she launches three workshops.",
+          "Since joining our team, she launched three workshops.",
+          "Since joining our team, she has launched three workshops."
+        ],
+        "answer": 2,
+        "explanation": "'Since + V-ing' hingga kini -> 'has launched'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tunggulah di lobi sampai resepsionis mencetak kartu tamu Anda.\".",
+        "targetSentence": "Wait in the lobby until Reception has printed your badge.",
+        "explanation": "'Until' + 'has printed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Since joining the board, Dr. Sari ___ three programs.",
+        "options": [
+          "has launched",
+          "launched",
+          "launches"
+        ],
+        "answer": 0,
+        "explanation": "'Since + V-ing' merentang hingga kini -> 'has launched'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we hold payments until the vendor sends PDFs? / Yes—wait until they ___ revised Line 8.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should we hold payments until the vendor sends PDFs?"
+          ],
+          [
+            "Mira",
+            "Yes—wait until they ___ revised Line 8."
+          ]
+        ],
+        "options": [
+          "did",
+          "have",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "'Wait until + S + have + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Two weeks has passed since the courier took the crate.\"",
+        "draft": "Two weeks has passed since the courier took the crate.",
+        "options": [
+          "Two weeks have passed since the courier took the crate.",
+          "Two weeks have pass since the courier took the crate.",
+          "Two weeks has passed since the courier took the crate."
+        ],
+        "answer": 0,
+        "explanation": "Dua minggu jamak -> 'have passed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before the ferry docks, make sure you ___ all luggage tags.",
+        "options": [
+          "checked",
+          "have checked",
+          "will check"
+        ],
+        "answer": 1,
+        "explanation": "'Have checked' menegaskan penyelesaian.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many editions has the campus journal released? / It ___ published twelve issues since 2023.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How many editions has the campus journal released?"
+          ],
+          [
+            "Taufik",
+            "It ___ published twelve issues since 2023."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'Since 2023' -> 'has published'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hold the transfer until Finance will verify the receipt.\"",
+        "draft": "Hold the transfer until Finance will verify the receipt.",
+        "options": [
+          "Hold the transfer until Finance verifying the receipt.",
+          "Hold the transfer until Finance will verify the receipt.",
+          "Hold the transfer until Finance has verified the receipt."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'until', gunakan Present Perfect ('has verified').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "In recent decades, automation ___ routine office tasks.",
+        "options": [
+          "reshaped",
+          "reshapes",
+          "has reshaped"
+        ],
+        "answer": 2,
+        "explanation": "'In recent decades' -> 'has reshaped'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Belum pernah sebelumnya kami menjumpai catatan dwibahasa serapi ini.\".",
+        "targetSentence": "Never before have we encountered such neat bilingual notes.",
+        "explanation": "Inversi 'Never before have we + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have any of the external reviewers ___ back to us yet?",
+        "options": [
+          "write",
+          "written",
+          "wrote"
+        ],
+        "answer": 1,
+        "explanation": "'Have + S + V3' ('written').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have we heard whether Terminal 4 opens Monday? / No, the port authority ___ to confirm the opening hour.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Have we heard whether Terminal 4 opens Monday?"
+          ],
+          [
+            "Lina",
+            "No, the port authority ___ to confirm the opening hour."
+          ]
+        ],
+        "options": [
+          "yet has",
+          "has yet",
+          "has already"
+        ],
+        "answer": 1,
+        "explanation": "Pola resmi 'has yet to confirm'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only once I have seen such fast customs clearance.\"",
+        "draft": "Only once I have seen such fast customs clearance.",
+        "options": [
+          "Only once I have seen such fast customs clearance.",
+          "Only once have I seen such fast customs clearance.",
+          "Only once did I seen such fast customs clearance."
+        ],
+        "answer": 1,
+        "explanation": "'Only once' di awal memicu inversi ('have I seen').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once the paint ___ completely, staff may move desks inside.",
+        "options": [
+          "will dry",
+          "dried",
+          "has dried"
+        ],
+        "answer": 2,
+        "explanation": "'Once' + 'has dried'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sejak bergabung dengan dewan, Dr. Sari meluncurkan tiga program.\".",
+        "targetSentence": "Since joining the board, Dr. Sari has launched three programs.",
+        "explanation": "'Since joining' diikuti Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Since 2020, remote collaboration ___ become standard.",
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'Since 2020' + V3 'become' -> 'has'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When can I close the reception log for Friday? / Only after the last shuttle bus ___ departed.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "When can I close the reception log for Friday?"
+          ],
+          [
+            "Wulan",
+            "Only after the last shuttle bus ___ departed."
+          ]
+        ],
+        "options": [
+          "will",
+          "did",
+          "has"
+        ],
+        "answer": 2,
+        "explanation": "'After + S + has + V3'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This marks the first cohort that all members passed.\"",
+        "draft": "This marks the first cohort that all members passed.",
+        "options": [
+          "This marks the first cohort that all members passed.",
+          "This marks the first cohort that all members have passed.",
+          "This marks the first cohort that all members pass."
+        ],
+        "answer": 1,
+        "explanation": "'The first ... that' -> 'have passed'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "This is easily the trickiest chart our analysts ___ tackled.",
+        "options": [
+          "did",
+          "are",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Superlatif pengalaman -> 'have tackled'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you check when our branch opened? / Yes—it has been eight years since this office ___.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Did you check when our branch opened?"
+          ],
+          [
+            "Sari",
+            "Yes—it has been eight years since this office ___."
+          ]
+        ],
+        "options": [
+          "has opened",
+          "opens",
+          "opened"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'It has been X years since' -> Past Simple ('opened').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"In recent decades, automation reshaped routine office tasks.\"",
+        "draft": "In recent decades, automation reshaped routine office tasks.",
+        "options": [
+          "In recent decades, automation reshaped routine office tasks.",
+          "In recent decades, automation has reshaped routine office tasks.",
+          "In recent decades, automation reshape routine office tasks."
+        ],
+        "answer": 1,
+        "explanation": "'In recent decades' hingga kini -> 'has reshaped'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sudah berapa lama sejak terakhir kali Anda memperbarui sandi?\".",
+        "targetSentence": "How long is it since you last updated your passphrase?",
+        "explanation": "Setelah 'since you last', pakai V2.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Until the supplier ___ the invoice error, hold the transfer.",
+        "options": [
+          "has corrected",
+          "will correct",
+          "corrected"
+        ],
+        "answer": 0,
+        "explanation": "'Until' + 'has corrected'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why use 'have maintained' instead of 'maintained' here? / Because several economists ___ that view in recent papers.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why use 'have maintained' instead of 'maintained' here?"
+          ],
+          [
+            "Reno",
+            "Because several economists ___ that view in recent papers."
+          ]
+        ],
+        "options": [
+          "maintained only",
+          "will maintain",
+          "have maintained"
+        ],
+        "answer": 2,
+        "explanation": "Pendapat riset terkini -> 'have maintained'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The board has yet announcing next year's travel budget.\"",
+        "draft": "The board has yet announcing next year's travel budget.",
+        "options": [
+          "The board has yet announcing next year's travel budget.",
+          "The board has yet to announce next year's travel budget.",
+          "The board have yet to announce next year's travel budget."
+        ],
+        "answer": 1,
+        "explanation": "Struktur resmi: 'has yet to + V1'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long has it been since we last ___ the regional office?",
+        "options": [
+          "visit",
+          "visited",
+          "have visited"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'since we last' -> Past Simple V2 ('visited').",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is this the first time your lab tested solar sensors? / Yes, this marks the first trial our lab ___ run.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is this the first time your lab tested solar sensors?"
+          ],
+          [
+            "Aris",
+            "Yes, this marks the first trial our lab ___ run."
+          ]
+        ],
+        "options": [
+          "is",
+          "has",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "'The first trial ... + has run'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Seldom we have had such clear weather before a survey.\"",
+        "draft": "Seldom we have had such clear weather before a survey.",
+        "options": [
+          "Seldom did we had such clear weather before a survey.",
+          "Seldom we have had such clear weather before a survey.",
+          "Seldom have we had such clear weather before a survey."
+        ],
+        "answer": 2,
+        "explanation": "Inversi setelah 'Seldom' -> 'have we had'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our engineering unit ___ yet to finalize the solar roof spec.",
+        "options": [
+          "has",
+          "is",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Pola formal 'has yet to + V1'.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dalam beberapa dekade terakhir, otomatisasi telah membentuk ulang kerja kantor.\".",
+        "targetSentence": "In recent decades, automation has reshaped routine office work.",
+        "explanation": "'In recent decades' memakai Present Perfect.",
+        "hints": [
+          "Present Perfect (have/has + V3) dipakai untuk pengalaman, hasil yang relevan kini, serta durasi hingga sekarang (for / since).",
+          "Jangan gabungkan Present Perfect dengan waktu lampau selesai spesifik (yesterday, last year, in 2022) — gunakan Past Simple."
+        ],
+        "skill": "present-perfect"
       }
     ]
   }

@@ -1,7 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CURRICULUM } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
-import { QUESTION_BANK } from "../data/questionBank";
+import {
+  ensureAllLevelsLoaded,
+  ensureLevelLoaded,
+  getModuleQuestionCountsAudit,
+  QUESTION_BANK,
+} from "../data/questionBank";
 import {
   addErrorJournalEntry,
   ChallengeDifficultyMode,
@@ -139,6 +144,9 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
   const [timedOut, setTimedOut] = useState<boolean>(false);
   const [confirmEndOpen, setConfirmEndOpen] = useState<boolean>(false);
 
+  const [isStartingChallenge, setIsStartingChallenge] = useState<boolean>(false);
+  const [challengeLoadError, setChallengeLoadError] = useState<string>("");
+
   // Result flags
   const [savedNotice, setSavedNotice] = useState<{
     isNewBestScore: boolean;
@@ -207,11 +215,10 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
     let complex = 0;
 
     targetModuleKeys.forEach((key) => {
-      const bank = QUESTION_BANK[key];
-      if (!bank) return;
-      simple += (bank.levels.simple || []).length;
-      intermediate += (bank.levels.intermediate || []).length;
-      complex += (bank.levels.complex || []).length;
+      const counts = getModuleQuestionCountsAudit(key);
+      simple += counts.simple;
+      intermediate += counts.intermediate;
+      complex += counts.complex;
     });
 
     const total =
@@ -240,15 +247,16 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
     const q = moduleSearch.trim().toLowerCase();
     return CURRICULUM.map((lvl) => {
       const matched = lvl.modules
-        .map(([mod, title], idx) => ({
-          key: `${lvl.id}/${mod}`,
-          title,
-          num: String(idx + 1).padStart(2, "0"),
-          count:
-            (QUESTION_BANK[`${lvl.id}/${mod}`]?.levels.simple?.length || 0) +
-            (QUESTION_BANK[`${lvl.id}/${mod}`]?.levels.intermediate?.length || 0) +
-            (QUESTION_BANK[`${lvl.id}/${mod}`]?.levels.complex?.length || 0),
-        }))
+        .map(([mod, title], idx) => {
+          const modKey = `${lvl.id}/${mod}`;
+          const counts = getModuleQuestionCountsAudit(modKey);
+          return {
+            key: modKey,
+            title,
+            num: String(idx + 1).padStart(2, "0"),
+            count: counts.simple + counts.intermediate + counts.complex,
+          };
+        })
         .filter((item) => {
           if (!q) return true;
           return (
@@ -400,33 +408,52 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
     return () => window.clearInterval(timer);
   }, [phase, timerEnabled, sessionTimeLimitSec, activeStates, sessionBestStreak, finishChallenge]);
 
-  const handleStartChallenge = () => {
-    const picked = buildChallengeSession();
-    if (picked.length === 0) return;
+  const handleStartChallenge = async () => {
+    setIsStartingChallenge(true);
+    setChallengeLoadError("");
+    try {
+      if (scopeMode === "random-all") {
+        await ensureAllLevelsLoaded();
+      } else if (scopeMode === "level") {
+        await ensureLevelLoaded(selectedLevelId);
+      } else {
+        const levelIds = Array.from(
+          new Set(targetModuleKeys.map((k) => k.split("/")[0]).filter(Boolean))
+        );
+        await Promise.all(levelIds.map((lvlId) => ensureLevelLoaded(lvlId)));
+      }
 
-    resultSavedRef.current = false;
-    setActiveItems(picked);
-    setActiveStates(
-      picked.map(() => ({
-        attempts: 0,
-        points: 0,
-        correct: false,
-        completed: false,
-      }))
-    );
-    setMistakeFlags(picked.map(() => false));
-    setActiveIdx(0);
-    setCurrentStreak(0);
-    setSessionBestStreak(0);
-    setElapsedSec(0);
-    setSessionTimeLimitSec(picked.length * 60);
-    setTimedOut(false);
-    setConfirmEndOpen(false);
-    setSavedNotice(null);
-    setBatchSavedCount(null);
-    setSavedWrongIds({});
-    setPhase("active");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+      const picked = buildChallengeSession();
+      if (picked.length === 0) return;
+
+      resultSavedRef.current = false;
+      setActiveItems(picked);
+      setActiveStates(
+        picked.map(() => ({
+          attempts: 0,
+          points: 0,
+          correct: false,
+          completed: false,
+        }))
+      );
+      setMistakeFlags(picked.map(() => false));
+      setActiveIdx(0);
+      setCurrentStreak(0);
+      setSessionBestStreak(0);
+      setElapsedSec(0);
+      setSessionTimeLimitSec(picked.length * 60);
+      setTimedOut(false);
+      setConfirmEndOpen(false);
+      setSavedNotice(null);
+      setBatchSavedCount(null);
+      setSavedWrongIds({});
+      setPhase("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch {
+      setChallengeLoadError("Gagal memuat bank soal untuk cakupan ini. Silakan coba lagi.");
+    } finally {
+      setIsStartingChallenge(false);
+    }
   };
 
   const handleUpdateQuestion = (idx: number, nextState: QuestionProgressState) => {
@@ -721,13 +748,21 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
                     </p>
                   ) : null}
 
+                  {challengeLoadError && (
+                    <p className="warn" role="alert" style={{ marginBottom: ".75rem" }}>
+                      {challengeLoadError}
+                    </p>
+                  )}
+
                   <button
                     type="button"
                     className="check-quiz challenge-start-btn"
-                    disabled={availablePoolCounts.total === 0}
+                    disabled={availablePoolCounts.total === 0 || isStartingChallenge}
                     onClick={handleStartChallenge}
                   >
-                    ▸ Mulai Tantangan ({Math.min(questionCount, availablePoolCounts.total)} Soal) →
+                    {isStartingChallenge
+                      ? "Memuat Bank Soal Level..."
+                      : `▸ Mulai Tantangan (${Math.min(questionCount, availablePoolCounts.total)} Soal) →`}
                   </button>
                 </div>
               </section>

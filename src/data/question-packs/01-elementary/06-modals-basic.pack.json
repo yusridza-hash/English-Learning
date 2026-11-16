@@ -266,6 +266,1446 @@
           "Tambahkan frasa waktu di akhir."
         ],
         "skill": "modal-advice"
+      },
+      {
+        "type": "choice",
+        "prompt": "All lab visitors ___ wear safety glasses in Zone B.",
+        "options": [
+          "must",
+          "must to",
+          "should to"
+        ],
+        "answer": 0,
+        "explanation": "Aturan wajib tanpa 'to' -> 'must wear'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do I need a suit for tomorrow's internal workshop? / No, you ___ wear a suit—smart casual is fine.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Do I need a suit for tomorrow's internal workshop?"
+          ],
+          [
+            "Dodi",
+            "No, you ___ wear a suit—smart casual is fine."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "shouldn't to",
+          "don't have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak diwajibkan (opsional) -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You must to wear your visitor badge here.\"",
+        "draft": "You must to wear your visitor badge here.",
+        "options": [
+          "You must wearing your visitor badge here.",
+          "You must to wear your visitor badge here.",
+          "You must wear your visitor badge here."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'must', langsung V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ touch live wires inside the power cabinet.",
+        "options": [
+          "might not",
+          "must not",
+          "don't have to"
+        ],
+        "answer": 1,
+        "explanation": "Larangan keras keselamatan -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua pengunjung harus memakai kartu nama di gedung ini.\".",
+        "targetSentence": "All visitors must wear name badges in this building.",
+        "explanation": "Kewajiban tegas memakai 'must + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "It is Sunday tomorrow, so you ___ come to the office.",
+        "options": [
+          "should not to",
+          "don't have to",
+          "must not"
+        ],
+        "answer": 1,
+        "explanation": "Tidak wajib / opsional -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can visitors take photos inside the research lab? / Sorry, visitors ___ take photos near prototype desks.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Can visitors take photos inside the research lab?"
+          ],
+          [
+            "Bima",
+            "Sorry, visitors ___ take photos near prototype desks."
+          ]
+        ],
+        "options": [
+          "must not",
+          "don't have to",
+          "might not"
+        ],
+        "answer": 0,
+        "explanation": "Larangan resmi -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She shouldn't to skip the safety orientation.\"",
+        "draft": "She shouldn't to skip the safety orientation.",
+        "options": [
+          "She shouldn't skip the safety orientation.",
+          "She shouldn't skipped the safety orientation.",
+          "She shouldn't to skip the safety orientation."
+        ],
+        "answer": 0,
+        "explanation": "Modal 'shouldn't' langsung diikuti V1 ('skip').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You look exhausted; you ___ rest for half an hour.",
+        "options": [
+          "have",
+          "should",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Saran baik -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"My laptop feels terribly slow during video calls. / You ___ close unused browser tabs before joining.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "My laptop feels terribly slow during video calls."
+          ],
+          [
+            "Eko",
+            "You ___ close unused browser tabs before joining."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "have to to",
+          "should"
+        ],
+        "answer": 2,
+        "explanation": "Saran praktis -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does he must sign the form before five?\"",
+        "draft": "Does he must sign the form before five?",
+        "options": [
+          "Does he must sign the form before five?",
+          "Does he have to sign the form before five?",
+          "Does he has to sign the form before five?"
+        ],
+        "answer": 1,
+        "explanation": "Dalam pertanyaan dengan 'Does', gunakan 'have to', bukan 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Besok hari libur, jadi Anda tidak perlu datang.\".",
+        "targetSentence": "Tomorrow is a holiday, so you don't have to come.",
+        "explanation": "Tidak wajib memakai 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you please pass me the stapler on Desk 2?",
+        "options": [
+          "Must",
+          "Should to",
+          "Could"
+        ],
+        "answer": 2,
+        "explanation": "Permintaan sopan -> 'Could you please ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Certainly, we'll put a tag on it for you.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "___ I leave my suitcase behind Reception until five?"
+          ],
+          [
+            "Sari",
+            "Certainly, we'll put a tag on it for you."
+          ]
+        ],
+        "options": [
+          "Should to",
+          "May",
+          "Must"
+        ],
+        "answer": 1,
+        "explanation": "Meminta izin sopan -> 'May I ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Tomorrow is a holiday, so you mustn't come in.\"",
+        "draft": "Tomorrow is a holiday, so you mustn't come in.",
+        "options": [
+          "Tomorrow is a holiday, so you haven't to come in.",
+          "Tomorrow is a holiday, so you mustn't come in.",
+          "Tomorrow is a holiday, so you don't have to come in."
+        ],
+        "answer": 2,
+        "explanation": "Tidak wajib (bukan dilarang) -> gunakan 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ attend the afternoon seminar—it depends on traffic.",
+        "options": [
+          "shouldn't to",
+          "might",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan belum pasti -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Mr. Hadi coming to the afternoon briefing? / He ___ join late; he's still in traffic right now.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Is Mr. Hadi coming to the afternoon briefing?"
+          ],
+          [
+            "Putri",
+            "He ___ join late; he's still in traffic right now."
+          ]
+        ],
+        "options": [
+          "have to",
+          "might",
+          "musts"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan belum pasti -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He can speaks both English and Japanese fluently.\"",
+        "draft": "He can speaks both English and Japanese fluently.",
+        "options": [
+          "He can speaks both English and Japanese fluently.",
+          "He can speak both English and Japanese fluently.",
+          "He cans speak both English and Japanese fluently."
+        ],
+        "answer": 1,
+        "explanation": "Modal tidak menerima akhiran '-s' pada verb maupun modal.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ submit our expense receipts before Friday at five.",
+        "options": [
+          "can to",
+          "have to",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kewajiban dari aturan kantor -> 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda tidak boleh memarkir kendaraan di jalur darurat.\".",
+        "targetSentence": "You must not park any vehicle in the emergency lane.",
+        "explanation": "Larangan keselamatan memakai 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I borrow your spare adapter for ten minutes?",
+        "options": [
+          "Must to",
+          "Should to",
+          "May"
+        ],
+        "answer": 2,
+        "explanation": "Meminta izin sopan -> 'May I ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sure, I'll export the PDF right away.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "___ you send me the updated price list by noon?"
+          ],
+          [
+            "Arman",
+            "Sure, I'll export the PDF right away."
+          ]
+        ],
+        "options": [
+          "Could",
+          "Must to",
+          "May to"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan sopan ke rekan -> 'Could you ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You don't have to park in front of fire hydrants.\"",
+        "draft": "You don't have to park in front of fire hydrants.",
+        "options": [
+          "You don't have to park in front of fire hydrants.",
+          "You must not park in front of fire hydrants.",
+          "You mustn't to park in front of fire hydrants."
+        ],
+        "answer": 1,
+        "explanation": "Melarang tindakan berbahaya/ilegal memakai 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Guests ___ park in the ambulance lane outside Gate 1.",
+        "options": [
+          "may",
+          "mustn't",
+          "don't have to"
+        ],
+        "answer": 1,
+        "explanation": "Larangan tegas -> 'mustn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda sebaiknya memeriksa ejaan surel sebelum mengirimnya.\".",
+        "targetSentence": "You should check your email spelling before sending it.",
+        "explanation": "Saran baik memakai 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ check the spelling twice before emailing clients.",
+        "options": [
+          "cans",
+          "must to",
+          "should"
+        ],
+        "answer": 2,
+        "explanation": "Anjuran/saran -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is that door locked with a red sign? / Staff ___ open it while the ventilation fan runs.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why is that door locked with a red sign?"
+          ],
+          [
+            "Adi",
+            "Staff ___ open it while the ventilation fan runs."
+          ]
+        ],
+        "options": [
+          "don't have to",
+          "could",
+          "mustn't"
+        ],
+        "answer": 2,
+        "explanation": "Larangan keselamatan -> 'mustn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"May you please pass me the clipboard?\"",
+        "draft": "May you please pass me the clipboard?",
+        "options": [
+          "Could you please pass me the clipboard?",
+          "May you to pass me the clipboard?",
+          "May you please pass me the clipboard?"
+        ],
+        "answer": 0,
+        "explanation": "Untuk meminta orang lain melakukan sesuatu, gunakan 'Could/Would you', bukan 'May you'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ speak three languages after living abroad.",
+        "options": [
+          "should to",
+          "can",
+          "musts"
+        ],
+        "answer": 1,
+        "explanation": "Kemampuan saat ini -> 'can'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"No, once at registration is enough.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Does Kevin ___ sign the attendance sheet twice?"
+          ],
+          [
+            "Kiki",
+            "No, once at registration is enough."
+          ]
+        ],
+        "options": [
+          "have to",
+          "has to",
+          "must"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Does Kevin', gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Every trainee have to complete Check 1 today.\"",
+        "draft": "Every trainee have to complete Check 1 today.",
+        "options": [
+          "Every trainee have to complete Check 1 today.",
+          "Every trainee has to complete Check 1 today.",
+          "Every trainee having to complete Check 1 today."
+        ],
+        "answer": 1,
+        "explanation": "Subjek tunggal 'Every trainee' memakai 'has to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bisakah Anda mengirimkan daftar harga terbaru sebelum siang?\".",
+        "targetSentence": "Could you send the updated price list before noon?",
+        "explanation": "Permintaan sopan memakai 'Could you'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—___ we bring calculators into tomorrow's exam room?",
+        "options": [
+          "Musts",
+          "May",
+          "Have to"
+        ],
+        "answer": 1,
+        "explanation": "Bertanya izin -> 'May we ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What should we bring to the outdoor field survey? / Everyone ___ wear closed shoes for muddy paths.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "What should we bring to the outdoor field survey?"
+          ],
+          [
+            "Sinta",
+            "Everyone ___ wear closed shoes for muddy paths."
+          ]
+        ],
+        "options": [
+          "should",
+          "mustn't",
+          "cans"
+        ],
+        "answer": 0,
+        "explanation": "Saran keselamatan -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It mights rain later this afternoon.\"",
+        "draft": "It mights rain later this afternoon.",
+        "options": [
+          "It mights rain later this afternoon.",
+          "It might rain later this afternoon.",
+          "It might raining later this afternoon."
+        ],
+        "answer": 1,
+        "explanation": "Modal 'might' tidak pernah mendapat akhiran '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ bring your own lunch; catering is already provided.",
+        "options": [
+          "mustn't",
+          "couldn't to",
+          "don't have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak perlu dilakukan (bukan larangan) -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, just return them before four o'clock.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "___ we borrow two folding tables from Hall B?"
+          ],
+          [
+            "Tia",
+            "Yes, just return them before four o'clock."
+          ]
+        ],
+        "options": [
+          "Must to",
+          "Should to",
+          "Can"
+        ],
+        "answer": 2,
+        "explanation": "Meminta izin ringan -> 'Can we ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could we to reserve Seminar Room 3?\"",
+        "draft": "Could we to reserve Seminar Room 3?",
+        "options": [
+          "Could we reserve Seminar Room 3?",
+          "Could we reserving Seminar Room 3?",
+          "Could we to reserve Seminar Room 3?"
+        ],
+        "answer": 0,
+        "explanation": "Modal 'Could' langsung diikuti V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at those dark clouds—it ___ rain during the trip.",
+        "options": [
+          "must to",
+          "cans",
+          "might"
+        ],
+        "answer": 2,
+        "explanation": "Prediksi kemungkinan -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bolehkah saya meminjam adaptor cadangan selama sepuluh menit?\".",
+        "targetSentence": "May I borrow your spare adapter for ten minutes?",
+        "explanation": "Meminta izin sopan memakai 'May I'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Students ___ keep quiet while others are taking the test.",
+        "options": [
+          "must",
+          "musting",
+          "should to"
+        ],
+        "answer": 0,
+        "explanation": "Aturan ruang ujian -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the ferry definitely running at six tonight? / It ___ be delayed slightly if wind picks up.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Is the ferry definitely running at six tonight?"
+          ],
+          [
+            "Dewi",
+            "It ___ be delayed slightly if wind picks up."
+          ]
+        ],
+        "options": [
+          "shoulds",
+          "may",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan cuaca -> 'may'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She don't have to print forty copies.\"",
+        "draft": "She don't have to print forty copies.",
+        "options": [
+          "She don't have to print forty copies.",
+          "She doesn't have to print forty copies.",
+          "She doesn't has to print forty copies."
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'She' negatif memakai 'doesn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ skip breakfast before a three-hour field survey.",
+        "options": [
+          "don't have to",
+          "couldn't to",
+          "shouldn't"
+        ],
+        "answer": 2,
+        "explanation": "Saran untuk tidak melakukan -> 'shouldn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia mungkin tiba terlambat karena lalu lintas sore.\".",
+        "targetSentence": "He might arrive late due to afternoon traffic.",
+        "explanation": "Kemungkinan belum pasti memakai 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I help you carry those two cartons upstairs?",
+        "options": [
+          "Can",
+          "Must to",
+          "Have"
+        ],
+        "answer": 0,
+        "explanation": "Menawarkan bantuan -> 'Can I help you ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Not anymore; phone QR codes work fine too.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Do passengers ___ show printed boarding passes here?"
+          ],
+          [
+            "Ayu",
+            "Not anymore; phone QR codes work fine too."
+          ]
+        ],
+        "options": [
+          "must to",
+          "should to",
+          "have to"
+        ],
+        "answer": 2,
+        "explanation": "'Do + S + have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You should checking the figures once more.\"",
+        "draft": "You should checking the figures once more.",
+        "options": [
+          "You should checking the figures once more.",
+          "You should check the figures once more.",
+          "You should checked the figures once more."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'should', gunakan V1 ('check').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ finish the summary tonight; tomorrow is fine too.",
+        "options": [
+          "doesn't have to",
+          "mustn't",
+          "can't to"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'She' tidak perlu -> 'doesn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I keep forgetting which lever stops the conveyor. / You ___ stick a bright red label right beside it.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "I keep forgetting which lever stops the conveyor."
+          ],
+          [
+            "Oki",
+            "You ___ stick a bright red label right beside it."
+          ]
+        ],
+        "options": [
+          "should",
+          "mustn't",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "Saran perbaikan -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Students mustn't to bring phones into the exam hall.\"",
+        "draft": "Students mustn't to bring phones into the exam hall.",
+        "options": [
+          "Students mustn't to bring phones into the exam hall.",
+          "Students mustn't bring phones into the exam hall.",
+          "Students mustn't bringing phones into the exam hall."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'mustn't', tidak ada 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah kita harus membawa paspor ke kantor imigrasi?\".",
+        "targetSentence": "Do we have to bring our passports to the immigration office?",
+        "explanation": "Pertanyaan kewajiban memakai 'Do we have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every passenger ___ scan a boarding pass at Gate 4.",
+        "options": [
+          "have to",
+          "must to",
+          "has to"
+        ],
+        "answer": 2,
+        "explanation": "Tunggal 'Every passenger' -> 'has to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I pay for the conference lunch separately? / No, delegates ___ pay—lunch is covered by the pass.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should I pay for the conference lunch separately?"
+          ],
+          [
+            "Mira",
+            "No, delegates ___ pay—lunch is covered by the pass."
+          ]
+        ],
+        "options": [
+          "don't have to",
+          "mustn't",
+          "can't to"
+        ],
+        "answer": 0,
+        "explanation": "Tidak perlu membayar -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do we has to bring our passports tomorrow?\"",
+        "draft": "Do we has to bring our passports tomorrow?",
+        "options": [
+          "Do we has to bring our passports tomorrow?",
+          "Do we have to bring our passports tomorrow?",
+          "Does we have to bring our passports tomorrow?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Do we', selalu gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you hold the elevator door for a second, please?",
+        "options": [
+          "May to",
+          "Could",
+          "Must"
+        ],
+        "answer": 1,
+        "explanation": "Permintaan sopan -> 'Could you ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the guard stop that delivery van? / Vans ___ enter the main courtyard after 8 AM.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did the guard stop that delivery van?"
+          ],
+          [
+            "Taufik",
+            "Vans ___ enter the main courtyard after 8 AM."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "don't have to",
+          "might"
+        ],
+        "answer": 0,
+        "explanation": "Larangan peraturan -> 'mustn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Can I helping you carry those lab trays?\"",
+        "draft": "Can I helping you carry those lab trays?",
+        "options": [
+          "Can I to help you carry those lab trays?",
+          "Can I helping you carry those lab trays?",
+          "Can I help you carry those lab trays?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Can I', gunakan V1 ('help').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ verify the recipient address before pressing send.",
+        "options": [
+          "cans",
+          "should",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kebiasaan baik / saran -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda tidak harus membawa makan siang; katering sudah tersedia.\".",
+        "targetSentence": "You don't have to bring lunch; catering is already provided.",
+        "explanation": "Tidak perlu membawa memakai 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Children under twelve ___ enter the chemistry lab alone.",
+        "options": [
+          "might",
+          "must not",
+          "don't have to"
+        ],
+        "answer": 1,
+        "explanation": "Larangan demi keselamatan -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can Budi finish the budget report before lunch? / He ___ finish early if the figures match.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Can Budi finish the budget report before lunch?"
+          ],
+          [
+            "Lina",
+            "He ___ finish early if the figures match."
+          ]
+        ],
+        "options": [
+          "has",
+          "might",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan kondisional -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They mights arrive earlier than expected.\"",
+        "draft": "They mights arrive earlier than expected.",
+        "options": [
+          "They might arrive earlier than expected.",
+          "They mights to arrive earlier than expected.",
+          "They mights arrive earlier than expected."
+        ],
+        "answer": 0,
+        "explanation": "'Might' tidak menerima '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ arrive around three, though his bus is sometimes late.",
+        "options": [
+          "shoulds",
+          "may",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan -> 'may'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Setiap peserta magang harus menyelesaikan orientasi keselamatan.\".",
+        "targetSentence": "Every intern has to complete the safety orientation.",
+        "explanation": "Subjek tunggal memakai 'has to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do we ___ wear formal jackets at Friday's casual lunch?",
+        "options": [
+          "have to",
+          "must",
+          "should"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Do we', selalu gunakan 'have to' (bukan 'must').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Of course—is this volume better?\"",
+        "dialogue": [
+          [
+            "Novi",
+            "___ you please turn down the hallway speaker slightly?"
+          ],
+          [
+            "Wulan",
+            "Of course—is this volume better?"
+          ]
+        ],
+        "options": [
+          "Must",
+          "Have to",
+          "Could"
+        ],
+        "answer": 2,
+        "explanation": "Permintaan sopan -> 'Could you please ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You ought verify every receipt carefully.\"",
+        "draft": "You ought verify every receipt carefully.",
+        "options": [
+          "You ought verify every receipt carefully.",
+          "You should verify every receipt carefully.",
+          "You should to verify every receipt carefully."
+        ],
+        "answer": 1,
+        "explanation": "'Should' langsung diikuti V1 (atau 'ought to verify').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ call the helpdesk if the screen stays blank.",
+        "options": [
+          "should to",
+          "can",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan solusi yang tersedia -> 'can'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Everyone has to check in by 8:30 AM.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What time do interns ___ arrive on Monday?"
+          ],
+          [
+            "Sari",
+            "Everyone has to check in by 8:30 AM."
+          ]
+        ],
+        "options": [
+          "must to",
+          "has to",
+          "have to"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'do interns', gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Visitors hasn't to pay for campus parking.\"",
+        "draft": "Visitors hasn't to pay for campus parking.",
+        "options": [
+          "Visitors don't have to pay for campus parking.",
+          "Visitors mustn't to pay for campus parking.",
+          "Visitors hasn't to pay for campus parking."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif dari 'have to' jamak adalah 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda sebaiknya tidak melewatkan sarapan sebelum survei lapangan.\".",
+        "targetSentence": "You should not skip breakfast before the field survey.",
+        "explanation": "Saran negatif memakai 'should not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Drivers ___ exceed forty kilometers per hour on campus.",
+        "options": [
+          "could",
+          "must not",
+          "don't have to"
+        ],
+        "answer": 1,
+        "explanation": "Larangan batas kecepatan -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I feel a headache starting before the meeting. / You ___ drink a glass of water first.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "I feel a headache starting before the meeting."
+          ],
+          [
+            "Reno",
+            "You ___ drink a glass of water first."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "couldn't",
+          "should"
+        ],
+        "answer": 2,
+        "explanation": "Saran ringan -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"May I borrowing your pen for a moment?\"",
+        "draft": "May I borrowing your pen for a moment?",
+        "options": [
+          "May I borrowing your pen for a moment?",
+          "May I borrow your pen for a moment?",
+          "May I borrowed your pen for a moment?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'May I', gunakan V1 ('borrow').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ leave early if we want front-row seats.",
+        "options": [
+          "had to to",
+          "should",
+          "must to"
+        ],
+        "answer": 1,
+        "explanation": "Saran praktis -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, please press and hold the red power key.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "___ I switch off Projector 2 after our session?"
+          ],
+          [
+            "Aris",
+            "Yes, please press and hold the red power key."
+          ]
+        ],
+        "options": [
+          "Must to",
+          "Has to",
+          "Should"
+        ],
+        "answer": 2,
+        "explanation": "Bertanya langkah tepat -> 'Should I ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He shoulds rest after working twelve hours.\"",
+        "draft": "He shoulds rest after working twelve hours.",
+        "options": [
+          "He should rests after working twelve hours.",
+          "He shoulds rest after working twelve hours.",
+          "He should rest after working twelve hours."
+        ],
+        "answer": 2,
+        "explanation": "Modal 'should' tidak berubah dengan '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Does Tari ___ submit a paper copy as well?",
+        "options": [
+          "have to",
+          "has to",
+          "must"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Does Tari', kembali ke bentuk dasar 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bolehkah saya membantu Anda membawakan kotak itu?\".",
+        "targetSentence": "Can I help you carry that heavy box upstairs?",
+        "explanation": "Menawarkan bantuan memakai 'Can I'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
       }
     ],
     "intermediate": [
@@ -559,6 +1999,1446 @@
           "Tambahkan verb dasar 'pay'."
         ],
         "skill": "modal-past-necessity"
+      },
+      {
+        "type": "choice",
+        "prompt": "Passengers ___ fasten seat belts before takeoff by law.",
+        "options": [
+          "had better to",
+          "could",
+          "have to"
+        ],
+        "answer": 2,
+        "explanation": "Aturan eksternal/hukum memakai 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why were you late to yesterday's seminar? / Sorry—my train stopped, so I ___ walk twenty minutes.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Why were you late to yesterday's seminar?"
+          ],
+          [
+            "Dodi",
+            "Sorry—my train stopped, so I ___ walk twenty minutes."
+          ]
+        ],
+        "options": [
+          "have to",
+          "had to",
+          "must"
+        ],
+        "answer": 1,
+        "explanation": "Kewajiban masa lalu -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Yesterday I must stay late to finish the report.\"",
+        "draft": "Yesterday I must stay late to finish the report.",
+        "options": [
+          "Yesterday I have to stay late to finish the report.",
+          "Yesterday I must stay late to finish the report.",
+          "Yesterday I had to stay late to finish the report."
+        ],
+        "answer": 2,
+        "explanation": "'Must' tidak punya bentuk lampau; gunakan 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I forgot my access card—I ___ get a temporary pass at Gate 1.",
+        "options": [
+          "had to",
+          "must",
+          "mightn't"
+        ],
+        "answer": 1,
+        "explanation": "Kewajiban pribadi yang dirasakan pembicara saat itu -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kemarin kami harus naik tangga karena lift rusak.\".",
+        "targetSentence": "Yesterday we had to take the stairs because the lift broke.",
+        "explanation": "Kewajiban lampau memakai 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Because the elevator broke yesterday, we ___ take the stairs.",
+        "options": [
+          "had to",
+          "must",
+          "have to"
+        ],
+        "answer": 0,
+        "explanation": "Kewajiban pada waktu lampau ('yesterday') memakai 'had to' (must tidak punya bentuk V2).",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I wait for the print job to cool down? / You'd ___ let the fuser cool before opening the tray.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Should I wait for the print job to cool down?"
+          ],
+          [
+            "Bima",
+            "You'd ___ let the fuser cool before opening the tray."
+          ]
+        ],
+        "options": [
+          "must",
+          "have",
+          "better"
+        ],
+        "answer": 2,
+        "explanation": "Peringatan mendesak 'You'd better + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You'd better to leave early to avoid traffic.\"",
+        "draft": "You'd better to leave early to avoid traffic.",
+        "options": [
+          "You'd better to leave early to avoid traffic.",
+          "You'd better leave early to avoid traffic.",
+          "You'd better leaving early to avoid traffic."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'had better', langsung gunakan V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You'd ___ back up that file right now before closing.",
+        "options": [
+          "must",
+          "better",
+          "rather"
+        ],
+        "answer": 1,
+        "explanation": "Peringatan mendesak 'had better' + V1.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you have to pay for parking at the station? / No, I didn't ___ pay because Sunday parking is free.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did you have to pay for parking at the station?"
+          ],
+          [
+            "Eko",
+            "No, I didn't ___ pay because Sunday parking is free."
+          ]
+        ],
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'didn't', gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did she had to pay extra baggage at Gate 3?\"",
+        "draft": "Did she had to pay extra baggage at Gate 3?",
+        "options": [
+          "Did she must pay extra baggage at Gate 3?",
+          "Did she had to pay extra baggage at Gate 3?",
+          "Did she have to pay extra baggage at Gate 3?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Did', gunakan V1 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebaiknya Anda mencadangkan berkas itu sekarang juga.\".",
+        "targetSentence": "You had better back up that file right now.",
+        "explanation": "Peringatan mendesak memakai 'had better + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Applicants ___ submit transcripts before May 10; late files close.",
+        "options": [
+          "might",
+          "could",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Ketentuan tertulis resmi di pengumuman -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is that memo mandatory for part-time tutors? / Yes, every tutor ___ attend Tuesday's safety briefing.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Is that memo mandatory for part-time tutors?"
+          ],
+          [
+            "Sari",
+            "Yes, every tutor ___ attend Tuesday's safety briefing."
+          ]
+        ],
+        "options": [
+          "might",
+          "could",
+          "has to"
+        ],
+        "answer": 2,
+        "explanation": "Aturan wajib tunggal -> 'has to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You had better don't touch that hot valve.\"",
+        "draft": "You had better don't touch that hot valve.",
+        "options": [
+          "You didn't better touch that hot valve.",
+          "You had better don't touch that hot valve.",
+          "You had better not touch that hot valve."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk negatif adalah 'had better not + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did you ___ pay extra for the checked instrument case?",
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan kewajiban lampau memakai 'Did you have to ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look at the queue at Terminal 2! / We'd better ___ checking in online right now.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Look at the queue at Terminal 2!"
+          ],
+          [
+            "Putri",
+            "We'd better ___ checking in online right now."
+          ]
+        ],
+        "options": [
+          "starting",
+          "start",
+          "to start"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'had better', langsung V1 ('start').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We ought finish cleaning Lab 2 before six.\"",
+        "draft": "We ought finish cleaning Lab 2 before six.",
+        "options": [
+          "We ought to finish cleaning Lab 2 before six.",
+          "We ought finishing cleaning Lab 2 before six.",
+          "We ought finish cleaning Lab 2 before six."
+        ],
+        "answer": 0,
+        "explanation": "'Ought' wajib memakai 'to + V1' ('ought to finish').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You'd better ___ leave the projector lamp running overnight.",
+        "options": [
+          "not",
+          "don't",
+          "no"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif 'had better' adalah 'had better not + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebaiknya kita tidak melewatkan bus pukul enam seperempat.\".",
+        "targetSentence": "We had better not miss the six-fifteen shuttle bus.",
+        "explanation": "Bentuk negatif 'had better not + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "When I was an intern, I ___ log every phone inquiry.",
+        "options": [
+          "must",
+          "should to",
+          "had to"
+        ],
+        "answer": 2,
+        "explanation": "Kebiasaan kewajiban di masa lalu -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"May I forward this client contract to my personal email? / No! You ___ send internal contracts outside the company.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "May I forward this client contract to my personal email?"
+          ],
+          [
+            "Arman",
+            "No! You ___ send internal contracts outside the company."
+          ]
+        ],
+        "options": [
+          "must not",
+          "don't have to",
+          "ought to"
+        ],
+        "answer": 0,
+        "explanation": "Larangan keamanan data -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They didn't had to attend yesterday's optional briefing.\"",
+        "draft": "They didn't had to attend yesterday's optional briefing.",
+        "options": [
+          "They didn't have to attend yesterday's optional briefing.",
+          "They mustn't attend yesterday's optional briefing.",
+          "They didn't had to attend yesterday's optional briefing."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', gunakan V1 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ miss the 6:15 shuttle, or we'll miss the keynote.",
+        "options": [
+          "had better not",
+          "don't have to",
+          "didn't have to"
+        ],
+        "answer": 0,
+        "explanation": "Peringatan risiko konsekuensi buruk -> 'had better not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda harus membayar biaya bagasi tambahan kemarin?\".",
+        "targetSentence": "Did you have to pay an extra baggage fee yesterday?",
+        "explanation": "Pertanyaan kewajiban lampau memakai 'Did + S + have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ wait two hours at Customs last Friday.",
+        "options": [
+          "had to",
+          "musts",
+          "have to"
+        ],
+        "answer": 0,
+        "explanation": "Lampau ('last Friday') -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you carry three crates up the stairs? / Because the freight elevator broke, so we ___ carry them.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why did you carry three crates up the stairs?"
+          ],
+          [
+            "Adi",
+            "Because the freight elevator broke, so we ___ carry them."
+          ]
+        ],
+        "options": [
+          "had to",
+          "must",
+          "have to"
+        ],
+        "answer": 0,
+        "explanation": "Lampau -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why did we must sign three separate forms?\"",
+        "draft": "Why did we must sign three separate forms?",
+        "options": [
+          "Why did we have to sign three separate forms?",
+          "Why did we had to sign three separate forms?",
+          "Why did we must sign three separate forms?"
+        ],
+        "answer": 0,
+        "explanation": "Dalam pertanyaan lampau dengan 'did', gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—we ___ attend the optional picnic if we're busy.",
+        "options": [
+          "mustn't",
+          "had better not",
+          "don't have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak wajib -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do I have to memorize every code number for the test? / No, you ___ memorize them—there's a reference sheet.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Do I have to memorize every code number for the test?"
+          ],
+          [
+            "Kiki",
+            "No, you ___ memorize them—there's a reference sheet."
+          ]
+        ],
+        "options": [
+          "don't have to",
+          "mustn't",
+          "had better not"
+        ],
+        "answer": 0,
+        "explanation": "Tidak perlu -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You mustn't come on Sunday because the office is closed; it's optional.\"",
+        "draft": "You mustn't come on Sunday because the office is closed; it's optional.",
+        "options": [
+          "You haven't to come on Sunday because it's optional.",
+          "You mustn't come on Sunday because the office is closed; it's optional.",
+          "You don't have to come on Sunday because it's optional."
+        ],
+        "answer": 2,
+        "explanation": "Jika bermakna tidak wajib/opsional, gunakan 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka tidak perlu membawa peta cetak selama perjalanan.\".",
+        "targetSentence": "They did not have to bring printed maps during the trip.",
+        "explanation": "Tidak perlu lampau memakai 'did not have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Everyone ___ wear ear protection inside Generator Room B.",
+        "options": [
+          "might",
+          "used to",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Peraturan keselamatan wajib -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"The printer screen is blinking red right now. / We'd better ___ unplug it until the technician checks.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "The printer screen is blinking red right now."
+          ],
+          [
+            "Sinta",
+            "We'd better ___ unplug it until the technician checks."
+          ]
+        ],
+        "options": [
+          "never to",
+          "not",
+          "don't"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk negatif: 'had better not + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Everyone have to check passport dates before booking.\"",
+        "draft": "Everyone have to check passport dates before booking.",
+        "options": [
+          "Everyone have to check passport dates before booking.",
+          "Everyone has to check passport dates before booking.",
+          "Everyone musts check passport dates before booking."
+        ],
+        "answer": 1,
+        "explanation": "'Everyone' adalah subjek tunggal -> 'has to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did the trainees ___ rewrite the entire proposal yesterday?",
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Did', pakai V1 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened after the server crashed Monday? / Everyone ___ switch to offline paper logs for an hour.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What happened after the server crashed Monday?"
+          ],
+          [
+            "Tia",
+            "Everyone ___ switch to offline paper logs for an hour."
+          ]
+        ],
+        "options": [
+          "must",
+          "ought",
+          "had to"
+        ],
+        "answer": 2,
+        "explanation": "Kewajiban lampau -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She had better checks the spelling before printing.\"",
+        "draft": "She had better checks the spelling before printing.",
+        "options": [
+          "She had better to check the spelling before printing.",
+          "She had better checks the spelling before printing.",
+          "She had better check the spelling before printing."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'had better', verb selalu berbentuk V1 tanpa '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You'd better ___ your umbrella; radar shows heavy storms.",
+        "options": [
+          "pack",
+          "packing",
+          "to pack"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'had better', gunakan V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kita seharusnya berterima kasih kepada teknisi yang membantu malam itu.\".",
+        "targetSentence": "We ought to thank the technician who helped that night.",
+        "explanation": "'Ought to + V1' menyatakan anjuran kuat.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ work weekends last month during the audit.",
+        "options": [
+          "had to",
+          "musted",
+          "has to"
+        ],
+        "answer": 0,
+        "explanation": "Kewajiban lampau 'last month' -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we reply to the dean's invitation today? / Yes, we ought ___ confirm our attendance before five.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Should we reply to the dean's invitation today?"
+          ],
+          [
+            "Dewi",
+            "Yes, we ought ___ confirm our attendance before five."
+          ]
+        ],
+        "options": [
+          "to",
+          "for",
+          "at"
+        ],
+        "answer": 0,
+        "explanation": "'Ought' berpasangan dengan 'to' -> 'ought to confirm'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Last week, interns must attend a two-hour workshop.\"",
+        "draft": "Last week, interns must attend a two-hour workshop.",
+        "options": [
+          "Last week, interns have to attend a two-hour workshop.",
+          "Last week, interns must attend a two-hour workshop.",
+          "Last week, interns had to attend a two-hour workshop."
+        ],
+        "answer": 2,
+        "explanation": "Lampau ('Last week') wajib memakai 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ tell anyone this temporary password—keep it private.",
+        "options": [
+          "didn't have to",
+          "mustn't",
+          "don't have to"
+        ],
+        "answer": 1,
+        "explanation": "Larangan keras kerahasiaan -> 'mustn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda dilarang keras membagikan kata sandi sementara ini.\".",
+        "targetSentence": "You must not share this temporary password with anyone.",
+        "explanation": "Larangan keras memakai 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I use the large conference monitor for our dry run?",
+        "options": [
+          "Had better",
+          "Could",
+          "Must to"
+        ],
+        "answer": 1,
+        "explanation": "Permintaan sopan lebih halus -> 'Could I ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you take the morning shuttle today? / I didn't ___ come in until noon for the afternoon shift.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why didn't you take the morning shuttle today?"
+          ],
+          [
+            "Ayu",
+            "I didn't ___ come in until noon for the afternoon shift."
+          ]
+        ],
+        "options": [
+          "have to",
+          "had to",
+          "must"
+        ],
+        "answer": 0,
+        "explanation": "Negatif lampau tidak perlu -> 'didn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You mustn't bring your own laptop; we provide loaners.\"",
+        "draft": "You mustn't bring your own laptop; we provide loaners.",
+        "options": [
+          "You don't have to bring your own laptop; we provide loaners.",
+          "You hadn't to bring your own laptop; we provide loaners.",
+          "You mustn't bring your own laptop; we provide loaners."
+        ],
+        "answer": 0,
+        "explanation": "Konteks 'sudah disediakan sehingga tidak perlu' -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "They didn't ___ bring printed maps; GPS worked offline.",
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 1,
+        "explanation": "Lampau negatif 'tidak perlu' -> 'didn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is it risky to submit the form five minutes late? / Yes—you'd ___ upload it at least an hour early.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Is it risky to submit the form five minutes late?"
+          ],
+          [
+            "Oki",
+            "Yes—you'd ___ upload it at least an hour early."
+          ]
+        ],
+        "options": [
+          "have",
+          "must",
+          "better"
+        ],
+        "answer": 2,
+        "explanation": "Saran mendesak menghindari risiko -> 'You'd better'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did they must wait long at the customs desk?\"",
+        "draft": "Did they must wait long at the customs desk?",
+        "options": [
+          "Did they have to wait long at the customs desk?",
+          "Were they had to wait long at the customs desk?",
+          "Did they must wait long at the customs desk?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan kewajiban lampau memakai 'Did + S + have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Setiap pelamar harus mengirim transkrip sebelum sepuluh Mei.\".",
+        "targetSentence": "Every applicant must submit transcripts before May ten.",
+        "explanation": "Ketentuan resmi memakai 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ought ___ thank the technician who stayed late.",
+        "options": [
+          "at",
+          "to",
+          "not"
+        ],
+        "answer": 1,
+        "explanation": "'Ought' wajib diikuti 'to + V1' -> 'ought to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did all interns have to present in English? / Yes, each presenter ___ give a five-minute summary.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did all interns have to present in English?"
+          ],
+          [
+            "Mira",
+            "Yes, each presenter ___ give a five-minute summary."
+          ]
+        ],
+        "options": [
+          "has to",
+          "had to",
+          "must"
+        ],
+        "answer": 1,
+        "explanation": "Kewajiban lampau -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I ought not to forgot my boarding pass again.\"",
+        "draft": "I ought not to forgot my boarding pass again.",
+        "options": [
+          "I ought not to forgot my boarding pass again.",
+          "I ought not to forget my boarding pass again.",
+          "I shouldn't to forget my boarding pass again."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'ought not to', gunakan V1 ('forget').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Students ___ plagiarize sources under university rules.",
+        "options": [
+          "must not",
+          "don't have to",
+          "might not"
+        ],
+        "answer": 0,
+        "explanation": "Larangan keras akademik -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we invite the external auditor to lunch? / Well, we ___ invite him, though it is a polite gesture.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Should we invite the external auditor to lunch?"
+          ],
+          [
+            "Taufik",
+            "Well, we ___ invite him, though it is a polite gesture."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "had better not",
+          "don't have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak diwajibkan -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We hadn't better ignore that warning beep.\"",
+        "draft": "We hadn't better ignore that warning beep.",
+        "options": [
+          "We hadn't better ignore that warning beep.",
+          "We had better not ignore that warning beep.",
+          "We haven't better ignore that warning beep."
+        ],
+        "answer": 1,
+        "explanation": "Negatif yang tepat: 'had better not + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I think we ___ check the hotel booking before noon.",
+        "options": [
+          "must to",
+          "had better to",
+          "ought to"
+        ],
+        "answer": 2,
+        "explanation": "'Ought to' menyampaikan kewajiban moral / saran kuat.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa Maya harus kembali ke kantor pukul sembilan semalam?\".",
+        "targetSentence": "Why did Maya have to return to the office at nine?",
+        "explanation": "'Why did + S + have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why did Maya ___ return to the office at nine?",
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did Maya', gunakan 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is that warning tag on Breaker Switch 4? / Nobody ___ flip that switch during maintenance.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Why is that warning tag on Breaker Switch 4?"
+          ],
+          [
+            "Lina",
+            "Nobody ___ flip that switch during maintenance."
+          ]
+        ],
+        "options": [
+          "don't have to",
+          "had better",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "'Nobody must...' (tidak seorang pun boleh) menyatakan larangan.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Must you to pay a deposit for locker keys?\"",
+        "draft": "Must you to pay a deposit for locker keys?",
+        "options": [
+          "Must you to pay a deposit for locker keys?",
+          "Do you have to pay a deposit for locker keys?",
+          "Have you must pay a deposit for locker keys?"
+        ],
+        "answer": 1,
+        "explanation": "Untuk menanyakan kewajiban masa kini, gunakan 'Do you have to ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You'd better ___ your voice in the quiet reading zone.",
+        "options": [
+          "lowering",
+          "lower",
+          "to lower"
+        ],
+        "answer": 1,
+        "explanation": "'Had better + V1' -> 'lower'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebaiknya Anda mengecilkan suara di ruang baca tenang.\".",
+        "targetSentence": "You had better lower your voice in the quiet reading room.",
+        "explanation": "Saran mendesak 'had better + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ stay up until midnight to finish the chart yesterday.",
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 2,
+        "explanation": "Kewajiban lampau 'yesterday' -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the online orientation complicated yesterday? / Not really—we just ___ watch three short safety clips.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was the online orientation complicated yesterday?"
+          ],
+          [
+            "Wulan",
+            "Not really—we just ___ watch three short safety clips."
+          ]
+        ],
+        "options": [
+          "must",
+          "have to",
+          "had to"
+        ],
+        "answer": 2,
+        "explanation": "Kewajiban lampau -> 'had to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He didn't have bring any tools yesterday.\"",
+        "draft": "He didn't have bring any tools yesterday.",
+        "options": [
+          "He didn't have to bring any tools yesterday.",
+          "He didn't has to bring any tools yesterday.",
+          "He didn't have bring any tools yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Pola lengkap: 'didn't have to + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ decide now; registration doesn't close until Friday.",
+        "options": [
+          "had better not",
+          "don't have to",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Belum perlu terburu-buru -> 'don't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we mention the printing delay to Ms. Tari? / Yes, you'd better ___ her know right before noon.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Should we mention the printing delay to Ms. Tari?"
+          ],
+          [
+            "Sari",
+            "Yes, you'd better ___ her know right before noon."
+          ]
+        ],
+        "options": [
+          "letting",
+          "let",
+          "to let"
+        ],
+        "answer": 1,
+        "explanation": "'Had better + V1' -> 'let'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You should better check the lock before leaving.\"",
+        "draft": "You should better check the lock before leaving.",
+        "options": [
+          "You had better check the lock before leaving.",
+          "You would better to check the lock before leaving.",
+          "You should better check the lock before leaving."
+        ],
+        "answer": 0,
+        "explanation": "Ekspresi bakunya adalah 'had better' (bukan 'should better').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami belum perlu memutuskan pendaftaran hingga hari Jumat.\".",
+        "targetSentence": "We do not have to decide on registration until Friday.",
+        "explanation": "Tidak wajib sekarang memakai 'do not have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She didn't ___ pay any fee because she had a waiver.",
+        "options": [
+          "had to",
+          "must",
+          "have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak wajib di masa lalu -> 'didn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did your group have to rent extra microphones? / No, the auditorium already had built-in speakers, so we ___ rent any.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did your group have to rent extra microphones?"
+          ],
+          [
+            "Reno",
+            "No, the auditorium already had built-in speakers, so we ___ rent any."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "hadn't to",
+          "didn't have to"
+        ],
+        "answer": 2,
+        "explanation": "Tidak perlu di masa lalu -> 'didn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All passengers had to wore vests during the drill.\"",
+        "draft": "All passengers had to wore vests during the drill.",
+        "options": [
+          "All passengers had to wear vests during the drill.",
+          "All passengers had to wearing vests during the drill.",
+          "All passengers had to wore vests during the drill."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'had to', gunakan V1 ('wear').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "All drivers ___ stop completely at the pedestrian crossing.",
+        "options": [
+          "could",
+          "must",
+          "might"
+        ],
+        "answer": 1,
+        "explanation": "Aturan lalu lintas wajib -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which rule applies to the quiet reading room? / Phones ___ stay on silent mode at all times.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Which rule applies to the quiet reading room?"
+          ],
+          [
+            "Aris",
+            "Phones ___ stay on silent mode at all times."
+          ]
+        ],
+        "options": [
+          "must",
+          "don't have to",
+          "hadn't better"
+        ],
+        "answer": 0,
+        "explanation": "Aturan wajib tertulis -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She don't have to rush because the flight delayed.\"",
+        "draft": "She don't have to rush because the flight delayed.",
+        "options": [
+          "She doesn't have to rush because the flight is delayed.",
+          "She mustn't to rush because the flight is delayed.",
+          "She don't have to rush because the flight delayed."
+        ],
+        "answer": 0,
+        "explanation": "Subjek tunggal 'She' memakai 'doesn't have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You'd better ___ early if you want street parking.",
+        "options": [
+          "to leave",
+          "leave",
+          "leaving"
+        ],
+        "answer": 1,
+        "explanation": "Peringatan mendesak 'You'd better + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua penumpang wajib mengenakan sabuk pengaman sebelum lepas landas.\".",
+        "targetSentence": "All passengers have to fasten seat belts before takeoff.",
+        "explanation": "Aturan umum memakai 'have to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
       }
     ],
     "complex": [
@@ -842,6 +3722,1436 @@
           "Jelaskan alasannya di klausa 'because...'."
         ],
         "skill": "modal-past-necessity"
+      },
+      {
+        "type": "choice",
+        "prompt": "The lights are on and his bag is here—he ___ be inside.",
+        "options": [
+          "can't",
+          "mightn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi logis sangat yakin (95%+) -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Whose briefcase is sitting near Desk 9? / It ___ be Adi's—nobody else uses a green leather tag.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Whose briefcase is sitting near Desk 9?"
+          ],
+          [
+            "Dodi",
+            "It ___ be Adi's—nobody else uses a green leather tag."
+          ]
+        ],
+        "options": [
+          "can't",
+          "needn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi sangat yakin dari bukti -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That mustn't be Ms. Sari; she is in Jakarta today.\"",
+        "draft": "That mustn't be Ms. Sari; she is in Jakarta today.",
+        "options": [
+          "That shouldn't be Ms. Sari; she is in Jakarta today.",
+          "That mustn't be Ms. Sari; she is in Jakarta today.",
+          "That can't be Ms. Sari; she is in Jakarta today."
+        ],
+        "answer": 2,
+        "explanation": "Untuk deduksi logis 'mustahil', gunakan 'can't', bukan 'mustn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That ___ be Dr. Rina at Reception; she flew to Perth today.",
+        "options": [
+          "must",
+          "should",
+          "can't"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi logis mustahil/tidak mungkin -> 'can't be' (bukan 'mustn't').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Lampunya menyala dan tasnya di meja—dia pasti ada di dalam.\".",
+        "targetSentence": "The lights are on—he must be inside the room.",
+        "explanation": "Deduksi logis sangat yakin memakai 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the long queue; the workshop ___ be very popular.",
+        "options": [
+          "must",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Kesimpulan logis dari bukti nyata -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why isn't Sarah joining the morning video call? / She ___ be stuck on the delayed airport train.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Why isn't Sarah joining the morning video call?"
+          ],
+          [
+            "Eko",
+            "She ___ be stuck on the delayed airport train."
+          ]
+        ],
+        "options": [
+          "might",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan wajar -> 'might be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You needn't to print all fifty appendix pages.\"",
+        "draft": "You needn't to print all fifty appendix pages.",
+        "options": [
+          "You needn't print all fifty appendix pages.",
+          "You needn't printing all fifty appendix pages.",
+          "You needn't to print all fifty appendix pages."
+        ],
+        "answer": 0,
+        "explanation": "Modal 'needn't' langsung diikuti V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "They haven't replied yet; they ___ be in another meeting.",
+        "options": [
+          "might",
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan wajar tanpa bukti pasti -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I translate all ten appendices tonight? / You ___ translate the appendices; only the summary is due.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Should I translate all ten appendices tonight?"
+          ],
+          [
+            "Sari",
+            "You ___ translate the appendices; only the summary is due."
+          ]
+        ],
+        "options": [
+          "can't",
+          "needn't",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Tidak perlu ('needn't + V1' tanpa 'to').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Would you mind to share your screen for a minute?\"",
+        "draft": "Would you mind to share your screen for a minute?",
+        "options": [
+          "Would you mind sharing your screen for a minute?",
+          "Would you mind share your screen for a minute?",
+          "Would you mind to share your screen for a minute?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Would you mind', wajib menggunakan V-ing ('sharing').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Itu tidak mungkin Pak Budi; beliau sedang terbang ke Medan.\".",
+        "targetSentence": "That can't be Mr. Budi; he is flying to Medan.",
+        "explanation": "Deduksi logis mustahil memakai 'can't be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ be exhausted after driving six hours nonstop!",
+        "options": [
+          "must",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Empati / deduksi logis kuat -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Not at all; I'll set it to twenty-four degrees.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Would you mind ___ down the air conditioning slightly?"
+          ],
+          [
+            "Putri",
+            "Not at all; I'll set it to twenty-four degrees."
+          ]
+        ],
+        "options": [
+          "turn",
+          "to turn",
+          "turning"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Would you mind', verb berbentuk V-ing ('turning').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He don't need bring a physical copy today.\"",
+        "draft": "He don't need bring a physical copy today.",
+        "options": [
+          "He doesn't needs to bring a physical copy today.",
+          "He don't need bring a physical copy today.",
+          "He doesn't need to bring a physical copy today."
+        ],
+        "answer": 2,
+        "explanation": "Dengan 'doesn't', gunakan 'need to + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—those figures ___ be accurate; total revenue dropped, not rose!",
+        "options": [
+          "may",
+          "can't",
+          "must"
+        ],
+        "answer": 1,
+        "explanation": "Ketidakmungkinan logis berdasarkan data -> 'can't be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Please go ahead; nobody is using Desk 7.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Would you mind if I ___ this chair for the interview?"
+          ],
+          [
+            "Arman",
+            "Please go ahead; nobody is using Desk 7."
+          ]
+        ],
+        "options": [
+          "borrow only",
+          "borrowing",
+          "borrowed"
+        ],
+        "answer": 2,
+        "explanation": "Pola sopan formal: 'Would you mind if I + Past Simple (borrowed)'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The lights are on inside; someone can't be working late.\"",
+        "draft": "The lights are on inside; someone can't be working late.",
+        "options": [
+          "The lights are on inside; someone musts be working late.",
+          "The lights are on inside; someone can't be working late.",
+          "The lights are on inside; someone must be working late."
+        ],
+        "answer": 2,
+        "explanation": "Deduksi logis positif dengan bukti kuat memakai 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She isn't answering Desk 4; she ___ be having lunch.",
+        "options": [
+          "mustn't",
+          "could",
+          "can't"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan wajar ('bisa jadi sedang...') -> 'could be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda tidak perlu mencetak seluruh lampiran lima puluh halaman.\".",
+        "targetSentence": "You needn't print all fifty pages of the appendix.",
+        "explanation": "Tidak perlu tanpa 'to' memakai 'needn't + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ reserve a huge hall; only twelve people confirmed.",
+        "options": [
+          "needn't",
+          "mustn't",
+          "can't to"
+        ],
+        "answer": 0,
+        "explanation": "'Needn't + V1' (tanpa 'to') = tidak perlu.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the courier knocking at the rear gate? / The main gate is locked, so he ___ assume we're closed.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why is the courier knocking at the rear gate?"
+          ],
+          [
+            "Adi",
+            "The main gate is locked, so he ___ assume we're closed."
+          ]
+        ],
+        "options": [
+          "might",
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan alasan masuk akal -> 'might'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Would you mind if I open? Wait—formal: Would you mind if I opening the door?\"",
+        "draft": "Would you mind if I open? Wait—formal: Would you mind if I opening the door?",
+        "options": [
+          "Would you mind if I opened the door?",
+          "Would you mind if I to open the door?",
+          "Would you mind if I open? Wait—formal: Would you mind if I opening the door?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Would you mind if I', gunakan bentuk Past Simple ('opened').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ be serious—sixty pages before noon is impossible!",
+        "options": [
+          "can't",
+          "must",
+          "may"
+        ],
+        "answer": 0,
+        "explanation": "Ekspresi ketidakpercayaan logis -> 'You can't be serious'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Keberatan jika saya meminjam kursi ini untuk wawancara?\".",
+        "targetSentence": "Would you mind if I borrowed this chair for interviews?",
+        "explanation": "Permintaan sopan tingkat lanjut 'Would you mind if I + V2'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our flight ___ depart from Gate 7, though signs sometimes change.",
+        "options": [
+          "may",
+          "mustn't",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan terbuka -> 'may'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How are the interns scanning fifty pages every five minutes? / They ___ be using the high-speed duplex feeder!\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How are the interns scanning fifty pages every five minutes?"
+          ],
+          [
+            "Kiki",
+            "They ___ be using the high-speed duplex feeder!"
+          ]
+        ],
+        "options": [
+          "must",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi kuat dari kecepatan kerja nyata -> 'must be using'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She must be not at her desk right now.\"",
+        "draft": "She must be not at her desk right now.",
+        "options": [
+          "She mustn't to be at her desk right now.",
+          "She must be not at her desk right now.",
+          "She can't be at her desk right now."
+        ],
+        "answer": 2,
+        "explanation": "Lawan dari deduksi yakin 'must be' adalah 'can't be', bukan 'must be not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Would you ___ if I opened the side window slightly?",
+        "options": [
+          "mind",
+          "could",
+          "like"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan sangat sopan -> 'Would you mind if I + V2 ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the parcel contain our glass lenses? / No, this box ___ hold lenses; it weighs almost nothing!\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did the parcel contain our glass lenses?"
+          ],
+          [
+            "Sinta",
+            "No, this box ___ hold lenses; it weighs almost nothing!"
+          ]
+        ],
+        "options": [
+          "must",
+          "should",
+          "can't"
+        ],
+        "answer": 2,
+        "explanation": "Mustahil berdasarkan berat kotak -> 'can't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They mights need extra adapters for Lab 4.\"",
+        "draft": "They mights need extra adapters for Lab 4.",
+        "options": [
+          "They mights need extra adapters for Lab 4.",
+          "They might need extra adapters for Lab 4.",
+          "They might needing extra adapters for Lab 4."
+        ],
+        "answer": 1,
+        "explanation": "Modal 'might' tidak pernah menerima akhiran '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bolehkah saya meminta Anda memeriksa kolom E sekali lagi?\".",
+        "targetSentence": "Would you mind checking Column E one more time?",
+        "explanation": "Permintaan sopan formal 'Would you mind + V-ing'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Would you ___ verifying Column E before we print?",
+        "options": [
+          "please",
+          "want",
+          "mind"
+        ],
+        "answer": 2,
+        "explanation": "Permintaan halus formal: 'Would you mind + V-ing?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When do you expect the courier to reach Bandung? / Traffic looks clear, so he ___ arrive before three.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "When do you expect the courier to reach Bandung?"
+          ],
+          [
+            "Tia",
+            "Traffic looks clear, so he ___ arrive before three."
+          ]
+        ],
+        "options": [
+          "should",
+          "mustn't",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Ekspektasi wajar/prediksi logis -> 'should'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Could you possibly to move our call to 3 PM?\"",
+        "draft": "Could you possibly to move our call to 3 PM?",
+        "options": [
+          "Could you possibly to move our call to 3 PM?",
+          "Could you possibly move our call to 3 PM?",
+          "Could you possibly moving our call to 3 PM?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Could', langsung gunakan V1 tanpa 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Candidates ___ need extra time to verify footnotes.",
+        "options": [
+          "must to",
+          "can't to",
+          "may"
+        ],
+        "answer": 2,
+        "explanation": "Dalam tulisan IELTS akademik, 'may' sering dipakai sebagai hedging sopan.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Could this typo affect the quarterly profit figure? / Yes, an extra zero ___ double the apparent total.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Could this typo affect the quarterly profit figure?"
+          ],
+          [
+            "Dewi",
+            "Yes, an extra zero ___ double the apparent total."
+          ]
+        ],
+        "options": [
+          "could",
+          "mustn't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan dampak -> 'could'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He just left five minutes ago, so he can be in Bandung already.\"",
+        "draft": "He just left five minutes ago, so he can be in Bandung already.",
+        "options": [
+          "He just left five minutes ago, so he can be in Bandung already.",
+          "He just left five minutes ago, so he can't be in Bandung already.",
+          "He just left five minutes ago, so he mustn't be in Bandung already."
+        ],
+        "answer": 1,
+        "explanation": "Ketidakmungkinan logis memakai 'can't be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "If we leave by six, we ___ reach the ferry by seven.",
+        "options": [
+          "should",
+          "mustn't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "'Should' menyatakan ekspektasi logis yang masuk akal.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Paket ini sangat ringan—mustahil berisi dua laptop.\".",
+        "targetSentence": "This parcel feels very light—it can't contain two laptops.",
+        "explanation": "Ketidakmungkinan logis memakai 'can't contain'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That parcel ___ contain laptops; it feels way too light.",
+        "options": [
+          "must",
+          "should",
+          "can't"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi mustahil dari bukti fisik -> 'can't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Room C completely dark at ten? / The workshop ___ be canceled or moved to Hall B.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why is Room C completely dark at ten?"
+          ],
+          [
+            "Ayu",
+            "The workshop ___ be canceled or moved to Hall B."
+          ]
+        ],
+        "options": [
+          "can't",
+          "needn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Kesimpulan logis dari ruang gelap -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You needn't to worry about the catering schedule.\"",
+        "draft": "You needn't to worry about the catering schedule.",
+        "options": [
+          "You needn't worried about the catering schedule.",
+          "You needn't to worry about the catering schedule.",
+          "You needn't worry about the catering schedule."
+        ],
+        "answer": 2,
+        "explanation": "Ingat: 'needn't' tanpa 'to', sedangkan 'don't need' memakai 'to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ know the client well; they greeted each other warmly.",
+        "options": [
+          "must",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi kuat dari observasi -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dengan naik kereta ekspres, delegasi seharusnya menghemat tiga puluh menit.\".",
+        "targetSentence": "By taking the express train, delegates should save thirty minutes.",
+        "explanation": "Ekspektasi wajar memakai 'should save'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—you ___ submit both forms; one PDF suffices.",
+        "options": [
+          "can't",
+          "don't need to",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Tidak perlu -> 'don't need to' (memakai 'to').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I bring a printed copy of the slides? / You don't ___ print them; everyone reads on tablets.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Should I bring a printed copy of the slides?"
+          ],
+          [
+            "Oki",
+            "You don't ___ print them; everyone reads on tablets."
+          ]
+        ],
+        "options": [
+          "must",
+          "need to",
+          "need"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'don't', pakai 'need to + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Look at those muddy shoes—he can't have just walked through rain? No: he must be coming from the yard.\"",
+        "draft": "Look at those muddy shoes—he can't have just walked through rain? No: he must be coming from the yard.",
+        "options": [
+          "Look at those muddy shoes—he must be coming from the yard.",
+          "Look at those muddy shoes—he can't be coming from the yard.",
+          "Look at those muddy shoes—he can't have just walked through rain? No: he must be coming from the yard."
+        ],
+        "answer": 0,
+        "explanation": "Bukti sepatu berlumpur -> kesimpulan logis 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could this signature ___ to the previous director?",
+        "options": [
+          "belonging",
+          "belong",
+          "belongs"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan kemungkinan -> 'Could + S + V1'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Could we possibly move the briefing to Friday? / That ___ work better—let me check Room 2.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Could we possibly move the briefing to Friday?"
+          ],
+          [
+            "Mira",
+            "That ___ work better—let me check Room 2."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "can't to",
+          "might"
+        ],
+        "answer": 2,
+        "explanation": "Persetujuan tentatif sopan -> 'might work'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That parcel weighs two grams; it must contain a laptop.\"",
+        "draft": "That parcel weighs two grams; it must contain a laptop.",
+        "options": [
+          "That parcel weighs two grams; it must contain a laptop.",
+          "That parcel weighs two grams; it can't contain a laptop.",
+          "That parcel weighs two grams; it mustn't contain a laptop."
+        ],
+        "answer": 1,
+        "explanation": "Mustahil berisi laptop -> 'can't contain'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penundaan anggaran ini dapat sedikit memengaruhi jadwal tahap kedua.\".",
+        "targetSentence": "This budget delay could slightly affect the Phase Two schedule.",
+        "explanation": "Hedging dampak memakai 'could'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The budget delay ___ affect Phase 2 scheduling slightly.",
+        "options": [
+          "had to",
+          "could",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Hedging kemungkinan dalam laporan bisnis -> 'could'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Kevin really still sleeping at 11 AM? / He ___ be sleeping; I just saw him buying coffee downstairs!\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Is Kevin really still sleeping at 11 AM?"
+          ],
+          [
+            "Taufik",
+            "He ___ be sleeping; I just saw him buying coffee downstairs!"
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "can't",
+          "must"
+        ],
+        "answer": 1,
+        "explanation": "Ketidakmungkinan berdasarkan bukti langsung -> 'can't be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By taking the express link, passengers should saving thirty minutes.\"",
+        "draft": "By taking the express link, passengers should saving thirty minutes.",
+        "options": [
+          "By taking the express link, passengers should save thirty minutes.",
+          "By taking the express link, passengers should to save thirty minutes.",
+          "By taking the express link, passengers should saving thirty minutes."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'should', gunakan V1 ('save').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ be over thirty; she graduated college ten years ago.",
+        "options": [
+          "can't",
+          "needn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi logis dari fakta -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"May these delays harm our export timeline? / In the report, say they ___ delay shipment by two days.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "May these delays harm our export timeline?"
+          ],
+          [
+            "Lina",
+            "In the report, say they ___ delay shipment by two days."
+          ]
+        ],
+        "options": [
+          "mustn't",
+          "can't to",
+          "may"
+        ],
+        "answer": 2,
+        "explanation": "Hedging akademik/profesional -> 'may delay'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Does she needn't attend the afternoon session?\"",
+        "draft": "Does she needn't attend the afternoon session?",
+        "options": [
+          "Does she need to attend the afternoon session?",
+          "Does she need attend the afternoon session?",
+          "Does she needn't attend the afternoon session?"
+        ],
+        "answer": 0,
+        "explanation": "Dengan auxiliary 'Does', gunakan 'need to + V1', bukan 'needn't'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "No one is in Hall C—the lecture ___ be over already.",
+        "options": [
+          "can't",
+          "mustn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Kesimpulan logis dari kondisi aula kosong -> 'must'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka belum membalas pesan; mereka mungkin sedang rapat.\".",
+        "targetSentence": "They haven't replied yet; they might be in a meeting.",
+        "explanation": "Kemungkinan wajar memakai 'might be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ overlook small typos in the executive summary.",
+        "options": [
+          "mightn't",
+          "must not",
+          "don't need to"
+        ],
+        "answer": 1,
+        "explanation": "Keharusan menjaga kualitas / larangan mengabaikan -> 'must not'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Not at all; I'll verify the totals right now.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "___ you mind double-checking Column F before sending?"
+          ],
+          [
+            "Wulan",
+            "Not at all; I'll verify the totals right now."
+          ]
+        ],
+        "options": [
+          "May",
+          "Would",
+          "Must"
+        ],
+        "answer": 1,
+        "explanation": "Permintaan sopan formal -> 'Would you mind + V-ing?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Would you mind wait ten minutes while I sign this?\"",
+        "draft": "Would you mind wait ten minutes while I sign this?",
+        "options": [
+          "Would you mind waiting ten minutes while I sign this?",
+          "Would you mind to wait ten minutes while I sign this?",
+          "Would you mind wait ten minutes while I sign this?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Would you mind', wajib V-ing ('waiting').",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you possibly reschedule Thursday's call to 2 PM?",
+        "options": [
+          "Could",
+          "Must",
+          "May"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan sangat sopan formal -> 'Could you possibly ...?'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mungkinkah Anda menjadwal ulang panggilan Kamis ke pukul dua?\".",
+        "targetSentence": "Could you possibly reschedule Thursday's call to two?",
+        "explanation": "Permintaan sangat sopan 'Could you possibly'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That broken seal ___ indicate tampering during transit.",
+        "options": [
+          "mustn't",
+          "might",
+          "can't"
+        ],
+        "answer": 1,
+        "explanation": "Penilaian hati-hati (hedging) -> 'might indicate'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the client reply with just two words? / Don't worry—he ___ be rushing between airport gates.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Why did the client reply with just two words?"
+          ],
+          [
+            "Sari",
+            "Don't worry—he ___ be rushing between airport gates."
+          ]
+        ],
+        "options": [
+          "could",
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan penjelasan wajar -> 'could be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It is two in the morning; the main library mustn't be open.\"",
+        "draft": "It is two in the morning; the main library mustn't be open.",
+        "options": [
+          "It is two in the morning; the main library needn't be open.",
+          "It is two in the morning; the main library mustn't be open.",
+          "It is two in the morning; the main library can't be open."
+        ],
+        "answer": 2,
+        "explanation": "Mustahil buka jam 2 pagi -> deduksi memakai 'can't be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ bring formal invitations; digital QR badges work.",
+        "options": [
+          "mustn't",
+          "can't",
+          "needn't"
+        ],
+        "answer": 2,
+        "explanation": "'Needn't + V1' tanpa 'to' bermakna tidak perlu.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are we certain this data set is from last quarter? / Look at the March dates—it ___ be from Q1!\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Are we certain this data set is from last quarter?"
+          ],
+          [
+            "Reno",
+            "Look at the March dates—it ___ be from Q1!"
+          ]
+        ],
+        "options": [
+          "can't",
+          "needn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Deduksi pasti dari tanggal -> 'must be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"These rising costs coulds delay the construction phase.\"",
+        "draft": "These rising costs coulds delay the construction phase.",
+        "options": [
+          "These rising costs coulds delay the construction phase.",
+          "These rising costs could delay the construction phase.",
+          "These rising costs could delaying the construction phase."
+        ],
+        "answer": 1,
+        "explanation": "'Could' tidak pernah memakai '-s'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dengan catatan waktu secepat ini, mereka pasti memakai pemindai baru.\".",
+        "targetSentence": "At this speed, they must be using the new scanner.",
+        "explanation": "Deduksi dari bukti langsung 'must be + V-ing'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ be an easier route around the port roadworks.",
+        "options": [
+          "can't",
+          "mustn't",
+          "must"
+        ],
+        "answer": 2,
+        "explanation": "Keyakinan logis -> 'There must be ...'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we need to send courier reminders manually? / No, the system ___ automate that soon, so wait a bit.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Do we need to send courier reminders manually?"
+          ],
+          [
+            "Aris",
+            "No, the system ___ automate that soon, so wait a bit."
+          ]
+        ],
+        "options": [
+          "can't to",
+          "may",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan mendatang -> 'may'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He needn't bringing his own badge tomorrow.\"",
+        "draft": "He needn't bringing his own badge tomorrow.",
+        "options": [
+          "He needn't to bring his own badge tomorrow.",
+          "He needn't bringing his own badge tomorrow.",
+          "He needn't bring his own badge tomorrow."
+        ],
+        "answer": 2,
+        "explanation": "'Needn't + V1' tanpa 'to' dan tanpa '-ing'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ be driving right now—he just sent a long email!",
+        "options": [
+          "should",
+          "can't",
+          "must"
+        ],
+        "answer": 1,
+        "explanation": "Mustahil secara logis -> 'can't be driving'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—this alarm ___ be a false trigger; let's check Panel 2.",
+        "options": [
+          "can't to",
+          "could",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Kemungkinan wajar -> 'could be'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They ought not be late for the embassy appointment.\"",
+        "draft": "They ought not be late for the embassy appointment.",
+        "options": [
+          "They ought not being late for the embassy appointment.",
+          "They ought not be late for the embassy appointment.",
+          "They ought not to be late for the embassy appointment."
+        ],
+        "answer": 2,
+        "explanation": "'Ought not' tetap memerlukan 'to' sebelum V1.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "By taking the express train, delegates ___ save forty minutes.",
+        "options": [
+          "needn't",
+          "should",
+          "mustn't"
+        ],
+        "answer": 1,
+        "explanation": "Ekspektasi wajar -> 'should save'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda tidak perlu membawa undangan cetak karena QR berfungsi.\".",
+        "targetSentence": "You don't need to bring printed invitations because QR works.",
+        "explanation": "Tidak perlu memakai 'don't need to'.",
+        "hints": [
+          "Identifikasi fungsi modal: keharusan (must/have to), larangan (mustn't), tidak perlu (don't have to), atau saran (should).",
+          "Setelah modal dasar (should, must, can, could, may, might), selalu gunakan V1 tanpa 'to'."
+        ],
+        "skill": "modal-basic"
       }
     ]
   }

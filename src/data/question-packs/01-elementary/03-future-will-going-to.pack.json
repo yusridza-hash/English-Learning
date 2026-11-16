@@ -261,6 +261,1446 @@
           "Lengkapi klausa waktu di belakang."
         ],
         "skill": "future-will-promise"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait a second—I ___ answer the desk phone right now.",
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Keputusan spontan saat itu juga memakai 'will' + V1.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"The reception desk phone is ringing loudly! / Stay seated; I ___ answer it right away.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "The reception desk phone is ringing loudly!"
+          ],
+          [
+            "Dodi",
+            "Stay seated; I ___ answer it right away."
+          ]
+        ],
+        "options": [
+          "will",
+          "am going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Respon spontan seketika memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We will going to visit the Surabaya branch Monday.\"",
+        "draft": "We will going to visit the Surabaya branch Monday.",
+        "options": [
+          "We are going to visit the Surabaya branch Monday.",
+          "We will go visit the Surabaya branch Monday.",
+          "We will going to visit the Surabaya branch Monday."
+        ],
+        "answer": 0,
+        "explanation": "Jangan mencampur 'will' dan 'going to'; gunakan 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ launch the updated portal next Monday; dates are fixed.",
+        "options": [
+          "will to",
+          "going to",
+          "are going to"
+        ],
+        "answer": 2,
+        "explanation": "Rencana sudah diputuskan sebelum bicara memakai 'be going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tunggu sebentar, saya akan mengangkat telepon kantor sekarang.\".",
+        "targetSentence": "Wait a second, I will answer the office phone now.",
+        "explanation": "Keputusan spontan memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at those dark storm clouds! It ___ rain soon.",
+        "options": [
+          "is going to",
+          "will be",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Prediksi berdasarkan bukti fisik yang terlihat ('dark clouds') memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you buy twenty blank name folders? / Because we ___ host an intern fair on Friday.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why did you buy twenty blank name folders?"
+          ],
+          [
+            "Bima",
+            "Because we ___ host an intern fair on Friday."
+          ]
+        ],
+        "options": [
+          "go to",
+          "are going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Rencana sudah disiapkan (sudah membeli map) memakai 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I think the express train going to arrive soon.\"",
+        "draft": "I think the express train going to arrive soon.",
+        "options": [
+          "I think the express train is will arrive soon.",
+          "I think the express train going to arrive soon.",
+          "I think the express train will arrive soon."
+        ],
+        "answer": 2,
+        "explanation": "Prediksi opini ('I think') dan tanpa 'to be' memakai 'will arrive'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't worry; I ___ send you the PDF copy tonight.",
+        "options": [
+          "am going",
+          "shall to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Janji/komitmen personal saat bicara memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look at those black clouds gathering over the port! / Yes, it ___ pour down within ten minutes.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Look at those black clouds gathering over the port!"
+          ],
+          [
+            "Eko",
+            "Yes, it ___ pour down within ten minutes."
+          ]
+        ],
+        "options": [
+          "is going to",
+          "will",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Bukti fisik awan gelap memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Look at the black clouds; it will rains soon.\"",
+        "draft": "Look at the black clouds; it will rains soon.",
+        "options": [
+          "Look at the black clouds; it is going to rain soon.",
+          "Look at the black clouds; it going to rain soon.",
+          "Look at the black clouds; it will rains soon."
+        ],
+        "answer": 0,
+        "explanation": "Bukti visual memakai 'is going to' + V1 dasar (tanpa -s).",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami akan meluncurkan portal baru Senin depan sesuai jadwal.\".",
+        "targetSentence": "We are going to launch the new portal next Monday.",
+        "explanation": "Rencana sudah diputuskan memakai 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ study public health in Melbourne next fall.",
+        "options": [
+          "is going to",
+          "will to",
+          "are going to"
+        ],
+        "answer": 0,
+        "explanation": "Niat/rencana yang sudah disiapkan memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I left my charger in the hotel room! / Don't stress; I ___ lend you my spare cable.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "I left my charger in the hotel room!"
+          ],
+          [
+            "Sari",
+            "Don't stress; I ___ lend you my spare cable."
+          ]
+        ],
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Tawaran spontan memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She going to submit her portfolio next week.\"",
+        "draft": "She going to submit her portfolio next week.",
+        "options": [
+          "She going to submit her portfolio next week.",
+          "She is going to submit her portfolio next week.",
+          "She will going to submit her portfolio next week."
+        ],
+        "answer": 1,
+        "explanation": "Wajib menyertakan 'to be' ('is') sebelum 'going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I forgot my pen! No problem, I ___ lend you mine.",
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Tawaran spontan membantu -> 'I will lend you mine'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What are your plans for semester break? / I ___ take an academic writing course.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "What are your plans for semester break?"
+          ],
+          [
+            "Putri",
+            "I ___ take an academic writing course."
+          ]
+        ],
+        "options": [
+          "go to",
+          "am going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Rencana pribadi sebelum ditanya memakai 'am going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I forgot my pen! Wait, I am going to lend mine.\"",
+        "draft": "I forgot my pen! Wait, I am going to lend mine.",
+        "options": [
+          "I forgot my pen! Wait, I will lend you mine.",
+          "I forgot my pen! Wait, I going to lend mine.",
+          "I forgot my pen! Wait, I am going to lend mine."
+        ],
+        "answer": 0,
+        "explanation": "Tawaran spontan di tempat memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ open a second desk next week as scheduled.",
+        "options": [
+          "is going to",
+          "will to",
+          "are going to"
+        ],
+        "answer": 0,
+        "explanation": "Rencana terprogram memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Lihat awan badai gelap itu; sebentar lagi akan hujan.\".",
+        "targetSentence": "Look at those dark storm clouds; it is going to rain.",
+        "explanation": "Prediksi berdasar bukti fisik memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "That heavy box is sliding! It ___ fall off the cart.",
+        "options": [
+          "falls",
+          "is going to",
+          "will to"
+        ],
+        "answer": 1,
+        "explanation": "Bukti langsung di depan mata ('sliding') -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will the budget report finish before noon? / I think the team ___ wrap it up around eleven.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Will the budget report finish before noon?"
+          ],
+          [
+            "Arman",
+            "I think the team ___ wrap it up around eleven."
+          ]
+        ],
+        "options": [
+          "will",
+          "is going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Opini ('I think') memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will you going to join tomorrow's seminar?\"",
+        "draft": "Will you going to join tomorrow's seminar?",
+        "options": [
+          "Are you going to join tomorrow's seminar?",
+          "Will you to join tomorrow's seminar?",
+          "Will you going to join tomorrow's seminar?"
+        ],
+        "answer": 0,
+        "explanation": "Jangan campur 'Will' + 'going to'; gunakan 'Are you going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I think digital payments ___ become standard everywhere.",
+        "options": [
+          "will",
+          "are going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Prediksi berbasis opini ('I think') memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jangan khawatir, saya akan mengirimkan salinan PDF malam ini.\".",
+        "targetSentence": "Don't worry, I will send you the PDF copy tonight.",
+        "explanation": "Janji memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ renovate Lecture Hall 2 during June break.",
+        "options": [
+          "is going to",
+          "are going to",
+          "will to"
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak rencana pasti -> 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why are workers carrying yellow cones outside? / They ___ repaint the warehouse parking lines.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why are workers carrying yellow cones outside?"
+          ],
+          [
+            "Adi",
+            "They ___ repaint the warehouse parking lines."
+          ]
+        ],
+        "options": [
+          "going to",
+          "are going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Niat aksi yang sudah dipersiapkan -> 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He won't to miss the morning flight again.\"",
+        "draft": "He won't to miss the morning flight again.",
+        "options": [
+          "He not will miss the morning flight again.",
+          "He won't to miss the morning flight again.",
+          "He won't miss the morning flight again."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'won't', langsung gunakan V1 tanpa 'to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you help me carry these monitors upstairs?",
+        "options": [
+          "Are going",
+          "Do",
+          "Will"
+        ],
+        "answer": 2,
+        "explanation": "Permintaan bantuan sopan memakai 'Will you ...?'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Would you like coffee or green tea? / I ___ have warm green tea, thank you.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Would you like coffee or green tea?"
+          ],
+          [
+            "Kiki",
+            "I ___ have warm green tea, thank you."
+          ]
+        ],
+        "options": [
+          "will",
+          "am going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Keputusan memesan saat itu juga memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They are going to opening the new café soon.\"",
+        "draft": "They are going to opening the new café soon.",
+        "options": [
+          "They are going open the new café soon.",
+          "They are going to opening the new café soon.",
+          "They are going to open the new café soon."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'going to', gunakan V1 dasar 'open'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia berencana kuliah kesehatan masyarakat di Melbourne tahun depan.\".",
+        "targetSentence": "She is going to study public health in Melbourne.",
+        "explanation": "Niat/rencana matang memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ buy a quiet desk lamp this weekend.",
+        "options": [
+          "is going to",
+          "will to",
+          "are going to"
+        ],
+        "answer": 0,
+        "explanation": "Niat sudah direncanakan -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Watch out! That bottle is right on the desk edge. / Whoa, it ___ fall if we bump the table!\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Watch out! That bottle is right on the desk edge."
+          ],
+          [
+            "Sinta",
+            "Whoa, it ___ fall if we bump the table!"
+          ]
+        ],
+        "options": [
+          "will",
+          "going to",
+          "is going to"
+        ],
+        "answer": 2,
+        "explanation": "Bukti visual langsung memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our branch will opens a help desk in May.\"",
+        "draft": "Our branch will opens a help desk in May.",
+        "options": [
+          "Our branch going to open a help desk in May.",
+          "Our branch will opens a help desk in May.",
+          "Our branch will open a help desk in May."
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'will', verb wajib V1 dasar tanpa -s.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Let's take a taxi; I ___ pay the driver directly.",
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Keputusan spontan di lokasi -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Remember to lock Lab 3 before you go home. / I promise I ___ forget; I set an alarm.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Remember to lock Lab 3 before you go home."
+          ],
+          [
+            "Tia",
+            "I promise I ___ forget; I set an alarm."
+          ]
+        ],
+        "options": [
+          "won't",
+          "am not going",
+          "not will"
+        ],
+        "answer": 0,
+        "explanation": "Janji negatif -> 'won't'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I promise I am not going to tell anyone.\"",
+        "draft": "I promise I am not going to tell anyone.",
+        "options": [
+          "I promise I don't tell anyone.",
+          "I promise I am not going to tell anyone.",
+          "I promise I won't tell anyone."
+        ],
+        "answer": 2,
+        "explanation": "Janji masa depan lazim memakai 'won't' ('will not').",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Watch out! Your coffee cup ___ spill on the keyboard.",
+        "options": [
+          "will be",
+          "are going to",
+          "is going to"
+        ],
+        "answer": 2,
+        "explanation": "Bukti situasi langsung -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Awas! Cangkir kopimu hampir tumpah ke keyboard.\".",
+        "targetSentence": "Watch out! Your coffee cup is going to spill.",
+        "explanation": "Bukti visual langsung memakai 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I believe solar ferries ___ save cities fuel costs.",
+        "options": [
+          "going to",
+          "will",
+          "are going"
+        ],
+        "answer": 1,
+        "explanation": "Keyakinan/opini masa depan ('I believe') memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, he booked his shuttle seat yesterday.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Is Mr. Hadi ___ attend tomorrow's tour?"
+          ],
+          [
+            "Dewi",
+            "Yes, he booked his shuttle seat yesterday."
+          ]
+        ],
+        "options": [
+          "will",
+          "go to",
+          "going to"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan rencana: 'Is + S + going to + V1?'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She will arrives at Terminal 3 around noon.\"",
+        "draft": "She will arrives at Terminal 3 around noon.",
+        "options": [
+          "She will arrives at Terminal 3 around noon.",
+          "She will arrive at Terminal 3 around noon.",
+          "She is will arrive at Terminal 3 around noon."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'will', verb tidak mendapat -s ('arrive').",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ interview five candidates on Thursday afternoon.",
+        "options": [
+          "are going to",
+          "will to",
+          "is going to"
+        ],
+        "answer": 0,
+        "explanation": "Rencana wawancara sudah dijadwalkan -> 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya rasa pembayaran digital akan menjadi standar di mana-mana.\".",
+        "targetSentence": "I think digital payments will become standard everywhere.",
+        "explanation": "Prediksi opini ('I think') memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait here; I ___ get an extra chair from Room 3.",
+        "options": [
+          "will",
+          "am going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Tindakan spontan -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"This folder is too heavy to carry up three flights. / Let me help—I ___ take the bottom stack.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "This folder is too heavy to carry up three flights."
+          ],
+          [
+            "Ayu",
+            "Let me help—I ___ take the bottom stack."
+          ]
+        ],
+        "options": [
+          "going to",
+          "will",
+          "am going"
+        ],
+        "answer": 1,
+        "explanation": "Tawaran spontan memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Watch out! That shelf going to fall down.\"",
+        "draft": "Watch out! That shelf going to fall down.",
+        "options": [
+          "Watch out! That shelf going to fall down.",
+          "Watch out! That shelf is going to fall down.",
+          "Watch out! That shelf will falls down."
+        ],
+        "answer": 1,
+        "explanation": "Wajib ada 'is' sebelum 'going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ arrive late; look at that highway jam.",
+        "options": [
+          "is going to",
+          "will to",
+          "are going to"
+        ],
+        "answer": 0,
+        "explanation": "Prediksi dengan bukti visual macet -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Kevin opening his spreadsheet? / He ___ check last quarter's travel totals.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why is Kevin opening his spreadsheet?"
+          ],
+          [
+            "Oki",
+            "He ___ check last quarter's travel totals."
+          ]
+        ],
+        "options": [
+          "going to",
+          "is going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Niat langsung yang sudah jelas -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are they will attend the Friday workshop?\"",
+        "draft": "Are they will attend the Friday workshop?",
+        "options": [
+          "Will they attend the Friday workshop?",
+          "Do they will attend the Friday workshop?",
+          "Are they will attend the Friday workshop?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan 'will' langsung memakai 'Will + S + V1' tanpa 'Are/Do'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka akan merenovasi aula kuliah selama libur bulan Juni.\".",
+        "targetSentence": "They are going to renovate the lecture hall in June.",
+        "explanation": "Rencana jamak memakai 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "She promised she ___ miss Friday's briefing again.",
+        "options": [
+          "not will",
+          "won't",
+          "isn't going"
+        ],
+        "answer": 1,
+        "explanation": "Janji negatif memakai 'won't' ('will not').",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How do you think electric ferries will fare? / Honestly, I believe they ___ cut emissions fast.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "How do you think electric ferries will fare?"
+          ],
+          [
+            "Mira",
+            "Honestly, I believe they ___ cut emissions fast."
+          ]
+        ],
+        "options": [
+          "will",
+          "are going",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Prediksi opini ('I believe') -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The interns is going to paint the signs today.\"",
+        "draft": "The interns is going to paint the signs today.",
+        "options": [
+          "The interns are going to paint the signs today.",
+          "The interns going to paint the signs today.",
+          "The interns is going to paint the signs today."
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'The interns' memakai 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are you ___ print forty copies for the morning workshop?",
+        "options": [
+          "go to",
+          "going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan rencana: 'Are you going to + V1?'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Room B—our coordinator reserved it Monday.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Are we ___ meet in Room B or C tomorrow?"
+          ],
+          [
+            "Taufik",
+            "Room B—our coordinator reserved it Monday."
+          ]
+        ],
+        "options": [
+          "will",
+          "go to",
+          "going to"
+        ],
+        "answer": 2,
+        "explanation": "Rencana terjadwal -> 'Are we going to ...?'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Ok, I am going to answer the door right now.\"",
+        "draft": "Ok, I am going to answer the door right now.",
+        "options": [
+          "Okay, I will answer the door right now.",
+          "Okay, I going to answer the door right now.",
+          "Ok, I am going to answer the door right now."
+        ],
+        "answer": 0,
+        "explanation": "Respon spontan langsung memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "There ___ be time for Q&A after the main talk.",
+        "options": [
+          "are going to",
+          "will",
+          "is going"
+        ],
+        "answer": 1,
+        "explanation": "Prediksi umum: 'There will be ...'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Maukah Anda membantu saya membawa monitor ini ke atas?\".",
+        "targetSentence": "Will you help me carry these monitors upstairs?",
+        "explanation": "Permintaan sopan memakai 'Will you'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleagues ___ attend an IELTS workshop next month.",
+        "options": [
+          "are going to",
+          "is going to",
+          "will to"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak rencana -> 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Wait, the ink light on Tray 2 is blinking red! / Hold on; I ___ swap in a fresh toner now.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Wait, the ink light on Tray 2 is blinking red!"
+          ],
+          [
+            "Lina",
+            "Hold on; I ___ swap in a fresh toner now."
+          ]
+        ],
+        "options": [
+          "going to",
+          "will",
+          "am going"
+        ],
+        "answer": 1,
+        "explanation": "Tindakan spontan merespons masalah -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We aren't going leave before five o'clock.\"",
+        "draft": "We aren't going leave before five o'clock.",
+        "options": [
+          "We don't going to leave before five o'clock.",
+          "We aren't going leave before five o'clock.",
+          "We aren't going to leave before five o'clock."
+        ],
+        "answer": 2,
+        "explanation": "Wajib memakai 'to' sebelum verb -> 'going to leave'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hold on—I ___ turn the hallway lights back on.",
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Keputusan spontan -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia berjanji tidak akan melewatkan pengarahan hari Jumat lagi.\".",
+        "targetSentence": "She promised she won't miss Friday's briefing again.",
+        "explanation": "Janji negatif memakai 'won't'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The clinic ___ install new dental chairs next Monday.",
+        "options": [
+          "will to",
+          "is going to",
+          "are going to"
+        ],
+        "answer": 1,
+        "explanation": "Rencana tunggal -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What is your sister going to study in Australia? / She ___ study environmental policy in Adelaide.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "What is your sister going to study in Australia?"
+          ],
+          [
+            "Wulan",
+            "She ___ study environmental policy in Adelaide."
+          ]
+        ],
+        "options": [
+          "is going to",
+          "will",
+          "going to"
+        ],
+        "answer": 0,
+        "explanation": "Rencana studi yang sudah ada -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will it rains during tomorrow's field survey?\"",
+        "draft": "Will it rains during tomorrow's field survey?",
+        "options": [
+          "Does it will rain during tomorrow's field survey?",
+          "Will it rains during tomorrow's field survey?",
+          "Will it rain during tomorrow's field survey?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Will + S', gunakan V1 dasar 'rain'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I hope our shipment ___ reach Penang before Friday.",
+        "options": [
+          "is going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Harapan ('I hope') memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I still don't understand Question 4. / Sit here; I ___ walk you through it slowly.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "I still don't understand Question 4."
+          ],
+          [
+            "Sari",
+            "Sit here; I ___ walk you through it slowly."
+          ]
+        ],
+        "options": [
+          "going to",
+          "will",
+          "am going"
+        ],
+        "answer": 1,
+        "explanation": "Tawaran spontan -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He is going take the six o'clock train.\"",
+        "draft": "He is going take the six o'clock train.",
+        "options": [
+          "He will going take the six o'clock train.",
+          "He is going take the six o'clock train.",
+          "He is going to take the six o'clock train."
+        ],
+        "answer": 2,
+        "explanation": "Wajib menyertakan 'to' -> 'is going to take'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda akan mencetak empat puluh salinan untuk besok?\".",
+        "targetSentence": "Are you going to print forty copies for tomorrow?",
+        "explanation": "Pertanyaan rencana memakai 'Are you going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is the museum ___ close early on New Year's Eve?",
+        "options": [
+          "going to",
+          "will",
+          "go to"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan rencana: 'Is + S + going to + V1?'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look at that long queue at Immigration Counter 1. / We ___ wait at least thirty minutes here.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Look at that long queue at Immigration Counter 1."
+          ],
+          [
+            "Reno",
+            "We ___ wait at least thirty minutes here."
+          ]
+        ],
+        "options": [
+          "going to",
+          "are going to",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Prediksi berbasis bukti antrean panjang -> 'are going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I hope the shipping fees isn't going rise.\"",
+        "draft": "I hope the shipping fees isn't going rise.",
+        "options": [
+          "I hope the shipping fees won't rise.",
+          "I hope the shipping fees not will rise.",
+          "I hope the shipping fees isn't going rise."
+        ],
+        "answer": 0,
+        "explanation": "Harapan ('I hope') memakai 'won't + V1'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Okay, I ___ email the updated spreadsheet right now.",
+        "options": [
+          "am going",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "Respon spontan saat bicara -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Maybe we should reserve snacks for twenty? / Let's check; probably fifteen trainees ___ come.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Maybe we should reserve snacks for twenty?"
+          ],
+          [
+            "Aris",
+            "Let's check; probably fifteen trainees ___ come."
+          ]
+        ],
+        "options": [
+          "going to",
+          "will",
+          "are going"
+        ],
+        "answer": 1,
+        "explanation": "Perkiraan tanpa bukti fisik ('probably') -> 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why do you going to move to Makassar?\"",
+        "draft": "Why do you going to move to Makassar?",
+        "options": [
+          "Why will you going to move to Makassar?",
+          "Why do you going to move to Makassar?",
+          "Why are you going to move to Makassar?"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan 'going to' memakai 'are', bukan 'do'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the battery bar—your tablet ___ shut down.",
+        "options": [
+          "is going to",
+          "will to",
+          "are going to"
+        ],
+        "answer": 0,
+        "explanation": "Bukti langsung di layar -> 'is going to'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semoga kiriman kami sampai di Penang sebelum hari Jumat.\".",
+        "targetSentence": "I hope our shipment will reach Penang before Friday.",
+        "explanation": "Harapan memakai 'will'.",
+        "hints": [
+          "Gunakan 'be going to' untuk rencana sudah diputuskan atau prediksi berdasar bukti saat ini.",
+          "Gunakan 'will' untuk keputusan spontan, janji, tawaran, atau prediksi opini tanpa bukti fisik."
+        ],
+        "skill": "future-will-going"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Lanjutkan 'until the manager signs the form'."
         ],
         "skill": "future-time-clauses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our flight ___ at 7:15 tomorrow morning per the ticket.",
+        "options": [
+          "departs",
+          "will going to depart",
+          "is depart"
+        ],
+        "answer": 0,
+        "explanation": "Jadwal resmi penerbangan/kereta memakai Present Simple ('departs').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What time does tomorrow's airport express leave? / According to the timetable, it ___ at 6:30 sharp.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "What time does tomorrow's airport express leave?"
+          ],
+          [
+            "Dodi",
+            "According to the timetable, it ___ at 6:30 sharp."
+          ]
+        ],
+        "options": [
+          "is going to leave to",
+          "will leaving",
+          "leaves"
+        ],
+        "answer": 2,
+        "explanation": "Jadwal kereta resmi memakai Present Simple 'leaves'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When she will arrive in Medan, she will call us.\"",
+        "draft": "When she will arrive in Medan, she will call us.",
+        "options": [
+          "When she arriving in Medan, she will call us.",
+          "When she will arrive in Medan, she will call us.",
+          "When she arrives in Medan, she will call us."
+        ],
+        "answer": 2,
+        "explanation": "Klausa waktu setelah 'when' memakai Present Simple 'arrives', bukan 'will arrive'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ the regional supplier at ten tomorrow; it's in my calendar.",
+        "options": [
+          "meet will",
+          "going to meet",
+          "are meeting"
+        ],
+        "answer": 2,
+        "explanation": "Janji temu terjadwal sudah pasti memakai Present Continuous ('are meeting').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penerbangan kami berangkat pukul tujuh lima belas besok pagi.\".",
+        "targetSentence": "Our flight departs at seven fifteen tomorrow morning.",
+        "explanation": "Jadwal resmi penerbangan memakai Present Simple.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "When she ___ in Jakarta, she will call the coordinator.",
+        "options": [
+          "will arrive",
+          "arriving",
+          "arrives"
+        ],
+        "answer": 2,
+        "explanation": "Dalam time clause ('when/before/after/as soon as'), gunakan Present Simple 'arrives', bukan 'will arrive'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you free tomorrow afternoon at two? / Sorry, I ___ the bank officer at two; we booked yesterday.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Are you free tomorrow afternoon at two?"
+          ],
+          [
+            "Bima",
+            "Sorry, I ___ the bank officer at two; we booked yesterday."
+          ]
+        ],
+        "options": [
+          "going to meet",
+          "am meeting",
+          "meet will"
+        ],
+        "answer": 1,
+        "explanation": "Janji temu terjadwal memakai 'am meeting'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Please wait here until the technician will fix it.\"",
+        "draft": "Please wait here until the technician will fix it.",
+        "options": [
+          "Please wait here until the technician will fix it.",
+          "Please wait here until the technician fixes it.",
+          "Please wait here until the technician fixing it."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'until', gunakan Present Simple 'fixes'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please wait here until the receptionist ___ your pass.",
+        "options": [
+          "printing",
+          "prints",
+          "will print"
+        ],
+        "answer": 1,
+        "explanation": "Klausa waktu setelah 'until' memakai Present Simple 'prints'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When will you send us the updated budget? / I will email it as soon as the manager ___ it.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "When will you send us the updated budget?"
+          ],
+          [
+            "Eko",
+            "I will email it as soon as the manager ___ it."
+          ]
+        ],
+        "options": [
+          "signs",
+          "will sign",
+          "signed"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'as soon as', gunakan Present Simple 'signs'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"As soon as we will get approval, we will launch.\"",
+        "draft": "As soon as we will get approval, we will launch.",
+        "options": [
+          "As soon as we getting approval, we will launch.",
+          "As soon as we will get approval, we will launch.",
+          "As soon as we get approval, we will launch."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'as soon as', gunakan Present Simple 'get'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami akan bertemu pemasok regional pukul sepuluh besok.\".",
+        "targetSentence": "We are meeting the regional supplier at ten tomorrow.",
+        "explanation": "Janji temu terkonfirmasi memakai Present Continuous.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I open the conference hall windows for fresh air?",
+        "options": [
+          "Will I to",
+          "Do I going",
+          "Shall"
+        ],
+        "answer": 2,
+        "explanation": "Menawarkan bantuan sopan dengan subjek 'I/we' memakai 'Shall I/we ...?'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"This room feels a bit warm for thirty guests. / ___ I switch on the ceiling air conditioner?\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "This room feels a bit warm for thirty guests."
+          ],
+          [
+            "Sari",
+            "___ I switch on the ceiling air conditioner?"
+          ]
+        ],
+        "options": [
+          "Do I will",
+          "Shall",
+          "Will I to"
+        ],
+        "answer": 1,
+        "explanation": "Tawaran bantuan sopan dengan 'I' memakai 'Shall I'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will I open the seminar room windows for you?\"",
+        "draft": "Will I open the seminar room windows for you?",
+        "options": [
+          "Shall I open the seminar room windows for you?",
+          "Am I going open the seminar room windows for you?",
+          "Will I open the seminar room windows for you?"
+        ],
+        "answer": 0,
+        "explanation": "Menawarkan bantuan sopan dengan 'I' memakai 'Shall I ...?' (bukan 'Will I').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "According to the timetable, the last ferry ___ at nine.",
+        "options": [
+          "will leaving",
+          "leaves",
+          "is leave"
+        ],
+        "answer": 1,
+        "explanation": "Jadwal transportasi umum resmi memakai Present Simple 'leaves'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When do we review the warehouse checklists? / Wait until all supervisors ___ back from lunch.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "When do we review the warehouse checklists?"
+          ],
+          [
+            "Putri",
+            "Wait until all supervisors ___ back from lunch."
+          ]
+        ],
+        "options": [
+          "come",
+          "will come",
+          "coming"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'until', gunakan Present Simple 'come'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our flight will leaves at seven tomorrow morning.\"",
+        "draft": "Our flight will leaves at seven tomorrow morning.",
+        "options": [
+          "Our flight will leaves at seven tomorrow morning.",
+          "Our flight leaves at seven tomorrow morning.",
+          "Our flight is leaving to at seven tomorrow morning."
+        ],
+        "answer": 1,
+        "explanation": "Jadwal transportasi resmi memakai Present Simple 'leaves'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "As soon as we ___ the signatures, we will ship the crate.",
+        "options": [
+          "will receive",
+          "receiving",
+          "receive"
+        ],
+        "answer": 2,
+        "explanation": "Time clause 'As soon as' memakai Present Simple 'receive'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ketika dia tiba di Jakarta, dia akan menghubungi koordinator.\".",
+        "targetSentence": "When she arrives in Jakarta, she will call the coordinator.",
+        "explanation": "Time clause 'when' memakai Present Simple 'arrives'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before you ___ the office, turn off all monitors.",
+        "options": [
+          "leaving",
+          "leave",
+          "will leave"
+        ],
+        "answer": 1,
+        "explanation": "'Before' untuk masa depan tetap memakai Present Simple 'leave'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are your interns flying to Surabaya next week? / Yes, they ___ Tuesday morning on Flight 302.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Are your interns flying to Surabaya next week?"
+          ],
+          [
+            "Arman",
+            "Yes, they ___ Tuesday morning on Flight 302."
+          ]
+        ],
+        "options": [
+          "fly will",
+          "going to fly",
+          "are flying"
+        ],
+        "answer": 2,
+        "explanation": "Tiket/penerbangan pasti memakai 'are flying'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Before you will leave the office, lock the drawer.\"",
+        "draft": "Before you will leave the office, lock the drawer.",
+        "options": [
+          "Before you will leave the office, lock the drawer.",
+          "Before you leave the office, lock the drawer.",
+          "Before you leaving the office, lock the drawer."
+        ],
+        "answer": 1,
+        "explanation": "Klausa 'Before' memakai Present Simple 'leave'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look! Waiters ___ dinner outside because the tickets are sold.",
+        "options": [
+          "are serving",
+          "will serve to",
+          "serve going"
+        ],
+        "answer": 0,
+        "explanation": "Pengaturan pasti acara memakai Present Continuous ('are serving').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mohon tunggu di sini sampai resepsionis mencetak kartu Anda.\".",
+        "targetSentence": "Please wait here until the receptionist prints your badge.",
+        "explanation": "Klausa 'until' memakai Present Simple.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ to Perth on Thursday; here are their boarding passes.",
+        "options": [
+          "are flying",
+          "will flying",
+          "fly going"
+        ],
+        "answer": 0,
+        "explanation": "Rencana perjalanan dengan tiket pasti memakai Present Continuous 'are flying'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look at our schedule—should we pause soon? / ___ we take a quick break after Slide 10?\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Look at our schedule—should we pause soon?"
+          ],
+          [
+            "Adi",
+            "___ we take a quick break after Slide 10?"
+          ]
+        ],
+        "options": [
+          "Shall",
+          "Are we will",
+          "Do we will"
+        ],
+        "answer": 0,
+        "explanation": "Ajakan sopan dengan 'we' memakai 'Shall we'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We meet the Japanese client at two tomorrow; it's booked.\"",
+        "draft": "We meet the Japanese client at two tomorrow; it's booked.",
+        "options": [
+          "We meet the Japanese client at two tomorrow; it's booked.",
+          "We are meeting the Japanese client at two tomorrow; it's booked.",
+          "We will meeting the Japanese client at two tomorrow."
+        ],
+        "answer": 1,
+        "explanation": "Janji temu personal terjadwal memakai 'are meeting'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "If the bus ___ late tomorrow, we will call a taxi.",
+        "options": [
+          "will be",
+          "being",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Conditional clause 'If' (Type 1) memakai Present Simple 'is', bukan 'will be'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will the museum be open tomorrow at nine? / Actually, it ___ at ten o'clock on Wednesdays.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Will the museum be open tomorrow at nine?"
+          ],
+          [
+            "Kiki",
+            "Actually, it ___ at ten o'clock on Wednesdays."
+          ]
+        ],
+        "options": [
+          "will opening",
+          "opens",
+          "is open to"
+        ],
+        "answer": 1,
+        "explanation": "Jam operasional resmi memakai Present Simple 'opens'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"If it will rain tomorrow, the outdoor booth closes.\"",
+        "draft": "If it will rain tomorrow, the outdoor booth closes.",
+        "options": [
+          "If it will rain tomorrow, the outdoor booth closes.",
+          "If it rains tomorrow, the outdoor booth will close.",
+          "If it raining tomorrow, the outdoor booth closes."
+        ],
+        "answer": 1,
+        "explanation": "Klausa 'If' memakai Present Simple 'rains', bukan 'will rain'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bolehkah saya membuka jendela aula agar udara segar masuk?\".",
+        "targetSentence": "Shall I open the hall windows for fresh air?",
+        "explanation": "Tawaran bantuan sopan memakai 'Shall I'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we take a ten-minute coffee break before Part 3?",
+        "options": [
+          "Are we will",
+          "Shall",
+          "Do we will"
+        ],
+        "answer": 1,
+        "explanation": "Mengajak/mengusulkan aktivitas bersama ('we') memakai 'Shall we ...?'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What will happen when the sensor detects smoke? / When smoke ___ the vent, alarms will ring.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "What will happen when the sensor detects smoke?"
+          ],
+          [
+            "Sinta",
+            "When smoke ___ the vent, alarms will ring."
+          ]
+        ],
+        "options": [
+          "entering",
+          "enters",
+          "will enter"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'When' untuk aksi pemicu masa depan -> Present Simple 'enters'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will we take a coffee break before Session 3?\"",
+        "draft": "Will we take a coffee break before Session 3?",
+        "options": [
+          "Are we will take a coffee break before Session 3?",
+          "Will we take a coffee break before Session 3?",
+          "Shall we take a coffee break before Session 3?"
+        ],
+        "answer": 2,
+        "explanation": "Mengajak/mengusulkan untuk 'we' memakai 'Shall we ...?'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The keynote speech ___ at nine sharp tomorrow morning.",
+        "options": [
+          "will beginning",
+          "begins",
+          "is begin"
+        ],
+        "answer": 1,
+        "explanation": "Jadwal program resmi memakai Present Simple 'begins'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sure, I will lock it before stepping out.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Before you ___ the building, lock Cabinet B."
+          ],
+          [
+            "Tia",
+            "Sure, I will lock it before stepping out."
+          ]
+        ],
+        "options": [
+          "leave",
+          "will leave",
+          "leaving"
+        ],
+        "answer": 0,
+        "explanation": "Klausa 'Before' memakai Present Simple 'leave'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Once the sensor will cool down, restart testing.\"",
+        "draft": "Once the sensor will cool down, restart testing.",
+        "options": [
+          "Once the sensor cooling down, restart testing.",
+          "Once the sensor will cool down, restart testing.",
+          "Once the sensor cools down, restart testing."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Once', gunakan Present Simple 'cools down'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Call Reception as soon as your taxi ___ Gate A.",
+        "options": [
+          "reaches",
+          "will reach",
+          "reaching"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'as soon as', gunakan Present Simple 'reaches'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Segera setelah menerima tanda tangan, kami akan mengirim peti.\".",
+        "targetSentence": "As soon as we receive signatures, we will ship the crate.",
+        "explanation": "Setelah 'As soon as', gunakan Present Simple.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ Dr. Sari at three tomorrow; the clinic confirmed it.",
+        "options": [
+          "am seeing",
+          "see will",
+          "going to see"
+        ],
+        "answer": 0,
+        "explanation": "Janji temu medis terjadwal memakai Present Continuous 'am seeing'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the courier coming before four today? / He told me he ___ delivering to our block at three.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Is the courier coming before four today?"
+          ],
+          [
+            "Dewi",
+            "He told me he ___ delivering to our block at three."
+          ]
+        ],
+        "options": [
+          "does",
+          "is",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Pengaturan terjadwal -> 'is delivering'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The library is open at eight tomorrow on schedule.\"",
+        "draft": "The library is open at eight tomorrow on schedule.",
+        "options": [
+          "The library will opens at eight tomorrow on schedule.",
+          "The library is open at eight tomorrow on schedule.",
+          "The library opens at eight tomorrow on schedule."
+        ],
+        "answer": 2,
+        "explanation": "Jadwal rutin memakai verb 'opens'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once the sensor ___ calibrated, testing will begin.",
+        "options": [
+          "is",
+          "will be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Once' (klausa waktu), gunakan Present Simple 'is'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebelum meninggalkan kantor, matikan semua monitor komputer.\".",
+        "targetSentence": "Before you leave the office, turn off all monitors.",
+        "explanation": "Klausa 'Before' memakai Present Simple.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't worry; by the time he arrives, dinner ___ ready.",
+        "options": [
+          "is going",
+          "being",
+          "will be"
+        ],
+        "answer": 2,
+        "explanation": "Main clause setelah 'by the time' memakai 'will be'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happens if our supplier misses Monday? / If they ___ early next week, we will use Plan B.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What happens if our supplier misses Monday?"
+          ],
+          [
+            "Ayu",
+            "If they ___ early next week, we will use Plan B."
+          ]
+        ],
+        "options": [
+          "don't deliver",
+          "won't deliver",
+          "aren't deliver"
+        ],
+        "answer": 0,
+        "explanation": "Klausa 'If' memakai Present Simple negatif 'don't deliver'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I am see the dentist at four tomorrow afternoon.\"",
+        "draft": "I am see the dentist at four tomorrow afternoon.",
+        "options": [
+          "I am seeing the dentist at four tomorrow afternoon.",
+          "I will seeing the dentist at four tomorrow afternoon.",
+          "I am see the dentist at four tomorrow afternoon."
+        ],
+        "answer": 0,
+        "explanation": "Janji temu memakai Present Continuous 'am seeing'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "We won't upload the report until Finance ___ every row.",
+        "options": [
+          "will check",
+          "checking",
+          "checks"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'until', gunakan Present Simple 'checks'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When does the autumn seminar series end? / The final session ___ on December 4.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "When does the autumn seminar series end?"
+          ],
+          [
+            "Oki",
+            "The final session ___ on December 4."
+          ]
+        ],
+        "options": [
+          "will finishing",
+          "finishes",
+          "is finish"
+        ],
+        "answer": 1,
+        "explanation": "Jadwal kalender resmi memakai Present Simple 'finishes'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"After the workshop will end, collect feedback slips.\"",
+        "draft": "After the workshop will end, collect feedback slips.",
+        "options": [
+          "After the workshop ending, collect feedback slips.",
+          "After the workshop will end, collect feedback slips.",
+          "After the workshop ends, collect feedback slips."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'After', gunakan Present Simple 'ends'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka terbang ke Perth hari Kamis dengan tiket yang sudah dibeli.\".",
+        "targetSentence": "They are flying to Perth on Thursday.",
+        "explanation": "Rencana penerbangan pasti memakai Present Continuous.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—what ___ you doing this Friday evening after work?",
+        "options": [
+          "do",
+          "are",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Menanyakan rencana pasti akhir pekan memakai Present Continuous 'are you doing'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we call the hotel now? / Let's wait until we ___ our final flight number.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should we call the hotel now?"
+          ],
+          [
+            "Mira",
+            "Let's wait until we ___ our final flight number."
+          ]
+        ],
+        "options": [
+          "confirm",
+          "will confirm",
+          "confirming"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'until', gunakan Present Simple 'confirm'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Unless the fog will lift, flights remain delayed.\"",
+        "draft": "Unless the fog will lift, flights remain delayed.",
+        "options": [
+          "Unless the fog lifts, flights will remain delayed.",
+          "Unless the fog lifting, flights remain delayed.",
+          "Unless the fog will lift, flights remain delayed."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Unless', gunakan Present Simple 'lifts'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The museum ___ at ten tomorrow despite the local fair.",
+        "options": [
+          "is open",
+          "will opening",
+          "opens"
+        ],
+        "answer": 2,
+        "explanation": "Jam buka resmi memakai Present Simple 'opens'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you still staying in Jakarta next month? / No, I ___ to our Yogyakarta office on the fifth.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Are you still staying in Jakarta next month?"
+          ],
+          [
+            "Taufik",
+            "No, I ___ to our Yogyakarta office on the fifth."
+          ]
+        ],
+        "options": [
+          "am moving",
+          "move will",
+          "going to move"
+        ],
+        "answer": 0,
+        "explanation": "Rencana pindah tanggal pasti memakai 'am moving'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They are fly to Makassar tomorrow morning.\"",
+        "draft": "They are fly to Makassar tomorrow morning.",
+        "options": [
+          "They are flying to Makassar tomorrow morning.",
+          "They will flying to Makassar tomorrow morning.",
+          "They are fly to Makassar tomorrow morning."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'are', gunakan V-ing ('flying').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the audit ___, our team will celebrate together.",
+        "options": [
+          "will end",
+          "ending",
+          "ends"
+        ],
+        "answer": 2,
+        "explanation": "Klausa waktu setelah 'After' memakai Present Simple 'ends'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah kita perlu istirahat kopi sepuluh menit sekarang?\".",
+        "targetSentence": "Shall we take a ten-minute coffee break now?",
+        "explanation": "Usulan bersama memakai 'Shall we'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I bring extra extension cords for Table 2?",
+        "options": [
+          "Shall",
+          "Am I will",
+          "Do I going"
+        ],
+        "answer": 0,
+        "explanation": "Tawaran sopan -> 'Shall I ...?'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, please print twenty extra sets.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "___ I print twenty spare handouts just in case?"
+          ],
+          [
+            "Lina",
+            "Yes, please print twenty extra sets."
+          ]
+        ],
+        "options": [
+          "Shall",
+          "Will I going",
+          "Am I will"
+        ],
+        "answer": 0,
+        "explanation": "Tawaran bantuan -> 'Shall I'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The ferry going to leave Pier 1 at nine tomorrow.\"",
+        "draft": "The ferry going to leave Pier 1 at nine tomorrow.",
+        "options": [
+          "The ferry will going to leave Pier 1 at nine tomorrow.",
+          "The ferry going to leave Pier 1 at nine tomorrow.",
+          "The ferry leaves Pier 1 at nine tomorrow."
+        ],
+        "answer": 2,
+        "explanation": "Jadwal resmi memakai 'leaves' (atau 'is going to leave').",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "We are ___ a workshop in Bandung next Tuesday; hotel is booked.",
+        "options": [
+          "hosting",
+          "host",
+          "hosted"
+        ],
+        "answer": 0,
+        "explanation": "Pengaturan pasti ('hotel is booked') memakai Present Continuous 'are hosting'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jika bus terlambat besok, kita akan memanggil taksi.\".",
+        "targetSentence": "If the bus is late tomorrow, we will call a taxi.",
+        "explanation": "Klausa 'If' memakai Present Simple.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Unless the fog ___, the ferry won't depart at six.",
+        "options": [
+          "clear",
+          "clears",
+          "will clear"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Unless' (= if not), gunakan Present Simple 'clears'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will you stay until five today? / Yes, I won't leave before you ___ the audit.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Will you stay until five today?"
+          ],
+          [
+            "Wulan",
+            "Yes, I won't leave before you ___ the audit."
+          ]
+        ],
+        "options": [
+          "finish",
+          "will finish",
+          "finishing"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'before', gunakan Present Simple 'finish'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait until Finance will approve every voucher.\"",
+        "draft": "Wait until Finance will approve every voucher.",
+        "options": [
+          "Wait until Finance approving every voucher.",
+          "Wait until Finance will approve every voucher.",
+          "Wait until Finance approves every voucher."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'until', gunakan Present Simple 'approves'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Next week's train timetable ___ into effect on Sunday.",
+        "options": [
+          "is go",
+          "goes",
+          "will going"
+        ],
+        "answer": 1,
+        "explanation": "Jadwal resmi memakai Present Simple 'goes'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does the harbor tour start at eight tomorrow? / Yes, the boat ___ Pier 3 at eight sharp.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Does the harbor tour start at eight tomorrow?"
+          ],
+          [
+            "Sari",
+            "Yes, the boat ___ Pier 3 at eight sharp."
+          ]
+        ],
+        "options": [
+          "is leave",
+          "leaves",
+          "will leaving"
+        ],
+        "answer": 1,
+        "explanation": "Jadwal keberangkatan resmi -> 'leaves'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I probably am needing two extra folders tomorrow.\"",
+        "draft": "I probably am needing two extra folders tomorrow.",
+        "options": [
+          "I going to probably need two extra folders tomorrow.",
+          "I probably am needing two extra folders tomorrow.",
+          "I will probably need two extra folders tomorrow."
+        ],
+        "answer": 2,
+        "explanation": "Perkiraan dengan 'probably' memakai 'will probably need'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya ada janji menemui dokter gigi pukul empat besok.\".",
+        "targetSentence": "I am seeing the dentist at four tomorrow afternoon.",
+        "explanation": "Janji temu memakai 'am seeing'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ moving into her new apartment near campus Saturday.",
+        "options": [
+          "does",
+          "is",
+          "will"
+        ],
+        "answer": 1,
+        "explanation": "Pengaturan pindahan terkonfirmasi -> 'is moving'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Once it restarts, you will log in normally.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Once the system ___ updating, what should we do?"
+          ],
+          [
+            "Reno",
+            "Once it restarts, you will log in normally."
+          ]
+        ],
+        "options": [
+          "will finish",
+          "finishing",
+          "finishes"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Once', gunakan Present Simple 'finishes'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the time you finish, lunch is be ready.\"",
+        "draft": "By the time you finish, lunch is be ready.",
+        "options": [
+          "By the time you finish, lunch is be ready.",
+          "By the time you finish, lunch will be ready.",
+          "By the time you will finish, lunch will be ready."
+        ],
+        "answer": 1,
+        "explanation": "Klausa utama memakai 'will be ready'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait right here until the supervisor ___ back from lunch.",
+        "options": [
+          "comes",
+          "will come",
+          "coming"
+        ],
+        "answer": 0,
+        "explanation": "Klausa waktu 'until' memakai Present Simple 'comes'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What are your weekend plans with the study group? / We ___ practicing IELTS Part 2 on Saturday.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "What are your weekend plans with the study group?"
+          ],
+          [
+            "Aris",
+            "We ___ practicing IELTS Part 2 on Saturday."
+          ]
+        ],
+        "options": [
+          "will",
+          "do",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Rencana pasti 'are practicing'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Shall she answer the desk phone right now?\"",
+        "draft": "Shall she answer the desk phone right now?",
+        "options": [
+          "Shall she answer the desk phone right now?",
+          "Will she answer the desk phone right now?",
+          "Is she going answer the desk phone right now?"
+        ],
+        "answer": 1,
+        "explanation": "'Shall' dalam tawaran pertanyaan baku hanya untuk 'I / we'; untuk 'she' gunakan 'Will she'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ probably need two extra chairs for the panel.",
+        "options": [
+          "am",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "explanation": "'Probably' (belum pasti) memakai 'will'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Begitu hujan berhenti, kurir akan memuat van pengiriman.\".",
+        "targetSentence": "As soon as the rain stops, couriers will load vans.",
+        "explanation": "Setelah 'As soon as', gunakan Present Simple 'stops'.",
+        "hints": [
+          "Selain will/going to, rencana terjadwal tetap (dengan tiket/janji temu) sering memakai Present Continuous ('We are flying tomorrow').",
+          "Jadwal transportasi/acara resmi tetap memakai Present Simple ('The train leaves at 6')."
+        ],
+        "skill": "future-will-going"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Lanjutkan dengan syarat Present Simple 'provided that the landlord repairs...'."
         ],
         "skill": "future-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "This time tomorrow, our analysts ___ over the island.",
+        "options": [
+          "will be flying",
+          "will fly only",
+          "are fly"
+        ],
+        "answer": 0,
+        "explanation": "Aktivitas yang sedang berlangsung pada titik waktu masa depan ('This time tomorrow') memakai 'will be + V-ing'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I phone Kevin tomorrow at ten? / Better wait—at ten he ___ a client workshop.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should I phone Kevin tomorrow at ten?"
+          ],
+          [
+            "Dodi",
+            "Better wait—at ten he ___ a client workshop."
+          ]
+        ],
+        "options": [
+          "will be leading",
+          "will have led",
+          "leads"
+        ],
+        "answer": 0,
+        "explanation": "Sedang memimpin workshop pada pukul sepuluh besok -> 'will be leading'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This time tomorrow, we will flying to Singapore.\"",
+        "draft": "This time tomorrow, we will flying to Singapore.",
+        "options": [
+          "This time tomorrow, we will be flying to Singapore.",
+          "This time tomorrow, we will have flying to Singapore.",
+          "This time tomorrow, we will flying to Singapore."
+        ],
+        "answer": 0,
+        "explanation": "Future Continuous wajib memakai 'be' sebelum V-ing ('will be flying').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By Friday at five, HR ___ all twenty intern files.",
+        "options": [
+          "will have reviewed",
+          "will reviewing",
+          "has reviewed"
+        ],
+        "answer": 0,
+        "explanation": "Target tuntas sebelum batas waktu ('By Friday') memakai Future Perfect 'will have + V3'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jam segini besok, para analis kami akan sedang terbang.\".",
+        "targetSentence": "This time tomorrow, our analysts will be flying.",
+        "explanation": "Future Continuous: will be + V-ing.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hurry up! The ferry is ___ depart in two minutes.",
+        "options": [
+          "will",
+          "about to",
+          "going"
+        ],
+        "answer": 1,
+        "explanation": "Kejadian sangat dekat dalam hitungan menit memakai 'be about to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When will the printer finishes all sixty booklets? / By lunchtime, it ___ printing every single copy.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "When will the printer finishes all sixty booklets?"
+          ],
+          [
+            "Bima",
+            "By lunchtime, it ___ printing every single copy."
+          ]
+        ],
+        "options": [
+          "will be finish",
+          "finishes",
+          "will have finished"
+        ],
+        "answer": 2,
+        "explanation": "Selesai sebelum makan siang ('By lunchtime') -> 'will have finished'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By Friday at five, HR will finished all audits.\"",
+        "draft": "By Friday at five, HR will finished all audits.",
+        "options": [
+          "By Friday at five, HR will be finish all audits.",
+          "By Friday at five, HR will finished all audits.",
+          "By Friday at five, HR will have finished all audits."
+        ],
+        "answer": 2,
+        "explanation": "Future Perfect memerlukan 'have' sebelum V3 ('will have finished').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do not call Mr. Tan at three; he ___ a live keynote.",
+        "options": [
+          "will be giving",
+          "will have given",
+          "gives"
+        ],
+        "answer": 0,
+        "explanation": "Sedang berlangsung pada jam 3 nanti -> 'will be giving'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can we still board the 8:00 harbor ferry? / Run! The crew is ___ raise the boarding ramp.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Can we still board the 8:00 harbor ferry?"
+          ],
+          [
+            "Eko",
+            "Run! The crew is ___ raise the boarding ramp."
+          ]
+        ],
+        "options": [
+          "will",
+          "about to",
+          "going"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi dalam hitungan detik -> 'is about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hurry up! The ferry is about depart now.\"",
+        "draft": "Hurry up! The ferry is about depart now.",
+        "options": [
+          "Hurry up! The ferry is about to depart now.",
+          "Hurry up! The ferry will about depart now.",
+          "Hurry up! The ferry is about depart now."
+        ],
+        "answer": 0,
+        "explanation": "Struktur baku: 'be about + to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menjelang Jumat pukul lima, HR sudah akan meninjau semua berkas.\".",
+        "targetSentence": "By Friday at five, HR will have reviewed all files.",
+        "explanation": "Future Perfect: will have + V3.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of June, we ___ the lab upgrade.",
+        "options": [
+          "will be finish",
+          "finish will",
+          "will have finished"
+        ],
+        "answer": 2,
+        "explanation": "Sudah selesai sebelum tenggat ('By the end of June') -> 'will have finished'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long have you taught at this institute? / By July next year, I ___ taught here ten years.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How long have you taught at this institute?"
+          ],
+          [
+            "Sari",
+            "By July next year, I ___ taught here ten years."
+          ]
+        ],
+        "options": [
+          "will be",
+          "am",
+          "will have"
+        ],
+        "answer": 2,
+        "explanation": "Durasi tuntas sampai Juli tahun depan -> 'will have taught'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By next May, I will worked here three years.\"",
+        "draft": "By next May, I will worked here three years.",
+        "options": [
+          "By next May, I will worked here three years.",
+          "By next May, I will have worked here three years.",
+          "By next May, I will be work here three years."
+        ],
+        "answer": 1,
+        "explanation": "Durasi tuntas sampai titik masa depan memakai 'will have worked'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The prime minister ___ open the trade expo tomorrow.",
+        "options": [
+          "will to",
+          "is about",
+          "is to"
+        ],
+        "answer": 2,
+        "explanation": "Berita/agenda resmi tingkat tinggi memakai 'is to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where will everyone sit when our guests arrive? / Staff ___ welcoming them right outside Room A.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Where will everyone sit when our guests arrive?"
+          ],
+          [
+            "Putri",
+            "Staff ___ welcoming them right outside Room A."
+          ]
+        ],
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Sedang menunggu saat tamu tiba -> 'will be welcoming'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do not phone at three; she will gives a lecture.\"",
+        "draft": "Do not phone at three; she will gives a lecture.",
+        "options": [
+          "Do not phone at three; she will be giving a lecture.",
+          "Do not phone at three; she will giving a lecture.",
+          "Do not phone at three; she will gives a lecture."
+        ],
+        "answer": 0,
+        "explanation": "Aksi sedang berlangsung di pukul 3 nanti memakai 'will be giving'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Next semester, the clinic ___ operating twenty-four hours.",
+        "options": [
+          "will have",
+          "is being",
+          "will be"
+        ],
+        "answer": 2,
+        "explanation": "Keadaan berkelanjutan di masa depan -> 'will be + V-ing'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cepatlah! Kapal feri hampir segera berangkat dua menit lagi.\".",
+        "targetSentence": "Hurry up! The ferry is about to depart soon.",
+        "explanation": "'is about to + V1' untuk sesaat lagi.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By next December, she ___ at this branch for five years.",
+        "options": [
+          "works",
+          "will have worked",
+          "will be working"
+        ],
+        "answer": 1,
+        "explanation": "Durasi tuntas hingga titik masa depan ('By next December ... for five years') memakai 'will have worked'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will the construction crew finish before October? / Yes, by October 1, they ___ the entire lobby.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Will the construction crew finish before October?"
+          ],
+          [
+            "Arman",
+            "Yes, by October 1, they ___ the entire lobby."
+          ]
+        ],
+        "options": [
+          "paint",
+          "will have painted",
+          "will be paint"
+        ],
+        "answer": 1,
+        "explanation": "Selesai sebelum 1 Oktober -> 'will have painted'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By noon tomorrow, we will have complete Table 4.\"",
+        "draft": "By noon tomorrow, we will have complete Table 4.",
+        "options": [
+          "By noon tomorrow, we will have completing Table 4.",
+          "By noon tomorrow, we will have complete Table 4.",
+          "By noon tomorrow, we will have completed Table 4."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will have', gunakan V3 ('completed').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please step back; the automated doors are ___ close.",
+        "options": [
+          "going",
+          "will",
+          "about to"
+        ],
+        "answer": 2,
+        "explanation": "Aksi tepat akan terjadi -> 'about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menjelang akhir Juni, kami sudah akan menyelesaikan pembaruan lab.\".",
+        "targetSentence": "By the end of June, we will have finished upgrades.",
+        "explanation": "Target selesai sebelum tenggat memakai 'will have finished'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Will you ___ using the color scanner at eleven tomorrow?",
+        "options": [
+          "be",
+          "have",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan Future Continuous sopan ('Will you be + V-ing?').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can I pick up my badge at 2:30 tomorrow? / Come after three; at 2:30 we ___ still printing them.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Can I pick up my badge at 2:30 tomorrow?"
+          ],
+          [
+            "Adi",
+            "Come after three; at 2:30 we ___ still printing them."
+          ]
+        ],
+        "options": [
+          "will be",
+          "will have",
+          "are been"
+        ],
+        "answer": 0,
+        "explanation": "Masih berlangsung pada 2:30 -> 'will be printing'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All guests are stay seated until the belt sign dims.\"",
+        "draft": "All guests are stay seated until the belt sign dims.",
+        "options": [
+          "All guests are to stay seated until the belt sign dims.",
+          "All guests are will stay seated until the belt sign dims.",
+          "All guests are stay seated until the belt sign dims."
+        ],
+        "answer": 0,
+        "explanation": "Instruksi resmi memakai 'are to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By midnight tonight, the backup server ___ all archives.",
+        "options": [
+          "will be copy",
+          "copied",
+          "will have copied"
+        ],
+        "answer": 2,
+        "explanation": "Selesai sebelum tengah malam -> 'will have copied'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is security closing Gate North right now? / Wait—a cargo convoy is ___ enter the dock.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why is security closing Gate North right now?"
+          ],
+          [
+            "Kiki",
+            "Wait—a cargo convoy is ___ enter the dock."
+          ]
+        ],
+        "options": [
+          "will",
+          "going",
+          "about to"
+        ],
+        "answer": 2,
+        "explanation": "Tepat akan masuk sesaat lagi -> 'about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will you using the shared printer at eleven?\"",
+        "draft": "Will you using the shared printer at eleven?",
+        "options": [
+          "Will you have using the shared printer at eleven?",
+          "Will you using the shared printer at eleven?",
+          "Will you be using the shared printer at eleven?"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan sopan Future Continuous memakai 'Will you be + V-ing?'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jangan hubungi Pak Tan pukul tiga; dia sedang memberi pidato.\".",
+        "targetSentence": "Do not call at three; he will be giving a keynote.",
+        "explanation": "Sedang berlangsung pada pukul 3 -> 'will be giving'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "When our train arrives, our colleagues ___ waiting outside.",
+        "options": [
+          "will be",
+          "will have",
+          "are been"
+        ],
+        "answer": 0,
+        "explanation": "Sedang menunggu saat tiba -> 'will be waiting'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What did the official notice say about lockers? / All interns ___ clear Locker Bay A by Friday.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "What did the official notice say about lockers?"
+          ],
+          [
+            "Sinta",
+            "All interns ___ clear Locker Bay A by Friday."
+          ]
+        ],
+        "options": [
+          "are to",
+          "will to",
+          "are about"
+        ],
+        "answer": 0,
+        "explanation": "Kewajiban instruksi resmi -> 'are to clear'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the time we arrive, the clinic will closed.\"",
+        "draft": "By the time we arrive, the clinic will closed.",
+        "options": [
+          "By the time we arrive, the clinic will have closed.",
+          "By the time we arrive, the clinic will be close.",
+          "By the time we arrive, the clinic will closed."
+        ],
+        "answer": 0,
+        "explanation": "Sudah tutup sebelum tiba memakai 'will have closed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "I am afraid all economy seats ___ sold out by noon.",
+        "options": [
+          "will be have",
+          "have will",
+          "will have"
+        ],
+        "answer": 2,
+        "explanation": "Sudah terjual habis sebelum siang ('by noon') -> 'will have sold out'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes! Need me to pick up your prescription?\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Will you ___ passing Central Pharmacy on your walk?"
+          ],
+          [
+            "Tia",
+            "Yes! Need me to pick up your prescription?"
+          ]
+        ],
+        "options": [
+          "have",
+          "are",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan sopan menanyakan rencana sejalan ('Will you be + V-ing?').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Watch out! The crate is about falling off.\"",
+        "draft": "Watch out! The crate is about falling off.",
+        "options": [
+          "Watch out! The crate is about to fall off.",
+          "Watch out! The crate is about fell off.",
+          "Watch out! The crate is about falling off."
+        ],
+        "answer": 0,
+        "explanation": "'is about' diikuti 'to + V1' ('to fall off').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Watch the stage! The keynote speaker is ___ begin.",
+        "options": [
+          "about to",
+          "going",
+          "will"
+        ],
+        "answer": 0,
+        "explanation": "Detik-detik menjelang mulai -> 'is about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menjelang Desember depan, dia sudah akan bekerja lima tahun di sini.\".",
+        "targetSentence": "By next December, she will have worked here five years.",
+        "explanation": "Durasi tuntas sampai titik masa depan memakai 'will have worked'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "At nine tomorrow morning, technicians ___ calibrating Lab 4.",
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Sedang berlangsung pada pukul 9 besok -> 'will be calibrating'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How much of the data audit will remain at noon? / None—by noon, our analysts ___ verified every sheet.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "How much of the data audit will remain at noon?"
+          ],
+          [
+            "Dewi",
+            "None—by noon, our analysts ___ verified every sheet."
+          ]
+        ],
+        "options": [
+          "will be",
+          "are",
+          "will have"
+        ],
+        "answer": 2,
+        "explanation": "Tuntas sebelum siang -> 'will have verified'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"At eight tonight, engineers will be test the backup.\"",
+        "draft": "At eight tonight, engineers will be test the backup.",
+        "options": [
+          "At eight tonight, engineers will be testing the backup.",
+          "At eight tonight, engineers will be tested the backup.",
+          "At eight tonight, engineers will be test the backup."
+        ],
+        "answer": 0,
+        "explanation": "Future Continuous aktif memakai V-ing ('testing').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the time we reach the pier, the ship ___ sailed.",
+        "options": [
+          "will be",
+          "has been",
+          "will have"
+        ],
+        "answer": 2,
+        "explanation": "Sudah berlayar lebih dulu sebelum kami tiba -> 'will have sailed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mohon mundur; pintu otomatis hampir segera menutup.\".",
+        "targetSentence": "Please step back; the automated doors are about to close.",
+        "explanation": "'are about to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "All passengers are ___ remain seated until the belt sign dims.",
+        "options": [
+          "to",
+          "will",
+          "about"
+        ],
+        "answer": 0,
+        "explanation": "Instruksi resmi formal memakai 'be to + V1' ('are to remain').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"This time next month, where will you be? / I ___ presenting our findings in Singapore!\"",
+        "dialogue": [
+          [
+            "Rama",
+            "This time next month, where will you be?"
+          ],
+          [
+            "Ayu",
+            "I ___ presenting our findings in Singapore!"
+          ]
+        ],
+        "options": [
+          "will have",
+          "am been",
+          "will be"
+        ],
+        "answer": 2,
+        "explanation": "Sedang terjadi bulan depan pada waktu yang sama -> 'will be presenting'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By 2030, solar buses will replaced old diesel vans.\"",
+        "draft": "By 2030, solar buses will replaced old diesel vans.",
+        "options": [
+          "By 2030, solar buses will have replace old diesel vans.",
+          "By 2030, solar buses will replaced old diesel vans.",
+          "By 2030, solar buses will have replaced old diesel vans."
+        ],
+        "answer": 2,
+        "explanation": "Future Perfect wajib 'will have + V3'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't worry; by Tuesday afternoon, the rain ___ stopped.",
+        "options": [
+          "will have",
+          "will be",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Selesai sebelum Selasa sore -> 'will have stopped'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we order coffee before the talk starts? / Too late—look, the host is ___ introduce our speaker.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Should we order coffee before the talk starts?"
+          ],
+          [
+            "Oki",
+            "Too late—look, the host is ___ introduce our speaker."
+          ]
+        ],
+        "options": [
+          "will",
+          "going",
+          "about to"
+        ],
+        "answer": 2,
+        "explanation": "Detik-detik pembuka acara -> 'about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will the report have be checked before Friday?\"",
+        "draft": "Will the report have be checked before Friday?",
+        "options": [
+          "Will the report have been checked before Friday?",
+          "Will the report be have checked before Friday?",
+          "Will the report have be checked before Friday?"
+        ],
+        "answer": 0,
+        "explanation": "Pasif Future Perfect memakai 'have been + V3'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda akan sedang memakai pemindai warna pukul sebelas?\".",
+        "targetSentence": "Will you be using the color scanner at eleven?",
+        "explanation": "Pertanyaan sopan memakai Future Continuous.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "In five years' time, commuters ___ traveling mostly by rail.",
+        "options": [
+          "will have",
+          "are been",
+          "will be"
+        ],
+        "answer": 2,
+        "explanation": "Aktivitas umum berlangsung di masa depan -> 'will be traveling'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"By the time our flight lands, will dinner still be open? / No, by eleven the hotel kitchen ___ closed.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "By the time our flight lands, will dinner still be open?"
+          ],
+          [
+            "Mira",
+            "No, by eleven the hotel kitchen ___ closed."
+          ]
+        ],
+        "options": [
+          "will have",
+          "will be",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Sudah tutup sebelum pukul sebelas -> 'will have closed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She is about calling the supplier right now.\"",
+        "draft": "She is about calling the supplier right now.",
+        "options": [
+          "She is about calling the supplier right now.",
+          "She is about to call the supplier right now.",
+          "She is about called the supplier right now."
+        ],
+        "answer": 1,
+        "explanation": "'be about' diikuti 'to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait! Don't send that email—I am ___ attach Table 2.",
+        "options": [
+          "about to",
+          "will",
+          "going"
+        ],
+        "answer": 0,
+        "explanation": "Akan segera dilakukan dalam hitungan detik -> 'about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What will the IT desk be doing tonight after six? / They ___ migrating databases until midnight.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "What will the IT desk be doing tonight after six?"
+          ],
+          [
+            "Taufik",
+            "They ___ migrating databases until midnight."
+          ]
+        ],
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Berlangsung sepanjang malam -> 'will be migrating'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the end of July, we will have spend all funds.\"",
+        "draft": "By the end of July, we will have spend all funds.",
+        "options": [
+          "By the end of July, we will have spent all funds.",
+          "By the end of July, we will spending all funds.",
+          "By the end of July, we will have spend all funds."
+        ],
+        "answer": 0,
+        "explanation": "V3 tak beraturan dari 'spend' adalah 'spent'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By 4 PM, the committee ___ interviewed all ten finalists.",
+        "options": [
+          "is",
+          "will have",
+          "will be"
+        ],
+        "answer": 1,
+        "explanation": "Tuntas sebelum pukul 4 -> 'will have interviewed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua penumpang wajib tetap duduk sesuai aturan resmi pesawat.\".",
+        "targetSentence": "All passengers are to remain seated until further notice.",
+        "explanation": "Instruksi formal memakai 'are to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "This time next week, you ___ presenting your thesis cleanly.",
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Sedang berlangsung minggu depan di jam sama -> 'will be presenting'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will the new parking meters be ready by Monday? / Yes, electricians ___ installed every unit by Sunday.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Will the new parking meters be ready by Monday?"
+          ],
+          [
+            "Lina",
+            "Yes, electricians ___ installed every unit by Sunday."
+          ]
+        ],
+        "options": [
+          "are",
+          "will have",
+          "will be"
+        ],
+        "answer": 1,
+        "explanation": "Selesai sebelum Minggu -> 'will have installed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This time next Monday, they will be sit in Hall A.\"",
+        "draft": "This time next Monday, they will be sit in Hall A.",
+        "options": [
+          "This time next Monday, they will be sit in Hall A.",
+          "This time next Monday, they will be sitting in Hall A.",
+          "This time next Monday, they will sat in Hall A."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'will be', gunakan V-ing ('sitting').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of this sprint, we ___ fixed thirty bugs.",
+        "options": [
+          "are",
+          "will have",
+          "will be"
+        ],
+        "answer": 1,
+        "explanation": "Pencapaian selesai sebelum akhir sprint -> 'will have fixed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saat kereta tiba, rekan kerja kami akan sedang menunggu di luar.\".",
+        "targetSentence": "When our train arrives, colleagues will be waiting outside.",
+        "explanation": "Sedang berlangsung saat itu -> 'will be waiting'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "The safety inspectors ___ visiting Warehouse B all morning.",
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Aktivitas berlangsung sepanjang pagi nanti -> 'will be visiting'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are we to wait inside Lounge 2? / Yes, staff ___ calling Boarding Group B shortly.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Are we to wait inside Lounge 2?"
+          ],
+          [
+            "Wulan",
+            "Yes, staff ___ calling Boarding Group B shortly."
+          ]
+        ],
+        "options": [
+          "are been",
+          "will be",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Segera berlangsung -> 'will be calling'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The prime minister is opening to the trade fair tomorrow.\"",
+        "draft": "The prime minister is opening to the trade fair tomorrow.",
+        "options": [
+          "The prime minister is to opening the trade fair tomorrow.",
+          "The prime minister is opening to the trade fair tomorrow.",
+          "The prime minister is to open the trade fair tomorrow."
+        ],
+        "answer": 2,
+        "explanation": "Jadwal formal resmi memakai 'is to + V1'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before sunrise tomorrow, the trucks ___ arrived at Port.",
+        "options": [
+          "are",
+          "will have",
+          "will be"
+        ],
+        "answer": 1,
+        "explanation": "Sudah tiba sebelum matahari terbit -> 'will have arrived'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Oh, thanks! Let me zip my bag right back up.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Don't unpack that laptop—we are ___ move rooms!"
+          ],
+          [
+            "Sari",
+            "Oh, thanks! Let me zip my bag right back up."
+          ]
+        ],
+        "options": [
+          "will",
+          "going",
+          "about to"
+        ],
+        "answer": 2,
+        "explanation": "Segera berpindah ruang -> 'about to'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By ten tonight, the snow will have stop falling.\"",
+        "draft": "By ten tonight, the snow will have stop falling.",
+        "options": [
+          "By ten tonight, the snow will have stop falling.",
+          "By ten tonight, the snow will have stopped falling.",
+          "By ten tonight, the snow will stopped falling."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'will have', gunakan V3 ('stopped').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebelum matahari terbit besok, truk sudah akan tiba di pelabuhan.\".",
+        "targetSentence": "Before sunrise tomorrow, trucks will have arrived at port.",
+        "explanation": "Future Perfect 'will have arrived'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are we ___ submit our travel forms directly to Finance?",
+        "options": [
+          "will",
+          "about",
+          "to"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan instruksi resmi memakai 'Are we to + V1?'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"By Friday morning, how many tests will they run? / They ___ completed twelve safety trials in total.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "By Friday morning, how many tests will they run?"
+          ],
+          [
+            "Reno",
+            "They ___ completed twelve safety trials in total."
+          ]
+        ],
+        "options": [
+          "will have",
+          "will be",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Jumlah tuntas sebelum Jumat pagi -> 'will have completed'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Don't rush; the bus won't has left before eight.\"",
+        "draft": "Don't rush; the bus won't has left before eight.",
+        "options": [
+          "Don't rush; the bus won't having left before eight.",
+          "Don't rush; the bus won't has left before eight.",
+          "Don't rush; the bus won't have left before eight."
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'won't', tetap gunakan 'have', bukan 'has'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "Keep quiet at two; trainees ___ taking the mock test.",
+        "options": [
+          "will be",
+          "will have",
+          "are been"
+        ],
+        "answer": 0,
+        "explanation": "Sedang ujian pada jam 2 -> 'will be taking'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, cleaners will have mopped everything by seven.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Will the hallway floors ___ cleaned before guests arrive?"
+          ],
+          [
+            "Aris",
+            "Yes, cleaners will have mopped everything by seven."
+          ]
+        ],
+        "options": [
+          "be have",
+          "being",
+          "have been"
+        ],
+        "answer": 2,
+        "explanation": "Pasif Future Perfect tanya -> 'have been cleaned'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"In ten years, workers will be work mostly digitally.\"",
+        "draft": "In ten years, workers will be work mostly digitally.",
+        "options": [
+          "In ten years, workers will working mostly digitally.",
+          "In ten years, workers will be work mostly digitally.",
+          "In ten years, workers will be working mostly digitally."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will be', gunakan V-ing ('working').",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of 2028, solar panels ___ powered half the hall.",
+        "options": [
+          "will be",
+          "are",
+          "will have"
+        ],
+        "answer": 2,
+        "explanation": "Tuntas sebelum akhir 2028 -> 'will have powered'.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah semua faktur sudah akan diverifikasi sebelum Jumat siang?\".",
+        "targetSentence": "Will all invoices have been verified before Friday noon?",
+        "explanation": "Pasif Future Perfect tanya.",
+        "hints": [
+          "Bedakan Future Continuous ('will be V-ing': sedang berlangsung di titik waktu masa depan) dan Future Perfect ('will have V3': sudah tuntas sebelum batas waktu masa depan).",
+          "Perhatikan juga 'be about to V1' (segera terjadi dalam hitungan detik/menit) dan 'be to V1' (instruksi/jadwal resmi formal)."
+        ],
+        "skill": "future-will-going"
       }
     ]
   }

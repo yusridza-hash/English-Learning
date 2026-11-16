@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { GeneratedModuleContent } from "../data/generatedModules";
 import { getStagePedagogy } from "../data/lessonEnrichment";
-import { SKILL_GUIDE } from "../data/questionBank";
+import { ensureModuleLoaded, isModuleLoaded, SKILL_GUIDE } from "../data/questionBank";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import { buildStages } from "../utils/stageBuilder";
 import {
@@ -47,10 +47,17 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
   content,
   onNavigate,
 }) => {
-  const baseStages = useMemo(() => buildStages(moduleKey, content), [moduleKey, content]);
+  const [bankReadyVersion, setBankReadyVersion] = useState<number>(0);
+  const [bankLoading, setBankLoading] = useState<boolean>(() => !isModuleLoaded(moduleKey));
+  const [bankLoadError, setBankLoadError] = useState<string>("");
 
-  const buildRandomizedConfig = (): QuizLevelConfig[] =>
-    baseStages.map((stage) => ({
+  const baseStages = useMemo(
+    () => buildStages(moduleKey, content),
+    [moduleKey, content, bankReadyVersion]
+  );
+
+  const buildRandomizedConfig = (stagesToUse = baseStages): QuizLevelConfig[] =>
+    stagesToUse.map((stage) => ({
       key: stage.key,
       label: stage.label,
       title: STAGE_TITLES[stage.key],
@@ -82,6 +89,42 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     )
   );
 
+  const loadModuleBank = (cancelledCheck?: () => boolean) => {
+    if (isModuleLoaded(moduleKey)) {
+      setBankLoading(false);
+      setBankLoadError("");
+      return;
+    }
+    setBankLoading(true);
+    setBankLoadError("");
+    ensureModuleLoaded(moduleKey)
+      .then(() => {
+        if (cancelledCheck?.()) return;
+        const freshStages = buildStages(moduleKey, content);
+        const freshLevels = buildRandomizedConfig(freshStages);
+        setBankReadyVersion((v) => v + 1);
+        setStates((prevStates) => {
+          const hasStarted = prevStates.flat().some((s) => s.attempts > 0 || s.completed);
+          if (hasStarted) return prevStates;
+          setQuizLevels(freshLevels);
+          return freshLevels.map((stage) =>
+            stage.questions.map(() => ({
+              attempts: 0,
+              points: 0,
+              correct: false,
+              completed: false,
+            }))
+          );
+        });
+        setBankLoading(false);
+      })
+      .catch(() => {
+        if (cancelledCheck?.()) return;
+        setBankLoading(false);
+        setBankLoadError("Gagal memuat bank soal penuh level ini. Cek koneksi atau muat ulang.");
+      });
+  };
+
   useEffect(() => {
     document.body.dataset.module = moduleKey;
     document.title = `${content.title} — English Learning`;
@@ -89,9 +132,24 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     setChecks(content.checklist.map((_, idx) => Boolean(saved[idx])));
     setWritingDraft("");
 
-    const freshLevels = buildRandomizedConfig();
+    const freshStages = buildStages(moduleKey, content);
+    const freshLevels = buildRandomizedConfig(freshStages);
     setQuizLevels(freshLevels);
+    setStates(
+      freshLevels.map((stage) =>
+        stage.questions.map(() => ({
+          attempts: 0,
+          points: 0,
+          correct: false,
+          completed: false,
+        }))
+      )
+    );
     setSessionSeed([0, 0, 0]);
+
+    let cancelled = false;
+    loadModuleBank(() => cancelled);
+
     const applyResumeState = () => {
       const parsed = parseModuleResumeHash(window.location.hash);
       recordModuleHistory({
@@ -113,8 +171,11 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
 
     applyResumeState();
     window.addEventListener("el_route_change", applyResumeState);
-    return () => window.removeEventListener("el_route_change", applyResumeState);
-  }, [moduleKey, content, baseStages]);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("el_route_change", applyResumeState);
+    };
+  }, [moduleKey, content]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
     const next = checks.map((val, i) => (i === index ? checked : val));
@@ -122,7 +183,7 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     saveChecks(moduleKey, next);
   };
 
-  const handleOpenLevelModal = (levelIndex: number) => {
+  const handleOpenLevelModal = async (levelIndex: number) => {
     const levelKey: SubLevelKey = baseStages[levelIndex]?.key || "simple";
     recordModuleHistory({
       moduleKey,
@@ -132,12 +193,18 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
       subLevel: levelKey,
       anchorId: `latihan-${levelKey}`,
     });
+    if (!isModuleLoaded(moduleKey)) {
+      await ensureModuleLoaded(moduleKey).catch(() => undefined);
+      setBankReadyVersion((v) => v + 1);
+    }
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
 
-  const handleRandomizeLevel = (levelIndex: number) => {
-    const baseStage = baseStages[levelIndex];
+  const handleRandomizeLevel = async (levelIndex: number) => {
+    await ensureModuleLoaded(moduleKey).catch(() => undefined);
+    const freshStages = buildStages(moduleKey, content);
+    const baseStage = freshStages[levelIndex];
     if (!baseStage) return;
     const newQuestions = getRandomizedLevelQuestions(
       moduleKey,
@@ -341,6 +408,20 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
             </React.Fragment>
           );
         })}
+
+        {bankLoading && (
+          <p className="note" role="status" aria-live="polite">
+            Memuat bank soal level ini (100+ soal per tingkat)...
+          </p>
+        )}
+        {bankLoadError && (
+          <div className="warn" role="alert" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: ".75rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+            <span>{bankLoadError}</span>
+            <button type="button" className="filter-pill" onClick={() => loadModuleBank()}>
+              ↻ Coba Muat Ulang
+            </button>
+          </div>
+        )}
 
         <LevelQuizSummarySection
           moduleKey={moduleKey}

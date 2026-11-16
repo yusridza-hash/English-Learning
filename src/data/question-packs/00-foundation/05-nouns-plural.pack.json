@@ -266,6 +266,1446 @@
           "Verb jamak tanpa -s adalah 'lead'."
         ],
         "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"book\" adalah...",
+        "options": [
+          "bookes",
+          "book's",
+          "books"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"book\" menjadi \"books\" karena aturan: akhiran konsonan standar + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one book enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one book enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "book's",
+          "books",
+          "bookes"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"books\" (akhiran konsonan standar + -s).",
+        "hints": [
+          "Ubah \"book\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three bookes for the main hall.\"",
+        "draft": "We ordered three bookes for the main hall.",
+        "options": [
+          "We ordered three book for the main hall.",
+          "We ordered three book's for the main hall.",
+          "We ordered three books for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"book\" adalah \"books\" (akhiran konsonan standar + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"book\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"desk\" adalah...",
+        "options": [
+          "desks",
+          "deskes",
+          "desk's"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"desk\" menjadi \"desks\" karena aturan: noun reguler + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · books).",
+        "targetSentence": "The office received several new books yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"books\" (akhiran konsonan standar + -s).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"laptop\" adalah...",
+        "options": [
+          "laptop's",
+          "laptops",
+          "laptopes"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"laptop\" menjadi \"laptops\" karena aturan: noun reguler + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one desk enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one desk enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "desk's",
+          "desks",
+          "deskes"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"desks\" (noun reguler + -s).",
+        "hints": [
+          "Ubah \"desk\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three deskes for the main hall.\"",
+        "draft": "We ordered three deskes for the main hall.",
+        "options": [
+          "We ordered three desk's for the main hall.",
+          "We ordered three desks for the main hall.",
+          "We ordered three desk for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"desk\" adalah \"desks\" (noun reguler + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"desk\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"bus\" adalah...",
+        "options": [
+          "buses",
+          "buss",
+          "busies"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"bus\" menjadi \"buses\" karena aturan: berakhiran -s ditambah -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one laptop enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one laptop enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "laptop's",
+          "laptops",
+          "laptopes"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"laptops\" (noun reguler + -s).",
+        "hints": [
+          "Ubah \"laptop\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three laptopes for the main hall.\"",
+        "draft": "We ordered three laptopes for the main hall.",
+        "options": [
+          "We ordered three laptop for the main hall.",
+          "We ordered three laptop's for the main hall.",
+          "We ordered three laptops for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"laptop\" adalah \"laptops\" (noun reguler + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"laptop\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · desks).",
+        "targetSentence": "The office received several new desks yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"desks\" (noun reguler + -s).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"box\" adalah...",
+        "options": [
+          "boxes",
+          "boxs",
+          "boxies"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"box\" menjadi \"boxes\" karena aturan: berakhiran -x ditambah -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one bus enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one bus enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "buses",
+          "buss",
+          "busies"
+        ],
+        "answer": 0,
+        "explanation": "Setelah angka \"five\", gunakan plural \"buses\" (berakhiran -s ditambah -es).",
+        "hints": [
+          "Ubah \"bus\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three buss for the main hall.\"",
+        "draft": "We ordered three buss for the main hall.",
+        "options": [
+          "We ordered three buses for the main hall.",
+          "We ordered three bus for the main hall.",
+          "We ordered three bus's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"bus\" adalah \"buses\" (berakhiran -s ditambah -es).",
+        "hints": [
+          "Cek ejaan plural dari \"bus\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"watch\" adalah...",
+        "options": [
+          "watchies",
+          "watches",
+          "watchs"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"watch\" menjadi \"watches\" karena aturan: berakhiran -ch ditambah -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one box enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one box enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "boxs",
+          "boxies",
+          "boxes"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"boxes\" (berakhiran -x ditambah -es).",
+        "hints": [
+          "Ubah \"box\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three boxs for the main hall.\"",
+        "draft": "We ordered three boxs for the main hall.",
+        "options": [
+          "We ordered three box for the main hall.",
+          "We ordered three box's for the main hall.",
+          "We ordered three boxes for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"box\" adalah \"boxes\" (berakhiran -x ditambah -es).",
+        "hints": [
+          "Cek ejaan plural dari \"box\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"dish\" adalah...",
+        "options": [
+          "dishies",
+          "dishes",
+          "dishs"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"dish\" menjadi \"dishes\" karena aturan: berakhiran -sh ditambah -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office).",
+        "targetSentence": "The office received several new laptops yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"laptops\" (noun reguler + -s).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"class\" adalah...",
+        "options": [
+          "classs",
+          "classies",
+          "classes"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"class\" menjadi \"classes\" karena aturan: berakhiran -ss ditambah -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one watch enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one watch enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "watchs",
+          "watchies",
+          "watches"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"watches\" (berakhiran -ch ditambah -es).",
+        "hints": [
+          "Ubah \"watch\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three watchs for the main hall.\"",
+        "draft": "We ordered three watchs for the main hall.",
+        "options": [
+          "We ordered three watch's for the main hall.",
+          "We ordered three watches for the main hall.",
+          "We ordered three watch for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"watch\" adalah \"watches\" (berakhiran -ch ditambah -es).",
+        "hints": [
+          "Cek ejaan plural dari \"watch\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"city\" adalah...",
+        "options": [
+          "cityes",
+          "cities",
+          "citys"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"city\" menjadi \"cities\" karena aturan: konsonan + y -> ubah y menjadi -ies.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · buses).",
+        "targetSentence": "The office received several new buses yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"buses\" (berakhiran -s ditambah -es).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"company\" adalah...",
+        "options": [
+          "companys",
+          "companyes",
+          "companies"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"company\" menjadi \"companies\" karena aturan: konsonan + y -> -ies.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one dish enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one dish enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "dishies",
+          "dishes",
+          "dishs"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"dishes\" (berakhiran -sh ditambah -es).",
+        "hints": [
+          "Ubah \"dish\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three dishs for the main hall.\"",
+        "draft": "We ordered three dishs for the main hall.",
+        "options": [
+          "We ordered three dish for the main hall.",
+          "We ordered three dish's for the main hall.",
+          "We ordered three dishes for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"dish\" adalah \"dishes\" (berakhiran -sh ditambah -es).",
+        "hints": [
+          "Cek ejaan plural dari \"dish\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"policy\" adalah...",
+        "options": [
+          "policyes",
+          "policies",
+          "policys"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"policy\" menjadi \"policies\" karena aturan: konsonan + y -> -ies.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one class enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one class enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "classes",
+          "classs",
+          "classies"
+        ],
+        "answer": 0,
+        "explanation": "Setelah angka \"five\", gunakan plural \"classes\" (berakhiran -ss ditambah -es).",
+        "hints": [
+          "Ubah \"class\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three classs for the main hall.\"",
+        "draft": "We ordered three classs for the main hall.",
+        "options": [
+          "We ordered three class's for the main hall.",
+          "We ordered three classes for the main hall.",
+          "We ordered three class for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"class\" adalah \"classes\" (berakhiran -ss ditambah -es).",
+        "hints": [
+          "Cek ejaan plural dari \"class\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · boxes).",
+        "targetSentence": "The office received several new boxes yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"boxes\" (berakhiran -x ditambah -es).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"story\" adalah...",
+        "options": [
+          "storys",
+          "storyes",
+          "stories"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"story\" menjadi \"stories\" karena aturan: konsonan + y -> -ies.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one city enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one city enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "cityes",
+          "cities",
+          "citys"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"cities\" (konsonan + y -> ubah y menjadi -ies).",
+        "hints": [
+          "Ubah \"city\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three citys for the main hall.\"",
+        "draft": "We ordered three citys for the main hall.",
+        "options": [
+          "We ordered three city's for the main hall.",
+          "We ordered three cities for the main hall.",
+          "We ordered three city for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"city\" adalah \"cities\" (konsonan + y -> ubah y menjadi -ies).",
+        "hints": [
+          "Cek ejaan plural dari \"city\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"day\" adalah...",
+        "options": [
+          "daies",
+          "dayes",
+          "days"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"day\" menjadi \"days\" karena aturan: vokal + y -> langsung + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one company enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one company enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "companys",
+          "companyes",
+          "companies"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"companies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Ubah \"company\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three companys for the main hall.\"",
+        "draft": "We ordered three companys for the main hall.",
+        "options": [
+          "We ordered three company for the main hall.",
+          "We ordered three company's for the main hall.",
+          "We ordered three companies for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"company\" adalah \"companies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Cek ejaan plural dari \"company\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"key\" adalah...",
+        "options": [
+          "keyes",
+          "keys",
+          "keies"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"key\" menjadi \"keys\" karena aturan: vokal + y -> langsung + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office). — The office received seve",
+        "targetSentence": "The office received several new watches yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"watches\" (berakhiran -ch ditambah -es).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"survey\" adalah...",
+        "options": [
+          "surveies",
+          "surveyes",
+          "surveys"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"survey\" menjadi \"surveys\" karena aturan: vokal + y -> langsung + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one policy enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one policy enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "policys",
+          "policyes",
+          "policies"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"policies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Ubah \"policy\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three policys for the main hall.\"",
+        "draft": "We ordered three policys for the main hall.",
+        "options": [
+          "We ordered three policies for the main hall.",
+          "We ordered three policy for the main hall.",
+          "We ordered three policy's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"policy\" adalah \"policies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Cek ejaan plural dari \"policy\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"tray\" adalah...",
+        "options": [
+          "trays",
+          "traies",
+          "trayes"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"tray\" menjadi \"trays\" karena aturan: vokal + y -> langsung + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · dishes).",
+        "targetSentence": "The office received several new dishes yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"dishes\" (berakhiran -sh ditambah -es).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"knife\" adalah...",
+        "options": [
+          "knifes",
+          "knifs",
+          "knives"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"knife\" menjadi \"knives\" karena aturan: -fe berubah menjadi -ves.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one story enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one story enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "storys",
+          "storyes",
+          "stories"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"stories\" (konsonan + y -> -ies).",
+        "hints": [
+          "Ubah \"story\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three storys for the main hall.\"",
+        "draft": "We ordered three storys for the main hall.",
+        "options": [
+          "We ordered three story's for the main hall.",
+          "We ordered three stories for the main hall.",
+          "We ordered three story for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"story\" adalah \"stories\" (konsonan + y -> -ies).",
+        "hints": [
+          "Cek ejaan plural dari \"story\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"leaf\" adalah...",
+        "options": [
+          "leaves",
+          "leafs",
+          "leafes"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"leaf\" menjadi \"leaves\" karena aturan: -f berubah menjadi -ves.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one day enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one day enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "daies",
+          "dayes",
+          "days"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"days\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Ubah \"day\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three daies for the main hall.\"",
+        "draft": "We ordered three daies for the main hall.",
+        "options": [
+          "We ordered three days for the main hall.",
+          "We ordered three day for the main hall.",
+          "We ordered three day's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"day\" adalah \"days\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"day\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office). — The office received seve (#2)",
+        "targetSentence": "The office received several new classes yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"classes\" (berakhiran -ss ditambah -es).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"shelf\" adalah...",
+        "options": [
+          "shelfs",
+          "shelfes",
+          "shelves"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"shelf\" menjadi \"shelves\" karena aturan: -f berubah menjadi -ves.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one key enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one key enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "keies",
+          "keyes",
+          "keys"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"keys\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Ubah \"key\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three keies for the main hall.\"",
+        "draft": "We ordered three keies for the main hall.",
+        "options": [
+          "We ordered three keys for the main hall.",
+          "We ordered three key for the main hall.",
+          "We ordered three key's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"key\" adalah \"keys\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"key\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"half\" adalah...",
+        "options": [
+          "halves",
+          "halfs",
+          "halfes"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"half\" menjadi \"halves\" karena aturan: -f berubah menjadi -ves.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one survey enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one survey enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "surveies",
+          "surveyes",
+          "surveys"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"surveys\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Ubah \"survey\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three surveies for the main hall.\"",
+        "draft": "We ordered three surveies for the main hall.",
+        "options": [
+          "We ordered three surveys for the main hall.",
+          "We ordered three survey for the main hall.",
+          "We ordered three survey's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"survey\" adalah \"surveys\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"survey\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"tomato\" adalah...",
+        "options": [
+          "tomatoes",
+          "tomatos",
+          "tomato's"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"tomato\" menjadi \"tomatoes\" karena aturan: kata benda -o tertentu + -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · cities).",
+        "targetSentence": "The office received several new cities yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"cities\" (konsonan + y -> ubah y menjadi -ies).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"potato\" adalah...",
+        "options": [
+          "potatoes",
+          "potatos",
+          "potato's"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"potato\" menjadi \"potatoes\" karena aturan: kata benda -o tertentu + -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one tray enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one tray enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "traies",
+          "trayes",
+          "trays"
+        ],
+        "answer": 2,
+        "explanation": "Setelah angka \"five\", gunakan plural \"trays\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Ubah \"tray\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three traies for the main hall.\"",
+        "draft": "We ordered three traies for the main hall.",
+        "options": [
+          "We ordered three tray's for the main hall.",
+          "We ordered three trays for the main hall.",
+          "We ordered three tray for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"tray\" adalah \"trays\" (vokal + y -> langsung + -s).",
+        "hints": [
+          "Cek ejaan plural dari \"tray\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"photo\" adalah...",
+        "options": [
+          "photies",
+          "photos",
+          "photoes"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"photo\" menjadi \"photos\" karena aturan: singkatan photograph ('photo') hanya + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office). — The office received seve (#3)",
+        "targetSentence": "The office received several new companies yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"companies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"piano\" adalah...",
+        "options": [
+          "pianies",
+          "pianos",
+          "pianoes"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"piano\" menjadi \"pianos\" karena aturan: alat musik -o ('piano') hanya + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one knife enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one knife enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "knives",
+          "knifes",
+          "knifs"
+        ],
+        "answer": 0,
+        "explanation": "Setelah angka \"five\", gunakan plural \"knives\" (-fe berubah menjadi -ves).",
+        "hints": [
+          "Ubah \"knife\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three knifes for the main hall.\"",
+        "draft": "We ordered three knifes for the main hall.",
+        "options": [
+          "We ordered three knife for the main hall.",
+          "We ordered three knife's for the main hall.",
+          "We ordered three knives for the main hall."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak dari \"knife\" adalah \"knives\" (-fe berubah menjadi -ves).",
+        "hints": [
+          "Cek ejaan plural dari \"knife\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"memo\" adalah...",
+        "options": [
+          "memoes",
+          "memies",
+          "memos"
+        ],
+        "answer": 2,
+        "explanation": "Kata \"memo\" menjadi \"memos\" karena aturan: singkatan memorandum ('memo') hanya + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one leaf enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one leaf enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "leaves",
+          "leafs",
+          "leafes"
+        ],
+        "answer": 0,
+        "explanation": "Setelah angka \"five\", gunakan plural \"leaves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Ubah \"leaf\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three leafs for the main hall.\"",
+        "draft": "We ordered three leafs for the main hall.",
+        "options": [
+          "We ordered three leaf's for the main hall.",
+          "We ordered three leaves for the main hall.",
+          "We ordered three leaf for the main hall."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak dari \"leaf\" adalah \"leaves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Cek ejaan plural dari \"leaf\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office). — The office received seve (#4)",
+        "targetSentence": "The office received several new policies yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"policies\" (konsonan + y -> -ies).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"quiz\" adalah...",
+        "options": [
+          "quizzes",
+          "quizes",
+          "quizs"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"quiz\" menjadi \"quizzes\" karena aturan: -z menggandakan z + -es -> quizzes.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one shelf enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Is one shelf enough for all guests?"
+          ],
+          [
+            "Manager",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "shelfes",
+          "shelves",
+          "shelfs"
+        ],
+        "answer": 1,
+        "explanation": "Setelah angka \"five\", gunakan plural \"shelves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Ubah \"shelf\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three shelfs for the main hall.\"",
+        "draft": "We ordered three shelfs for the main hall.",
+        "options": [
+          "We ordered three shelves for the main hall.",
+          "We ordered three shelf for the main hall.",
+          "We ordered three shelf's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"shelf\" adalah \"shelves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Cek ejaan plural dari \"shelf\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"branch\" adalah...",
+        "options": [
+          "branches",
+          "branchs",
+          "branchies"
+        ],
+        "answer": 0,
+        "explanation": "Kata \"branch\" menjadi \"branches\" karena aturan: berakhiran -ch -> + -es.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk jamak yang benar untuk melengkapi percakapan: \"Is one half enough for all guests? / No, please bring several ___ right away.\"",
+        "dialogue": [
+          [
+            "Manager",
+            "Is one half enough for all guests?"
+          ],
+          [
+            "Staff",
+            "No, please bring several ___ right away."
+          ]
+        ],
+        "options": [
+          "halves",
+          "halfs",
+          "halfes"
+        ],
+        "answer": 0,
+        "explanation": "Setelah angka \"five\", gunakan plural \"halves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Ubah \"half\" menjadi bentuk jamak.",
+          "Perhatikan ejaan akhir kata."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan bentuk jamak pada kalimat ini: \"We ordered three halfs for the main hall.\"",
+        "draft": "We ordered three halfs for the main hall.",
+        "options": [
+          "We ordered three halves for the main hall.",
+          "We ordered three half for the main hall.",
+          "We ordered three half's for the main hall."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak dari \"half\" adalah \"halves\" (-f berubah menjadi -ves).",
+        "hints": [
+          "Cek ejaan plural dari \"half\".",
+          "Jangan gunakan apostrof untuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk jamak (plural) yang benar untuk kata \"budget\" adalah...",
+        "options": [
+          "budget's",
+          "budgets",
+          "budgetes"
+        ],
+        "answer": 1,
+        "explanation": "Kata \"budget\" menjadi \"budgets\" karena aturan: noun reguler + -s.",
+        "hints": [
+          "Perhatikan huruf akhir kata benda.",
+          "Jangan gunakan apostrof ('s) untuk bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda jamak (plural noun) yang tepat (7 kata; fokus: new · The · office). — The office received seve (#5)",
+        "targetSentence": "The office received several new stories yesterday.",
+        "explanation": "Kata \"several\" diikuti bentuk jamak \"stories\" (konsonan + y -> -ies).",
+        "hints": [
+          "Mulai dengan 'The office received'.",
+          "Letakkan 'yesterday' di akhir kalimat."
+        ],
+        "skill": "plural-noun"
       }
     ],
     "intermediate": [
@@ -551,6 +1991,1446 @@
           "Susun S + V + adj + uncountable noun."
         ],
         "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"child\" adalah...",
+        "options": [
+          "childs",
+          "childrens",
+          "children"
+        ],
+        "answer": 2,
+        "explanation": "\"child\" memiliki bentuk jamak khusus yaitu \"children\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one child in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one child in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "children",
+          "childs",
+          "childrens"
+        ],
+        "answer": 0,
+        "explanation": "Jamak dari \"child\" adalah \"children\".",
+        "hints": [
+          "Gunakan irregular plural dari \"child\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Several childs attended the safety workshop.\"",
+        "draft": "Several childs attended the safety workshop.",
+        "options": [
+          "Several children attended the safety workshop.",
+          "Several childrens attended the safety workshop.",
+          "Several childs attended the safety workshop."
+        ],
+        "answer": 0,
+        "explanation": "Jamak tidak beraturan dari 'child' adalah 'children'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"person\" adalah...",
+        "options": [
+          "persons",
+          "peoples",
+          "people"
+        ],
+        "answer": 2,
+        "explanation": "\"person\" memiliki bentuk jamak khusus yaitu \"people\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: both · Three · senior).",
+        "targetSentence": "Three senior analysts completed both laboratory analyses.",
+        "explanation": "Irregular plural 'analyses' dari 'analysis'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"man\" adalah...",
+        "options": [
+          "mens",
+          "men",
+          "mans"
+        ],
+        "answer": 1,
+        "explanation": "\"man\" memiliki bentuk jamak khusus yaitu \"men\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one person in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one person in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "persons",
+          "peoples",
+          "people"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"person\" adalah \"people\".",
+        "hints": [
+          "Gunakan irregular plural dari \"person\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Five persons joined the morning tour.\"",
+        "draft": "Five persons joined the morning tour.",
+        "options": [
+          "Five persons joined the morning tour.",
+          "Five people joined the morning tour.",
+          "Five peoples joined the morning tour."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak umum dari 'person' adalah 'people'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"woman\" adalah...",
+        "options": [
+          "womens",
+          "women",
+          "womans"
+        ],
+        "answer": 1,
+        "explanation": "\"woman\" memiliki bentuk jamak khusus yaitu \"women\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one man in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one man in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "mans",
+          "mens",
+          "men"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"man\" adalah \"men\".",
+        "hints": [
+          "Gunakan irregular plural dari \"man\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Two mans repaired the backup cable.\"",
+        "draft": "Two mans repaired the backup cable.",
+        "options": [
+          "Two mans repaired the backup cable.",
+          "Two men repaired the backup cable.",
+          "Two mens repaired the backup cable."
+        ],
+        "answer": 1,
+        "explanation": "Jamak dari 'man' adalah 'men'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (8 kata; fokus: of · The · two).",
+        "targetSentence": "The airline lost two pieces of heavy luggage.",
+        "explanation": "'Luggage' dihitung memakai 'pieces of luggage'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"foot\" adalah...",
+        "options": [
+          "feet",
+          "foots",
+          "feets"
+        ],
+        "answer": 0,
+        "explanation": "\"foot\" memiliki bentuk jamak khusus yaitu \"feet\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one woman in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one woman in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "womans",
+          "womens",
+          "women"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"woman\" adalah \"women\".",
+        "hints": [
+          "Gunakan irregular plural dari \"woman\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Three womans chaired the seminar panels.\"",
+        "draft": "Three womans chaired the seminar panels.",
+        "options": [
+          "Three womens chaired the seminar panels.",
+          "Three womans chaired the seminar panels.",
+          "Three women chaired the seminar panels."
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari 'woman' adalah 'women'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"tooth\" adalah...",
+        "options": [
+          "tooths",
+          "teeths",
+          "teeth"
+        ],
+        "answer": 2,
+        "explanation": "\"tooth\" memiliki bentuk jamak khusus yaitu \"teeth\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one foot in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one foot in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "feet",
+          "foots",
+          "feets"
+        ],
+        "answer": 0,
+        "explanation": "Jamak dari \"foot\" adalah \"feet\".",
+        "hints": [
+          "Gunakan irregular plural dari \"foot\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The hallway measures twelve foots wide.\"",
+        "draft": "The hallway measures twelve foots wide.",
+        "options": [
+          "The hallway measures twelve foots wide.",
+          "The hallway measures twelve feet wide.",
+          "The hallway measures twelve feets wide."
+        ],
+        "answer": 1,
+        "explanation": "Jamak dari 'foot' adalah 'feet'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"mouse\" adalah...",
+        "options": [
+          "mices",
+          "mice",
+          "mouses"
+        ],
+        "answer": 1,
+        "explanation": "\"mouse\" memiliki bentuk jamak khusus yaitu \"mice\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: new · fog. · landed).",
+        "targetSentence": "Several new aircraft landed safely despite fog.",
+        "explanation": "'Aircraft' memiliki bentuk sama untuk singular & plural.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"goose\" adalah...",
+        "options": [
+          "geese",
+          "gooses",
+          "geeses"
+        ],
+        "answer": 0,
+        "explanation": "\"goose\" memiliki bentuk jamak khusus yaitu \"geese\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one tooth in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one tooth in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "tooths",
+          "teeths",
+          "teeth"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"tooth\" adalah \"teeth\".",
+        "hints": [
+          "Gunakan irregular plural dari \"tooth\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Lab staff cleaned the lab after mouses appeared.\"",
+        "draft": "Lab staff cleaned the lab after mouses appeared.",
+        "options": [
+          "Lab staff cleaned the lab after mouses appeared.",
+          "Lab staff cleaned the lab after mice appeared.",
+          "Lab staff cleaned the lab after mices appeared."
+        ],
+        "answer": 1,
+        "explanation": "Jamak dari 'mouse' adalah 'mice'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"ox\" adalah...",
+        "options": [
+          "oxen",
+          "oxes",
+          "oxs"
+        ],
+        "answer": 0,
+        "explanation": "\"ox\" memiliki bentuk jamak khusus yaitu \"oxen\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: The · four · strict).",
+        "targetSentence": "The selection committee reviewed four strict criteria.",
+        "explanation": "'Criteria' adalah jamak dari 'criterion'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"sheep\" adalah...",
+        "options": [
+          "sheeps",
+          "sheepes",
+          "sheep"
+        ],
+        "answer": 2,
+        "explanation": "\"sheep\" memiliki bentuk jamak khusus yaitu \"sheep\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one mouse in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one mouse in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "mices",
+          "mice",
+          "mouses"
+        ],
+        "answer": 1,
+        "explanation": "Jamak dari \"mouse\" adalah \"mice\".",
+        "hints": [
+          "Gunakan irregular plural dari \"mouse\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Four gooses walked beside the campus pond.\"",
+        "draft": "Four gooses walked beside the campus pond.",
+        "options": [
+          "Four geese walked beside the campus pond.",
+          "Four geeses walked beside the campus pond.",
+          "Four gooses walked beside the campus pond."
+        ],
+        "answer": 0,
+        "explanation": "Jamak dari 'goose' adalah 'geese'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"deer\" adalah...",
+        "options": [
+          "deer",
+          "deers",
+          "deeres"
+        ],
+        "answer": 0,
+        "explanation": "\"deer\" memiliki bentuk jamak khusus yaitu \"deer\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one goose in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one goose in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "geeses",
+          "geese",
+          "gooses"
+        ],
+        "answer": 1,
+        "explanation": "Jamak dari \"goose\" adalah \"geese\".",
+        "hints": [
+          "Gunakan irregular plural dari \"goose\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Twenty sheeps grazed across the green hill.\"",
+        "draft": "Twenty sheeps grazed across the green hill.",
+        "options": [
+          "Twenty sheeps grazed across the green hill.",
+          "Twenty sheep grazed across the green hill.",
+          "Twenty sheepes grazed across the green hill."
+        ],
+        "answer": 1,
+        "explanation": "'Sheep' memiliki bentuk tunggal dan jamak yang sama.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: Our · from · helpful).",
+        "targetSentence": "Our interns received helpful feedback from mentors.",
+        "explanation": "Uncountable 'feedback' tanpa -s.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"fish\" adalah...",
+        "options": [
+          "fishe's",
+          "fish",
+          "fishs"
+        ],
+        "answer": 1,
+        "explanation": "\"fish\" memiliki bentuk jamak khusus yaitu \"fish\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one ox in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one ox in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "oxen",
+          "oxes",
+          "oxs"
+        ],
+        "answer": 0,
+        "explanation": "Jamak dari \"ox\" adalah \"oxen\".",
+        "hints": [
+          "Gunakan irregular plural dari \"ox\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"Three aircrafts landed safely despite heavy fog.\"",
+        "draft": "Three aircrafts landed safely despite heavy fog.",
+        "options": [
+          "Three aircraft landed safely despite heavy fog.",
+          "Three aircraftes landed safely despite heavy fog.",
+          "Three aircrafts landed safely despite heavy fog."
+        ],
+        "answer": 0,
+        "explanation": "'Aircraft' adalah zero-plural (tidak ditambah -s).",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"aircraft\" adalah...",
+        "options": [
+          "aircraft",
+          "aircrafts",
+          "aircraftes"
+        ],
+        "answer": 0,
+        "explanation": "\"aircraft\" memiliki bentuk jamak khusus yaitu \"aircraft\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one sheep in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one sheep in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "sheeps",
+          "sheepes",
+          "sheep"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"sheep\" adalah \"sheep\".",
+        "hints": [
+          "Gunakan irregular plural dari \"sheep\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The committee reviewed four strict criterions.\"",
+        "draft": "The committee reviewed four strict criterions.",
+        "options": [
+          "The committee reviewed four strict criteria.",
+          "The committee reviewed four strict criterias.",
+          "The committee reviewed four strict criterions."
+        ],
+        "answer": 0,
+        "explanation": "Jamak akademik dari 'criterion' adalah 'criteria'.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"series\" adalah...",
+        "options": [
+          "seriess",
+          "series",
+          "serieses"
+        ],
+        "answer": 1,
+        "explanation": "\"series\" memiliki bentuk jamak khusus yaitu \"series\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: the · Many · local).",
+        "targetSentence": "Many local children visited the science museum.",
+        "explanation": "Irregular plural 'children' dari 'child'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"species\" adalah...",
+        "options": [
+          "speciess",
+          "species",
+          "specieses"
+        ],
+        "answer": 1,
+        "explanation": "\"species\" memiliki bentuk jamak khusus yaitu \"species\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one deer in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Guide",
+            "Did your log mention only one deer in that case?"
+          ],
+          [
+            "Researcher",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "deers",
+          "deeres",
+          "deer"
+        ],
+        "answer": 2,
+        "explanation": "Jamak dari \"deer\" adalah \"deer\".",
+        "hints": [
+          "Gunakan irregular plural dari \"deer\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed informations before noon.\"",
+        "draft": "The coordinators reviewed informations before noon.",
+        "options": [
+          "The coordinators reviewed informations before noon.",
+          "The coordinators reviewed information before noon.",
+          "The coordinators reviewed an information before noon."
+        ],
+        "answer": 1,
+        "explanation": "\"information\" adalah uncountable noun tidak ditambah -s atau a/an.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"analysis\" adalah...",
+        "options": [
+          "analysises",
+          "analysiss",
+          "analyses"
+        ],
+        "answer": 2,
+        "explanation": "\"analysis\" memiliki bentuk jamak khusus yaitu \"analyses\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: need · Modern · network).",
+        "targetSentence": "Modern offices need reliable wireless network equipment.",
+        "explanation": "Uncountable 'equipment' tetap tunggal.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"crisis\" adalah...",
+        "options": [
+          "crises",
+          "crisises",
+          "crisiss"
+        ],
+        "answer": 0,
+        "explanation": "\"crisis\" memiliki bentuk jamak khusus yaitu \"crises\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan irregular plural yang benar: \"Did your log mention only one fish in that case? / No, our report recorded several ___ in total.\"",
+        "dialogue": [
+          [
+            "Researcher",
+            "Did your log mention only one fish in that case?"
+          ],
+          [
+            "Guide",
+            "No, our report recorded several ___ in total."
+          ]
+        ],
+        "options": [
+          "fish",
+          "fishs",
+          "fishe's"
+        ],
+        "answer": 0,
+        "explanation": "Jamak dari \"fish\" adalah \"fish\".",
+        "hints": [
+          "Gunakan irregular plural dari \"fish\".",
+          "Jangan tambahkan -s sembarangan."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed equipments before noon.\"",
+        "draft": "The coordinators reviewed equipments before noon.",
+        "options": [
+          "The coordinators reviewed equipment before noon.",
+          "The coordinators reviewed an equipment before noon.",
+          "The coordinators reviewed equipments before noon."
+        ],
+        "answer": 0,
+        "explanation": "\"equipment\" adalah uncountable noun selalu berbentuk tunggal.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"thesis\" adalah...",
+        "options": [
+          "theses",
+          "thesises",
+          "thesiss"
+        ],
+        "answer": 0,
+        "explanation": "\"thesis\" memiliki bentuk jamak khusus yaitu \"theses\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Lead",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "informations",
+          "an information",
+          "information"
+        ],
+        "answer": 2,
+        "explanation": "\"information\" merupakan uncountable noun tidak ditambah -s atau a/an.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed furnitures before noon.\"",
+        "draft": "The coordinators reviewed furnitures before noon.",
+        "options": [
+          "The coordinators reviewed furniture before noon.",
+          "The coordinators reviewed a furniture before noon.",
+          "The coordinators reviewed furnitures before noon."
+        ],
+        "answer": 0,
+        "explanation": "\"furniture\" adalah uncountable noun tidak dijamakkan dengan -s.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: Two · live · this).",
+        "targetSentence": "Two endangered species live inside this forest.",
+        "explanation": "'Species' bentuk tunggal dan jamaknya sama.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"criterion\" adalah...",
+        "options": [
+          "criterias",
+          "criteria",
+          "criterions"
+        ],
+        "answer": 1,
+        "explanation": "\"criterion\" memiliki bentuk jamak khusus yaitu \"criteria\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Lead/Intern: What else should we verify before launching?",
+        "dialogue": [
+          [
+            "Lead",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Intern",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "equipments",
+          "an equipment",
+          "equipment"
+        ],
+        "answer": 2,
+        "explanation": "\"equipment\" merupakan uncountable noun selalu berbentuk tunggal.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed luggages before noon.\"",
+        "draft": "The coordinators reviewed luggages before noon.",
+        "options": [
+          "The coordinators reviewed a luggage before noon.",
+          "The coordinators reviewed luggages before noon.",
+          "The coordinators reviewed luggage before noon."
+        ],
+        "answer": 2,
+        "explanation": "\"luggage\" adalah uncountable noun untuk seluruh bagasi.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk plural tidak beraturan (irregular plural) untuk \"phenomenon\" adalah...",
+        "options": [
+          "phenomenons",
+          "phenomenas",
+          "phenomena"
+        ],
+        "answer": 2,
+        "explanation": "\"phenomenon\" memiliki bentuk jamak khusus yaitu \"phenomena\" (bukan + -s/-es).",
+        "hints": [
+          "Kata ini termasuk irregular plural atau zero-plural.",
+          "Hindari penambahan -s biasa."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Intern/Lead: What else should we verify before launching?",
+        "dialogue": [
+          [
+            "Intern",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Lead",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "a furniture",
+          "furniture",
+          "furnitures"
+        ],
+        "answer": 1,
+        "explanation": "\"furniture\" merupakan uncountable noun tidak dijamakkan dengan -s.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed advices before noon.\"",
+        "draft": "The coordinators reviewed advices before noon.",
+        "options": [
+          "The coordinators reviewed an advice before noon.",
+          "The coordinators reviewed advices before noon.",
+          "The coordinators reviewed advice before noon."
+        ],
+        "answer": 2,
+        "explanation": "\"advice\" adalah uncountable noun memakai 'pieces of advice' jika dihitung.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah...",
+        "options": [
+          "an information",
+          "information",
+          "informations"
+        ],
+        "answer": 1,
+        "explanation": "\"information\" adalah uncountable noun tidak ditambah -s atau a/an.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: all · The · bags.).",
+        "targetSentence": "The museum guards checked all visitor bags.",
+        "explanation": "Regular plural + possessive context.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #22",
+        "options": [
+          "an equipment",
+          "equipment",
+          "equipments"
+        ],
+        "answer": 1,
+        "explanation": "\"equipment\" adalah uncountable noun selalu berbentuk tunggal.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Lead/Intern: What else should we verify before launching? (#2)",
+        "dialogue": [
+          [
+            "Lead",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Intern",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "luggages",
+          "a luggage",
+          "luggage"
+        ],
+        "answer": 2,
+        "explanation": "\"luggage\" merupakan uncountable noun untuk seluruh bagasi.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed traffics before noon.\"",
+        "draft": "The coordinators reviewed traffics before noon.",
+        "options": [
+          "The coordinators reviewed traffic before noon.",
+          "The coordinators reviewed a traffic before noon.",
+          "The coordinators reviewed traffics before noon."
+        ],
+        "answer": 0,
+        "explanation": "\"traffic\" adalah uncountable noun lalu lintas.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #23",
+        "options": [
+          "furniture",
+          "furnitures",
+          "a furniture"
+        ],
+        "answer": 0,
+        "explanation": "\"furniture\" adalah uncountable noun tidak dijamakkan dengan -s.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: data · Clear · these).",
+        "targetSentence": "Clear statistical data supports these environmental theses.",
+        "explanation": "Irregular plural 'theses' dari 'thesis'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #24",
+        "options": [
+          "luggages",
+          "a luggage",
+          "luggage"
+        ],
+        "answer": 2,
+        "explanation": "\"luggage\" adalah uncountable noun untuk seluruh bagasi.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Intern/Lead: What else should we verify before launching? (#2)",
+        "dialogue": [
+          [
+            "Intern",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Lead",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "advices",
+          "an advice",
+          "advice"
+        ],
+        "answer": 2,
+        "explanation": "\"advice\" merupakan uncountable noun memakai 'pieces of advice' jika dihitung.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed researches before noon.\"",
+        "draft": "The coordinators reviewed researches before noon.",
+        "options": [
+          "The coordinators reviewed researches before noon.",
+          "The coordinators reviewed research before noon.",
+          "The coordinators reviewed a research before noon."
+        ],
+        "answer": 1,
+        "explanation": "\"research\" adalah uncountable noun dalam konteks akademik.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #25",
+        "options": [
+          "an advice",
+          "advice",
+          "advices"
+        ],
+        "answer": 1,
+        "explanation": "\"advice\" adalah uncountable noun memakai 'pieces of advice' jika dihitung.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Lead/Intern: What else should we verify before launching? (#3)",
+        "dialogue": [
+          [
+            "Lead",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Intern",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "a traffic",
+          "traffic",
+          "traffics"
+        ],
+        "answer": 1,
+        "explanation": "\"traffic\" merupakan uncountable noun lalu lintas.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed knowledges before noon.\"",
+        "draft": "The coordinators reviewed knowledges before noon.",
+        "options": [
+          "The coordinators reviewed a knowledge before noon.",
+          "The coordinators reviewed knowledges before noon.",
+          "The coordinators reviewed knowledge before noon."
+        ],
+        "answer": 2,
+        "explanation": "\"knowledge\" adalah uncountable noun pengetahuan.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: Heavy · three · vans.).",
+        "targetSentence": "Heavy traffic delayed three morning delivery vans.",
+        "explanation": "Uncountable 'traffic' memakai bentuk dasar.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #26",
+        "options": [
+          "traffic",
+          "traffics",
+          "a traffic"
+        ],
+        "answer": 0,
+        "explanation": "\"traffic\" adalah uncountable noun lalu lintas.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Intern/Lead: What else should we verify before launching? (#3)",
+        "dialogue": [
+          [
+            "Intern",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Lead",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "a research",
+          "research",
+          "researches"
+        ],
+        "answer": 1,
+        "explanation": "\"research\" merupakan uncountable noun dalam konteks akademik.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed softwares before noon.\"",
+        "draft": "The coordinators reviewed softwares before noon.",
+        "options": [
+          "The coordinators reviewed software before noon.",
+          "The coordinators reviewed a software before noon.",
+          "The coordinators reviewed softwares before noon."
+        ],
+        "answer": 0,
+        "explanation": "\"software\" adalah uncountable noun perangkat lunak.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #27",
+        "options": [
+          "researches",
+          "a research",
+          "research"
+        ],
+        "answer": 2,
+        "explanation": "\"research\" adalah uncountable noun dalam konteks akademik.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk uncountable noun yang tepat dalam dialog: \"What else should we verify before launching? / We still need reliable ___ from the team.\" — Lead/Intern: What else should we verify before launching? (#4)",
+        "dialogue": [
+          [
+            "Lead",
+            "What else should we verify before launching?"
+          ],
+          [
+            "Intern",
+            "We still need reliable ___ from the team."
+          ]
+        ],
+        "options": [
+          "a knowledge",
+          "knowledge",
+          "knowledges"
+        ],
+        "answer": 1,
+        "explanation": "\"knowledge\" merupakan uncountable noun pengetahuan.",
+        "hints": [
+          "Uncountable noun tidak memakai akhiran -s.",
+          "Gunakan bentuk dasarnya saja."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan irregular plural atau uncountable noun pada kalimat ini: \"The coordinators reviewed feedbacks before noon.\"",
+        "draft": "The coordinators reviewed feedbacks before noon.",
+        "options": [
+          "The coordinators reviewed feedback before noon.",
+          "The coordinators reviewed a feedback before noon.",
+          "The coordinators reviewed feedbacks before noon."
+        ],
+        "answer": 0,
+        "explanation": "\"feedback\" adalah uncountable noun umpan balik.",
+        "hints": [
+          "Cek bentuk jamak tidak beraturan atau sifat uncountable noun.",
+          "Hapus akhiran -s/a/an yang keliru."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bentuk uncountable noun baku untuk konteks kalimat \"The department still needs additional ___ this month\" adalah... — Konteks #28",
+        "options": [
+          "a knowledge",
+          "knowledge",
+          "knowledges"
+        ],
+        "answer": 1,
+        "explanation": "\"knowledge\" adalah uncountable noun pengetahuan.",
+        "hints": [
+          "Kata ini tidak dapat dihitung satu per satu (uncountable).",
+          "Jangan tambahkan -s atau a/an."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan irregular plural atau uncountable noun yang benar (7 kata; fokus: Ten · the · women).",
+        "targetSentence": "Ten experienced women joined the engineering board.",
+        "explanation": "Irregular plural 'women' dari 'woman'.",
+        "hints": [
+          "Perhatikan ejaan jamak tidak beraturan.",
+          "Jangan menambahkan -s pada uncountable noun."
+        ],
+        "skill": "plural-noun"
       }
     ],
     "complex": [
@@ -832,6 +3712,1446 @@
         "hints": [
           "Mulai dengan 'The interior designer ordered'.",
           "Jangan tambahkan -s pada 'furniture'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Five pieces of luggage ___ waiting at Baggage Claim 3.",
+        "options": [
+          "is",
+          "were",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Karena dihitung memakai 'pieces' (jamak), verb yang tepat adalah 'are'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Five pieces of luggage ___ waiting at Baggage Claim 3.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"Five pieces of luggage ___ waiting at Baggage Claim 3.\""
+          ]
+        ],
+        "options": [
+          "is",
+          "were",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Karena dihitung memakai 'pieces' (jamak), verb yang tepat adalah 'are'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Five pieces of luggage is waiting at Baggage Claim 3.\"",
+        "draft": "Five pieces of luggage is waiting at Baggage Claim 3.",
+        "options": [
+          "Five pieces of luggage be waiting at Baggage Claim 3.",
+          "Five pieces of luggage been waiting at Baggage Claim 3.",
+          "Five pieces of luggage are waiting at Baggage Claim 3."
+        ],
+        "answer": 2,
+        "explanation": "Karena dihitung memakai 'pieces' (jamak), verb yang tepat adalah 'are'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"is\" menjadi \"are\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "All of the luggage ___ stored safely in the locker.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' uncountable -> memakai verb tunggal 'is'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (10 kata; fokus: 3. · at · of).",
+        "targetSentence": "Five pieces of luggage are waiting at Baggage Claim 3.",
+        "explanation": "Karena dihitung memakai 'pieces' (jamak), verb yang tepat adalah 'are'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"are\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "These safety criteria ___ updated every fiscal year.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'Criteria' adalah plural (dari criterion) -> memakai 'are'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"All of the luggage ___ stored safely in the locker.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"All of the luggage ___ stored safely in the locker.\""
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' uncountable -> memakai verb tunggal 'is'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"All of the luggage are stored safely in the locker.\"",
+        "draft": "All of the luggage are stored safely in the locker.",
+        "options": [
+          "All of the luggage be stored safely in the locker.",
+          "All of the luggage been stored safely in the locker.",
+          "All of the luggage is stored safely in the locker."
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' uncountable -> memakai verb tunggal 'is'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"are\" menjadi \"is\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "That single criterion ___ the most decisive factor.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Criterion' berbentuk tunggal -> memakai 'is'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"These safety criteria ___ updated every fiscal year.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"These safety criteria ___ updated every fiscal year.\""
+          ]
+        ],
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'Criteria' adalah plural (dari criterion) -> memakai 'are'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"These safety criteria is updated every fiscal year.\"",
+        "draft": "These safety criteria is updated every fiscal year.",
+        "options": [
+          "These safety criteria are updated every fiscal year.",
+          "These safety criteria be updated every fiscal year.",
+          "These safety criteria been updated every fiscal year."
+        ],
+        "answer": 0,
+        "explanation": "'Criteria' adalah plural (dari criterion) -> memakai 'are'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"is\" menjadi \"are\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (10 kata; fokus: in · is · of).",
+        "targetSentence": "All of the luggage is stored safely in the locker.",
+        "explanation": "'Luggage' uncountable -> memakai verb tunggal 'is'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"is\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The team's statistical analyses ___ a steady upward trend.",
+        "options": [
+          "reveals",
+          "is revealing",
+          "reveal"
+        ],
+        "answer": 2,
+        "explanation": "'Analyses' adalah jamak dari 'analysis' -> verb jamak 'reveal'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"That single criterion ___ the most decisive factor.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"That single criterion ___ the most decisive factor.\""
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Criterion' berbentuk tunggal -> memakai 'is'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"That single criterion are the most decisive factor.\"",
+        "draft": "That single criterion are the most decisive factor.",
+        "options": [
+          "That single criterion been the most decisive factor.",
+          "That single criterion is the most decisive factor.",
+          "That single criterion be the most decisive factor."
+        ],
+        "answer": 1,
+        "explanation": "'Criterion' berbentuk tunggal -> memakai 'is'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"are\" menjadi \"is\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "This preliminary analysis ___ promising results.",
+        "options": [
+          "are showing",
+          "shows",
+          "show"
+        ],
+        "answer": 1,
+        "explanation": "'Analysis' berbentuk tunggal -> verb tunggal 'shows'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"The team's statistical analyses ___ a steady upward trend.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"The team's statistical analyses ___ a steady upward trend.\""
+          ]
+        ],
+        "options": [
+          "reveals",
+          "is revealing",
+          "reveal"
+        ],
+        "answer": 2,
+        "explanation": "'Analyses' adalah jamak dari 'analysis' -> verb jamak 'reveal'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"The team's statistical analyses reveals a steady upward trend.\"",
+        "draft": "The team's statistical analyses reveals a steady upward trend.",
+        "options": [
+          "The team's statistical analyses be a steady upward trend.",
+          "The team's statistical analyses been a steady upward trend.",
+          "The team's statistical analyses reveal a steady upward trend."
+        ],
+        "answer": 2,
+        "explanation": "'Analyses' adalah jamak dari 'analysis' -> verb jamak 'reveal'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"reveals\" menjadi \"reveal\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "My new scissors ___ on the cutting mat.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Benda berpasangan seperti 'scissors/glasses/trousers' selalu jamak ('are').",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: are · every · These).",
+        "targetSentence": "These safety criteria are updated every fiscal year.",
+        "explanation": "'Criteria' adalah plural (dari criterion) -> memakai 'are'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"are\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "A pair of safety glasses ___ required inside the workshop.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek intinya 'A pair' (tunggal) -> memakai 'is'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"This preliminary analysis ___ promising results.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"This preliminary analysis ___ promising results.\""
+          ]
+        ],
+        "options": [
+          "are showing",
+          "shows",
+          "show"
+        ],
+        "answer": 1,
+        "explanation": "'Analysis' berbentuk tunggal -> verb tunggal 'shows'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"This preliminary analysis show promising results.\"",
+        "draft": "This preliminary analysis show promising results.",
+        "options": [
+          "This preliminary analysis shows promising results.",
+          "This preliminary analysis be promising results.",
+          "This preliminary analysis been promising results."
+        ],
+        "answer": 0,
+        "explanation": "'Analysis' berbentuk tunggal -> verb tunggal 'shows'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"show\" menjadi \"shows\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Recent research ___ strong demand for solar power.",
+        "options": [
+          "indicates",
+          "indicate",
+          "are indicating"
+        ],
+        "answer": 0,
+        "explanation": "'Research' uncountable noun tunggal -> 'indicates'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: is · the · most).",
+        "targetSentence": "That single criterion is the most decisive factor.",
+        "explanation": "'Criterion' berbentuk tunggal -> memakai 'is'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"is\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two recent studies ___ a clear shift in habits.",
+        "options": [
+          "is indicating",
+          "indicate",
+          "indicates"
+        ],
+        "answer": 1,
+        "explanation": "'Studies' countable jamak -> 'indicate'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"My new scissors ___ on the cutting mat.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"My new scissors ___ on the cutting mat.\""
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Benda berpasangan seperti 'scissors/glasses/trousers' selalu jamak ('are').",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"My new scissors is on the cutting mat.\"",
+        "draft": "My new scissors is on the cutting mat.",
+        "options": [
+          "My new scissors be on the cutting mat.",
+          "My new scissors been on the cutting mat.",
+          "My new scissors are on the cutting mat."
+        ],
+        "answer": 2,
+        "explanation": "Benda berpasangan seperti 'scissors/glasses/trousers' selalu jamak ('are').",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"is\" menjadi \"are\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our new office furniture ___ clean and ergonomic.",
+        "options": [
+          "looks",
+          "look",
+          "are looking"
+        ],
+        "answer": 0,
+        "explanation": "'Furniture' uncountable tunggal -> 'looks'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"A pair of safety glasses ___ required inside the workshop.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"A pair of safety glasses ___ required inside the workshop.\""
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek intinya 'A pair' (tunggal) -> memakai 'is'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"A pair of safety glasses are required inside the workshop.\"",
+        "draft": "A pair of safety glasses are required inside the workshop.",
+        "options": [
+          "A pair of safety glasses been required inside the workshop.",
+          "A pair of safety glasses is required inside the workshop.",
+          "A pair of safety glasses be required inside the workshop."
+        ],
+        "answer": 1,
+        "explanation": "Subjek intinya 'A pair' (tunggal) -> memakai 'is'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"are\" menjadi \"is\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (9 kata; fokus: a · The · reveal).",
+        "targetSentence": "The team's statistical analyses reveal a steady upward trend.",
+        "explanation": "'Analyses' adalah jamak dari 'analysis' -> verb jamak 'reveal'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"reveal\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several pieces of equipment ___ immediate calibration today.",
+        "options": [
+          "is needing",
+          "need",
+          "needs"
+        ],
+        "answer": 1,
+        "explanation": "'Pieces' (jamak) -> verb jamak 'need'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Recent research ___ strong demand for solar power.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"Recent research ___ strong demand for solar power.\""
+          ]
+        ],
+        "options": [
+          "indicates",
+          "indicate",
+          "are indicating"
+        ],
+        "answer": 0,
+        "explanation": "'Research' uncountable noun tunggal -> 'indicates'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Recent research indicate strong demand for solar power.\"",
+        "draft": "Recent research indicate strong demand for solar power.",
+        "options": [
+          "Recent research indicates strong demand for solar power.",
+          "Recent research be strong demand for solar power.",
+          "Recent research been strong demand for solar power."
+        ],
+        "answer": 0,
+        "explanation": "'Research' uncountable noun tunggal -> 'indicates'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"indicate\" menjadi \"indicates\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "All laboratory equipment ___ annual certification.",
+        "options": [
+          "need",
+          "are needing",
+          "needs"
+        ],
+        "answer": 2,
+        "explanation": "'Equipment' uncountable tunggal -> 'needs'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Two recent studies ___ a clear shift in habits.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Two recent studies ___ a clear shift in habits.\""
+          ]
+        ],
+        "options": [
+          "indicate",
+          "indicates",
+          "is indicating"
+        ],
+        "answer": 0,
+        "explanation": "'Studies' countable jamak -> 'indicate'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Two recent studies indicates a clear shift in habits.\"",
+        "draft": "Two recent studies indicates a clear shift in habits.",
+        "options": [
+          "Two recent studies indicate a clear shift in habits.",
+          "Two recent studies be a clear shift in habits.",
+          "Two recent studies been a clear shift in habits."
+        ],
+        "answer": 0,
+        "explanation": "'Studies' countable jamak -> 'indicate'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"indicates\" menjadi \"indicate\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Those rare natural phenomena ___ only near polar latitudes.",
+        "options": [
+          "occur",
+          "occurs",
+          "is occurring"
+        ],
+        "answer": 0,
+        "explanation": "'Phenomena' adalah bentuk jamak dari 'phenomenon' -> 'occur'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (6 kata; fokus: This · shows · analysis).",
+        "targetSentence": "This preliminary analysis shows promising results.",
+        "explanation": "'Analysis' berbentuk tunggal -> verb tunggal 'shows'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"shows\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "This rare phenomenon ___ once every decade.",
+        "options": [
+          "occur",
+          "are occurring",
+          "occurs"
+        ],
+        "answer": 2,
+        "explanation": "'Phenomenon' bentuk tunggal -> 'occurs'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Our new office furniture ___ clean and ergonomic.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"Our new office furniture ___ clean and ergonomic.\""
+          ]
+        ],
+        "options": [
+          "look",
+          "are looking",
+          "looks"
+        ],
+        "answer": 2,
+        "explanation": "'Furniture' uncountable tunggal -> 'looks'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Our new office furniture look clean and ergonomic.\"",
+        "draft": "Our new office furniture look clean and ergonomic.",
+        "options": [
+          "Our new office furniture been clean and ergonomic.",
+          "Our new office furniture looks clean and ergonomic.",
+          "Our new office furniture be clean and ergonomic."
+        ],
+        "answer": 1,
+        "explanation": "'Furniture' uncountable tunggal -> 'looks'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"look\" menjadi \"looks\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many city residents ___ switched to electric bicycles.",
+        "options": [
+          "have",
+          "has",
+          "is having"
+        ],
+        "answer": 0,
+        "explanation": "'Residents' plural -> 'have'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: My · on · are).",
+        "targetSentence": "My new scissors are on the cutting mat.",
+        "explanation": "Benda berpasangan seperti 'scissors/glasses/trousers' selalu jamak ('are').",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"are\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Much technical information ___ available in the appendix.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Much + uncountable' -> tunggal 'is'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Several pieces of equipment ___ immediate calibration today.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Several pieces of equipment ___ immediate calibration today.\""
+          ]
+        ],
+        "options": [
+          "is needing",
+          "need",
+          "needs"
+        ],
+        "answer": 1,
+        "explanation": "'Pieces' (jamak) -> verb jamak 'need'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Several pieces of equipment needs immediate calibration today.\"",
+        "draft": "Several pieces of equipment needs immediate calibration today.",
+        "options": [
+          "Several pieces of equipment be immediate calibration today.",
+          "Several pieces of equipment been immediate calibration today.",
+          "Several pieces of equipment need immediate calibration today."
+        ],
+        "answer": 2,
+        "explanation": "'Pieces' (jamak) -> verb jamak 'need'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"needs\" menjadi \"need\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Few external applicants ___ all language requirements.",
+        "options": [
+          "meet",
+          "meets",
+          "is meeting"
+        ],
+        "answer": 0,
+        "explanation": "'Few + countable plural' -> verb jamak 'meet'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"All laboratory equipment ___ annual certification.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"All laboratory equipment ___ annual certification.\""
+          ]
+        ],
+        "options": [
+          "are needing",
+          "needs",
+          "need"
+        ],
+        "answer": 1,
+        "explanation": "'Equipment' uncountable tunggal -> 'needs'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"All laboratory equipment need annual certification.\"",
+        "draft": "All laboratory equipment need annual certification.",
+        "options": [
+          "All laboratory equipment needs annual certification.",
+          "All laboratory equipment be annual certification.",
+          "All laboratory equipment been annual certification."
+        ],
+        "answer": 0,
+        "explanation": "'Equipment' uncountable tunggal -> 'needs'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"need\" menjadi \"needs\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (10 kata; fokus: A · is · of).",
+        "targetSentence": "A pair of safety glasses is required inside the workshop.",
+        "explanation": "Subjek intinya 'A pair' (tunggal) -> memakai 'is'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"is\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little practical advice ___ offered during the short call.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'Little + uncountable' -> tunggal 'was'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Those rare natural phenomena ___ only near polar latitudes.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Those rare natural phenomena ___ only near polar latitudes.\""
+          ]
+        ],
+        "options": [
+          "occur",
+          "occurs",
+          "is occurring"
+        ],
+        "answer": 0,
+        "explanation": "'Phenomena' adalah bentuk jamak dari 'phenomenon' -> 'occur'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Those rare natural phenomena occurs only near polar latitudes.\"",
+        "draft": "Those rare natural phenomena occurs only near polar latitudes.",
+        "options": [
+          "Those rare natural phenomena be only near polar latitudes.",
+          "Those rare natural phenomena been only near polar latitudes.",
+          "Those rare natural phenomena occur only near polar latitudes."
+        ],
+        "answer": 2,
+        "explanation": "'Phenomena' adalah bentuk jamak dari 'phenomenon' -> 'occur'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"occurs\" menjadi \"occur\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both economic crises ___ regional shipping routes.",
+        "options": [
+          "affecting",
+          "was affecting",
+          "affected"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk lampau jamak yang tepat adalah finite verb 'affected'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"This rare phenomenon ___ once every decade.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"This rare phenomenon ___ once every decade.\""
+          ]
+        ],
+        "options": [
+          "occurs",
+          "occur",
+          "are occurring"
+        ],
+        "answer": 0,
+        "explanation": "'Phenomenon' bentuk tunggal -> 'occurs'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"This rare phenomenon occur once every decade.\"",
+        "draft": "This rare phenomenon occur once every decade.",
+        "options": [
+          "This rare phenomenon been once every decade.",
+          "This rare phenomenon occurs once every decade.",
+          "This rare phenomenon be once every decade."
+        ],
+        "answer": 1,
+        "explanation": "'Phenomenon' bentuk tunggal -> 'occurs'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"occur\" menjadi \"occurs\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The acoustics in this hall ___ exceptional for lectures.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'Acoustics' (sifat akustik ruangan) menggunakan verb jamak 'are'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: for · solar · demand).",
+        "targetSentence": "Recent research indicates strong demand for solar power.",
+        "explanation": "'Research' uncountable noun tunggal -> 'indicates'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"indicates\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Physics ___ mandatory for civil engineering majors.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Nama mata kuliah/ilmu 'Physics' selalu tunggal ('is').",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Many city residents ___ switched to electric bicycles.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Many city residents ___ switched to electric bicycles.\""
+          ]
+        ],
+        "options": [
+          "is having",
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "'Residents' plural -> 'have'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Many city residents has switched to electric bicycles.\"",
+        "draft": "Many city residents has switched to electric bicycles.",
+        "options": [
+          "Many city residents been switched to electric bicycles.",
+          "Many city residents have switched to electric bicycles.",
+          "Many city residents be switched to electric bicycles."
+        ],
+        "answer": 1,
+        "explanation": "'Residents' plural -> 'have'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"has\" menjadi \"have\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The headquarters ___ located near the central harbor.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'Headquarters' sebagai satu gedung pusat memakai verb tunggal 'is'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (9 kata; fokus: a · in · Two).",
+        "targetSentence": "Two recent studies indicate a clear shift in habits.",
+        "explanation": "'Studies' countable jamak -> 'indicate'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"indicate\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Three international means of transport ___ the island to the mainland.",
+        "options": [
+          "connect",
+          "connects",
+          "is connecting"
+        ],
+        "answer": 0,
+        "explanation": "'Means' bisa jamak ('Three ... means') -> 'connect'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Much technical information ___ available in the appendix.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"Much technical information ___ available in the appendix.\""
+          ]
+        ],
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'Much + uncountable' -> tunggal 'is'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Much technical information are available in the appendix.\"",
+        "draft": "Much technical information are available in the appendix.",
+        "options": [
+          "Much technical information be available in the appendix.",
+          "Much technical information been available in the appendix.",
+          "Much technical information is available in the appendix."
+        ],
+        "answer": 2,
+        "explanation": "'Much + uncountable' -> tunggal 'is'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"are\" menjadi \"is\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "One efficient means of transport ___ both terminals.",
+        "options": [
+          "connect",
+          "are connecting",
+          "connects"
+        ],
+        "answer": 2,
+        "explanation": "'One ... means' bersifat tunggal -> 'connects'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Few external applicants ___ all language requirements.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Few external applicants ___ all language requirements.\""
+          ]
+        ],
+        "options": [
+          "is meeting",
+          "meet",
+          "meets"
+        ],
+        "answer": 1,
+        "explanation": "'Few + countable plural' -> verb jamak 'meet'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Few external applicants meets all language requirements.\"",
+        "draft": "Few external applicants meets all language requirements.",
+        "options": [
+          "Few external applicants meet all language requirements.",
+          "Few external applicants be all language requirements.",
+          "Few external applicants been all language requirements."
+        ],
+        "answer": 0,
+        "explanation": "'Few + countable plural' -> verb jamak 'meet'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"meets\" menjadi \"meet\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: and · new · Our).",
+        "targetSentence": "Our new office furniture looks clean and ergonomic.",
+        "explanation": "'Furniture' uncountable tunggal -> 'looks'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"looks\" dengan bentuk noun-nya."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your trousers ___ hanging in the wardrobe.",
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'Trousers' selalu plural -> 'are'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Little practical advice ___ offered during the short call.\"\"",
+        "dialogue": [
+          [
+            "Editor",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Analyst",
+            "Yes: \"Little practical advice ___ offered during the short call.\""
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'Little + uncountable' -> tunggal 'was'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Little practical advice were offered during the short call.\"",
+        "draft": "Little practical advice were offered during the short call.",
+        "options": [
+          "Little practical advice was offered during the short call.",
+          "Little practical advice be offered during the short call.",
+          "Little practical advice been offered during the short call."
+        ],
+        "answer": 0,
+        "explanation": "'Little + uncountable' -> tunggal 'was'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"were\" menjadi \"was\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The news about tax exemptions ___ welcomed by small shops.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'News' selalu uncountable tunggal -> 'was'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik/kantor dengan agreement noun yang tepat: \"Should we update this line before publishing? / Yes: \"Both economic crises ___ regional shipping routes.\"\"",
+        "dialogue": [
+          [
+            "Analyst",
+            "Should we update this line before publishing?"
+          ],
+          [
+            "Editor",
+            "Yes: \"Both economic crises ___ regional shipping routes.\""
+          ]
+        ],
+        "options": [
+          "was affecting",
+          "affected",
+          "affecting"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk lampau jamak yang tepat adalah finite verb 'affected'.",
+        "hints": [
+          "Kenali bentuk singular vs plural yang tidak umum (criteria/criterion, analyses/analysis).",
+          "Perhatikan head noun setelah 'of'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kesesuaian kata benda jamak/uncountable dengan kata kerjanya: \"Both economic crises affecting regional shipping routes.\"",
+        "draft": "Both economic crises affecting regional shipping routes.",
+        "options": [
+          "Both economic crises been regional shipping routes.",
+          "Both economic crises affected regional shipping routes.",
+          "Both economic crises be regional shipping routes."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk lampau jamak yang tepat adalah finite verb 'affected'.",
+        "hints": [
+          "Periksa apakah kata benda di subjek sebenarnya tunggal atau jamak.",
+          "Ganti \"affecting\" menjadi \"affected\"."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many endangered fish ___ around coral reefs.",
+        "options": [
+          "live",
+          "lives",
+          "is living"
+        ],
+        "answer": 0,
+        "explanation": "'Many ... fish' bermakna jamak -> 'live'.",
+        "hints": [
+          "Cek apakah subjeknya plural Yunani/Latin (-a/-es/-i), benda berpasangan, atau uncountable.",
+          "Perhatikan 'a pair of' dan 'pieces of' sebagai penentu jumlah."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan kesesuaian noun dan verb yang akurat (8 kata; fokus: of · need · pieces).",
+        "targetSentence": "Several pieces of equipment need immediate calibration today.",
+        "explanation": "'Pieces' (jamak) -> verb jamak 'need'.",
+        "hints": [
+          "Tempatkan frasa subjek utuh di awal kalimat.",
+          "Cocokkan verb \"need\" dengan bentuk noun-nya."
         ],
         "skill": "plural-noun"
       }

@@ -1,7 +1,13 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { CURRICULUM } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
-import { getQuestionBankAudit, QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
+import {
+  ensureModuleLoaded,
+  getQuestionBankAudit,
+  isModuleLoaded,
+  QUESTION_BANK,
+  SKILL_GUIDE,
+} from "../data/questionBank";
 import { addErrorJournalEntry, saveScore } from "../utils/storage";
 import { AIQuestionPackStudio } from "./AIQuestionPackStudio";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
@@ -15,12 +21,14 @@ interface WordChoiceBankViewProps {
 }
 
 type LevelKey = "simple" | "intermediate" | "complex";
+type QuestionTypeFilter = "all" | "choice" | "dialogue" | "edit" | "build";
 const LEVEL_ORDER: LevelKey[] = ["simple", "intermediate", "complex"];
 const LEVEL_LABELS: Record<LevelKey, string> = {
   simple: "Basic",
   intermediate: "Intermediate",
   complex: "Advanced",
 };
+const PAGE_SIZE = 20;
 
 interface BankQuestionState {
   completed: boolean;
@@ -40,6 +48,14 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
   const moduleKeys = useMemo(() => Object.keys(QUESTION_BANK), [packVersion]);
   const [currentModuleKey, setCurrentModuleKey] = useState<string>(moduleKeys[0] || "");
   const [currentLevelFilter, setCurrentLevelFilter] = useState<"all" | LevelKey>("all");
+  const [typeFilter, setTypeFilter] = useState<QuestionTypeFilter>("all");
+  const [pageByLevel, setPageByLevel] = useState<Record<LevelKey, number>>({
+    simple: 1,
+    intermediate: 1,
+    complex: 1,
+  });
+  const [moduleLoading, setModuleLoading] = useState<boolean>(false);
+  const [moduleLoadError, setModuleLoadError] = useState<string>("");
   const [questionStates, setQuestionStates] = useState<Record<string, BankQuestionState>>({});
   const [overviewExpanded, setOverviewExpanded] = useState<boolean>(false);
   const [auditLevelFilter, setAuditLevelFilter] = useState<string>("all");
@@ -49,6 +65,44 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
     document.body.dataset.module = "word-choice-bank";
     document.title = "Bank Soal — English Learning";
   }, []);
+
+  const loadSelectedModule = (key: string, isCancelled?: () => boolean) => {
+    if (!key) {
+      setModuleLoading(false);
+      setModuleLoadError("");
+      return;
+    }
+    if (isModuleLoaded(key)) {
+      setModuleLoading(false);
+      setModuleLoadError("");
+      return;
+    }
+    setModuleLoading(true);
+    setModuleLoadError("");
+    ensureModuleLoaded(key)
+      .then(() => {
+        if (isCancelled?.()) return;
+        setModuleLoading(false);
+        setPackVersion((v) => v + 1);
+      })
+      .catch(() => {
+        if (isCancelled?.()) return;
+        setModuleLoading(false);
+        setModuleLoadError("Gagal memuat soal modul ini. Periksa koneksi atau coba muat ulang.");
+      });
+  };
+
+  useEffect(() => {
+    let cancelled = false;
+    loadSelectedModule(currentModuleKey, () => cancelled);
+    return () => {
+      cancelled = true;
+    };
+  }, [currentModuleKey]);
+
+  useEffect(() => {
+    setPageByLevel({ simple: 1, intermediate: 1, complex: 1 });
+  }, [currentModuleKey, currentLevelFilter, typeFilter]);
 
   const bankAudit = useMemo(() => getQuestionBankAudit(), [packVersion]);
 
@@ -380,32 +434,56 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
         />
 
         <section id="bankSelector" className="bank-selector">
-          <label htmlFor="moduleSelect">Pilih modul:</label>{" "}
-          <select
-            id="moduleSelect"
-            className="bank-module-select"
-            value={currentModuleKey}
-            onChange={(e) => setCurrentModuleKey(e.target.value)}
-          >
-            <option value="">-- Pilih modul --</option>
-            {moduleKeys.map((key) => (
-              <option key={key} value={key}>
-                {key} — {QUESTION_BANK[key].title}
-              </option>
+          <div className="bank-selector-row">
+            <label htmlFor="moduleSelect">Pilih modul:</label>{" "}
+            <select
+              id="moduleSelect"
+              className="bank-module-select"
+              value={currentModuleKey}
+              onChange={(e) => setCurrentModuleKey(e.target.value)}
+            >
+              <option value="">-- Pilih modul --</option>
+              {moduleKeys.map((key) => (
+                <option key={key} value={key}>
+                  {key} — {QUESTION_BANK[key].title}
+                </option>
+              ))}
+            </select>{" "}
+            <label htmlFor="levelFilter">Filter tingkat:</label>{" "}
+            <select
+              id="levelFilter"
+              className="bank-level-filter"
+              value={currentLevelFilter}
+              onChange={(e) => setCurrentLevelFilter(e.target.value as "all" | LevelKey)}
+            >
+              <option value="all">Semua tingkat</option>
+              <option value="simple">Basic</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="complex">Advanced</option>
+            </select>
+          </div>
+          <div className="bank-type-filter-bar" role="group" aria-label="Filter tipe soal">
+            <span className="bank-type-filter-label">Tipe soal:</span>
+            {(
+              [
+                ["all", "Semua Tipe"],
+                ["choice", "Choice"],
+                ["dialogue", "Dialogue"],
+                ["edit", "Edit / Koreksi"],
+                ["build", "Build / Susun"],
+              ] as const
+            ).map(([tKey, tLabel]) => (
+              <button
+                key={tKey}
+                type="button"
+                className={`filter-pill ${typeFilter === tKey ? "is-active" : ""}`}
+                aria-pressed={typeFilter === tKey}
+                onClick={() => setTypeFilter(tKey)}
+              >
+                {tLabel}
+              </button>
             ))}
-          </select>{" "}
-          <label htmlFor="levelFilter">Filter tingkat:</label>{" "}
-          <select
-            id="levelFilter"
-            className="bank-level-filter"
-            value={currentLevelFilter}
-            onChange={(e) => setCurrentLevelFilter(e.target.value as "all" | LevelKey)}
-          >
-            <option value="all">Semua tingkat</option>
-            <option value="simple">Basic</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="complex">Advanced</option>
-          </select>
+          </div>
         </section>
 
         <section id="bankOverview" className="bank-overview">
@@ -651,6 +729,31 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
         <section id="bankContent" className="bank-content">
           {!currentMod ? (
             <p>Pilih modul dari daftar di atas untuk melihat soal.</p>
+          ) : moduleLoading ? (
+            <div className="note" role="status" aria-live="polite">
+              Memuat bank soal modul <b>{currentMod.title}</b> (100+ soal per tingkat)...
+            </div>
+          ) : moduleLoadError ? (
+            <div
+              className="warn"
+              role="alert"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: ".75rem",
+                flexWrap: "wrap",
+              }}
+            >
+              <span>{moduleLoadError}</span>
+              <button
+                type="button"
+                className="filter-pill"
+                onClick={() => loadSelectedModule(currentModuleKey)}
+              >
+                ↻ Muat Ulang
+              </button>
+            </div>
           ) : (
             <>
               {levelsToShow.map((levelKey) => {
@@ -679,41 +782,163 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
                   ([, t]) => t.correct / t.count < 0.8
                 );
 
+                const indexedQuestions = levelQuestions
+                  .map((q, origIdx) => ({ q, origIdx }))
+                  .filter(({ q }) => {
+                    if (typeFilter === "all") return true;
+                    const resolvedType = q.type || "choice";
+                    return resolvedType === typeFilter;
+                  });
+
+                const totalFiltered = indexedQuestions.length;
+                const totalPages = Math.max(1, Math.ceil(totalFiltered / PAGE_SIZE));
+                const rawPage = pageByLevel[levelKey] || 1;
+                const currentPage = Math.min(Math.max(1, rawPage), totalPages);
+                const startIdx = (currentPage - 1) * PAGE_SIZE;
+                const endIdx = Math.min(startIdx + PAGE_SIZE, totalFiltered);
+                const visibleQuestions = indexedQuestions.slice(startIdx, endIdx);
+
+                const setLevelPage = (nextPage: number, scrollTop = false) => {
+                  const clamped = Math.min(Math.max(1, nextPage), totalPages);
+                  setPageByLevel((prev) => ({ ...prev, [levelKey]: clamped }));
+                  if (scrollTop) {
+                    document
+                      .getElementById(`bank-${levelKey}`)
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }
+                };
+
+                const jumpToFirstUnanswered = () => {
+                  const firstIdx = indexedQuestions.findIndex(
+                    ({ origIdx }) => !questionStates[`${levelKey}-${origIdx}`]?.completed
+                  );
+                  if (firstIdx >= 0) {
+                    setLevelPage(Math.floor(firstIdx / PAGE_SIZE) + 1, true);
+                  }
+                };
+
+                const renderPaginationControls = (scrollOnClick: boolean) => {
+                  if (totalFiltered <= PAGE_SIZE && totalFiltered > 0) return null;
+                  const pageNumbers: number[] = [];
+                  for (let p = 1; p <= totalPages; p++) {
+                    if (
+                      p === 1 ||
+                      p === totalPages ||
+                      Math.abs(p - currentPage) <= 1
+                    ) {
+                      pageNumbers.push(p);
+                    }
+                  }
+                  return (
+                    <div className="bank-pagination" role="navigation" aria-label={`Halaman soal ${LEVEL_LABELS[levelKey]}`}>
+                      <span className="bank-pagination-info tabular-num">
+                        Menampilkan{" "}
+                        {totalFiltered === 0 ? "0" : `${startIdx + 1}–${endIdx}`} dari{" "}
+                        {totalFiltered} soal · Hal. {currentPage}/{totalPages}
+                      </span>
+                      <div className="bank-pagination-buttons">
+                        <button
+                          type="button"
+                          className="filter-pill"
+                          disabled={currentPage <= 1}
+                          onClick={() => setLevelPage(currentPage - 1, scrollOnClick)}
+                        >
+                          ← Sebelumnya
+                        </button>
+                        {pageNumbers.map((p, pIdx) => {
+                          const prevP = pageNumbers[pIdx - 1];
+                          const showEllipsis = prevP != null && p - prevP > 1;
+                          return (
+                            <React.Fragment key={p}>
+                              {showEllipsis && (
+                                <span className="bank-pagination-ellipsis" aria-hidden="true">
+                                  …
+                                </span>
+                              )}
+                              <button
+                                type="button"
+                                className={`filter-pill tabular-num ${
+                                  p === currentPage ? "is-active" : ""
+                                }`}
+                                aria-current={p === currentPage ? "page" : undefined}
+                                onClick={() => setLevelPage(p, scrollOnClick)}
+                              >
+                                {p}
+                              </button>
+                            </React.Fragment>
+                          );
+                        })}
+                        <button
+                          type="button"
+                          className="filter-pill"
+                          disabled={currentPage >= totalPages}
+                          onClick={() => setLevelPage(currentPage + 1, scrollOnClick)}
+                        >
+                          Berikutnya →
+                        </button>
+                        {levelCompleted < levelQuestions.length && (
+                          <button
+                            type="button"
+                            className="filter-pill"
+                            onClick={jumpToFirstUnanswered}
+                          >
+                            Lompat Belum Dijawab
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  );
+                };
+
                 return (
                   <section
                     key={`${currentModuleKey}-${levelKey}`}
                     className="bank-level-section"
                     id={`bank-${levelKey}`}
                   >
-                    <h2>
-                      {LEVEL_LABELS[levelKey]} · {currentMod.title}
-                    </h2>
-                    <form
-                      className="bank-quiz"
-                      id={`bankForm-${levelKey}`}
-                      onSubmit={(e) => e.preventDefault()}
-                    >
-                      {levelQuestions.map((q, i) => {
-                        const stateKey = `${levelKey}-${i}`;
-                        const st = questionStates[stateKey];
-                        if (!st) return null;
+                    <div className="bank-level-head">
+                      <h2>
+                        {LEVEL_LABELS[levelKey]} · {currentMod.title}
+                      </h2>
+                      <span className="bank-level-count tabular-num">
+                        {levelCompleted}/{levelQuestions.length} selesai
+                      </span>
+                    </div>
 
-                        const isBuild = q.type === "build" && Array.isArray(q.answer);
+                    {renderPaginationControls(false)}
 
-                        return (
-                          <fieldset
-                            key={stateKey}
-                            className="bank-question"
-                            data-level={levelKey}
-                            data-index={i}
-                            data-state={st.feedbackType || undefined}
-                          >
-                            <legend className="question-legend-row">
-                              <span>
-                                {i + 1}. {q.prompt}
-                              </span>
-                              <SpeakButton text={q.draft || q.prompt} label="Listen" />
-                            </legend>
+                    {visibleQuestions.length === 0 ? (
+                      <p className="empty">
+                        Tidak ada soal bertipe "{typeFilter}" pada tingkat{" "}
+                        {LEVEL_LABELS[levelKey]} untuk modul ini.
+                      </p>
+                    ) : (
+                      <form
+                        className="bank-quiz"
+                        id={`bankForm-${levelKey}`}
+                        onSubmit={(e) => e.preventDefault()}
+                      >
+                        {visibleQuestions.map(({ q, origIdx: i }) => {
+                          const stateKey = `${levelKey}-${i}`;
+                          const st = questionStates[stateKey];
+                          if (!st) return null;
+
+                          const isBuild = q.type === "build" && Array.isArray(q.answer);
+
+                          return (
+                            <fieldset
+                              key={stateKey}
+                              className="bank-question"
+                              data-level={levelKey}
+                              data-index={i}
+                              data-state={st.feedbackType || undefined}
+                            >
+                              <legend className="question-legend-row">
+                                <span>
+                                  {i + 1}. {q.prompt}
+                                </span>
+                                <SpeakButton text={q.draft || q.prompt} label="Listen" />
+                              </legend>
 
                             {q.type === "dialogue" && q.dialogue && (
                               <div className="bank-dialogue">
@@ -843,10 +1068,13 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
                             >
                               Periksa jawaban
                             </button>
-                          </fieldset>
-                        );
-                      })}
-                    </form>
+                            </fieldset>
+                          );
+                        })}
+                      </form>
+                    )}
+
+                    {renderPaginationControls(true)}
 
                     <div
                       id={`result-${levelKey}`}

@@ -261,6 +261,1446 @@
           "Gunakan pasangan 'not as crowded as'."
         ],
         "skill": "comparative-as-as"
+      },
+      {
+        "type": "choice",
+        "prompt": "The express train is ___ than the regional bus.",
+        "options": [
+          "faster",
+          "more fast",
+          "fastest"
+        ],
+        "answer": 0,
+        "explanation": "Adjektiva 1 suku kata ('fast') memakai akhiran -er -> 'faster'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we take the highway bus or the express train? / The train is much ___ during rush hour.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should we take the highway bus or the express train?"
+          ],
+          [
+            "Dodi",
+            "The train is much ___ during rush hour."
+          ]
+        ],
+        "options": [
+          "more fast",
+          "fastest",
+          "faster"
+        ],
+        "answer": 2,
+        "explanation": "Comparative 'faster' dibandingkan dengan bus.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The express train is more faster than the bus.\"",
+        "draft": "The express train is more faster than the bus.",
+        "options": [
+          "The express train is faster than the bus.",
+          "The express train is more fast than the bus.",
+          "The express train is more faster than the bus."
+        ],
+        "answer": 0,
+        "explanation": "Hindari double comparative 'more faster'; gunakan 'faster'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This new tablet is ___ than the older model.",
+        "options": [
+          "more light",
+          "lightest",
+          "lighter"
+        ],
+        "answer": 2,
+        "explanation": "1 suku kata ('light') -> 'lighter'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kereta ekspres jauh lebih cepat daripada bus kota.\".",
+        "targetSentence": "The express train is much faster than the city bus.",
+        "explanation": "Comparative 1 suku kata 'faster' dikuatkan 'much'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Today's conference hall is ___ than yesterday's room.",
+        "options": [
+          "more big",
+          "bigger",
+          "biger"
+        ],
+        "answer": 1,
+        "explanation": "CVC 1 suku kata ('big') menggandakan 'g' -> 'bigger'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which hotel near Gate 2 has good Wi-Fi? / Stay at Hotel B; its connection is ___ than Hotel A's.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Which hotel near Gate 2 has good Wi-Fi?"
+          ],
+          [
+            "Bima",
+            "Stay at Hotel B; its connection is ___ than Hotel A's."
+          ]
+        ],
+        "options": [
+          "better",
+          "gooder",
+          "more good"
+        ],
+        "answer": 0,
+        "explanation": "Comparative tak beraturan 'good' -> 'better'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This desk is more bigger than the corner table.\"",
+        "draft": "This desk is more bigger than the corner table.",
+        "options": [
+          "This desk is more bigger than the corner table.",
+          "This desk is bigger than the corner table.",
+          "This desk is biger than the corner table."
+        ],
+        "answer": 1,
+        "explanation": "Hindari 'more bigger' dan gandakan 'g' pada 'bigger'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Digital forms are ___ convenient than paper folders.",
+        "options": [
+          "much",
+          "more",
+          "most"
+        ],
+        "answer": 1,
+        "explanation": "Adjektiva 3+ suku kata ('convenient') memakai 'more ... than'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How is the traffic on Jalan Sudirman right now? / Actually, it looks ___ than an hour ago.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "How is the traffic on Jalan Sudirman right now?"
+          ],
+          [
+            "Eko",
+            "Actually, it looks ___ than an hour ago."
+          ]
+        ],
+        "options": [
+          "worse",
+          "badder",
+          "more bad"
+        ],
+        "answer": 0,
+        "explanation": "Comparative tak beraturan 'bad' -> 'worse'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She got the most good score in her cohort.\"",
+        "draft": "She got the most good score in her cohort.",
+        "options": [
+          "She got the best score in her cohort.",
+          "She got the goodest score in her cohort.",
+          "She got the most good score in her cohort."
+        ],
+        "answer": 0,
+        "explanation": "Superlative dari 'good' adalah 'best'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kapasitas baterai Model B lebih baik daripada Model A.\".",
+        "targetSentence": "Battery life on Model B is better than Model A.",
+        "explanation": "Comparative tak beraturan 'better'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He runs a ___ warehouse than our downtown branch.",
+        "options": [
+          "more large",
+          "largest",
+          "larger"
+        ],
+        "answer": 2,
+        "explanation": "'Large' berakhiran -e cukup ditambah -r -> 'larger'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which printer should we buy for the clinic? / Pick the compact laser one—it is ___ reliable.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Which printer should we buy for the clinic?"
+          ],
+          [
+            "Sari",
+            "Pick the compact laser one—it is ___ reliable."
+          ]
+        ],
+        "options": [
+          "most",
+          "much",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "2+ suku kata ('reliable') dibandingkan dua pilihan -> 'more reliable'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Traffic today is badder than yesterday morning.\"",
+        "draft": "Traffic today is badder than yesterday morning.",
+        "options": [
+          "Traffic today is more bad than yesterday morning.",
+          "Traffic today is badder than yesterday morning.",
+          "Traffic today is worse than yesterday morning."
+        ],
+        "answer": 2,
+        "explanation": "Comparative dari 'bad' adalah 'worse'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your second presentation was ___ clear than the first.",
+        "options": [
+          "much clearer",
+          "more clearer",
+          "clearest"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan '-er' tanpa 'more'; dapat dikuatkan dengan 'much clearer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you move your desk near the window? / It is the ___ corner in the whole office.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why did you move your desk near the window?"
+          ],
+          [
+            "Putri",
+            "It is the ___ corner in the whole office."
+          ]
+        ],
+        "options": [
+          "most bright",
+          "brighter",
+          "brightest"
+        ],
+        "answer": 2,
+        "explanation": "Superlative 1 suku kata -> 'brightest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He submitted the draft earlyer than everyone else.\"",
+        "draft": "He submitted the draft earlyer than everyone else.",
+        "options": [
+          "He submitted the draft earlyer than everyone else.",
+          "He submitted the draft earlier than everyone else.",
+          "He submitted the draft more early than everyone else."
+        ],
+        "answer": 1,
+        "explanation": "'Early' (-y) berubah menjadi 'earlier'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our morning shift starts ___ than the afternoon team.",
+        "options": [
+          "earlyer",
+          "more early",
+          "earlier"
+        ],
+        "answer": 2,
+        "explanation": "2 suku kata berakhiran -y ('early') -> ubah -y menjadi -ier ('earlier').",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Lalu lintas hari Jumat lebih buruk daripada Selasa pagi.\".",
+        "targetSentence": "Traffic on Friday is worse than on Tuesday morning.",
+        "explanation": "Comparative tak beraturan 'worse'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This quiet desk is the ___ spot in the library.",
+        "options": [
+          "best",
+          "goodest",
+          "better"
+        ],
+        "answer": 0,
+        "explanation": "Superlative tak beraturan dari 'good' adalah 'best'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are these new manuals easier to follow? / Yes! They are ___ clearer than the 2020 guide.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Are these new manuals easier to follow?"
+          ],
+          [
+            "Arman",
+            "Yes! They are ___ clearer than the 2020 guide."
+          ]
+        ],
+        "options": [
+          "more",
+          "most",
+          "much"
+        ],
+        "answer": 2,
+        "explanation": "Penguat sebelum comparative '-er' memakai 'much', bukan 'more'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This backpack is more heavy than my suitcase.\"",
+        "draft": "This backpack is more heavy than my suitcase.",
+        "options": [
+          "This backpack is heavyer than my suitcase.",
+          "This backpack is more heavy than my suitcase.",
+          "This backpack is heavier than my suitcase."
+        ],
+        "answer": 2,
+        "explanation": "'Heavy' (-y) menjadi 'heavier'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Battery life on Model B is ___ than Model A.",
+        "options": [
+          "gooder",
+          "better",
+          "more good"
+        ],
+        "answer": 1,
+        "explanation": "Comparative tak beraturan dari 'good' adalah 'better'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Formulir digital lebih praktis daripada map kertas.\".",
+        "targetSentence": "Digital forms are more convenient than paper folders.",
+        "explanation": "Adjektiva panjang memakai 'more ... than'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Traffic on Fridays is ___ than on Tuesday mornings.",
+        "options": [
+          "more bad",
+          "worse",
+          "badder"
+        ],
+        "answer": 1,
+        "explanation": "Comparative tak beraturan dari 'bad' adalah 'worse'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did we use as many boxes as last month? / No, we shipped ___ boxes this quarter.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did we use as many boxes as last month?"
+          ],
+          [
+            "Adi",
+            "No, we shipped ___ boxes this quarter."
+          ]
+        ],
+        "options": [
+          "less",
+          "fewest",
+          "fewer"
+        ],
+        "answer": 2,
+        "explanation": "'Boxes' countable jamak perbandingan dua kuartal -> 'fewer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That was the most worst outage of the decade.\"",
+        "draft": "That was the most worst outage of the decade.",
+        "options": [
+          "That was the most worst outage of the decade.",
+          "That was the worst outage of the decade.",
+          "That was the baddest outage of the decade."
+        ],
+        "answer": 1,
+        "explanation": "Hindari 'most worst'; gunakan 'the worst'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That damaged cable caused the ___ outage this year.",
+        "options": [
+          "more worse",
+          "worst",
+          "baddest"
+        ],
+        "answer": 1,
+        "explanation": "Superlative tak beraturan dari 'bad' adalah 'worst'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How far is Terminal 3 from Terminal 1? / Terminal 3 is ___ away than Terminal 2.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "How far is Terminal 3 from Terminal 1?"
+          ],
+          [
+            "Kiki",
+            "Terminal 3 is ___ away than Terminal 2."
+          ]
+        ],
+        "options": [
+          "farthest",
+          "farther",
+          "more far"
+        ],
+        "answer": 1,
+        "explanation": "Comparative jarak -> 'farther'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We used less paper folders this month than May.\"",
+        "draft": "We used less paper folders this month than May.",
+        "options": [
+          "We used lesser paper folders this month than May.",
+          "We used less paper folders this month than May.",
+          "We used fewer paper folders this month than May."
+        ],
+        "answer": 2,
+        "explanation": "'Folders' adalah countable jamak -> gunakan 'fewer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Meja yang tenang ini adalah tempat terbaik di perpustakaan.\".",
+        "targetSentence": "This quiet desk is the best spot in the library.",
+        "explanation": "Superlative tak beraturan 'the best'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Room 402 is ___ from the elevator than Room 401.",
+        "options": [
+          "more far",
+          "farer",
+          "farther"
+        ],
+        "answer": 2,
+        "explanation": "Comparative jarak dari 'far' adalah 'farther' / 'further'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which backpack fits under airplane seats easily? / The grey canvas one is ___ than the hard case.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Which backpack fits under airplane seats easily?"
+          ],
+          [
+            "Sinta",
+            "The grey canvas one is ___ than the hard case."
+          ]
+        ],
+        "options": [
+          "smallest",
+          "smaller",
+          "more small"
+        ],
+        "answer": 1,
+        "explanation": "1 suku kata -> 'smaller'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our branch needs fewer water for the garden.\"",
+        "draft": "Our branch needs fewer water for the garden.",
+        "options": [
+          "Our branch needs fewer water for the garden.",
+          "Our branch needs less water for the garden.",
+          "Our branch needs few water for the garden."
+        ],
+        "answer": 1,
+        "explanation": "'Water' uncountable -> gunakan 'less'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This manual explains safety steps ___ clearly than before.",
+        "options": [
+          "most",
+          "mucher",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "Adverb berakhiran -ly ('clearly') memakai 'more'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was Tuesday's seminar better than Monday's? / Yes, Tuesday had the ___ speaker of the whole week!\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Was Tuesday's seminar better than Monday's?"
+          ],
+          [
+            "Tia",
+            "Yes, Tuesday had the ___ speaker of the whole week!"
+          ]
+        ],
+        "options": [
+          "goodest",
+          "better",
+          "best"
+        ],
+        "answer": 2,
+        "explanation": "Superlative minggu itu -> 'the best'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The new manual is more clearer than the old one.\"",
+        "draft": "The new manual is more clearer than the old one.",
+        "options": [
+          "The new manual is much clearer than the old one.",
+          "The new manual is clearest than the old one.",
+          "The new manual is more clearer than the old one."
+        ],
+        "answer": 0,
+        "explanation": "Jangan gunakan 'more' bersama akhiran '-er'; pakai 'much clearer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That was the ___ expensive hotel near the terminal.",
+        "options": [
+          "very",
+          "most",
+          "more"
+        ],
+        "answer": 1,
+        "explanation": "Superlative adjektiva panjang ('expensive') memakai 'the most'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami mencetak lebih sedikit buklet dibandingkan semester lalu.\".",
+        "targetSentence": "We printed fewer booklets than last semester.",
+        "explanation": "Countable jamak memakai 'fewer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our new cooling fan is ___ than the old unit.",
+        "options": [
+          "quieter",
+          "more quieter",
+          "quietest"
+        ],
+        "answer": 0,
+        "explanation": "Adjektiva pendek 'quiet' berpasangan dengan 'quieter than'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is carrying paper files practical anymore? / No, digital folders are ___ faster to search.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Is carrying paper files practical anymore?"
+          ],
+          [
+            "Dewi",
+            "No, digital folders are ___ faster to search."
+          ]
+        ],
+        "options": [
+          "more",
+          "most",
+          "far"
+        ],
+        "answer": 2,
+        "explanation": "Penguat comparative valid ('far faster', bukan 'more faster').",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Room 3B is the most large room in this wing.\"",
+        "draft": "Room 3B is the most large room in this wing.",
+        "options": [
+          "Room 3B is the largest room in this wing.",
+          "Room 3B is the larger room in this wing.",
+          "Room 3B is the most large room in this wing."
+        ],
+        "answer": 0,
+        "explanation": "1 suku kata 'large' superlative-nya adalah 'largest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ferry terminal is the ___ building on this pier.",
+        "options": [
+          "taller",
+          "tallest",
+          "most tall"
+        ],
+        "answer": 1,
+        "explanation": "Superlative 1 suku kata memakai 'the + -est' -> 'tallest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia membawa lebih sedikit bagasi dibandingkan rekannya.\".",
+        "targetSentence": "She carries less luggage than her colleague.",
+        "explanation": "Uncountable memakai 'less'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This concise memo is ___ to read than the long PDF.",
+        "options": [
+          "easyer",
+          "easier",
+          "more easy"
+        ],
+        "answer": 1,
+        "explanation": "Akhiran -y ('easy') menjadi 'easier'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Kevin choose the late ferry? / Because evening tickets are ___ than morning ones.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why did Kevin choose the late ferry?"
+          ],
+          [
+            "Ayu",
+            "Because evening tickets are ___ than morning ones."
+          ]
+        ],
+        "options": [
+          "cheaper",
+          "more cheap",
+          "cheapest"
+        ],
+        "answer": 0,
+        "explanation": "1 suku kata -> 'cheaper'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Digital receipts are convenienter than paper ones.\"",
+        "draft": "Digital receipts are convenienter than paper ones.",
+        "options": [
+          "Digital receipts are most convenient than paper ones.",
+          "Digital receipts are convenienter than paper ones.",
+          "Digital receipts are more convenient than paper ones."
+        ],
+        "answer": 2,
+        "explanation": "Adjektiva 3+ suku kata memakai 'more ... than'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "She carries ___ luggage than her colleague on flights.",
+        "options": [
+          "fewer",
+          "lesser",
+          "less"
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' uncountable memakai comparative 'less'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which shelf holds our heaviest lab manuals? / Put them on the bottom shelf—it is the ___.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Which shelf holds our heaviest lab manuals?"
+          ],
+          [
+            "Oki",
+            "Put them on the bottom shelf—it is the ___."
+          ]
+        ],
+        "options": [
+          "stronger",
+          "strongest",
+          "most strong"
+        ],
+        "answer": 1,
+        "explanation": "Superlative 1 suku kata -> 'strongest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"July was the hotest month recorded on this island.\"",
+        "draft": "July was the hotest month recorded on this island.",
+        "options": [
+          "July was the most hot month recorded on this island.",
+          "July was the hotest month recorded on this island.",
+          "July was the hottest month recorded on this island."
+        ],
+        "answer": 2,
+        "explanation": "CVC 'hot' menggandakan 't' -> 'hottest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Juli biasanya merupakan bulan terpanas di kota pantai ini.\".",
+        "targetSentence": "July is usually the hottest month in this coastal city.",
+        "explanation": "Gandakan 't' pada 'hottest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "We printed ___ booklets than last semester.",
+        "options": [
+          "less",
+          "more few",
+          "fewer"
+        ],
+        "answer": 2,
+        "explanation": "'Booklets' countable jamak memakai 'fewer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does this filter waste much water? / No, it uses ___ water than the older sink.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Does this filter waste much water?"
+          ],
+          [
+            "Mira",
+            "No, it uses ___ water than the older sink."
+          ]
+        ],
+        "options": [
+          "least",
+          "less",
+          "fewer"
+        ],
+        "answer": 1,
+        "explanation": "'Water' uncountable -> 'less'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Her summary is more better than last week's draft.\"",
+        "draft": "Her summary is more better than last week's draft.",
+        "options": [
+          "Her summary is more better than last week's draft.",
+          "Her summary is much better than last week's draft.",
+          "Her summary is gooder than last week's draft."
+        ],
+        "answer": 1,
+        "explanation": "Jangan menggabungkan 'more' + 'better'; pakai 'much better'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "July is usually the ___ month in this coastal city.",
+        "options": [
+          "hottest",
+          "hotest",
+          "most hot"
+        ],
+        "answer": 0,
+        "explanation": "CVC ('hot') menggandakan 't' -> 'hottest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Rina leave at six thirty today? / She took an ___ bus to reach the port on time.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did Rina leave at six thirty today?"
+          ],
+          [
+            "Taufik",
+            "She took an ___ bus to reach the port on time."
+          ]
+        ],
+        "options": [
+          "earlier",
+          "earlyer",
+          "more early"
+        ],
+        "answer": 0,
+        "explanation": "'Early' -> 'earlier'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This bridge is farer from downtown than Gate 2.\"",
+        "draft": "This bridge is farer from downtown than Gate 2.",
+        "options": [
+          "This bridge is more far from downtown than Gate 2.",
+          "This bridge is farer from downtown than Gate 2.",
+          "This bridge is farther from downtown than Gate 2."
+        ],
+        "answer": 2,
+        "explanation": "Comparative dari 'far' adalah 'farther' / 'further'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That coffee mug is ___ than the plastic cup.",
+        "options": [
+          "heavier",
+          "heavyer",
+          "more heavy"
+        ],
+        "answer": 0,
+        "explanation": "Akhiran -y ('heavy') -> 'heavier'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ruang 402 lebih jauh dari lift dibandingkan Ruang 401.\".",
+        "targetSentence": "Room 402 is farther from the elevator than Room 401.",
+        "explanation": "Comparative jarak 'farther'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This wireless mouse is the ___ tool in our kit.",
+        "options": [
+          "usefulest",
+          "most useful",
+          "more useful"
+        ],
+        "answer": 1,
+        "explanation": "Adjektiva berakhiran -ful ('useful') memakai 'most useful'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the blue laptop heavier than the silver one? / No, the blue model is actually ___.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Is the blue laptop heavier than the silver one?"
+          ],
+          [
+            "Lina",
+            "No, the blue model is actually ___."
+          ]
+        ],
+        "options": [
+          "lightest",
+          "lighter",
+          "more light"
+        ],
+        "answer": 1,
+        "explanation": "1 suku kata -> 'lighter'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That sensor is the usefulest tool in Lab 3.\"",
+        "draft": "That sensor is the usefulest tool in Lab 3.",
+        "options": [
+          "That sensor is the usefulest tool in Lab 3.",
+          "That sensor is the most useful tool in Lab 3.",
+          "That sensor is the more useful tool in Lab 3."
+        ],
+        "answer": 1,
+        "explanation": "Akhiran -ful memakai 'the most useful'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Morning flights are often ___ than afternoon departures.",
+        "options": [
+          "cheaper",
+          "more cheap",
+          "cheapest"
+        ],
+        "answer": 0,
+        "explanation": "1 suku kata ('cheap') -> 'cheaper'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang menulis ringkasan paling akurat dalam kelompok?\".",
+        "targetSentence": "Who wrote the most accurate summary in the group?",
+        "explanation": "Superlative panjang 'the most accurate'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who wrote the ___ accurate summary in the group?",
+        "options": [
+          "most",
+          "more",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "Superlative untuk 'accurate' adalah 'the most accurate'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which meeting room fits forty people easily? / Book Hall C; it is the ___ room on Floor 2.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Which meeting room fits forty people easily?"
+          ],
+          [
+            "Wulan",
+            "Book Hall C; it is the ___ room on Floor 2."
+          ]
+        ],
+        "options": [
+          "most large",
+          "larger",
+          "largest"
+        ],
+        "answer": 2,
+        "explanation": "Superlative 'large' -> 'largest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My suitcase feels lightier without the heavy tripod.\"",
+        "draft": "My suitcase feels lightier without the heavy tripod.",
+        "options": [
+          "My suitcase feels lighter without the heavy tripod.",
+          "My suitcase feels more light without the heavy tripod.",
+          "My suitcase feels lightier without the heavy tripod."
+        ],
+        "answer": 0,
+        "explanation": "'Light' + er -> 'lighter'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Today feels ___ cooler than yesterday afternoon.",
+        "options": [
+          "much",
+          "more",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum comparative ('cooler'), penguat yang tepat adalah 'much', bukan 'more'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened on Friday afternoon on the highway? / It was the ___ traffic jam we saw all year!\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What happened on Friday afternoon on the highway?"
+          ],
+          [
+            "Sari",
+            "It was the ___ traffic jam we saw all year!"
+          ]
+        ],
+        "options": [
+          "worst",
+          "baddest",
+          "worse"
+        ],
+        "answer": 0,
+        "explanation": "Superlative 'bad' -> 'worst'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Morning flights are always cheapper than noon ones.\"",
+        "draft": "Morning flights are always cheapper than noon ones.",
+        "options": [
+          "Morning flights are always cheapper than noon ones.",
+          "Morning flights are always cheaper than noon ones.",
+          "Morning flights are always more cheap than noon ones."
+        ],
+        "answer": 1,
+        "explanation": "'Cheap' bervokal ganda tidak menggandakan 'p' -> 'cheaper'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Rute melewati taman ini lebih aman daripada Jalan Utama.\".",
+        "targetSentence": "This route through the park is safer than Main Road.",
+        "explanation": "Comparative 'safer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The library has the ___ collection of old maps.",
+        "options": [
+          "widest",
+          "most wide",
+          "wider"
+        ],
+        "answer": 0,
+        "explanation": "'Wide' + st -> 'widest'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How does this steel thermos compare to plastic? / Steel keeps coffee hot ___ than plastic.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "How does this steel thermos compare to plastic?"
+          ],
+          [
+            "Reno",
+            "Steel keeps coffee hot ___ than plastic."
+          ]
+        ],
+        "options": [
+          "longest",
+          "longer",
+          "more long"
+        ],
+        "answer": 1,
+        "explanation": "Comparative durasi -> 'longer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She spoke clearlier than the previous presenter.\"",
+        "draft": "She spoke clearlier than the previous presenter.",
+        "options": [
+          "She spoke clearlier than the previous presenter.",
+          "She spoke more clearly than the previous presenter.",
+          "She spoke clearest than the previous presenter."
+        ],
+        "answer": 1,
+        "explanation": "Adverb -ly memakai 'more clearly'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This route through the park is ___ than Main Road.",
+        "options": [
+          "safer",
+          "more safe",
+          "safest"
+        ],
+        "answer": 0,
+        "explanation": "'Safe' + r -> 'safer'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is this neighborhood peaceful at night? / Yes, it is much ___ than the central station block.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is this neighborhood peaceful at night?"
+          ],
+          [
+            "Aris",
+            "Yes, it is much ___ than the central station block."
+          ]
+        ],
+        "options": [
+          "quieter",
+          "more quiet",
+          "quietest"
+        ],
+        "answer": 0,
+        "explanation": "Comparative 'quieter'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This library is the quietest of the two buildings.\"",
+        "draft": "This library is the quietest of the two buildings.",
+        "options": [
+          "This library is the quieter of the two buildings.",
+          "This library is the more quiet of the two buildings.",
+          "This library is the quietest of the two buildings."
+        ],
+        "answer": 0,
+        "explanation": "Membandingkan DUA hal ('of the two') memakai comparative 'the quieter'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our new trainee learns ___ than anyone expected.",
+        "options": [
+          "faster",
+          "more fast",
+          "fastest"
+        ],
+        "answer": 0,
+        "explanation": "Adverb pendek 'fast' memakai 'faster'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pemadaman yang rusak itu merupakan gangguan terburuk tahun ini.\".",
+        "targetSentence": "That outage was the worst disruption this year.",
+        "explanation": "Superlative tak beraturan 'the worst'.",
+        "hints": [
+          "Tambahkan -er/-est untuk adjektiva pendek (1 suku kata), dan more/most untuk adjektiva panjang (2+ suku kata).",
+          "Perhatikan irregular forms (good-better-best, bad-worse-worst, far-farther/further) dan hindari double comparative (more faster)."
+        ],
+        "skill": "comparative"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Pasangkan 'slightly better organized than'."
         ],
         "skill": "comparative-modifiers"
+      },
+      {
+        "type": "choice",
+        "prompt": "This compact router is just ___ fast as the office unit.",
+        "options": [
+          "as",
+          "so",
+          "more"
+        ],
+        "answer": 0,
+        "explanation": "Kesetaraan positif memakai 'as + adj + as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the morning ferry as fast as the afternoon boat? / Yes, both vessels take just ___ long as each other.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Is the morning ferry as fast as the afternoon boat?"
+          ],
+          [
+            "Dodi",
+            "Yes, both vessels take just ___ long as each other."
+          ]
+        ],
+        "options": [
+          "so",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Afirmatif kesetaraan memakai 'as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This laptop runs twice as faster as my old PC.\"",
+        "draft": "This laptop runs twice as faster as my old PC.",
+        "options": [
+          "This laptop runs twice as fast as my old PC.",
+          "This laptop runs twice more fast as my old PC.",
+          "This laptop runs twice as faster as my old PC."
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'as ... as', selalu gunakan bentuk dasar ('fast'), bukan '-er'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Paper folders are not ___ easy to search as digital archives.",
+        "options": [
+          "than",
+          "more",
+          "as"
+        ],
+        "answer": 2,
+        "explanation": "Perbandingan negatif memakai 'not as + adj + as' (atau 'not so ... as').",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Router ringkas ini sama cepatnya dengan unit kantor.\".",
+        "targetSentence": "This compact router is just as fast as the office unit.",
+        "explanation": "Kesetaraan memakai 'as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The bus ticket costs half ___ much as the express train.",
+        "options": [
+          "than",
+          "like",
+          "as"
+        ],
+        "answer": 2,
+        "explanation": "Pengganda/pecahan memakai 'half as much as' / 'twice as fast as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you pick the paper registration desk? / Because paper queues are not ___ quick as the online app.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why didn't you pick the paper registration desk?"
+          ],
+          [
+            "Bima",
+            "Because paper queues are not ___ quick as the online app."
+          ]
+        ],
+        "options": [
+          "more",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Negatif memakai 'not as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Digital forms are not as easier as printed cards.\"",
+        "draft": "Digital forms are not as easier as printed cards.",
+        "options": [
+          "Digital forms are not as easy as printed cards.",
+          "Digital forms are not as easy than printed cards.",
+          "Digital forms are not as easier as printed cards."
+        ],
+        "answer": 0,
+        "explanation": "Antara 'not as ... as', gunakan bentuk positif dasar 'easy'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our regional branch handled twice ___ many parcels this year.",
+        "options": [
+          "as",
+          "than",
+          "like"
+        ],
+        "answer": 0,
+        "explanation": "Benda jamak dengan kelipatan memakai 'twice as many ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does this battery pack cost a lot? / Actually, it costs only half ___ much as the brand unit.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Does this battery pack cost a lot?"
+          ],
+          [
+            "Eko",
+            "Actually, it costs only half ___ much as the brand unit."
+          ]
+        ],
+        "options": [
+          "like",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pecahan kelipatan memakai 'half as much as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The climate here is very similar with Medan.\"",
+        "draft": "The climate here is very similar with Medan.",
+        "options": [
+          "The climate here is very similar with Medan.",
+          "The climate here is very similar to Medan.",
+          "The climate here is very similar as Medan."
+        ],
+        "answer": 1,
+        "explanation": "Preposisi untuk 'similar' adalah 'to'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Map kertas tidak semudah arsip digital untuk dicari.\".",
+        "targetSentence": "Paper folders are not as easy to search as digital archives.",
+        "explanation": "Ketidaksetaraan memakai 'not as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He reads architectural drawings just as ___ as his mentor.",
+        "options": [
+          "accurate",
+          "more accurately",
+          "accurately"
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'reads' memakai adverb 'accurately' di antara 'as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How accurate is this pocket humidity gauge? / It measures moisture as ___ as our lab bench sensor.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How accurate is this pocket humidity gauge?"
+          ],
+          [
+            "Sari",
+            "It measures moisture as ___ as our lab bench sensor."
+          ]
+        ],
+        "options": [
+          "more precisely",
+          "precisely",
+          "precise"
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'measures' -> adverb dasar 'precisely'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Her draft layout looks completely different as mine.\"",
+        "draft": "Her draft layout looks completely different as mine.",
+        "options": [
+          "Her draft layout looks completely different as mine.",
+          "Her draft layout looks completely different from mine.",
+          "Her draft layout looks completely different like mine."
+        ],
+        "answer": 1,
+        "explanation": "Formal IELTS memakai 'different from'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The battery of Tablet B lasts longer than ___ of Tablet A.",
+        "options": [
+          "those",
+          "it",
+          "that"
+        ],
+        "answer": 2,
+        "explanation": "Menggantikan noun tunggal ('the battery') agar setara -> 'that of'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we replace Tablet A's charger? / Yes, Tablet A's battery drains twice as ___ as Tablet B's.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Should we replace Tablet A's charger?"
+          ],
+          [
+            "Putri",
+            "Yes, Tablet A's battery drains twice as ___ as Tablet B's."
+          ]
+        ],
+        "options": [
+          "fastest",
+          "fast",
+          "faster"
+        ],
+        "answer": 1,
+        "explanation": "Antara 'as ... as', gunakan bentuk dasar 'fast'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The bus ticket costs half so much than the train.\"",
+        "draft": "The bus ticket costs half so much than the train.",
+        "options": [
+          "The bus ticket costs half so much than the train.",
+          "The bus ticket costs half as much as the train.",
+          "The bus ticket costs half as many as the train."
+        ],
+        "answer": 1,
+        "explanation": "'Half as much as' memakai 'as ... as' dan 'much' untuk biaya.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Salaries in Sector X rose faster than ___ in Sector Y.",
+        "options": [
+          "that",
+          "them",
+          "those"
+        ],
+        "answer": 2,
+        "explanation": "Menggantikan noun jamak ('Salaries') -> 'those in'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tiket bus berharga setengah dari harga kereta ekspres.\".",
+        "targetSentence": "The bus ticket costs half as much as the express train.",
+        "explanation": "'half as much as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your new draft is slightly ___ concise than Monday's version.",
+        "options": [
+          "more",
+          "most",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "Untuk adjektiva 'concise' dalam perbandingan, pakai 'more concise'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why are we comparing two different branch reports? / Wait—look at North Branch's costs versus ___ of South Branch.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Why are we comparing two different branch reports?"
+          ],
+          [
+            "Arman",
+            "Wait—look at North Branch's costs versus ___ of South Branch."
+          ]
+        ],
+        "options": [
+          "those",
+          "that",
+          "it"
+        ],
+        "answer": 0,
+        "explanation": "'costs' jamak dirujuk dengan 'those of'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This semester is very easier than last winter.\"",
+        "draft": "This semester is very easier than last winter.",
+        "options": [
+          "This semester is much easier than last winter.",
+          "This semester is very easy than last winter.",
+          "This semester is very easier than last winter."
+        ],
+        "answer": 0,
+        "explanation": "Jangan gunakan 'very' sebelum comparative '-er'; gunakan 'much/far'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please proofread the footnotes as ___ as possible.",
+        "options": [
+          "careful",
+          "more carefully",
+          "carefully"
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'proofread' memakai adverb 'carefully' -> 'as carefully as possible'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang wilayah kami menangani dua kali lebih banyak paket.\".",
+        "targetSentence": "Our regional branch handled twice as many parcels.",
+        "explanation": "'twice as many' untuk jamak.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This train is not nearly ___ crowded as the eight o'clock one.",
+        "options": [
+          "as",
+          "than",
+          "more"
+        ],
+        "answer": 0,
+        "explanation": "'Not nearly as + adj + as' menekankan perbedaan besar.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, both port cities stay warm all year.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Is the climate in Semarang similar ___ Surabaya?"
+          ],
+          [
+            "Adi",
+            "Yes, both port cities stay warm all year."
+          ]
+        ],
+        "options": [
+          "to",
+          "as",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi baku: 'similar to'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our branch holds twice as much laptops as last year.\"",
+        "draft": "Our branch holds twice as much laptops as last year.",
+        "options": [
+          "Our branch holds twice more laptops as last year.",
+          "Our branch holds twice as much laptops as last year.",
+          "Our branch holds twice as many laptops as last year."
+        ],
+        "answer": 2,
+        "explanation": "'Laptops' countable jamak memakai 'as many ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The north campus lab is ___ the same size as ours.",
+        "options": [
+          "almost",
+          "as",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Almost the same ... as' untuk kemiripan dekat.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does this new policy look different from last year's? / It is quite different ___ our 2023 travel rules.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Does this new policy look different from last year's?"
+          ],
+          [
+            "Kiki",
+            "It is quite different ___ our 2023 travel rules."
+          ]
+        ],
+        "options": [
+          "as",
+          "like",
+          "from"
+        ],
+        "answer": 2,
+        "explanation": "Standar formal: 'different from'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The population of Jakarta is larger than Bandung.\"",
+        "draft": "The population of Jakarta is larger than Bandung.",
+        "options": [
+          "The population of Jakarta is larger than those of Bandung.",
+          "The population of Jakarta is larger than Bandung.",
+          "The population of Jakarta is larger than that of Bandung."
+        ],
+        "answer": 2,
+        "explanation": "Bandingkan populasi dengan populasi ('that of Bandung'), bukan kota secara langsung.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baterai Tablet B bertahan lebih lama daripada baterai Tablet A.\".",
+        "targetSentence": "The battery of Tablet B lasts longer than that of Tablet A.",
+        "explanation": "'that of' untuk kesetaraan perbandingan tunggal.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This semester's exam wasn't ___ difficult as the practice test.",
+        "options": [
+          "than",
+          "more",
+          "so"
+        ],
+        "answer": 2,
+        "explanation": "Setelah negatif 'wasn't', 'so/as + adj + as' sama-sama baku ('not so difficult as').",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How quickly do we need this audit checked? / Please review every line as ___ as possible.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How quickly do we need this audit checked?"
+          ],
+          [
+            "Sinta",
+            "Please review every line as ___ as possible."
+          ]
+        ],
+        "options": [
+          "more thorough",
+          "thoroughly",
+          "thorough"
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'review' -> adverb 'thoroughly'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The rules in Lab A are stricter than Lab B.\"",
+        "draft": "The rules in Lab A are stricter than Lab B.",
+        "options": [
+          "The rules in Lab A are stricter than Lab B.",
+          "The rules in Lab A are stricter than those in Lab B.",
+          "The rules in Lab A are stricter than that in Lab B."
+        ],
+        "answer": 1,
+        "explanation": "Merujuk 'The rules' (jamak) memakai 'those in Lab B'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "New solar cells generate three times ___ power as older panels.",
+        "options": [
+          "more",
+          "as many",
+          "as much"
+        ],
+        "answer": 2,
+        "explanation": "'Power' uncountable dengan kelipatan memakai 'three times as much ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does Solar Panel X produce double power? / Yes, it produces twice ___ much electricity as our old roof.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Does Solar Panel X produce double power?"
+          ],
+          [
+            "Tia",
+            "Yes, it produces twice ___ much electricity as our old roof."
+          ]
+        ],
+        "options": [
+          "more",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "'Electricity' uncountable -> 'twice as much ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Please proofread every paragraph as careful as possible.\"",
+        "draft": "Please proofread every paragraph as careful as possible.",
+        "options": [
+          "Please proofread every paragraph as more carefully as possible.",
+          "Please proofread every paragraph as careful as possible.",
+          "Please proofread every paragraph as carefully as possible."
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'proofread' membutuhkan adverb 'carefully'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "We arrived at Terminal 2 just as ___ as the courier.",
+        "options": [
+          "earlier",
+          "earliest",
+          "early"
+        ],
+        "answer": 2,
+        "explanation": "Antara 'as ... as', selalu gunakan bentuk dasar ('early'), bukan '-er'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Gaji di Sektor X naik lebih cepat daripada gaji di Sektor Y.\".",
+        "targetSentence": "Salaries in Sector X rose faster than those in Sector Y.",
+        "explanation": "'those in' untuk perbandingan jamak.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "She knows ___ many statistical tools as the senior lead.",
+        "options": [
+          "as",
+          "than",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat afirmatif memakai 'as many ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How does your new office desk feel? / It is ___ more comfortable than that narrow stool!\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "How does your new office desk feel?"
+          ],
+          [
+            "Dewi",
+            "It is ___ more comfortable than that narrow stool!"
+          ]
+        ],
+        "options": [
+          "far",
+          "very",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "Penguat comparative valid memakai 'far' (bukan 'very').",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He answered all questions every bit as calm as the lead.\"",
+        "draft": "He answered all questions every bit as calm as the lead.",
+        "options": [
+          "He answered all questions every bit as calmer as the lead.",
+          "He answered all questions every bit as calm as the lead.",
+          "He answered all questions every bit as calmly as the lead."
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'answered' membutuhkan adverb 'calmly'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The harbor breeze felt ___ cooler than the city streets.",
+        "options": [
+          "considerably",
+          "more",
+          "very"
+        ],
+        "answer": 0,
+        "explanation": "Modifikator kuat sebelum '-er' memakai adverb 'considerably/far/much', bukan 'very'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mohon periksa catatan kaki seseksama mungkin.\".",
+        "targetSentence": "Please proofread the footnotes as carefully as possible.",
+        "explanation": "Adverb 'carefully' dalam 'as ... as possible'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Today's traffic is ___ bit as heavy as yesterday's rush.",
+        "options": [
+          "very",
+          "much",
+          "every"
+        ],
+        "answer": 2,
+        "explanation": "Idiom kesetaraan penuh: 'every bit as + adj + as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is this backup hard drive larger than our old one? / Yes, it holds three times as ___ files as before.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Is this backup hard drive larger than our old one?"
+          ],
+          [
+            "Ayu",
+            "Yes, it holds three times as ___ files as before."
+          ]
+        ],
+        "options": [
+          "more",
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explanation": "'Files' countable jamak -> 'three times as many ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The new schedule is the same than last quarter's plan.\"",
+        "draft": "The new schedule is the same than last quarter's plan.",
+        "options": [
+          "The new schedule is the same as last quarter's plan.",
+          "The new schedule is the same to last quarter's plan.",
+          "The new schedule is the same than last quarter's plan."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku 'the same' selalu 'as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "His second explanation sounded ___ simpler than the memo.",
+        "options": [
+          "very",
+          "even",
+          "more"
+        ],
+        "answer": 1,
+        "explanation": "'even' memperkuat comparative ('even simpler').",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the morning shuttle taking longer today? / Roadwork makes Tuesday traffic ___ bit as slow as Friday's.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why is the morning shuttle taking longer today?"
+          ],
+          [
+            "Oki",
+            "Roadwork makes Tuesday traffic ___ bit as slow as Friday's."
+          ]
+        ],
+        "options": [
+          "very",
+          "much",
+          "every"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'every bit as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This tablet uses three times less power than ours.\"",
+        "draft": "This tablet uses three times less power than ours.",
+        "options": [
+          "This tablet uses three times less power than ours.",
+          "This tablet uses a third as much power as ours.",
+          "This tablet uses three times fewer power than ours."
+        ],
+        "answer": 1,
+        "explanation": "Untuk menyatakan 1/3 jumlah, gunakan 'a third as much power as' (hindari 'three times less' dalam ragam formal).",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kebijakan baru kami mirip dengan pedoman keselamatan nasional.\".",
+        "targetSentence": "Our new policy is similar to the national safety guideline.",
+        "explanation": "Kolokasi 'similar to'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our new policy is similar ___ the national safety guideline.",
+        "options": [
+          "as",
+          "with",
+          "to"
+        ],
+        "answer": 2,
+        "explanation": "Kolokasi baku: 'similar to', bukan 'similar as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I verify Table 4's layout again? / Yes, make the headers ___ simpler than Table 3's.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should I verify Table 4's layout again?"
+          ],
+          [
+            "Mira",
+            "Yes, make the headers ___ simpler than Table 3's."
+          ]
+        ],
+        "options": [
+          "very",
+          "most",
+          "even"
+        ],
+        "answer": 2,
+        "explanation": "Penguat comparative '-er' -> 'even simpler'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She finished the audit even more quicker than Kevin.\"",
+        "draft": "She finished the audit even more quicker than Kevin.",
+        "options": [
+          "She finished the audit even more quicker than Kevin.",
+          "She finished the audit even quicker than Kevin.",
+          "She finished the audit very quicker than Kevin."
+        ],
+        "answer": 1,
+        "explanation": "Hindari 'more quicker'; gunakan 'even quicker' / 'more quickly'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That warehouse floor plan looks completely different ___ ours.",
+        "options": [
+          "from",
+          "than",
+          "as"
+        ],
+        "answer": 0,
+        "explanation": "Dalam standar formal/IELTS: 'different from'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How does the air quality here compare to downtown? / The air inside this park is ___ cleaner than main roads.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How does the air quality here compare to downtown?"
+          ],
+          [
+            "Taufik",
+            "The air inside this park is ___ cleaner than main roads."
+          ]
+        ],
+        "options": [
+          "many",
+          "considerably",
+          "very"
+        ],
+        "answer": 1,
+        "explanation": "'Considerably' dapat menguatkan comparative '-er'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The speaker's voice sounded as clearly as a bell.\"",
+        "draft": "The speaker's voice sounded as clearly as a bell.",
+        "options": [
+          "The speaker's voice sounded as clearer as a bell.",
+          "The speaker's voice sounded as clearly as a bell.",
+          "The speaker's voice sounded as clear as a bell."
+        ],
+        "answer": 2,
+        "explanation": "Setelah linking verb 'sounded', gunakan adjective dasar 'clear'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He types twice as ___ without errors after the course.",
+        "options": [
+          "quickly",
+          "quicker",
+          "quickest"
+        ],
+        "answer": 0,
+        "explanation": "Di antara 'as ... as' menerangkan 'types' -> adverb bentuk dasar 'quickly'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Denah gudang itu terlihat sangat berbeda dari milik kami.\".",
+        "targetSentence": "That warehouse floor plan looks different from ours.",
+        "explanation": "Formal 'different from'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Her voice stayed as ___ as a seasoned news anchor.",
+        "options": [
+          "more calm",
+          "calm",
+          "calmer"
+        ],
+        "answer": 1,
+        "explanation": "Setelah linking verb 'stayed' antara 'as ... as' -> adjective dasar 'calm'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you need as many folders as last seminar? / No, we printed ___ than half as many packs.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did you need as many folders as last seminar?"
+          ],
+          [
+            "Lina",
+            "No, we printed ___ than half as many packs."
+          ]
+        ],
+        "options": [
+          "less",
+          "fewer",
+          "as"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'less than half', gunakan 'less' (mengacu jumlah keseluruhan).",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That warehouse is not nearly so wide than Hall A.\"",
+        "draft": "That warehouse is not nearly so wide than Hall A.",
+        "options": [
+          "That warehouse is not nearly as wide as Hall A.",
+          "That warehouse is not nearly as wider as Hall A.",
+          "That warehouse is not nearly so wide than Hall A."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'as/so' selalu 'as', bukan 'than'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our delivery times are now ___ competitive than ever.",
+        "options": [
+          "far more",
+          "much many",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Penguat comparative panjang: 'far more competitive'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Angin pelabuhan terasa jauh lebih sejuk daripada jalan kota.\".",
+        "targetSentence": "The harbor breeze felt considerably cooler than city streets.",
+        "explanation": "'considerably' menguatkan comparative.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "No other printer in this wing works as ___ as Unit 3.",
+        "options": [
+          "reliably",
+          "reliable",
+          "more reliable"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'works' antara 'as ... as' -> adverb 'reliably'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, both rooms use the exact same speakers.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Is the audio clarity in Room 2 ___ good as Room 1?"
+          ],
+          [
+            "Wulan",
+            "Yes, both rooms use the exact same speakers."
+          ]
+        ],
+        "options": [
+          "as",
+          "than",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat tanya kesetaraan memakai 'as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our new headphones are far more reliable as the old set.\"",
+        "draft": "Our new headphones are far more reliable as the old set.",
+        "options": [
+          "Our new headphones are very more reliable than the old set.",
+          "Our new headphones are far more reliable as the old set.",
+          "Our new headphones are far more reliable than the old set."
+        ],
+        "answer": 2,
+        "explanation": "Comparative dengan 'more' memakai pasangan 'than', bukan 'as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The luggage rules on Airline B are stricter than ___ on A.",
+        "options": [
+          "those",
+          "that",
+          "it"
+        ],
+        "answer": 0,
+        "explanation": "Merujuk 'the luggage rules' jamak -> 'those'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened to the library's reading budget? / This year's budget is slightly ___ than last year's.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What happened to the library's reading budget?"
+          ],
+          [
+            "Sari",
+            "This year's budget is slightly ___ than last year's."
+          ]
+        ],
+        "options": [
+          "smaller",
+          "more small",
+          "as small"
+        ],
+        "answer": 0,
+        "explanation": "1 suku kata 'small' -> 'smaller'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He brought half as much suitcases on this trip.\"",
+        "draft": "He brought half as much suitcases on this trip.",
+        "options": [
+          "He brought half as many suitcase on this trip.",
+          "He brought half as much suitcases on this trip.",
+          "He brought half as many suitcases on this trip."
+        ],
+        "answer": 2,
+        "explanation": "'Suitcases' jamak memakai 'as many'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jadwal baru ini persis sama dengan rencana kuartal lalu.\".",
+        "targetSentence": "The new schedule is the same as last quarter's plan.",
+        "explanation": "Pasangan 'the same as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "She brought half as ___ suitcases this trip to save fees.",
+        "options": [
+          "much",
+          "more",
+          "many"
+        ],
+        "answer": 2,
+        "explanation": "'Suitcases' jamak -> 'half as many'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did your new scooter save travel time? / Actually, my commute is no ___ than taking the MRT.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did your new scooter save travel time?"
+          ],
+          [
+            "Reno",
+            "Actually, my commute is no ___ than taking the MRT."
+          ]
+        ],
+        "options": [
+          "faster",
+          "more fast",
+          "fastest"
+        ],
+        "answer": 0,
+        "explanation": "'No faster than' membandingkan.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This route is no good than taking the toll road.\"",
+        "draft": "This route is no good than taking the toll road.",
+        "options": [
+          "This route is no best than taking the toll road.",
+          "This route is no good than taking the toll road.",
+          "This route is no better than taking the toll road."
+        ],
+        "answer": 2,
+        "explanation": "Perbandingan 'no ... than' memakai bentuk comparative 'better'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This hallway feels slightly ___ noisy than the street side.",
+        "options": [
+          "fewer",
+          "least",
+          "less"
+        ],
+        "answer": 2,
+        "explanation": "Perbandingan kebalikan tingkat memakai 'less + adj + than'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Almost the same, though weekends cost a little more.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Are the ferry fares in July the same ___ in May?"
+          ],
+          [
+            "Aris",
+            "Almost the same, though weekends cost a little more."
+          ]
+        ],
+        "options": [
+          "to",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'the same' selalu 'as' ('the same as').",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The lab rules were considerably more strict as we thought.\"",
+        "draft": "The lab rules were considerably more strict as we thought.",
+        "options": [
+          "The lab rules were considerably more strict as we thought.",
+          "The lab rules were considerably stricter than we thought.",
+          "The lab rules were very stricter than we thought."
+        ],
+        "answer": 1,
+        "explanation": "Comparative memakai 'than' dan bentuk ringkas 'stricter'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "We finished the regional audit in less ___ half the usual time.",
+        "options": [
+          "as",
+          "from",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'less', pasangan perbandingannya selalu 'than'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia mengetik dua kali lebih cepat tanpa kesalahan setelah kursus.\".",
+        "targetSentence": "He types twice as quickly without errors after training.",
+        "explanation": "Adverb 'quickly' di antara 'as ... as'.",
+        "hints": [
+          "Gunakan 'as + adj/adv + as' untuk menyatakan kesetaraan (atau 'not as ... as').",
+          "Pastikan perbandingan seimbang: bandingkan benda dengan benda sejenis ('that of' / 'those of')."
+        ],
+        "skill": "comparative"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Pasangkan 'inferior to' sebelum frasa pembanding."
         ],
         "skill": "comparative-latin"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ earlier we ship the samples, the sooner HR verifies them.",
+        "options": [
+          "As",
+          "The",
+          "More"
+        ],
+        "answer": 1,
+        "explanation": "Pola proporsional double comparative: 'The + comparative ..., the + comparative ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we start checking these audit boxes tonight? / Definitely—___ sooner we start, the earlier we go home.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should we start checking these audit boxes tonight?"
+          ],
+          [
+            "Dodi",
+            "Definitely—___ sooner we start, the earlier we go home."
+          ]
+        ],
+        "options": [
+          "more",
+          "so",
+          "the"
+        ],
+        "answer": 2,
+        "explanation": "Pola double comparative 'The sooner ..., the earlier ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The more earlier we leave, the less traffic we hit.\"",
+        "draft": "The more earlier we leave, the less traffic we hit.",
+        "options": [
+          "The more early we leave, the less traffic we hit.",
+          "The more earlier we leave, the less traffic we hit.",
+          "The earlier we leave, the less traffic we hit."
+        ],
+        "answer": 2,
+        "explanation": "Hindari 'more earlier' dalam double comparative; cukup 'The earlier'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The more thoroughly you check data, ___ confident you feel.",
+        "options": [
+          "the more",
+          "more",
+          "the most"
+        ],
+        "answer": 0,
+        "explanation": "Klausa kedua dalam double comparative wajib memakai 'the + comparative' ('the more').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semakin cepat kita mengirim sampel, semakin cepat HR memverifikasinya.\".",
+        "targetSentence": "The earlier we ship samples, the sooner HR verifies them.",
+        "explanation": "Double comparative 'The earlier ..., the sooner ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Digital shipping logs are becoming ___ reliable year by year.",
+        "options": [
+          "more and more",
+          "more and most",
+          "much and more"
+        ],
+        "answer": 0,
+        "explanation": "Tren meningkat bertahap memakai 'more and more + adj'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is our shipping software improving lately? / Because weekly updates make it ___ stable.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why is our shipping software improving lately?"
+          ],
+          [
+            "Bima",
+            "Because weekly updates make it ___ stable."
+          ]
+        ],
+        "options": [
+          "more and most",
+          "most and most",
+          "more and more"
+        ],
+        "answer": 2,
+        "explanation": "Tren progresif memakai 'more and more'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The harder she practiced, more fluent she spoke.\"",
+        "draft": "The harder she practiced, more fluent she spoke.",
+        "options": [
+          "The harder she practiced, the most fluently she spoke.",
+          "The harder she practiced, more fluent she spoke.",
+          "The harder she practiced, the more fluently she spoke."
+        ],
+        "answer": 2,
+        "explanation": "Klausa kedua wajib diawali 'the' + adverb comparative ('the more fluently').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Coastal summers are getting ___ across northern islands.",
+        "options": [
+          "more warmer and warmer",
+          "warmest and warmest",
+          "warmer and warmer"
+        ],
+        "answer": 2,
+        "explanation": "Adjektiva pendek tren bertahap memakai '-er and -er' ('warmer and warmer').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How good is this revised grammar workbook? / It is ___ the clearest manual in our department.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "How good is this revised grammar workbook?"
+          ],
+          [
+            "Eko",
+            "It is ___ the clearest manual in our department."
+          ]
+        ],
+        "options": [
+          "by far",
+          "very",
+          "more"
+        ],
+        "answer": 0,
+        "explanation": "Penguat superlative 'by far the clearest'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Solar power is becoming most and most affordable.\"",
+        "draft": "Solar power is becoming most and most affordable.",
+        "options": [
+          "Solar power is becoming more and more affordable.",
+          "Solar power is becoming more and affordable.",
+          "Solar power is becoming most and most affordable."
+        ],
+        "answer": 0,
+        "explanation": "Tren meningkat bertahap memakai 'more and more + adj'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semakin teliti Anda memeriksa data, semakin percaya diri Anda.\".",
+        "targetSentence": "The more thoroughly you check data, the more confident you feel.",
+        "explanation": "Double comparative kedua wajib memakai 'the more'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This updated handbook is ___ the clearest guide on campus.",
+        "options": [
+          "by far",
+          "much of",
+          "very"
+        ],
+        "answer": 0,
+        "explanation": "Penguat superlative paling kuat adalah 'by far the + superlative'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does taking mock speaking interviews help? / Yes! The more interviews you practice, ___ confident you sound.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Does taking mock speaking interviews help?"
+          ],
+          [
+            "Sari",
+            "Yes! The more interviews you practice, ___ confident you sound."
+          ]
+        ],
+        "options": [
+          "the more",
+          "the most",
+          "more"
+        ],
+        "answer": 0,
+        "explanation": "Double comparative -> 'the more confident'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She is one of the most smart analyst in HQ.\"",
+        "draft": "She is one of the most smart analyst in HQ.",
+        "options": [
+          "She is one of the smarter analysts in HQ.",
+          "She is one of the most smart analyst in HQ.",
+          "She is one of the smartest analysts in HQ."
+        ],
+        "answer": 2,
+        "explanation": "'One of the + superlative (smartest) + plural noun (analysts)'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That terminal redesign was one of the ___ projects last year.",
+        "options": [
+          "more complex",
+          "complexest",
+          "most complex"
+        ],
+        "answer": 2,
+        "explanation": "'One of the + superlative + plural noun' wajib berbentuk superlative.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was yesterday's ferry delay frustrating? / Wait—it felt all the ___ annoying because our baggage lagged.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Was yesterday's ferry delay frustrating?"
+          ],
+          [
+            "Putri",
+            "Wait—it felt all the ___ annoying because our baggage lagged."
+          ]
+        ],
+        "options": [
+          "most",
+          "much",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'all the more + adj' untuk penekanan.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That guide is very the clearest manual we have.\"",
+        "draft": "That guide is very the clearest manual we have.",
+        "options": [
+          "That guide is very the clearest manual we have.",
+          "That guide is by far the clearest manual we have.",
+          "That guide is much the clearest manual we have."
+        ],
+        "answer": 1,
+        "explanation": "Penguat superlative memakai 'by far', bukan 'very'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ less paper the office prints, the lower our supply bill drops.",
+        "options": [
+          "How",
+          "The",
+          "As"
+        ],
+        "answer": 1,
+        "explanation": "Kausal proporsional diawali 'The less ..., the lower ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Log pengiriman digital menjadi semakin andal dari tahun ke tahun.\".",
+        "targetSentence": "Digital shipping logs are becoming more and more reliable.",
+        "explanation": "Tren bertahap 'more and more + adj'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "She spoke all the ___ clearly because the hall echoed.",
+        "options": [
+          "most",
+          "much",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "Idiom 'all the more + adj/adv' = menjadi jauh lebih ... karena suatu sebab.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Which of the two warehouse software tools fits better? / Tool B is clearly the ___ option for small clinics.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Which of the two warehouse software tools fits better?"
+          ],
+          [
+            "Arman",
+            "Tool B is clearly the ___ option for small clinics."
+          ]
+        ],
+        "options": [
+          "more simple",
+          "simpler",
+          "simplest"
+        ],
+        "answer": 1,
+        "explanation": "Membandingkan dua opsi memakai 'the simpler'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Between these two vans, Van B is the fastest.\"",
+        "draft": "Between these two vans, Van B is the fastest.",
+        "options": [
+          "Between these two vans, Van B is the fastest.",
+          "Between these two vans, Van B is the faster.",
+          "Between these two vans, Van B is more faster."
+        ],
+        "answer": 1,
+        "explanation": "Membandingkan dua hal memakai 'the + comparative' ('the faster').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "No sooner had we landed ___ our coordinator phoned.",
+        "options": [
+          "than",
+          "when",
+          "then"
+        ],
+        "answer": 0,
+        "explanation": "Klausa perbandingan inversi 'No sooner ... than'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Musim panas pesisir menjadi semakin hangat di pulau utara.\".",
+        "targetSentence": "Coastal summers are getting warmer and warmer across northern islands.",
+        "explanation": "Tren pendek 'warmer and warmer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The workshop was ___ less demanding than trainees feared.",
+        "options": [
+          "considerably",
+          "very",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Considerably/significantly/far' dapat memodifikasi 'less + adj'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you buy fewer paper packs this quarter? / Because the less we print, ___ lower our monthly bill is.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why did you buy fewer paper packs this quarter?"
+          ],
+          [
+            "Adi",
+            "Because the less we print, ___ lower our monthly bill is."
+          ]
+        ],
+        "options": [
+          "the",
+          "more",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "'The less ..., the lower ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The more books you read, the less errors you make.\"",
+        "draft": "The more books you read, the less errors you make.",
+        "options": [
+          "The more books you read, the fewest errors you make.",
+          "The more books you read, the less errors you make.",
+          "The more books you read, the fewer errors you make."
+        ],
+        "answer": 2,
+        "explanation": "'Errors' countable jamak memakai 'the fewer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Between the two lab layouts, Option B is ___ the safer.",
+        "options": [
+          "clearly",
+          "very",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Membandingkan dua hal memakai 'the + comparative' yang dapat diawali adverb 'clearly/decidedly'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are coastal afternoon temperatures changing? / Yes, summer afternoons are growing ___.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Are coastal afternoon temperatures changing?"
+          ],
+          [
+            "Kiki",
+            "Yes, summer afternoons are growing ___."
+          ]
+        ],
+        "options": [
+          "hotter and hotter",
+          "more hot and hot",
+          "hottest and hottest"
+        ],
+        "answer": 0,
+        "explanation": "1 suku kata bertahap -> 'hotter and hotter'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner had the bell rung when students stood up.\"",
+        "draft": "No sooner had the bell rung when students stood up.",
+        "options": [
+          "No sooner had the bell rung then students stood up.",
+          "No sooner had the bell rung when students stood up.",
+          "No sooner had the bell rung than students stood up."
+        ],
+        "answer": 2,
+        "explanation": "Pasangan 'No sooner' selalu 'than', bukan 'when'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Buku panduan ini sejauh ini merupakan panduan paling jelas di kampus.\".",
+        "targetSentence": "This handbook is by far the clearest guide on campus.",
+        "explanation": "Penguat superlative 'by far'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—is a hybrid route any ___ for commuters than rail alone?",
+        "options": [
+          "fast",
+          "fastest",
+          "faster"
+        ],
+        "answer": 2,
+        "explanation": "Dalam kalimat tanya/negatif, 'any + comparative' ('any faster').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How does Dr. Wulan rank among visiting scholars? / She is one of the ___ cited researchers in marine ecology.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How does Dr. Wulan rank among visiting scholars?"
+          ],
+          [
+            "Sinta",
+            "She is one of the ___ cited researchers in marine ecology."
+          ]
+        ],
+        "options": [
+          "more",
+          "very",
+          "most"
+        ],
+        "answer": 2,
+        "explanation": "'One of the most + participle/adj + plural noun'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Summers are getting warm and warmer near the coast.\"",
+        "draft": "Summers are getting warm and warmer near the coast.",
+        "options": [
+          "Summers are getting warm and warmer near the coast.",
+          "Summers are getting warmer and warmer near the coast.",
+          "Summers are getting more warmer and warmer near the coast."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk tren bertahap mengulang comparative: 'warmer and warmer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The higher the transit volume climbs, ___ critical timing becomes.",
+        "options": [
+          "as more",
+          "the more",
+          "most"
+        ],
+        "answer": 1,
+        "explanation": "Double comparative -> 'the more critical'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Much better—its optical tracking never skips.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Is this new wireless mouse any ___ than the old one?"
+          ],
+          [
+            "Tia",
+            "Much better—its optical tracking never skips."
+          ]
+        ],
+        "options": [
+          "good",
+          "best",
+          "better"
+        ],
+        "answer": 2,
+        "explanation": "Dalam pertanyaan, 'any + comparative' ('any better').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I would rather wait ten minutes as take an unsafe van.\"",
+        "draft": "I would rather wait ten minutes as take an unsafe van.",
+        "options": [
+          "I would rather wait ten minutes than take an unsafe van.",
+          "I would rather wait ten minutes over take an unsafe van.",
+          "I would rather wait ten minutes as take an unsafe van."
+        ],
+        "answer": 0,
+        "explanation": "'Would rather ... than ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "This microscope is among the ___ instruments in our faculty.",
+        "options": [
+          "precisest",
+          "most precise",
+          "more precise"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'among the', gunakan superlative ('most precise').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Proyek itu salah satu proyek paling rumit tahun lalu.\".",
+        "targetSentence": "That was one of the most complex projects last year.",
+        "explanation": "'One of the + superlative + plural noun'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He would rather revise twice ___ submit a rushed essay.",
+        "options": [
+          "as",
+          "from",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "Konstruksi preferensi 'would rather ... than ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our trainees make fewer syntax slips in Week 4? / Yes, the more essays they drafted, ___ fewer errors remained.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Did our trainees make fewer syntax slips in Week 4?"
+          ],
+          [
+            "Dewi",
+            "Yes, the more essays they drafted, ___ fewer errors remained."
+          ]
+        ],
+        "options": [
+          "than",
+          "the",
+          "more"
+        ],
+        "answer": 1,
+        "explanation": "'The more ..., the fewer ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This updated software is very more stable than V1.\"",
+        "draft": "This updated software is very more stable than V1.",
+        "options": [
+          "This updated software is many more stable than V1.",
+          "This updated software is very more stable than V1.",
+          "This updated software is far more stable than V1."
+        ],
+        "answer": 2,
+        "explanation": "Jangan memakai 'very' sebelum 'more'; gunakan 'far/much/considerably'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Urban commuter queues grew ___ longer during road construction.",
+        "options": [
+          "more",
+          "very",
+          "progressively"
+        ],
+        "answer": 2,
+        "explanation": "Adverb 'progressively' memodifikasi '-er' ('progressively longer').",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semakin sedikit kertas yang kita cetak, semakin rendah tagihan.\".",
+        "targetSentence": "The less paper we print, the lower our bill drops.",
+        "explanation": "'The less ..., the lower ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The less noise we make, ___ easily guests hear the guide.",
+        "options": [
+          "more",
+          "the more",
+          "the most"
+        ],
+        "answer": 1,
+        "explanation": "Double comparative adverbial -> 'the more easily'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What did you think of the keynote speech on logistics? / It was ___ more insightful than I had expected.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What did you think of the keynote speech on logistics?"
+          ],
+          [
+            "Ayu",
+            "It was ___ more insightful than I had expected."
+          ]
+        ],
+        "options": [
+          "substantially",
+          "very",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Modifikator comparative -> 'substantially/far more'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"His speech felt all the most moving because of real data.\"",
+        "draft": "His speech felt all the most moving because of real data.",
+        "options": [
+          "His speech felt all the most moving because of real data.",
+          "His speech felt all the more moving because of real data.",
+          "His speech felt all the much moving because of real data."
+        ],
+        "answer": 1,
+        "explanation": "Idiom baku adalah 'all the more + adj'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "That was ___ the longest ferry crossing of our whole trip.",
+        "options": [
+          "much",
+          "more",
+          "easily"
+        ],
+        "answer": 2,
+        "explanation": "'Easily the + superlative' = jelas paling ....",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the manager prefer Train A to Train B? / Because Train A is ___ the fastest route across Java.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why did the manager prefer Train A to Train B?"
+          ],
+          [
+            "Oki",
+            "Because Train A is ___ the fastest route across Java."
+          ]
+        ],
+        "options": [
+          "easily",
+          "very",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Easily the + superlative' = jelas tercepat.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She is among the more respected editors in town.\"",
+        "draft": "She is among the more respected editors in town.",
+        "options": [
+          "She is among the most respected editors in town.",
+          "She is among the respectedest editors in town.",
+          "She is among the more respected editors in town."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'among the', gunakan superlative 'most respected'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia berbicara jauh lebih jelas karena aula bergema.\".",
+        "targetSentence": "She spoke all the more clearly because the hall echoed.",
+        "explanation": "Idiom 'all the more clearly'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new cooling unit proved ___ bit as efficient as promised.",
+        "options": [
+          "every",
+          "each",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "Penguat kesetaraan penuh: 'every bit as ... as'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we review Clause 6 once more? / Yes, I would rather check twice ___ miss a fee.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Should we review Clause 6 once more?"
+          ],
+          [
+            "Mira",
+            "Yes, I would rather check twice ___ miss a fee."
+          ]
+        ],
+        "options": [
+          "as",
+          "over",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "'would rather ... than ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is this compact printer any best than the floor unit?\"",
+        "draft": "Is this compact printer any best than the floor unit?",
+        "options": [
+          "Is this compact printer any best than the floor unit?",
+          "Is this compact printer any better than the floor unit?",
+          "Is this compact printer any good than the floor unit?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'any' + 'than', gunakan comparative 'better'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nothing delays launches ___ severely than unclear milestones.",
+        "options": [
+          "most",
+          "very",
+          "more"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat negatif + comparative + 'than' -> 'more severely than'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How fast did the backup finish after removing logs? / The smaller the archive file, the ___ it uploads.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How fast did the backup finish after removing logs?"
+          ],
+          [
+            "Taufik",
+            "The smaller the archive file, the ___ it uploads."
+          ]
+        ],
+        "options": [
+          "faster",
+          "fastest",
+          "more fast"
+        ],
+        "answer": 0,
+        "explanation": "'The smaller ..., the faster ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The less noise we make, more clearly guests hear.\"",
+        "draft": "The less noise we make, more clearly guests hear.",
+        "options": [
+          "The less noise we make, the most clearly guests hear.",
+          "The less noise we make, more clearly guests hear.",
+          "The less noise we make, the more clearly guests hear."
+        ],
+        "answer": 2,
+        "explanation": "Wajib menyertakan 'the' sebelum 'more clearly'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "I find paperless archiving ___ the better approach for audits.",
+        "options": [
+          "most",
+          "by far",
+          "very"
+        ],
+        "answer": 1,
+        "explanation": "Penguat sebelum 'the + comparative' -> 'by far the better'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja kami mendarat, koordinator kami langsung menelepon.\".",
+        "targetSentence": "No sooner had we landed than our coordinator phoned.",
+        "explanation": "Inversi 'No sooner ... than'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The more practice tests interns take, ___ mistakes they make.",
+        "options": [
+          "the fewer",
+          "the less",
+          "fewer"
+        ],
+        "answer": 0,
+        "explanation": "'Mistakes' countable jamak dalam double comparative -> 'the fewer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the noise stop after closing the glass door? / Yes, Room 2 was ___ less noisy than the lobby.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did the noise stop after closing the glass door?"
+          ],
+          [
+            "Lina",
+            "Yes, Room 2 was ___ less noisy than the lobby."
+          ]
+        ],
+        "options": [
+          "very",
+          "most",
+          "far"
+        ],
+        "answer": 2,
+        "explanation": "Penguat comparative kebalikan -> 'far less'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That was easily the longer delay of our whole tour.\"",
+        "draft": "That was easily the longer delay of our whole tour.",
+        "options": [
+          "That was easily the longest delay of our whole tour.",
+          "That was easily the more long delay of our whole tour.",
+          "That was easily the longer delay of our whole tour."
+        ],
+        "answer": 0,
+        "explanation": "Superlative 'easily the longest'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The sooner the courier departs, ___ less traffic he will face.",
+        "options": [
+          "the",
+          "more",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Double comparative dengan uncountable -> 'the less traffic'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semakin banyak tes latihan yang diikuti, semakin sedikit kesalahannya.\".",
+        "targetSentence": "The more practice tests interns take, the fewer mistakes occur.",
+        "explanation": "'the fewer' untuk countable jamak.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "She is one of the ___ analysts ever hired by HQ.",
+        "options": [
+          "more reliable",
+          "reliablest",
+          "most reliable"
+        ],
+        "answer": 2,
+        "explanation": "'One of the + superlative + plural noun' -> 'most reliable'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was that report thorough enough for the audit? / Actually, it was the ___ detailed file in the folder.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was that report thorough enough for the audit?"
+          ],
+          [
+            "Wulan",
+            "Actually, it was the ___ detailed file in the folder."
+          ]
+        ],
+        "options": [
+          "fewer",
+          "least",
+          "less"
+        ],
+        "answer": 1,
+        "explanation": "Superlative kebalikan -> 'the least detailed'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The older those batteries get, the high the leakage risk.\"",
+        "draft": "The older those batteries get, the high the leakage risk.",
+        "options": [
+          "The older those batteries get, the high the leakage risk.",
+          "The older those batteries get, the higher the leakage risk.",
+          "The older those batteries get, the highest the leakage risk."
+        ],
+        "answer": 1,
+        "explanation": "Double comparative memakai 'the higher'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our current prototype runs ___ more smoothly than Version 1.",
+        "options": [
+          "very",
+          "many",
+          "incomparably"
+        ],
+        "answer": 2,
+        "explanation": "Adverb akademik penguat 'more' -> 'incomparably/far/substantially'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened right after you landed at Terminal 3? / No sooner had we landed ___ the driver called.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What happened right after you landed at Terminal 3?"
+          ],
+          [
+            "Sari",
+            "No sooner had we landed ___ the driver called."
+          ]
+        ],
+        "options": [
+          "that",
+          "than",
+          "when"
+        ],
+        "answer": 1,
+        "explanation": "Inversi perbandingan 'No sooner ... than'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Her second draft was less thorough as we had hoped.\"",
+        "draft": "Her second draft was less thorough as we had hoped.",
+        "options": [
+          "Her second draft was less thorough as we had hoped.",
+          "Her second draft was less thorough than we had hoped.",
+          "Her second draft was fewer thorough than we had hoped."
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'less' adalah 'than', bukan 'as'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya lebih suka merevisi dua kali daripada mengirim esai terburu-buru.\".",
+        "targetSentence": "I would rather revise twice than submit a rushed essay.",
+        "explanation": "'would rather ... than ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could this bridge span be ___ wider than the 1995 blueprint?",
+        "options": [
+          "slightly",
+          "very",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Modifikator tingkat kecil sebelum '-er' -> 'slightly/marginally'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How are passenger numbers trending on Route 8? / Trains are getting ___ crowded each semester.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "How are passenger numbers trending on Route 8?"
+          ],
+          [
+            "Reno",
+            "Trains are getting ___ crowded each semester."
+          ]
+        ],
+        "options": [
+          "most",
+          "progressively more",
+          "very much"
+        ],
+        "answer": 1,
+        "explanation": "Tren bertahap -> 'progressively more crowded'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He handles crisis calls more calmer than anyone else.\"",
+        "draft": "He handles crisis calls more calmer than anyone else.",
+        "options": [
+          "He handles crisis calls far more calmly than anyone else.",
+          "He handles crisis calls most calmly than anyone else.",
+          "He handles crisis calls more calmer than anyone else."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan adverb 'calmly' tanpa 'more calmer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The older the factory wiring gets, ___ higher the risk climbs.",
+        "options": [
+          "the",
+          "more",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "'The older ..., the higher ...'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is this bridge design safer than the 2010 plan? / Yes, reinforced steel makes it ___ safer in quakes.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Is this bridge design safer than the 2010 plan?"
+          ],
+          [
+            "Aris",
+            "Yes, reinforced steel makes it ___ safer in quakes."
+          ]
+        ],
+        "options": [
+          "incomparably",
+          "very",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Penguat comparative 'incomparably/far safer'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"This draft is the less convincing argument in the packet.\"",
+        "draft": "This draft is the less convincing argument in the packet.",
+        "options": [
+          "This draft is the least convincing argument in the packet.",
+          "This draft is the fewer convincing argument in the packet.",
+          "This draft is the less convincing argument in the packet."
+        ],
+        "answer": 0,
+        "explanation": "Kebalikan superlative dengan 'the' memakai 'the least'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He handles tight deadlines ___ calmly than anyone else here.",
+        "options": [
+          "far more",
+          "very more",
+          "most"
+        ],
+        "answer": 0,
+        "explanation": "Perbandingan dengan 'than anyone else' memakai 'far more'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Laporan kuartal itu merupakan kajian yang paling kurang rinci.\".",
+        "targetSentence": "That quarterly report was the least detailed study here.",
+        "explanation": "Kebalikan superlative 'the least'.",
+        "hints": [
+          "Gunakan double comparative ('The more ..., the more ...' / 'The sooner ..., the better ...') untuk hubungan sebab-akibat proporsional.",
+          "Perhatikan 'comparative + and + comparative' untuk tren meningkat/menurun bertahap, serta superlative dengan 'by far' atau 'one of the + superlative + plural noun'."
+        ],
+        "skill": "comparative"
       }
     ]
   }

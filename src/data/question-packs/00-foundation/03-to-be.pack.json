@@ -261,6 +261,1446 @@
           "Letakkan 'is not' setelah subjek."
         ],
         "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ ready for the morning shift.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"I\" berpasangan dengan to be \"am\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / I ___ ready for the morning shift.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "I ___ ready for the morning shift."
+          ]
+        ],
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"I\" memerlukan to be \"am\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"I is ready for the morning shift.\"",
+        "draft": "I is ready for the morning shift.",
+        "options": [
+          "I am ready for the morning shift.",
+          "I are ready for the morning shift.",
+          "I be ready for the morning shift."
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"I\" tidak cocok dengan \"is\"; gunakan \"am\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"I\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ an experienced lab technician.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"She\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: are · The · this).",
+        "targetSentence": "The interns are very punctual this week.",
+        "explanation": "Subject (The interns) + to be (are) + complement (very punctual this week).",
+        "hints": [
+          "Mulai dengan \"The interns are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ in the main conference room.",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"He\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / She ___ an experienced lab technician.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "She ___ an experienced lab technician."
+          ]
+        ],
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"She\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"She are an experienced lab technician.\"",
+        "draft": "She are an experienced lab technician.",
+        "options": [
+          "She is an experienced lab technician.",
+          "She am an experienced lab technician.",
+          "She be an experienced lab technician."
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"She\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"She\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "It ___ a two-hour flight to Jakarta.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"It\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / He ___ in the main conference room.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "He ___ in the main conference room."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"He\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"He am in the main conference room.\"",
+        "draft": "He am in the main conference room.",
+        "options": [
+          "He are in the main conference room.",
+          "He be in the main conference room.",
+          "He is in the main conference room."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"He\" tidak cocok dengan \"am\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"am\" dengan bentuk yang sesuai untuk \"He\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: is · Our · the).",
+        "targetSentence": "Our office is near the central station.",
+        "explanation": "Subject (Our office) + to be (is) + complement (near the central station).",
+        "hints": [
+          "Mulai dengan \"Our office is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ from the regional branch.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"We\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / It ___ a two-hour flight to Jakarta.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "It ___ a two-hour flight to Jakarta."
+          ]
+        ],
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"It\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"It are a two-hour flight to Jakarta.\"",
+        "draft": "It are a two-hour flight to Jakarta.",
+        "options": [
+          "It am a two-hour flight to Jakarta.",
+          "It be a two-hour flight to Jakarta.",
+          "It is a two-hour flight to Jakarta."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"It\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"It\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ grateful for your quick help.",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"They\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / We ___ from the regional branch.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "We ___ from the regional branch."
+          ]
+        ],
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"We\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"We is from the regional branch.\"",
+        "draft": "We is from the regional branch.",
+        "options": [
+          "We am from the regional branch.",
+          "We be from the regional branch.",
+          "We are from the regional branch."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"We\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"We\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ on the morning roster.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"You\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (6 kata; fokus: are · for · The).",
+        "targetSentence": "The packages are ready for dispatch.",
+        "explanation": "Subject (The packages) + to be (are) + complement (ready for dispatch).",
+        "hints": [
+          "Mulai dengan \"The packages are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The printer ___ out of black ink.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The printer\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / They ___ grateful for your quick help.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "They ___ grateful for your quick help."
+          ]
+        ],
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"They\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"They is grateful for your quick help.\"",
+        "draft": "They is grateful for your quick help.",
+        "options": [
+          "They be grateful for your quick help.",
+          "They are grateful for your quick help.",
+          "They am grateful for your quick help."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"They\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"They\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "These manuals ___ available at the front desk.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"These manuals\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: is · the · Your).",
+        "targetSentence": "Your passport is inside the front pocket.",
+        "explanation": "Subject (Your passport) + to be (is) + complement (inside the front pocket).",
+        "hints": [
+          "Mulai dengan \"Your passport is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "My laptop ___ on the wooden table.",
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"My laptop\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / You ___ on the morning roster.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "You ___ on the morning roster."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"You\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"You is on the morning roster.\"",
+        "draft": "You is on the morning roster.",
+        "options": [
+          "You am on the morning roster.",
+          "You be on the morning roster.",
+          "You are on the morning roster."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"You\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"You\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The interns ___ very punctual this week.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The interns\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / The printer ___ out of black ink.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "The printer ___ out of black ink."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The printer\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"The printer are out of black ink.\"",
+        "draft": "The printer are out of black ink.",
+        "options": [
+          "The printer am out of black ink.",
+          "The printer be out of black ink.",
+          "The printer is out of black ink."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The printer\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"The printer\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: B. · in · are).",
+        "targetSentence": "The trainees are in Lecture Hall B.",
+        "explanation": "Subject (The trainees) + to be (are) + complement (in Lecture Hall B).",
+        "hints": [
+          "Mulai dengan \"The trainees are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our office ___ near the central station.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Our office\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / These manuals ___ available at the front desk.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "These manuals ___ available at the front desk."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"These manuals\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"These manuals is available at the front desk.\"",
+        "draft": "These manuals is available at the front desk.",
+        "options": [
+          "These manuals are available at the front desk.",
+          "These manuals am available at the front desk.",
+          "These manuals be available at the front desk."
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"These manuals\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"These manuals\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The packages ___ ready for dispatch.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The packages\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / My laptop ___ on the wooden table.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "My laptop ___ on the wooden table."
+          ]
+        ],
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"My laptop\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"My laptop are on the wooden table.\"",
+        "draft": "My laptop are on the wooden table.",
+        "options": [
+          "My laptop be on the wooden table.",
+          "My laptop is on the wooden table.",
+          "My laptop am on the wooden table."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"My laptop\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"My laptop\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your passport ___ inside the front pocket.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Your passport\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (6 kata; fokus: is · on · open).",
+        "targetSentence": "That museum is open on Sundays.",
+        "explanation": "Subject (That museum) + to be (is) + complement (open on Sundays).",
+        "hints": [
+          "Mulai dengan \"That museum is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The trainees ___ in Lecture Hall B.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The trainees\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / The interns ___ very punctual this week.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "The interns ___ very punctual this week."
+          ]
+        ],
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"The interns\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"The interns is very punctual this week.\"",
+        "draft": "The interns is very punctual this week.",
+        "options": [
+          "The interns am very punctual this week.",
+          "The interns be very punctual this week.",
+          "The interns are very punctual this week."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The interns\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"The interns\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "That museum ___ open on Sundays.",
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"That museum\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (6 kata; fokus: are · Both · under).",
+        "targetSentence": "Both elevators are under maintenance today.",
+        "explanation": "Subject (Both elevators) + to be (are) + complement (under maintenance today).",
+        "hints": [
+          "Mulai dengan \"Both elevators are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both elevators ___ under maintenance today.",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Both elevators\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / Our office ___ near the central station.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "Our office ___ near the central station."
+          ]
+        ],
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Our office\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"Our office are near the central station.\"",
+        "draft": "Our office are near the central station.",
+        "options": [
+          "Our office is near the central station.",
+          "Our office am near the central station.",
+          "Our office be near the central station."
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Our office\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"Our office\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The schedule ___ posted on the wall.",
+        "options": [
+          "are",
+          "am",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"The schedule\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / The packages ___ ready for dispatch.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "The packages ___ ready for dispatch."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The packages\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"The packages is ready for dispatch.\"",
+        "draft": "The packages is ready for dispatch.",
+        "options": [
+          "The packages be ready for dispatch.",
+          "The packages are ready for dispatch.",
+          "The packages am ready for dispatch."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"The packages\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"The packages\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: is · on · the).",
+        "targetSentence": "The schedule is posted on the wall.",
+        "explanation": "Subject (The schedule) + to be (is) + complement (posted on the wall).",
+        "hints": [
+          "Mulai dengan \"The schedule is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Her parents ___ proud of her progress.",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Her parents\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / Your passport ___ inside the front pocket.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "Your passport ___ inside the front pocket."
+          ]
+        ],
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Your passport\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"Your passport are inside the front pocket.\"",
+        "draft": "Your passport are inside the front pocket.",
+        "options": [
+          "Your passport be inside the front pocket.",
+          "Your passport is inside the front pocket.",
+          "Your passport am inside the front pocket."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Your passport\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"Your passport\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "This chair ___ comfortable for long study.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"This chair\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / The trainees ___ in Lecture Hall B.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "The trainees ___ in Lecture Hall B."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The trainees\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"The trainees is in Lecture Hall B.\"",
+        "draft": "The trainees is in Lecture Hall B.",
+        "options": [
+          "The trainees be in Lecture Hall B.",
+          "The trainees are in Lecture Hall B.",
+          "The trainees am in Lecture Hall B."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"The trainees\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"The trainees\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The windows ___ clean and bright.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The windows\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: of · are · her).",
+        "targetSentence": "Her parents are proud of her progress.",
+        "explanation": "Subject (Her parents) + to be (are) + complement (proud of her progress).",
+        "hints": [
+          "Mulai dengan \"Her parents are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our supervisor ___ currently on leave.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"Our supervisor\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / That museum ___ open on Sundays.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "That museum ___ open on Sundays."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"That museum\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"That museum are open on Sundays.\"",
+        "draft": "That museum are open on Sundays.",
+        "options": [
+          "That museum be open on Sundays.",
+          "That museum is open on Sundays.",
+          "That museum am open on Sundays."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"That museum\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"That museum\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The classrooms ___ equipped with projectors.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The classrooms\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (7 kata; fokus: is · for · long).",
+        "targetSentence": "This chair is comfortable for long study.",
+        "explanation": "Subject (This chair) + to be (is) + complement (comfortable for long study).",
+        "hints": [
+          "Mulai dengan \"This chair is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Monday ___ our busiest delivery day.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Monday\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / Both elevators ___ under maintenance today.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "Both elevators ___ under maintenance today."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Both elevators\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"Both elevators is under maintenance today.\"",
+        "draft": "Both elevators is under maintenance today.",
+        "options": [
+          "Both elevators am under maintenance today.",
+          "Both elevators be under maintenance today.",
+          "Both elevators are under maintenance today."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"Both elevators\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"Both elevators\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "These shoes ___ too tight for walking.",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"These shoes\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / The schedule ___ posted on the wall.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "The schedule ___ posted on the wall."
+          ]
+        ],
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"The schedule\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"The schedule are posted on the wall.\"",
+        "draft": "The schedule are posted on the wall.",
+        "options": [
+          "The schedule be posted on the wall.",
+          "The schedule is posted on the wall.",
+          "The schedule am posted on the wall."
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"The schedule\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"The schedule\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (6 kata; fokus: and · are · The).",
+        "targetSentence": "The windows are clean and bright.",
+        "explanation": "Subject (The windows) + to be (are) + complement (clean and bright).",
+        "hints": [
+          "Mulai dengan \"The windows are\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The library ___ quiet after six.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The library\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / Her parents ___ proud of her progress.\"",
+        "dialogue": [
+          [
+            "Receptionist",
+            "Where is everything right now?"
+          ],
+          [
+            "Colleague",
+            "Her parents ___ proud of her progress."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"Her parents\" memerlukan to be \"are\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"Her parents is proud of her progress.\"",
+        "draft": "Her parents is proud of her progress.",
+        "options": [
+          "Her parents am proud of her progress.",
+          "Her parents be proud of her progress.",
+          "Her parents are proud of her progress."
+        ],
+        "answer": 2,
+        "explanation": "Subjek \"Her parents\" tidak cocok dengan \"is\"; gunakan \"are\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"is\" dengan bentuk yang sesuai untuk \"Her parents\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "My notes ___ organized by date.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"My notes\" berpasangan dengan to be \"are\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang tepat untuk melengkapi percakapan: \"Where is everything right now? / This chair ___ comfortable for long study.\"",
+        "dialogue": [
+          [
+            "Colleague",
+            "Where is everything right now?"
+          ],
+          [
+            "Receptionist",
+            "This chair ___ comfortable for long study."
+          ]
+        ],
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek \"This chair\" memerlukan to be \"is\".",
+        "hints": [
+          "Identifikasi jumlah subjek sebelum rumpang.",
+          "Gunakan am/is/are sesuai subjek."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'to be' pada kalimat ini: \"This chair are comfortable for long study.\"",
+        "draft": "This chair are comfortable for long study.",
+        "options": [
+          "This chair is comfortable for long study.",
+          "This chair am comfortable for long study.",
+          "This chair be comfortable for long study."
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"This chair\" tidak cocok dengan \"are\"; gunakan \"is\".",
+        "hints": [
+          "Periksa kesesuaian subject dan to be.",
+          "Ganti \"are\" dengan bentuk yang sesuai untuk \"This chair\"."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ticket ___ valid for three days.",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "Subjek \"The ticket\" berpasangan dengan to be \"is\" dalam Present Simple.",
+        "hints": [
+          "Cek apakah subjek tunggal, jamak, atau 'I'.",
+          "I -> am; he/she/it/singular -> is; we/you/they/plural -> are."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominal dengan 'to be' yang benar (6 kata; fokus: is · on · Our).",
+        "targetSentence": "Our supervisor is currently on leave.",
+        "explanation": "Subject (Our supervisor) + to be (is) + complement (currently on leave).",
+        "hints": [
+          "Mulai dengan \"Our supervisor is\".",
+          "Lanjutkan dengan pelengkap kalimat."
+        ],
+        "skill": "to-be-form"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Pasangkan perbandingan 'as strong as expected'."
         ],
         "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ available at 2 PM?",
+        "options": [
+          "Is the seminar room",
+          "Are the seminar room",
+          "Am the seminar room"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Is the seminar room\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ available at 2 PM?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ available at 2 PM?"
+          ]
+        ],
+        "options": [
+          "Are the seminar room",
+          "Am the seminar room",
+          "Is the seminar room"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Is the seminar room\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Are the seminar room available at 2 PM?\"",
+        "draft": "Are the seminar room available at 2 PM?",
+        "options": [
+          "Is the seminar room not available at 2 PM?",
+          "Is the seminar room available at 2 PM?",
+          "Am the seminar room available at 2 PM?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Are the seminar room\" tidak sesuai subjek/waktu; perbaikannya adalah \"Is the seminar room\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ ready at reception?",
+        "options": [
+          "Is the new badges",
+          "Am the new badges",
+          "Are the new badges"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Are the new badges\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: at · Are · new).",
+        "targetSentence": "Are the new conference badges ready at reception?",
+        "explanation": "Pertanyaan Present Simple to be: Are + plural subject + complement?",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ on the afternoon team?",
+        "options": [
+          "Am I",
+          "Is I",
+          "Are I"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Am I\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ ready at reception?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ ready at reception?"
+          ]
+        ],
+        "options": [
+          "Is the new badges",
+          "Am the new badges",
+          "Are the new badges"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Are the new badges\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Is the new badges ready at reception?\"",
+        "draft": "Is the new badges ready at reception?",
+        "options": [
+          "Are the new badges not ready at reception?",
+          "Are the new badges ready at reception?",
+          "Am the new badges ready at reception?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Is the new badges\" tidak sesuai subjek/waktu; perbaikannya adalah \"Are the new badges\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ connected to Wi-Fi.",
+        "options": [
+          "The printer am not",
+          "The printer isn't",
+          "The printer aren't"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan \"The printer isn't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ on the afternoon team?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ on the afternoon team?"
+          ]
+        ],
+        "options": [
+          "Are I",
+          "Am I",
+          "Is I"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Am I\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Is I on the afternoon team?\"",
+        "draft": "Is I on the afternoon team?",
+        "options": [
+          "Am I on the afternoon team?",
+          "Are I on the afternoon team?",
+          "Am I not on the afternoon team?"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Is I\" tidak sesuai subjek/waktu; perbaikannya adalah \"Am I\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: of · the · Was).",
+        "targetSentence": "Was the morning flight delayed because of fog?",
+        "explanation": "Pertanyaan Past Simple to be: Was + singular subject + complement?",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ signed by finance yet.",
+        "options": [
+          "Those invoices aren't",
+          "Those invoices isn't",
+          "Those invoices am not"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Those invoices aren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ connected to Wi-Fi.\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ connected to Wi-Fi."
+          ]
+        ],
+        "options": [
+          "The printer aren't",
+          "The printer am not",
+          "The printer isn't"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"The printer isn't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"The printer aren't connected to Wi-Fi.\"",
+        "draft": "The printer aren't connected to Wi-Fi.",
+        "options": [
+          "The printer isn't connected to Wi-Fi.",
+          "The printer am not connected to Wi-Fi.",
+          "The printer isn't not connected to Wi-Fi."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"The printer aren't\" tidak sesuai subjek/waktu; perbaikannya adalah \"The printer isn't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ delayed yesterday evening?",
+        "options": [
+          "Weren't the flight",
+          "Isn't the flight",
+          "Wasn't the flight"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Wasn't the flight\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ signed by finance yet.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ signed by finance yet."
+          ]
+        ],
+        "options": [
+          "Those invoices isn't",
+          "Those invoices am not",
+          "Those invoices aren't"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Those invoices aren't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Those invoices isn't signed by finance yet.\"",
+        "draft": "Those invoices isn't signed by finance yet.",
+        "options": [
+          "Those invoices am not signed by finance yet.",
+          "Those invoices aren't not signed by finance yet.",
+          "Those invoices aren't signed by finance yet."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Those invoices isn't\" tidak sesuai subjek/waktu; perbaikannya adalah \"Those invoices aren't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ in Berlin last Tuesday.",
+        "options": [
+          "We wasn't",
+          "We aren't",
+          "We weren't"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"We weren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (7 kata; fokus: not · The · were).",
+        "targetSentence": "The laboratory samples were not labeled yesterday.",
+        "explanation": "Negatif Past Simple to be: plural subject + were not.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ at her desk ten minutes ago.",
+        "options": [
+          "She isn't",
+          "She wasn't",
+          "She weren't"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan \"She wasn't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ delayed yesterday evening?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ delayed yesterday evening?"
+          ]
+        ],
+        "options": [
+          "Isn't the flight",
+          "Wasn't the flight",
+          "Weren't the flight"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Wasn't the flight\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Weren't the flight delayed yesterday evening?\"",
+        "draft": "Weren't the flight delayed yesterday evening?",
+        "options": [
+          "Wasn't the flight not delayed yesterday evening?",
+          "Wasn't the flight delayed yesterday evening?",
+          "Isn't the flight delayed yesterday evening?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Weren't the flight\" tidak sesuai subjek/waktu; perbaikannya adalah \"Wasn't the flight\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ satisfied with yesterday's tour?",
+        "options": [
+          "Were the participants",
+          "Was the participants",
+          "Are the participants"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Were the participants\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (9 kata; fokus: is · on · not).",
+        "targetSentence": "Our branch office is not open on public holidays.",
+        "explanation": "Negatif Present Simple to be.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ crowded last weekend?",
+        "options": [
+          "Was the museum",
+          "Were the museum",
+          "Is the museum"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Was the museum\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ in Berlin last Tuesday.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ in Berlin last Tuesday."
+          ]
+        ],
+        "options": [
+          "We aren't",
+          "We weren't",
+          "We wasn't"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"We weren't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"We wasn't in Berlin last Tuesday.\"",
+        "draft": "We wasn't in Berlin last Tuesday.",
+        "options": [
+          "We weren't in Berlin last Tuesday.",
+          "We aren't in Berlin last Tuesday.",
+          "We weren't not in Berlin last Tuesday."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"We wasn't\" tidak sesuai subjek/waktu; perbaikannya adalah \"We weren't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ responsible for that delay.",
+        "options": [
+          "You isn't",
+          "You am not",
+          "You aren't"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"You aren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ at her desk ten minutes ago.\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ at her desk ten minutes ago."
+          ]
+        ],
+        "options": [
+          "She wasn't",
+          "She weren't",
+          "She isn't"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"She wasn't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"She weren't at her desk ten minutes ago.\"",
+        "draft": "She weren't at her desk ten minutes ago.",
+        "options": [
+          "She wasn't at her desk ten minutes ago.",
+          "She isn't at her desk ten minutes ago.",
+          "She wasn't not at her desk ten minutes ago."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"She weren't\" tidak sesuai subjek/waktu; perbaikannya adalah \"She wasn't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: the · the · Were).",
+        "targetSentence": "Were the workshop participants satisfied with the handbook?",
+        "explanation": "Pertanyaan Past Simple to be jamak.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ still valid until December?",
+        "options": [
+          "Were your passport",
+          "Is your passport",
+          "Are your passport"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan \"Is your passport\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ satisfied with yesterday's tour?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ satisfied with yesterday's tour?"
+          ]
+        ],
+        "options": [
+          "Were the participants",
+          "Was the participants",
+          "Are the participants"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Were the participants\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Was the participants satisfied with yesterday's tour?\"",
+        "draft": "Was the participants satisfied with yesterday's tour?",
+        "options": [
+          "Were the participants not satisfied with yesterday's tour?",
+          "Were the participants satisfied with yesterday's tour?",
+          "Are the participants satisfied with yesterday's tour?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Was the participants\" tidak sesuai subjek/waktu; perbaikannya adalah \"Were the participants\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ attached to this email?",
+        "options": [
+          "Is both reports",
+          "Was both reports",
+          "Are both reports"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Are both reports\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ crowded last weekend?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ crowded last weekend?"
+          ]
+        ],
+        "options": [
+          "Is the museum",
+          "Was the museum",
+          "Were the museum"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Was the museum\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Were the museum crowded last weekend?\"",
+        "draft": "Were the museum crowded last weekend?",
+        "options": [
+          "Is the museum crowded last weekend?",
+          "Was the museum not crowded last weekend?",
+          "Was the museum crowded last weekend?"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Were the museum\" tidak sesuai subjek/waktu; perbaikannya adalah \"Was the museum\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ full earlier this morning.",
+        "options": [
+          "The parking lot wasn't",
+          "The parking lot weren't",
+          "The parking lot aren't"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"The parking lot wasn't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: Is · on · the).",
+        "targetSentence": "Is the central library quiet on weekday evenings?",
+        "explanation": "Pertanyaan Present Simple to be tunggal.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ parked outside yesterday.",
+        "options": [
+          "The delivery trucks isn't",
+          "The delivery trucks weren't",
+          "The delivery trucks wasn't"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan \"The delivery trucks weren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ responsible for that delay.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ responsible for that delay."
+          ]
+        ],
+        "options": [
+          "You isn't",
+          "You am not",
+          "You aren't"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"You aren't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"You isn't responsible for that delay.\"",
+        "draft": "You isn't responsible for that delay.",
+        "options": [
+          "You aren't not responsible for that delay.",
+          "You aren't responsible for that delay.",
+          "You am not responsible for that delay."
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"You isn't\" tidak sesuai subjek/waktu; perbaikannya adalah \"You aren't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ available for overtime tonight.",
+        "options": [
+          "I isn't",
+          "I aren't",
+          "I'm not"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"I'm not\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (9 kata; fokus: in · are · not).",
+        "targetSentence": "Those signed receipts are not in the blue folder.",
+        "explanation": "Negatif Present Simple to be jamak.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ closed for repairs today?",
+        "options": [
+          "Aren't this street",
+          "Weren't this street",
+          "Isn't this street"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Isn't this street\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ still valid until December?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ still valid until December?"
+          ]
+        ],
+        "options": [
+          "Are your passport",
+          "Were your passport",
+          "Is your passport"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"Is your passport\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Are your passport still valid until December?\"",
+        "draft": "Are your passport still valid until December?",
+        "options": [
+          "Is your passport not still valid until December?",
+          "Is your passport still valid until December?",
+          "Were your passport still valid until December?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Are your passport\" tidak sesuai subjek/waktu; perbaikannya adalah \"Is your passport\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ scheduled for orientation now?",
+        "options": [
+          "Isn't the trainees",
+          "Wasn't the trainees",
+          "Aren't the trainees"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Aren't the trainees\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ attached to this email?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ attached to this email?"
+          ]
+        ],
+        "options": [
+          "Was both reports",
+          "Are both reports",
+          "Is both reports"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Are both reports\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Is both reports attached to this email?\"",
+        "draft": "Is both reports attached to this email?",
+        "options": [
+          "Are both reports not attached to this email?",
+          "Are both reports attached to this email?",
+          "Was both reports attached to this email?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Is both reports\" tidak sesuai subjek/waktu; perbaikannya adalah \"Are both reports\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: I · not · was).",
+        "targetSentence": "I was not available during yesterday's phone call.",
+        "explanation": "Negatif Past Simple 'I was not'.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ recorded last Thursday?",
+        "options": [
+          "Was that lecture",
+          "Were that lecture",
+          "Are that lecture"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Was that lecture\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ full earlier this morning.\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ full earlier this morning."
+          ]
+        ],
+        "options": [
+          "The parking lot wasn't",
+          "The parking lot weren't",
+          "The parking lot aren't"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"The parking lot wasn't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"The parking lot weren't full earlier this morning.\"",
+        "draft": "The parking lot weren't full earlier this morning.",
+        "options": [
+          "The parking lot aren't full earlier this morning.",
+          "The parking lot wasn't not full earlier this morning.",
+          "The parking lot wasn't full earlier this morning."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"The parking lot weren't\" tidak sesuai subjek/waktu; perbaikannya adalah \"The parking lot wasn't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ inspected at customs yesterday?",
+        "options": [
+          "Were your luggage bags",
+          "Was your luggage bags",
+          "Is your luggage bags"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Were your luggage bags\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ parked outside yesterday.\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ parked outside yesterday."
+          ]
+        ],
+        "options": [
+          "The delivery trucks wasn't",
+          "The delivery trucks isn't",
+          "The delivery trucks weren't"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"The delivery trucks weren't\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"The delivery trucks wasn't parked outside yesterday.\"",
+        "draft": "The delivery trucks wasn't parked outside yesterday.",
+        "options": [
+          "The delivery trucks weren't parked outside yesterday.",
+          "The delivery trucks isn't parked outside yesterday.",
+          "The delivery trucks weren't not parked outside yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"The delivery trucks wasn't\" tidak sesuai subjek/waktu; perbaikannya adalah \"The delivery trucks weren't\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ in the building right now.",
+        "options": [
+          "My manager isn't",
+          "My manager aren't",
+          "My manager am not"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"My manager isn't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: Are · both · main).",
+        "targetSentence": "Are both main elevators working properly this morning?",
+        "explanation": "Pertanyaan Present Simple to be jamak.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ clear enough for beginners.",
+        "options": [
+          "These instructions aren't",
+          "These instructions isn't",
+          "These instructions wasn't"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"These instructions aren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ available for overtime tonight.\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ available for overtime tonight."
+          ]
+        ],
+        "options": [
+          "I aren't",
+          "I'm not",
+          "I isn't"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"I'm not\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"I isn't available for overtime tonight.\"",
+        "draft": "I isn't available for overtime tonight.",
+        "options": [
+          "I aren't available for overtime tonight.",
+          "I'm not not available for overtime tonight.",
+          "I'm not available for overtime tonight."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk \"I isn't\" tidak sesuai subjek/waktu; perbaikannya adalah \"I'm not\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ open 24 hours?",
+        "options": [
+          "Are the pharmacy",
+          "Were the pharmacy",
+          "Is the pharmacy"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Is the pharmacy\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: not · The · was).",
+        "targetSentence": "The hotel Wi-Fi was not stable last night.",
+        "explanation": "Negatif Past Simple to be tunggal.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ posted online yet?",
+        "options": [
+          "Are the test scores",
+          "Is the test scores",
+          "Was the test scores"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"Are the test scores\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ closed for repairs today?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ closed for repairs today?"
+          ]
+        ],
+        "options": [
+          "Isn't this street",
+          "Aren't this street",
+          "Weren't this street"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Isn't this street\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Aren't this street closed for repairs today?\"",
+        "draft": "Aren't this street closed for repairs today?",
+        "options": [
+          "Isn't this street closed for repairs today?",
+          "Weren't this street closed for repairs today?",
+          "Isn't this street not closed for repairs today?"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Aren't this street\" tidak sesuai subjek/waktu; perbaikannya adalah \"Isn't this street\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ present at last week's meeting.",
+        "options": [
+          "He weren't",
+          "He aren't",
+          "He wasn't"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"He wasn't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ scheduled for orientation now?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ scheduled for orientation now?"
+          ]
+        ],
+        "options": [
+          "Aren't the trainees",
+          "Isn't the trainees",
+          "Wasn't the trainees"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Aren't the trainees\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Isn't the trainees scheduled for orientation now?\"",
+        "draft": "Isn't the trainees scheduled for orientation now?",
+        "options": [
+          "Aren't the trainees scheduled for orientation now?",
+          "Wasn't the trainees scheduled for orientation now?",
+          "Aren't the trainees not scheduled for orientation now?"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Isn't the trainees\" tidak sesuai subjek/waktu; perbaikannya adalah \"Aren't the trainees\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (8 kata; fokus: at · bags · Were).",
+        "targetSentence": "Were your luggage bags inspected at customs yesterday?",
+        "explanation": "Pertanyaan Past Simple to be jamak.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ late for Monday's train.",
+        "options": [
+          "They weren't",
+          "They wasn't",
+          "They isn't"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan \"They weren't\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ recorded last Thursday?\"",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Assistant",
+            "___ recorded last Thursday?"
+          ]
+        ],
+        "options": [
+          "Was that lecture",
+          "Were that lecture",
+          "Are that lecture"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Was that lecture\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Were that lecture recorded last Thursday?\"",
+        "draft": "Were that lecture recorded last Thursday?",
+        "options": [
+          "Was that lecture not recorded last Thursday?",
+          "Was that lecture recorded last Thursday?",
+          "Are that lecture recorded last Thursday?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Were that lecture\" tidak sesuai subjek/waktu; perbaikannya adalah \"Was that lecture\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ working properly today?",
+        "options": [
+          "Were the air conditioning",
+          "Is the air conditioning",
+          "Are the air conditioning"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan \"Is the air conditioning\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya-jawab dengan bentuk negatif atau pertanyaan 'to be' yang tepat: \"Let me double-check the status before we start. / ___ inspected at customs yesterday?\"",
+        "dialogue": [
+          [
+            "Assistant",
+            "Let me double-check the status before we start."
+          ],
+          [
+            "Coordinator",
+            "___ inspected at customs yesterday?"
+          ]
+        ],
+        "options": [
+          "Were your luggage bags",
+          "Was your luggage bags",
+          "Is your luggage bags"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk \"Were your luggage bags\" tepat untuk subjek dan keterangan waktunya.",
+        "hints": [
+          "Perhatikan apakah pertanyaan/pernyataan merujuk ke masa sekarang atau lampau.",
+          "Sesuaikan is/are/was/were dengan subjeknya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk negatif/pertanyaan 'to be' berikut: \"Was your luggage bags inspected at customs yesterday?\"",
+        "draft": "Was your luggage bags inspected at customs yesterday?",
+        "options": [
+          "Were your luggage bags not inspected at customs yesterday?",
+          "Were your luggage bags inspected at customs yesterday?",
+          "Is your luggage bags inspected at customs yesterday?"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk \"Was your luggage bags\" tidak sesuai subjek/waktu; perbaikannya adalah \"Were your luggage bags\".",
+        "hints": [
+          "Periksa kesesuaian subjek tunggal/jamak.",
+          "Cek penanda waktu lampau (yesterday, last week) vs sekarang."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ arranged in rows?",
+        "options": [
+          "Is the conference chairs",
+          "Was the conference chairs",
+          "Are the conference chairs"
+        ],
+        "answer": 2,
+        "explanation": "Pilihan \"Are the conference chairs\" sesuai dengan jumlah subjek dan konteks waktu (Present vs Past) pada kalimat.",
+        "hints": [
+          "Perhatikan apakah subjek tunggal/jamak dan apakah waktunya sekarang atau lampau.",
+          "Cek kata kerja bantu to be pada kalimat tanya/negatif."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat tanya atau negatif dengan 'to be' yang benar (9 kata; fokus: in · is · My).",
+        "targetSentence": "My supervisor is not in her office right now.",
+        "explanation": "Negatif Present Simple to be tunggal.",
+        "hints": [
+          "Untuk pertanyaan, letakkan am/is/are/was/were sebelum subjek.",
+          "Untuk negatif, letakkan 'not' tepat setelah to be."
+        ],
+        "skill": "to-be-form"
       }
     ],
     "complex": [
@@ -828,6 +3708,1446 @@
         "hints": [
           "Mulai dengan 'The committee are divided'.",
           "Lengkapi frasa 'over the proposed budget cuts'."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The price of both flights ___ still reasonable this morning.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Head noun adalah 'The price' (tunggal), bukan 'flights'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the price of both flights ___ still reasonable this morning.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, the price of both flights ___ still reasonable this morning."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Head noun adalah 'The price' (tunggal), bukan 'flights'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The price of both flights are still reasonable this morning.\"",
+        "draft": "The price of both flights are still reasonable this morning.",
+        "options": [
+          "The price of both flights is still reasonable this morning.",
+          "The price of both flights be still reasonable this morning.",
+          "The price of both flights been still reasonable this morning."
+        ],
+        "answer": 0,
+        "explanation": "Head noun adalah 'The price' (tunggal), bukan 'flights'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Each of the twenty applicants ___ scheduled for a brief interview.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Each' selalu tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (10 kata; fokus: is · of · The).",
+        "targetSentence": "The price of both flights is still reasonable this morning.",
+        "explanation": "Head noun adalah 'The price' (tunggal), bukan 'flights'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the manager nor the interns ___ informed about yesterday's change.",
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Pada 'neither...nor', verb mengikuti subjek terdekat ('the interns' -> jamak -> 'were').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, each of the twenty applicants ___ scheduled for a brief interview.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, each of the twenty applicants ___ scheduled for a brief interview."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Each' selalu tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Each of the twenty applicants are scheduled for a brief interview.\"",
+        "draft": "Each of the twenty applicants are scheduled for a brief interview.",
+        "options": [
+          "Each of the twenty applicants been scheduled for a brief interview.",
+          "Each of the twenty applicants is scheduled for a brief interview.",
+          "Each of the twenty applicants be scheduled for a brief interview."
+        ],
+        "answer": 1,
+        "explanation": "'Each' selalu tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Either the printer or the scanner ___ scheduled for replacement today.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Pada 'either...or', kedua subjek tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, neither the manager nor the interns ___ informed about yesterday's change.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, neither the manager nor the interns ___ informed about yesterday's change."
+          ]
+        ],
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Pada 'neither...nor', verb mengikuti subjek terdekat ('the interns' -> jamak -> 'were').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Neither the manager nor the interns was informed about yesterday's change.\"",
+        "draft": "Neither the manager nor the interns was informed about yesterday's change.",
+        "options": [
+          "Neither the manager nor the interns be informed about yesterday's change.",
+          "Neither the manager nor the interns been informed about yesterday's change.",
+          "Neither the manager nor the interns were informed about yesterday's change."
+        ],
+        "answer": 2,
+        "explanation": "Pada 'neither...nor', verb mengikuti subjek terdekat ('the interns' -> jamak -> 'were').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: a · is · of).",
+        "targetSentence": "Each of the twenty applicants is scheduled for a brief interview.",
+        "explanation": "'Each' selalu tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The quality of these raw materials ___ essential for product durability.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek inti adalah 'The quality' (tunggal), bukan 'materials'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, either the printer or the scanner ___ scheduled for replacement today.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, either the printer or the scanner ___ scheduled for replacement today."
+          ]
+        ],
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Pada 'either...or', kedua subjek tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Either the printer or the scanner are scheduled for replacement today.\"",
+        "draft": "Either the printer or the scanner are scheduled for replacement today.",
+        "options": [
+          "Either the printer or the scanner be scheduled for replacement today.",
+          "Either the printer or the scanner been scheduled for replacement today.",
+          "Either the printer or the scanner is scheduled for replacement today."
+        ],
+        "answer": 2,
+        "explanation": "Pada 'either...or', kedua subjek tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "A group of visiting researchers ___ currently touring the robotics lab.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Head noun 'A group' bersifat tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the quality of these raw materials ___ essential for product durability.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, the quality of these raw materials ___ essential for product durability."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Subjek inti adalah 'The quality' (tunggal), bukan 'materials'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The quality of these raw materials are essential for product durability.\"",
+        "draft": "The quality of these raw materials are essential for product durability.",
+        "options": [
+          "The quality of these raw materials is essential for product durability.",
+          "The quality of these raw materials be essential for product durability.",
+          "The quality of these raw materials been essential for product durability."
+        ],
+        "answer": 0,
+        "explanation": "Subjek inti adalah 'The quality' (tunggal), bukan 'materials'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "All of the equipment in Room 4 ___ calibrated every Monday morning.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Equipment' adalah uncountable noun sehingga selalu memakai 'is'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: nor · the · the).",
+        "targetSentence": "Neither the manager nor the interns were informed about yesterday's change.",
+        "explanation": "Pada 'neither...nor', verb mengikuti subjek terdekat ('the interns' -> jamak -> 'were').",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"were\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The number of remote applicants ___ higher this semester than last year.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'The number of + plural' selalu tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, a group of visiting researchers ___ currently touring the robotics lab.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, a group of visiting researchers ___ currently touring the robotics lab."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Head noun 'A group' bersifat tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"A group of visiting researchers are currently touring the robotics lab.\"",
+        "draft": "A group of visiting researchers are currently touring the robotics lab.",
+        "options": [
+          "A group of visiting researchers been currently touring the robotics lab.",
+          "A group of visiting researchers is currently touring the robotics lab.",
+          "A group of visiting researchers be currently touring the robotics lab."
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'A group' bersifat tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "A number of senior analysts ___ attending the summit in Tokyo.",
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'A number of + plural' bermakna beberapa (jamak) sehingga memakai 'are'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: is · or · for).",
+        "targetSentence": "Either the printer or the scanner is scheduled for replacement today.",
+        "explanation": "Pada 'either...or', kedua subjek tunggal sehingga memakai 'is'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every single laptop in the lab ___ protected by two-factor login.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Every' selalu diikuti to be tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, all of the equipment in Room 4 ___ calibrated every Monday morning.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, all of the equipment in Room 4 ___ calibrated every Monday morning."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Equipment' adalah uncountable noun sehingga selalu memakai 'is'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"All of the equipment in Room 4 are calibrated every Monday morning.\"",
+        "draft": "All of the equipment in Room 4 are calibrated every Monday morning.",
+        "options": [
+          "All of the equipment in Room 4 is calibrated every Monday morning.",
+          "All of the equipment in Room 4 be calibrated every Monday morning.",
+          "All of the equipment in Room 4 been calibrated every Monday morning."
+        ],
+        "answer": 0,
+        "explanation": "'Equipment' adalah uncountable noun sehingga selalu memakai 'is'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not only the documents but also the laptop ___ recovered at the lost-and-found desk.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Pada 'not only...but also', verb mengikuti subjek terdekat ('the laptop' -> 'was').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the number of remote applicants ___ higher this semester than last year.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, the number of remote applicants ___ higher this semester than last year."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'The number of + plural' selalu tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The number of remote applicants are higher this semester than last year.\"",
+        "draft": "The number of remote applicants are higher this semester than last year.",
+        "options": [
+          "The number of remote applicants be higher this semester than last year.",
+          "The number of remote applicants been higher this semester than last year.",
+          "The number of remote applicants is higher this semester than last year."
+        ],
+        "answer": 2,
+        "explanation": "'The number of + plural' selalu tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: is · of · for).",
+        "targetSentence": "The quality of these raw materials is essential for product durability.",
+        "explanation": "Subjek inti adalah 'The quality' (tunggal), bukan 'materials'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The luggage left near Gate 9 ___ checked by airport security yesterday.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'Luggage' adalah uncountable noun sehingga memakai 'was'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, a number of senior analysts ___ attending the summit in Tokyo.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, a number of senior analysts ___ attending the summit in Tokyo."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'A number of + plural' bermakna beberapa (jamak) sehingga memakai 'are'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"A number of senior analysts is attending the summit in Tokyo.\"",
+        "draft": "A number of senior analysts is attending the summit in Tokyo.",
+        "options": [
+          "A number of senior analysts be attending the summit in Tokyo.",
+          "A number of senior analysts been attending the summit in Tokyo.",
+          "A number of senior analysts are attending the summit in Tokyo."
+        ],
+        "answer": 2,
+        "explanation": "'A number of + plural' bermakna beberapa (jamak) sehingga memakai 'are'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several boxes of printed brochures ___ waiting near the service elevator.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'Several boxes' berbentuk jamak ('are').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, every single laptop in the lab ___ protected by two-factor login.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, every single laptop in the lab ___ protected by two-factor login."
+          ]
+        ],
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "'Every' selalu diikuti to be tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Every single laptop in the lab are protected by two-factor login.\"",
+        "draft": "Every single laptop in the lab are protected by two-factor login.",
+        "options": [
+          "Every single laptop in the lab be protected by two-factor login.",
+          "Every single laptop in the lab been protected by two-factor login.",
+          "Every single laptop in the lab is protected by two-factor login."
+        ],
+        "answer": 2,
+        "explanation": "'Every' selalu diikuti to be tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fifty percent of the budget ___ allocated to staff training.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Persentase dari uncountable noun ('budget') memakai to be tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: A · is · of). — A group of visiting rese",
+        "targetSentence": "A group of visiting researchers is currently touring the robotics lab.",
+        "explanation": "Head noun 'A group' bersifat tunggal ('is').",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fifty percent of the participants ___ joining from overseas time zones.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Persentase dari plural noun ('participants') memakai to be jamak ('are').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, not only the documents but also the laptop ___ recovered at the lost-and-found desk.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, not only the documents but also the laptop ___ recovered at the lost-and-found desk."
+          ]
+        ],
+        "options": [
+          "are",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Pada 'not only...but also', verb mengikuti subjek terdekat ('the laptop' -> 'was').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Not only the documents but also the laptop were recovered at the lost-and-found desk.\"",
+        "draft": "Not only the documents but also the laptop were recovered at the lost-and-found desk.",
+        "options": [
+          "Not only the documents but also the laptop been recovered at the lost-and-found desk.",
+          "Not only the documents but also the laptop was recovered at the lost-and-found desk.",
+          "Not only the documents but also the laptop be recovered at the lost-and-found desk."
+        ],
+        "answer": 1,
+        "explanation": "Pada 'not only...but also', verb mengikuti subjek terdekat ('the laptop' -> 'was').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The instructions on page three ___ clearer than the old version.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'The instructions' berbentuk jamak ('are').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (12 kata; fokus: 4 · in · is).",
+        "targetSentence": "All of the equipment in Room 4 is calibrated every Monday morning.",
+        "explanation": "'Equipment' adalah uncountable noun sehingga selalu memakai 'is'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "News of the merger ___ spreading quickly across departments.",
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'News' tampak berakhiran -s tetapi uncountable tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the luggage left near Gate 9 ___ checked by airport security yesterday.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, the luggage left near Gate 9 ___ checked by airport security yesterday."
+          ]
+        ],
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'Luggage' adalah uncountable noun sehingga memakai 'was'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The luggage left near Gate 9 were checked by airport security yesterday.\"",
+        "draft": "The luggage left near Gate 9 were checked by airport security yesterday.",
+        "options": [
+          "The luggage left near Gate 9 been checked by airport security yesterday.",
+          "The luggage left near Gate 9 was checked by airport security yesterday.",
+          "The luggage left near Gate 9 be checked by airport security yesterday."
+        ],
+        "answer": 1,
+        "explanation": "'Luggage' adalah uncountable noun sehingga memakai 'was'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Mathematics ___ a core requirement for data science.",
+        "options": [
+          "are",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Nama bidang studi berakhiran -s selalu tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, several boxes of printed brochures ___ waiting near the service elevator.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, several boxes of printed brochures ___ waiting near the service elevator."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'Several boxes' berbentuk jamak ('are').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Several boxes of printed brochures is waiting near the service elevator.\"",
+        "draft": "Several boxes of printed brochures is waiting near the service elevator.",
+        "options": [
+          "Several boxes of printed brochures are waiting near the service elevator.",
+          "Several boxes of printed brochures be waiting near the service elevator.",
+          "Several boxes of printed brochures been waiting near the service elevator."
+        ],
+        "answer": 0,
+        "explanation": "Head noun 'Several boxes' berbentuk jamak ('are').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (12 kata; fokus: is · of · The).",
+        "targetSentence": "The number of remote applicants is higher this semester than last year.",
+        "explanation": "'The number of + plural' selalu tunggal ('is').",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The staff members in customer care ___ trained to handle urgent refunds.",
+        "options": [
+          "is",
+          "was",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'The staff members' jamak sehingga memakai 'are'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, fifty percent of the budget ___ allocated to staff training.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, fifty percent of the budget ___ allocated to staff training."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Persentase dari uncountable noun ('budget') memakai to be tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Fifty percent of the budget are allocated to staff training.\"",
+        "draft": "Fifty percent of the budget are allocated to staff training.",
+        "options": [
+          "Fifty percent of the budget is allocated to staff training.",
+          "Fifty percent of the budget be allocated to staff training.",
+          "Fifty percent of the budget been allocated to staff training."
+        ],
+        "answer": 0,
+        "explanation": "Persentase dari uncountable noun ('budget') memakai to be tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "That series of workshops ___ remarkably helpful for new hires.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Head noun 'That series' berbentuk tunggal ('was').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, fifty percent of the participants ___ joining from overseas time zones.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, fifty percent of the participants ___ joining from overseas time zones."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Persentase dari plural noun ('participants') memakai to be jamak ('are').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Fifty percent of the participants is joining from overseas time zones.\"",
+        "draft": "Fifty percent of the participants is joining from overseas time zones.",
+        "options": [
+          "Fifty percent of the participants be joining from overseas time zones.",
+          "Fifty percent of the participants been joining from overseas time zones.",
+          "Fifty percent of the participants are joining from overseas time zones."
+        ],
+        "answer": 2,
+        "explanation": "Persentase dari plural noun ('participants') memakai to be jamak ('are').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "None of the information ___ missing from the final archive.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Information' uncountable sehingga 'None of the information' memakai 'is'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: A · in · of).",
+        "targetSentence": "A number of senior analysts are attending the summit in Tokyo.",
+        "explanation": "'A number of + plural' bermakna beberapa (jamak) sehingga memakai 'are'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"are\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both the itinerary and the boarding pass ___ saved inside the travel app.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Dua subjek dihubungkan 'and' menjadi jamak ('are').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the instructions on page three ___ clearer than the old version.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, the instructions on page three ___ clearer than the old version."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'The instructions' berbentuk jamak ('are').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The instructions on page three is clearer than the old version.\"",
+        "draft": "The instructions on page three is clearer than the old version.",
+        "options": [
+          "The instructions on page three been clearer than the old version.",
+          "The instructions on page three are clearer than the old version.",
+          "The instructions on page three be clearer than the old version."
+        ],
+        "answer": 1,
+        "explanation": "Head noun 'The instructions' berbentuk jamak ('are').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The feedback from last week's clients ___ overwhelmingly positive.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "'Feedback' uncountable noun -> memakai 'was'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (11 kata; fokus: by · in · is).",
+        "targetSentence": "Every single laptop in the lab is protected by two-factor login.",
+        "explanation": "'Every' selalu diikuti to be tunggal ('is').",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"is\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Economics ___ central to understanding market policy.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Bidang ilmu 'Economics' bersifat tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, news of the merger ___ spreading quickly across departments.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, news of the merger ___ spreading quickly across departments."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'News' tampak berakhiran -s tetapi uncountable tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"News of the merger are spreading quickly across departments.\"",
+        "draft": "News of the merger are spreading quickly across departments.",
+        "options": [
+          "News of the merger been spreading quickly across departments.",
+          "News of the merger is spreading quickly across departments.",
+          "News of the merger be spreading quickly across departments."
+        ],
+        "answer": 1,
+        "explanation": "'News' tampak berakhiran -s tetapi uncountable tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two-thirds of the survey responses ___ submitted before Friday evening.",
+        "options": [
+          "were",
+          "was",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Pecahan dari plural noun ('responses') memakai to be jamak ('were').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, mathematics ___ a core requirement for data science.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, mathematics ___ a core requirement for data science."
+          ]
+        ],
+        "options": [
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "Nama bidang studi berakhiran -s selalu tunggal ('is').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"Mathematics are a core requirement for data science.\"",
+        "draft": "Mathematics are a core requirement for data science.",
+        "options": [
+          "Mathematics been a core requirement for data science.",
+          "Mathematics is a core requirement for data science.",
+          "Mathematics be a core requirement for data science."
+        ],
+        "answer": 1,
+        "explanation": "Nama bidang studi berakhiran -s selalu tunggal ('is').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (14 kata; fokus: at · but · Not).",
+        "targetSentence": "Not only the documents but also the laptop was recovered at the lost-and-found desk.",
+        "explanation": "Pada 'not only...but also', verb mengikuti subjek terdekat ('the laptop' -> 'was').",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"was\" lalu pelengkap."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The furniture inside the new lounge ___ modern and durable.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Furniture' adalah uncountable noun tunggal ('is').",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, the staff members in customer care ___ trained to handle urgent refunds.\"",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Lead",
+            "Yes, the staff members in customer care ___ trained to handle urgent refunds."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'The staff members' jamak sehingga memakai 'are'.",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"The staff members in customer care is trained to handle urgent refunds.\"",
+        "draft": "The staff members in customer care is trained to handle urgent refunds.",
+        "options": [
+          "The staff members in customer care been trained to handle urgent refunds.",
+          "The staff members in customer care are trained to handle urgent refunds.",
+          "The staff members in customer care be trained to handle urgent refunds."
+        ],
+        "answer": 1,
+        "explanation": "'The staff members' jamak sehingga memakai 'are'.",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Either my colleagues or the supervisor ___ attending the morning call.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Subjek terdekat setelah 'or' adalah 'the supervisor' (tunggal) -> 'is'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk 'to be' yang akurat pada subjek kompleks: \"Can you confirm the latest status for me? / Yes, that series of workshops ___ remarkably helpful for new hires.\"",
+        "dialogue": [
+          [
+            "Lead",
+            "Can you confirm the latest status for me?"
+          ],
+          [
+            "Auditor",
+            "Yes, that series of workshops ___ remarkably helpful for new hires."
+          ]
+        ],
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Head noun 'That series' berbentuk tunggal ('was').",
+        "hints": [
+          "Jangan terkecoh kata benda di dalam frasa 'of ...'.",
+          "Cocokkan to be dengan head noun-nya."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement 'to be' pada subjek frasa kompleks berikut: \"That series of workshops were remarkably helpful for new hires.\"",
+        "draft": "That series of workshops were remarkably helpful for new hires.",
+        "options": [
+          "That series of workshops be remarkably helpful for new hires.",
+          "That series of workshops been remarkably helpful for new hires.",
+          "That series of workshops was remarkably helpful for new hires."
+        ],
+        "answer": 2,
+        "explanation": "Head noun 'That series' berbentuk tunggal ('was').",
+        "hints": [
+          "Identifikasi kata benda inti subjek sebelum frasa preposisi.",
+          "Cek aturan uncountable noun dan each/neither/the number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the coordinator nor the mentors ___ available this afternoon.",
+        "options": [
+          "was",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek terdekat setelah 'nor' adalah 'the mentors' (jamak) -> 'are'.",
+        "hints": [
+          "Temukan head noun (kata benda inti) sebelum preposisi 'of/in/on'.",
+          "Perhatikan uncountable noun dan aturan neither...nor / a number of."
+        ],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan subject–verb agreement 'to be' tingkat lanjut (12 kata; fokus: 9 · by · The).",
+        "targetSentence": "The luggage left near Gate 9 was checked by airport security yesterday.",
+        "explanation": "'Luggage' adalah uncountable noun sehingga memakai 'was'.",
+        "hints": [
+          "Susun frasa subjek lengkap di awal kalimat.",
+          "Ikuti dengan to be \"was\" lalu pelengkap."
         ],
         "skill": "to-be-form"
       }

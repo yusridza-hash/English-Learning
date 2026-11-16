@@ -261,6 +261,1446 @@
           "Keterangan tempat 'in that cabinet' berada di akhir."
         ],
         "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 1):",
+        "options": [
+          "Updates our intern the inventory spreadsheet.",
+          "Our intern updates the inventory spreadsheet.",
+          "Our intern the inventory spreadsheet updates."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Our intern) + Verb (updates) + Object (the inventory spreadsheet).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles the inventory spreadsheet in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who handles the inventory spreadsheet in this office?"
+          ],
+          [
+            "Tono",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "Our intern updates the inventory spreadsheet",
+          "Our intern the inventory spreadsheet updates",
+          "updates our intern the inventory spreadsheet"
+        ],
+        "answer": 0,
+        "explanation": "Susunan benar adalah Subject (Our intern) + Verb (updates) + Object (the inventory spreadsheet).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Our intern the inventory spreadsheet updates.\"",
+        "draft": "Our intern the inventory spreadsheet updates.",
+        "options": [
+          "The inventory spreadsheet updates our intern.",
+          "Updates our intern the inventory spreadsheet.",
+          "Our intern updates the inventory spreadsheet."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (updates) diletakkan sebelum object (the inventory spreadsheet), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 2):",
+        "options": [
+          "Organizes the librarian reference journals.",
+          "The librarian organizes reference journals.",
+          "The librarian reference journals organizes."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The librarian) + Verb (organizes) + Object (reference journals).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · clean · icons.).",
+        "targetSentence": "The designer creates clean icons.",
+        "explanation": "Subject (The designer) + Verb (creates) + Object (clean icons).",
+        "hints": [
+          "Mulai dengan subjek \"The designer\".",
+          "Ikuti dengan verb \"creates\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 3):",
+        "options": [
+          "Waters my neighbor the balcony plants.",
+          "My neighbor waters the balcony plants.",
+          "My neighbor the balcony plants waters."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (My neighbor) + Verb (waters) + Object (the balcony plants).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles reference journals in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Riko",
+            "Who handles reference journals in this office?"
+          ],
+          [
+            "Sinta",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The librarian reference journals organizes",
+          "organizes the librarian reference journals",
+          "The librarian organizes reference journals"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (The librarian) + Verb (organizes) + Object (reference journals).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The librarian reference journals organizes.\"",
+        "draft": "The librarian reference journals organizes.",
+        "options": [
+          "Organizes the librarian reference journals.",
+          "The librarian organizes reference journals.",
+          "Reference journals organizes the librarian."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (organizes) diletakkan sebelum object (reference journals), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 4):",
+        "options": [
+          "The baker prepares fresh sourdough loaves.",
+          "The baker fresh sourdough loaves prepares.",
+          "Prepares the baker fresh sourdough loaves."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The baker) + Verb (prepares) + Object (fresh sourdough loaves).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles the balcony plants in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who handles the balcony plants in this office?"
+          ],
+          [
+            "Bayu",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "My neighbor the balcony plants waters",
+          "waters my neighbor the balcony plants",
+          "My neighbor waters the balcony plants"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (My neighbor) + Verb (waters) + Object (the balcony plants).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"My neighbor the balcony plants waters.\"",
+        "draft": "My neighbor the balcony plants waters.",
+        "options": [
+          "The balcony plants waters my neighbor.",
+          "Waters my neighbor the balcony plants.",
+          "My neighbor waters the balcony plants."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (waters) diletakkan sebelum object (the balcony plants), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: Our · calls. · client).",
+        "targetSentence": "Our coordinator schedules client calls.",
+        "explanation": "Subject (Our coordinator) + Verb (schedules) + Object (client calls).",
+        "hints": [
+          "Mulai dengan subjek \"Our coordinator\".",
+          "Ikuti dengan verb \"schedules\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 5):",
+        "options": [
+          "A technician checks the backup generator.",
+          "A technician the backup generator checks.",
+          "Checks a technician the backup generator."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (A technician) + Verb (checks) + Object (the backup generator).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles fresh sourdough loaves in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Adi",
+            "Who handles fresh sourdough loaves in this office?"
+          ],
+          [
+            "Lia",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "prepares the baker fresh sourdough loaves",
+          "The baker prepares fresh sourdough loaves",
+          "The baker fresh sourdough loaves prepares"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (The baker) + Verb (prepares) + Object (fresh sourdough loaves).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The baker fresh sourdough loaves prepares.\"",
+        "draft": "The baker fresh sourdough loaves prepares.",
+        "options": [
+          "The baker prepares fresh sourdough loaves.",
+          "Fresh sourdough loaves prepares the baker.",
+          "Prepares the baker fresh sourdough loaves."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (prepares) diletakkan sebelum object (fresh sourdough loaves), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 6):",
+        "options": [
+          "The receptionist greets morning visitors.",
+          "The receptionist morning visitors greets.",
+          "Greets the receptionist morning visitors."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The receptionist) + Verb (greets) + Object (morning visitors).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles the backup generator in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who handles the backup generator in this office?"
+          ],
+          [
+            "Tono",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "A technician checks the backup generator",
+          "A technician the backup generator checks",
+          "checks a technician the backup generator"
+        ],
+        "answer": 0,
+        "explanation": "Susunan benar adalah Subject (A technician) + Verb (checks) + Object (the backup generator).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"A technician the backup generator checks.\"",
+        "draft": "A technician the backup generator checks.",
+        "options": [
+          "The backup generator checks a technician.",
+          "Checks a technician the backup generator.",
+          "A technician checks the backup generator."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (checks) diletakkan sebelum object (the backup generator), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 7):",
+        "options": [
+          "Our coach reviews weekly fitness logs.",
+          "Our coach weekly fitness logs reviews.",
+          "Reviews our coach weekly fitness logs."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Our coach) + Verb (reviews) + Object (weekly fitness logs).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · labels · bottles.).",
+        "targetSentence": "The pharmacist labels prescription bottles.",
+        "explanation": "Subject (The pharmacist) + Verb (labels) + Object (prescription bottles).",
+        "hints": [
+          "Mulai dengan subjek \"The pharmacist\".",
+          "Ikuti dengan verb \"labels\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 8):",
+        "options": [
+          "Verifies the accountant travel receipts.",
+          "The accountant verifies travel receipts.",
+          "The accountant travel receipts verifies."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The accountant) + Verb (verifies) + Object (travel receipts).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles morning visitors in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Riko",
+            "Who handles morning visitors in this office?"
+          ],
+          [
+            "Sinta",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "greets the receptionist morning visitors",
+          "The receptionist greets morning visitors",
+          "The receptionist morning visitors greets"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (The receptionist) + Verb (greets) + Object (morning visitors).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The receptionist morning visitors greets.\"",
+        "draft": "The receptionist morning visitors greets.",
+        "options": [
+          "Morning visitors greets the receptionist.",
+          "Greets the receptionist morning visitors.",
+          "The receptionist greets morning visitors."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (greets) diletakkan sebelum object (morning visitors), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 9):",
+        "options": [
+          "Two mechanics delivery vans repair.",
+          "Repair two mechanics delivery vans.",
+          "Two mechanics repair delivery vans."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Two mechanics) + Verb (repair) + Object (delivery vans).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: Junior · survey · collect).",
+        "targetSentence": "Junior analysts collect survey responses.",
+        "explanation": "Subject (Junior analysts) + Verb (collect) + Object (survey responses).",
+        "hints": [
+          "Mulai dengan subjek \"Junior analysts\".",
+          "Ikuti dengan verb \"collect\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 10):",
+        "options": [
+          "Supply local farmers organic vegetables.",
+          "Local farmers supply organic vegetables.",
+          "Local farmers organic vegetables supply."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Local farmers) + Verb (supply) + Object (organic vegetables).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles weekly fitness logs in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who handles weekly fitness logs in this office?"
+          ],
+          [
+            "Bayu",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "reviews our coach weekly fitness logs",
+          "Our coach reviews weekly fitness logs",
+          "Our coach weekly fitness logs reviews"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (Our coach) + Verb (reviews) + Object (weekly fitness logs).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Our coach weekly fitness logs reviews.\"",
+        "draft": "Our coach weekly fitness logs reviews.",
+        "options": [
+          "Weekly fitness logs reviews our coach.",
+          "Reviews our coach weekly fitness logs.",
+          "Our coach reviews weekly fitness logs."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (reviews) diletakkan sebelum object (weekly fitness logs), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 11):",
+        "options": [
+          "The designer creates clean icons.",
+          "The designer clean icons creates.",
+          "Creates the designer clean icons."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The designer) + Verb (creates) + Object (clean icons).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles travel receipts in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Adi",
+            "Who handles travel receipts in this office?"
+          ],
+          [
+            "Lia",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The accountant verifies travel receipts",
+          "The accountant travel receipts verifies",
+          "verifies the accountant travel receipts"
+        ],
+        "answer": 0,
+        "explanation": "Susunan benar adalah Subject (The accountant) + Verb (verifies) + Object (travel receipts).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The accountant travel receipts verifies.\"",
+        "draft": "The accountant travel receipts verifies.",
+        "options": [
+          "The accountant verifies travel receipts.",
+          "Travel receipts verifies the accountant.",
+          "Verifies the accountant travel receipts."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (verifies) diletakkan sebelum object (travel receipts), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · curator · arranges).",
+        "targetSentence": "The curator arranges historic photographs.",
+        "explanation": "Subject (The curator) + Verb (arranges) + Object (historic photographs).",
+        "hints": [
+          "Mulai dengan subjek \"The curator\".",
+          "Ikuti dengan verb \"arranges\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 12):",
+        "options": [
+          "Our coordinator schedules client calls.",
+          "Our coordinator client calls schedules.",
+          "Schedules our coordinator client calls."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Our coordinator) + Verb (schedules) + Object (client calls).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles delivery vans in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who handles delivery vans in this office?"
+          ],
+          [
+            "Tono",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "repair two mechanics delivery vans",
+          "Two mechanics repair delivery vans",
+          "Two mechanics delivery vans repair"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (Two mechanics) + Verb (repair) + Object (delivery vans).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Two mechanics delivery vans repair.\"",
+        "draft": "Two mechanics delivery vans repair.",
+        "options": [
+          "Delivery vans repair two mechanics.",
+          "Repair two mechanics delivery vans.",
+          "Two mechanics repair delivery vans."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (repair) diletakkan sebelum object (delivery vans), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 13):",
+        "options": [
+          "Labels the pharmacist prescription bottles.",
+          "The pharmacist labels prescription bottles.",
+          "The pharmacist prescription bottles labels."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The pharmacist) + Verb (labels) + Object (prescription bottles).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles organic vegetables in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Riko",
+            "Who handles organic vegetables in this office?"
+          ],
+          [
+            "Sinta",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "Local farmers supply organic vegetables",
+          "Local farmers organic vegetables supply",
+          "supply local farmers organic vegetables"
+        ],
+        "answer": 0,
+        "explanation": "Susunan benar adalah Subject (Local farmers) + Verb (supply) + Object (organic vegetables).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Local farmers organic vegetables supply.\"",
+        "draft": "Local farmers organic vegetables supply.",
+        "options": [
+          "Supply local farmers organic vegetables.",
+          "Local farmers supply organic vegetables.",
+          "Organic vegetables supply local farmers."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (supply) diletakkan sebelum object (organic vegetables), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 14):",
+        "options": [
+          "Junior analysts collect survey responses.",
+          "Junior analysts survey responses collect.",
+          "Collect junior analysts survey responses."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Junior analysts) + Verb (collect) + Object (survey responses).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · legal · courier).",
+        "targetSentence": "The courier delivers legal documents.",
+        "explanation": "Subject (The courier) + Verb (delivers) + Object (legal documents).",
+        "hints": [
+          "Mulai dengan subjek \"The courier\".",
+          "Ikuti dengan verb \"delivers\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 15):",
+        "options": [
+          "The curator arranges historic photographs.",
+          "The curator historic photographs arranges.",
+          "Arranges the curator historic photographs."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The curator) + Verb (arranges) + Object (historic photographs).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles clean icons in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who handles clean icons in this office?"
+          ],
+          [
+            "Bayu",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The designer clean icons creates",
+          "creates the designer clean icons",
+          "The designer creates clean icons"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (The designer) + Verb (creates) + Object (clean icons).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The designer clean icons creates.\"",
+        "draft": "The designer clean icons creates.",
+        "options": [
+          "The designer creates clean icons.",
+          "Clean icons creates the designer.",
+          "Creates the designer clean icons."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (creates) diletakkan sebelum object (clean icons), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 16):",
+        "options": [
+          "The courier legal documents delivers.",
+          "Delivers the courier legal documents.",
+          "The courier delivers legal documents."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The courier) + Verb (delivers) + Object (legal documents).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: Our · chef · cooks).",
+        "targetSentence": "Our chef cooks seasonal soups.",
+        "explanation": "Subject (Our chef) + Verb (cooks) + Object (seasonal soups).",
+        "hints": [
+          "Mulai dengan subjek \"Our chef\".",
+          "Ikuti dengan verb \"cooks\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 17):",
+        "options": [
+          "Our chef seasonal soups cooks.",
+          "Cooks our chef seasonal soups.",
+          "Our chef cooks seasonal soups."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Our chef) + Verb (cooks) + Object (seasonal soups).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles client calls in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Adi",
+            "Who handles client calls in this office?"
+          ],
+          [
+            "Lia",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "schedules our coordinator client calls",
+          "Our coordinator schedules client calls",
+          "Our coordinator client calls schedules"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (Our coordinator) + Verb (schedules) + Object (client calls).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Our coordinator client calls schedules.\"",
+        "draft": "Our coordinator client calls schedules.",
+        "options": [
+          "Schedules our coordinator client calls.",
+          "Our coordinator schedules client calls.",
+          "Client calls schedules our coordinator."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (schedules) diletakkan sebelum object (client calls), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 18):",
+        "options": [
+          "The tutor explains grammar patterns.",
+          "The tutor grammar patterns explains.",
+          "Explains the tutor grammar patterns."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The tutor) + Verb (explains) + Object (grammar patterns).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles prescription bottles in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who handles prescription bottles in this office?"
+          ],
+          [
+            "Tono",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "labels the pharmacist prescription bottles",
+          "The pharmacist labels prescription bottles",
+          "The pharmacist prescription bottles labels"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (The pharmacist) + Verb (labels) + Object (prescription bottles).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The pharmacist prescription bottles labels.\"",
+        "draft": "The pharmacist prescription bottles labels.",
+        "options": [
+          "Prescription bottles labels the pharmacist.",
+          "Labels the pharmacist prescription bottles.",
+          "The pharmacist labels prescription bottles."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (labels) diletakkan sebelum object (prescription bottles), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · tutor · grammar).",
+        "targetSentence": "The tutor explains grammar patterns.",
+        "explanation": "Subject (The tutor) + Verb (explains) + Object (grammar patterns).",
+        "hints": [
+          "Mulai dengan subjek \"The tutor\".",
+          "Ikuti dengan verb \"explains\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 19):",
+        "options": [
+          "Night guards campus gates monitor.",
+          "Monitor night guards campus gates.",
+          "Night guards monitor campus gates."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Night guards) + Verb (monitor) + Object (campus gates).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles survey responses in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Riko",
+            "Who handles survey responses in this office?"
+          ],
+          [
+            "Sinta",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "Junior analysts survey responses collect",
+          "collect junior analysts survey responses",
+          "Junior analysts collect survey responses"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (Junior analysts) + Verb (collect) + Object (survey responses).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Junior analysts survey responses collect.\"",
+        "draft": "Junior analysts survey responses collect.",
+        "options": [
+          "Junior analysts collect survey responses.",
+          "Survey responses collect junior analysts.",
+          "Collect junior analysts survey responses."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (collect) diletakkan sebelum object (survey responses), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 20):",
+        "options": [
+          "The editor proofreads news articles.",
+          "The editor news articles proofreads.",
+          "Proofreads the editor news articles."
+        ],
+        "answer": 0,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The editor) + Verb (proofreads) + Object (news articles).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles historic photographs in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who handles historic photographs in this office?"
+          ],
+          [
+            "Bayu",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The curator historic photographs arranges",
+          "arranges the curator historic photographs",
+          "The curator arranges historic photographs"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (The curator) + Verb (arranges) + Object (historic photographs).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The curator historic photographs arranges.\"",
+        "draft": "The curator historic photographs arranges.",
+        "options": [
+          "The curator arranges historic photographs.",
+          "Historic photographs arranges the curator.",
+          "Arranges the curator historic photographs."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (arranges) diletakkan sebelum object (historic photographs), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 21):",
+        "options": [
+          "Volunteers donated textbooks sort.",
+          "Sort volunteers donated textbooks.",
+          "Volunteers sort donated textbooks."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Volunteers) + Verb (sort) + Object (donated textbooks).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: Night · campus · gates.).",
+        "targetSentence": "Night guards monitor campus gates.",
+        "explanation": "Subject (Night guards) + Verb (monitor) + Object (campus gates).",
+        "hints": [
+          "Mulai dengan subjek \"Night guards\".",
+          "Ikuti dengan verb \"monitor\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 22):",
+        "options": [
+          "The dentist patient X-rays examines.",
+          "Examines the dentist patient X-rays.",
+          "The dentist examines patient X-rays."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The dentist) + Verb (examines) + Object (patient X-rays).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles legal documents in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Adi",
+            "Who handles legal documents in this office?"
+          ],
+          [
+            "Lia",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "delivers the courier legal documents",
+          "The courier delivers legal documents",
+          "The courier legal documents delivers"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (The courier) + Verb (delivers) + Object (legal documents).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The courier legal documents delivers.\"",
+        "draft": "The courier legal documents delivers.",
+        "options": [
+          "Delivers the courier legal documents.",
+          "The courier delivers legal documents.",
+          "Legal documents delivers the courier."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (delivers) diletakkan sebelum object (legal documents), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 23):",
+        "options": [
+          "Checks our pilot weather charts.",
+          "Our pilot checks weather charts.",
+          "Our pilot weather charts checks."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Our pilot) + Verb (checks) + Object (weather charts).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · news · editor).",
+        "targetSentence": "The editor proofreads news articles.",
+        "explanation": "Subject (The editor) + Verb (proofreads) + Object (news articles).",
+        "hints": [
+          "Mulai dengan subjek \"The editor\".",
+          "Ikuti dengan verb \"proofreads\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 24):",
+        "options": [
+          "Wraps the florist wedding bouquets.",
+          "The florist wraps wedding bouquets.",
+          "The florist wedding bouquets wraps."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The florist) + Verb (wraps) + Object (wedding bouquets).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles seasonal soups in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who handles seasonal soups in this office?"
+          ],
+          [
+            "Tono",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "cooks our chef seasonal soups",
+          "Our chef cooks seasonal soups",
+          "Our chef seasonal soups cooks"
+        ],
+        "answer": 1,
+        "explanation": "Susunan benar adalah Subject (Our chef) + Verb (cooks) + Object (seasonal soups).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Our chef seasonal soups cooks.\"",
+        "draft": "Our chef seasonal soups cooks.",
+        "options": [
+          "Cooks our chef seasonal soups.",
+          "Our chef cooks seasonal soups.",
+          "Seasonal soups cooks our chef."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (cooks) diletakkan sebelum object (seasonal soups), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 25):",
+        "options": [
+          "Scans the cashier grocery items.",
+          "The cashier scans grocery items.",
+          "The cashier grocery items scans."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The cashier) + Verb (scans) + Object (grocery items).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles grammar patterns in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Riko",
+            "Who handles grammar patterns in this office?"
+          ],
+          [
+            "Sinta",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The tutor grammar patterns explains",
+          "explains the tutor grammar patterns",
+          "The tutor explains grammar patterns"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (The tutor) + Verb (explains) + Object (grammar patterns).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The tutor grammar patterns explains.\"",
+        "draft": "The tutor grammar patterns explains.",
+        "options": [
+          "Grammar patterns explains the tutor.",
+          "Explains the tutor grammar patterns.",
+          "The tutor explains grammar patterns."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, verb (explains) diletakkan sebelum object (grammar patterns), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (4 kata; fokus: sort · donated · textbooks.).",
+        "targetSentence": "Volunteers sort donated textbooks.",
+        "explanation": "Subject (Volunteers) + Verb (sort) + Object (donated textbooks).",
+        "hints": [
+          "Mulai dengan subjek \"Volunteers\".",
+          "Ikuti dengan verb \"sort\" lalu objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 26):",
+        "options": [
+          "Practice musicians concert pieces.",
+          "Musicians practice concert pieces.",
+          "Musicians concert pieces practice."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Musicians) + Verb (practice) + Object (concert pieces).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles campus gates in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Who handles campus gates in this office?"
+          ],
+          [
+            "Bayu",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "Night guards monitor campus gates",
+          "Night guards campus gates monitor",
+          "monitor night guards campus gates"
+        ],
+        "answer": 0,
+        "explanation": "Susunan benar adalah Subject (Night guards) + Verb (monitor) + Object (campus gates).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"Night guards campus gates monitor.\"",
+        "draft": "Night guards campus gates monitor.",
+        "options": [
+          "Monitor night guards campus gates.",
+          "Night guards monitor campus gates.",
+          "Campus gates monitor night guards."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, verb (monitor) diletakkan sebelum object (campus gates), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 27):",
+        "options": [
+          "The architect floor plans sketches.",
+          "Sketches the architect floor plans.",
+          "The architect sketches floor plans."
+        ],
+        "answer": 2,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (The architect) + Verb (sketches) + Object (floor plans).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban dengan urutan SVO yang alami: \"Who handles news articles in this office? / ___ every weekday.\"",
+        "dialogue": [
+          [
+            "Adi",
+            "Who handles news articles in this office?"
+          ],
+          [
+            "Lia",
+            "___ every weekday."
+          ]
+        ],
+        "options": [
+          "The editor news articles proofreads",
+          "proofreads the editor news articles",
+          "The editor proofreads news articles"
+        ],
+        "answer": 2,
+        "explanation": "Susunan benar adalah Subject (The editor) + Verb (proofreads) + Object (news articles).",
+        "hints": [
+          "Ikuti pola S + V + O.",
+          "Jangan meletakkan objek di antara subjek dan kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki susunan SVO pada kalimat berikut: \"The editor news articles proofreads.\"",
+        "draft": "The editor news articles proofreads.",
+        "options": [
+          "The editor proofreads news articles.",
+          "News articles proofreads the editor.",
+          "Proofreads the editor news articles."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, verb (proofreads) diletakkan sebelum object (news articles), bukan di akhir kalimat.",
+        "hints": [
+          "Pindahkan kata kerja ke posisi tepat setelah subjek.",
+          "Urutan baku: Subject + Verb + Object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan Subject–Verb–Object (SVO) yang benar (konteks 28):",
+        "options": [
+          "Clean lab assistants glass beakers.",
+          "Lab assistants clean glass beakers.",
+          "Lab assistants glass beakers clean."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kalimat aktif bahasa Inggris adalah Subject (Lab assistants) + Verb (clean) + Object (glass beakers).",
+        "hints": [
+          "Mulai dengan subjek pelaku.",
+          "Kata kerja selalu langsung mengikuti subjek sebelum objek."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini mengikuti pola Subject + Verb + Object (5 kata; fokus: The · dentist · patient).",
+        "targetSentence": "The dentist examines patient X-rays.",
+        "explanation": "Subject (The dentist) + Verb (examines) + Object (patient X-rays).",
+        "hints": [
+          "Mulai dengan subjek \"The dentist\".",
+          "Ikuti dengan verb \"examines\" lalu objek."
+        ],
+        "skill": "svo-order"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Susun tempat sebelum waktu."
         ],
         "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar:",
+        "options": [
+          "The secretary placed every morning on the desk the signed contract.",
+          "The secretary placed the signed contract on the desk every morning.",
+          "The secretary on the desk placed the signed contract every morning."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (The secretary) + Verb (placed) + Object (the signed contract) + Place (on the desk) + Time (every morning).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the signed contract? / Yes, ___ every morning.\"",
+        "dialogue": [
+          [
+            "Lina",
+            "Did anyone take care of the signed contract?"
+          ],
+          [
+            "Rafi",
+            "Yes, ___ every morning."
+          ]
+        ],
+        "options": [
+          "placed the secretary the signed contract on the desk",
+          "the secretary placed the signed contract on the desk",
+          "the secretary on the desk placed the signed contract"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The secretary placed on the desk the signed contract every morning.\"",
+        "draft": "The secretary placed on the desk the signed contract every morning.",
+        "options": [
+          "The secretary placed the signed contract on the desk every morning.",
+          "The secretary on the desk placed the signed contract every morning.",
+          "the signed contract the secretary placed on the desk every morning."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (the signed contract) harus langsung mengikuti Verb (placed) sebelum keterangan tempat (on the desk).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #2",
+        "options": [
+          "Our trainer sent before noon to all trainees the workshop slides.",
+          "Our trainer sent the workshop slides to all trainees before noon.",
+          "Our trainer to all trainees sent the workshop slides before noon."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (Our trainer) + Verb (sent) + Object (the workshop slides) + Place (to all trainees) + Time (before noon).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (11 kata; fokus: at · Our · the).",
+        "targetSentence": "Our driver parked the delivery truck behind the building at dawn.",
+        "explanation": "Subject (Our driver) + Verb (parked) + Object (the delivery truck) + Place (behind the building) + Time (at dawn).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #3",
+        "options": [
+          "The analyst checked quarterly revenue in the main report yesterday.",
+          "The analyst in the main report checked quarterly revenue yesterday.",
+          "The analyst checked yesterday in the main report quarterly revenue."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The analyst) + Verb (checked) + Object (quarterly revenue) + Place (in the main report) + Time (yesterday).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the workshop slides? / Yes, ___ before noon.\"",
+        "dialogue": [
+          [
+            "Arman",
+            "Did anyone take care of the workshop slides?"
+          ],
+          [
+            "Nina",
+            "Yes, ___ before noon."
+          ]
+        ],
+        "options": [
+          "our trainer sent the workshop slides to all trainees",
+          "our trainer to all trainees sent the workshop slides",
+          "sent our trainer the workshop slides to all trainees"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Our trainer sent to all trainees the workshop slides before noon.\"",
+        "draft": "Our trainer sent to all trainees the workshop slides before noon.",
+        "options": [
+          "the workshop slides our trainer sent to all trainees before noon.",
+          "Our trainer sent the workshop slides to all trainees before noon.",
+          "Our trainer to all trainees sent the workshop slides before noon."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, Object (the workshop slides) harus langsung mengikuti Verb (sent) sebelum keterangan tempat (to all trainees).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #4",
+        "options": [
+          "Two students returned at five to the lab the borrowed laptops.",
+          "Two students returned the borrowed laptops to the lab at five.",
+          "Two students to the lab returned the borrowed laptops at five."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (Two students) + Verb (returned) + Object (the borrowed laptops) + Place (to the lab) + Time (at five).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of quarterly revenue? / Yes, ___ yesterday.\"",
+        "dialogue": [
+          [
+            "Siti",
+            "Did anyone take care of quarterly revenue?"
+          ],
+          [
+            "Bima",
+            "Yes, ___ yesterday."
+          ]
+        ],
+        "options": [
+          "checked the analyst quarterly revenue in the main report",
+          "the analyst checked quarterly revenue in the main report",
+          "the analyst in the main report checked quarterly revenue"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The analyst checked in the main report quarterly revenue yesterday.\"",
+        "draft": "The analyst checked in the main report quarterly revenue yesterday.",
+        "options": [
+          "The analyst in the main report checked quarterly revenue yesterday.",
+          "quarterly revenue the analyst checked in the main report yesterday.",
+          "The analyst checked quarterly revenue in the main report yesterday."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (quarterly revenue) harus langsung mengikuti Verb (checked) sebelum keterangan tempat (in the main report).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: to · The · gave).",
+        "targetSentence": "The tutor gave useful feedback to every student after class.",
+        "explanation": "Subject (The tutor) + Verb (gave) + Object (useful feedback) + Place (to every student) + Time (after class).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #5",
+        "options": [
+          "The chef served warm vegetable soup in ceramic bowls for lunch.",
+          "The chef in ceramic bowls served warm vegetable soup for lunch.",
+          "The chef served for lunch in ceramic bowls warm vegetable soup."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The chef) + Verb (served) + Object (warm vegetable soup) + Place (in ceramic bowls) + Time (for lunch).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the borrowed laptops? / Yes, ___ at five.\"",
+        "dialogue": [
+          [
+            "Eko",
+            "Did anyone take care of the borrowed laptops?"
+          ],
+          [
+            "Putri",
+            "Yes, ___ at five."
+          ]
+        ],
+        "options": [
+          "returned two students the borrowed laptops to the lab",
+          "two students returned the borrowed laptops to the lab",
+          "two students to the lab returned the borrowed laptops"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Two students returned to the lab the borrowed laptops at five.\"",
+        "draft": "Two students returned to the lab the borrowed laptops at five.",
+        "options": [
+          "the borrowed laptops two students returned to the lab at five.",
+          "Two students returned the borrowed laptops to the lab at five.",
+          "Two students to the lab returned the borrowed laptops at five."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, Object (the borrowed laptops) harus langsung mengikuti Verb (returned) sebelum keterangan tempat (to the lab).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #6",
+        "options": [
+          "Our team held the product briefing in Room 3B on Monday.",
+          "Our team in Room 3B held the product briefing on Monday.",
+          "Our team held on Monday in Room 3B the product briefing."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (Our team) + Verb (held) + Object (the product briefing) + Place (in Room 3B) + Time (on Monday).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of warm vegetable soup? / Yes, ___ for lunch.\"",
+        "dialogue": [
+          [
+            "Lina",
+            "Did anyone take care of warm vegetable soup?"
+          ],
+          [
+            "Rafi",
+            "Yes, ___ for lunch."
+          ]
+        ],
+        "options": [
+          "the chef served warm vegetable soup in ceramic bowls",
+          "the chef in ceramic bowls served warm vegetable soup",
+          "served the chef warm vegetable soup in ceramic bowls"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The chef served in ceramic bowls warm vegetable soup for lunch.\"",
+        "draft": "The chef served in ceramic bowls warm vegetable soup for lunch.",
+        "options": [
+          "The chef served warm vegetable soup in ceramic bowls for lunch.",
+          "The chef in ceramic bowls served warm vegetable soup for lunch.",
+          "warm vegetable soup the chef served in ceramic bowls for lunch."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (warm vegetable soup) harus langsung mengikuti Verb (served) sebelum keterangan tempat (in ceramic bowls).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #7",
+        "options": [
+          "The guard at the warehouse locked the side entrance at midnight.",
+          "The guard locked at midnight at the warehouse the side entrance.",
+          "The guard locked the side entrance at the warehouse at midnight."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (The guard) + Verb (locked) + Object (the side entrance) + Place (at the warehouse) + Time (at midnight).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (11 kata; fokus: on · the · the).",
+        "targetSentence": "The editor posted the revised schedule on the board early today.",
+        "explanation": "Subject (The editor) + Verb (posted) + Object (the revised schedule) + Place (on the board) + Time (early today).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #8",
+        "options": [
+          "She booked this morning online two train tickets.",
+          "She booked two train tickets online this morning.",
+          "She online booked two train tickets this morning."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (She) + Verb (booked) + Object (two train tickets) + Place (online) + Time (this morning).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the product briefing? / Yes, ___ on Monday.\"",
+        "dialogue": [
+          [
+            "Arman",
+            "Did anyone take care of the product briefing?"
+          ],
+          [
+            "Nina",
+            "Yes, ___ on Monday."
+          ]
+        ],
+        "options": [
+          "our team held the product briefing in Room 3B",
+          "our team in Room 3B held the product briefing",
+          "held our team the product briefing in Room 3B"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Our team held in Room 3B the product briefing on Monday.\"",
+        "draft": "Our team held in Room 3B the product briefing on Monday.",
+        "options": [
+          "Our team in Room 3B held the product briefing on Monday.",
+          "the product briefing our team held in Room 3B on Monday.",
+          "Our team held the product briefing in Room 3B on Monday."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (the product briefing) harus langsung mengikuti Verb (held) sebelum keterangan tempat (in Room 3B).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #9",
+        "options": [
+          "They moved the extra chairs into the hallway before the event.",
+          "They into the hallway moved the extra chairs before the event.",
+          "They moved before the event into the hallway the extra chairs."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (They) + Verb (moved) + Object (the extra chairs) + Place (into the hallway) + Time (before the event).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: We · the · blue).",
+        "targetSentence": "We stored spare cables inside the blue cabinet last week.",
+        "explanation": "Subject (We) + Verb (stored) + Object (spare cables) + Place (inside the blue cabinet) + Time (last week).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #10",
+        "options": [
+          "The nurse recorded blood pressure readings on the chart every hour.",
+          "The nurse on the chart recorded blood pressure readings every hour.",
+          "The nurse recorded every hour on the chart blood pressure readings."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The nurse) + Verb (recorded) + Object (blood pressure readings) + Place (on the chart) + Time (every hour).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the side entrance? / Yes, ___ at midnight.\"",
+        "dialogue": [
+          [
+            "Siti",
+            "Did anyone take care of the side entrance?"
+          ],
+          [
+            "Bima",
+            "Yes, ___ at midnight."
+          ]
+        ],
+        "options": [
+          "the guard at the warehouse locked the side entrance",
+          "locked the guard the side entrance at the warehouse",
+          "the guard locked the side entrance at the warehouse"
+        ],
+        "answer": 2,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The guard locked at the warehouse the side entrance at midnight.\"",
+        "draft": "The guard locked at the warehouse the side entrance at midnight.",
+        "options": [
+          "The guard locked the side entrance at the warehouse at midnight.",
+          "The guard at the warehouse locked the side entrance at midnight.",
+          "the side entrance the guard locked at the warehouse at midnight."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (the side entrance) harus langsung mengikuti Verb (locked) sebelum keterangan tempat (at the warehouse).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #11",
+        "options": [
+          "Our driver parked at dawn behind the building the delivery truck.",
+          "Our driver parked the delivery truck behind the building at dawn.",
+          "Our driver behind the building parked the delivery truck at dawn."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (Our driver) + Verb (parked) + Object (the delivery truck) + Place (behind the building) + Time (at dawn).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of two train tickets? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Eko",
+            "Did anyone take care of two train tickets?"
+          ],
+          [
+            "Putri",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "booked she two train tickets online",
+          "she booked two train tickets online",
+          "she online booked two train tickets"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"She booked online two train tickets this morning.\"",
+        "draft": "She booked online two train tickets this morning.",
+        "options": [
+          "She online booked two train tickets this morning.",
+          "two train tickets she booked online this morning.",
+          "She booked two train tickets online this morning."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (two train tickets) harus langsung mengikuti Verb (booked) sebelum keterangan tempat (online).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: 4 · at · The).",
+        "targetSentence": "The clerk stamped each customs form at Counter 4 promptly.",
+        "explanation": "Subject (The clerk) + Verb (stamped) + Object (each customs form) + Place (at Counter 4) + Time (promptly).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #12",
+        "options": [
+          "The tutor to every student gave useful feedback after class.",
+          "The tutor gave after class to every student useful feedback.",
+          "The tutor gave useful feedback to every student after class."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (The tutor) + Verb (gave) + Object (useful feedback) + Place (to every student) + Time (after class).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the extra chairs? / Yes, ___ before the event.\"",
+        "dialogue": [
+          [
+            "Lina",
+            "Did anyone take care of the extra chairs?"
+          ],
+          [
+            "Rafi",
+            "Yes, ___ before the event."
+          ]
+        ],
+        "options": [
+          "they into the hallway moved the extra chairs",
+          "moved they the extra chairs into the hallway",
+          "they moved the extra chairs into the hallway"
+        ],
+        "answer": 2,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"They moved into the hallway the extra chairs before the event.\"",
+        "draft": "They moved into the hallway the extra chairs before the event.",
+        "options": [
+          "They into the hallway moved the extra chairs before the event.",
+          "the extra chairs they moved into the hallway before the event.",
+          "They moved the extra chairs into the hallway before the event."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (the extra chairs) harus langsung mengikuti Verb (moved) sebelum keterangan tempat (into the hallway).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #13",
+        "options": [
+          "The editor posted the revised schedule on the board early today.",
+          "The editor on the board posted the revised schedule early today.",
+          "The editor posted early today on the board the revised schedule."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The editor) + Verb (posted) + Object (the revised schedule) + Place (on the board) + Time (early today).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of blood pressure readings? / Yes, ___ every hour.\"",
+        "dialogue": [
+          [
+            "Arman",
+            "Did anyone take care of blood pressure readings?"
+          ],
+          [
+            "Nina",
+            "Yes, ___ every hour."
+          ]
+        ],
+        "options": [
+          "the nurse recorded blood pressure readings on the chart",
+          "the nurse on the chart recorded blood pressure readings",
+          "recorded the nurse blood pressure readings on the chart"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The nurse recorded on the chart blood pressure readings every hour.\"",
+        "draft": "The nurse recorded on the chart blood pressure readings every hour.",
+        "options": [
+          "blood pressure readings the nurse recorded on the chart every hour.",
+          "The nurse recorded blood pressure readings on the chart every hour.",
+          "The nurse on the chart recorded blood pressure readings every hour."
+        ],
+        "answer": 1,
+        "explanation": "Dalam bahasa Inggris, Object (blood pressure readings) harus langsung mengikuti Verb (recorded) sebelum keterangan tempat (on the chart).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #14",
+        "options": [
+          "We inside the blue cabinet stored spare cables last week.",
+          "We stored last week inside the blue cabinet spare cables.",
+          "We stored spare cables inside the blue cabinet last week."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (We) + Verb (stored) + Object (spare cables) + Place (inside the blue cabinet) + Time (last week).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: all · the · last).",
+        "targetSentence": "Engineers tested the alarm system across all floors last night.",
+        "explanation": "Subject (Engineers) + Verb (tested) + Object (the alarm system) + Place (across all floors) + Time (last night).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #15",
+        "options": [
+          "The clerk stamped each customs form at Counter 4 promptly.",
+          "The clerk at Counter 4 stamped each customs form promptly.",
+          "The clerk stamped promptly at Counter 4 each customs form."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The clerk) + Verb (stamped) + Object (each customs form) + Place (at Counter 4) + Time (promptly).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the delivery truck? / Yes, ___ at dawn.\"",
+        "dialogue": [
+          [
+            "Siti",
+            "Did anyone take care of the delivery truck?"
+          ],
+          [
+            "Bima",
+            "Yes, ___ at dawn."
+          ]
+        ],
+        "options": [
+          "our driver parked the delivery truck behind the building",
+          "our driver behind the building parked the delivery truck",
+          "parked our driver the delivery truck behind the building"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Our driver parked behind the building the delivery truck at dawn.\"",
+        "draft": "Our driver parked behind the building the delivery truck at dawn.",
+        "options": [
+          "Our driver behind the building parked the delivery truck at dawn.",
+          "the delivery truck our driver parked behind the building at dawn.",
+          "Our driver parked the delivery truck behind the building at dawn."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (the delivery truck) harus langsung mengikuti Verb (parked) sebelum keterangan tempat (behind the building).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #16",
+        "options": [
+          "Engineers tested last night across all floors the alarm system.",
+          "Engineers tested the alarm system across all floors last night.",
+          "Engineers across all floors tested the alarm system last night."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (Engineers) + Verb (tested) + Object (the alarm system) + Place (across all floors) + Time (last night).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (12 kata; fokus: in · My · our).",
+        "targetSentence": "My colleague shared the meeting notes in our chat group after lunch.",
+        "explanation": "Subject (My colleague) + Verb (shared) + Object (the meeting notes) + Place (in our chat group) + Time (after lunch).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #17",
+        "options": [
+          "My colleague in our chat group shared the meeting notes after lunch.",
+          "My colleague shared after lunch in our chat group the meeting notes.",
+          "My colleague shared the meeting notes in our chat group after lunch."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (My colleague) + Verb (shared) + Object (the meeting notes) + Place (in our chat group) + Time (after lunch).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of useful feedback? / Yes, ___ after class.\"",
+        "dialogue": [
+          [
+            "Eko",
+            "Did anyone take care of useful feedback?"
+          ],
+          [
+            "Putri",
+            "Yes, ___ after class."
+          ]
+        ],
+        "options": [
+          "gave the tutor useful feedback to every student",
+          "the tutor gave useful feedback to every student",
+          "the tutor to every student gave useful feedback"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The tutor gave to every student useful feedback after class.\"",
+        "draft": "The tutor gave to every student useful feedback after class.",
+        "options": [
+          "The tutor to every student gave useful feedback after class.",
+          "useful feedback the tutor gave to every student after class.",
+          "The tutor gave useful feedback to every student after class."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (useful feedback) harus langsung mengikuti Verb (gave) sebelum keterangan tempat (to every student).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #18",
+        "options": [
+          "The guide met at eight outside the station our tour group.",
+          "The guide met our tour group outside the station at eight.",
+          "The guide outside the station met our tour group at eight."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (The guide) + Verb (met) + Object (our tour group) + Place (outside the station) + Time (at eight).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the revised schedule? / Yes, ___ early today.\"",
+        "dialogue": [
+          [
+            "Lina",
+            "Did anyone take care of the revised schedule?"
+          ],
+          [
+            "Rafi",
+            "Yes, ___ early today."
+          ]
+        ],
+        "options": [
+          "posted the editor the revised schedule on the board",
+          "the editor posted the revised schedule on the board",
+          "the editor on the board posted the revised schedule"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The editor posted on the board the revised schedule early today.\"",
+        "draft": "The editor posted on the board the revised schedule early today.",
+        "options": [
+          "The editor on the board posted the revised schedule early today.",
+          "the revised schedule the editor posted on the board early today.",
+          "The editor posted the revised schedule on the board early today."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (the revised schedule) harus langsung mengikuti Verb (posted) sebelum keterangan tempat (on the board).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (11 kata; fokus: at · met · our).",
+        "targetSentence": "The guide met our tour group outside the station at eight.",
+        "explanation": "Subject (The guide) + Verb (met) + Object (our tour group) + Place (outside the station) + Time (at eight).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #19",
+        "options": [
+          "Volunteers at the community hall packed emergency kits on Sunday.",
+          "Volunteers packed on Sunday at the community hall emergency kits.",
+          "Volunteers packed emergency kits at the community hall on Sunday."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (Volunteers) + Verb (packed) + Object (emergency kits) + Place (at the community hall) + Time (on Sunday).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of spare cables? / Yes, ___ last week.\"",
+        "dialogue": [
+          [
+            "Arman",
+            "Did anyone take care of spare cables?"
+          ],
+          [
+            "Nina",
+            "Yes, ___ last week."
+          ]
+        ],
+        "options": [
+          "we inside the blue cabinet stored spare cables",
+          "stored we spare cables inside the blue cabinet",
+          "we stored spare cables inside the blue cabinet"
+        ],
+        "answer": 2,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"We stored inside the blue cabinet spare cables last week.\"",
+        "draft": "We stored inside the blue cabinet spare cables last week.",
+        "options": [
+          "We stored spare cables inside the blue cabinet last week.",
+          "We inside the blue cabinet stored spare cables last week.",
+          "spare cables we stored inside the blue cabinet last week."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (spare cables) harus langsung mengikuti Verb (stored) sebelum keterangan tempat (inside the blue cabinet).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #20",
+        "options": [
+          "The host welcomed international guests at the main lobby warmly.",
+          "The host at the main lobby welcomed international guests warmly.",
+          "The host welcomed warmly at the main lobby international guests."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The host) + Verb (welcomed) + Object (international guests) + Place (at the main lobby) + Time (warmly).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of each customs form? / Yes, ___ promptly.\"",
+        "dialogue": [
+          [
+            "Siti",
+            "Did anyone take care of each customs form?"
+          ],
+          [
+            "Bima",
+            "Yes, ___ promptly."
+          ]
+        ],
+        "options": [
+          "the clerk at Counter 4 stamped each customs form",
+          "stamped the clerk each customs form at Counter 4",
+          "the clerk stamped each customs form at Counter 4"
+        ],
+        "answer": 2,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The clerk stamped at Counter 4 each customs form promptly.\"",
+        "draft": "The clerk stamped at Counter 4 each customs form promptly.",
+        "options": [
+          "The clerk stamped each customs form at Counter 4 promptly.",
+          "The clerk at Counter 4 stamped each customs form promptly.",
+          "each customs form the clerk stamped at Counter 4 promptly."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (each customs form) harus langsung mengikuti Verb (stamped) sebelum keterangan tempat (at Counter 4).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #21",
+        "options": [
+          "I on the train read the safety manual this morning.",
+          "I read this morning on the train the safety manual.",
+          "I read the safety manual on the train this morning."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (I) + Verb (read) + Object (the safety manual) + Place (on the train) + Time (this morning).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: at · on · the).",
+        "targetSentence": "Volunteers packed emergency kits at the community hall on Sunday.",
+        "explanation": "Subject (Volunteers) + Verb (packed) + Object (emergency kits) + Place (at the community hall) + Time (on Sunday).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #22",
+        "options": [
+          "The designer to the shared drive uploaded the final logo last night.",
+          "The designer uploaded last night to the shared drive the final logo.",
+          "The designer uploaded the final logo to the shared drive last night."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (The designer) + Verb (uploaded) + Object (the final logo) + Place (to the shared drive) + Time (last night).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the alarm system? / Yes, ___ last night.\"",
+        "dialogue": [
+          [
+            "Eko",
+            "Did anyone take care of the alarm system?"
+          ],
+          [
+            "Putri",
+            "Yes, ___ last night."
+          ]
+        ],
+        "options": [
+          "tested engineers the alarm system across all floors",
+          "engineers tested the alarm system across all floors",
+          "engineers across all floors tested the alarm system"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Engineers tested across all floors the alarm system last night.\"",
+        "draft": "Engineers tested across all floors the alarm system last night.",
+        "options": [
+          "Engineers tested the alarm system across all floors last night.",
+          "Engineers across all floors tested the alarm system last night.",
+          "the alarm system engineers tested across all floors last night."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (the alarm system) harus langsung mengikuti Verb (tested) sebelum keterangan tempat (across all floors).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #23",
+        "options": [
+          "Our supervisor signed before leaving in her office the travel forms.",
+          "Our supervisor signed the travel forms in her office before leaving.",
+          "Our supervisor in her office signed the travel forms before leaving."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (Our supervisor) + Verb (signed) + Object (the travel forms) + Place (in her office) + Time (before leaving).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: at · the · The).",
+        "targetSentence": "The host welcomed international guests at the main lobby warmly.",
+        "explanation": "Subject (The host) + Verb (welcomed) + Object (international guests) + Place (at the main lobby) + Time (warmly).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #24",
+        "options": [
+          "Students in the language lab completed the listening quiz on Friday.",
+          "Students completed on Friday in the language lab the listening quiz.",
+          "Students completed the listening quiz in the language lab on Friday."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (Students) + Verb (completed) + Object (the listening quiz) + Place (in the language lab) + Time (on Friday).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of the meeting notes? / Yes, ___ after lunch.\"",
+        "dialogue": [
+          [
+            "Lina",
+            "Did anyone take care of the meeting notes?"
+          ],
+          [
+            "Rafi",
+            "Yes, ___ after lunch."
+          ]
+        ],
+        "options": [
+          "my colleague shared the meeting notes in our chat group",
+          "my colleague in our chat group shared the meeting notes",
+          "shared my colleague the meeting notes in our chat group"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"My colleague shared in our chat group the meeting notes after lunch.\"",
+        "draft": "My colleague shared in our chat group the meeting notes after lunch.",
+        "options": [
+          "My colleague in our chat group shared the meeting notes after lunch.",
+          "the meeting notes my colleague shared in our chat group after lunch.",
+          "My colleague shared the meeting notes in our chat group after lunch."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (the meeting notes) harus langsung mengikuti Verb (shared) sebelum keterangan tempat (in our chat group).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #25",
+        "options": [
+          "The mechanic replaced this afternoon at the garage the worn brake pads.",
+          "The mechanic replaced the worn brake pads at the garage this afternoon.",
+          "The mechanic at the garage replaced the worn brake pads this afternoon."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (The mechanic) + Verb (replaced) + Object (the worn brake pads) + Place (at the garage) + Time (this afternoon).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of our tour group? / Yes, ___ at eight.\"",
+        "dialogue": [
+          [
+            "Arman",
+            "Did anyone take care of our tour group?"
+          ],
+          [
+            "Nina",
+            "Yes, ___ at eight."
+          ]
+        ],
+        "options": [
+          "the guide met our tour group outside the station",
+          "the guide outside the station met our tour group",
+          "met the guide our tour group outside the station"
+        ],
+        "answer": 0,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The guide met outside the station our tour group at eight.\"",
+        "draft": "The guide met outside the station our tour group at eight.",
+        "options": [
+          "The guide met our tour group outside the station at eight.",
+          "The guide outside the station met our tour group at eight.",
+          "our tour group the guide met outside the station at eight."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (our tour group) harus langsung mengikuti Verb (met) sebelum keterangan tempat (outside the station).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (10 kata; fokus: I · on · the).",
+        "targetSentence": "I read the safety manual on the train this morning.",
+        "explanation": "Subject (I) + Verb (read) + Object (the safety manual) + Place (on the train) + Time (this morning).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #26",
+        "options": [
+          "We discussed today during the briefing the budget draft.",
+          "We discussed the budget draft during the briefing today.",
+          "We during the briefing discussed the budget draft today."
+        ],
+        "answer": 1,
+        "explanation": "Pola standar klausa lengkap: Subject (We) + Verb (discussed) + Object (the budget draft) + Place (during the briefing) + Time (today).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of emergency kits? / Yes, ___ on Sunday.\"",
+        "dialogue": [
+          [
+            "Siti",
+            "Did anyone take care of emergency kits?"
+          ],
+          [
+            "Bima",
+            "Yes, ___ on Sunday."
+          ]
+        ],
+        "options": [
+          "volunteers at the community hall packed emergency kits",
+          "packed volunteers emergency kits at the community hall",
+          "volunteers packed emergency kits at the community hall"
+        ],
+        "answer": 2,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"Volunteers packed at the community hall emergency kits on Sunday.\"",
+        "draft": "Volunteers packed at the community hall emergency kits on Sunday.",
+        "options": [
+          "Volunteers at the community hall packed emergency kits on Sunday.",
+          "emergency kits volunteers packed at the community hall on Sunday.",
+          "Volunteers packed emergency kits at the community hall on Sunday."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris, Object (emergency kits) harus langsung mengikuti Verb (packed) sebelum keterangan tempat (at the community hall).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #27",
+        "options": [
+          "The intern printed twenty handouts for the seminar ten minutes ago.",
+          "The intern for the seminar printed twenty handouts ten minutes ago.",
+          "The intern printed ten minutes ago for the seminar twenty handouts."
+        ],
+        "answer": 0,
+        "explanation": "Pola standar klausa lengkap: Subject (The intern) + Verb (printed) + Object (twenty handouts) + Place (for the seminar) + Time (ten minutes ago).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respons dengan urutan Subject–Verb–Object–Adverbial yang benar: \"Did anyone take care of international guests? / Yes, ___ warmly.\"",
+        "dialogue": [
+          [
+            "Eko",
+            "Did anyone take care of international guests?"
+          ],
+          [
+            "Putri",
+            "Yes, ___ warmly."
+          ]
+        ],
+        "options": [
+          "welcomed the host international guests at the main lobby",
+          "the host welcomed international guests at the main lobby",
+          "the host at the main lobby welcomed international guests"
+        ],
+        "answer": 1,
+        "explanation": "Urutan benar adalah Subject + Verb + Object + Place sebelum keterangan waktu.",
+        "hints": [
+          "Pertahankan S + V + O tetap berdekatan.",
+          "Letakkan tempat sebelum waktu."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut karena posisi keterangan memisahkan Verb dan Object: \"The host welcomed at the main lobby international guests warmly.\"",
+        "draft": "The host welcomed at the main lobby international guests warmly.",
+        "options": [
+          "The host welcomed international guests at the main lobby warmly.",
+          "The host at the main lobby welcomed international guests warmly.",
+          "international guests the host welcomed at the main lobby warmly."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris, Object (international guests) harus langsung mengikuti Verb (welcomed) sebelum keterangan tempat (at the main lobby).",
+        "hints": [
+          "Pindahkan object tepat setelah kata kerja.",
+          "Place diletakkan setelah object."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan SVO + Place + Time yang benar: — Konteks #28",
+        "options": [
+          "Our neighbor at the street market bought fresh fruit this morning.",
+          "Our neighbor bought this morning at the street market fresh fruit.",
+          "Our neighbor bought fresh fruit at the street market this morning."
+        ],
+        "answer": 2,
+        "explanation": "Pola standar klausa lengkap: Subject (Our neighbor) + Verb (bought) + Object (fresh fruit) + Place (at the street market) + Time (this morning).",
+        "hints": [
+          "Jangan pisahkan verb dan object dengan keterangan tempat/waktu.",
+          "Urutan keterangan baku: Place sebelum Time."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat lengkap dengan urutan S + V + O + Place + Time (12 kata; fokus: to · the · the).",
+        "targetSentence": "The designer uploaded the final logo to the shared drive last night.",
+        "explanation": "Subject (The designer) + Verb (uploaded) + Object (the final logo) + Place (to the shared drive) + Time (last night).",
+        "hints": [
+          "Mulai dengan Subject + Verb + Object.",
+          "Tempatkan keterangan tempat sebelum keterangan waktu."
+        ],
+        "skill": "svo-order"
       }
     ],
     "complex": [
@@ -828,6 +3708,1446 @@
         "hints": [
           "Jangan letakkan 'the executive team' tepat setelah 'suggested'.",
           "Gunakan 'to the executive team' di akhir kalimat."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat:",
+        "options": [
+          "The courier handed the receptionist a sealed envelope.",
+          "The courier handed a sealed envelope the receptionist.",
+          "The courier the receptionist handed a sealed envelope."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the receptionist) mendahului Direct Object (a sealed envelope): The courier handed the receptionist a sealed envelope.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the courier deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the courier deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the courier handed a sealed envelope the receptionist",
+          "the courier the receptionist handed a sealed envelope",
+          "the courier handed the receptionist a sealed envelope"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the courier handed the receptionist a sealed envelope (atau a sealed envelope to the receptionist).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The courier handed a sealed envelope the receptionist.\"",
+        "draft": "The courier handed a sealed envelope the receptionist.",
+        "options": [
+          "The receptionist handed the courier a sealed envelope.",
+          "The courier handed the receptionist a sealed envelope.",
+          "The courier the receptionist handed a sealed envelope."
+        ],
+        "answer": 1,
+        "explanation": "Tanpa \"to/for\", penerima (the receptionist) harus mendahului objek benda (a sealed envelope).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #2",
+        "options": [
+          "Our mentor gave clear instructions the new interns.",
+          "Our mentor the new interns gave clear instructions.",
+          "Our mentor gave the new interns clear instructions."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the new interns) mendahului Direct Object (clear instructions): Our mentor gave the new interns clear instructions.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: a · the · The).",
+        "targetSentence": "The courier handed the receptionist a sealed envelope.",
+        "explanation": "Subject (The courier) + Verb (handed) + Indirect Object (the receptionist) + Direct Object (a sealed envelope).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #3",
+        "options": [
+          "The bank sent every cardholder a security notice.",
+          "The bank sent a security notice every cardholder.",
+          "The bank every cardholder sent a security notice."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (every cardholder) mendahului Direct Object (a security notice): The bank sent every cardholder a security notice.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did our mentor deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did our mentor deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "our mentor gave the new interns clear instructions",
+          "our mentor gave clear instructions the new interns",
+          "our mentor the new interns gave clear instructions"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah our mentor gave the new interns clear instructions (atau clear instructions to the new interns).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"Our mentor gave clear instructions the new interns.\"",
+        "draft": "Our mentor gave clear instructions the new interns.",
+        "options": [
+          "Our mentor gave the new interns clear instructions.",
+          "Our mentor the new interns gave clear instructions.",
+          "The new interns gave our mentor clear instructions."
+        ],
+        "answer": 0,
+        "explanation": "Tanpa \"to/for\", penerima (the new interns) harus mendahului objek benda (clear instructions).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #4",
+        "options": [
+          "The professor the lab group showed the microscope slides.",
+          "The professor showed the lab group the microscope slides.",
+          "The professor showed the microscope slides the lab group."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the lab group) mendahului Direct Object (the microscope slides): The professor showed the lab group the microscope slides.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the bank deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the bank deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the bank sent a security notice every cardholder",
+          "the bank every cardholder sent a security notice",
+          "the bank sent every cardholder a security notice"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the bank sent every cardholder a security notice (atau a security notice to every cardholder).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The bank sent a security notice every cardholder.\"",
+        "draft": "The bank sent a security notice every cardholder.",
+        "options": [
+          "The bank sent every cardholder a security notice.",
+          "The bank every cardholder sent a security notice.",
+          "Every cardholder sent the bank a security notice."
+        ],
+        "answer": 0,
+        "explanation": "Tanpa \"to/for\", penerima (every cardholder) harus mendahului objek benda (a security notice).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: new · Our · the).",
+        "targetSentence": "Our mentor gave the new interns clear instructions.",
+        "explanation": "Subject (Our mentor) + Verb (gave) + Indirect Object (the new interns) + Direct Object (clear instructions).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #5",
+        "options": [
+          "Our HR team offered a permanent contract the top candidate.",
+          "Our HR team the top candidate offered a permanent contract.",
+          "Our HR team offered the top candidate a permanent contract."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the top candidate) mendahului Direct Object (a permanent contract): Our HR team offered the top candidate a permanent contract.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the professor deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the professor deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the professor the lab group showed the microscope slides",
+          "the professor showed the lab group the microscope slides",
+          "the professor showed the microscope slides the lab group"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the professor showed the lab group the microscope slides (atau the microscope slides to the lab group).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The professor showed the microscope slides the lab group.\"",
+        "draft": "The professor showed the microscope slides the lab group.",
+        "options": [
+          "The professor the lab group showed the microscope slides.",
+          "The lab group showed the professor the microscope slides.",
+          "The professor showed the lab group the microscope slides."
+        ],
+        "answer": 2,
+        "explanation": "Tanpa \"to/for\", penerima (the lab group) harus mendahului objek benda (the microscope slides).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #6",
+        "options": [
+          "The travel agent booked our directors window seats.",
+          "The travel agent booked window seats our directors.",
+          "The travel agent our directors booked window seats."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (our directors) mendahului Direct Object (window seats): The travel agent booked our directors window seats.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did our hr team deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did our hr team deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "our hr team the top candidate offered a permanent contract",
+          "our hr team offered the top candidate a permanent contract",
+          "our hr team offered a permanent contract the top candidate"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah our hr team offered the top candidate a permanent contract (atau a permanent contract to the top candidate).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"Our HR team offered a permanent contract the top candidate.\"",
+        "draft": "Our HR team offered a permanent contract the top candidate.",
+        "options": [
+          "Our HR team offered the top candidate a permanent contract.",
+          "Our HR team the top candidate offered a permanent contract.",
+          "The top candidate offered our hr team a permanent contract."
+        ],
+        "answer": 0,
+        "explanation": "Tanpa \"to/for\", penerima (the top candidate) harus mendahului objek benda (a permanent contract).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #7",
+        "options": [
+          "She the supplier wrote a polite reminder.",
+          "She wrote the supplier a polite reminder.",
+          "She wrote a polite reminder the supplier."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the supplier) mendahului Direct Object (a polite reminder): She wrote the supplier a polite reminder.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: a · The · bank).",
+        "targetSentence": "The bank sent every cardholder a security notice.",
+        "explanation": "Subject (The bank) + Verb (sent) + Indirect Object (every cardholder) + Direct Object (a security notice).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #8",
+        "options": [
+          "He his teammates brought fresh coffee.",
+          "He brought his teammates fresh coffee.",
+          "He brought fresh coffee his teammates."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (his teammates) mendahului Direct Object (fresh coffee): He brought his teammates fresh coffee.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the travel agent deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the travel agent deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the travel agent booked our directors window seats",
+          "the travel agent booked window seats our directors",
+          "the travel agent our directors booked window seats"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the travel agent booked our directors window seats (atau window seats for our directors).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The travel agent booked window seats our directors.\"",
+        "draft": "The travel agent booked window seats our directors.",
+        "options": [
+          "The travel agent our directors booked window seats.",
+          "Our directors booked the travel agent window seats.",
+          "The travel agent booked our directors window seats."
+        ],
+        "answer": 2,
+        "explanation": "Tanpa \"to/for\", penerima (our directors) harus mendahului objek benda (window seats).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #9",
+        "options": [
+          "The IT desk assigned a temporary badge each employee.",
+          "The IT desk each employee assigned a temporary badge.",
+          "The IT desk assigned each employee a temporary badge."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (each employee) mendahului Direct Object (a temporary badge): The IT desk assigned each employee a temporary badge.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (9 kata; fokus: lab · the · the).",
+        "targetSentence": "The professor showed the lab group the microscope slides.",
+        "explanation": "Subject (The professor) + Verb (showed) + Indirect Object (the lab group) + Direct Object (the microscope slides).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #10",
+        "options": [
+          "The librarian lent the researcher three rare volumes.",
+          "The librarian lent three rare volumes the researcher.",
+          "The librarian the researcher lent three rare volumes."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the researcher) mendahului Direct Object (three rare volumes): The librarian lent the researcher three rare volumes.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did she deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did she deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "she wrote the supplier a polite reminder",
+          "she wrote a polite reminder the supplier",
+          "she the supplier wrote a polite reminder"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah she wrote the supplier a polite reminder (atau a polite reminder to the supplier).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"She wrote a polite reminder the supplier.\"",
+        "draft": "She wrote a polite reminder the supplier.",
+        "options": [
+          "She wrote the supplier a polite reminder.",
+          "She the supplier wrote a polite reminder.",
+          "The supplier wrote she a polite reminder."
+        ],
+        "answer": 0,
+        "explanation": "Tanpa \"to/for\", penerima (the supplier) harus mendahului objek benda (a polite reminder).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #11",
+        "options": [
+          "Our chef made a special lunch the conference guests.",
+          "Our chef the conference guests made a special lunch.",
+          "Our chef made the conference guests a special lunch."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the conference guests) mendahului Direct Object (a special lunch): Our chef made the conference guests a special lunch.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did he deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did he deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "he brought fresh coffee his teammates",
+          "he his teammates brought fresh coffee",
+          "he brought his teammates fresh coffee"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah he brought his teammates fresh coffee (atau fresh coffee for his teammates).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"He brought fresh coffee his teammates.\"",
+        "draft": "He brought fresh coffee his teammates.",
+        "options": [
+          "He his teammates brought fresh coffee.",
+          "His teammates brought he fresh coffee.",
+          "He brought his teammates fresh coffee."
+        ],
+        "answer": 2,
+        "explanation": "Tanpa \"to/for\", penerima (his teammates) harus mendahului objek benda (fresh coffee).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (10 kata; fokus: a · HR · Our).",
+        "targetSentence": "Our HR team offered the top candidate a permanent contract.",
+        "explanation": "Subject (Our HR team) + Verb (offered) + Indirect Object (the top candidate) + Direct Object (a permanent contract).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #12",
+        "options": [
+          "The host the audience told an inspiring story.",
+          "The host told the audience an inspiring story.",
+          "The host told an inspiring story the audience."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the audience) mendahului Direct Object (an inspiring story): The host told the audience an inspiring story.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the it desk deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the it desk deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the it desk assigned each employee a temporary badge",
+          "the it desk assigned a temporary badge each employee",
+          "the it desk each employee assigned a temporary badge"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the it desk assigned each employee a temporary badge (atau a temporary badge to each employee).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The IT desk assigned a temporary badge each employee.\"",
+        "draft": "The IT desk assigned a temporary badge each employee.",
+        "options": [
+          "Each employee assigned the it desk a temporary badge.",
+          "The IT desk assigned each employee a temporary badge.",
+          "The IT desk each employee assigned a temporary badge."
+        ],
+        "answer": 1,
+        "explanation": "Tanpa \"to/for\", penerima (each employee) harus mendahului objek benda (a temporary badge).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #13",
+        "options": [
+          "The coordinator emailed all speakers the stage schedule.",
+          "The coordinator emailed the stage schedule all speakers.",
+          "The coordinator all speakers emailed the stage schedule."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (all speakers) mendahului Direct Object (the stage schedule): The coordinator emailed all speakers the stage schedule.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the librarian deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the librarian deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the librarian lent three rare volumes the researcher",
+          "the librarian the researcher lent three rare volumes",
+          "the librarian lent the researcher three rare volumes"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the librarian lent the researcher three rare volumes (atau three rare volumes to the researcher).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The librarian lent three rare volumes the researcher.\"",
+        "draft": "The librarian lent three rare volumes the researcher.",
+        "options": [
+          "The researcher lent the librarian three rare volumes.",
+          "The librarian lent the researcher three rare volumes.",
+          "The librarian the researcher lent three rare volumes."
+        ],
+        "answer": 1,
+        "explanation": "Tanpa \"to/for\", penerima (the researcher) harus mendahului objek benda (three rare volumes).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #14",
+        "options": [
+          "My colleague me passed the attendance folder.",
+          "My colleague passed me the attendance folder.",
+          "My colleague passed the attendance folder me."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (me) mendahului Direct Object (the attendance folder): My colleague passed me the attendance folder.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: our · The · agent).",
+        "targetSentence": "The travel agent booked our directors window seats.",
+        "explanation": "Subject (The travel agent) + Verb (booked) + Indirect Object (our directors) + Direct Object (window seats).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #15",
+        "options": [
+          "The agency paid freelance writers a fair bonus.",
+          "The agency paid a fair bonus freelance writers.",
+          "The agency freelance writers paid a fair bonus."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (freelance writers) mendahului Direct Object (a fair bonus): The agency paid freelance writers a fair bonus.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did our chef deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did our chef deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "our chef the conference guests made a special lunch",
+          "our chef made the conference guests a special lunch",
+          "our chef made a special lunch the conference guests"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah our chef made the conference guests a special lunch (atau a special lunch for the conference guests).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"Our chef made a special lunch the conference guests.\"",
+        "draft": "Our chef made a special lunch the conference guests.",
+        "options": [
+          "Our chef the conference guests made a special lunch.",
+          "The conference guests made our chef a special lunch.",
+          "Our chef made the conference guests a special lunch."
+        ],
+        "answer": 2,
+        "explanation": "Tanpa \"to/for\", penerima (the conference guests) harus mendahului objek benda (a special lunch).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #16",
+        "options": [
+          "The coach taught a faster drill the junior squad.",
+          "The coach the junior squad taught a faster drill.",
+          "The coach taught the junior squad a faster drill."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the junior squad) mendahului Direct Object (a faster drill): The coach taught the junior squad a faster drill.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (7 kata; fokus: a · She · the).",
+        "targetSentence": "She wrote the supplier a polite reminder.",
+        "explanation": "Subject (She) + Verb (wrote) + Indirect Object (the supplier) + Direct Object (a polite reminder).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #17",
+        "options": [
+          "The clerk the applicant issued a numbered receipt.",
+          "The clerk issued the applicant a numbered receipt.",
+          "The clerk issued a numbered receipt the applicant."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the applicant) mendahului Direct Object (a numbered receipt): The clerk issued the applicant a numbered receipt.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the host deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the host deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the host told the audience an inspiring story",
+          "the host told an inspiring story the audience",
+          "the host the audience told an inspiring story"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the host told the audience an inspiring story (atau an inspiring story to the audience).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki urutan Indirect Object dan Direct Object yang terbalik: \"The host told an inspiring story the audience.\"",
+        "draft": "The host told an inspiring story the audience.",
+        "options": [
+          "The host told the audience an inspiring story.",
+          "The host the audience told an inspiring story.",
+          "The audience told the host an inspiring story."
+        ],
+        "answer": 0,
+        "explanation": "Tanpa \"to/for\", penerima (the audience) harus mendahului objek benda (an inspiring story).",
+        "hints": [
+          "Tukar posisi objek langsung dan objek tidak langsung.",
+          "Atau tambahkan 'to' sebelum penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #18",
+        "options": [
+          "Our neighbor the volunteers baked banana bread.",
+          "Our neighbor baked the volunteers banana bread.",
+          "Our neighbor baked banana bread the volunteers."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the volunteers) mendahului Direct Object (banana bread): Our neighbor baked the volunteers banana bread.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the coordinator deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the coordinator deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the coordinator emailed all speakers the stage schedule",
+          "the coordinator emailed the stage schedule all speakers",
+          "the coordinator all speakers emailed the stage schedule"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the coordinator emailed all speakers the stage schedule (atau the stage schedule to all speakers).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"demonstrated\" agar tidak menyalahi aturan objek preposisional: \"The trainer demonstrated clearly for us the safety steps.\"",
+        "draft": "The trainer demonstrated clearly for us the safety steps.",
+        "options": [
+          "The trainer demonstrated clearly for us the safety steps.",
+          "The trainer demonstrated the safety steps clearly for us.",
+          "The trainer clearly for us demonstrated the safety steps."
+        ],
+        "answer": 1,
+        "explanation": "Verb \"demonstrated\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"The trainer demonstrated the safety steps clearly for us\".",
+        "hints": [
+          "\"demonstrated\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (6 kata; fokus: He · his · fresh).",
+        "targetSentence": "He brought his teammates fresh coffee.",
+        "explanation": "Subject (He) + Verb (brought) + Indirect Object (his teammates) + Direct Object (fresh coffee).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #19",
+        "options": [
+          "The presenter asked the panelists two sharp questions.",
+          "The presenter asked two sharp questions the panelists.",
+          "The presenter the panelists asked two sharp questions."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the panelists) mendahului Direct Object (two sharp questions): The presenter asked the panelists two sharp questions.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did my colleague deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did my colleague deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "my colleague passed me the attendance folder",
+          "my colleague passed the attendance folder me",
+          "my colleague me passed the attendance folder"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah my colleague passed me the attendance folder (atau the attendance folder to me).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"explained\" agar tidak menyalahi aturan objek preposisional: \"Our lead explained the team the new workflow.\"",
+        "draft": "Our lead explained the team the new workflow.",
+        "options": [
+          "Our lead explained the new workflow to the team.",
+          "Our lead the team explained the new workflow.",
+          "Our lead explained to the team the new workflow."
+        ],
+        "answer": 0,
+        "explanation": "Verb \"explained\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"Our lead explained the new workflow to the team\".",
+        "hints": [
+          "\"explained\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #20",
+        "options": [
+          "The clinic new patients mailed an intake packet.",
+          "The clinic mailed new patients an intake packet.",
+          "The clinic mailed an intake packet new patients."
+        ],
+        "answer": 1,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (new patients) mendahului Direct Object (an intake packet): The clinic mailed new patients an intake packet.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the agency deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the agency deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the agency freelance writers paid a fair bonus",
+          "the agency paid freelance writers a fair bonus",
+          "the agency paid a fair bonus freelance writers"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the agency paid freelance writers a fair bonus (atau a fair bonus to freelance writers).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"described\" agar tidak menyalahi aturan objek preposisional: \"The lecturer described first-year students the experiment.\"",
+        "draft": "The lecturer described first-year students the experiment.",
+        "options": [
+          "The lecturer described the experiment to first-year students.",
+          "The lecturer first-year students described the experiment.",
+          "The lecturer described to first-year students the experiment."
+        ],
+        "answer": 0,
+        "explanation": "Verb \"described\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"The lecturer described the experiment to first-year students\".",
+        "hints": [
+          "\"described\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #21",
+        "options": [
+          "The director promised flexible Fridays the staff.",
+          "The director the staff promised flexible Fridays.",
+          "The director promised the staff flexible Fridays."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (the staff) mendahului Direct Object (flexible Fridays): The director promised the staff flexible Fridays.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (9 kata; fokus: a · IT · The).",
+        "targetSentence": "The IT desk assigned each employee a temporary badge.",
+        "explanation": "Subject (The IT desk) + Verb (assigned) + Indirect Object (each employee) + Direct Object (a temporary badge).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat bertipe Indirect Object + Direct Object (S + V + IO + DO) yang tepat: — Konteks #22",
+        "options": [
+          "She bought a noise-canceling headset her sister.",
+          "She her sister bought a noise-canceling headset.",
+          "She bought her sister a noise-canceling headset."
+        ],
+        "answer": 2,
+        "explanation": "Dalam pola ditransitive tanpa preposisi, Indirect Object (her sister) mendahului Direct Object (a noise-canceling headset): She bought her sister a noise-canceling headset.",
+        "hints": [
+          "Siapa penerimanya (IO) muncul lebih dulu sebelum bendanya (DO) jika tanpa 'to/for'.",
+          "Jangan menaruh objek sebelum kata kerja."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the coach deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the coach deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the coach taught a faster drill the junior squad",
+          "the coach the junior squad taught a faster drill",
+          "the coach taught the junior squad a faster drill"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the coach taught the junior squad a faster drill (atau a faster drill to the junior squad).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"reported\" agar tidak menyalahi aturan objek preposisional: \"He reported engineering the software bug.\"",
+        "draft": "He reported engineering the software bug.",
+        "options": [
+          "He reported to engineering the software bug.",
+          "He reported the software bug to engineering.",
+          "He engineering reported the software bug."
+        ],
+        "answer": 1,
+        "explanation": "Verb \"reported\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"He reported the software bug to engineering\".",
+        "hints": [
+          "\"reported\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"demonstrated\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "The trainer demonstrated clearly for us the safety steps.",
+          "The trainer the safety steps demonstrated clearly for us.",
+          "The trainer demonstrated the safety steps clearly for us."
+        ],
+        "answer": 2,
+        "explanation": "Verb seperti \"demonstrated\" mewajibkan pola demonstrated + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"demonstrated\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: the · The · lent).",
+        "targetSentence": "The librarian lent the researcher three rare volumes.",
+        "explanation": "Subject (The librarian) + Verb (lent) + Indirect Object (the researcher) + Direct Object (three rare volumes).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"explained\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "Our lead explained the team the new workflow.",
+          "Our lead the new workflow explained to the team.",
+          "Our lead explained the new workflow to the team."
+        ],
+        "answer": 2,
+        "explanation": "Verb seperti \"explained\" mewajibkan pola explained + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"explained\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the clerk deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the clerk deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the clerk issued a numbered receipt the applicant",
+          "the clerk the applicant issued a numbered receipt",
+          "the clerk issued the applicant a numbered receipt"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the clerk issued the applicant a numbered receipt (atau a numbered receipt to the applicant).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"introduced\" agar tidak menyalahi aturan objek preposisional: \"The guide introduced the museum director the visitors.\"",
+        "draft": "The guide introduced the museum director the visitors.",
+        "options": [
+          "The guide introduced to the museum director the visitors.",
+          "The guide introduced the visitors to the museum director.",
+          "The guide the museum director introduced the visitors."
+        ],
+        "answer": 1,
+        "explanation": "Verb \"introduced\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"The guide introduced the visitors to the museum director\".",
+        "hints": [
+          "\"introduced\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"described\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "The lecturer described first-year students the experiment.",
+          "The lecturer the experiment described to first-year students.",
+          "The lecturer described the experiment to first-year students."
+        ],
+        "answer": 2,
+        "explanation": "Verb seperti \"described\" mewajibkan pola described + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"described\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did our neighbor deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did our neighbor deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "our neighbor the volunteers baked banana bread",
+          "our neighbor baked the volunteers banana bread",
+          "our neighbor baked banana bread the volunteers"
+        ],
+        "answer": 1,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah our neighbor baked the volunteers banana bread (atau banana bread for the volunteers).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"mentioned\" agar tidak menyalahi aturan objek preposisional: \"The manager mentioned all drivers the schedule shift.\"",
+        "draft": "The manager mentioned all drivers the schedule shift.",
+        "options": [
+          "The manager mentioned the schedule shift to all drivers.",
+          "The manager all drivers mentioned the schedule shift.",
+          "The manager mentioned to all drivers the schedule shift."
+        ],
+        "answer": 0,
+        "explanation": "Verb \"mentioned\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"The manager mentioned the schedule shift to all drivers\".",
+        "hints": [
+          "\"mentioned\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (9 kata; fokus: a · Our · the).",
+        "targetSentence": "Our chef made the conference guests a special lunch.",
+        "explanation": "Subject (Our chef) + Verb (made) + Indirect Object (the conference guests) + Direct Object (a special lunch).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"reported\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "He the software bug reported to engineering.",
+          "He reported the software bug to engineering.",
+          "He reported engineering the software bug."
+        ],
+        "answer": 1,
+        "explanation": "Verb seperti \"reported\" mewajibkan pola reported + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"reported\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the presenter deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did the presenter deliver the item on time?"
+          ],
+          [
+            "Staff",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the presenter asked two sharp questions the panelists",
+          "the presenter the panelists asked two sharp questions",
+          "the presenter asked the panelists two sharp questions"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the presenter asked the panelists two sharp questions (atau two sharp questions to the panelists).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"suggested\" agar tidak menyalahi aturan objek preposisional: \"She suggested the client a simpler layout.\"",
+        "draft": "She suggested the client a simpler layout.",
+        "options": [
+          "She suggested to the client a simpler layout.",
+          "She suggested a simpler layout to the client.",
+          "She the client suggested a simpler layout."
+        ],
+        "answer": 1,
+        "explanation": "Verb \"suggested\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"She suggested a simpler layout to the client\".",
+        "hints": [
+          "\"suggested\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"introduced\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "The guide introduced the visitors to the museum director.",
+          "The guide introduced the museum director the visitors.",
+          "The guide the visitors introduced to the museum director."
+        ],
+        "answer": 0,
+        "explanation": "Verb seperti \"introduced\" mewajibkan pola introduced + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"introduced\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kalimat balasan dengan susunan objek ganda yang benar: \"Did the clinic deliver the item on time? / Yes, ___ this morning.\"",
+        "dialogue": [
+          [
+            "Staff",
+            "Did the clinic deliver the item on time?"
+          ],
+          [
+            "Supervisor",
+            "Yes, ___ this morning."
+          ]
+        ],
+        "options": [
+          "the clinic mailed an intake packet new patients",
+          "the clinic new patients mailed an intake packet",
+          "the clinic mailed new patients an intake packet"
+        ],
+        "answer": 2,
+        "explanation": "Tanpa preposisi \"to/for\", susunan yang benar adalah the clinic mailed new patients an intake packet (atau an intake packet to new patients).",
+        "hints": [
+          "Gunakan pola S + V + penerima + barang.",
+          "Pastikan verb langsung diikuti penerima."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat dengan verb \"recommended\" agar tidak menyalahi aturan objek preposisional: \"The doctor recommended his patients daily walks.\"",
+        "draft": "The doctor recommended his patients daily walks.",
+        "options": [
+          "The doctor recommended daily walks to his patients.",
+          "The doctor his patients recommended daily walks.",
+          "The doctor recommended to his patients daily walks."
+        ],
+        "answer": 0,
+        "explanation": "Verb \"recommended\" tidak menerima indirect object langsung tanpa preposisi; gunakan \"The doctor recommended daily walks to his patients\".",
+        "hints": [
+          "\"recommended\" mengikuti pola S + V + DO + to/for + penerima.",
+          "Tambahkan preposisi setelah objek langsung."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang benar untuk kata kerja \"mentioned\" (tidak bisa memakai dua objek langsung tanpa preposisi)?",
+        "options": [
+          "The manager mentioned all drivers the schedule shift.",
+          "The manager the schedule shift mentioned to all drivers.",
+          "The manager mentioned the schedule shift to all drivers."
+        ],
+        "answer": 2,
+        "explanation": "Verb seperti \"mentioned\" mewajibkan pola mentioned + Direct Object + to/for + Recipient.",
+        "hints": [
+          "\"mentioned\" selalu diikuti objek langsung dulu baru 'to/for'.",
+          "Hindari pola S + V + orang + benda untuk kata kerja ini."
+        ],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berobjek ganda (S + V + Indirect Object + Direct Object) (8 kata; fokus: an · the · The).",
+        "targetSentence": "The host told the audience an inspiring story.",
+        "explanation": "Subject (The host) + Verb (told) + Indirect Object (the audience) + Direct Object (an inspiring story).",
+        "hints": [
+          "Mulai dengan Subject + Verb.",
+          "Letakkan penerima sebelum objek benda."
         ],
         "skill": "svo-order"
       }

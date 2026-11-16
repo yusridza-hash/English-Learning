@@ -5,14 +5,20 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 interface PackAuditBuildMeta {
+  moduleKey: string;
+  path: string;
   updatedAt: string;
+  simple: number;
+  intermediate: number;
+  complex: number;
 }
 
 interface QuestionBankBuildAudit {
   builtAt: string;
   baseUpdatedAt: string;
   latestPackUpdatedAt: string;
-  packMtimes: Record<string, PackAuditBuildMeta>;
+  packMtimes: Record<string, { updatedAt: string }>;
+  packEntries: PackAuditBuildMeta[];
 }
 
 function collectQuestionBankBuildAudit(): QuestionBankBuildAudit {
@@ -27,12 +33,15 @@ function collectQuestionBankBuildAudit(): QuestionBankBuildAudit {
     // Fallback to current timestamp
   }
 
-  const packMtimes: Record<string, PackAuditBuildMeta> = {};
+  const packMtimes: Record<string, { updatedAt: string }> = {};
+  const packEntries: PackAuditBuildMeta[] = [];
   let latestMs = Date.parse(baseUpdatedAt) || 0;
 
   const walk = (dir: string) => {
     if (!fs.existsSync(dir)) return;
-    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    const entries = fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) =>
+      a.name.localeCompare(b.name)
+    );
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
@@ -41,9 +50,29 @@ function collectQuestionBankBuildAudit(): QuestionBankBuildAudit {
         try {
           const mtime = fs.statSync(fullPath).mtime;
           const relPath = path.relative(rootDir, fullPath).replace(/\\/g, '/');
-          packMtimes[relPath] = { updatedAt: mtime.toISOString() };
+          const updatedAt = mtime.toISOString();
+          packMtimes[relPath] = { updatedAt };
           if (mtime.getTime() > latestMs) {
             latestMs = mtime.getTime();
+          }
+          if (entry.name.endsWith('.pack.json')) {
+            try {
+              const parsed = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+              if (parsed && typeof parsed.moduleKey === 'string' && parsed.levels) {
+                packEntries.push({
+                  moduleKey: parsed.moduleKey.trim(),
+                  path: relPath,
+                  updatedAt,
+                  simple: Array.isArray(parsed.levels.simple) ? parsed.levels.simple.length : 0,
+                  intermediate: Array.isArray(parsed.levels.intermediate)
+                    ? parsed.levels.intermediate.length
+                    : 0,
+                  complex: Array.isArray(parsed.levels.complex) ? parsed.levels.complex.length : 0,
+                });
+              }
+            } catch {
+              // Ignore malformed JSON during config stat
+            }
           }
         } catch {
           // Ignore individual stat failures
@@ -59,12 +88,28 @@ function collectQuestionBankBuildAudit(): QuestionBankBuildAudit {
     baseUpdatedAt,
     latestPackUpdatedAt: latestMs > 0 ? new Date(latestMs).toISOString() : baseUpdatedAt,
     packMtimes,
+    packEntries,
   };
 }
 
 export default defineConfig({
   define: {
     __QB_BUILD_AUDIT__: JSON.stringify(collectQuestionBankBuildAudit()),
+  },
+  build: {
+    chunkSizeWarningLimit: 3500,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          const normalized = id.replace(/\\/g, '/');
+          const match = normalized.match(/src\/data\/question-packs\/([^/]+)\//);
+          if (match) {
+            return `qb-${match[1]}`;
+          }
+          return undefined;
+        },
+      },
+    },
   },
   plugins: [
     react(),
@@ -116,7 +161,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
         navigateFallback: '/index.html',
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         cleanupOutdatedCaches: true,
       },
       devOptions: {

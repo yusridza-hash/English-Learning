@@ -261,6 +261,1446 @@
           "Gunakan verb dasar 'deliver'."
         ],
         "skill": "past-simple-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "The logistics team ___ all medical parcels yesterday.",
+        "options": [
+          "shipped",
+          "ships",
+          "shipping"
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja beraturan CVC 1 suku kata ('ship') menggandakan 'p' -> 'shipped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you contact the Bandung supplier yesterday? / Yes, I ___ them right after lunch.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Did you contact the Bandung supplier yesterday?"
+          ],
+          [
+            "Dodi",
+            "Yes, I ___ them right after lunch."
+          ]
+        ],
+        "options": [
+          "called",
+          "call",
+          "calling"
+        ],
+        "answer": 0,
+        "explanation": "Jawaban afirmatif lampau memakai V2 'called'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The courier stoped outside Gate 3 yesterday.\"",
+        "draft": "The courier stoped outside Gate 3 yesterday.",
+        "options": [
+          "The courier stops outside Gate 3 yesterday.",
+          "The courier stoped outside Gate 3 yesterday.",
+          "The courier stopped outside Gate 3 yesterday."
+        ],
+        "answer": 2,
+        "explanation": "Pola CVC 1 suku kata ('stop') menggandakan 'p' -> 'stopped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ the draft policy carefully before noon.",
+        "options": [
+          "review",
+          "reviewing",
+          "reviewed"
+        ],
+        "answer": 2,
+        "explanation": "Penanda waktu lampau ('before noon' konteks selesai) -> 'reviewed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tim logistik mengirimkan semua paket medis kemarin.\".",
+        "targetSentence": "The logistics team shipped all medical parcels yesterday.",
+        "explanation": "Past Simple reguler menggandakan 'p' -> 'shipped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ an urgent inquiry to the Berlin supplier.",
+        "options": [
+          "emailed",
+          "emails",
+          "emailing"
+        ],
+        "answer": 0,
+        "explanation": "Lampau reguler memakai akhiran -ed -> 'emailed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did our team inspect Lab 3? / We ___ every gauge on Tuesday morning.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "When did our team inspect Lab 3?"
+          ],
+          [
+            "Bima",
+            "We ___ every gauge on Tuesday morning."
+          ]
+        ],
+        "options": [
+          "check",
+          "checks",
+          "checked"
+        ],
+        "answer": 2,
+        "explanation": "Waktu lampau ('Tuesday morning') memakai 'checked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We review the travel receipts last Friday.\"",
+        "draft": "We review the travel receipts last Friday.",
+        "options": [
+          "We reviewing the travel receipts last Friday.",
+          "We review the travel receipts last Friday.",
+          "We reviewed the travel receipts last Friday."
+        ],
+        "answer": 2,
+        "explanation": "'Last Friday' memakai V2 'reviewed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our trainer ___ thirty workshop booklets last Friday.",
+        "options": [
+          "print",
+          "printed",
+          "prints"
+        ],
+        "answer": 1,
+        "explanation": "'Last Friday' menandai Past Simple -> 'printed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the delivery van stop at Gate A? / No, the driver ___ near Loading Bay 2.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did the delivery van stop at Gate A?"
+          ],
+          [
+            "Eko",
+            "No, the driver ___ near Loading Bay 2."
+          ]
+        ],
+        "options": [
+          "parks",
+          "parked",
+          "park"
+        ],
+        "answer": 1,
+        "explanation": "Aksi selesai di masa lalu -> 'parked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The security guard scaned every badge this morning.\"",
+        "draft": "The security guard scaned every badge this morning.",
+        "options": [
+          "The security guard scans every badge this morning.",
+          "The security guard scaned every badge this morning.",
+          "The security guard scanned every badge this morning."
+        ],
+        "answer": 2,
+        "explanation": "'Scan' menggandakan 'n' sebelum -ed -> 'scanned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pelatih kami mencetak tiga puluh buku panduan Jumat lalu.\".",
+        "targetSentence": "Our trainer printed thirty workshop booklets last Friday.",
+        "explanation": "Waktu lampau memakai V2 'printed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regional office ___ a bilingual coordinator in May.",
+        "options": [
+          "hires",
+          "hired",
+          "hire"
+        ],
+        "answer": 1,
+        "explanation": "'Hire' berakhiran -e cukup ditambah -d -> 'hired'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did you verify those sales totals? / I ___ every receipt against Table 1.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How did you verify those sales totals?"
+          ],
+          [
+            "Sari",
+            "I ___ every receipt against Table 1."
+          ]
+        ],
+        "options": [
+          "match",
+          "matches",
+          "matched"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple reguler -> 'matched'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She fixxed the loose projector cable yesterday.\"",
+        "draft": "She fixxed the loose projector cable yesterday.",
+        "options": [
+          "She fixed the loose projector cable yesterday.",
+          "She fix the loose projector cable yesterday.",
+          "She fixxed the loose projector cable yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Huruf 'x' tidak pernah digandakan -> 'fixed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Students ___ all three lab tables before leaving.",
+        "options": [
+          "cleans",
+          "cleaned",
+          "clean"
+        ],
+        "answer": 1,
+        "explanation": "Kejadian selesai di masa lalu -> 'cleaned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did everyone attend the morning orientation? / Yes, twenty new hires ___ the session.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Did everyone attend the morning orientation?"
+          ],
+          [
+            "Putri",
+            "Yes, twenty new hires ___ the session."
+          ]
+        ],
+        "options": [
+          "joined",
+          "join",
+          "joins"
+        ],
+        "answer": 0,
+        "explanation": "Lampau selesai -> 'joined'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our coordinator book two rooms two days ago.\"",
+        "draft": "Our coordinator book two rooms two days ago.",
+        "options": [
+          "Our coordinator booked two rooms two days ago.",
+          "Our coordinator booking two rooms two days ago.",
+          "Our coordinator book two rooms two days ago."
+        ],
+        "answer": 0,
+        "explanation": "'Two days ago' memakai V2 'booked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The express bus ___ right outside Terminal 2.",
+        "options": [
+          "stoped",
+          "stops",
+          "stopped"
+        ],
+        "answer": 2,
+        "explanation": "'Stop' (CVC) menggandakan konsonan akhir -> 'stopped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bus ekspres berhenti tepat di luar Terminal 2.\".",
+        "targetSentence": "The express bus stopped right outside Terminal 2.",
+        "explanation": "Gandakan 'p' pada 'stopped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ his presentation notes twice last night.",
+        "options": [
+          "checks",
+          "checked",
+          "check"
+        ],
+        "answer": 1,
+        "explanation": "'Last night' -> V2 reguler 'checked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened to the broken headset? / Our IT assistant ___ it before noon.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "What happened to the broken headset?"
+          ],
+          [
+            "Arman",
+            "Our IT assistant ___ it before noon."
+          ]
+        ],
+        "options": [
+          "repairs",
+          "repaired",
+          "repair"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple reguler -> 'repaired'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They planed the workshop schedule last month.\"",
+        "draft": "They planed the workshop schedule last month.",
+        "options": [
+          "They planned the workshop schedule last month.",
+          "They plans the workshop schedule last month.",
+          "They planed the workshop schedule last month."
+        ],
+        "answer": 0,
+        "explanation": "Pola CCVC 'plan' menggandakan 'n' -> 'planned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our coordinator ___ a taxi for the visiting auditor.",
+        "options": [
+          "booked",
+          "books",
+          "booking"
+        ],
+        "answer": 0,
+        "explanation": "Aksi lampau selesai -> 'booked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya mengonfirmasi pemesanan hotel dua puluh menit lalu.\".",
+        "targetSentence": "I confirmed the hotel reservation twenty minutes ago.",
+        "explanation": "Penanda 'ago' memakai V2 'confirmed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two interns ___ the archive boxes by date.",
+        "options": [
+          "sort",
+          "sorts",
+          "sorted"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple reguler -> 'sorted'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you remember to mail the contracts? / Yes, I ___ them at four yesterday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did you remember to mail the contracts?"
+          ],
+          [
+            "Adi",
+            "Yes, I ___ them at four yesterday."
+          ]
+        ],
+        "options": [
+          "posts",
+          "posted",
+          "post"
+        ],
+        "answer": 1,
+        "explanation": "Lampau -> 'posted'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He emailed the vendor and wait for a reply.\"",
+        "draft": "He emailed the vendor and wait for a reply.",
+        "options": [
+          "He emailed the vendor and wait for a reply.",
+          "He emailed the vendor and waited for a reply.",
+          "He emails the vendor and waited for a reply."
+        ],
+        "answer": 1,
+        "explanation": "Dua aksi lampau berurutan sama-sama memakai V2 ('waited').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ the hotel reservation twenty minutes ago.",
+        "options": [
+          "confirms",
+          "confirmed",
+          "confirm"
+        ],
+        "answer": 1,
+        "explanation": "'Twenty minutes ago' -> Past Simple 'confirmed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where did you save the backup spreadsheets? / I ___ them inside the shared archive.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Where did you save the backup spreadsheets?"
+          ],
+          [
+            "Kiki",
+            "I ___ them inside the shared archive."
+          ]
+        ],
+        "options": [
+          "stored",
+          "store",
+          "stores"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'stored'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The interns clean the lab bench yesterday.\"",
+        "draft": "The interns clean the lab bench yesterday.",
+        "options": [
+          "The interns cleaned the lab bench yesterday.",
+          "The interns cleaning the lab bench yesterday.",
+          "The interns clean the lab bench yesterday."
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday' membutuhkan V2 'cleaned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Teknisi memperbaiki kabel longgar di Ruang 4B.\".",
+        "targetSentence": "The technician fixed a loose cable in Room 4B.",
+        "explanation": "Akhiran -x tidak digandakan ('fixed').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The technician ___ a loose cable inside Room 4B.",
+        "options": [
+          "fixing",
+          "fixed",
+          "fixes"
+        ],
+        "answer": 1,
+        "explanation": "Verb berakhiran -x cukup ditambah -ed (tidak digandakan) -> 'fixed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the ferry leave on time last night? / Actually, rough waves ___ boarding by twenty minutes.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did the ferry leave on time last night?"
+          ],
+          [
+            "Sinta",
+            "Actually, rough waves ___ boarding by twenty minutes."
+          ]
+        ],
+        "options": [
+          "delayed",
+          "delay",
+          "delays"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple reguler -> 'delayed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our committee approve the safety budget in May.\"",
+        "draft": "Our committee approve the safety budget in May.",
+        "options": [
+          "Our committee approved the safety budget in May.",
+          "Our committee approving the safety budget in May.",
+          "Our committee approve the safety budget in May."
+        ],
+        "answer": 0,
+        "explanation": "Bulan lampau membutuhkan V2 'approved'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ for the airport ferry in heavy rain.",
+        "options": [
+          "waited",
+          "wait",
+          "waits"
+        ],
+        "answer": 0,
+        "explanation": "Kejadian lampau -> 'waited'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long did the orientation seminar take? / It ___ roughly ninety minutes in total.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How long did the orientation seminar take?"
+          ],
+          [
+            "Tia",
+            "It ___ roughly ninety minutes in total."
+          ]
+        ],
+        "options": [
+          "last",
+          "lasts",
+          "lasted"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple reguler -> 'lasted'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She prefered the earlier train last Monday.\"",
+        "draft": "She prefered the earlier train last Monday.",
+        "options": [
+          "She preferred the earlier train last Monday.",
+          "She prefers the earlier train last Monday.",
+          "She prefered the earlier train last Monday."
+        ],
+        "answer": 0,
+        "explanation": "Suku kata akhir bertekanan CVC ('prefer') menggandakan 'r' -> 'preferred'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ out every section of the customs form.",
+        "options": [
+          "filling",
+          "filled",
+          "fills"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple reguler -> 'filled'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Komite menyetujui anggaran perjalanan kemarin sore.\".",
+        "targetSentence": "The committee approved the travel budget yesterday afternoon.",
+        "explanation": "Past Simple memakai V2 'approved'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The committee ___ the revised travel allowance yesterday.",
+        "options": [
+          "approved",
+          "approves",
+          "approve"
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday' -> 'approved'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who printed the participant name badges? / Rina ___ forty copies yesterday afternoon.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Who printed the participant name badges?"
+          ],
+          [
+            "Dewi",
+            "Rina ___ forty copies yesterday afternoon."
+          ]
+        ],
+        "options": [
+          "printed",
+          "print",
+          "prints"
+        ],
+        "answer": 0,
+        "explanation": "Waktu lampau -> 'printed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We shiped fifty medical kits yesterday afternoon.\"",
+        "draft": "We shiped fifty medical kits yesterday afternoon.",
+        "options": [
+          "We shipped fifty medical kits yesterday afternoon.",
+          "We ships fifty medical kits yesterday afternoon.",
+          "We shiped fifty medical kits yesterday afternoon."
+        ],
+        "answer": 0,
+        "explanation": "'Ship' menggandakan 'p' -> 'shipped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ a small meeting room near Central Station.",
+        "options": [
+          "rented",
+          "rent",
+          "rents"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple reguler -> 'rented'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dua peserta magang menyortir kotak arsip berdasarkan tanggal.\".",
+        "targetSentence": "Two interns sorted the archive boxes by date.",
+        "explanation": "V2 reguler 'sorted'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The lecturer ___ Table 2 clearly during class.",
+        "options": [
+          "explains",
+          "explain",
+          "explained"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple -> 'explained'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the committee like our budget draft? / Yes, they ___ our figures immediately.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Did the committee like our budget draft?"
+          ],
+          [
+            "Ayu",
+            "Yes, they ___ our figures immediately."
+          ]
+        ],
+        "options": [
+          "accepts",
+          "accepted",
+          "accept"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple -> 'accepted'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The lecturer explain the diagram two hours ago.\"",
+        "draft": "The lecturer explain the diagram two hours ago.",
+        "options": [
+          "The lecturer explain the diagram two hours ago.",
+          "The lecturer explained the diagram two hours ago.",
+          "The lecturer explaining the diagram two hours ago."
+        ],
+        "answer": 1,
+        "explanation": "'Two hours ago' memakai V2 'explained'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our driver ___ the delivery van behind Gate C.",
+        "options": [
+          "parking",
+          "parked",
+          "parks"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple reguler -> 'parked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the printer tray full of A4 paper? / Because I ___ fresh paper ten minutes ago.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why is the printer tray full of A4 paper?"
+          ],
+          [
+            "Oki",
+            "Because I ___ fresh paper ten minutes ago."
+          ]
+        ],
+        "options": [
+          "loads",
+          "loaded",
+          "load"
+        ],
+        "answer": 1,
+        "explanation": "Penanda 'ago' memakai V2 'loaded'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He droped a box of paper clips on the stairs.\"",
+        "draft": "He droped a box of paper clips on the stairs.",
+        "options": [
+          "He dropped a box of paper clips on the stairs.",
+          "He drops a box of paper clips on the stairs.",
+          "He droped a box of paper clips on the stairs."
+        ],
+        "answer": 0,
+        "explanation": "'Drop' menggandakan 'p' -> 'dropped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami menyewa ruang rapat kecil dekat Stasiun Pusat.\".",
+        "targetSentence": "We rented a small meeting room near Central Station.",
+        "explanation": "V2 reguler 'rented'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ three international calls before lunchtime.",
+        "options": [
+          "answering",
+          "answered",
+          "answers"
+        ],
+        "answer": 1,
+        "explanation": "Selesai di masa lalu -> 'answered'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you reach the hostel before midnight? / Yes, we ___ in smoothly at eleven.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did you reach the hostel before midnight?"
+          ],
+          [
+            "Mira",
+            "Yes, we ___ in smoothly at eleven."
+          ]
+        ],
+        "options": [
+          "checked",
+          "check",
+          "checks"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'checked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I confirm the hotel booking last night.\"",
+        "draft": "I confirm the hotel booking last night.",
+        "options": [
+          "I confirmed the hotel booking last night.",
+          "I confirming the hotel booking last night.",
+          "I confirm the hotel booking last night."
+        ],
+        "answer": 0,
+        "explanation": "'Last night' memakai V2 'confirmed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The pharmacy ___ early on New Year's Eve.",
+        "options": [
+          "closing",
+          "closed",
+          "closes"
+        ],
+        "answer": 1,
+        "explanation": "Akhiran -e pada 'close' ditambah -d -> 'closed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did the café handle the morning rush? / Two baristas ___ over eighty orders smoothly.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How did the café handle the morning rush?"
+          ],
+          [
+            "Taufik",
+            "Two baristas ___ over eighty orders smoothly."
+          ]
+        ],
+        "options": [
+          "serves",
+          "served",
+          "serve"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple -> 'served'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They traveld to Surabaya by night train last week.\"",
+        "draft": "They traveld to Surabaya by night train last week.",
+        "options": [
+          "They traveled to Surabaya by night train last week.",
+          "They travels to Surabaya by night train last week.",
+          "They traveld to Surabaya by night train last week."
+        ],
+        "answer": 0,
+        "explanation": "Ejaan baku lampau dari 'travel' adalah 'traveled' (US) / 'travelled' (UK), bukan 'traveld'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ to the safety briefing on Monday morning.",
+        "options": [
+          "listens",
+          "listened",
+          "listen"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple reguler -> 'listened'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Satpam memindai kartu akses kami pukul delapan pagi.\".",
+        "targetSentence": "The security guard scanned our access cards at eight.",
+        "explanation": "Gandakan 'n' pada 'scanned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Volunteers ___ clean bottles at the station booth.",
+        "options": [
+          "pack",
+          "packs",
+          "packed"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple -> 'packed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the tutor review your practice essay? / Yes, she ___ clear notes in the margin.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did the tutor review your practice essay?"
+          ],
+          [
+            "Lina",
+            "Yes, she ___ clear notes in the margin."
+          ]
+        ],
+        "options": [
+          "typed",
+          "type",
+          "types"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'typed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The nurse wrapd the patient's wrist gently.\"",
+        "draft": "The nurse wrapd the patient's wrist gently.",
+        "options": [
+          "The nurse wrapd the patient's wrist gently.",
+          "The nurse wrapped the patient's wrist gently.",
+          "The nurse wraps the patient's wrist gently."
+        ],
+        "answer": 1,
+        "explanation": "'Wrap' menggandakan 'p' -> 'wrapped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The security guard ___ our access cards at eight.",
+        "options": [
+          "scans",
+          "scanned",
+          "scaned"
+        ],
+        "answer": 1,
+        "explanation": "'Scan' (CVC) menggandakan 'n' -> 'scanned'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kedua tim bekerja lembur untuk menyelesaikan audit.\".",
+        "targetSentence": "Both teams worked overtime to finish the audit.",
+        "explanation": "V2 reguler 'worked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ their conference badges at Reception.",
+        "options": [
+          "collect",
+          "collects",
+          "collected"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple -> 'collected'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did they lock the storage cabinet yesterday? / Yes, the night guard ___ every door.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Did they lock the storage cabinet yesterday?"
+          ],
+          [
+            "Wulan",
+            "Yes, the night guard ___ every door."
+          ]
+        ],
+        "options": [
+          "locked",
+          "lock",
+          "locks"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'locked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My colleague share the meeting link yesterday.\"",
+        "draft": "My colleague share the meeting link yesterday.",
+        "options": [
+          "My colleague sharing the meeting link yesterday.",
+          "My colleague share the meeting link yesterday.",
+          "My colleague shared the meeting link yesterday."
+        ],
+        "answer": 2,
+        "explanation": "'Yesterday' membutuhkan V2 'shared'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ five new graphs into the annual deck.",
+        "options": [
+          "added",
+          "adds",
+          "adding"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple reguler -> 'added'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did our mentor visit the port branch? / He ___ the warehouse staff last Monday.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "When did our mentor visit the port branch?"
+          ],
+          [
+            "Sari",
+            "He ___ the warehouse staff last Monday."
+          ]
+        ],
+        "options": [
+          "visit",
+          "visits",
+          "visited"
+        ],
+        "answer": 2,
+        "explanation": "'Last Monday' -> 'visited'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We open the new branch in October 2024.\"",
+        "draft": "We open the new branch in October 2024.",
+        "options": [
+          "We open the new branch in October 2024.",
+          "We opened the new branch in October 2024.",
+          "We opening the new branch in October 2024."
+        ],
+        "answer": 1,
+        "explanation": "Tahun lampau memakai V2 'opened'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia menutup lampu ruang seminar sebelum mengunci pintu.\".",
+        "targetSentence": "He turned off the seminar lights before locking up.",
+        "explanation": "V2 reguler 'turned off'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our supervisor ___ an alternative route due to fog.",
+        "options": [
+          "suggested",
+          "suggests",
+          "suggest"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'suggested'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did your sister finish her application form? / Yes, she ___ all PDFs before midnight.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did your sister finish her application form?"
+          ],
+          [
+            "Reno",
+            "Yes, she ___ all PDFs before midnight."
+          ]
+        ],
+        "options": [
+          "uploaded",
+          "upload",
+          "uploads"
+        ],
+        "answer": 0,
+        "explanation": "Lampau selesai -> 'uploaded'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The student erase the whiteboard after class.\"",
+        "draft": "The student erase the whiteboard after class.",
+        "options": [
+          "The student erase the whiteboard after class.",
+          "The student erased the whiteboard after class.",
+          "The student erasing the whiteboard after class."
+        ],
+        "answer": 1,
+        "explanation": "Akhiran -e ditambah -d -> 'erased'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ across the pedestrian bridge to Gate North.",
+        "options": [
+          "walking",
+          "walked",
+          "walks"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple -> 'walked'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did students find the new lab rules? / Everyone ___ the visual guide helpful.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "How did students find the new lab rules?"
+          ],
+          [
+            "Aris",
+            "Everyone ___ the visual guide helpful."
+          ]
+        ],
+        "options": [
+          "considers",
+          "considered",
+          "consider"
+        ],
+        "answer": 1,
+        "explanation": "Past Simple reguler -> 'considered'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our IT team update all passwords last weekend.\"",
+        "draft": "Our IT team update all passwords last weekend.",
+        "options": [
+          "Our IT team update all passwords last weekend.",
+          "Our IT team updated all passwords last weekend.",
+          "Our IT team updates all passwords last weekend."
+        ],
+        "answer": 1,
+        "explanation": "'Last weekend' memakai V2 'updated'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The clinic ___ patient records into secure folders.",
+        "options": [
+          "moved",
+          "moves",
+          "moving"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple -> 'moved'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apotek itu tutup lebih awal pada malam tahun baru.\".",
+        "targetSentence": "The pharmacy closed early on New Year's Eve.",
+        "explanation": "V2 reguler 'closed'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-regular"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Sambungkan dengan 'and handed the key to security'."
         ],
         "skill": "past-simple-sequence"
+      },
+      {
+        "type": "choice",
+        "prompt": "The senior analyst ___ three key trends in the chart.",
+        "options": [
+          "founds",
+          "found",
+          "finded"
+        ],
+        "answer": 1,
+        "explanation": "V2 tak beraturan dari 'find' adalah 'found'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who bought the spare projector bulbs yesterday? / Our admin assistant ___ three boxes online.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Who bought the spare projector bulbs yesterday?"
+          ],
+          [
+            "Dodi",
+            "Our admin assistant ___ three boxes online."
+          ]
+        ],
+        "options": [
+          "bought",
+          "buyed",
+          "brought"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'buy' adalah 'bought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The courier bringed two sealed parcels yesterday.\"",
+        "draft": "The courier bringed two sealed parcels yesterday.",
+        "options": [
+          "The courier bought two sealed parcels yesterday.",
+          "The courier bringed two sealed parcels yesterday.",
+          "The courier brought two sealed parcels yesterday."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'bring' adalah 'brought' (bukan 'bringed').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ fifty new laptops from the vendor.",
+        "options": [
+          "brought",
+          "bought",
+          "buyed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'buy' adalah 'bought' ('brought' dari 'bring').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Analis senior menemukan tiga tren utama di grafik itu.\".",
+        "targetSentence": "The senior analyst found three key trends in that chart.",
+        "explanation": "V2 tak beraturan dari 'find' adalah 'found'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ the official invitation by express post yesterday.",
+        "options": [
+          "send",
+          "sent",
+          "sended"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'send' adalah 'sent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the supplier send the invoice yet? / Yes, they ___ the PDF yesterday morning.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Did the supplier send the invoice yet?"
+          ],
+          [
+            "Bima",
+            "Yes, they ___ the PDF yesterday morning."
+          ]
+        ],
+        "options": [
+          "sended",
+          "send",
+          "sent"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'send' adalah 'sent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She writed a detailed audit summary last week.\"",
+        "draft": "She writed a detailed audit summary last week.",
+        "options": [
+          "She writed a detailed audit summary last week.",
+          "She wrote a detailed audit summary last week.",
+          "She written a detailed audit summary last week."
+        ],
+        "answer": 1,
+        "explanation": "Past Simple menggunakan V2 'wrote', bukan V3 'written'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ two hours reviewing safety procedures yesterday.",
+        "options": [
+          "spend",
+          "spent",
+          "spended"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'spend' adalah 'spent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did you meet the new intern coordinator? / I ___ her during Monday's orientation.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "When did you meet the new intern coordinator?"
+          ],
+          [
+            "Eko",
+            "I ___ her during Monday's orientation."
+          ]
+        ],
+        "options": [
+          "meet",
+          "met",
+          "meeted"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'meet' adalah 'met'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How much did the repair costed last month?\"",
+        "draft": "How much did the repair costed last month?",
+        "options": [
+          "How much does the repair costed last month?",
+          "How much did the repair costed last month?",
+          "How much did the repair cost last month?"
+        ],
+        "answer": 2,
+        "explanation": "Baik V1 maupun V2 'cost' sama (dan setelah 'did' wajib V1).",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang kami membeli lima puluh laptop baru kemarin.\".",
+        "targetSentence": "Our branch bought fifty new laptops yesterday.",
+        "explanation": "V2 dari 'buy' adalah 'bought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ an informative email to every client last Monday.",
+        "options": [
+          "wrote",
+          "writed",
+          "written"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple memakai V2 'wrote' (bukan V3 'written').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did your group get to Surabaya? / We ___ the early executive train yesterday.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How did your group get to Surabaya?"
+          ],
+          [
+            "Sari",
+            "We ___ the early executive train yesterday."
+          ]
+        ],
+        "options": [
+          "taken",
+          "took",
+          "taked"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'take' adalah 'took'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We buyed twenty reusable badges for guests.\"",
+        "draft": "We buyed twenty reusable badges for guests.",
+        "options": [
+          "We brought twenty reusable badges for guests.",
+          "We buyed twenty reusable badges for guests.",
+          "We bought twenty reusable badges for guests."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'buy' adalah 'bought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ferry ___ Port Klang fifteen minutes early.",
+        "options": [
+          "left",
+          "leaved",
+          "leaves"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'leave' adalah 'left'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where did you put my spare safety goggles? / I ___ them inside Locker 4 an hour ago.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Where did you put my spare safety goggles?"
+          ],
+          [
+            "Putri",
+            "I ___ them inside Locker 4 an hour ago."
+          ]
+        ],
+        "options": [
+          "puts",
+          "put",
+          "putted"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'put' adalah 'put'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He putted the extra keys inside Drawer 2.\"",
+        "draft": "He putted the extra keys inside Drawer 2.",
+        "options": [
+          "He put the extra keys inside Drawer 2.",
+          "He puts the extra keys inside Drawer 2.",
+          "He putted the extra keys inside Drawer 2."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'put' tetap 'put'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our supervisor ___ clear instructions to every intern.",
+        "options": [
+          "gived",
+          "given",
+          "gave"
+        ],
+        "answer": 2,
+        "explanation": "Past Simple memakai V2 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia menulis surel informatif kepada setiap klien Senin lalu.\".",
+        "targetSentence": "She wrote an informative email to every client last Monday.",
+        "explanation": "V2 dari 'write' adalah 'wrote'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ a faster train to Yogyakarta last weekend.",
+        "options": [
+          "taken",
+          "took",
+          "taked"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'take' adalah 'took'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Mr. Tan give feedback on the layout? / Yes, he ___ us five clear notes.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Did Mr. Tan give feedback on the layout?"
+          ],
+          [
+            "Arman",
+            "Yes, he ___ us five clear notes."
+          ]
+        ],
+        "options": [
+          "gave",
+          "gived",
+          "given"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'give' adalah 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our team finded three errors in Table 4.\"",
+        "draft": "Our team finded three errors in Table 4.",
+        "options": [
+          "Our team finded three errors in Table 4.",
+          "Our team found three errors in Table 4.",
+          "Our team founded three errors in Table 4."
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'find' adalah 'found' ('founded' berarti mendirikan).",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ the signed contract upstairs at nine.",
+        "options": [
+          "bringed",
+          "bought",
+          "brought"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'bring' adalah 'brought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kapal feri meninggalkan pelabuhan lima belas menit lebih awal.\".",
+        "targetSentence": "The ferry left port fifteen minutes early.",
+        "explanation": "V2 dari 'leave' adalah 'left'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleague ___ sick yesterday, so she rested at home.",
+        "options": [
+          "felt",
+          "feeled",
+          "fell"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'feel' adalah 'felt' ('fell' adalah V2 dari 'fall').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How much did those printer cables cost? / They ___ eighty thousand rupiah per set.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "How much did those printer cables cost?"
+          ],
+          [
+            "Adi",
+            "They ___ eighty thousand rupiah per set."
+          ]
+        ],
+        "options": [
+          "cost",
+          "costed",
+          "costs"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'cost' tetap 'cost'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The early ferry leaved port ten minutes ago.\"",
+        "draft": "The early ferry leaved port ten minutes ago.",
+        "options": [
+          "The early ferry leaved port ten minutes ago.",
+          "The early ferry left port ten minutes ago.",
+          "The early ferry leaves port ten minutes ago."
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'leave' adalah 'left'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ the regional director at the Jakarta expo.",
+        "options": [
+          "met",
+          "meeted",
+          "meets"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'meet' adalah 'met'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Kevin write the seminar minutes? / Yes, he ___ a concise one-page summary.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Did Kevin write the seminar minutes?"
+          ],
+          [
+            "Kiki",
+            "Yes, he ___ a concise one-page summary."
+          ]
+        ],
+        "options": [
+          "wrote",
+          "writed",
+          "written"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'write' adalah 'wrote'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She gived clear advice to all new interns.\"",
+        "draft": "She gived clear advice to all new interns.",
+        "options": [
+          "She given clear advice to all new interns.",
+          "She gived clear advice to all new interns.",
+          "She gave clear advice to all new interns."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'give' adalah 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami menghabiskan dua jam meninjau aturan keselamatan kemarin.\".",
+        "targetSentence": "We spent two hours reviewing safety rules yesterday.",
+        "explanation": "V2 dari 'spend' adalah 'spent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The team ___ four strong layouts before picking one.",
+        "options": [
+          "builded",
+          "builds",
+          "built"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'build' adalah 'built'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did your team catch the 7:00 airport bus? / Just barely—we ___ it at the last stop.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did your team catch the 7:00 airport bus?"
+          ],
+          [
+            "Sinta",
+            "Just barely—we ___ it at the last stop."
+          ]
+        ],
+        "options": [
+          "catch",
+          "caught",
+          "catched"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'catch' adalah 'caught'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I catched the 6:30 commuter train yesterday.\"",
+        "draft": "I catched the 6:30 commuter train yesterday.",
+        "options": [
+          "I caughted the 6:30 commuter train yesterday.",
+          "I catched the 6:30 commuter train yesterday.",
+          "I caught the 6:30 commuter train yesterday."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'catch' adalah 'caught'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ quietly until everyone finished speaking.",
+        "options": [
+          "sat",
+          "sitted",
+          "sit"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'sit' adalah 'sat'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What did the technician find inside the fan? / He ___ a thick layer of dust blocking airflow.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What did the technician find inside the fan?"
+          ],
+          [
+            "Tia",
+            "He ___ a thick layer of dust blocking airflow."
+          ]
+        ],
+        "options": [
+          "finded",
+          "finds",
+          "found"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'find' adalah 'found'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They spended the whole afternoon testing sensors.\"",
+        "draft": "They spended the whole afternoon testing sensors.",
+        "options": [
+          "They spend the whole afternoon testing sensors.",
+          "They spended the whole afternoon testing sensors.",
+          "They spent the whole afternoon testing sensors."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'spend' adalah 'spent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The wind ___ strongly across the runway last night.",
+        "options": [
+          "blew",
+          "blowed",
+          "blown"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'blow' adalah 'blew'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pengawas memberi arahan jelas kepada semua peserta magang.\".",
+        "targetSentence": "The supervisor gave clear instructions to all interns.",
+        "explanation": "V2 dari 'give' adalah 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our manager ___ the keynote speaker on stage.",
+        "options": [
+          "speaked with",
+          "spoken with",
+          "spoke with"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'speak' adalah 'spoke'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our courier bring the customs forms? / Yes, he ___ two sealed folders downstairs.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Did our courier bring the customs forms?"
+          ],
+          [
+            "Dewi",
+            "Yes, he ___ two sealed folders downstairs."
+          ]
+        ],
+        "options": [
+          "bought",
+          "brought",
+          "bringed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'bring' adalah 'brought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He readed the safety guide twice last night.\"",
+        "draft": "He readed the safety guide twice last night.",
+        "options": [
+          "He reads the safety guide twice last night.",
+          "He readed the safety guide twice last night.",
+          "He read the safety guide twice last night."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'read' ditulis 'read' tanpa -ed.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Heavy rain ___ traffic down along the main avenue.",
+        "options": [
+          "keeped",
+          "keeps",
+          "kept"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'keep' adalah 'kept'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kurir membawa dua map tersegel ke lantai atas.\".",
+        "targetSentence": "The courier brought two sealed folders upstairs.",
+        "explanation": "V2 dari 'bring' adalah 'brought'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ his boarding pass inside his laptop sleeve.",
+        "options": [
+          "put",
+          "putted",
+          "puts"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'put' tetap sama yaitu 'put'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Tari leave the office so fast? / She ___ early to catch her dental appointment.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why did Tari leave the office so fast?"
+          ],
+          [
+            "Ayu",
+            "She ___ early to catch her dental appointment."
+          ]
+        ],
+        "options": [
+          "leaved",
+          "leaves",
+          "left"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'leave' adalah 'left'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We meeted the Japanese delegates at Terminal 3.\"",
+        "draft": "We meeted the Japanese delegates at Terminal 3.",
+        "options": [
+          "We meeted the Japanese delegates at Terminal 3.",
+          "We met the Japanese delegates at Terminal 3.",
+          "We meets the Japanese delegates at Terminal 3."
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'meet' adalah 'met'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ all expenses accurately before the audit.",
+        "options": [
+          "keeping",
+          "kept",
+          "keeped"
+        ],
+        "answer": 1,
+        "explanation": "V2 'keep' adalah 'kept'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who made the coffee for the panelists? / Our pantry coordinator ___ a fresh pot.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Who made the coffee for the panelists?"
+          ],
+          [
+            "Oki",
+            "Our pantry coordinator ___ a fresh pot."
+          ]
+        ],
+        "options": [
+          "made",
+          "maked",
+          "makes"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'make' adalah 'made'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The trainee feeled dizzy after the long flight.\"",
+        "draft": "The trainee feeled dizzy after the long flight.",
+        "options": [
+          "The trainee fell dizzy after the long flight.",
+          "The trainee feeled dizzy after the long flight.",
+          "The trainee felt dizzy after the long flight."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'feel' adalah 'felt'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya bertemu direktur wilayah di pameran Jakarta.\".",
+        "targetSentence": "I met the regional director at the Jakarta expo.",
+        "explanation": "V2 dari 'meet' adalah 'met'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The finance clerk ___ an accurate invoice yesterday.",
+        "options": [
+          "maked",
+          "make",
+          "made"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'make' adalah 'made'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did students read the lab manual last night? / Yes, everyone ___ Chapters 1 and 2 carefully.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did students read the lab manual last night?"
+          ],
+          [
+            "Mira",
+            "Yes, everyone ___ Chapters 1 and 2 carefully."
+          ]
+        ],
+        "options": [
+          "reads",
+          "read",
+          "readed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'read' adalah 'read'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Fuel prices falled steadily last winter.\"",
+        "draft": "Fuel prices falled steadily last winter.",
+        "options": [
+          "Fuel prices fell steadily last winter.",
+          "Fuel prices fallen steadily last winter.",
+          "Fuel prices falled steadily last winter."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'fall' adalah 'fell'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Students ___ every safety manual thoroughly last week.",
+        "options": [
+          "readed",
+          "reads",
+          "read"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'read' ditulis sama ('read', dibaca /red/).",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did the interns feel after the mock IELTS? / Most trainees ___ confident with Part 2.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "How did the interns feel after the mock IELTS?"
+          ],
+          [
+            "Taufik",
+            "Most trainees ___ confident with Part 2."
+          ]
+        ],
+        "options": [
+          "feeled",
+          "fell",
+          "felt"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'feel' adalah 'felt'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She sended the corrected spreadsheet before noon.\"",
+        "draft": "She sended the corrected spreadsheet before noon.",
+        "options": [
+          "She send the corrected spreadsheet before noon.",
+          "She sended the corrected spreadsheet before noon.",
+          "She sent the corrected spreadsheet before noon."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'send' adalah 'sent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The shipment ___ two hundred dollars in extra fees.",
+        "options": [
+          "costed",
+          "costs",
+          "cost"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'cost' adalah 'cost' (tidak pernah 'costed').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Biaya pengiriman itu mencapai dua ratus dolar kemarin.\".",
+        "targetSentence": "That shipment cost two hundred dollars yesterday.",
+        "explanation": "V2 dari 'cost' tetap 'cost'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ the broken mug cleanly into the bin.",
+        "options": [
+          "throwed",
+          "thrown",
+          "threw"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'throw' adalah 'threw'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you hear the boarding announcement? / Yes, we ___ Gate 8 called five minutes ago.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did you hear the boarding announcement?"
+          ],
+          [
+            "Lina",
+            "Yes, we ___ Gate 8 called five minutes ago."
+          ]
+        ],
+        "options": [
+          "hear",
+          "heard",
+          "heared"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'hear' adalah 'heard'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our team winned the regional startup award.\"",
+        "draft": "Our team winned the regional startup award.",
+        "options": [
+          "Our team win the regional startup award.",
+          "Our team winned the regional startup award.",
+          "Our team won the regional startup award."
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'win' adalah 'won'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our team ___ first place in the regional design contest.",
+        "options": [
+          "winned",
+          "win",
+          "won"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'win' adalah 'won'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia mengejar kereta pagi hanya dalam selisih dua menit.\".",
+        "targetSentence": "He caught the morning train by only two minutes.",
+        "explanation": "V2 dari 'catch' adalah 'caught'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ the morning express by only two minutes.",
+        "options": [
+          "catched",
+          "caughted",
+          "caught"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'catch' adalah 'caught'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long did you spend on that audit sheet? / I ___ nearly three hours checking rows.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "How long did you spend on that audit sheet?"
+          ],
+          [
+            "Wulan",
+            "I ___ nearly three hours checking rows."
+          ]
+        ],
+        "options": [
+          "spended",
+          "spend",
+          "spent"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'spend' adalah 'spent'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He taked two copies of the travel itinerary.\"",
+        "draft": "He taked two copies of the travel itinerary.",
+        "options": [
+          "He taked two copies of the travel itinerary.",
+          "He took two copies of the travel itinerary.",
+          "He taken two copies of the travel itinerary."
+        ],
+        "answer": 1,
+        "explanation": "Past Simple memakai V2 'took'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The trainee ___ to lock the lab fridge yesterday.",
+        "options": [
+          "forgot",
+          "forgetted",
+          "forgotten"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple memakai V2 'forgot'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who won yesterday's team design challenge? / Team Green ___ with their clean mobile layout.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Who won yesterday's team design challenge?"
+          ],
+          [
+            "Sari",
+            "Team Green ___ with their clean mobile layout."
+          ]
+        ],
+        "options": [
+          "won",
+          "winned",
+          "win"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'win' adalah 'won'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The guard heared a strange noise near Exit B.\"",
+        "draft": "The guard heared a strange noise near Exit B.",
+        "options": [
+          "The guard heard a strange noise near Exit B.",
+          "The guard hears a strange noise near Exit B.",
+          "The guard heared a strange noise near Exit B."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'hear' adalah 'heard'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Harga baterai jatuh dengan stabil pada kuartal lalu.\".",
+        "targetSentence": "Battery prices fell steadily last quarter.",
+        "explanation": "V2 dari 'fall' adalah 'fell'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ that news from the regional newsletter.",
+        "options": [
+          "hears",
+          "heard",
+          "heared"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'hear' adalah 'heard'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did anyone forget their badge at security? / Yes, Dimas ___ his ID pass at Desk A.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did anyone forget their badge at security?"
+          ],
+          [
+            "Reno",
+            "Yes, Dimas ___ his ID pass at Desk A."
+          ]
+        ],
+        "options": [
+          "forgot",
+          "forgetted",
+          "forgotten"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'forget' adalah 'forgot'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I forgetted my umbrella inside Lecture Hall C.\"",
+        "draft": "I forgetted my umbrella inside Lecture Hall C.",
+        "options": [
+          "I forgot my umbrella inside Lecture Hall C.",
+          "I forgotten my umbrella inside Lecture Hall C.",
+          "I forgetted my umbrella inside Lecture Hall C."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'forget' adalah 'forgot'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ the heavy parcel gently on Counter 3.",
+        "options": [
+          "lied",
+          "laid",
+          "layed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'lay' (meletakkan) adalah 'laid'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where did the coordinator lay the handouts? / She ___ them neatly beside Reception.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Where did the coordinator lay the handouts?"
+          ],
+          [
+            "Aris",
+            "She ___ them neatly beside Reception."
+          ]
+        ],
+        "options": [
+          "lied",
+          "laid",
+          "layed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'lay' adalah 'laid'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She maked fresh tea for all seminar guests.\"",
+        "draft": "She maked fresh tea for all seminar guests.",
+        "options": [
+          "She made fresh tea for all seminar guests.",
+          "She makes fresh tea for all seminar guests.",
+          "She maked fresh tea for all seminar guests."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'make' adalah 'made'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Prices of lithium batteries ___ steadily last quarter.",
+        "options": [
+          "fell",
+          "falled",
+          "fallen"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'fall' adalah 'fell'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia meletakkan salinan panduan di dekat meja resepsionis.\".",
+        "targetSentence": "She laid the manual copies beside the reception desk.",
+        "explanation": "V2 dari 'lay' adalah 'laid'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
       }
     ],
     "complex": [
@@ -827,6 +3707,1446 @@
         "hints": [
           "Awali dengan 'Only yesterday did'.",
           "Letakkan subjek sebelum base verb 'confirm'."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ deliver the crate yesterday due to floods.",
+        "options": [
+          "did not",
+          "was not",
+          "had not to"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif dengan verb aksi 'deliver' memakai 'did not' + V1.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you attach the CSV file yesterday? / Sorry, I ___ save the latest edits in time.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Why didn't you attach the CSV file yesterday?"
+          ],
+          [
+            "Dodi",
+            "Sorry, I ___ save the latest edits in time."
+          ]
+        ],
+        "options": [
+          "didn't",
+          "wasn't",
+          "not"
+        ],
+        "answer": 0,
+        "explanation": "Negatif dengan verb 'save' memakai 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The interns didn't attended yesterday's safety lecture.\"",
+        "draft": "The interns didn't attended yesterday's safety lecture.",
+        "options": [
+          "The interns didn't attended yesterday's safety lecture.",
+          "The interns didn't attend yesterday's safety lecture.",
+          "The interns weren't attend yesterday's safety lecture."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'didn't', gunakan verb dasar V1 'attend'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why didn't the interns ___ their goggles back?",
+        "options": [
+          "bringing",
+          "bring",
+          "brought"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'didn't', kata kerja wajib kembali ke V1 dasar 'bring'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kurir tidak mengantarkan peti itu kemarin karena banjir.\".",
+        "targetSentence": "The courier did not deliver the crate yesterday due to floods.",
+        "explanation": "Negatif lampau memakai 'did not + V1'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ open during the national holiday last week.",
+        "options": [
+          "did not",
+          "were not",
+          "was not"
+        ],
+        "answer": 2,
+        "explanation": "'Open' di sini adjective -> bentuk negatif lampau memakai 'was not'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the manager approve our travel claim? / No, she ___ think the receipt looked clear.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Did the manager approve our travel claim?"
+          ],
+          [
+            "Bima",
+            "No, she ___ think the receipt looked clear."
+          ]
+        ],
+        "options": [
+          "wasn't",
+          "hadn't",
+          "didn't"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'think' negatif lampau -> 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did the courier brought the parcel upstairs?\"",
+        "draft": "Did the courier brought the parcel upstairs?",
+        "options": [
+          "Did the courier bring the parcel upstairs?",
+          "Was the courier bring the parcel upstairs?",
+          "Did the courier brought the parcel upstairs?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Did', gunakan V1 'bring'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the delegates satisfied with the hotel shuttle service?",
+        "options": [
+          "Did",
+          "Was",
+          "Were"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'satisfied' + subjek jamak lampau -> 'Were'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were all trainees present at Monday's demo? / Actually, two interns ___ attend due to flu.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Were all trainees present at Monday's demo?"
+          ],
+          [
+            "Eko",
+            "Actually, two interns ___ attend due to flu."
+          ]
+        ],
+        "options": [
+          "didn't",
+          "weren't",
+          "wasn't"
+        ],
+        "answer": 0,
+        "explanation": "Dengan verb 'attend', gunakan 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She wasn't agree with the new parking fee.\"",
+        "draft": "She wasn't agree with the new parking fee.",
+        "options": [
+          "She didn't agree with the new parking fee.",
+          "She wasn't agreed with the new parking fee.",
+          "She wasn't agree with the new parking fee."
+        ],
+        "answer": 0,
+        "explanation": "'Agree' adalah verb aksi sehingga negatif lampau memakai 'didn't agree'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa para peserta tidak membawa kembali kacamata mereka?\".",
+        "targetSentence": "Why didn't the trainees bring back their glasses?",
+        "explanation": "Pertanyaan negatif memakai 'didn't + S + V1'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ the regional warehouse inspection last quarter?",
+        "options": [
+          "was led",
+          "led",
+          "did lead"
+        ],
+        "answer": 1,
+        "explanation": "Subject question lampau langsung memakai V2 'led'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the terminal lounge quiet last night? / No, it ___ extremely noisy during peak boarding.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Was the terminal lounge quiet last night?"
+          ],
+          [
+            "Sari",
+            "No, it ___ extremely noisy during peak boarding."
+          ]
+        ],
+        "options": [
+          "was",
+          "did",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Adjective 'noisy' + subjek 'it' -> 'was'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who did built that coastal research station?\"",
+        "draft": "Who did built that coastal research station?",
+        "options": [
+          "Who builded that coastal research station?",
+          "Who did built that coastal research station?",
+          "Who built that coastal research station?"
+        ],
+        "answer": 2,
+        "explanation": "Subject question tanpa 'did' memakai V2 'built'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She rarely ___ early when she worked in Finance.",
+        "options": [
+          "didn't leave",
+          "leave",
+          "left"
+        ],
+        "answer": 2,
+        "explanation": "'Rarely' bernilai positif tata bahasa -> langsung V2 'left'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did she buy a spare charger in Surabaya? / No, she ___ find any open shop near the pier.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Did she buy a spare charger in Surabaya?"
+          ],
+          [
+            "Putri",
+            "No, she ___ find any open shop near the pier."
+          ]
+        ],
+        "options": [
+          "didn't",
+          "wasn't",
+          "hadn't"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'find' negatif -> 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He has graduated from university in 2021.\"",
+        "draft": "He has graduated from university in 2021.",
+        "options": [
+          "He has graduated from university in 2021.",
+          "He graduated from university in 2021.",
+          "He graduate from university in 2021."
+        ],
+        "answer": 1,
+        "explanation": "Tahun lampau selesai spesifik ('in 2021') wajib memakai Past Simple 'graduated'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "How did the team ___ to finish ahead of Friday?",
+        "options": [
+          "managing",
+          "manage",
+          "managed"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did + S', gunakan V1 dasar 'manage'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah para delegasi puas dengan layanan bus hotel?\".",
+        "targetSentence": "Were the delegates satisfied with the hotel shuttle service?",
+        "explanation": "Adjective jamak lampau memakai 'Were'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither candidate ___ the final technical test yesterday.",
+        "options": [
+          "pass",
+          "passed",
+          "didn't pass"
+        ],
+        "answer": 1,
+        "explanation": "'Neither + singular' memakai verb V2 positif 'passed' (hindari double negative).",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Professor Wulan delivered a memorable talk.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who ___ the closing speech last Friday?"
+          ],
+          [
+            "Arman",
+            "Professor Wulan delivered a memorable talk."
+          ]
+        ],
+        "options": [
+          "did give",
+          "was give",
+          "gave"
+        ],
+        "answer": 2,
+        "explanation": "Subject question langsung V2 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We didn't had enough time to inspect Hall B.\"",
+        "draft": "We didn't had enough time to inspect Hall B.",
+        "options": [
+          "We didn't have enough time to inspect Hall B.",
+          "We hadn't enough time to inspect Hall B.",
+          "We didn't had enough time to inspect Hall B."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', gunakan bentuk dasar 'have'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "What ___ you say to the vendor about the broken seal?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Object question dengan verb 'say' memakai 'did'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia lulus dari universitas tersebut pada tahun 2021.\".",
+        "targetSentence": "She graduated from that university in 2021.",
+        "explanation": "Tahun lampau spesifik memakai Past Simple.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The seminar ___ begin until all monitors worked.",
+        "options": [
+          "didn't",
+          "wasn't",
+          "weren't"
+        ],
+        "answer": 0,
+        "explanation": "Verb aksi 'begin' membutuhkan 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you have trouble finding Locker 9? / No, the receptionist ___ clear directions.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Did you have trouble finding Locker 9?"
+          ],
+          [
+            "Adi",
+            "No, the receptionist ___ clear directions."
+          ]
+        ],
+        "options": [
+          "gives",
+          "gave",
+          "didn't give"
+        ],
+        "answer": 1,
+        "explanation": "Jawaban afirmatif lampau -> V2 'gave'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The committee choosed three finalists yesterday afternoon.\"",
+        "draft": "The committee choosed three finalists yesterday afternoon.",
+        "options": [
+          "The committee chose three finalists yesterday afternoon.",
+          "The committee chosen three finalists yesterday afternoon.",
+          "The committee choosed three finalists yesterday afternoon."
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'choose' adalah 'chose'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ the boarding announcement unclear in Terminal 1?",
+        "options": [
+          "did",
+          "were",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'unclear' + subjek tunggal lampau -> 'was'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where did they hold the 2022 climate summit? / They ___ it in a solar-powered convention hall.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Where did they hold the 2022 climate summit?"
+          ],
+          [
+            "Kiki",
+            "They ___ it in a solar-powered convention hall."
+          ]
+        ],
+        "options": [
+          "holded",
+          "did hold",
+          "held"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'hold' adalah 'held'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why didn't she wrote down the serial code?\"",
+        "draft": "Why didn't she wrote down the serial code?",
+        "options": [
+          "Why wasn't she write down the serial code?",
+          "Why didn't she wrote down the serial code?",
+          "Why didn't she write down the serial code?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'didn't + S', verb wajib V1 dasar 'write'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Komite memilih tiga finalis terbaik kemarin sore.\".",
+        "targetSentence": "The committee chose three top finalists yesterday afternoon.",
+        "explanation": "V2 dari 'choose' adalah 'chose'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ have enough adapters for all tables yesterday.",
+        "options": [
+          "didn't",
+          "weren't",
+          "hadn't"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif lampau dari 'have' (memiliki) adalah 'didn't have'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why wasn't Room 202 open at eight? / Security ___ receive the morning unlock memo.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Why wasn't Room 202 open at eight?"
+          ],
+          [
+            "Sinta",
+            "Security ___ receive the morning unlock memo."
+          ]
+        ],
+        "options": [
+          "didn't",
+          "wasn't",
+          "weren't"
+        ],
+        "answer": 0,
+        "explanation": "Dengan verb 'receive', gunakan 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did the seminar hall was cold yesterday?\"",
+        "draft": "Did the seminar hall was cold yesterday?",
+        "options": [
+          "Did the seminar hall was cold yesterday?",
+          "Was the seminar hall cold yesterday?",
+          "Were the seminar hall cold yesterday?"
+        ],
+        "answer": 1,
+        "explanation": "Adjective 'cold' memakai 'Was', bukan 'Did ... was'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "When ___ the university establish this research center?",
+        "options": [
+          "were",
+          "did",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Verb aksi 'establish' memakai 'did'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the old router break down again? / Yes, it ___ working right before lunch.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Did the old router break down again?"
+          ],
+          [
+            "Tia",
+            "Yes, it ___ working right before lunch."
+          ]
+        ],
+        "options": [
+          "did stop",
+          "stopping",
+          "stopped"
+        ],
+        "answer": 2,
+        "explanation": "Pernyataan lampau memakai V2 'stopped'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither team didn't finish the prototype early.\"",
+        "draft": "Neither team didn't finish the prototype early.",
+        "options": [
+          "Neither team finish the prototype early.",
+          "Neither team didn't finish the prototype early.",
+          "Neither team finished the prototype early."
+        ],
+        "answer": 2,
+        "explanation": "Hindari double negative 'Neither ... didn't'; gunakan 'finished'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ you assign to check the evening flight list?",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Object question ('you' subjek) memakai 'did'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada yang tahu mengapa pintu arsip dibiarkan terbuka.\".",
+        "targetSentence": "No one knew why the archive door stayed open.",
+        "explanation": "'No one' diikuti V2 'knew'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The generator ___ run smoothly once we replaced the filter.",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 2,
+        "explanation": "Emphatic Past Simple ('did + V1') untuk menegaskan kebenaran di masa lalu.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long did Sarah live in Perth? / She ___ there for four years before moving back.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "How long did Sarah live in Perth?"
+          ],
+          [
+            "Dewi",
+            "She ___ there for four years before moving back."
+          ]
+        ],
+        "options": [
+          "has lived",
+          "lives",
+          "lived"
+        ],
+        "answer": 2,
+        "explanation": "Periode lampau tuntas -> 'lived'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They were arrive at Terminal 3 before sunset.\"",
+        "draft": "They were arrive at Terminal 3 before sunset.",
+        "options": [
+          "They did arrived at Terminal 3 before sunset.",
+          "They were arrive at Terminal 3 before sunset.",
+          "They arrived at Terminal 3 before sunset."
+        ],
+        "answer": 2,
+        "explanation": "Jangan mencampur 'were' + V1; gunakan V2 'arrived'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "No one ___ why the archive door stayed unlocked.",
+        "options": [
+          "knew",
+          "didn't know",
+          "knowed"
+        ],
+        "answer": 0,
+        "explanation": "'No one' positif tata bahasa + V2 tak beraturan 'knew'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami tidak melihat satu taksi pun dekat Gerbang 4.\".",
+        "targetSentence": "We did not see a single taxi near Gate 4.",
+        "explanation": "Negatif lampau memakai 'did not see'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where did our driver ___ the extra spare tires?",
+        "options": [
+          "puts",
+          "put",
+          "putted"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did + S', gunakan V1 'put'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you tell Kevin about Friday's change? / Yes, I ___ him know right after the briefing.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Did you tell Kevin about Friday's change?"
+          ],
+          [
+            "Ayu",
+            "Yes, I ___ him know right after the briefing."
+          ]
+        ],
+        "options": [
+          "let",
+          "letted",
+          "lets"
+        ],
+        "answer": 0,
+        "explanation": "V2 dari 'let' tetap 'let'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My colleague didn't went to the port yesterday.\"",
+        "draft": "My colleague didn't went to the port yesterday.",
+        "options": [
+          "My colleague wasn't go to the port yesterday.",
+          "My colleague didn't went to the port yesterday.",
+          "My colleague didn't go to the port yesterday."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'didn't', gunakan V1 'go'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ there any heavy rain during the port inspection?",
+        "options": [
+          "Was",
+          "Did",
+          "Were"
+        ],
+        "answer": 0,
+        "explanation": "'Heavy rain' uncountable lampau -> 'Was there'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who did the panel pick for the scholarship? / They ___ two engineers from Makassar.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Who did the panel pick for the scholarship?"
+          ],
+          [
+            "Oki",
+            "They ___ two engineers from Makassar."
+          ]
+        ],
+        "options": [
+          "chosen",
+          "chose",
+          "choosed"
+        ],
+        "answer": 1,
+        "explanation": "V2 dari 'choose' adalah 'chose'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"How long did you stayed in Yogyakarta last year?\"",
+        "draft": "How long did you stayed in Yogyakarta last year?",
+        "options": [
+          "How long did you stayed in Yogyakarta last year?",
+          "How long did you stay in Yogyakarta last year?",
+          "How long were you stay in Yogyakarta last year?"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'did + S', verb kembali ke V1 'stay'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tinggal di Singapura selama tiga tahun sebelum pulang.\".",
+        "targetSentence": "He lived in Singapore for three years before returning.",
+        "explanation": "Periode lampau tuntas memakai Past Simple.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ the audit log carefully, then emailed HR.",
+        "options": [
+          "checking",
+          "checked",
+          "checks"
+        ],
+        "answer": 1,
+        "explanation": "Rangkaian kronologi lampau paralel memakai V2 ('checked ... emailed').",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the shuttle pass Central Hospital? / No, roadwork forced a detour, so it ___ stop there.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Did the shuttle pass Central Hospital?"
+          ],
+          [
+            "Mira",
+            "No, roadwork forced a detour, so it ___ stop there."
+          ]
+        ],
+        "options": [
+          "hadn't",
+          "didn't",
+          "wasn't"
+        ],
+        "answer": 1,
+        "explanation": "Negatif 'stop' lampau -> 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody didn't tell us about the gate shift.\"",
+        "draft": "Nobody didn't tell us about the gate shift.",
+        "options": [
+          "Nobody didn't tell us about the gate shift.",
+          "Nobody told us about the gate shift.",
+          "Nobody tell us about the gate shift."
+        ],
+        "answer": 1,
+        "explanation": "'Nobody' sudah negatif; langsung pakai V2 'told'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why didn't Mr. Hadi ___ the contract yesterday?",
+        "options": [
+          "sign",
+          "signed",
+          "signing"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', kembali ke V1 dasar 'sign'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you reject those invoices yesterday? / Because the tax ID numbers ___ match our records.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did you reject those invoices yesterday?"
+          ],
+          [
+            "Taufik",
+            "Because the tax ID numbers ___ match our records."
+          ]
+        ],
+        "options": [
+          "weren't",
+          "wasn't",
+          "didn't"
+        ],
+        "answer": 2,
+        "explanation": "Verb 'match' negatif lampau -> 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The university was founded in 1965 and grows fast.\"",
+        "draft": "The university was founded in 1965 and grows fast.",
+        "options": [
+          "The university was founded in 1965 and grows fast.",
+          "The university was founded in 1965 and grew fast.",
+          "The university founded in 1965 and grew fast."
+        ],
+        "answer": 1,
+        "explanation": "Narasi kronologi lampau memakai V2 'grew'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The laboratory ___ founded in 1998 by three chemists.",
+        "options": [
+          "did",
+          "were",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat pasif lampau tunggal ('be + founded') memakai 'was'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Siapa yang menyampaikan pidato penutupan Jumat lalu?\".",
+        "targetSentence": "Who gave the closing speech last Friday?",
+        "explanation": "Subject question tanpa 'did'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you have time to visit the harbor museum in Penang?",
+        "options": [
+          "Had",
+          "Did",
+          "Were"
+        ],
+        "answer": 1,
+        "explanation": "Kepemilikan waktu lampau memakai 'Did you have ...?'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were the printed booklets helpful last week? / Yes, they ___ every step clearly.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Were the printed booklets helpful last week?"
+          ],
+          [
+            "Lina",
+            "Yes, they ___ every step clearly."
+          ]
+        ],
+        "options": [
+          "explain",
+          "did explained",
+          "explained"
+        ],
+        "answer": 2,
+        "explanation": "V2 'explained'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Why did the projector broke during Slide 4?\"",
+        "draft": "Why did the projector broke during Slide 4?",
+        "options": [
+          "Why was the projector break during Slide 4?",
+          "Why did the projector broke during Slide 4?",
+          "Why did the projector break during Slide 4?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'did + S', gunakan V1 'break'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our supplier ___ send any sample batteries last week.",
+        "options": [
+          "wasn't",
+          "weren't",
+          "didn't"
+        ],
+        "answer": 2,
+        "explanation": "Verb aksi 'send' memakai 'didn't'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pemasok tidak mengirimkan baterai sampel minggu lalu.\".",
+        "targetSentence": "Our supplier didn't send any sample batteries last week.",
+        "explanation": "Negatif dengan V1 'send'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which slide ___ the panelists discuss most yesterday?",
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Object question dengan verb 'discuss' memakai 'did'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did this museum acquire those maps? / It ___ them at a Jakarta auction in 2019.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "When did this museum acquire those maps?"
+          ],
+          [
+            "Wulan",
+            "It ___ them at a Jakarta auction in 2019."
+          ]
+        ],
+        "options": [
+          "acquire",
+          "has acquired",
+          "acquired"
+        ],
+        "answer": 2,
+        "explanation": "Tahun lampau spesifik ('in 2019') memakai Past Simple.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She didn't said anything about the invoice.\"",
+        "draft": "She didn't said anything about the invoice.",
+        "options": [
+          "She didn't say anything about the invoice.",
+          "She wasn't say anything about the invoice.",
+          "She didn't said anything about the invoice."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', gunakan V1 'say'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ in Singapore for three years before returning home.",
+        "options": [
+          "lived",
+          "has lived",
+          "lives"
+        ],
+        "answer": 0,
+        "explanation": "Periode lampau yang sudah berakhir tuntas memakai Past Simple 'lived'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did anyone notice the typo on page five? / Luckily, our editor ___ it before printing.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Did anyone notice the typo on page five?"
+          ],
+          [
+            "Sari",
+            "Luckily, our editor ___ it before printing."
+          ]
+        ],
+        "options": [
+          "catched",
+          "catch",
+          "caught"
+        ],
+        "answer": 2,
+        "explanation": "V2 'catch' adalah 'caught'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We founded the missing key under the cabinet.\"",
+        "draft": "We founded the missing key under the cabinet.",
+        "options": [
+          "We founded the missing key under the cabinet.",
+          "We found the missing key under the cabinet.",
+          "We finded the missing key under the cabinet."
+        ],
+        "answer": 1,
+        "explanation": "'Found' adalah V2 dari 'find' (menemukan); 'founded' = mendirikan.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mengapa pengumuman keberangkatan tidak jelas di Terminal 1?\".",
+        "targetSentence": "Why was the departure announcement unclear in Terminal 1?",
+        "explanation": "Adjective lampau memakai 'was'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many errors did the editor ___ on page two?",
+        "options": [
+          "spot",
+          "spotted",
+          "spotting"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'did + S', gunakan V1 'spot'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't the alarm sound during testing? / Wait—someone forgot to ___ the power switch.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why didn't the alarm sound during testing?"
+          ],
+          [
+            "Reno",
+            "Wait—someone forgot to ___ the power switch."
+          ]
+        ],
+        "options": [
+          "flipping",
+          "flip",
+          "flipped"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'to', gunakan V1 dasar 'flip'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Did your colleagues enjoyed the workshop yesterday?\"",
+        "draft": "Did your colleagues enjoyed the workshop yesterday?",
+        "options": [
+          "Did your colleagues enjoy the workshop yesterday?",
+          "Were your colleagues enjoy the workshop yesterday?",
+          "Did your colleagues enjoyed the workshop yesterday?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Did + S', verb tetap V1 'enjoy'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleagues ___ exhausted after the ten-hour flight.",
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Adjective 'exhausted' + jamak lampau -> 'were'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the ferry trip smooth yesterday afternoon? / Not really; strong wind ___ the crossing rough.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Was the ferry trip smooth yesterday afternoon?"
+          ],
+          [
+            "Aris",
+            "Not really; strong wind ___ the crossing rough."
+          ]
+        ],
+        "options": [
+          "maked",
+          "make",
+          "made"
+        ],
+        "answer": 2,
+        "explanation": "V2 dari 'make' adalah 'made'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The flight didn't took off until three.\"",
+        "draft": "The flight didn't took off until three.",
+        "options": [
+          "The flight didn't take off until three.",
+          "The flight wasn't take off until three.",
+          "The flight didn't took off until three."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'didn't', gunakan V1 'take off'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did the new sensor ___ any sudden drops overnight?",
+        "options": [
+          "records",
+          "record",
+          "recorded"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Did + S', gunakan V1 'record'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
+        ],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda sempat mengunjungi museum pelabuhan di Penang?\".",
+        "targetSentence": "Did you have time to visit the harbor museum in Penang?",
+        "explanation": "'Did + S + have'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau (yesterday, last week, ago, in 2022) untuk memakai V2.",
+          "Kalimat negatif/tanya memakai did/didn't + V1 dasar (kecuali to be was/were)."
         ],
         "skill": "past-simple-irregular"
       }

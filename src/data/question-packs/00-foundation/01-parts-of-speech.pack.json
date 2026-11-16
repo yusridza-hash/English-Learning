@@ -265,6 +265,1446 @@
           "Letakkan adverb 'rapidly' di akhir kalimat."
         ],
         "skill": "pos-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The project deadline is Friday afternoon.\", kata \"deadline\" termasuk kelas kata...",
+        "options": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "answer": 0,
+        "explanation": "\"deadline\" (batas waktu) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"a ___ delivery service\" properly.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Budi",
+            "Yes, let's make sure we handle \"a ___ delivery service\" properly."
+          ]
+        ],
+        "options": [
+          "reliably",
+          "reliability",
+          "reliable"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"a reliable delivery service\" membutuhkan adjective (\"reliable\"), bukan noun atau adverb.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Pilih kata \"reliable\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"She explained the procedure very clear.\"",
+        "draft": "She explained the procedure very clear.",
+        "options": [
+          "She explained the procedure very clearly.",
+          "She explained the procedure very clarity.",
+          "She explained the procedure very clear."
+        ],
+        "answer": 0,
+        "explanation": "Gunakan adverb 'clearly' untuk menerangkan verb 'explained'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Our department approved the annual budget.\", kata \"budget\" termasuk kelas kata...",
+        "options": [
+          "preposition",
+          "noun",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "\"budget\" (anggaran) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: the · The · analyst).",
+        "targetSentence": "The diligent analyst checked the figures carefully.",
+        "explanation": "Article + adj + noun + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"She attended an international conference in Singapore.\", kata \"conference\" termasuk kelas kata...",
+        "options": [
+          "conjunction",
+          "noun",
+          "verb"
+        ],
+        "answer": 1,
+        "explanation": "\"conference\" (konferensi) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"check the figures ___\" properly.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Sari",
+            "Yes, let's make sure we handle \"check the figures ___\" properly."
+          ]
+        ],
+        "options": [
+          "careful",
+          "care",
+          "carefully"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"check the figures carefully\" membutuhkan adverb (\"carefully\"), bukan adjective atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Pilih kata \"carefully\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"He is a very reliability colleague.\"",
+        "draft": "He is a very reliability colleague.",
+        "options": [
+          "He is a very reliably colleague.",
+          "He is a very reliability colleague.",
+          "He is a very reliable colleague."
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'colleague', gunakan adjective 'reliable'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Please keep the printed receipt for reimbursement.\", kata \"receipt\" termasuk kelas kata...",
+        "options": [
+          "adjective",
+          "noun",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "\"receipt\" (struk pembayaran) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"wait for written ___\" properly.\"",
+        "dialogue": [
+          [
+            "Sari",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Dimas",
+            "Yes, let's make sure we handle \"wait for written ___\" properly."
+          ]
+        ],
+        "options": [
+          "approval",
+          "approve",
+          "approved"
+        ],
+        "answer": 0,
+        "explanation": "Konteks frasa \"wait for written approval\" membutuhkan noun (\"approval\"), bukan verb atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Pilih kata \"approval\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Please complete the form careful.\"",
+        "draft": "Please complete the form careful.",
+        "options": [
+          "Please complete the form carefully.",
+          "Please complete the form carefulness.",
+          "Please complete the form careful."
+        ],
+        "answer": 0,
+        "explanation": "Untuk menerangkan verb 'complete', gunakan adverb 'carefully'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: Our · every · polite).",
+        "targetSentence": "Our polite receptionist greeted every visitor warmly.",
+        "explanation": "Possessive + adj + noun + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Every candidate completed the written assessment.\", kata \"candidate\" termasuk kelas kata...",
+        "options": [
+          "verb",
+          "adverb",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "\"candidate\" (kandidat) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"We need to ___ the flight\" properly.\"",
+        "dialogue": [
+          [
+            "Dimas",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Nadia",
+            "Yes, let's make sure we handle \"We need to ___ the flight\" properly."
+          ]
+        ],
+        "options": [
+          "confirming",
+          "confirm",
+          "confirmation"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"We need to confirm the flight\" membutuhkan verb (\"confirm\"), bukan noun atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Pilih kata \"confirm\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The manager made a wise decide.\"",
+        "draft": "The manager made a wise decide.",
+        "options": [
+          "The manager made a wise decisive.",
+          "The manager made a wise decide.",
+          "The manager made a wise decision."
+        ],
+        "answer": 2,
+        "explanation": "Setelah adjective 'wise', dibutuhkan noun 'decision'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The research laboratory opens at seven.\", kata \"laboratory\" termasuk kelas kata...",
+        "options": [
+          "noun",
+          "adjective",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "\"laboratory\" (laboratorium) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Our staff always stay ___\" properly.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Rina",
+            "Yes, let's make sure we handle \"Our staff always stay ___\" properly."
+          ]
+        ],
+        "options": [
+          "politeness",
+          "polite",
+          "politely"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"Our staff always stay polite\" membutuhkan adjective (\"polite\"), bukan adverb atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Pilih kata \"polite\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"We need to organization the files today.\"",
+        "draft": "We need to organization the files today.",
+        "options": [
+          "We need to organize the files today.",
+          "We need to organized the files today.",
+          "We need to organization the files today."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'need to', gunakan base verb 'organize'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The morning shipment arrived ahead of schedule.\", kata \"shipment\" termasuk kelas kata...",
+        "options": [
+          "verb",
+          "preposition",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "\"shipment\" (pengiriman barang) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: lab · must · their).",
+        "targetSentence": "Students must submit their lab reports promptly.",
+        "explanation": "Subject + modal + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Students downloaded the updated course syllabus.\", kata \"syllabus\" termasuk kelas kata...",
+        "options": [
+          "adverb",
+          "verb",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "\"syllabus\" (silabus) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"The technician fixed it ___\" properly.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Budi",
+            "Yes, let's make sure we handle \"The technician fixed it ___\" properly."
+          ]
+        ],
+        "options": [
+          "quickness",
+          "quickly",
+          "quick"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"The technician fixed it quickly\" membutuhkan adverb (\"quickly\"), bukan adjective atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Pilih kata \"quickly\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The train arrived quick at Platform 2.\"",
+        "draft": "The train arrived quick at Platform 2.",
+        "options": [
+          "The train arrived quickly at Platform 2.",
+          "The train arrived quickness at Platform 2.",
+          "The train arrived quick at Platform 2."
+        ],
+        "answer": 0,
+        "explanation": "Untuk menerangkan kata kerja 'arrived', gunakan adverb 'quickly'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Our travel itinerary includes two train transfers.\", kata \"itinerary\" termasuk kelas kata...",
+        "options": [
+          "conjunction",
+          "noun",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "\"itinerary\" (rencana perjalanan) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (8 kata; fokus: A · the · broken).",
+        "targetSentence": "A skilled mechanic repaired the broken engine quickly.",
+        "explanation": "Subject frasa benda + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Both partners signed the written agreement.\", kata \"agreement\" termasuk kelas kata...",
+        "options": [
+          "noun",
+          "adverb",
+          "verb"
+        ],
+        "answer": 0,
+        "explanation": "\"agreement\" (perjanjian) merujuk pada benda, hal, atau konsep sehingga berfungsi sebagai noun.",
+        "hints": [
+          "Identifikasi apakah kata tersebut merujuk pada hal atau benda.",
+          "Kata benda = noun."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"The board made a final ___\" properly.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Sari",
+            "Yes, let's make sure we handle \"The board made a final ___\" properly."
+          ]
+        ],
+        "options": [
+          "decide",
+          "decisive",
+          "decision"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"The board made a final decision\" membutuhkan noun (\"decision\"), bukan verb atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Pilih kata \"decision\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"This report contains accuracy data.\"",
+        "draft": "This report contains accuracy data.",
+        "options": [
+          "This report contains accurate data.",
+          "This report contains accurately data.",
+          "This report contains accuracy data."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'data', gunakan adjective 'accurate'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The technician recommended a reliable printer.\", kata \"reliable\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "noun",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "\"reliable\" (andal) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Please ___ the seminar files\" properly.\"",
+        "dialogue": [
+          [
+            "Sari",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Dimas",
+            "Yes, let's make sure we handle \"Please ___ the seminar files\" properly."
+          ]
+        ],
+        "options": [
+          "organize",
+          "organization",
+          "organized"
+        ],
+        "answer": 0,
+        "explanation": "Konteks frasa \"Please organize the seminar files\" membutuhkan verb (\"organize\"), bukan noun atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Pilih kata \"organize\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Please write your explain on page two.\"",
+        "draft": "Please write your explain on page two.",
+        "options": [
+          "Please write your explanatory on page two.",
+          "Please write your explain on page two.",
+          "Please write your explanation on page two."
+        ],
+        "answer": 2,
+        "explanation": "Setelah possessive 'your', gunakan noun 'explanation'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: The · rare · local).",
+        "targetSentence": "The local museum displays rare historical maps.",
+        "explanation": "Subject + verb + adj + adj + noun.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"We need an efficient workflow for data entry.\", kata \"efficient\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "adverb",
+          "noun"
+        ],
+        "answer": 0,
+        "explanation": "\"efficient\" (efisien) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Enter the ___ room number\" properly.\"",
+        "dialogue": [
+          [
+            "Dimas",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Nadia",
+            "Yes, let's make sure we handle \"Enter the ___ room number\" properly."
+          ]
+        ],
+        "options": [
+          "accuracy",
+          "accurate",
+          "accurately"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"Enter the accurate room number\" membutuhkan adjective (\"accurate\"), bukan adverb atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Pilih kata \"accurate\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The nurse spoke gentle to the patient.\"",
+        "draft": "The nurse spoke gentle to the patient.",
+        "options": [
+          "The nurse spoke gentleness to the patient.",
+          "The nurse spoke gentle to the patient.",
+          "The nurse spoke gently to the patient."
+        ],
+        "answer": 2,
+        "explanation": "Untuk menerangkan verb 'spoke', gunakan adverb 'gently'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The central station gets crowded around five.\", kata \"crowded\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adverb",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "\"crowded\" (ramai) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Write the labels ___\" properly.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Rina",
+            "Yes, let's make sure we handle \"Write the labels ___\" properly."
+          ]
+        ],
+        "options": [
+          "clearly",
+          "clear",
+          "clarity"
+        ],
+        "answer": 0,
+        "explanation": "Konteks frasa \"Write the labels clearly\" membutuhkan adverb (\"clearly\"), bukan adjective atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Pilih kata \"clearly\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Every member must participation in the vote.\"",
+        "draft": "Every member must participation in the vote.",
+        "options": [
+          "Every member must participant in the vote.",
+          "Every member must participation in the vote.",
+          "Every member must participate in the vote."
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'must', gunakan verb dasar 'participate'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The report contains accurate sales figures.\", kata \"accurate\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adverb",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "\"accurate\" (akurat) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: new · the · test).",
+        "targetSentence": "Senior engineers test the new bridge regularly.",
+        "explanation": "Adj + noun + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Many employees prefer flexible working hours.\", kata \"flexible\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "adverb",
+          "verb"
+        ],
+        "answer": 0,
+        "explanation": "\"flexible\" (fleksibel) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Prepare the slides for the ___\" properly.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Budi",
+            "Yes, let's make sure we handle \"Prepare the slides for the ___\" properly."
+          ]
+        ],
+        "options": [
+          "presentable",
+          "presentation",
+          "present"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"Prepare the slides for the presentation\" membutuhkan noun (\"presentation\"), bukan verb atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Pilih kata \"presentation\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"That was an extreme helpful workshop.\"",
+        "draft": "That was an extreme helpful workshop.",
+        "options": [
+          "That was an extremely helpful workshop.",
+          "That was an extremity helpful workshop.",
+          "That was an extreme helpful workshop."
+        ],
+        "answer": 0,
+        "explanation": "Untuk menerangkan adjective 'helpful', gunakan adverb 'extremely'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The supervisor sent an urgent message this morning.\", kata \"urgent\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adverb",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "\"urgent\" (mendesak) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (6 kata; fokus: Every · needs · strong).",
+        "targetSentence": "Every candidate needs strong communication skills.",
+        "explanation": "Determiner + noun + verb + object frasa benda.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"They booked a spacious meeting room upstairs.\", kata \"spacious\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "\"spacious\" (luas) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Did the manager ___ the draft?\" properly.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Sari",
+            "Yes, let's make sure we handle \"Did the manager ___ the draft?\" properly."
+          ]
+        ],
+        "options": [
+          "reviewer",
+          "reviewable",
+          "review"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"Did the manager review the draft?\" membutuhkan verb (\"review\"), bukan noun atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Pilih kata \"review\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Our team achieved great succeed this year.\"",
+        "draft": "Our team achieved great succeed this year.",
+        "options": [
+          "Our team achieved great succeed this year.",
+          "Our team achieved great success this year.",
+          "Our team achieved great successful this year."
+        ],
+        "answer": 1,
+        "explanation": "Setelah adjective 'great', dibutuhkan noun 'success'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The hostel offers affordable rooms near campus.\", kata \"affordable\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "\"affordable\" (terjangkau) menerangkan sifat kata benda di sebelahnya sehingga merupakan adjective.",
+        "hints": [
+          "Lihat kata benda setelah kata ini.",
+          "Kata yang menerangkan noun disebut adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Keep the study room ___\" properly.\"",
+        "dialogue": [
+          [
+            "Sari",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Dimas",
+            "Yes, let's make sure we handle \"Keep the study room ___\" properly."
+          ]
+        ],
+        "options": [
+          "quietly",
+          "quietness",
+          "quiet"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"Keep the study room quiet\" membutuhkan adjective (\"quiet\"), bukan adverb atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Pilih kata \"quiet\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The hotel has a comfort lobby.\"",
+        "draft": "The hotel has a comfort lobby.",
+        "options": [
+          "The hotel has a comfortable lobby.",
+          "The hotel has a comfortably lobby.",
+          "The hotel has a comfort lobby."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'lobby', gunakan adjective 'comfortable'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (8 kata; fokus: the · The · books).",
+        "targetSentence": "The helpful librarian arranged the reference books neatly.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"All interns must submit their logs by noon.\", kelas kata \"submit\" adalah...",
+        "options": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "\"submit\" (mengumpulkan) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Reply to the client ___\" properly.\"",
+        "dialogue": [
+          [
+            "Dimas",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Nadia",
+            "Yes, let's make sure we handle \"Reply to the client ___\" properly."
+          ]
+        ],
+        "options": [
+          "promptness",
+          "promptly",
+          "prompt"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"Reply to the client promptly\" membutuhkan adverb (\"promptly\"), bukan adjective atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Pilih kata \"promptly\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The interns listened attentive during orientation.\"",
+        "draft": "The interns listened attentive during orientation.",
+        "options": [
+          "The interns listened attentive during orientation.",
+          "The interns listened attentively during orientation.",
+          "The interns listened attention during orientation."
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'listened' memerlukan adverb 'attentively'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"Accountants verify every invoice before payment.\", kelas kata \"verify\" adalah...",
+        "options": [
+          "adjective",
+          "adverb",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "\"verify\" (memverifikasi) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Check the updated train ___\" properly.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Rina",
+            "Yes, let's make sure we handle \"Check the updated train ___\" properly."
+          ]
+        ],
+        "options": [
+          "schedule",
+          "scheduled",
+          "scheduling"
+        ],
+        "answer": 0,
+        "explanation": "Konteks frasa \"Check the updated train schedule\" membutuhkan noun (\"schedule\"), bukan adjective atau verb.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Pilih kata \"schedule\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"They will announcement the winner tomorrow.\"",
+        "draft": "They will announcement the winner tomorrow.",
+        "options": [
+          "They will announced the winner tomorrow.",
+          "They will announcement the winner tomorrow.",
+          "They will announce the winner tomorrow."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will', gunakan base verb 'announce'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"Can you arrange the chairs before the seminar?\", kelas kata \"arrange\" adalah...",
+        "options": [
+          "noun",
+          "adverb",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "\"arrange\" (mengatur) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (6 kata; fokus: use · Modern · digital).",
+        "targetSentence": "Modern hospitals use reliable digital equipment.",
+        "explanation": "Adj + noun + verb + adj + noun.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"Engineers inspect the bridge structure twice a year.\", kelas kata \"inspect\" adalah...",
+        "options": [
+          "noun",
+          "verb",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "\"inspect\" (memeriksa) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Let us ___ the handout now\" properly.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Budi",
+            "Yes, let's make sure we handle \"Let us ___ the handout now\" properly."
+          ]
+        ],
+        "options": [
+          "prepared",
+          "prepare",
+          "preparation"
+        ],
+        "answer": 1,
+        "explanation": "Konteks frasa \"Let us prepare the handout now\" membutuhkan verb (\"prepare\"), bukan noun atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Pilih kata \"prepare\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"We received an immediacy reply from HR.\"",
+        "draft": "We received an immediacy reply from HR.",
+        "options": [
+          "We received an immediacy reply from HR.",
+          "We received an immediate reply from HR.",
+          "We received an immediately reply from HR."
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'reply', gunakan adjective 'immediate'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"The courier will deliver the parcel before three.\", kelas kata \"deliver\" adalah...",
+        "options": [
+          "verb",
+          "adjective",
+          "noun"
+        ],
+        "answer": 0,
+        "explanation": "\"deliver\" (mengantarkan) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: an · Our · travel).",
+        "targetSentence": "Our coordinator prepared an accurate travel itinerary.",
+        "explanation": "Subject + verb + article + adj + noun.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"Authors often revise the opening paragraph.\", kelas kata \"revise\" adalah...",
+        "options": [
+          "adverb",
+          "adjective",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "\"revise\" (merevisi) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"They rented a ___ studio\" properly.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Sari",
+            "Yes, let's make sure we handle \"They rented a ___ studio\" properly."
+          ]
+        ],
+        "options": [
+          "space",
+          "spaciously",
+          "spacious"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"They rented a spacious studio\" membutuhkan adjective (\"spacious\"), bukan noun atau adverb.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Pilih kata \"spacious\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"His analyze of the chart was thorough.\"",
+        "draft": "His analyze of the chart was thorough.",
+        "options": [
+          "His analytical of the chart was thorough.",
+          "His analyze of the chart was thorough.",
+          "His analysis of the chart was thorough."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'His', dibutuhkan noun 'analysis'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"Technicians install new security software tonight.\", kelas kata \"install\" adalah...",
+        "options": [
+          "noun",
+          "adverb",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "\"install\" (memasang) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Store the chemicals ___\" properly.\"",
+        "dialogue": [
+          [
+            "Sari",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Dimas",
+            "Yes, let's make sure we handle \"Store the chemicals ___\" properly."
+          ]
+        ],
+        "options": [
+          "safe",
+          "safety",
+          "safely"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"Store the chemicals safely\" membutuhkan adverb (\"safely\"), bukan adjective atau noun.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Pilih kata \"safely\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Pack the fragile glassware safe.\"",
+        "draft": "Pack the fragile glassware safe.",
+        "options": [
+          "Pack the fragile glassware safety.",
+          "Pack the fragile glassware safe.",
+          "Pack the fragile glassware safely."
+        ],
+        "answer": 2,
+        "explanation": "Untuk menerangkan verb 'Pack', gunakan adverb 'safely'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (6 kata; fokus: every · review · Careful).",
+        "targetSentence": "Careful editors review every manuscript thoroughly.",
+        "explanation": "Adj + noun + verb + object + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat \"All supervisors attend the weekly briefing.\", kelas kata \"attend\" adalah...",
+        "options": [
+          "verb",
+          "adjective",
+          "preposition"
+        ],
+        "answer": 0,
+        "explanation": "\"attend\" (menghadiri) menyatakan tindakan atau aktivitas subjek sehingga tergolong verb.",
+        "hints": [
+          "Kata ini menyatakan aksi subjek.",
+          "Kata kerja = verb."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Lock the lab ___ after class\" properly.\"",
+        "dialogue": [
+          [
+            "Dimas",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Nadia",
+            "Yes, let's make sure we handle \"Lock the lab ___ after class\" properly."
+          ]
+        ],
+        "options": [
+          "equip",
+          "equipped",
+          "equipment"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"Lock the lab equipment after class\" membutuhkan noun (\"equipment\"), bukan verb atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Pilih kata \"equipment\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"Can you translation this short memo?\"",
+        "draft": "Can you translation this short memo?",
+        "options": [
+          "Can you translate this short memo?",
+          "Can you translator this short memo?",
+          "Can you translation this short memo?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Can you', gunakan base verb 'translate'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Kata \"carefully\" pada kalimat \"She read the contract carefully before signing.\" tergolong...",
+        "options": [
+          "noun",
+          "adverb",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "\"carefully\" (dengan teliti) menerangkan cara kata kerja dilakukan dan berakhiran -ly, sehingga merupakan adverb.",
+        "hints": [
+          "Perhatikan akhiran -ly yang menerangkan cara kerja.",
+          "Kata keterangan cara = adverb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk kata dengan kelas kata yang tepat untuk melengkapi dialog: \"Yes, let's make sure we handle \"Students must ___ the essay\" properly.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Can we finish this task before 4 PM?"
+          ],
+          [
+            "Rina",
+            "Yes, let's make sure we handle \"Students must ___ the essay\" properly."
+          ]
+        ],
+        "options": [
+          "submission",
+          "submissive",
+          "submit"
+        ],
+        "answer": 2,
+        "explanation": "Konteks frasa \"Students must submit the essay\" membutuhkan verb (\"submit\"), bukan noun atau adjective.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Pilih kata \"submit\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kelas kata pada kalimat berikut: \"The new library is quietness and bright.\"",
+        "draft": "The new library is quietness and bright.",
+        "options": [
+          "The new library is quiet and bright.",
+          "The new library is quietly and bright.",
+          "The new library is quietness and bright."
+        ],
+        "answer": 0,
+        "explanation": "Setelah linking verb 'is', gunakan adjective 'quiet'.",
+        "hints": [
+          "Periksa kelas kata yang tidak tepat pada kalimat draft.",
+          "Cocokkan noun/verb/adjective/adverb dengan posisinya."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Kata \"politely\" pada kalimat \"The receptionist answered every question politely.\" tergolong...",
+        "options": [
+          "verb",
+          "adverb",
+          "noun"
+        ],
+        "answer": 1,
+        "explanation": "\"politely\" (dengan sopan) menerangkan cara kata kerja dilakukan dan berakhiran -ly, sehingga merupakan adverb.",
+        "hints": [
+          "Perhatikan akhiran -ly yang menerangkan cara kerja.",
+          "Kata keterangan cara = adverb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang tepat secara kelas kata (7 kata; fokus: The · room · early).",
+        "targetSentence": "The quiet study room opens early daily.",
+        "explanation": "Subject + verb + adverb.",
+        "hints": [
+          "Letakkan subject noun phrase di awal, lalu verb.",
+          "Taruh adverb of manner/frequency di posisi akhir."
+        ],
+        "skill": "pos-adverb"
       }
     ],
     "intermediate": [
@@ -555,6 +1995,1446 @@
           "Akhiri dengan 'before noon'."
         ],
         "skill": "pos-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Please sign the attendance sheet.\", kata \"sign\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "verb",
+          "noun"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Please', dibutuhkan kata kerja dasar (verb).",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"sign\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to write a strong ___ for the intern before five o'clock.\"",
+        "dialogue": [
+          [
+            "Ayu",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Bagas",
+            "We need to write a strong ___ for the intern before five o'clock."
+          ]
+        ],
+        "options": [
+          "recommendation",
+          "recommend",
+          "recommended"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan noun yang tepat, yaitu \"recommendation\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"write a strong ___ for the intern\".",
+          "Pilih bentuk noun \"recommendation\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The finance team gave a very clearly presentation.\"",
+        "draft": "The finance team gave a very clearly presentation.",
+        "options": [
+          "The finance team gave a very clarity presentation.",
+          "The finance team gave a very clearly presentation.",
+          "The finance team gave a very clear presentation."
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'presentation', gunakan adjective 'clear'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Your signature is required at the bottom.\", kata \"signature\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Your', dibutuhkan kata benda (noun).",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"signature\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: smooth · Careful · ensures).",
+        "targetSentence": "Careful planning ensures smooth project execution.",
+        "explanation": "Adjective + noun + verb + adjective + noun.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"We record all seminar sessions on video.\", kata \"record\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "verb",
+          "noun"
+        ],
+        "answer": 1,
+        "explanation": "Posisi setelah subjek 'We' membutuhkan verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"record\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to handle customer data ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Lina",
+            "We need to handle customer data ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "responsibly",
+          "responsible",
+          "responsibility"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan adverb yang tepat, yaitu \"responsibly\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"handle customer data ___\".",
+          "Pilih bentuk adverb \"responsibly\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Every applicant must submission a portfolio.\"",
+        "draft": "Every applicant must submission a portfolio.",
+        "options": [
+          "Every applicant must submission a portfolio.",
+          "Every applicant must submit a portfolio.",
+          "Every applicant must submissive a portfolio."
+        ],
+        "answer": 1,
+        "explanation": "Setelah modal 'must', gunakan verb 'submit'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Keep a clear record of daily expenses.\", kata \"record\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adverb",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'a clear', kata 'record' berfungsi sebagai noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"record\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to sound ___ during the interview before five o'clock.\"",
+        "dialogue": [
+          [
+            "Tara",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Hana",
+            "We need to sound ___ during the interview before five o'clock."
+          ]
+        ],
+        "options": [
+          "confidently",
+          "confidence",
+          "confident"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan adjective yang tepat, yaitu \"confident\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"sound ___ during the interview\".",
+          "Pilih bentuk adjective \"confident\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"She answered all technical questions confident.\"",
+        "draft": "She answered all technical questions confident.",
+        "options": [
+          "She answered all technical questions confidence.",
+          "She answered all technical questions confident.",
+          "She answered all technical questions confidently."
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'answered' membutuhkan adverb 'confidently'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (8 kata; fokus: The · every · senior).",
+        "targetSentence": "The senior auditor examined every financial statement thoroughly.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Directors approve the budget every December.\", kata \"approve\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Posisi predikat membutuhkan verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"approve\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to Who will ___ the airport pickup? before five o'clock.\"",
+        "dialogue": [
+          [
+            "Kevin",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Dewi",
+            "We need to Who will ___ the airport pickup? before five o'clock."
+          ]
+        ],
+        "options": [
+          "coordinate",
+          "coordination",
+          "coordinated"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan verb yang tepat, yaitu \"coordinate\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"Who will ___ the airport pickup?\".",
+          "Pilih bentuk verb \"coordinate\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"We appreciate your cooperate during the audit.\"",
+        "draft": "We appreciate your cooperate during the audit.",
+        "options": [
+          "We appreciate your cooperative during the audit.",
+          "We appreciate your cooperate during the audit.",
+          "We appreciate your cooperation during the audit."
+        ],
+        "answer": 2,
+        "explanation": "Setelah possessive 'your', gunakan noun 'cooperation'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Final approval takes two working days.\", kata \"approval\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "verb",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "Subjek kalimat ini berbentuk noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"approval\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to notice a steady ___ in accuracy before five o'clock.\"",
+        "dialogue": [
+          [
+            "Ayu",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Bagas",
+            "We need to notice a steady ___ in accuracy before five o'clock."
+          ]
+        ],
+        "options": [
+          "improve",
+          "improved",
+          "improvement"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan noun yang tepat, yaitu \"improvement\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"notice a steady ___ in accuracy\".",
+          "Pilih bentuk noun \"improvement\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The new system runs smooth on older devices.\"",
+        "draft": "The new system runs smooth on older devices.",
+        "options": [
+          "The new system runs smoothly on older devices.",
+          "The new system runs smoothness on older devices.",
+          "The new system runs smooth on older devices."
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'runs' memakai adverb 'smoothly'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Always compare prices before ordering supplies.\", kata \"compare\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "noun",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat perintah memakai verb dasar.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"compare\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: Clear · costly · prevents).",
+        "targetSentence": "Clear communication prevents costly workplace misunderstandings.",
+        "explanation": "Adjective + noun + verb + object.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"This chart shows a clear comparison.\", kata \"comparison\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "noun",
+          "verb"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'a clear', dibutuhkan noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"comparison\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to measure the ingredients ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Lina",
+            "We need to measure the ingredients ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "accurate",
+          "accuracy",
+          "accurately"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan adverb yang tepat, yaitu \"accurately\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"measure the ingredients ___\".",
+          "Pilih bentuk adverb \"accurately\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"This course provides practice training for nurses.\"",
+        "draft": "This course provides practice training for nurses.",
+        "options": [
+          "This course provides practical training for nurses.",
+          "This course provides practically training for nurses.",
+          "This course provides practice training for nurses."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'training', gunakan adjective 'practical'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"They wrote a comparative study of two cities.\", kata \"comparative\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "verb",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'study', dibutuhkan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"comparative\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: complex · explain · simply.).",
+        "targetSentence": "Experienced teachers explain complex concepts simply.",
+        "explanation": "Adjective + noun + verb + object + adverb.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"This factory can produce 500 units daily.\", kata \"produce\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adverb",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'can', gunakan verb dasar.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"produce\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to set a ___ subscription price before five o'clock.\"",
+        "dialogue": [
+          [
+            "Tara",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Hana",
+            "We need to set a ___ subscription price before five o'clock."
+          ]
+        ],
+        "options": [
+          "compete",
+          "competitively",
+          "competitive"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan adjective yang tepat, yaitu \"competitive\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"set a ___ subscription price\".",
+          "Pilih bentuk adjective \"competitive\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Please signature the delivery slip upon arrival.\"",
+        "draft": "Please signature the delivery slip upon arrival.",
+        "options": [
+          "Please signature the delivery slip upon arrival.",
+          "Please sign the delivery slip upon arrival.",
+          "Please signal the delivery slip upon arrival."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Please', dibutuhkan kata kerja 'sign'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Factory production increased by ten percent.\", kata \"production\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adjective",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "Subjek kalimat menggunakan noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"production\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to Did you ___ the bank transfer? before five o'clock.\"",
+        "dialogue": [
+          [
+            "Kevin",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Dewi",
+            "We need to Did you ___ the bank transfer? before five o'clock."
+          ]
+        ],
+        "options": [
+          "verified",
+          "verify",
+          "verification"
+        ],
+        "answer": 1,
+        "explanation": "Posisi rumpang memerlukan verb yang tepat, yaitu \"verify\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"Did you ___ the bank transfer?\".",
+          "Pilih bentuk verb \"verify\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Customer satisfied is our top priority.\"",
+        "draft": "Customer satisfied is our top priority.",
+        "options": [
+          "Customer satisfy is our top priority.",
+          "Customer satisfied is our top priority.",
+          "Customer satisfaction is our top priority."
+        ],
+        "answer": 2,
+        "explanation": "Posisi subjek membutuhkan noun 'satisfaction'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: Regular · protects · expensive).",
+        "targetSentence": "Regular maintenance protects expensive laboratory equipment.",
+        "explanation": "Subject + verb + adjective + noun phrase.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"We had a very productive planning meeting.\", kata \"productive\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'meeting', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"productive\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to record daily student ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Ayu",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Bagas",
+            "We need to record daily student ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "attendance",
+          "attend",
+          "attentive"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan noun yang tepat, yaitu \"attendance\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"record daily student ___\".",
+          "Pilih bentuk noun \"attendance\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The committee reviewed the proposal thorough.\"",
+        "draft": "The committee reviewed the proposal thorough.",
+        "options": [
+          "The committee reviewed the proposal thorough.",
+          "The committee reviewed the proposal thoroughly.",
+          "The committee reviewed the proposal thoroughness."
+        ],
+        "answer": 1,
+        "explanation": "Untuk menerangkan 'reviewed', gunakan adverb 'thoroughly'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The remote team worked productively all week.\", kata \"productively\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "adjective",
+          "noun"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'worked' memakai adverb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"productively\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to speak two languages ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Lina",
+            "We need to speak two languages ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "fluently",
+          "fluent",
+          "fluency"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan adverb yang tepat, yaitu \"fluently\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"speak two languages ___\".",
+          "Pilih bentuk adverb \"fluently\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"He showed great determine during recovery.\"",
+        "draft": "He showed great determine during recovery.",
+        "options": [
+          "He showed great determination during recovery.",
+          "He showed great determined during recovery.",
+          "He showed great determine during recovery."
+        ],
+        "answer": 0,
+        "explanation": "Setelah adjective 'great', dibutuhkan noun 'determination'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Please inform passengers of any gate change.\", kata \"inform\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Please', gunakan verb dasar.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"inform\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (7 kata; fokus: Our · team · designs).",
+        "targetSentence": "Our marketing team designs persuasive digital campaigns.",
+        "explanation": "Subject + verb + adjective + noun.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Check the travel information board upstairs.\", kata \"information\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adverb",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "Head noun dari frasa adalah 'information' (noun).",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"information\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to give ___ examples in class before five o'clock.\"",
+        "dialogue": [
+          [
+            "Tara",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Hana",
+            "We need to give ___ examples in class before five o'clock."
+          ]
+        ],
+        "options": [
+          "practically",
+          "practice",
+          "practical"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan adjective yang tepat, yaitu \"practical\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"give ___ examples in class\".",
+          "Pilih bentuk adjective \"practical\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Our goal is to efficiency reduce paper waste.\"",
+        "draft": "Our goal is to efficiency reduce paper waste.",
+        "options": [
+          "Our goal is to efficient reduce paper waste.",
+          "Our goal is to efficiency reduce paper waste.",
+          "Our goal is to efficiently reduce paper waste."
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'reduce' membutuhkan adverb 'efficiently'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The keynote speech was highly informative.\", kata \"informative\" berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "verb",
+          "adjective"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'was highly', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"informative\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: deep · require · Accurate).",
+        "targetSentence": "Accurate translations require deep cultural understanding.",
+        "explanation": "Adjective + noun + verb + object.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Public campaigns educate citizens on recycling.\", kata \"educate\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 0,
+        "explanation": "Predikat jamak memakai verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"educate\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to plan to ___ the branch next year before five o'clock.\"",
+        "dialogue": [
+          [
+            "Kevin",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Dewi",
+            "We need to plan to ___ the branch next year before five o'clock."
+          ]
+        ],
+        "options": [
+          "expand",
+          "expansion",
+          "expansive"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan verb yang tepat, yaitu \"expand\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"plan to ___ the branch next year\".",
+          "Pilih bentuk verb \"expand\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"They built a success online bookstore.\"",
+        "draft": "They built a success online bookstore.",
+        "options": [
+          "They built a successfully online bookstore.",
+          "They built a success online bookstore.",
+          "They built a successful online bookstore."
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase 'online bookstore', gunakan adjective 'successful'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Higher education opens broader career paths.\", kata \"education\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "Subjek frasa ini berupa noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"education\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to find a lasting ___ together before five o'clock.\"",
+        "dialogue": [
+          [
+            "Ayu",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Bagas",
+            "We need to find a lasting ___ together before five o'clock."
+          ]
+        ],
+        "options": [
+          "solution",
+          "solve",
+          "solvable"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan noun yang tepat, yaitu \"solution\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"find a lasting ___ together\".",
+          "Pilih bentuk noun \"solution\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Could you clarification the second chart?\"",
+        "draft": "Could you clarification the second chart?",
+        "options": [
+          "Could you clarity the second chart?",
+          "Could you clarification the second chart?",
+          "Could you clarify the second chart?"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Could you', gunakan base verb 'clarify'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: build · client · Prompt).",
+        "targetSentence": "Prompt replies build strong client trust.",
+        "explanation": "Adjective + noun + verb + object.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"They visited an educational science center.\", kata \"educational\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "adverb",
+          "noun"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'science center', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"educational\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to complete the lab assignment ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Lina",
+            "We need to complete the lab assignment ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "independence",
+          "independently",
+          "independent"
+        ],
+        "answer": 1,
+        "explanation": "Posisi rumpang memerlukan adverb yang tepat, yaitu \"independently\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"complete the lab assignment ___\".",
+          "Pilih bentuk adverb \"independently\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The lecturer spoke concise about climate data.\"",
+        "draft": "The lecturer spoke concise about climate data.",
+        "options": [
+          "The lecturer spoke concise about climate data.",
+          "The lecturer spoke concisely about climate data.",
+          "The lecturer spoke conciseness about climate data."
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'spoke' membutuhkan adverb 'concisely'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Supervisors manage daily warehouse shifts.\", kata \"manage\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adverb",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Predikat kalimat memakai verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"manage\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to choose an ___ hotel near the venue before five o'clock.\"",
+        "dialogue": [
+          [
+            "Tara",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Hana",
+            "We need to choose an ___ hotel near the venue before five o'clock."
+          ]
+        ],
+        "options": [
+          "afford",
+          "affordability",
+          "affordable"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan adjective yang tepat, yaitu \"affordable\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"choose an ___ hotel near the venue\".",
+          "Pilih bentuk adjective \"affordable\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Regular inspect keeps factory machines safe.\"",
+        "draft": "Regular inspect keeps factory machines safe.",
+        "options": [
+          "Regular inspectable keeps factory machines safe.",
+          "Regular inspect keeps factory machines safe.",
+          "Regular inspection keeps factory machines safe."
+        ],
+        "answer": 2,
+        "explanation": "Setelah adjective 'Regular', subjek memakai noun 'inspection'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Good time management reduces exam stress.\", kata \"management\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "answer": 0,
+        "explanation": "Subjek membutuhkan noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"management\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (7 kata; fokus: can · online. · reading).",
+        "targetSentence": "Students can download supplementary reading materials online.",
+        "explanation": "Subject + modal + verb + object + adverb.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Break large tasks into manageable steps.\", kata \"manageable\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adjective",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'steps', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"manageable\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to Could you ___ the meeting room? before five o'clock.\"",
+        "dialogue": [
+          [
+            "Kevin",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Dewi",
+            "We need to Could you ___ the meeting room? before five o'clock."
+          ]
+        ],
+        "options": [
+          "confirmed",
+          "confirm",
+          "confirmation"
+        ],
+        "answer": 1,
+        "explanation": "Posisi rumpang memerlukan verb yang tepat, yaitu \"confirm\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"Could you ___ the meeting room?\".",
+          "Pilih bentuk verb \"confirm\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"We expect a significance rise in summer bookings.\"",
+        "draft": "We expect a significance rise in summer bookings.",
+        "options": [
+          "We expect a significance rise in summer bookings.",
+          "We expect a significant rise in summer bookings.",
+          "We expect a significantly rise in summer bookings."
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'rise', gunakan adjective 'significant'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Researchers analyze survey responses carefully.\", kata \"analyze\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "answer": 2,
+        "explanation": "Predikat kalimat membutuhkan verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"analyze\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (7 kata; fokus: urban · public · reduces).",
+        "targetSentence": "Reliable public transit reduces urban traffic congestion.",
+        "explanation": "Subject + verb + adjective + noun.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Her statistical analysis revealed a clear trend.\", kata \"analysis\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adverb",
+          "noun"
+        ],
+        "answer": 2,
+        "explanation": "Subjek setelah possessive 'Her' adalah noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"analysis\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to schedule regular server ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Ayu",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Bagas",
+            "We need to schedule regular server ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "maintenance",
+          "maintain",
+          "maintained"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan noun yang tepat, yaitu \"maintenance\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"schedule regular server ___\".",
+          "Pilih bentuk noun \"maintenance\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Please verification your email address first.\"",
+        "draft": "Please verification your email address first.",
+        "options": [
+          "Please verification your email address first.",
+          "Please verify your email address first.",
+          "Please verifiable your email address first."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Please', gunakan verb 'verify'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"This role requires strong analytical thinking.\", kata \"analytical\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "adjective",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'thinking', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"analytical\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to greet all guests ___ before five o'clock.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Lina",
+            "We need to greet all guests ___ before five o'clock."
+          ]
+        ],
+        "options": [
+          "courteously",
+          "courteous",
+          "courtesy"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan adverb yang tepat, yaitu \"courteously\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"greet all guests ___\".",
+          "Pilih bentuk adverb \"courteously\"."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The courier handled the fragile parcel gentle.\"",
+        "draft": "The courier handled the fragile parcel gentle.",
+        "options": [
+          "The courier handled the fragile parcel gentleness.",
+          "The courier handled the fragile parcel gentle.",
+          "The courier handled the fragile parcel gently."
+        ],
+        "answer": 2,
+        "explanation": "Untuk menerangkan verb 'handled', gunakan adverb 'gently'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (6 kata; fokus: errors · network · resolve).",
+        "targetSentence": "Skilled technicians resolve network errors efficiently.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"Designers create clean user interfaces.\", kata \"create\" berfungsi sebagai...",
+        "options": [
+          "adjective",
+          "verb",
+          "noun"
+        ],
+        "answer": 1,
+        "explanation": "Predikat memakai verb.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"create\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to bring all ___ documents tomorrow before five o'clock.\"",
+        "dialogue": [
+          [
+            "Tara",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Hana",
+            "We need to bring all ___ documents tomorrow before five o'clock."
+          ]
+        ],
+        "options": [
+          "essential",
+          "essentially",
+          "essence"
+        ],
+        "answer": 0,
+        "explanation": "Posisi rumpang memerlukan adjective yang tepat, yaitu \"essential\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"bring all ___ documents tomorrow\".",
+          "Pilih bentuk adjective \"essential\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"Good prepare helps speakers stay calm.\"",
+        "draft": "Good prepare helps speakers stay calm.",
+        "options": [
+          "Good prepare helps speakers stay calm.",
+          "Good preparation helps speakers stay calm.",
+          "Good preparatory helps speakers stay calm."
+        ],
+        "answer": 1,
+        "explanation": "Setelah adjective 'Good', dibutuhkan noun 'preparation'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"The creation of new jobs boosted growth.\", kata \"creation\" berfungsi sebagai...",
+        "options": [
+          "noun",
+          "verb",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'The', dibutuhkan noun.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"creation\"."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan bentuk kata (word family) yang tepat: \"We need to We should ___ the guest list tonight before five o'clock.\"",
+        "dialogue": [
+          [
+            "Kevin",
+            "What do we still need to do for tomorrow's workshop?"
+          ],
+          [
+            "Dewi",
+            "We need to We should ___ the guest list tonight before five o'clock."
+          ]
+        ],
+        "options": [
+          "final",
+          "finally",
+          "finalize"
+        ],
+        "answer": 2,
+        "explanation": "Posisi rumpang memerlukan verb yang tepat, yaitu \"finalize\".",
+        "hints": [
+          "Analisis kelas kata yang dibutuhkan pada \"We should ___ the guest list tonight\".",
+          "Pilih bentuk verb \"finalize\"."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "edit",
+        "prompt": "Identifikasi dan perbaiki kesalahan word family pada kalimat ini: \"The guide gave us help advice on transit.\"",
+        "draft": "The guide gave us help advice on transit.",
+        "options": [
+          "The guide gave us helpful advice on transit.",
+          "The guide gave us helpfully advice on transit.",
+          "The guide gave us help advice on transit."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun 'advice', gunakan adjective 'helpful'.",
+        "hints": [
+          "Cek kesesuaian akhiran kata dengan posisi gramatikalnya.",
+          "Pastikan noun/verb/adj/adv tidak tertukar."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat \"She offered a creative solution to the issue.\", kata \"creative\" berfungsi sebagai...",
+        "options": [
+          "verb",
+          "adjective",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'solution', gunakan adjective.",
+        "hints": [
+          "Perhatikan posisi kata terhadap subjek, kata kerja, atau kata sandang.",
+          "Tentukan fungsi gramatikal \"creative\"."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun frasa berikut menjadi kalimat akademik/profesional dengan word class yang tepat (7 kata; fokus: grow · helps · young).",
+        "targetSentence": "Honest feedback helps young professionals grow steadily.",
+        "explanation": "Subject + verb + object + verb + adverb.",
+        "hints": [
+          "Tempatkan adjective sebelum noun yang diterangkannya.",
+          "Letakkan adverb of manner di akhir klausa."
+        ],
+        "skill": "pos-adverb"
       }
     ],
     "complex": [
@@ -871,6 +3751,1419 @@
           "Pasangkan adverb 'completely' sebelum 'functional'."
         ],
         "skill": "pos-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before we ___ the contract, review every annex.",
+        "options": [
+          "finally",
+          "finalize",
+          "finalization"
+        ],
+        "answer": 1,
+        "explanation": "Setelah subjek 'we', dibutuhkan transitive verb 'finalize'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Why did the presenter seem so ___ today?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Why did the presenter seem so ___ today?"
+          ]
+        ],
+        "options": [
+          "confidently",
+          "confidence",
+          "confident"
+        ],
+        "answer": 2,
+        "explanation": "Linking verb 'seem' diikuti adjective 'confident'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The proposal sounded convincingly to the investors.\"",
+        "draft": "The proposal sounded convincingly to the investors.",
+        "options": [
+          "The proposal sounded convince to the investors.",
+          "The proposal sounded convincingly to the investors.",
+          "The proposal sounded convincing to the investors."
+        ],
+        "answer": 2,
+        "explanation": "Linking verb 'sounded' diikuti adjective 'convincing', bukan adverb.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ___ of the bridge took fourteen months.",
+        "options": [
+          "construct",
+          "constructive",
+          "construction"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'The', posisi head noun membutuhkan 'construction'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (8 kata; fokus: The · across · appeared).",
+        "targetSentence": "The preliminary findings appeared surprisingly consistent across cohorts.",
+        "explanation": "Linking verb 'appeared' + adverb + adjective.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Her argument was ___ supported by survey evidence.",
+        "options": [
+          "empirical",
+          "empiricism",
+          "empirically"
+        ],
+        "answer": 2,
+        "explanation": "Untuk menerangkan past participle 'supported', gunakan adverb 'empirically'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Because she spoke ___ after three rehearsals.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Because she spoke ___ after three rehearsals."
+          ]
+        ],
+        "options": [
+          "confidence",
+          "confidently",
+          "confident"
+        ],
+        "answer": 1,
+        "explanation": "Verb 'spoke' diterangkan oleh adverb 'confidently'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"She felt happily after winning the scholarship.\"",
+        "draft": "She felt happily after winning the scholarship.",
+        "options": [
+          "She felt happily after winning the scholarship.",
+          "She felt happy after winning the scholarship.",
+          "She felt happiness after winning the scholarship."
+        ],
+        "answer": 1,
+        "explanation": "Linking verb 'felt' diikuti adjective 'happy'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need a ___ estimate before requesting funds.",
+        "options": [
+          "realistically",
+          "realism",
+          "realistic"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'estimate', gunakan adjective 'realistic'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Is server ___ our main concern right now?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Is server ___ our main concern right now?"
+          ]
+        ],
+        "options": [
+          "reliability",
+          "reliable",
+          "reliably"
+        ],
+        "answer": 0,
+        "explanation": "Subjek frasa 'server ___' membutuhkan noun 'reliability'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The soup smells wonderfully in the kitchen.\"",
+        "draft": "The soup smells wonderfully in the kitchen.",
+        "options": [
+          "The soup smells wonderfully in the kitchen.",
+          "The soup smells wonderful in the kitchen.",
+          "The soup smells wonder in the kitchen."
+        ],
+        "answer": 1,
+        "explanation": "Linking verb 'smells' membutuhkan adjective 'wonderful'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: every · evaluate · research).",
+        "targetSentence": "Independent reviewers evaluate every research manuscript objectively.",
+        "explanation": "Adj + noun + verb + object + adverb.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "The committee remains ___ about next quarter's target.",
+        "options": [
+          "optimism",
+          "optimistically",
+          "optimistic"
+        ],
+        "answer": 2,
+        "explanation": "Linking verb 'remains' diikuti predicate adjective 'optimistic'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Yes, the database must run ___ during peak hours.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Yes, the database must run ___ during peak hours."
+          ]
+        ],
+        "options": [
+          "reliably",
+          "reliable",
+          "reliability"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'run' diterangkan adverb 'reliably'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"We worked hardly to finish before the audit.\"",
+        "draft": "We worked hardly to finish before the audit.",
+        "options": [
+          "We worked hard to finish before the audit.",
+          "We worked hardness to finish before the audit.",
+          "We worked hardly to finish before the audit."
+        ],
+        "answer": 0,
+        "explanation": "'Hard' (giat) adalah adverb yang tepat; 'hardly' bermakna 'hampir tidak'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Noise levels dropped ___ after the acoustic upgrade.",
+        "options": [
+          "noticeably",
+          "noticeable",
+          "notice"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan kata kerja 'dropped' membutuhkan adverb 'noticeably'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Could you ___ paragraph four before printing?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Could you ___ paragraph four before printing?"
+          ]
+        ],
+        "options": [
+          "clear",
+          "clarify",
+          "clarification"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Could you', gunakan verb 'clarify'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The director spoke high of the volunteer team.\"",
+        "draft": "The director spoke high of the volunteer team.",
+        "options": [
+          "The director spoke high of the volunteer team.",
+          "The director spoke highly of the volunteer team.",
+          "The director spoke height of the volunteer team."
+        ],
+        "answer": 1,
+        "explanation": "Idiom 'speak highly of' memakai adverb 'highly'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Strict ___ of safety rules prevents workplace injuries.",
+        "options": [
+          "enforce",
+          "enforceable",
+          "enforcement"
+        ],
+        "answer": 2,
+        "explanation": "Setelah adjective 'Strict', subjek berupa noun 'enforcement'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (6 kata; fokus: public · confidence · governance).",
+        "targetSentence": "Transparent governance strengthens public confidence significantly.",
+        "explanation": "Subject noun phrase + verb + object + adverb.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "New policies will ___ small exporters across regions.",
+        "options": [
+          "benefit",
+          "beneficial",
+          "beneficially"
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'will', gunakan verb 'benefit'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Sure, I will add a short ___ at the bottom.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Sure, I will add a short ___ at the bottom."
+          ]
+        ],
+        "options": [
+          "clarification",
+          "clarify",
+          "clarity"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'a short', gunakan noun 'clarification'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"His sudden decide surprised the committee.\"",
+        "draft": "His sudden decide surprised the committee.",
+        "options": [
+          "His sudden decisive surprised the committee.",
+          "His sudden decide surprised the committee.",
+          "His sudden decision surprised the committee."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'His sudden', dibutuhkan noun 'decision'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "That museum houses an ___ collection of textiles.",
+        "options": [
+          "impress",
+          "impressively",
+          "impressive"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'collection', gunakan adjective 'impressive'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: new · The · tool).",
+        "targetSentence": "The new diagnostic tool performs remarkably accurately.",
+        "explanation": "Subject + verb + adv + adv.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Participants rated the workshop ___ useful for daily work.",
+        "options": [
+          "highly",
+          "high",
+          "height"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan adjective 'useful' (meaning 'very') memakai adverb 'highly'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Is rail freight still an ___ option for cargo?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Is rail freight still an ___ option for cargo?"
+          ]
+        ],
+        "options": [
+          "economically",
+          "economy",
+          "economical"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'option', gunakan adjective 'economical'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The report is extreme detailed and useful.\"",
+        "draft": "The report is extreme detailed and useful.",
+        "options": [
+          "The report is extreme detailed and useful.",
+          "The report is extremely detailed and useful.",
+          "The report is extremity detailed and useful."
+        ],
+        "answer": 1,
+        "explanation": "Adjective 'detailed' harus diterangkan oleh adverb 'extremely'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "The lab awaits official ___ from the ethics board.",
+        "options": [
+          "authoritative",
+          "authorization",
+          "authorize"
+        ],
+        "answer": 1,
+        "explanation": "Setelah adjective 'official', objek membutuhkan noun 'authorization'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Yes, it moves heavy goods ___ over long distances.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Yes, it moves heavy goods ___ over long distances."
+          ]
+        ],
+        "options": [
+          "economically",
+          "economical",
+          "economy"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'moves' menggunakan adverb 'economically'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"They must obedience all laboratory rules.\"",
+        "draft": "They must obedience all laboratory rules.",
+        "options": [
+          "They must obey all laboratory rules.",
+          "They must obedient all laboratory rules.",
+          "They must obedience all laboratory rules."
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'must', gunakan verb 'obey'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: data · make · Clear).",
+        "targetSentence": "Clear visual summaries make complex data accessible.",
+        "explanation": "Verb 'make' + object + adjective.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both studies ___ similar patterns in urban commuting.",
+        "options": [
+          "demonstrate",
+          "demonstration",
+          "demonstrative"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'Both studies' diikuti verb 'demonstrate'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Does the clinic plan to ___ its weekend hours?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Does the clinic plan to ___ its weekend hours?"
+          ]
+        ],
+        "options": [
+          "expansive",
+          "expand",
+          "expansion"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'plan to', gunakan base verb 'expand'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The data remained steadily throughout December.\"",
+        "draft": "The data remained steadily throughout December.",
+        "options": [
+          "The data remained steadily throughout December.",
+          "The data remained steady throughout December.",
+          "The data remained steadiness throughout December."
+        ],
+        "answer": 1,
+        "explanation": "Linking verb 'remained' diikuti adjective 'steady'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "The instructions sounded ___ at first, yet proved simple.",
+        "options": [
+          "complication",
+          "complicated",
+          "complicate"
+        ],
+        "answer": 1,
+        "explanation": "Linking verb 'sounded' diikuti adjective 'complicated'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Yes, the ___ starts next month.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Yes, the ___ starts next month."
+          ]
+        ],
+        "options": [
+          "expansively",
+          "expansion",
+          "expand"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'the', posisi subjek membutuhkan noun 'expansion'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"He arrived lately to the morning briefing.\"",
+        "draft": "He arrived lately to the morning briefing.",
+        "options": [
+          "He arrived late to the morning briefing.",
+          "He arrived lateness to the morning briefing.",
+          "He arrived lately to the morning briefing."
+        ],
+        "answer": 0,
+        "explanation": "'Late' berarti terlambat; 'lately' berarti akhir-akhir ini.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Journalists must verify sources ___ before publishing.",
+        "options": [
+          "independent",
+          "independence",
+          "independently"
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'verify' membutuhkan adverb 'independently'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: Strict · product · quality).",
+        "targetSentence": "Strict quality assurance guarantees consistent product reliability.",
+        "explanation": "Subject + verb + adjective + noun phrase.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "A sharp ___ in electricity costs affected factories.",
+        "options": [
+          "increase",
+          "increasingly",
+          "increased"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'A sharp', dibutuhkan noun 'increase'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"How ___ is the new support portal?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "How ___ is the new support portal?"
+          ]
+        ],
+        "options": [
+          "responsively",
+          "response",
+          "responsive"
+        ],
+        "answer": 2,
+        "explanation": "Kata tanya 'How ___ is...' meminta adjective 'responsive'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Regularly exercise strengthens cardiovascular health.\"",
+        "draft": "Regularly exercise strengthens cardiovascular health.",
+        "options": [
+          "Regularly exercise strengthens cardiovascular health.",
+          "Regular exercise strengthens cardiovascular health.",
+          "Regularize exercise strengthens cardiovascular health."
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'exercise', gunakan adjective 'Regular'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Managers should ___ clear goals before each sprint.",
+        "options": [
+          "establish",
+          "establishment",
+          "established"
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'should', gunakan base verb 'establish'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (6 kata; fokus: adapt · project · flexibly.).",
+        "targetSentence": "Experienced coordinators adapt project schedules flexibly.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "The report offers a ___ summary of regional trade.",
+        "options": [
+          "concisely",
+          "conciseness",
+          "concise"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun 'summary', gunakan adjective 'concise'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Agents reply quite ___ to urgent tickets.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Agents reply quite ___ to urgent tickets."
+          ]
+        ],
+        "options": [
+          "responsively",
+          "responsive",
+          "response"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'reply' memakai adverb 'responsively'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The new policy will simplified tax reporting.\"",
+        "draft": "The new policy will simplified tax reporting.",
+        "options": [
+          "The new policy will simple tax reporting.",
+          "The new policy will simplified tax reporting.",
+          "The new policy will simplify tax reporting."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will', gunakan base verb 'simplify'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fuel efficiency improved ___ following engine tuning.",
+        "options": [
+          "significantly",
+          "significant",
+          "significance"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'improved' memakai adverb 'significantly'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"When will the panel ___ the final prototypes?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "When will the panel ___ the final prototypes?"
+          ]
+        ],
+        "options": [
+          "evaluation",
+          "evaluative",
+          "evaluate"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'will the panel', gunakan verb 'evaluate'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Our team handled the crisis calm and fairly.\"",
+        "draft": "Our team handled the crisis calm and fairly.",
+        "options": [
+          "Our team handled the crisis calmly and fairly.",
+          "Our team handled the crisis calmness and fairly.",
+          "Our team handled the crisis calm and fairly."
+        ],
+        "answer": 0,
+        "explanation": "Paralel dengan 'fairly' dan menerangkan 'handled', gunakan 'calmly'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: The · clear · sounds).",
+        "targetSentence": "The renovated auditorium sounds extraordinarily clear today.",
+        "explanation": "Linking verb 'sounds' + adv + adj + adv.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Lack of ___ often delays cross-team projects.",
+        "options": [
+          "coordinated",
+          "coordination",
+          "coordinate"
+        ],
+        "answer": 1,
+        "explanation": "Setelah preposisi 'of', gunakan noun 'coordination'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"The formal ___ begins Monday morning.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "The formal ___ begins Monday morning."
+          ]
+        ],
+        "options": [
+          "evaluate",
+          "evaluative",
+          "evaluation"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'The formal', subjek memakai noun 'evaluation'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Economic stable attracts long-term investors.\"",
+        "draft": "Economic stable attracts long-term investors.",
+        "options": [
+          "Economic stable attracts long-term investors.",
+          "Economic stability attracts long-term investors.",
+          "Economic stabilize attracts long-term investors."
+        ],
+        "answer": 1,
+        "explanation": "Setelah adjective 'Economic', subjek memerlukan noun 'stability'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "These sensors ___ air quality every ten seconds.",
+        "options": [
+          "monitoring",
+          "monitorable",
+          "monitor"
+        ],
+        "answer": 2,
+        "explanation": "Subjek 'These sensors' membutuhkan finite verb 'monitor'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Is the sensor reading ___ across trials?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Is the sensor reading ___ across trials?"
+          ]
+        ],
+        "options": [
+          "consistency",
+          "consistent",
+          "consistently"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'is ...', predikat sifat membutuhkan adjective 'consistent'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The lecture became bored after an hour.\"",
+        "draft": "The lecture became bored after an hour.",
+        "options": [
+          "The lecture became bored after an hour.",
+          "The lecture became boring after an hour.",
+          "The lecture became boredom after an hour."
+        ],
+        "answer": 1,
+        "explanation": "Sesuatu yang menyebabkan bosan memakai adjective 'boring'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "The candidate appeared ___ despite the tough questions.",
+        "options": [
+          "calm",
+          "calmly",
+          "calmness"
+        ],
+        "answer": 0,
+        "explanation": "Linking verb 'appeared' diikuti predicate adjective 'calm'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: market · subtle · Careful).",
+        "targetSentence": "Careful statistical analysis reveals subtle market shifts.",
+        "explanation": "Subject + verb + adj + noun phrase.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The software updates ___ whenever the laptop restarts.",
+        "options": [
+          "automation",
+          "automatically",
+          "automatic"
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'updates' memakai adverb 'automatically'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Yes, it records temperatures ___ every hour.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Yes, it records temperatures ___ every hour."
+          ]
+        ],
+        "options": [
+          "consistently",
+          "consistent",
+          "consistency"
+        ],
+        "answer": 0,
+        "explanation": "Menerangkan verb 'records' memakai adverb 'consistently'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Please wide share this announcement with staff.\"",
+        "draft": "Please wide share this announcement with staff.",
+        "options": [
+          "Please wide share this announcement with staff.",
+          "Please widely share this announcement with staff.",
+          "Please widen share this announcement with staff."
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan verb 'share' memakai adverb 'widely'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wide public ___ helped pass the transit bill.",
+        "options": [
+          "support",
+          "supportive",
+          "supportively"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Wide public', head noun yang tepat adalah 'support'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: backups · company · protect).",
+        "targetSentence": "Automated backups protect critical company records reliably.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could the analyst ___ the outlier values in Table 3?",
+        "options": [
+          "explanation",
+          "explanatory",
+          "explain"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'Could the analyst', gunakan bare infinitive 'explain'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan verb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"How did they ___ the higher shipping fee?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "How did they ___ the higher shipping fee?"
+          ]
+        ],
+        "options": [
+          "justify",
+          "justification",
+          "justifiable"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'did they', gunakan base verb 'justify'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"They discussed the propose during lunch.\"",
+        "draft": "They discussed the propose during lunch.",
+        "options": [
+          "They discussed the proposal during lunch.",
+          "They discussed the proposed during lunch.",
+          "They discussed the propose during lunch."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'the', dibutuhkan noun 'proposal'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "This manual gives ___ guidelines for remote staff.",
+        "options": [
+          "comprehension",
+          "comprehensive",
+          "comprehensively"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun 'guidelines', gunakan adjective 'comprehensive'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adjective.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"They sent a written ___ citing fuel prices.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "They sent a written ___ citing fuel prices."
+          ]
+        ],
+        "options": [
+          "justifiably",
+          "justification",
+          "justify"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'a written', objek membutuhkan noun 'justification'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"The software seemed reliably during testing.\"",
+        "draft": "The software seemed reliably during testing.",
+        "options": [
+          "The software seemed reliably during testing.",
+          "The software seemed reliable during testing.",
+          "The software seemed reliance during testing."
+        ],
+        "answer": 1,
+        "explanation": "Linking verb 'seemed' diikuti adjective 'reliable'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata ini menjadi kalimat kompleks dengan posisi parts of speech yang presisi (7 kata; fokus: free · Public · provide).",
+        "targetSentence": "Public libraries provide free educational resources universally.",
+        "explanation": "Subject + verb + object + adverb.",
+        "hints": [
+          "Pastikan adjective berada sebelum noun atau setelah linking verb.",
+          "Adverb dapat menerangkan adjective maupun verb."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "The parcel arrived ___ intact despite heavy rain.",
+        "options": [
+          "surprise",
+          "surprisingly",
+          "surprising"
+        ],
+        "answer": 1,
+        "explanation": "Menerangkan adjective 'intact' membutuhkan adverb 'surprisingly'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan adverb.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Are the new lab hours ___ enough for interns?\"",
+        "dialogue": [
+          [
+            "Mentor",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Intern",
+            "Are the new lab hours ___ enough for interns?"
+          ]
+        ],
+        "options": [
+          "flexibility",
+          "flexible",
+          "flexibly"
+        ],
+        "answer": 1,
+        "explanation": "Predicate adjective setelah 'Are ...' adalah 'flexible'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Engineers must precision calibrate every gauge.\"",
+        "draft": "Engineers must precision calibrate every gauge.",
+        "options": [
+          "Engineers must precise calibrate every gauge.",
+          "Engineers must precision calibrate every gauge.",
+          "Engineers must precisely calibrate every gauge."
+        ],
+        "answer": 2,
+        "explanation": "Menerangkan verb 'calibrate' membutuhkan adverb 'precisely'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "The seminar encouraged lively ___ among attendees.",
+        "options": [
+          "discuss",
+          "discursive",
+          "discussion"
+        ],
+        "answer": 2,
+        "explanation": "Setelah adjective 'lively', objek memakai noun 'discussion'.",
+        "hints": [
+          "Tentukan apakah rumpang membutuhkan noun.",
+          "Perhatikan kata sebelum dan sesudah rumpang."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kata dengan kelas kata tepat dalam konteks diskusi kerja/akademik: \"Yes, students appreciate the extra ___.\"",
+        "dialogue": [
+          [
+            "Intern",
+            "Let's review the project notes before the meeting."
+          ],
+          [
+            "Mentor",
+            "Yes, students appreciate the extra ___."
+          ]
+        ],
+        "options": [
+          "flexibly",
+          "flexibility",
+          "flexible"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'the extra', objek memakai noun 'flexibility'.",
+        "hints": [
+          "Cek apakah konteks butuh linking verb + adj, verb + adv, atau determiner + noun.",
+          "Perhatikan akhiran kata."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat berikut untuk memperbaiki jebakan kelas kata (linking verb, adverb khusus, atau noun phrase): \"Clear communicate fosters healthy teamwork.\"",
+        "draft": "Clear communicate fosters healthy teamwork.",
+        "options": [
+          "Clear communication fosters healthy teamwork.",
+          "Clear communicative fosters healthy teamwork.",
+          "Clear communicate fosters healthy teamwork."
+        ],
+        "answer": 0,
+        "explanation": "Setelah adjective 'Clear', subjek memakai noun 'communication'.",
+        "hints": [
+          "Perhatikan apakah kata kerja di kalimat adalah linking verb (seem/sound/feel/remain).",
+          "Bedakan pasangan adverb khusus seperti hard/hardly dan late/lately."
+        ],
+        "skill": "pos-noun"
       }
     ]
   }

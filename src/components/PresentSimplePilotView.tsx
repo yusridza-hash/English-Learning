@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getStagePedagogy } from "../data/lessonEnrichment";
 import { PILOT_SKILL_GUIDE, PRESENT_SIMPLE_LEVELS } from "../data/presentSimplePilot";
+import { ensureModuleLoaded, isModuleLoaded } from "../data/questionBank";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import {
   getChecks,
@@ -45,6 +46,8 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
     return [Boolean(saved[0]), Boolean(saved[1]), Boolean(saved[2])];
   });
 
+  const [bankLoading, setBankLoading] = useState<boolean>(() => !isModuleLoaded(MODULE_KEY));
+  const [bankLoadError, setBankLoadError] = useState<string>("");
   const [quizLevels, setQuizLevels] = useState<QuizLevelConfig[]>(() => buildPilotQuizLevels());
   const [sessionSeed, setSessionSeed] = useState<number[]>([0, 0, 0]);
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -63,9 +66,46 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
 
   const [writingDraft, setWritingDraft] = useState<string>("");
 
+  const loadPilotBank = (cancelledCheck?: () => boolean) => {
+    if (isModuleLoaded(MODULE_KEY)) {
+      setBankLoading(false);
+      setBankLoadError("");
+      return;
+    }
+    setBankLoading(true);
+    setBankLoadError("");
+    ensureModuleLoaded(MODULE_KEY)
+      .then(() => {
+        if (cancelledCheck?.()) return;
+        const freshLevels = buildPilotQuizLevels();
+        setQuestionStates((prevStates) => {
+          const hasStarted = prevStates.flat().some((s) => s.attempts > 0 || s.completed);
+          if (hasStarted) return prevStates;
+          setQuizLevels(freshLevels);
+          return freshLevels.map((level) =>
+            level.questions.map(() => ({
+              attempts: 0,
+              points: 0,
+              correct: false,
+              completed: false,
+            }))
+          );
+        });
+        setBankLoading(false);
+      })
+      .catch(() => {
+        if (cancelledCheck?.()) return;
+        setBankLoading(false);
+        setBankLoadError("Gagal memuat bank soal penuh level ini. Cek koneksi atau muat ulang.");
+      });
+  };
+
   useEffect(() => {
     document.body.dataset.module = MODULE_KEY;
     document.title = "Present Simple — English Learning";
+
+    let cancelled = false;
+    loadPilotBank(() => cancelled);
 
     const applyResumeState = () => {
       const parsed = parseModuleResumeHash(window.location.hash);
@@ -85,7 +125,10 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
 
     applyResumeState();
     window.addEventListener("el_route_change", applyResumeState);
-    return () => window.removeEventListener("el_route_change", applyResumeState);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("el_route_change", applyResumeState);
+    };
   }, []);
 
   const handleCheckChange = (index: number, checked: boolean) => {
@@ -94,7 +137,7 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
     saveChecks(MODULE_KEY, next);
   };
 
-  const handleOpenLevelModal = (levelIndex: number) => {
+  const handleOpenLevelModal = async (levelIndex: number) => {
     const subLevel: SubLevelKey =
       PRESENT_SIMPLE_LEVELS[levelIndex]?.key || "simple";
     recordModuleHistory({
@@ -105,13 +148,17 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
       subLevel,
       anchorId: `latihan-${subLevel}`,
     });
+    if (!isModuleLoaded(MODULE_KEY)) {
+      await ensureModuleLoaded(MODULE_KEY).catch(() => undefined);
+    }
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
 
-  const handleRandomizeLevel = (levelIndex: number) => {
+  const handleRandomizeLevel = async (levelIndex: number) => {
     const baseLevel = PRESENT_SIMPLE_LEVELS[levelIndex];
     if (!baseLevel) return;
+    await ensureModuleLoaded(MODULE_KEY).catch(() => undefined);
     const newQuestions = getRandomizedLevelQuestions(
       MODULE_KEY,
       baseLevel.key,
@@ -613,6 +660,20 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             </button>
           </div>
         </section>
+
+        {bankLoading && (
+          <p className="note" role="status" aria-live="polite">
+            Memuat bank soal level ini (100+ soal per tingkat)...
+          </p>
+        )}
+        {bankLoadError && (
+          <div className="warn" role="alert" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: ".75rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+            <span>{bankLoadError}</span>
+            <button type="button" className="filter-pill" onClick={() => loadPilotBank()}>
+              ↻ Coba Muat Ulang
+            </button>
+          </div>
+        )}
 
         <LevelQuizSummarySection
           moduleKey={MODULE_KEY}
