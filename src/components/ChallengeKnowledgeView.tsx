@@ -24,6 +24,12 @@ import { openModuleSidebar, SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 import { ViewportToggle } from "./ViewportToggle";
+import {
+  getQuestionSignature,
+  pickNonRepeatingQuestions,
+  shuffleArray,
+  shuffleQuestionOptions,
+} from "../utils/questionRandomizer";
 
 interface ChallengeKnowledgeViewProps {
   onNavigate: (path: string) => void;
@@ -71,15 +77,6 @@ const SUBLEVEL_LABELS: Record<SubLevelKey, string> = {
   intermediate: "Intermediate",
   complex: "Complex",
 };
-
-function shuffleArray<T>(items: T[]): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
 
 function formatDurationClock(totalSec: number): string {
   const safe = Math.max(0, Math.floor(totalSec));
@@ -265,7 +262,8 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
   }, [moduleSearch]);
 
   const buildChallengeSession = useCallback((): ChallengeQuestionItem[] => {
-    const buildPoolForSubLevel = (lvl: SubLevelKey): ChallengeQuestionItem[] => {
+    const pickForSubLevel = (lvl: SubLevelKey, pickCount: number): ChallengeQuestionItem[] => {
+      if (pickCount <= 0) return [];
       const items: ChallengeQuestionItem[] = [];
       targetModuleKeys.forEach((key) => {
         const bank = QUESTION_BANK[key];
@@ -279,49 +277,61 @@ export const ChallengeKnowledgeView: React.FC<ChallengeKnowledgeViewProps> = ({
             moduleTitle: bank.title || meta.moduleTitle,
             levelTitle: meta.levelTitle,
             subLevel: lvl,
-            question: q,
+            question: shuffleQuestionOptions(q),
           });
         });
       });
-      return shuffleArray(items);
+
+      const poolId = `challenge::${scopeMode}::${lvl}`;
+      return pickNonRepeatingQuestions(
+        poolId,
+        items,
+        (item) => `${item.moduleKey}::${item.subLevel}::${getQuestionSignature(item.question)}`,
+        pickCount
+      );
     };
 
     if (difficultyMode !== "progressive") {
-      const pool = buildPoolForSubLevel(difficultyMode);
-      return pool.slice(0, Math.min(questionCount, pool.length));
+      return pickForSubLevel(difficultyMode, questionCount);
     }
 
     // Progressive mode: Simple -> Intermediate -> Complex
-    const simplePool = buildPoolForSubLevel("simple");
-    const interPool = buildPoolForSubLevel("intermediate");
-    const complexPool = buildPoolForSubLevel("complex");
-
-    const totalAvail = simplePool.length + interPool.length + complexPool.length;
+    const simplePoolCount = availablePoolCounts.simple;
+    const interPoolCount = availablePoolCounts.intermediate;
+    const complexPoolCount = availablePoolCounts.complex;
+    const totalAvail = simplePoolCount + interPoolCount + complexPoolCount;
     const targetCount = Math.min(questionCount, totalAvail);
     if (targetCount === 0) return [];
 
-    const simpleQuota = Math.ceil(targetCount / 3);
-    const complexQuota = Math.floor(targetCount / 3);
-    const interQuota = targetCount - simpleQuota - complexQuota;
+    const simpleQuota = Math.min(simplePoolCount, Math.ceil(targetCount / 3));
+    const complexQuota = Math.min(complexPoolCount, Math.floor(targetCount / 3));
+    const interQuota = Math.min(interPoolCount, targetCount - simpleQuota - complexQuota);
 
-    const pickedSimple = simplePool.slice(0, simpleQuota);
-    const pickedInter = interPool.slice(0, interQuota);
-    const pickedComplex = complexPool.slice(0, complexQuota);
+    let combined = [
+      ...pickForSubLevel("simple", simpleQuota),
+      ...pickForSubLevel("intermediate", interQuota),
+      ...pickForSubLevel("complex", complexQuota),
+    ];
 
-    let combined = [...pickedSimple, ...pickedInter, ...pickedComplex];
     if (combined.length < targetCount) {
-      const usedIds = new Set(combined.map((i) => i.id));
-      const leftover = [...simplePool, ...interPool, ...complexPool].filter(
-        (i) => !usedIds.has(i.id)
+      const pickedKeys = new Set(
+        combined.map((i) => `${i.moduleKey}::${i.subLevel}::${getQuestionSignature(i.question)}`)
       );
-      const needed = targetCount - combined.length;
-      combined = [...combined, ...leftover.slice(0, needed)];
+      const fallbackNeeded = targetCount - combined.length;
+      const extras: ChallengeQuestionItem[] = [];
+      (["simple", "intermediate", "complex"] as SubLevelKey[]).forEach((lvl) => {
+        const allCandidates = pickForSubLevel(lvl, questionCount).filter(
+          (i) => !pickedKeys.has(`${i.moduleKey}::${i.subLevel}::${getQuestionSignature(i.question)}`)
+        );
+        extras.push(...allCandidates);
+      });
+      combined = [...combined, ...shuffleArray(extras).slice(0, fallbackNeeded)];
       const rank: Record<SubLevelKey, number> = { simple: 0, intermediate: 1, complex: 2 };
       combined.sort((a, b) => rank[a.subLevel] - rank[b.subLevel]);
     }
 
     return combined;
-  }, [targetModuleKeys, difficultyMode, questionCount]);
+  }, [targetModuleKeys, scopeMode, difficultyMode, questionCount, availablePoolCounts]);
 
   const finishChallenge = useCallback(
     (finalStates: QuestionProgressState[], bestStreakVal: number, finalElapsedSec: number, wasTimeout = false) => {

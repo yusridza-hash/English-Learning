@@ -2348,6 +2348,307 @@ html[data-viewport="android"] .guided-reset {
   min-height: 44px;
 }
 
+/* ============================================================
+   PWA UPDATE NOTIFICATION & STANDALONE CONTROLS
+   ============================================================ */
+.pwa-update-toast {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1200;
+  width: min(410px, calc(100vw - 2rem));
+  padding: 1rem 1.1rem;
+  border: 2px solid var(--line);
+  border-left: 5px solid var(--edu-good);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+}
+
+.pwa-update-toast-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  margin-bottom: .35rem;
+}
+
+.pwa-update-toast-head strong {
+  font-size: 1rem;
+  letter-spacing: -.01em;
+}
+
+.pwa-update-badge {
+  display: inline-block;
+  padding: .12rem .48rem;
+  border: 1px solid var(--edu-good-border);
+  background: var(--edu-good-bg);
+  color: var(--edu-good);
+  font-family: var(--mono);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.pwa-update-toast-desc {
+  margin-bottom: .85rem;
+  font-size: .86rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.pwa-update-toast-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.pwa-update-primary-btn {
+  flex: 1 1 auto;
+  padding: .55rem .9rem;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  cursor: pointer;
+}
+
+.pwa-update-primary-btn:hover:not(:disabled) {
+  background: var(--edu-good);
+  border-color: var(--edu-good);
+  color: #ffffff;
+}
+
+.pwa-update-secondary-btn {
+  padding: .55rem .85rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  cursor: pointer;
+}
+
+.pwa-update-secondary-btn:hover:not(:disabled) {
+  background: var(--bg-soft);
+}
+
+.pwa-update-primary-btn:disabled,
+.pwa-update-secondary-btn:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+.pwa-offline-ready-toast {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1150;
+  width: min(440px, calc(100vw - 2rem));
+  padding: .7rem .9rem;
+  border: 1px solid var(--edu-good-border);
+  border-left: 4px solid var(--edu-good);
+  background: var(--edu-good-bg);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  font-size: .82rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.pwa-toast-close-btn {
+  padding: .28rem .55rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: .7rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.theme-toggle.is-update-ready,
+.sidebar-pwa-update-btn.is-update-ready {
+  border-color: var(--edu-good-border);
+  background: var(--edu-good-bg);
+  color: var(--edu-good);
+  font-weight: 700;
+}
+
+.sidebar-pwa-update-btn {
+  grid-column: 1 / -1;
+}
+
+.sidebar-pwa-status {
+  grid-column: 1 / -1;
+  margin: .15rem 0 0;
+  font-family: var(--mono);
+  font-size: .72rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .pwa-update-toast,
+  .pwa-offline-ready-toast {
+    left: .75rem;
+    right: .75rem;
+    bottom: .75rem;
+    width: auto;
+  }
+}
+
+html[data-viewport="android"] .pwa-update-toast,
+html[data-viewport="android"] .pwa-offline-ready-toast {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  width: min(400px, calc(100vw - 1.5rem));
+  bottom: .75rem;
+}
+
+/* ============================================================
+   RINGKASAN MODUL — EXPANDABLE AUDIT & TOTALS
+   ============================================================ */
+.bank-overview-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-bottom: .65rem;
+}
+
+.bank-overview-head h2 {
+  margin-bottom: 0;
+}
+
+.bank-audit-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.25rem;
+  margin-bottom: .85rem;
+  padding: .55rem .8rem;
+  border: 1px solid var(--hairline);
+  border-left: 4px solid var(--edu-formula);
+  background: var(--bg-soft);
+  font-size: .84rem;
+}
+
+.bank-summary-total-row td {
+  border-top: 2px solid var(--line);
+  background: var(--bg-soft);
+}
+
+.bank-audit-expanded {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+
+.bank-audit-expanded h3 {
+  margin-top: .75rem;
+  margin-bottom: .5rem;
+  font-size: .92rem;
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.bank-audit-build-note {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .4rem 1rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--hairline);
+  font-family: var(--mono);
+  font-size: .76rem;
+  color: var(--muted);
+}
+
+.bank-audit-table-wrap {
+  overflow-x: auto;
+  background: var(--paper);
+  border: 1px solid var(--hairline);
+  margin-bottom: .9rem;
+}
+
+.bank-audit-table-wrap.is-scrollable {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.bank-audit-table {
+  margin-bottom: 0;
+  font-size: .84rem;
+}
+
+.bank-audit-detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: .85rem;
+  margin-bottom: .5rem;
+}
+
+.bank-audit-detail-head h3 {
+  margin: 0;
+}
+
+.bank-audit-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.bank-audit-filters select,
+.bank-audit-filters input {
+  padding: .35rem .6rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: .82rem;
+}
+
+.bank-audit-jump-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .1rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.bank-audit-jump-btn:hover strong {
+  text-decoration: underline;
+}
+
+.bank-audit-jump-btn span {
+  font-family: var(--mono);
+  font-size: .72rem;
+  color: var(--muted);
+}
+
+
 
 
 

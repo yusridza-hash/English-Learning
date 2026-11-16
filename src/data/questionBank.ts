@@ -6717,15 +6717,49 @@ export const QUESTION_BANK: Record<string, QuestionBankModule> = {
   }
 };
 
+declare const __QB_BUILD_AUDIT__:
+  | {
+      builtAt: string;
+      baseUpdatedAt: string;
+      latestPackUpdatedAt: string;
+      packMtimes: Record<string, { updatedAt: string }>;
+    }
+  | undefined;
+
+export interface LevelQuestionCounts {
+  simple: number;
+  intermediate: number;
+  complex: number;
+}
+
+export interface DiscoveredPackEntry {
+  path: string;
+  moduleKey: string;
+  added: number;
+  addedByLevel: LevelQuestionCounts;
+  updatedAt: string;
+}
+
+export const BASE_QUESTION_COUNTS: Record<string, LevelQuestionCounts> = {};
+Object.entries(QUESTION_BANK).forEach(([key, mod]) => {
+  BASE_QUESTION_COUNTS[key] = {
+    simple: (mod.levels.simple || []).length,
+    intermediate: (mod.levels.intermediate || []).length,
+    complex: (mod.levels.complex || []).length,
+  };
+});
+
 export function applyQuestionPackToBank(rawPack: unknown): {
   ok: boolean;
   moduleKey?: string;
   addedCount: number;
+  addedByLevel: LevelQuestionCounts;
   error?: string;
 } {
+  const emptyCounts: LevelQuestionCounts = { simple: 0, intermediate: 0, complex: 0 };
   const validated = validateAndNormalizeQuestionPack(rawPack);
   if (!validated.ok || !validated.pack || !validated.normalizedLevels) {
-    return { ok: false, addedCount: 0, error: validated.error };
+    return { ok: false, addedCount: 0, addedByLevel: emptyCounts, error: validated.error };
   }
 
   const { pack, normalizedLevels } = validated;
@@ -6754,6 +6788,7 @@ export function applyQuestionPackToBank(rawPack: unknown): {
   }
 
   let addedCount = 0;
+  const addedByLevel: LevelQuestionCounts = { simple: 0, intermediate: 0, complex: 0 };
   (["simple", "intermediate", "complex"] as const).forEach((lvl) => {
     const incoming = normalizedLevels[lvl] || [];
     if (!incoming.length) return;
@@ -6761,6 +6796,7 @@ export function applyQuestionPackToBank(rawPack: unknown): {
     if (pack.mode === "replace") {
       targetMod.levels[lvl] = [...incoming];
       addedCount += incoming.length;
+      addedByLevel[lvl] += incoming.length;
       return;
     }
 
@@ -6774,13 +6810,16 @@ export function applyQuestionPackToBank(rawPack: unknown): {
         existingPrompts.add(sig);
         existing.push(q);
         addedCount++;
+        addedByLevel[lvl] += 1;
       }
     });
     targetMod.levels[lvl] = existing;
   });
 
-  return { ok: true, moduleKey: targetKey, addedCount };
+  return { ok: true, moduleKey: targetKey, addedCount, addedByLevel };
 }
+
+const buildAudit = typeof __QB_BUILD_AUDIT__ !== "undefined" ? __QB_BUILD_AUDIT__ : undefined;
 
 // 1. Auto-discover all modular files in src/data/question-packs/**/*.{ts,json}
 const discoveredPackModules = import.meta.glob<{ default?: QuestionPack } | QuestionPack>(
@@ -6788,16 +6827,24 @@ const discoveredPackModules = import.meta.glob<{ default?: QuestionPack } | Ques
   { eager: true }
 );
 
-export const DISCOVERED_PACK_FILES: { path: string; moduleKey: string; added: number }[] = [];
+export const DISCOVERED_PACK_FILES: DiscoveredPackEntry[] = [];
 
 Object.entries(discoveredPackModules).forEach(([filePath, mod]) => {
   const payload = mod && typeof mod === "object" && "default" in mod ? mod.default : mod;
   const res = applyQuestionPackToBank(payload);
   if (res.ok && res.moduleKey) {
+    const normalizedPath = filePath.replace(/^\.\//, "src/data/");
+    const updatedAt =
+      buildAudit?.packMtimes?.[normalizedPath]?.updatedAt ||
+      buildAudit?.latestPackUpdatedAt ||
+      buildAudit?.builtAt ||
+      "";
     DISCOVERED_PACK_FILES.push({
-      path: filePath.replace(/^\.\//, "src/data/"),
+      path: normalizedPath,
       moduleKey: res.moduleKey,
       added: res.addedCount,
+      addedByLevel: res.addedByLevel,
+      updatedAt,
     });
   }
 });
@@ -6808,5 +6855,112 @@ getCustomQuestionPacks().forEach((customItem) => {
     applyQuestionPackToBank(customItem.pack);
   }
 });
+
+export interface ModulePackAuditRow {
+  moduleKey: string;
+  moduleTitle: string;
+  levelId: string;
+  baseTotal: number;
+  packAdded: number;
+  packAddedByLevel: LevelQuestionCounts;
+  simpleCount: number;
+  intermediateCount: number;
+  complexCount: number;
+  totalCount: number;
+  updatedAt: string;
+  packPath: string | null;
+}
+
+export function getQuestionBankAudit() {
+  const packMap = new Map<string, DiscoveredPackEntry>();
+  DISCOVERED_PACK_FILES.forEach((entry) => {
+    packMap.set(entry.moduleKey, entry);
+  });
+
+  const customPacks = getCustomQuestionPacks();
+  const customLatestAt = customPacks.reduce((latest, item) => {
+    const ts = Date.parse(item.uploadedAt || "");
+    return ts > latest ? ts : latest;
+  }, 0);
+
+  let totalSimple = 0;
+  let totalIntermediate = 0;
+  let totalComplex = 0;
+  let totalBase = 0;
+  let totalPackAdded = 0;
+
+  const modules: ModulePackAuditRow[] = Object.keys(QUESTION_BANK)
+    .sort()
+    .map((key) => {
+      const mod = QUESTION_BANK[key];
+      const base = BASE_QUESTION_COUNTS[key] || { simple: 0, intermediate: 0, complex: 0 };
+      const baseTotal = base.simple + base.intermediate + base.complex;
+      const simpleCount = (mod.levels.simple || []).length;
+      const intermediateCount = (mod.levels.intermediate || []).length;
+      const complexCount = (mod.levels.complex || []).length;
+      const totalCount = simpleCount + intermediateCount + complexCount;
+
+      const packEntry = packMap.get(key);
+      const packAdded = packEntry ? packEntry.added : Math.max(0, totalCount - baseTotal);
+      const packAddedByLevel = packEntry
+        ? packEntry.addedByLevel
+        : {
+            simple: Math.max(0, simpleCount - base.simple),
+            intermediate: Math.max(0, intermediateCount - base.intermediate),
+            complex: Math.max(0, complexCount - base.complex),
+          };
+
+      totalSimple += simpleCount;
+      totalIntermediate += intermediateCount;
+      totalComplex += complexCount;
+      totalBase += baseTotal;
+      totalPackAdded += packAdded;
+
+      const updatedAt =
+        packEntry?.updatedAt ||
+        buildAudit?.baseUpdatedAt ||
+        buildAudit?.builtAt ||
+        "";
+
+      return {
+        moduleKey: key,
+        moduleTitle: mod.title || key,
+        levelId: key.split("/")[0] || "other",
+        baseTotal,
+        packAdded,
+        packAddedByLevel,
+        simpleCount,
+        intermediateCount,
+        complexCount,
+        totalCount,
+        updatedAt,
+        packPath: packEntry?.path || null,
+      };
+    });
+
+  const latestPackMs = Date.parse(buildAudit?.latestPackUpdatedAt || "") || 0;
+  const overallLatestMs = Math.max(latestPackMs, customLatestAt);
+  const latestUpdatedAt =
+    overallLatestMs > 0
+      ? new Date(overallLatestMs).toISOString()
+      : buildAudit?.builtAt || new Date().toISOString();
+
+  return {
+    builtAt: buildAudit?.builtAt || latestUpdatedAt,
+    latestUpdatedAt,
+    moduleCount: modules.length,
+    packFileCount: DISCOVERED_PACK_FILES.length,
+    customPackCount: customPacks.filter((c) => c.isActive !== false).length,
+    totalSimple,
+    totalIntermediate,
+    totalComplex,
+    grandTotal: totalSimple + totalIntermediate + totalComplex,
+    totalBase,
+    totalPackAdded,
+    modules,
+    customPacks,
+  };
+}
+
 
 

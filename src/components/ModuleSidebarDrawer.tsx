@@ -12,6 +12,7 @@ import {
   toggleFavorite,
 } from "../utils/storage";
 import { OPEN_SIDEBAR_EVENT, SidebarFilterTab } from "./SidebarControls";
+import { applyPWAUpdate, checkForPWAUpdate, usePWAUpdateStatus } from "./PWAControls";
 
 interface ModuleSidebarDrawerProps {
   currentRoute: string;
@@ -30,6 +31,7 @@ export const ModuleSidebarDrawer: React.FC<ModuleSidebarDrawerProps> = ({
   const [history, setHistory] = useState<ModuleHistoryEntry[]>(() => getModuleHistory());
   const [scores, setScores] = useState<Record<string, number>>(() => getScores());
   const [checks, setChecks] = useState<Record<string, boolean[]>>(() => getChecks());
+  const pwaUpdate = usePWAUpdateStatus();
 
   const searchInputRef = useRef<HTMLInputElement | null>(null);
 
@@ -411,6 +413,31 @@ export const ModuleSidebarDrawer: React.FC<ModuleSidebarDrawerProps> = ({
           <button type="button" onClick={() => handleNavAction("logs/error-journal.html")}>
             Error Journal
           </button>
+          <button
+            type="button"
+            className={`sidebar-pwa-update-btn ${pwaUpdate.needRefresh ? "is-update-ready" : ""}`}
+            onClick={() => {
+              if (pwaUpdate.needRefresh) {
+                void applyPWAUpdate();
+              } else {
+                void checkForPWAUpdate({ manual: true });
+              }
+            }}
+            disabled={pwaUpdate.isChecking || pwaUpdate.isUpdating}
+          >
+            {pwaUpdate.isUpdating
+              ? "Memperbarui..."
+              : pwaUpdate.needRefresh
+                ? "● Perbarui Versi Baru →"
+                : pwaUpdate.isChecking
+                  ? "Memeriksa Update..."
+                  : "↻ Cek Update PWA"}
+          </button>
+          {pwaUpdate.statusMessage && !pwaUpdate.needRefresh && (
+            <p className="sidebar-pwa-status" role="status" aria-live="polite">
+              {pwaUpdate.statusMessage}
+            </p>
+          )}
         </div>
       </aside>
     </div>

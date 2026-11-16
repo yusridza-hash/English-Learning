@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { CURRICULUM } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
-import { QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
+import { getQuestionBankAudit, QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
 import { addErrorJournalEntry, saveScore } from "../utils/storage";
 import { AIQuestionPackStudio } from "./AIQuestionPackStudio";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
@@ -40,26 +41,72 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
   const [currentModuleKey, setCurrentModuleKey] = useState<string>(moduleKeys[0] || "");
   const [currentLevelFilter, setCurrentLevelFilter] = useState<"all" | LevelKey>("all");
   const [questionStates, setQuestionStates] = useState<Record<string, BankQuestionState>>({});
+  const [overviewExpanded, setOverviewExpanded] = useState<boolean>(false);
+  const [auditLevelFilter, setAuditLevelFilter] = useState<string>("all");
+  const [auditSearch, setAuditSearch] = useState<string>("");
 
   useEffect(() => {
     document.body.dataset.module = "word-choice-bank";
     document.title = "Bank Soal — English Learning";
   }, []);
 
+  const bankAudit = useMemo(() => getQuestionBankAudit(), [packVersion]);
+
   const summaryRows = useMemo(() => {
-    const levelStats: Record<LevelKey, number> = { simple: 0, intermediate: 0, complex: 0 };
-    moduleKeys.forEach((key) => {
-      LEVEL_ORDER.forEach((lvl) => {
-        const qs = QUESTION_BANK[key]?.levels[lvl] || [];
-        levelStats[lvl] += qs.length;
-      });
-    });
     return [
-      { name: "Basic (simple)", count: levelStats.simple },
-      { name: "Intermediate", count: levelStats.intermediate },
-      { name: "Advanced (complex)", count: levelStats.complex },
+      { name: "Basic (simple)", count: bankAudit.totalSimple, added: bankAudit.modules.reduce((s, m) => s + m.packAddedByLevel.simple, 0) },
+      { name: "Intermediate", count: bankAudit.totalIntermediate, added: bankAudit.modules.reduce((s, m) => s + m.packAddedByLevel.intermediate, 0) },
+      { name: "Advanced (complex)", count: bankAudit.totalComplex, added: bankAudit.modules.reduce((s, m) => s + m.packAddedByLevel.complex, 0) },
     ];
-  }, [moduleKeys, packVersion]);
+  }, [bankAudit]);
+
+  const levelAuditRows = useMemo(() => {
+    return CURRICULUM.map((lvl) => {
+      const mods = bankAudit.modules.filter((m) => m.levelId === lvl.id);
+      const latestMs = mods.reduce((max, m) => {
+        const ts = Date.parse(m.updatedAt || "");
+        return ts > max ? ts : max;
+      }, 0);
+      return {
+        id: lvl.id,
+        title: lvl.title,
+        moduleCount: mods.length,
+        baseTotal: mods.reduce((s, m) => s + m.baseTotal, 0),
+        packAdded: mods.reduce((s, m) => s + m.packAdded, 0),
+        simple: mods.reduce((s, m) => s + m.simpleCount, 0),
+        intermediate: mods.reduce((s, m) => s + m.intermediateCount, 0),
+        complex: mods.reduce((s, m) => s + m.complexCount, 0),
+        total: mods.reduce((s, m) => s + m.totalCount, 0),
+        updatedAt: latestMs > 0 ? new Date(latestMs).toISOString() : bankAudit.latestUpdatedAt,
+      };
+    });
+  }, [bankAudit]);
+
+  const filteredAuditModules = useMemo(() => {
+    const q = auditSearch.trim().toLowerCase();
+    return bankAudit.modules.filter((m) => {
+      if (auditLevelFilter !== "all" && m.levelId !== auditLevelFilter) return false;
+      if (!q) return true;
+      return (
+        m.moduleKey.toLowerCase().includes(q) ||
+        m.moduleTitle.toLowerCase().includes(q) ||
+        (m.packPath || "").toLowerCase().includes(q)
+      );
+    });
+  }, [bankAudit.modules, auditLevelFilter, auditSearch]);
+
+  const formatAuditDateTime = (iso: string) => {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "—";
+    return d.toLocaleString("id-ID", {
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  };
 
   const levelsToShow: LevelKey[] = useMemo(
     () => (currentLevelFilter === "all" ? LEVEL_ORDER : [currentLevelFilter]),
@@ -362,13 +409,42 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
         </section>
 
         <section id="bankOverview" className="bank-overview">
-          <h2>Ringkasan Modul</h2>
+          <div className="bank-overview-head">
+            <h2>Ringkasan Modul</h2>
+            <button
+              type="button"
+              className="filter-pill"
+              aria-expanded={overviewExpanded}
+              onClick={() => setOverviewExpanded((v) => !v)}
+            >
+              {overviewExpanded
+                ? "▾ Tutup Rincian Update & Soal Masuk"
+                : "▸ Expand: Cek Tanggal Update & Soal Masuk"}
+            </button>
+          </div>
+
+          <div className="bank-audit-meta-strip">
+            <span>
+              <b>Total Soal Aktif:</b> {bankAudit.grandTotal.toLocaleString("id-ID")} soal (
+              {bankAudit.moduleCount} modul)
+            </span>
+            <span>
+              <b>Soal Masuk dari Pack:</b> +{bankAudit.totalPackAdded.toLocaleString("id-ID")} soal
+              ({bankAudit.packFileCount} file pack
+              {bankAudit.customPackCount > 0 ? ` + ${bankAudit.customPackCount} pack kustom` : ""})
+            </span>
+            <span>
+              <b>Update Soal Terakhir:</b> {formatAuditDateTime(bankAudit.latestUpdatedAt)}
+            </span>
+          </div>
+
           <table>
             <thead>
               <tr>
                 <th>Level</th>
                 <th>Jumlah Modul</th>
                 <th>Jumlah Soal</th>
+                <th>Soal Masuk (Pack)</th>
                 <th>Target Skor</th>
               </tr>
             </thead>
@@ -377,12 +453,199 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
                 <tr key={row.name}>
                   <td>{row.name}</td>
                   <td>{moduleKeys.length}</td>
-                  <td>{row.count}</td>
+                  <td style={{ fontFamily: "var(--mono)", fontWeight: 700 }}>
+                    {row.count.toLocaleString("id-ID")}
+                  </td>
+                  <td style={{ fontFamily: "var(--mono)", color: "var(--edu-good)" }}>
+                    +{row.added.toLocaleString("id-ID")}
+                  </td>
                   <td>80%</td>
                 </tr>
               ))}
             </tbody>
+            <tfoot>
+              <tr className="bank-summary-total-row">
+                <td>
+                  <strong>TOTAL KESELURUHAN</strong>
+                </td>
+                <td>
+                  <strong>{moduleKeys.length}</strong>
+                </td>
+                <td style={{ fontFamily: "var(--mono)" }}>
+                  <strong>{bankAudit.grandTotal.toLocaleString("id-ID")}</strong>
+                </td>
+                <td style={{ fontFamily: "var(--mono)", color: "var(--edu-good)" }}>
+                  <strong>+{bankAudit.totalPackAdded.toLocaleString("id-ID")}</strong>
+                </td>
+                <td>
+                  <strong>80%</strong>
+                </td>
+              </tr>
+            </tfoot>
           </table>
+
+          {overviewExpanded && (
+            <div className="bank-audit-expanded" role="region" aria-label="Rincian tanggal update dan soal masuk">
+              <div className="bank-audit-build-note">
+                <span>
+                  <b>Waktu Build Bundle Aktif:</b> {formatAuditDateTime(bankAudit.builtAt)}
+                </span>
+                <span>
+                  <b>Soal Dasar Bawaan:</b> {bankAudit.totalBase.toLocaleString("id-ID")} soal ·{" "}
+                  <b>Total Akhir Gabungan:</b> {bankAudit.grandTotal.toLocaleString("id-ID")} soal
+                </span>
+              </div>
+
+              <h3>1. Rincian per Level Kurikulum</h3>
+              <div className="bank-audit-table-wrap">
+                <table className="bank-audit-table">
+                  <thead>
+                    <tr>
+                      <th>Level Kurikulum</th>
+                      <th>Modul</th>
+                      <th>Simple</th>
+                      <th>Inter</th>
+                      <th>Complex</th>
+                      <th>Masuk (Pack)</th>
+                      <th>Total Soal</th>
+                      <th>Tanggal Update Terakhir</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {levelAuditRows.map((lvl) => (
+                      <tr key={lvl.id}>
+                        <td>{lvl.title}</td>
+                        <td style={{ fontFamily: "var(--mono)" }}>{lvl.moduleCount}</td>
+                        <td style={{ fontFamily: "var(--mono)" }}>{lvl.simple}</td>
+                        <td style={{ fontFamily: "var(--mono)" }}>{lvl.intermediate}</td>
+                        <td style={{ fontFamily: "var(--mono)" }}>{lvl.complex}</td>
+                        <td style={{ fontFamily: "var(--mono)", color: "var(--edu-good)", fontWeight: 700 }}>
+                          +{lvl.packAdded}
+                        </td>
+                        <td style={{ fontFamily: "var(--mono)", fontWeight: 700 }}>{lvl.total}</td>
+                        <td style={{ fontFamily: "var(--mono)", fontSize: ".78rem" }}>
+                          {formatAuditDateTime(lvl.updatedAt)}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {bankAudit.customPacks.length > 0 && (
+                <>
+                  <h3>2. Log Pack Kustom / Impor Lokal ({bankAudit.customPacks.length})</h3>
+                  <div className="bank-audit-table-wrap">
+                    <table className="bank-audit-table">
+                      <thead>
+                        <tr>
+                          <th>Modul</th>
+                          <th>Status</th>
+                          <th>Jumlah Soal Masuk</th>
+                          <th>Tanggal Impor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {bankAudit.customPacks.map((cp) => {
+                          const cpCount =
+                            (cp.pack.levels.simple?.length || 0) +
+                            (cp.pack.levels.intermediate?.length || 0) +
+                            (cp.pack.levels.complex?.length || 0);
+                          return (
+                            <tr key={cp.id}>
+                              <td style={{ fontFamily: "var(--mono)" }}>{cp.pack.moduleKey}</td>
+                              <td>{cp.isActive !== false ? "Aktif" : "Nonaktif"}</td>
+                              <td style={{ fontFamily: "var(--mono)" }}>{cpCount}</td>
+                              <td style={{ fontFamily: "var(--mono)", fontSize: ".78rem" }}>
+                                {formatAuditDateTime(cp.uploadedAt)}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </>
+              )}
+
+              <div className="bank-audit-detail-head">
+                <h3>
+                  {bankAudit.customPacks.length > 0 ? "3." : "2."} Log Update per Modul &amp; File Pack (
+                  {filteredAuditModules.length}/{bankAudit.modules.length})
+                </h3>
+                <div className="bank-audit-filters">
+                  <select
+                    aria-label="Filter level audit soal"
+                    value={auditLevelFilter}
+                    onChange={(e) => setAuditLevelFilter(e.target.value)}
+                  >
+                    <option value="all">Semua Level</option>
+                    {CURRICULUM.map((lvl) => (
+                      <option key={lvl.id} value={lvl.id}>
+                        {lvl.title}
+                      </option>
+                    ))}
+                  </select>
+                  <input
+                    type="search"
+                    placeholder="Cari modul / nama topik..."
+                    value={auditSearch}
+                    onChange={(e) => setAuditSearch(e.target.value)}
+                    aria-label="Cari modul di rincian update soal"
+                  />
+                </div>
+              </div>
+
+              <div className="bank-audit-table-wrap is-scrollable">
+                <table className="bank-audit-table">
+                  <thead>
+                    <tr>
+                      <th>Modul</th>
+                      <th>Dasar</th>
+                      <th>Masuk (Pack)</th>
+                      <th>S / I / C</th>
+                      <th>Total</th>
+                      <th>Tanggal Update</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {filteredAuditModules.map((item) => (
+                      <tr key={item.moduleKey}>
+                        <td>
+                          <button
+                            type="button"
+                            className="bank-audit-jump-btn"
+                            onClick={() => {
+                              setCurrentModuleKey(item.moduleKey);
+                              document
+                                .getElementById("bankSelector")
+                                ?.scrollIntoView({ behavior: "smooth" });
+                            }}
+                          >
+                            <strong>{item.moduleTitle}</strong>
+                            <span>{item.moduleKey}</span>
+                          </button>
+                        </td>
+                        <td style={{ fontFamily: "var(--mono)" }}>{item.baseTotal}</td>
+                        <td style={{ fontFamily: "var(--mono)", color: "var(--edu-good)", fontWeight: 700 }}>
+                          +{item.packAdded}
+                        </td>
+                        <td style={{ fontFamily: "var(--mono)", fontSize: ".78rem" }}>
+                          {item.simpleCount}/{item.intermediateCount}/{item.complexCount}
+                        </td>
+                        <td style={{ fontFamily: "var(--mono)", fontWeight: 700 }}>
+                          {item.totalCount}
+                        </td>
+                        <td style={{ fontFamily: "var(--mono)", fontSize: ".76rem" }}>
+                          {formatAuditDateTime(item.updatedAt)}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
         </section>
 
         <section id="bankContent" className="bank-content">

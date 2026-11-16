@@ -6,6 +6,7 @@ import { GeneratedModuleView } from "./components/GeneratedModuleView";
 import { LegacyModuleView } from "./components/LegacyModuleView";
 import { LogsView } from "./components/LogsView";
 import { ModuleSidebarDrawer } from "./components/ModuleSidebarDrawer";
+import { PWAUpdateNotifier } from "./components/PWAControls";
 import { PresentSimplePilotView } from "./components/PresentSimplePilotView";
 import { QuestionBankManagementView } from "./components/QuestionBankManagementView";
 import { WordChoiceBankView } from "./components/WordChoiceBankView";
@@ -112,6 +113,7 @@ export const App: React.FC = () => {
   return (
     <>
       <ModuleSidebarDrawer currentRoute={currentRoute} onNavigate={handleNavigate} />
+      <PWAUpdateNotifier />
       {activeView}
     </>
   );

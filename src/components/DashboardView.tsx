@@ -3,6 +3,12 @@ import { BUILT, CURRICULUM, TOTAL_MODULES } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
 import { QUESTION_BANK } from "../data/questionBank";
 import {
+  getQuestionSignature,
+  pickNonRepeatingQuestions,
+  shuffleArray,
+  shuffleQuestionOptions,
+} from "../utils/questionRandomizer";
+import {
   getSpeechRate,
   getSpeechVoiceInfo,
   setSpeechRateMode,
@@ -83,7 +89,7 @@ function generateDailyReviewSet(
           moduleKey,
           moduleTitle: modData.title,
           levelKey: lvl,
-          question: q,
+          question: shuffleQuestionOptions(q),
         };
         if (isPriority) {
           priorityCandidates.push(item);
@@ -94,19 +100,23 @@ function generateDailyReviewSet(
     });
   });
 
-  const shuffle = <T,>(arr: T[]): T[] => {
-    const copy = [...arr];
-    for (let i = copy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [copy[i], copy[j]] = [copy[j], copy[i]];
-    }
-    return copy;
-  };
+  const itemSig = (item: DailyReviewItem) =>
+    `${item.moduleKey}::${item.levelKey}::${getQuestionSignature(item.question)}`;
 
-  const pickedPriority = shuffle(priorityCandidates).slice(0, Math.min(6, count));
+  const pickedPriority = pickNonRepeatingQuestions(
+    "daily::priority",
+    priorityCandidates,
+    itemSig,
+    Math.min(6, count)
+  );
   const remainingNeeded = count - pickedPriority.length;
-  const pickedGeneral = shuffle(allCandidates).slice(0, remainingNeeded);
-  return shuffle([...pickedPriority, ...pickedGeneral]);
+  const pickedGeneral = pickNonRepeatingQuestions(
+    "daily::general",
+    allCandidates,
+    itemSig,
+    remainingNeeded
+  );
+  return shuffleArray([...pickedPriority, ...pickedGeneral]);
 }
 
 export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
