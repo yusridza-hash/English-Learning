@@ -1,0 +1,218 @@
+{
+  "moduleKey": "02-intermediate/05-conditionals-1-2",
+  "title": "Conditional Type 1 & 2",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "First Conditional (Real future): If the weather ___ clear tomorrow, we will conduct the drone survey.",
+        "options": ["is", "will be", "was"],
+        "answer": 0,
+        "explanation": "Dalam First Conditional (kemungkinan nyata di masa depan), klausa 'if' WAJIB menggunakan Present Simple ('is'), sedangkan klausa utama memakai 'will + V1'.",
+        "hints": ["Klausa 'if' tidak boleh memakai 'will'.", "Gunakan Present Simple 'is'."],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "choice",
+        "prompt": "If our startup secures the venture capital grant, we ___ five senior machine learning engineers.",
+        "options": ["will hire", "hired", "would hire"],
+        "answer": 0,
+        "explanation": "Klausa 'if' memakai Present Simple ('secures'), maka main clause memakai modal masa depan: 'will hire'.",
+        "hints": ["First Conditional: If + Present Simple, will + V1.", "Gunakan 'will hire'."],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat First Conditional dengan 'unless'.",
+        "targetSentence": "Unless you register online you cannot attend the conference.",
+        "explanation": "'Unless' bermakna 'if not'. Klausa 'unless' memakai Present Simple 'register'.",
+        "hints": ["Awali dengan 'Unless you register online'.", "Klausa hasil: 'you cannot attend the conference'."],
+        "skill": "conditional-unless"
+      },
+      {
+        "type": "choice",
+        "prompt": "Second Conditional (Hypothetical / Unreal present): If I ___ more free time, I would learn full-stack development.",
+        "options": ["had", "have", "would have"],
+        "answer": 0,
+        "explanation": "Dalam Second Conditional (pengandaian tidak nyata di masa sekarang), klausa 'if' menggunakan Past Simple ('had'), dan klausa utama memakai 'would + V1'.",
+        "hints": ["Pengandaian masa sekarang yang tidak nyata (unreal present).", "Klausa 'if' memakai Past Simple 'had'."],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Second Conditional dengan 'would'.",
+        "targetSentence": "If she lived in Tokyo she would speak Japanese.",
+        "explanation": "If + Past Simple (lived) + would + V1 (speak).",
+        "hints": ["Klausa if: 'If she lived in Tokyo'.", "Main clause: 'she would speak Japanese'."],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "choice",
+        "prompt": "If I ___ you, I would consult a certified financial advisor before signing that contract.",
+        "options": ["were", "was", "am"],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris baku formal untuk Second Conditional (memberikan nasihat 'If I were you'), gunakan subjunctive 'were' untuk semua subjek (I/he/she/it).",
+        "hints": ["Subjunctive formal untuk pengandaian 'andai aku jadi kamu'.", "Gunakan 'were'."],
+        "skill": "conditional-subjunctive-were"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Second Conditional memberi nasihat.",
+        "targetSentence": "If I were you I would accept the job offer.",
+        "explanation": "If I were you + I would + base verb (accept) + the job offer.",
+        "hints": ["Mulai dengan formula 'If I were you'.", "Main clause: 'I would accept the job offer'."],
+        "skill": "conditional-subjunctive-were"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi dengan First Conditional.",
+        "dialogue": [
+          ["Supplier", "What if our production costs escalate next month?"],
+          ["Buyer", "If the price increases significantly, we ___ to renegotiate the volume quota."]
+        ],
+        "options": ["will have", "would have", "had"],
+        "answer": 0,
+        "explanation": "Klausa 'if' memakai Present Simple ('increases'), maka konsekuensi masa depan memakai 'will have to renegotiate'.",
+        "hints": ["First Conditional nyata.", "Gunakan 'will have'."],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "choice",
+        "prompt": "What ___ you do if you suddenly discovered an unpatched security breach on the server?",
+        "options": ["would", "will", "did"],
+        "answer": 0,
+        "explanation": "Klausa 'if' menggunakan Past Simple ('discovered'), menandakan situasi hipotetis (Second Conditional), sehingga pertanyaan memakai 'would you do'.",
+        "hints": ["Situasi hipotetis di masa sekarang.", "Gunakan modal 'would'."],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "choice",
+        "prompt": "In First Conditional, we can use modals like 'can' or 'may' in the main clause: 'If you complete the task early, you ___ leave the office.'",
+        "options": ["may", "would", "might have"],
+        "answer": 0,
+        "explanation": "Klausa utama First Conditional dapat memakai modal lain seperti 'may' (izin), 'can' (kemampuan), atau 'should' (saran) selain 'will'.",
+        "hints": ["Memberikan izin bersyarat.", "Gunakan modal 'may'."],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Second Conditional dengan modal kemungkinan 'could'.",
+        "targetSentence": "If we had more budget we could hire two developers.",
+        "explanation": "If + Past Simple (had) + could + base verb (hire) + two developers.",
+        "hints": ["Klausa if: 'If we had more budget'.", "Main clause memakai 'we could hire two developers'."],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Provided that the client ___ the wire transfer by 3 p.m., the goods will be dispatched today.",
+        "options": ["completes", "will complete", "completed"],
+        "answer": 0,
+        "explanation": "'Provided that' bertindak sebagai pengganti 'if'. Di dalam klausanya, gunakan Present Simple ('completes').",
+        "hints": ["'Provided that' berfungsi sama seperti 'if'.", "Gunakan Present Simple 'completes'."],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengandaian dengan 'as long as'.",
+        "targetSentence": "You can borrow my car as long as you drive carefully.",
+        "explanation": "Main clause (You can borrow my car) + as long as + Present Simple clause (you drive carefully).",
+        "hints": ["Klausa izin: 'You can borrow my car'.", "Klausa syarat: 'as long as you drive carefully'."],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk hipotetis yang tepat dalam dialog karir.",
+        "dialogue": [
+          ["Mentor", "Why don't you apply for the regional vice president position?"],
+          ["Manager", "If I applied, I ___ have to relocate my family abroad, which I don't want to do."]
+        ],
+        "options": ["would", "will", "can"],
+        "answer": 0,
+        "explanation": "Subjek tidak berniat melamar secara riil ('which I don't want to do'), jadi ini situasi hipotetis Second Conditional: 'If I applied, I would have to...'.",
+        "hints": ["Situasi hipotetis yang tidak diniatkan terjadi.", "Gunakan 'would'."],
+        "skill": "conditional-type-2"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan memasukkan 'would' ke dalam klausa 'if'.",
+        "draft": "If the company would invest in cybersecurity, our customer data would be much safer.",
+        "options": [
+          "If the company invested in cybersecurity, our customer data would be much safer.",
+          "If the company had invested in cybersecurity, our customer data would be much safer.",
+          "If the company will invest in cybersecurity, our customer data would be much safer."
+        ],
+        "answer": 0,
+        "explanation": "Kesalahan 'would in the if-clause': modal 'would' TIDAK BOLEH diletakkan di dalam klausa 'if'. Rumus Second Conditional yang benar: If + Past Simple ('invested'), ... would + V1.",
+        "hints": ["Modal 'would' pantang ditaruh di dalam klausa 'if'.", "Ubah menjadi Past Simple 'If the company invested'."],
+        "skill": "conditional-type-2-error"
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal Inversion First Conditional (omitting 'if'): '___ you require further technical documentation, please contact our support desk.'",
+        "options": ["Should", "If should", "Had"],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris bisnis formal, 'if' dapat dihilangkan dengan membalik modal 'Should' ke awal kalimat (Inverted First Conditional): 'Should you require...' = 'If you require...'.",
+        "hints": ["Inversi formal menggantikan 'if' dengan 'Should' di awal.", "Gunakan 'Should you require'."],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal Inversion Second Conditional: '___ the board to reject the proposal, the merger would collapse immediately.'",
+        "options": ["Were", "If were", "Had"],
+        "answer": 0,
+        "explanation": "Inversi formal Second Conditional: 'Were + Subject + to-infinitive' ('Were the board to reject...') menggantikan 'If the board rejected...'.",
+        "hints": ["Inversi formal Second Conditional dengan 'Were... to-infinitive'.", "Gunakan 'Were' di awal kalimat."],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi formal Second Conditional.",
+        "targetSentence": "Were I in your position I would decline the offer.",
+        "explanation": "Inversi: Were I in your position (menggantikan 'If I were in your position') + I would decline the offer.",
+        "hints": ["Awali dengan inversi 'Were I in your position'.", "Main clause: 'I would decline the offer'."],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan antara tipe 1 (kemungkinan masa depan) dan tipe 2 (hipotetis masa kini).",
+        "draft": "If the sun rises in the east tomorrow, I would be surprised.",
+        "options": [
+          "If the sun rises in the east tomorrow, I will be surprised.",
+          "If the sun rose in the east tomorrow, I would be surprised.",
+          "If the sun will rise in the east tomorrow, I am surprised."
+        ],
+        "answer": 0,
+        "explanation": "Klausa 'if' menggunakan Present Simple 'rises', maka main clause harus konsisten dengan First Conditional menggunakan modal 'will': 'I will be surprised'.",
+        "hints": ["Jaga konsistensi antara klausa 'if' (Present) dan main clause (will).", "Gunakan 'will be surprised'."],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Supposing the transaction ___ disputed by the cardholder, what protocol would we follow?",
+        "options": ["were", "will be", "is being"],
+        "answer": 0,
+        "explanation": "'Supposing' bertindak sebagai konjungsi pengandaian hipotetis ('What if'). Diikuti oleh bentuk subjunctive lampau 'were': 'Supposing the transaction were disputed...'.",
+        "hints": ["Konjungsi pengandaian hipotetis 'Supposing'.", "Gunakan bentuk subjunctive 'were'."],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi dengan inversi formal 'Should'.",
+        "dialogue": [
+          ["Client", "What happens if our requirements change mid-project?"],
+          ["Consultant", "___ any scope adjustments arise, we will submit an addendum for mutual review."]
+        ],
+        "options": ["Should", "Were", "Had"],
+        "answer": 0,
+        "explanation": "Inverted First Conditional untuk kemungkinan masa depan dalam korespondensi bisnis formal: 'Should any scope adjustments arise' (setara dengan 'If any scope adjustments arise').",
+        "hints": ["Inversi formal masa depan dengan 'Should'.", "Diikuti kata kerja dasar 'arise'."],
+        "skill": "conditional-inversion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "moduleKey": "00-foundation/04-articles",
+  "title": "Articles: a, an, the",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "My colleague brought ___ umbrella because it looked cloudy.",
+        "options": ["a", "an", "the"],
+        "answer": 1,
+        "explanation": "Umbrella diawali bunyi vokal /ʌ/, sehingga memakai 'an'.",
+        "hints": ["Dengarkan bunyi awal kata 'umbrella'.", "Bunyi vokal memakai 'an', bukan 'a'."],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "She works at ___ European branch of our corporation.",
+        "options": ["a", "an", "the"],
+        "answer": 0,
+        "explanation": "'European' diawali bunyi konsonan semi-vokal /j/ (y-sound), sehingga memakai 'a', bukan 'an'.",
+        "hints": ["Perhatikan bunyi ucapan awal 'European' (/jʊərəˈpiːən/).", "Bunyi konsonan /j/ menggunakan 'a'."],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "We waited for ___ hour before the presentation started.",
+        "options": ["a", "an", "the"],
+        "answer": 1,
+        "explanation": "Huruf 'h' pada 'hour' tidak dibaca (silent h), sehingga diawali bunyi vokal /aʊər/ dan memakai 'an'.",
+        "hints": ["Huruf 'h' tidak berbunyi pada kata 'hour'.", "Bunyi vokal memerlukan article 'an'."],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan penggunaan article 'a' yang tepat.",
+        "targetSentence": "She works at a university in Jakarta.",
+        "explanation": "University diawali bunyi konsonan /juː/ sehingga memakai 'a university'.",
+        "hints": ["Mulai dengan subject 'She' lalu verb 'works'.", "Gunakan 'a university' sebelum 'in Jakarta.'"],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you pass me ___ pen on that table, please?",
+        "options": ["a", "an", "the"],
+        "answer": 2,
+        "explanation": "Pen spesifik yang sudah ditentukan lokasinya ('on that table') menggunakan definite article 'the'.",
+        "hints": ["Pen tersebut sudah spesifik lokasinya.", "Gunakan 'the' untuk benda yang sudah pasti/jelas."],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan article 'an' dan profesi.",
+        "targetSentence": "He wants to become an architect.",
+        "explanation": "'Architect' diawali bunyi vokal /ɑː/ dan merupakan sebutan profesi, memakai 'an'.",
+        "hints": ["Subjek adalah 'He'.", "Gunakan 'an architect' setelah frasa 'to become'."],
+        "skill": "articles-a-an"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at ___ moon tonight; it is exceptionally bright.",
+        "options": ["a", "an", "the"],
+        "answer": 2,
+        "explanation": "Benda yang hanya ada satu-satunya di alam semesta (unique entity) seperti moon, sun, sky memakai 'the'.",
+        "hints": ["Bulan hanya ada satu di bumi.", "Gunakan 'the' untuk objek yang unik di dunia."],
+        "skill": "articles-the"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan di ruang rapat berikut.",
+        "dialogue": [
+          ["Dina", "Did you review the contract I sent this morning?"],
+          ["Tomi", "Yes, ___ contract looks ready to sign."]
+        ],
+        "options": ["a", "an", "the"],
+        "answer": 2,
+        "explanation": "Benda sudah spesifik karena sudah disebutkan oleh Dina sebelumnya ('the contract').",
+        "hints": ["Apakah kontrak tersebut sudah diketahui oleh kedua pembicara?", "Gunakan 'the' untuk noun yang sudah disebut sebelumnya."],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "I bought a laptop and a tablet yesterday. ___ laptop is faster, but ___ tablet is more portable.",
+        "options": ["The / the", "A / a", "An / a"],
+        "answer": 0,
+        "explanation": "Pada penyebutan kedua (second mention), kedua benda sudah spesifik bagi pendengar, sehingga keduanya memakai 'the'.",
+        "hints": ["Benda sudah diperkenalkan pada kalimat pertama.", "Penyebutan kedua benda yang sama menggunakan 'the'."],
+        "skill": "articles-the"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbandingan menggunakan superlative dan article 'the'.",
+        "targetSentence": "This is the most efficient solution.",
+        "explanation": "Bentuk superlative (most efficient) selalu didahului definite article 'the'.",
+        "hints": ["Mulai dengan 'This is'.", "Gunakan 'the most efficient' sebelum noun 'solution'."],
+        "skill": "articles-the"
+      },
+      {
+        "type": "choice",
+        "prompt": "Mount Bromo is in Indonesia, but ___ Himalayas are in South Asia.",
+        "options": ["the / the", "zero article / the", "a / the"],
+        "answer": 1,
+        "explanation": "Gunung tunggal (Mount Bromo) tidak memakai article, sedangkan pegunungan rantai jamak (The Himalayas, The Alps) memakai 'the'.",
+        "hints": ["Gunung tunggal tidak memakai 'the'.", "Rangkaian pegunungan jamak memakai 'the'."],
+        "skill": "articles-geography"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih article yang tepat untuk melengkapi dialog tentang alat musik.",
+        "dialogue": [
+          ["Teacher", "Do you play any musical instruments?"],
+          ["Student", "Yes, I play ___ guitar every evening."]
+        ],
+        "options": ["the", "a", "zero article"],
+        "answer": 0,
+        "explanation": "Ketika membicarakan kemampuan memainkan alat musik secara umum, gunakan 'the': 'play the guitar/piano'.",
+        "hints": ["Alat musik yang dimainkan secara umum memakai 'the'.", "Contoh: play the piano, play the guitar."],
+        "skill": "articles-instruments"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ Pacific Ocean is the largest ocean on Earth.",
+        "options": ["The", "A", "Zero article"],
+        "answer": 0,
+        "explanation": "Nama samudra, laut, dan sungai besar selalu memakai definite article 'the' (The Pacific Ocean, The Nile, The Red Sea).",
+        "hints": ["Nama samudra dan laut menggunakan 'the'.", "Contoh: The Atlantic, The Pacific."],
+        "skill": "articles-geography"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang membedakan penyebutan pertama (indefinite) dan kedua (definite).",
+        "targetSentence": "We hired a consultant and the consultant helped us.",
+        "explanation": "Pertama kali disebut: 'a consultant'; setelah diketahui spesifik: 'the consultant'.",
+        "hints": ["Gunakan 'a consultant' terlebih dahulu.", "Lanjutkan dengan 'and the consultant helped us'."],
+        "skill": "articles-the"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki penggunaan article pada catatan laporan berikut.",
+        "draft": "We need an information about the new shipping schedule.",
+        "options": [
+          "We need information about the new shipping schedule.",
+          "We need a information about the new shipping schedule.",
+          "We need the informations about a new shipping schedule."
+        ],
+        "answer": 0,
+        "explanation": "'Information' adalah uncountable noun sehingga tidak boleh memakai 'a/an' atau bentuk jamak '-s'.",
+        "hints": ["Periksa apakah kata 'information' dapat dihitung (countable) atau tidak (uncountable).", "Uncountable noun tidak memakai 'a' maupun 'an'."],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "choice",
+        "prompt": "He was admitted to ___ hospital because he was ill, but his brother went to ___ hospital to visit him.",
+        "options": [
+          "zero article / the",
+          "the / zero article",
+          "a / a"
+        ],
+        "answer": 0,
+        "explanation": "Sebagai pasien yang memanfaatkan fungsi primer institusi (hospital, school, prison, university), gunakan zero article ('in hospital'). Sebagai pengunjung bangunan fisik spesifik, gunakan 'the hospital'.",
+        "hints": ["Pasien menjalani rawat inap: tanpa article (in hospital).", "Pengunjung mendatangi gedung fisiknya: memakai 'the'."],
+        "skill": "articles-institutions"
+      },
+      {
+        "type": "choice",
+        "prompt": "The organization works to protect ___ endangered species around the globe.",
+        "options": ["zero article", "the", "a"],
+        "answer": 0,
+        "explanation": "Plural noun yang dibicarakan secara umum ('endangered species' secara global) menggunakan zero article.",
+        "hints": ["Apakah merujuk pada spesies terancam punah secara umum di dunia?", "Plural umum tidak memakai 'the'."],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang membedakan makna general abstract noun dengan specific noun.",
+        "targetSentence": "Life is short but the life of this battery is long.",
+        "explanation": "'Life' secara filosofis umum tidak memakai article, sedangkan 'the life of this battery' spesifik pada baterai tertentu.",
+        "hints": ["'Life' di awal bermakna kehidupan secara umum.", "Gunakan 'the life of this battery' untuk benda spesifik."],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi penggunaan article untuk nama negara dan federasi politik.",
+        "draft": "Delegates from United Kingdom and France signed the bilateral accord.",
+        "options": [
+          "Delegates from the United Kingdom and France signed the bilateral accord.",
+          "Delegates from United Kingdom and the France signed the bilateral accord.",
+          "Delegates from the United Kingdom and the France signed the bilateral accord."
+        ],
+        "answer": 0,
+        "explanation": "Negara yang mengandung kata 'Kingdom', 'Republic', atau 'States' harus memakai 'the' (the UK, the USA). Negara nama tunggal seperti France, Japan, Indonesia tidak memakai 'the'.",
+        "hints": ["'United Kingdom' berstatus serikat/kerajaan, membutuhkan 'the'.", "'France' adalah nama negara tunggal tanpa 'the'."],
+        "skill": "articles-geography"
+      },
+      {
+        "type": "choice",
+        "prompt": "The study analyzes ___ impact of artificial intelligence on ___ society.",
+        "options": ["the / zero article", "an / the", "the / the"],
+        "answer": 0,
+        "explanation": "'The impact of...' adalah spesifik dampak dari AI, sedangkan 'society' (masyarakat luas) digunakan secara umum tanpa article.",
+        "hints": ["'Impact of...' dibatasi spesifik oleh frasa 'of AI', gunakan 'the'.", "'Society' secara luas tidak memakai 'the'."],
+        "skill": "articles-zero"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog formal akademis mengenai generalisasi kelompok sosial.",
+        "dialogue": [
+          ["Sociologist", "How can public policies support vulnerable citizens?"],
+          ["Analyst", "Governments must allocate more resources to assist ___ elderly and ___ unemployed."]
+        ],
+        "options": [
+          "the / the",
+          "a / an",
+          "zero article / zero article"
+        ],
+        "answer": 0,
+        "explanation": "Ketika kata sifat (adjective) digunakan untuk merujuk pada seluruh kelompok orang secara kolektif (the + adjective = plural noun), gunakan 'the' (the elderly, the rich, the unemployed).",
+        "hints": ["Pola 'the + adjective' mewakili kelompok orang secara keseluruhan.", "Contoh: the elderly (kaum lansia), the poor (kaum miskin)."],
+        "skill": "articles-the"
+      }
+    ]
+  }
+}

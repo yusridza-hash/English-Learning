@@ -8,6 +8,9 @@ import {
   saveVocabLog,
   VocabEntry,
 } from "../utils/storage";
+import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SpeakButton } from "./SpeakButton";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface LogsViewProps {
   mode: "vocab" | "error";
@@ -37,6 +40,8 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
       mode === "vocab"
         ? "Vocab Log — English Learning"
         : "Error Journal — English Learning";
+    setVocabList(getVocabLog());
+    setErrorList(getErrorJournal());
   }, [mode]);
 
   const allModules = CURRICULUM.flatMap((lvl) =>
@@ -104,10 +109,15 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
 
   return (
     <>
+      <OfflineIndicator />
       <nav>
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>
+        <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
+          Question Bank
+        </a>
+
         <a
           href="word-choice-bank.html"
           onClick={(e) => handleLinkClick(e, "word-choice-bank.html")}
@@ -126,6 +136,8 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
         >
           Error Journal
         </a>
+        <PWAInstallButton />
+        <ThemeToggle />
       </nav>
 
       {mode === "vocab" ? (
@@ -134,7 +146,8 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
           <h1>Vocab Log</h1>
           <p className="module-intro">
             Catat kosakata baru, kelas kata, arti, dan contoh penggunaannya dalam kalimat dari
-            modul yang sedang kamu pelajari.
+            modul yang sedang kamu pelajari. Klik tombol Listen untuk mendengarkan pelafalan secara
+            offline.
           </p>
 
           <section>
@@ -206,7 +219,12 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
                     {vocabList.map((item) => (
                       <tr key={item.id}>
                         <td>
-                          <b>{item.word}</b>
+                          <div>
+                            <b>{item.word}</b>
+                          </div>
+                          <div style={{ marginTop: ".25rem" }}>
+                            <SpeakButton text={item.word} label="Word" />
+                          </div>
                         </td>
                         <td>
                           <code>{item.partOfSpeech}</code>
@@ -214,8 +232,9 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
                         <td>
                           <div>{item.meaning}</div>
                           {item.example && (
-                            <div style={{ color: "var(--muted)", fontSize: ".88rem" }}>
-                              <i>{item.example}</i>
+                            <div style={{ color: "var(--muted)", fontSize: ".88rem", marginTop: ".25rem" }}>
+                              <i>{item.example}</i>{" "}
+                              <SpeakButton text={item.example} label="Sentence" />
                             </div>
                           )}
                         </td>
@@ -256,7 +275,8 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
           <h1>Error Journal</h1>
           <p className="module-intro">
             Dokumentasikan kalimat yang sering keliru beserta perbaikannya dan aturan grammar yang
-            mendasarinya agar kesalahan tidak berulang.
+            mendasarinya. Soal kuis yang salah 3 kali atau disimpan dari latihan akan otomatis
+            masuk ke daftar ini.
           </p>
 
           <section>
@@ -320,7 +340,12 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
                           <span className="guided-error">{item.wrongSentence}</span>
                         </td>
                         <td>
-                          <b>{item.correctSentence}</b>
+                          <div>
+                            <b>{item.correctSentence}</b>
+                          </div>
+                          <div style={{ marginTop: ".25rem" }}>
+                            <SpeakButton text={item.correctSentence} label="Listen" />
+                          </div>
                         </td>
                         <td>
                           {item.ruleNote && <div>{item.ruleNote}</div>}
@@ -360,3 +385,4 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
     </>
   );
 };
+

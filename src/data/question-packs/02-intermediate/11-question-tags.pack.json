@@ -1,0 +1,350 @@
+{
+  "moduleKey": "02-intermediate/11-question-tags",
+  "title": "Question Tags",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "You are the new project manager, ___?",
+        "options": [
+          "aren't you",
+          "are you",
+          "isn't it"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat positif dengan to be 'are' berpasangan dengan question tag negatif: 'aren't you?'.",
+        "hints": [
+          "Kalimat positif membutuhkan tag negatif.",
+          "To be 'are' berpasangan dengan 'aren't you'."
+        ],
+        "skill": "question-tag-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She doesn't work on weekends, ___?",
+        "options": [
+          "does she",
+          "doesn't she",
+          "is she"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat negatif dengan auxiliary 'doesn't' berpasangan dengan question tag positif: 'does she?'.",
+        "hints": [
+          "Kalimat negatif berpasangan dengan tag positif.",
+          "Auxiliary 'does' + subjek 'she'."
+        ],
+        "skill": "question-tag-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan question tag positif.",
+        "targetSentence": "They weren't surprised were they?",
+        "explanation": "Kalimat negatif (They weren't surprised) + tag positif (were they?).",
+        "hints": [
+          "Mulai dengan 'They weren't surprised'.",
+          "Tag positif: 'were they?'."
+        ],
+        "skill": "question-tag-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your brother speaks fluent German, ___?",
+        "options": [
+          "doesn't he",
+          "does he",
+          "isn't he"
+        ],
+        "answer": 0,
+        "explanation": "Present Simple positif dengan subjek orang ketiga tunggal (speaks) menggunakan auxiliary negatif: 'doesn't he?'.",
+        "hints": [
+          "Main verb 'speaks' menggunakan auxiliary 'does'.",
+          "Bentuk negatif: 'doesn't he?'."
+        ],
+        "skill": "question-tag-auxiliary"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan question tag Past Simple.",
+        "targetSentence": "He finished the report didn't he?",
+        "explanation": "Kalimat positif Past Simple (He finished the report) + tag negatif (didn't he?).",
+        "hints": [
+          "Past Simple positif: 'He finished the report'.",
+          "Tag: 'didn't he?'."
+        ],
+        "skill": "question-tag-auxiliary"
+      },
+      {
+        "type": "choice",
+        "prompt": "We have met before at the Singapore summit, ___?",
+        "options": [
+          "haven't we",
+          "have we",
+          "didn't we"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect positif (have met) berpasangan dengan tag: 'haven't we?'.",
+        "hints": [
+          "Auxiliary adalah 'have'.",
+          "Bentuk negatif: 'haven't we?'."
+        ],
+        "skill": "question-tag-auxiliary"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat modal dengan question tag.",
+        "targetSentence": "She can drive a manual car can't she?",
+        "explanation": "Modal positif (can drive) + tag negatif (can't she?).",
+        "hints": [
+          "Mulai dengan 'She can drive a manual car'.",
+          "Tag: 'can't she?'."
+        ],
+        "skill": "question-tag-modal"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tag pengecualian 'I am'.",
+        "dialogue": [
+          [
+            "Colleague",
+            "I am scheduled to deliver the presentation first, ___?"
+          ],
+          [
+            "Coordinator",
+            "Yes, you are right after the keynote address."
+          ]
+        ],
+        "options": [
+          "aren't I",
+          "am not I",
+          "amn't I"
+        ],
+        "answer": 0,
+        "explanation": "Pengecualian baku bahasa Inggris: tag negatif untuk 'I am' adalah 'aren't I?' (bukan amn't I).",
+        "hints": [
+          "Pengecualian khusus untuk 'I am'.",
+          "Bentuk baku resminya adalah 'aren't I?'."
+        ],
+        "skill": "question-tag-exceptions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Imperative tag untuk ajakan 'Let's': 'Let's take a short coffee break, ___?'",
+        "options": [
+          "shall we",
+          "will you",
+          "don't we"
+        ],
+        "answer": 0,
+        "explanation": "Setelah ajakan 'Let's...', question tag baku yang selalu digunakan adalah 'shall we?'.",
+        "hints": [
+          "Ajakan 'Let's' selalu berpasangan dengan 'shall we'.",
+          "Gunakan 'shall we?'."
+        ],
+        "skill": "question-tag-imperative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Imperative tag untuk instruksi: 'Close the conference room door, ___?'",
+        "options": [
+          "will you",
+          "shall you",
+          "do you"
+        ],
+        "answer": 0,
+        "explanation": "Untuk kalimat perintah atau permintaan (imperative), question tag yang umum digunakan adalah 'will you?' atau 'would you?'.",
+        "hints": [
+          "Kalimat perintah (imperative).",
+          "Gunakan tag 'will you?'."
+        ],
+        "skill": "question-tag-imperative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan indefinite pronoun subjek 'they' pada tag.",
+        "targetSentence": "Everybody was satisfied with the outcome weren't they?",
+        "explanation": "Kata ganti indefinit seperti everybody/everyone bernilai tunggal pada klausa utama, namun digantikan oleh pronoun jamak 'they' pada tag: 'weren't they?'.",
+        "hints": [
+          "'Everybody' digantikan oleh 'they' pada tag.",
+          "To be menyesuaikan menjadi jamak: 'weren't they?'."
+        ],
+        "skill": "question-tag-pronouns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Kalimat dengan kata negatif implisit: 'She rarely attends the Friday meetings, ___?'",
+        "options": [
+          "does she",
+          "doesn't she",
+          "is she"
+        ],
+        "answer": 0,
+        "explanation": "Kata 'rarely', 'seldom', 'never', dan 'hardly' membuat klausa utama bernilai negatif, sehingga question tag WAJIB positif: 'does she?'.",
+        "hints": [
+          "'Rarely' bernilai negatif.",
+          "Tag harus dalam bentuk positif: 'does she?'."
+        ],
+        "skill": "question-tag-negative-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan 'nothing' dan tag 'it'.",
+        "targetSentence": "Nothing went wrong during the deployment did it?",
+        "explanation": "'Nothing' bernilai negatif dan digantikan oleh pronoun 'it' pada tag positif: 'did it?'.",
+        "hints": [
+          "'Nothing' bernilai negatif lampau.",
+          "Tag positif dengan pronoun 'it': 'did it?'."
+        ],
+        "skill": "question-tag-pronouns"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih intonasi dan konfirmasi yang tepat.",
+        "dialogue": [
+          [
+            "Speaker",
+            "You haven't seen my car keys anywhere, ___?"
+          ],
+          [
+            "Colleague",
+            "No, I haven't seen them all morning."
+          ]
+        ],
+        "options": [
+          "have you",
+          "haven't you",
+          "did you"
+        ],
+        "answer": 0,
+        "explanation": "Klausa negatif (haven't seen) + tag positif (have you?).",
+        "hints": [
+          "Klausa negatif membutuhkan tag positif.",
+          "Gunakan 'have you?'."
+        ],
+        "skill": "question-tag-basic"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tag pada klausa opini 'I don't think'.",
+        "draft": "I don't think the board will approve the acquisition, won't they?",
+        "options": [
+          "I don't think the board will approve the acquisition, will they?",
+          "I don't think the board will approve the acquisition, do I?",
+          "I don't think the board will approve the acquisition, wouldn't they?"
+        ],
+        "answer": 0,
+        "explanation": "Pada konstruksi 'I don't think + clause', negasi ditransfer dari klausa utama (transferred negation). Tag merujuk pada klausa subordinat ('the board will approve') dan harus berbentuk POSITIF: 'will they?'.",
+        "hints": [
+          "Negasi 'don't think' membuat klausa ide bernilai negatif.",
+          "Tag harus positif merujuk pada dewan: 'will they?'."
+        ],
+        "skill": "question-tag-transferred-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Intonasi turun (falling intonation) pada question tag menandakan bahwa pembicara...",
+        "options": [
+          "hanya meminta persetujuan / konfirmasi atas fakta yang sudah pasti diketahui",
+          "benar-benar bertanya karena tidak tahu jawabannya sama sekali",
+          "sedang memberikan perintah keras"
+        ],
+        "answer": 0,
+        "explanation": "Intonasi menurun (falling pitch) pada tag berarti pembicara tidak benar-benar bertanya, melainkan sekadar mengharapkan konfirmasi/persetujuan atas hal yang sudah ia yakini.",
+        "hints": [
+          "Intonasi turun pada tag menandakan kepastian/konfirmasi.",
+          "Bukan pertanyaan ketidaktahuan sejati."
+        ],
+        "skill": "question-tag-intonation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tag untuk subjek semu 'There': 'There isn't any milk left in the refrigerator, ___?'",
+        "options": [
+          "is there",
+          "is it",
+          "isn't there"
+        ],
+        "answer": 0,
+        "explanation": "Pada klausa yang diawali dummy 'There', subjek pada question tag tetap menggunakan 'there': 'is there?'.",
+        "hints": [
+          "Subjek 'there' dipertahankan pada tag.",
+          "Gunakan 'is there?'."
+        ],
+        "skill": "question-tag-there"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat instruksi negatif dengan tag 'will you'.",
+        "targetSentence": "Don't forget to lock the gate will you?",
+        "explanation": "Negative imperative: Don't forget + tag (will you?).",
+        "hints": [
+          "Mulai dengan perintah negatif 'Don't forget to lock the gate'.",
+          "Tag: 'will you?'."
+        ],
+        "skill": "question-tag-imperative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi pemilihan pronoun pada tag dengan subjek 'this/that'.",
+        "draft": "That is your new company laptop, isn't that?",
+        "options": [
+          "That is your new company laptop, isn't it?",
+          "That is your new company laptop, isn't that one?",
+          "That is your new company laptop, is it?"
+        ],
+        "answer": 0,
+        "explanation": "Kata penunjuk 'this' atau 'that' pada subjek digantikan oleh personal pronoun 'it' pada question tag: 'isn't it?' (bukan isn't that).",
+        "hints": [
+          "'That' digantikan oleh 'it' pada tag.",
+          "Gunakan 'isn't it?'."
+        ],
+        "skill": "question-tag-pronouns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tag untuk subjek jamak 'these/those': 'These are the finalized audit spreadsheets, ___?'",
+        "options": [
+          "aren't they",
+          "aren't these",
+          "aren't it"
+        ],
+        "answer": 0,
+        "explanation": "'These' atau 'those' pada subjek digantikan oleh personal pronoun jamak 'they' pada question tag: 'aren't they?'.",
+        "hints": [
+          "'These/those' digantikan oleh 'they'.",
+          "Gunakan 'aren't they?'."
+        ],
+        "skill": "question-tag-pronouns"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tag dengan klausa kompleks.",
+        "dialogue": [
+          [
+            "Analyst",
+            "Nobody had anticipated the sudden market downturn, ___?"
+          ],
+          [
+            "Senior Partner",
+            "No, it caught the entire financial sector completely off guard."
+          ]
+        ],
+        "options": [
+          "had they",
+          "hadn't they",
+          "didn't they"
+        ],
+        "answer": 0,
+        "explanation": "'Nobody' bernilai negatif lampau dan digantikan oleh pronoun 'they' pada tag positif: 'had they?'.",
+        "hints": [
+          "'Nobody' bernilai negatif dan digantikan 'they'.",
+          "Tag positif dengan Past Perfect: 'had they?'."
+        ],
+        "skill": "question-tag-pronouns"
+      }
+    ]
+  }
+}

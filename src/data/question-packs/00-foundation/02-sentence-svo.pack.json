@@ -1,0 +1,259 @@
+{
+  "moduleKey": "00-foundation/02-sentence-svo",
+  "title": "Sentence: SVO",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Identifikasi komponen Subject dalam kalimat: 'The new manager introduced the team yesterday.'",
+        "options": ["The new manager", "introduced", "the team"],
+        "answer": 0,
+        "explanation": "'The new manager' adalah pelaku tindakan (Subject) yang melakukan kata kerja 'introduced'.",
+        "hints": ["Siapakah pelaku yang melakukan aksi?", "Subjek biasanya berada di posisi paling awal sebelum kata kerja."],
+        "skill": "svo-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identifikasi komponen Object dalam kalimat: 'Our company signed a major contract.'",
+        "options": ["Our company", "signed", "a major contract"],
+        "answer": 2,
+        "explanation": "'A major contract' adalah hal/benda yang menerima aksi dari kata kerja 'signed', sehingga bertindak sebagai Direct Object.",
+        "hints": ["Apa yang ditandatangani?", "Objek langsung berada setelah kata kerja transitif."],
+        "skill": "svo-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata-kata acak ini ke dalam pola baku SVO (Subject + Verb + Object).",
+        "targetSentence": "The programmer fixed the critical bug.",
+        "explanation": "Pola SVO: Subject (The programmer) + Verb (fixed) + Object (the critical bug).",
+        "hints": ["Awali dengan pelaku 'The programmer'.", "Lanjutkan dengan aksi 'fixed' lalu objek yang diperbaiki."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat dengan urutan dasar bahasa Inggris (Subject - Verb - Object) yang tepat.",
+        "options": [
+          "The chef prepared a delicious meal.",
+          "Prepared the chef a delicious meal.",
+          "A delicious meal the chef prepared."
+        ],
+        "answer": 0,
+        "explanation": "Struktur kalimat deklaratif bahasa Inggris mengikuti pola urut S-V-O: Subject (The chef) + Verb (prepared) + Object (a delicious meal).",
+        "hints": ["Bahasa Inggris bukan pola Verb-Subject.", "Subjek harus mendahului kata kerja utama."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sederhana dengan pola SVO + keterangan waktu.",
+        "targetSentence": "We received the delivery this morning.",
+        "explanation": "Subject (We) + Verb (received) + Object (the delivery) + Time Adverbial (this morning).",
+        "hints": ["Subjek adalah 'We'.", "Letakkan keterangan waktu di akhir kalimat."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat 'The students read books quietly', kata 'quietly' berfungsi sebagai...",
+        "options": ["Object", "Adverbial (keterangan cara)", "Subject"],
+        "answer": 1,
+        "explanation": "'Books' adalah Object, sedangkan 'quietly' adalah Adverbial yang menjelaskan cara membaca.",
+        "hints": ["Apakah kata ini benda penderita aksi?", "Kata berakhiran -ly ini menerangkan bagaimana aksi dilakukan."],
+        "skill": "svo-adverbial"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata menjadi kalimat SVO yang lengkap dan alami.",
+        "targetSentence": "She teaches English to international students.",
+        "explanation": "Subject (She) + Verb (teaches) + Direct Object (English) + Prepositional Object (to international students).",
+        "hints": ["Mulai dengan pronoun 'She'.", "Lanjutkan dengan verb 'teaches' dan apa yang diajarkan."],
+        "skill": "svo-order"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan kalimat yang mengikuti urutan SVO secara tepat.",
+        "dialogue": [
+          ["Interviewer", "What did the research team discover during the field study?"],
+          ["Lead Researcher", "___"]
+        ],
+        "options": [
+          "They discovered a rare species in the forest.",
+          "Discovered they a rare species in the forest.",
+          "In the forest a rare species discovered they."
+        ],
+        "answer": 0,
+        "explanation": "Respon harus mengikuti urutan alami S (They) + V (discovered) + O (a rare species) + Adverbial (in the forest).",
+        "hints": ["Cari pola Subject (They) + Verb (discovered).", "Objek harus berada tepat setelah kata kerja transitif."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat berikut yang memiliki Direct Object dan Indirect Object (pola S-V-IO-DO)?",
+        "options": [
+          "The mentor gave me valuable advice.",
+          "The mentor advised me yesterday.",
+          "The mentor arrived early this morning."
+        ],
+        "answer": 0,
+        "explanation": "Subject (The mentor) + Verb (gave) + Indirect Object (me) + Direct Object (valuable advice).",
+        "hints": ["Cari kata kerja yang melibatkan penerima dan benda yang diberikan.", "'Gave' menghubungkan penerima (me) dan hal yang diberi (valuable advice)."],
+        "skill": "svo-indirect-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan urutan S-V-IO-DO yang benar.",
+        "targetSentence": "The company offered him a promotion.",
+        "explanation": "Subject (The company) + Verb (offered) + Indirect Object (him) + Direct Object (a promotion).",
+        "hints": ["Subject: The company.", "Penerima (him) diletakkan langsung sebelum barang/hal yang ditawarkan."],
+        "skill": "svo-indirect-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Jika urutan IO-DO diubah menggunakan preposisi 'to', bagaimanakah bentuk yang benar?",
+        "options": [
+          "The company offered a promotion to him.",
+          "The company offered to him a promotion.",
+          "The company to him offered a promotion."
+        ],
+        "answer": 0,
+        "explanation": "Ketika Direct Object mendahului penerima, gunakan frasa preposisi di akhir: Verb + DO + to + IO.",
+        "hints": ["Direct Object (a promotion) ditaruh setelah verb.", "Frasa 'to him' diletakkan di akhir."],
+        "skill": "svo-indirect-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan urutan SVO dan keterangan tempat.",
+        "targetSentence": "The board approved the expansion plan yesterday.",
+        "explanation": "Subject (The board) + Verb (approved) + Object (the expansion plan) + Time (yesterday).",
+        "hints": ["Mulai dengan subject 'The board'.", "Verb 'approved' diikuti objek rencana ekspansi."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan kalimat: 'The baby slept for eight hours.' Mengapa kalimat ini TIDAK memiliki Object?",
+        "options": [
+          "Karena 'slept' adalah intransitive verb yang tidak memerlukan objek penderita.",
+          "Karena subjeknya adalah kata tunggal.",
+          "Karena kalimat tersebut berbentuk lampau."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja intransitif seperti 'sleep', 'arrive', atau 'die' tidak membutuhkan dan tidak dapat menerima objek langsung.",
+        "hints": ["Apakah kata kerja 'tidur' mengenakan aksi pada suatu objek penderita?", "'For eight hours' adalah keterangan durasi, bukan objek."],
+        "skill": "svo-transitivity"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih klausa yang menyusun urutan SVO dengan kata hubung penjelas.",
+        "dialogue": [
+          ["Auditor", "Why was the transaction flagged?"],
+          ["Officer", "Because the client ___ without proper authorization."]
+        ],
+        "options": [
+          "transferred large sums of money",
+          "large sums of money transferred",
+          "transferred without money"
+        ],
+        "answer": 0,
+        "explanation": "Setelah subjek 'the client', urutan yang benar adalah Verb (transferred) + Object (large sums of money).",
+        "hints": ["Perhatikan posisi verb setelah subject.", "Objek 'large sums of money' harus berada setelah verb."],
+        "skill": "svo-order"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata letak adverbial yang memisahkan Verb dan Direct Object secara tidak alami.",
+        "draft": "She explained clearly the procedure to all incoming participants.",
+        "options": [
+          "She explained the procedure clearly to all incoming participants.",
+          "She the procedure explained clearly to all incoming participants.",
+          "Clearly she the procedure explained to all incoming participants."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris baku, jangan memisahkan Verb dan Direct Object dengan adverb. Pola yang benar: Verb (explained) + Object (the procedure) + Adverb (clearly).",
+        "hints": ["Objek langsung harus menempel erat setelah kata kerja transitifnya.", "Pindahkan adverb 'clearly' setelah objek."],
+        "skill": "svo-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi susunan kalimat agar tidak menempatkan objek di awal secara keliru.",
+        "draft": "The quarterly report submitted the financial analyst before the deadline.",
+        "options": [
+          "The financial analyst submitted the quarterly report before the deadline.",
+          "Submitted the financial analyst the quarterly report before the deadline.",
+          "Before the deadline the quarterly report submitted the financial analyst."
+        ],
+        "answer": 0,
+        "explanation": "Pelaku tindakan adalah 'The financial analyst' (Subject), sedangkan laporan adalah benda yang diserahkan (Object).",
+        "hints": ["Siapa yang menyerahkan dan apa yang diserahkan?", "Subject harus mendahului kata kerja aktif."],
+        "skill": "svo-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada pola Subject-Verb-Object-Complement (SVOC), manakah kalimat yang benar?",
+        "options": [
+          "The committee appointed Sarah chairperson.",
+          "The committee appointed to Sarah chairperson.",
+          "The committee Sarah chairperson appointed."
+        ],
+        "answer": 0,
+        "explanation": "Pola SVOC: Subject (The committee) + Verb (appointed) + Object (Sarah) + Object Complement (chairperson).",
+        "hints": ["Object Complement mendeskripsikan atau menamai ulang objek langsung.", "Tidak memerlukan preposisi tambahan seperti 'to'."],
+        "skill": "svo-complement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kompleks dengan pola SVOC (Subject + Verb + Object + Object Complement).",
+        "targetSentence": "The board considered the proposal extremely innovative.",
+        "explanation": "Subject (The board) + Verb (considered) + Object (the proposal) + Complement (extremely innovative).",
+        "hints": ["Mulai dengan 'The board'.", "Letakkan 'the proposal' sebelum frasa sifat 'extremely innovative'."],
+        "skill": "svo-complement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identifikasi kalimat yang menggunakan pola ergative di mana objek kata kerja transitif dapat menjadi subjek kata kerja intransitif.",
+        "options": [
+          "The heavy door opened slowly.",
+          "The security opened the door.",
+          "The door was opened by the guard."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja ergatif seperti 'open', 'close', atau 'boil' bisa berupa aktif transitif (He opened the door) maupun aktif intransitif tanpa objek (The door opened).",
+        "hints": ["Benda bergerak/berubah tanpa ada agen pelaku yang disebutkan.", "Bentuk kalimatnya tetap kalimat aktif, bukan pasif."],
+        "skill": "svo-ergative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat berikut yang menempatkan keterangan frekuensi di antara kata kerja transitif dan objeknya.",
+        "draft": "He checks always his notifications before going to sleep.",
+        "options": [
+          "He always checks his notifications before going to sleep.",
+          "He checks his notifications always before going to sleep.",
+          "Always he checks his notifications before going to sleep."
+        ],
+        "answer": 0,
+        "explanation": "Adverb of frequency (always, often, usually) diletakkan SEBELUM main verb, bukan di antara verb dan objek langsung.",
+        "hints": ["Letakkan 'always' sebelum kata kerja 'checks'.", "Jangan memotong hubungan antara 'checks' dan 'his notifications'."],
+        "skill": "svo-adverbial"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi struktur formal laporan hukum dengan urutan SVO yang presisi.",
+        "dialogue": [
+          ["Judge", "Has the defense presented its closing statement?"],
+          ["Bailiff", "Yes, your Honor. The attorney ___ thirty minutes ago."]
+        ],
+        "options": [
+          "concluded the argument",
+          "the argument concluded",
+          "concluded with the argument"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'The attorney' diikuti transitif verb 'concluded' dan objek 'the argument'.",
+        "hints": ["Perhatikan urutan S-V-O langsung.", "Verb transitif 'concluded' tidak memerlukan preposisi 'with'."],
+        "skill": "svo-order"
+      }
+    ]
+  }
+}

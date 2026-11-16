@@ -1,0 +1,218 @@
+{
+  "moduleKey": "01-elementary/01-past-simple",
+  "title": "Past Simple",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Our development team ___ the client's headquarters in Tokyo yesterday.",
+        "options": ["visited", "visit", "visiting"],
+        "answer": 0,
+        "explanation": "Keterangan waktu lampau selesai 'yesterday' menandakan Past Simple. Verb beraturan 'visit' ditambah -ed menjadi 'visited'.",
+        "hints": ["Perhatikan penanda waktu lampau 'yesterday'.", "Gunakan bentuk lampau (V2) berakhiran -ed."],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ a comprehensive report about the market trends last week.",
+        "options": ["write", "wrote", "written"],
+        "answer": 1,
+        "explanation": "Irregular verb bentuk lampau (V2) dari 'write' adalah 'wrote'.",
+        "hints": ["Write adalah irregular verb.", "Bentuk V2 dari write adalah wrote."],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Simple positif dengan irregular verb.",
+        "targetSentence": "They bought a new server yesterday.",
+        "explanation": "Subject (They) + V2 (bought) + Object (a new server) + Time (yesterday).",
+        "hints": ["Mulai dengan subject 'They'.", "Bentuk lampau dari buy adalah bought."],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "The flight was delayed, so we ___ in London until midnight.",
+        "options": ["didn't arrive", "don't arrived", "didn't arrived"],
+        "answer": 0,
+        "explanation": "Pola kalimat negatif Past Simple adalah 'didn't' + kata kerja dasar murni (bare infinitive): 'didn't arrive'.",
+        "hints": ["Setelah auxiliary 'didn't', verb kembali ke bentuk dasar V1.", "Jangan mendobel akhiran lampau (-ed)."],
+        "skill": "past-simple-negation"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Past Simple dengan auxiliary 'Did'.",
+        "targetSentence": "Did you receive my email this morning?",
+        "explanation": "Pertanyaan: Did + Subject (you) + Verb dasar (receive) + Object + Time?",
+        "hints": ["Awali pertanyaan dengan auxiliary 'Did'.", "Gunakan kata kerja dasar 'receive' setelah subjek."],
+        "skill": "past-simple-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ thirty minutes ago to confirm his flight reservation.",
+        "options": ["called", "calls", "is calling"],
+        "answer": 0,
+        "explanation": "Frasa '... ago' (thirty minutes ago) adalah penanda waktu lampau spesifik yang mewajibkan Past Simple: 'called'.",
+        "hints": ["Penanda waktu 'ago'.", "Gunakan bentuk V2 berakhiran -ed."],
+        "skill": "past-simple-regular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif Past Simple dengan keterangan waktu 'last night'.",
+        "targetSentence": "She didn't finish the slides last night.",
+        "explanation": "Subject (She) + didn't + base verb (finish) + Object (the slides) + Time (last night).",
+        "hints": ["Mulai dengan 'She didn't finish'.", "Letakkan 'last night' di akhir kalimat."],
+        "skill": "past-simple-negation"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya jawab di kantor tentang konfirmasi perjalanan.",
+        "dialogue": [
+          ["Manager", "___ the regional director attend the opening plenary?"],
+          ["Assistant", "Yes, he did. He delivered the keynote speech."]
+        ],
+        "options": ["Did", "Does", "Was"],
+        "answer": 0,
+        "explanation": "Pertanyaan Past Simple dengan kata kerja aksi dasar ('attend') menggunakan auxiliary 'Did': 'Did the regional director attend...?'",
+        "hints": ["Pertanyaan lampau dengan main verb 'attend'.", "Gunakan auxiliary 'Did'."],
+        "skill": "past-simple-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ any unexpected downtime during last month's system migration.",
+        "options": ["did not experience", "did not experienced", "were not experience"],
+        "answer": 0,
+        "explanation": "Negatif Past Simple: did not + base verb 'experience' (tanpa akhiran -d).",
+        "hints": ["Setelah 'did not', gunakan bentuk dasar kata kerja.", "Bentuk dasar adalah 'experience'."],
+        "skill": "past-simple-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where ___ your first professional internship?",
+        "options": ["did you do", "you did", "did you"],
+        "answer": 0,
+        "explanation": "Wh-question Past Simple: Wh-word (Where) + auxiliary (did) + subject (you) + base verb (do)?",
+        "hints": ["Perhatikan rumus: Question word + did + Subject + Verb dasar.", "Auxiliary 'did' dan main verb 'do' keduanya diperlukan."],
+        "skill": "past-simple-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan urutan dua peristiwa lampau berurutan.",
+        "targetSentence": "He entered the room and turned on the lights.",
+        "explanation": "Aksi lampau yang terjadi berurutan (sequence of completed actions) keduanya menggunakan V2: entered ... and turned on.",
+        "hints": ["Subject: 'He'.", "Gunakan kedua V2: entered dan turned on."],
+        "skill": "past-simple-sequence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ejaan V2 teratur: The supply chain team ___ the goods directly to the warehouse.",
+        "options": ["shiped", "shipped", "shipping"],
+        "answer": 1,
+        "explanation": "Verb 1 suku kata berakhiran konsonan-vokal-konsonan (s-h-i-p) menggandakan huruf konsonan akhir sebelum -ed: shipped.",
+        "hints": ["Pola 1 suku kata K-V-K pada kata 'ship'.", "Gandakan huruf konsonan 'p': double p."],
+        "skill": "past-simple-spelling"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Simple dengan irregular verb 'think/thought'.",
+        "targetSentence": "We thought the presentation went very well.",
+        "explanation": "V2 dari 'think' adalah 'thought', dan V2 dari 'go' adalah 'went'.",
+        "hints": ["Mulai dengan 'We thought'.", "Bentuk lampau go adalah went."],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban singkat Past Simple yang tepat.",
+        "dialogue": [
+          ["Auditor", "Did the finance team detect any discrepancies in the ledger?"],
+          ["Accountant", "No, ___."]
+        ],
+        "options": ["they didn't", "they didn't detect", "they don't"],
+        "answer": 0,
+        "explanation": "Jawaban singkat negatif Past Simple: 'No, they didn't.'",
+        "hints": ["Jawaban singkat negatif.", "Gunakan 'No, they didn't.'"],
+        "skill": "past-simple-short-answer"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum 'double marking' pada bentuk lampau negatif.",
+        "draft": "The senior engineer didn't noticed the security vulnerability in the source code.",
+        "options": [
+          "The senior engineer didn't notice the security vulnerability in the source code.",
+          "The senior engineer didn't noticing the security vulnerability in the source code.",
+          "The senior engineer don't noticed the security vulnerability in the source code."
+        ],
+        "answer": 0,
+        "explanation": "Kesalahan 'double past': auxiliary 'didn't' sudah menandai bentuk lampau, sehingga kata kerja utama WAJIB kembali ke bentuk dasar 'notice' (bukan noticed).",
+        "hints": ["Jangan mendobel penanda lampau setelah 'didn't'.", "Ubah 'noticed' menjadi bentuk dasar 'notice'."],
+        "skill": "past-simple-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan perbedaan pasangan irregular verb: 'The bell ___ at 8:00, and the choir ___ beautifully.'",
+        "options": ["rang / sang", "rung / sung", "ringed / singed"],
+        "answer": 0,
+        "explanation": "Bentuk V2 dari 'ring' adalah 'rang', dan V2 dari 'sing' adalah 'sang'. ('Rung' dan 'sung' adalah V3 past participle).",
+        "hints": ["Bentuk V2 (lampau) berhuruf vokal -a-.", "V2 ring = rang; V2 sing = sang."],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before electricity was common, families ___ around the radio every evening.",
+        "options": ["used to gather", "were used to gather", "use to gather"],
+        "answer": 0,
+        "explanation": "'Used to + V1' digunakan untuk kebiasaan atau rutinitas masa lalu yang sudah tidak terjadi lagi saat ini (past habitual action).",
+        "hints": ["Menyatakan kebiasaan masa lalu yang sudah berhenti.", "Gunakan pola 'used to gather'."],
+        "skill": "past-simple-habit"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Simple dengan inversi kata tanya subjek.",
+        "targetSentence": "Who authorized the budget expenditure last week?",
+        "explanation": "Subject question: 'Who' bertindak sebagai subjek, langsung diikuti V2 'authorized' tanpa auxiliary 'did'.",
+        "hints": ["'Who' menanyakan pelaku pengesahan.", "Subject question langsung memakai V2 'authorized'."],
+        "skill": "past-simple-question"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan antara V2 'lay' (menaruh) dan V2 'lie' (berbaring/terletak).",
+        "draft": "After the exhausting trek, the explorers layed down on the grass to rest.",
+        "options": [
+          "After the exhausting trek, the explorers lay down on the grass to rest.",
+          "After the exhausting trek, the explorers lied down on the grass to rest.",
+          "After the exhausting trek, the explorers laid down on the grass to rest."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja intransitif 'lie down' (berbaring) memiliki bentuk V2 yang tidak beraturan: 'lay' (bukan layed). 'Laid' adalah V2 dari kata kerja transitif 'lay' (menaruh benda).",
+        "hints": ["Verb dasarnya adalah 'lie down' (berbaring).", "Bentuk V2 dari lie down adalah 'lay down'."],
+        "skill": "past-simple-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "It is high time we ___ the outdated server infrastructure.",
+        "options": ["upgraded", "upgrade", "have upgraded"],
+        "answer": 0,
+        "explanation": "Setelah struktur subjungtif hipotetis 'It is high time / It is about time + subject', wajib menggunakan bentuk Past Subjunctive (Past Simple V2): 'It is high time we upgraded...'.",
+        "hints": ["Struktur 'It is high time + subject'.", "Wajib diikuti oleh bentuk Past Simple V2."],
+        "skill": "past-simple-subjunctive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog investigasi forensik audit.",
+        "dialogue": [
+          ["Investigator", "At what precise moment did the unauthorized intrusion take place?"],
+          ["Security Analyst", "The logs indicate the breach ___ at precisely 02:14 a.m."]
+        ],
+        "options": ["occurred", "did occur", "was occurred"],
+        "answer": 0,
+        "explanation": "'Occur' adalah intransitive verb yang bentuk V2 teraturnya adalah 'occurred' (double r). Kata kerja intransitif tidak dapat dibentuk pasif 'was occurred'.",
+        "hints": ["Kata kerja intransitif 'occur' berbentuk aktif lampau.", "Ejaan V2 menggandakan r: 'occurred'."],
+        "skill": "past-simple-spelling"
+      }
+    ]
+  }
+}

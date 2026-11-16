@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/03-hedging",
+  "title": "Hedging",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Hedging with modal verbs: 'The initial findings ___ indicate a correlation between sleep quality and cognitive function.'",
+        "options": [
+          "may",
+          "will definitively",
+          "unquestionably"
+        ],
+        "answer": 0,
+        "explanation": "'May' melembutkan klaim (hedging) agar tidak terkesan overclaiming atau arogan tanpa bukti absolut.",
+        "hints": [
+          "Gunakan modal pelembut klaim ilmiah.",
+          "Pilih 'may'."
+        ],
+        "skill": "modal-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging with probability adverbs: 'The economic downturn will ___ impact consumer discretionary spending.'",
+        "options": [
+          "likely",
+          "inevitably",
+          "certainly"
+        ],
+        "answer": 0,
+        "explanation": "'Likely' menunjukkan probabilitas tinggi tanpa memutlakkan kepastian yang belum terjadi.",
+        "hints": [
+          "Menunjukkan kemungkinan tanpa kepastian mutlak.",
+          "Gunakan 'likely'."
+        ],
+        "skill": "adverbial-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging dengan 'tends to'.",
+        "targetSentence": "Increased stress tends to impair immune system responsiveness.",
+        "explanation": "Increased stress + tends to impair + immune system responsiveness.",
+        "hints": [
+          "Mulai dengan 'Increased stress'.",
+          "Frasa pelembut kecenderungan: 'tends to impair immune system responsiveness'."
+        ],
+        "skill": "verb-hedging-tend"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging verbs: 'The preliminary survey results ___ that customer satisfaction has improved.'",
+        "options": [
+          "suggest",
+          "prove definitively",
+          "guarantee"
+        ],
+        "answer": 0,
+        "explanation": "Dalam penulisan ilmiah, kata kerja seperti 'suggest', 'indicate', dan 'imply' jauh lebih disukai daripada klaim mutlak seperti 'prove definitively'.",
+        "hints": [
+          "Kata kerja ilmiah untuk interpretasi data tentatif.",
+          "Gunakan 'suggest'."
+        ],
+        "skill": "verb-hedging-suggest"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging dengan 'It appears that'.",
+        "targetSentence": "It appears that the fiscal policy had a stabilizing effect.",
+        "explanation": "It appears that + the fiscal policy had a stabilizing effect.",
+        "hints": [
+          "Mulai dengan pelembut: 'It appears that'.",
+          "Lanjutkan dengan 'the fiscal policy had a stabilizing effect'."
+        ],
+        "skill": "introductory-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging with approximation: 'The laboratory observed a ___ increase in bacterial resistance.'",
+        "options": [
+          "moderate",
+          "massive",
+          "total"
+        ],
+        "answer": 0,
+        "explanation": "'Moderate' mengukur peningkatan secara proporsional dan terukur tanpa hiperbola.",
+        "hints": [
+          "Kata sifat takaran terukur dan netral.",
+          "Gunakan 'moderate'."
+        ],
+        "skill": "adjectival-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging dengan 'could possibly'.",
+        "targetSentence": "This strategy could possibly yield positive quarterly returns.",
+        "explanation": "This strategy + could possibly yield + positive quarterly returns.",
+        "hints": [
+          "Mulai dengan 'This strategy'.",
+          "Pelembut probabilitas: 'could possibly yield positive quarterly returns'."
+        ],
+        "skill": "modal-hedging"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog revisi klaim overconfident dalam laporan riset.",
+        "dialogue": [
+          [
+            "Advisor",
+            "Writing 'This discovery proves that genetics causes depression' is scientifically irresponsible."
+          ],
+          [
+            "Researcher",
+            "Understood. I will amend it to: 'These findings suggest that genetic factors ___ a role in depressive disorders.'"
+          ]
+        ],
+        "options": [
+          "may play",
+          "will always dictate",
+          "undoubtedly enforce"
+        ],
+        "answer": 0,
+        "explanation": "'May play a role' melembutkan klaim sebab-akibat absolut menjadi kontribusi yang masuk akal dan teruji.",
+        "hints": [
+          "Bentuk pelembut baku keterlibatan faktor biologis.",
+          "Gunakan 'may play'."
+        ],
+        "skill": "epistemic-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Impersonal epistemic hedging: '___ that dietary habits contribute to overall longevity.'",
+        "options": [
+          "It is widely assumed",
+          "I know for sure",
+          "Everybody says"
+        ],
+        "answer": 0,
+        "explanation": "Impersonal passive hedging ('It is widely assumed / believed / understood that...') mengalihkan klaim subjektif menjadi konsensus ilmiah objektif.",
+        "hints": [
+          "Konstruksi pasif impersonal akademis.",
+          "Gunakan 'It is widely assumed'."
+        ],
+        "skill": "impersonal-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging frequency: 'Patients in this demographic ___ experience mild lethargy.'",
+        "options": [
+          "frequently",
+          "perpetually",
+          "at every single moment"
+        ],
+        "answer": 0,
+        "explanation": "'Frequently' menunjukkan pola berulang tanpa membuat generalisasi absolut yang berpotensi keliru.",
+        "hints": [
+          "Frekuensi yang terukur dan tidak ekstrem.",
+          "Gunakan 'frequently'."
+        ],
+        "skill": "frequency-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging akademik dengan 'To some extent'.",
+        "targetSentence": "To some extent the regulatory changes alleviated market anxieties.",
+        "explanation": "To some extent + the regulatory changes alleviated market anxieties.",
+        "hints": [
+          "Mulai dengan pembatas klaim: 'To some extent'.",
+          "Klausa: 'the regulatory changes alleviated market anxieties'."
+        ],
+        "skill": "extent-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging epistemic distance: 'The author ___ to imply that monetary tightening was premature.'",
+        "options": [
+          "seems",
+          "declares undeniably",
+          "proves"
+        ],
+        "answer": 0,
+        "explanation": "'Seems / Appears + to-infinitive' memberikan jarak epistemik yang sopan dan terukur terhadap niat penulis lain.",
+        "hints": [
+          "Memberikan jarak tafsir yang santun.",
+          "Gunakan 'seems'."
+        ],
+        "skill": "epistemic-distance-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging dengan 'In general'.",
+        "targetSentence": "In general higher interest rates dampen speculative investment activities.",
+        "explanation": "In general + higher interest rates dampen speculative investment activities.",
+        "hints": [
+          "Mulai dengan pembatas umum: 'In general'.",
+          "Klausa ekonomi: 'higher interest rates dampen speculative investment activities'."
+        ],
+        "skill": "extent-hedging"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog peer review artikel ekonomi.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Can we conclude that tax cuts invariably stimulate entrepreneurship?"
+          ],
+          [
+            "Author",
+            "No, empirical evidence indicates that the stimulative effect is ___ conditional on access to credit."
+          ]
+        ],
+        "options": [
+          "largely",
+          "never",
+          "permanently"
+        ],
+        "answer": 0,
+        "explanation": "'Largely conditional on' membatasi validitas klaim agar bergantung pada variabel lain.",
+        "hints": [
+          "Pembatas proporsionalitas klaim.",
+          "Gunakan 'largely'."
+        ],
+        "skill": "adverbial-hedging"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi klaim dogmatis tak berdasar ('bald assertions') agar memenuhi etika hedging akademik.",
+        "draft": "This experimental drug cures all known variations of the targeted influenza virus.",
+        "options": [
+          "The clinical trials suggest that this drug exhibits substantial efficacy against several common variations of the targeted influenza virus.",
+          "This drug definitely cures all variations of the influenza virus.",
+          "There is complete proof that this drug cures all influenza variations."
+        ],
+        "answer": 0,
+        "explanation": "Etika akademik menolak klaim mutlak 'cures all known variations'. Versi yang telah di-hedge ('suggests', 'exhibits substantial efficacy', 'several common variations') menjaga kredibilitas dan keterbukaan ilmiah.",
+        "hints": [
+          "Gunakan bahasa terukur dan berbobot tanpa overclaiming.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "academic-hedging-revision"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sociolinguistic purpose of hedging in scientific communities (Hyland, 1998):",
+        "options": [
+          "To negotiate claims with peers by acknowledging alternative perspectives and protecting the researcher from reputational damage if findings are contested.",
+          "To disguise poor experimental methodologies.",
+          "To ensure papers are rejected by prestigious journals."
+        ],
+        "answer": 0,
+        "explanation": "Hedging menurut teori Ken Hyland berfungsi sebagai instrumen negosiasi sosial antara peneliti dan komunitas sejawat untuk menghargai sudut pandang lain dan melindungi reputasi bila kelak data dikoreksi.",
+        "hints": [
+          "Fungsi negosiasi klaim dan perlindungan reputasi akademik.",
+          "Pilih opsi negotiate claims with peers."
+        ],
+        "skill": "sociolinguistic-hedging-theory"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compound hedging (Shields + Approximators): Which sentence demonstrates sophisticated layered hedging?",
+        "options": [
+          "It might be tentatively hypothesized that certain microeconomic factors could contribute to this trend.",
+          "This trend is caused by microeconomic factors.",
+          "Everyone knows microeconomic factors do this."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat tersebut memadukan beberapa lapisan hedging secara harmonis: modal 'might', adverb 'tentatively', verb 'hypothesized', determiner 'certain', dan modal 'could contribute'.",
+        "hints": [
+          "Memadukan beberapa lapisan pelembut klaim secara proporsional.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "compound-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dengan compound hedging.",
+        "targetSentence": "The available evidence tentatively suggests that the policy had a negligible impact.",
+        "explanation": "The available evidence + tentatively suggests that + the policy had a negligible impact.",
+        "hints": [
+          "Mulai dengan bukti yang ada: 'The available evidence'.",
+          "Klausa pelembut: 'tentatively suggests that the policy had a negligible impact'."
+        ],
+        "skill": "compound-hedging"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki penggunaan hedging berlebihan (underclaiming/paralysis) yang merusak otoritas argumen.",
+        "draft": "It could perhaps maybe be possible that one might possibly consider looking at this data.",
+        "options": [
+          "The data suggests an emerging correlation that warrants further empirical investigation.",
+          "Maybe perhaps we might look at this data if possible.",
+          "It could be possibly perhaps that we look at data."
+        ],
+        "answer": 0,
+        "explanation": "Hedging berlebihan (stacking unneeded hedges: could perhaps maybe possibly) mencerminkan kelemahan dan ketakutan tidak berdasar. Kalimat harus tetap tegas dan profesional: 'The data suggests an emerging correlation that warrants further empirical investigation'.",
+        "hints": [
+          "Hilangkan keragu-raguan berlebihan dan pertahankan wibawa akademis.",
+          "Pilih 'The data suggests an emerging correlation that warrants further empirical investigation'."
+        ],
+        "skill": "hedging-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hedging with restrictive clauses: 'The model holds true, ___ that boundary conditions remain undisturbed.'",
+        "options": [
+          "with the caveat",
+          "without any doubt",
+          "purely assuming"
+        ],
+        "answer": 0,
+        "explanation": "'With the caveat that...' (dengan catatan/batasan bahwa...) adalah hedging formal untuk menetapkan limitasi teoretis.",
+        "hints": [
+          "Frasa pembatas limitasi formal.",
+          "Gunakan 'with the caveat'."
+        ],
+        "skill": "restrictive-hedging"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog pertahanan disertasi doktoral.",
+        "dialogue": [
+          [
+            "Examiner",
+            "Does your statistical model account for unobserved cultural variables?"
+          ],
+          [
+            "Candidate",
+            "The model should be interpreted with caution, as it ___ unmeasured socio-cultural dynamics."
+          ]
+        ],
+        "options": [
+          "may not fully capture",
+          "categorically denies",
+          "destroys all"
+        ],
+        "answer": 0,
+        "explanation": "'May not fully capture' adalah respons hedging yang elegan dan jujur mengenai keterbatasan metodologi riset.",
+        "hints": [
+          "Mengakui keterbatasan metodologi secara bermartabat.",
+          "Gunakan 'may not fully capture'."
+        ],
+        "skill": "academic-hedging-revision"
+      }
+    ]
+  }
+}

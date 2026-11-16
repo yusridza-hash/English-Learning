@@ -1,0 +1,227 @@
+{
+  "moduleKey": "00-foundation/06-pronouns",
+  "title": "Pronouns",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Mr. Davis asked ___ to review the quarterly expenditure report.",
+        "options": ["he", "him", "his"],
+        "answer": 1,
+        "explanation": "Setelah kata kerja transitif 'asked', diperlukan Object Pronoun 'him', bukan Subject Pronoun 'he'.",
+        "hints": ["Posisi kata ganti berada setelah kata kerja sebagai objek.", "Bentuk objek dari 'he' adalah 'him'."],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "That blue laptop on the conference table is ___.",
+        "options": ["my", "mine", "me"],
+        "answer": 1,
+        "explanation": "'Mine' adalah Possessive Pronoun mandiri yang berdiri sendiri tanpa perlu diikuti kata benda (berbeda dengan 'my' yang harus diikuti noun: 'my laptop').",
+        "hints": ["Kata ganti kepemilikan yang berdiri sendiri tanpa kata benda.", "Gunakan 'mine', bukan 'my'."],
+        "skill": "pronoun-possessive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan Subject Pronoun dan Object Pronoun yang tepat.",
+        "targetSentence": "She invited us to the seminar.",
+        "explanation": "Subject pronoun 'She' di awal, lalu verb 'invited', dan object pronoun 'us'.",
+        "hints": ["Mulai dengan subject pronoun 'She'.", "Objek dari kami adalah 'us'."],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our neighbors are very friendly; ___ always greet us in the morning.",
+        "options": ["them", "their", "they"],
+        "answer": 2,
+        "explanation": "'Our neighbors' digantikan oleh Subject Pronoun 'they' karena posisinya sebagai pelaku kata kerja 'greet'.",
+        "hints": ["Posisinya sebagai subjek pelaku tindakan.", "Gunakan bentuk subjek jamak 'they'."],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan possessive adjective dan kata benda.",
+        "targetSentence": "Their team completed the assignment early.",
+        "explanation": "Possessive adjective 'Their' menerangkan kata benda 'team'.",
+        "hints": ["Awali dengan possessive 'Their team'.", "Verb 'completed' diikuti objek."],
+        "skill": "pronoun-possessive"
+      },
+      {
+        "type": "choice",
+        "prompt": "I made this delicious cake all by ___.",
+        "options": ["myself", "me", "my"],
+        "answer": 0,
+        "explanation": "Reflexive pronoun 'myself' digunakan setelah 'by' untuk menyatakan tindakan yang dilakukan sendiri tanpa bantuan orang lain.",
+        "hints": ["Frasa 'by myself' bermakna sendirian/secara mandiri.", "Gunakan bentuk reflexive."],
+        "skill": "pronoun-reflexive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan pronoun ganda sebagai subjek dan objek.",
+        "targetSentence": "We thanked them for their help.",
+        "explanation": "Subject: We, Verb: thanked, Object: them, Prepositional phrase: for their help.",
+        "hints": ["Mulai dengan pronoun subjek 'We'.", "Objek mereka adalah 'them'."],
+        "skill": "pronoun-object"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Pilih kombinasi pronoun subjek yang tepat dalam percakapan kerja.",
+        "dialogue": [
+          ["Manager", "Who will represent the marketing department at the workshop?"],
+          ["Staff", "Farhan and ___ will attend the session tomorrow."]
+        ],
+        "options": ["I", "me", "myself"],
+        "answer": 0,
+        "explanation": "Sebagai bagian dari subjek gabungan sebelum kata kerja 'will attend', bentuk yang baku adalah Subject Pronoun 'I' ('Farhan and I'), bukan 'Farhan and me'.",
+        "hints": ["Uji dengan menghilangkan 'Farhan and': apakah 'I will attend' atau 'Me will attend'?", "Sebagai subjek kalimat, gunakan 'I'."],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "The manager told Farhan and ___ to prepare the presentation slides.",
+        "options": ["I", "me", "myself"],
+        "answer": 1,
+        "explanation": "Sebagai objek setelah kata kerja 'told', gunakan Object Pronoun 'me': 'told Farhan and me'.",
+        "hints": ["Uji dengan menghilangkan 'Farhan and': apakah 'told me' atau 'told I'?", "Sebagai objek kata kerja, gunakan 'me'."],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Everyone in the department must submit ___ annual self-assessment by Friday.",
+        "options": ["their", "his or her", "both 'their' and 'his or her' are widely used"],
+        "answer": 2,
+        "explanation": "Indefinite pronoun seperti 'everyone/everybody' secara tradisional tunggal ('his or her'), namun dalam bahasa Inggris modern 'singular their' sangat lazim dan diterima secara luas.",
+        "hints": ["Bahasa Inggris modern menerima 'singular their' untuk gender-neutral.", "Bentuk tradisionalnya adalah 'his or her'."],
+        "skill": "pronoun-indefinite"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penekanan menggunakan reflexive pronoun (emphatic use).",
+        "targetSentence": "The CEO herself signed the contract.",
+        "explanation": "Reflexive pronoun 'herself' diletakkan tepat setelah subjek untuk memberikan penekanan kuat (emphatic pronoun).",
+        "hints": ["Mulai dengan 'The CEO'.", "Letakkan 'herself' langsung setelah subjek sebelum verb."],
+        "skill": "pronoun-reflexive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is that umbrella on the rack ___ or does it belong to someone else?",
+        "options": ["your", "yours", "you"],
+        "answer": 1,
+        "explanation": "Karena tidak ada kata benda setelahnya, gunakan Possessive Pronoun 'yours' (milikmu), bukan Possessive Adjective 'your'.",
+        "hints": ["Berdiri sendiri tanpa kata benda penyerta.", "Gunakan bentuk berakhiran -s: yours."],
+        "skill": "pronoun-possessive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat demonstrative pronoun yang merujuk pada benda jauh/jamak.",
+        "targetSentence": "Those are the revised financial guidelines.",
+        "explanation": "Demonstrative pronoun jamak 'Those' berpasangan dengan to be 'are'.",
+        "hints": ["Awali dengan kata penunjuk 'Those'.", "Lanjutkan dengan 'are the revised financial guidelines'."],
+        "skill": "pronoun-demonstrative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan pronoun resiprokal (timbal balik).",
+        "dialogue": [
+          ["Facilitator", "How do the team members resolve internal conflicts?"],
+          ["Team Leader", "They communicate openly and always respect ___."]
+        ],
+        "options": ["each other", "themselves", "theirselves"],
+        "answer": 0,
+        "explanation": "Reciprocal pronoun 'each other' (atau 'one another') digunakan untuk aksi saling timbal balik antara anggota kelompok.",
+        "hints": ["Menyatakan hubungan saling timbal balik antar anggota.", "Gunakan 'each other'."],
+        "skill": "pronoun-reciprocal"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan pemilihan relative pronoun antara subjek (who) dan objek (whom) pada dokumen formal.",
+        "draft": "The candidate who the selection committee interviewed yesterday was exceptionally qualified.",
+        "options": [
+          "The candidate whom the selection committee interviewed yesterday was exceptionally qualified.",
+          "The candidate which the selection committee interviewed yesterday was exceptionally qualified.",
+          "The candidate whose the selection committee interviewed yesterday was exceptionally qualified."
+        ],
+        "answer": 0,
+        "explanation": "Kandidat adalah objek penderita yang diwawancarai oleh komite ('the committee interviewed HIM'). Dalam ragam baku formal, gunakan 'whom' untuk objek manusia.",
+        "hints": ["Kandidat adalah objek penderita wawancara (the committee interviewed him).", "Ragam formal untuk objek orang menggunakan 'whom'."],
+        "skill": "pronoun-relative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilihlah kalimat dengan pemakaian relative pronoun kepemilikan yang tepat.",
+        "options": [
+          "We partnered with an enterprise whose innovative technologies lead the market.",
+          "We partnered with an enterprise who's innovative technologies lead the market.",
+          "We partnered with an enterprise which innovative technologies lead the market."
+        ],
+        "answer": 0,
+        "explanation": "'Whose' adalah relative pronoun kepemilikan (possessive) yang dapat merujuk pada manusia maupun institusi/benda. 'Who's' adalah singkatan dari 'who is' atau 'who has'.",
+        "hints": ["Jangan tertukar antara 'whose' (kepemilikan) dan 'who's' (who is).", "Whose dapat dipakai untuk perusahaan atau benda."],
+        "skill": "pronoun-relative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pronoun case setelah preposisi.",
+        "draft": "Between you and I, this budget allocation seems unrealistic.",
+        "options": [
+          "Between you and me, this budget allocation seems unrealistic.",
+          "Between you and myself, this budget allocation seems unrealistic.",
+          "Between yourself and I, this budget allocation seems unrealistic."
+        ],
+        "answer": 0,
+        "explanation": "'Between' adalah preposisi. Semua pronoun yang mengikuti preposisi wajib dalam bentuk Object Pronoun (between you and me), bukan subject pronoun (I).",
+        "hints": ["'Between' adalah kata depan (preposition).", "Setelah preposisi selalu gunakan object pronoun 'me'."],
+        "skill": "pronoun-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbandingan formal menggunakan pronoun case yang benar.",
+        "targetSentence": "She has worked here longer than I.",
+        "explanation": "Dalam bahasa Inggris formal, setelah 'than' sebagai konjungsi terdapat elipsis verb: 'longer than I (have worked)'.",
+        "hints": ["Mulai dengan subject 'She'.", "Di akhir kalimat formal gunakan subject pronoun 'I'."],
+        "skill": "pronoun-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither of the proposed strategies proved effective in ___ target market.",
+        "options": ["their", "its", "it's"],
+        "answer": 1,
+        "explanation": "'Neither' secara gramatikal adalah singular pronoun, sehingga kata ganti kepemilikan baku tunggalnya adalah 'its'.",
+        "hints": ["'Neither' bernilai tunggal.", "Gunakan possessive tunggal 'its'."],
+        "skill": "pronoun-possessive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi kalimat tanya formal untuk mengidentifikasi kepemilikan.",
+        "dialogue": [
+          ["Inspector", "___ signature appears at the bottom of this release waiver?"],
+          ["Clerk", "That is the regional director's signature, sir."]
+        ],
+        "options": ["Whose", "Who's", "Whom"],
+        "answer": 0,
+        "explanation": "'Whose' digunakan untuk menanyakan kepemilikan benda ('tanda tangan milik siapa').",
+        "hints": ["Menanyakan tanda tangan milik siapa.", "Gunakan kata tanya kepemilikan 'Whose'."],
+        "skill": "pronoun-possessive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi bentuk reflexive pronoun non-standar yang sering salah digunakan.",
+        "draft": "The directors theirselves attended the audit committee meeting.",
+        "options": [
+          "The directors themselves attended the audit committee meeting.",
+          "The directors themself attended the audit committee meeting.",
+          "The directors theirself attended the audit committee meeting."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk jamak baku dari reflexive pronoun orang ketiga adalah 'themselves'. Kata 'theirselves' dan 'themself' adalah bentuk non-standar yang tidak baku.",
+        "hints": ["Bentuk baku adalah 'themselves'.", "Jangan gunakan 'theirselves'."],
+        "skill": "pronoun-reflexive"
+      }
+    ]
+  }
+}

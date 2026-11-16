@@ -1,0 +1,226 @@
+{
+  "moduleKey": "02-intermediate/02-present-perfect-continuous",
+  "title": "Present Perfect Continuous",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The developers ___ on this critical software bug for five consecutive hours.",
+        "options": ["have been working", "has been working", "are working since"],
+        "answer": 0,
+        "explanation": "Subjek jamak 'The developers' berpasangan dengan 'have been' + verb-ing ('have been working') untuk aksi yang dimulai di masa lalu dan masih terus berlangsung.",
+        "hints": ["Subjek jamak memakai 'have been'.", "Rumus Present Perfect Continuous: have/has been + verb-ing."],
+        "skill": "present-perfect-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "She is completely exhausted because she ___ non-stop since 7:00 a.m.",
+        "options": ["has been driving", "have been driving", "was driving for"],
+        "answer": 0,
+        "explanation": "Subjek tunggal 'She' berpasangan dengan 'has been driving' untuk aktivitas yang berlangsung terus-menerus dan dampaknya terlihat jelas saat ini.",
+        "hints": ["Subjek tunggal memakai 'has been'.", "Diikuti verb-ing 'driving'."],
+        "skill": "present-perfect-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Present Perfect Continuous dengan durasi 'all morning'.",
+        "targetSentence": "It has been raining all morning.",
+        "explanation": "Subject (It) + has been + Verb-ing (raining) + durasi waktu (all morning).",
+        "hints": ["Mulai dengan 'It has been'.", "Verb-ing adalah 'raining all morning'."],
+        "skill": "present-perfect-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long ___ for the delayed commuter train?",
+        "options": ["have you been waiting", "are you waiting", "have you waited to"],
+        "answer": 0,
+        "explanation": "Pertanyaan untuk durasi proses yang masih berlangsung hingga saat ini menggunakan 'How long have you been waiting...?'",
+        "hints": ["Menanyakan durasi aktivitas yang sedang berjalan.", "Pola: How long have you been + verb-ing."],
+        "skill": "present-perfect-continuous-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Present Perfect Continuous.",
+        "targetSentence": "Have they been negotiating the contract all week?",
+        "explanation": "Have + Subject (they) + been + Verb-ing (negotiating) + the contract + all week?",
+        "hints": ["Awali pertanyaan dengan 'Have they been'.", "Verb-ing adalah 'negotiating'."],
+        "skill": "present-perfect-continuous-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ this new customer relationship software since last month.",
+        "options": ["have been using", "are using since", "have used to"],
+        "answer": 0,
+        "explanation": "Kombinasi proses berkelanjutan dengan titik awal 'since last month' memakai 'have been using'.",
+        "hints": ["Aktivitas berlangsung sejak bulan lalu hingga sekarang.", "Gunakan 'have been using'."],
+        "skill": "present-perfect-continuous-for-since"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif Present Perfect Continuous.",
+        "targetSentence": "He has not been sleeping well lately.",
+        "explanation": "Subject (He) + has not been + Verb-ing (sleeping) + well + lately.",
+        "hints": ["Subject: 'He has not been'.", "Lanjutkan dengan 'sleeping well lately'."],
+        "skill": "present-perfect-continuous-negation"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penjelasan alasan kondisi fisik saat ini.",
+        "dialogue": [
+          ["Supervisor", "Why are your clothes covered in white dust?"],
+          ["Technician", "I apologize; I ___ the ceiling tiles in the storage room."]
+        ],
+        "options": ["have been sanding", "have sanded", "was sanded"],
+        "answer": 0,
+        "explanation": "Present Perfect Continuous digunakan ketika aktivitas baru saja berhenti dan bukti fisik dari proses tersebut terlihat sangat jelas saat ini ('covered in dust').",
+        "hints": ["Fokus pada aktivitas fisik yang menyisakan bukti nyata saat ini.", "Gunakan Present Perfect Continuous."],
+        "skill": "present-perfect-continuous-evidence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast: 'I ___ three chapters of the novel today' (Result/completion) vs 'I ___ the novel all afternoon' (Activity/duration).",
+        "options": [
+          "have read / have been reading",
+          "have been reading / have read",
+          "read / was reading"
+        ],
+        "answer": 0,
+        "explanation": "Ketika fokus pada hasil berapa banyak yang selesai (quantity/completion: 'three chapters'), gunakan Present Perfect Simple ('have read'). Ketika fokus pada durasi aktivitas ('all afternoon'), gunakan Present Perfect Continuous ('have been reading').",
+        "hints": ["Jumlah yang selesai $\\rightarrow$ Present Perfect Simple.", "Durasi aktivitas $\\rightarrow$ Present Perfect Continuous."],
+        "skill": "present-perfect-simple-vs-continuous"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many emails ___ since this morning?",
+        "options": ["have you sent", "have you been sending", "are you sending"],
+        "answer": 0,
+        "explanation": "Pertanyaan yang menanyakan kuantitas 'How many / How much' (hasil pencapaian) selalu menggunakan Present Perfect Simple, BUKAN Continuous: 'How many emails have you sent?'.",
+        "hints": ["Menanyakan jumlah item yang sudah tuntas (How many).", "Gunakan Present Perfect Simple, bukan Continuous."],
+        "skill": "present-perfect-simple-vs-continuous"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menyatakan kebiasaan baru temporer dengan 'recently'.",
+        "targetSentence": "She has been exercising at the gym regularly recently.",
+        "explanation": "Present Perfect Continuous sering digunakan untuk kebiasaan baru yang berlangsung akhir-akhir ini (recent temporary habits).",
+        "hints": ["Subject: 'She has been exercising'.", "Gunakan 'at the gym regularly recently'."],
+        "skill": "present-perfect-continuous-temporary"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our analytics platform ___ steadily over the past few weeks.",
+        "options": ["has been improving", "is improving since", "has improved steadily"],
+        "answer": 0,
+        "explanation": "Proses perbaikan berkelanjutan yang berlangsung bertahap selama kurun waktu tertentu menggunakan 'has been improving'.",
+        "hints": ["Proses yang berlangsung bertahap dalam beberapa minggu terakhir.", "Gunakan Present Perfect Continuous."],
+        "skill": "present-perfect-continuous-trends"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya perbandingan hasil vs proses.",
+        "targetSentence": "How long have you been studying English?",
+        "explanation": "How long + have you been + Verb-ing (studying) + English?",
+        "hints": ["Awali dengan 'How long have you been'.", "Verb-ing adalah 'studying English'."],
+        "skill": "present-perfect-continuous-question"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk yang tepat untuk aktivitas yang baru saja berakhir.",
+        "dialogue": [
+          ["Friend", "You're completely out of breath!"],
+          ["Athlete", "Yes, I ___ up that steep hill."]
+        ],
+        "options": ["have been running", "have run", "am running"],
+        "answer": 0,
+        "explanation": "Kondisi terengah-engah (out of breath) adalah bukti fisik langsung dari proses lari yang baru saja berlangsung: 'have been running'.",
+        "hints": ["Menjelaskan penyebab fisik langsung saat ini.", "Gunakan 'have been running'."],
+        "skill": "present-perfect-continuous-evidence"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan penggunaan stative verb dalam bentuk Present Perfect Continuous.",
+        "draft": "We have been knowing our senior business partner for over twenty years.",
+        "options": [
+          "We have known our senior business partner for over twenty years.",
+          "We have been known our senior business partner for over twenty years.",
+          "We are knowing our senior business partner for over twenty years."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja stative (know, believe, understand, belong, own) TIDAK boleh berbentuk continuous (-ing). Gunakan Present Perfect Simple: 'We have known...'.",
+        "hints": ["'Know' adalah kata kerja stative yang pantang memakai -ing.", "Ubah menjadi Present Perfect Simple 'have known'."],
+        "skill": "present-perfect-continuous-stative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference with permanent vs temporary residence: 'My family ___ in this ancestral home for centuries' (Permanent) vs 'I ___ with a friend until my apartment is ready' (Temporary).",
+        "options": [
+          "has lived / have been staying",
+          "has been living / have stayed",
+          "lives / stayed"
+        ],
+        "answer": 0,
+        "explanation": "Keadaan yang dipandang sangat permanen (rumah leluhur berabad-abad) cenderung memakai Simple ('has lived'), sedangkan situasi sementara jangka pendek memakai Continuous ('have been staying').",
+        "hints": ["Permanen jangka panjang cenderung Simple.", "Sementara jangka pendek memakai Continuous."],
+        "skill": "present-perfect-continuous-temporary"
+      },
+      {
+        "type": "choice",
+        "prompt": "Someone ___ my artisanal coffee! There is only half a cup left! (Incomplete action / annoyance).",
+        "options": ["has been drinking", "has drunk", "drank"],
+        "answer": 0,
+        "explanation": "Ketika aksi belum selesai (kopi masih tersisa separuh) dan si pembicara merasa jengkel, gunakan Present Perfect Continuous: 'has been drinking'. Sebaliknya 'has drunk' berarti kopi habis total diminum.",
+        "hints": ["Kopinya belum habis total (hanya diminum sebagian).", "Aksi tidak tuntas memakai Continuous."],
+        "skill": "present-perfect-continuous-incomplete"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat komparasi stative verb kepemilikan dengan 'have had'.",
+        "targetSentence": "We have had this server for five years.",
+        "explanation": "'Have' bermakna kepemilikan (possession) adalah stative verb, sehingga memakai 'have had', bukan *have been having.",
+        "hints": ["'Have' untuk kepemilikan tidak boleh memakai -ing.", "Gunakan bentuk 'We have had this server'."],
+        "skill": "present-perfect-continuous-stative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan bentuk continuous pada kata kerja pencapaian yang tuntas seketika (achievement verbs).",
+        "draft": "The legal department has been finally winning the trademark dispute.",
+        "options": [
+          "The legal department has finally won the trademark dispute.",
+          "The legal department is finally winning the trademark dispute.",
+          "The legal department was finally winning the trademark dispute."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja pencapaian seketika (achievement/punctual verbs seperti win, lose, find, stop, finish) tidak berdurasi panjang, sehingga tidak cocok memakai Present Perfect Continuous jika tuntas. Gunakan: 'has finally won'.",
+        "hints": ["'Win' adalah peristiwa seketika (bukan proses panjang berdurasi).", "Gunakan Present Perfect Simple 'has won'."],
+        "skill": "present-perfect-continuous-punctual"
+      },
+      {
+        "type": "choice",
+        "prompt": "Throughout the ongoing corporate restructuring, the leadership team ___ transparent communication.",
+        "options": ["has been prioritizing", "has prioritized already", "is prioritizing since"],
+        "answer": 0,
+        "explanation": "Menekankan proses prioritas yang terus dikedepankan secara berkelanjutan sepanjang restrukturisasi: 'has been prioritizing'.",
+        "hints": ["Menekankan proses berkelanjutan tanpa jeda.", "Gunakan Present Perfect Continuous."],
+        "skill": "present-perfect-continuous-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog audit kinerja dengan pembedaan nuansa selesai vs berkelanjutan.",
+        "dialogue": [
+          ["Manager", "Have you finished drafting the quarterly strategic forecast?"],
+          ["Analyst", "Not quite yet, but I ___ on it steadily all morning."]
+        ],
+        "options": ["have been working", "have worked", "worked"],
+        "answer": 0,
+        "explanation": "Pekerjaan belum tuntas ('Not quite yet') dan prosesnya masih berjalan: 'have been working on it'.",
+        "hints": ["Pekerjaan belum tuntas dan masih berjalan.", "Gunakan Present Perfect Continuous."],
+        "skill": "present-perfect-continuous-incomplete"
+      }
+    ]
+  }
+}

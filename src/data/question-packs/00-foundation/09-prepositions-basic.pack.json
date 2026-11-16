@@ -1,0 +1,224 @@
+{
+  "moduleKey": "00-foundation/09-prepositions-basic",
+  "title": "Prepositions (Basic)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The international keynote lecture starts precisely ___ 9:30 a.m.",
+        "options": ["at", "on", "in"],
+        "answer": 0,
+        "explanation": "Untuk waktu jam yang tepat (exact clock time), gunakan preposisi 'at': at 9:30 a.m., at noon.",
+        "hints": ["Waktu jam spesifik.", "Gunakan 'at' untuk jam."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our weekly progress evaluation meeting takes place ___ Mondays.",
+        "options": ["in", "on", "at"],
+        "answer": 1,
+        "explanation": "Untuk nama hari dalam sepekan (days of the week) dan tanggal kalender, gunakan preposisi 'on': on Monday, on July 4th.",
+        "hints": ["Nama hari dalam sepekan.", "Gunakan preposisi 'on'."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "The construction of the new tech campus will be completed ___ 2028.",
+        "options": ["on", "at", "in"],
+        "answer": 2,
+        "explanation": "Untuk tahun, bulan, abad, dan musim (panjang waktu), gunakan preposisi 'in': in 2028, in July, in winter.",
+        "hints": ["Periode tahun atau bulan panjang.", "Gunakan preposisi 'in'."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi tempat 'on the desk'.",
+        "targetSentence": "The laptop is on the desk.",
+        "explanation": "Preposisi 'on' digunakan untuk benda yang berada di atas permukaan fisik.",
+        "hints": ["Subject: 'The laptop'.", "Gunakan 'is on the desk'."],
+        "skill": "preposition-place"
+      },
+      {
+        "type": "choice",
+        "prompt": "The original signed certificates are kept safely ___ the cabinet drawer.",
+        "options": ["on", "in", "at"],
+        "answer": 1,
+        "explanation": "Untuk benda yang berada di dalam ruang tertutup 3 dimensi (laci, lemari, kotak), gunakan 'in': in the drawer.",
+        "hints": ["Berada di dalam ruang tertutup.", "Gunakan 'in'."],
+        "skill": "preposition-place"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi waktu dan tempat dasar.",
+        "targetSentence": "We will meet at the station at noon.",
+        "explanation": "'At the station' (titik lokasi spesifik) dan 'at noon' (waktu jam 12 siang tepat).",
+        "hints": ["Mulai dengan 'We will meet'.", "Gunakan 'at the station at noon'."],
+        "skill": "preposition-place"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please sit down ___ the chair and sign your name ___ the bottom of the form.",
+        "options": ["on / at", "in / in", "at / on"],
+        "answer": 0,
+        "explanation": "Duduk di atas permukaan kursi: 'on the chair'; posisi titik spesifik pada dokumen: 'at the bottom'.",
+        "hints": ["Permukaan kursi memakai 'on'.", "Titik paling bawah dokumen memakai 'at the bottom'."],
+        "skill": "preposition-place"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan preposisi waktu yang tepat.",
+        "dialogue": [
+          ["Organizer", "When is the project milestone review scheduled?"],
+          ["Coordinator", "It is scheduled for 2 p.m. ___ Thursday afternoon."]
+        ],
+        "options": ["on", "in", "at"],
+        "answer": 0,
+        "explanation": "Bila ada kombinasi bagian hari dan nama hari ('Thursday afternoon'), preposisi ditentukan oleh nama hari, yaitu 'on'.",
+        "hints": ["Nama hari 'Thursday' mendominasi aturan preposisi.", "Gunakan 'on'."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "The delivery truck is waiting ___ front of the warehouse gates.",
+        "options": ["in", "on", "at"],
+        "answer": 0,
+        "explanation": "Frasa preposisi tetap (fixed prepositional phrase) untuk posisi depan adalah 'in front of'.",
+        "hints": ["Frasa baku adalah 'in front of'.", "Bukan 'at front of'."],
+        "skill": "preposition-phrase"
+      },
+      {
+        "type": "choice",
+        "prompt": "The flight will arrive in Tokyo ___ two hours.",
+        "options": ["in", "at", "on"],
+        "answer": 0,
+        "explanation": "'In + durasi waktu' (in two hours / in ten minutes) bermakna 'dalam waktu... ke depan' (future period).",
+        "hints": ["Menyatakan durasi waktu menuju masa depan.", "Gunakan 'in'."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi 'between' untuk dua hal.",
+        "targetSentence": "The bank is located between the post office and the library.",
+        "explanation": "'Between' digunakan saat objek berada di antara dua tempat atau hal spesifik.",
+        "hints": ["Mulai dengan 'The bank is located'.", "Gunakan 'between... and...'."],
+        "skill": "preposition-place"
+      },
+      {
+        "type": "choice",
+        "prompt": "She was standing ___ a large crowd of excited festival attendees.",
+        "options": ["among", "between", "under"],
+        "answer": 0,
+        "explanation": "Gunakan 'among' ketika berada di tengah-tengah kelompok banyak orang atau hal yang tidak terhitung terpisah (lebih dari dua entitas tak terinci).",
+        "hints": ["Di tengah kerumunan banyak orang (bukan 2 hal terpisah).", "Gunakan 'among'."],
+        "skill": "preposition-place"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi arah pergerakan 'into'.",
+        "targetSentence": "The technician walked into the server room.",
+        "explanation": "'Into' menunjukkan pergerakan fisik dari luar menuju ke dalam suatu ruangan.",
+        "hints": ["Subject: 'The technician'.", "Pergerakan ke dalam memakai 'into'."],
+        "skill": "preposition-direction"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih preposisi yang benar untuk transportasi umum.",
+        "dialogue": [
+          ["Colleague", "Are you taking a taxi to the terminal?"],
+          ["Commuter", "No, I am currently ___ the train."]
+        ],
+        "options": ["on", "in", "at"],
+        "answer": 0,
+        "explanation": "Untuk moda transportasi umum besar di mana penumpang bisa berdiri atau berjalan (train, bus, plane, ship), gunakan preposisi 'on': on the train, on the bus.",
+        "hints": ["Kendaraan umum besar yang bisa dinaiki dengan berdiri.", "Gunakan 'on the train', bukan 'in'."],
+        "skill": "preposition-transport"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki perbedaan makna preposisi waktu 'at the end' vs 'in the end'.",
+        "draft": "We encountered many setbacks, but at the end the audit was approved.",
+        "options": [
+          "We encountered many setbacks, but in the end the audit was approved.",
+          "We encountered many setbacks, but on the end the audit was approved.",
+          "We encountered many setbacks, but at end the audit was approved."
+        ],
+        "answer": 0,
+        "explanation": "'In the end' adalah idiom yang berarti 'akhirnya / pada akhirnya' (finally). Sebaliknya 'at the end' harus diikuti objek fisik atau titik waktu ('at the end of the day/month').",
+        "hints": ["Bermakna 'pada akhirnya / kesimpulannya'.", "Gunakan frasa 'in the end'."],
+        "skill": "preposition-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The keynote speaker arrived ___ time, so the opening ceremony started precisely ___ time at 9:00.",
+        "options": ["in / on", "on / in", "at / in"],
+        "answer": 0,
+        "explanation": "'In time' berarti tepat waktu dengan sisa waktu cukup sebelum terlambat. 'On time' berarti tepat persis sesuai jadwal yang tertera (punctual).",
+        "hints": ["Datang sebelum terlambat: in time.", "Tepat sesuai jadwal jam: on time."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi penggunaan preposisi untuk kendaraan pribadi kecil (mobil/taksi).",
+        "draft": "He left his briefcase on the taxi while rushing to the gate.",
+        "options": [
+          "He left his briefcase in the taxi while rushing to the gate.",
+          "He left his briefcase at the taxi while rushing to the gate.",
+          "He left his briefcase into the taxi while rushing to the gate."
+        ],
+        "answer": 0,
+        "explanation": "Untuk kendaraan kecil tertutup di mana penumpang harus membungkuk untuk masuk (car, taxi), gunakan preposisi 'in', bukan 'on': in the taxi, in my car.",
+        "hints": ["Mobil pribadi atau taksi adalah ruang tertutup kecil.", "Gunakan 'in the taxi', bukan 'on'."],
+        "skill": "preposition-transport"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan dependent preposition 'depend on'.",
+        "targetSentence": "Our final decision will depend on the financial results.",
+        "explanation": "Verb 'depend' terikat wajib dengan preposisi 'on'.",
+        "hints": ["Mulai dengan 'Our final decision'.", "'Depend' selalu berpasangan dengan 'on'."],
+        "skill": "preposition-dependent"
+      },
+      {
+        "type": "choice",
+        "prompt": "The bridge stretches ___ the broad river, connecting the two historic districts.",
+        "options": ["across", "through", "along"],
+        "answer": 0,
+        "explanation": "'Across' berarti membentang dari satu sisi ke sisi seberang (from one side to the other). 'Along' berarti menyusuri tepian, 'through' berarti menembus ruang tertutup.",
+        "hints": ["Membentang dari satu sisi tepian ke sisi seberang.", "Gunakan 'across'."],
+        "skill": "preposition-direction"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog formal mengenai batas akhir pengiriman (deadline).",
+        "dialogue": [
+          ["Director", "When must the revised dossier be submitted?"],
+          ["Secretary", "It must be submitted ___ Friday at the very latest."]
+        ],
+        "options": ["by", "until", "at"],
+        "answer": 0,
+        "explanation": "'By + waktu' menyatakan batas akhir tenggat waktu ('paling lambat sebelum atau pada'). 'Until' menyatakan durasi proses berkelanjutan sampai titik waktu tersebut.",
+        "hints": ["Menunjukkan batas akhir (deadline: at or before).", "Gunakan preposisi 'by'."],
+        "skill": "preposition-time"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan preposisi yang sering terjadi setelah kata kerja 'arrive'.",
+        "draft": "The diplomatic delegation arrived to London early this morning.",
+        "options": [
+          "The diplomatic delegation arrived in London early this morning.",
+          "The diplomatic delegation arrived at London early this morning.",
+          "The diplomatic delegation arrived on London early this morning."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja 'arrive' TIDAK memakai 'to'. Untuk kota atau negara besar gunakan 'arrive in' (arrive in London/Indonesia). Untuk tempat titik spesifik gunakan 'arrive at' (arrive at the airport/hotel).",
+        "hints": ["'Arrive' tidak pernah menggunakan 'to'.", "Untuk kota besar atau negara gunakan 'arrive in'."],
+        "skill": "preposition-dependent"
+      }
+    ]
+  }
+}

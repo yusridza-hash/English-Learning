@@ -1,9 +1,11 @@
 import React, { useCallback, useEffect, useState } from "react";
+
 import { DashboardView } from "./components/DashboardView";
 import { GeneratedModuleView } from "./components/GeneratedModuleView";
 import { LegacyModuleView } from "./components/LegacyModuleView";
 import { LogsView } from "./components/LogsView";
 import { PresentSimplePilotView } from "./components/PresentSimplePilotView";
+import { QuestionBankManagementView } from "./components/QuestionBankManagementView";
 import { WordChoiceBankView } from "./components/WordChoiceBankView";
 import { MODULE_CONTENT } from "./data/generatedModules";
 import { LEGACY_MODULES } from "./data/legacyModules";
@@ -72,6 +74,11 @@ export const App: React.FC = () => {
   if (currentRoute === "index") {
     return <DashboardView onNavigate={handleNavigate} />;
   }
+
+  if (currentRoute === "question-bank") {
+    return <QuestionBankManagementView onNavigate={handleNavigate} />;
+  }
+
 
   if (currentRoute === "word-choice-bank") {
     return <WordChoiceBankView onNavigate={handleNavigate} />;

@@ -1,0 +1,222 @@
+{
+  "moduleKey": "00-foundation/12-questions-basic",
+  "title": "Question Forms (Basic)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "___ does the quarterly shareholder conference begin?",
+        "options": ["What time", "Who", "Wherefore"],
+        "answer": 0,
+        "explanation": "Untuk menanyakan waktu jam spesifik, gunakan question word 'What time' atau 'When'.",
+        "hints": ["Menanyakan jam pelaksanaan acara.", "Gunakan 'What time'."],
+        "skill": "question-wh-words"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is in charge of reviewing customer refund requests this week?",
+        "options": ["Who", "Whom", "Which"],
+        "answer": 0,
+        "explanation": "'Who' digunakan untuk menanyakan subjek orang pelaku aksi ('siapa yang bertanggung jawab').",
+        "hints": ["Menanyakan subjek orang.", "Gunakan 'Who'."],
+        "skill": "question-wh-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Yes/No sederhana dengan auxiliary verb 'Do'.",
+        "targetSentence": "Do you prefer tea or coffee?",
+        "explanation": "Rumus: Do + Subject (you) + Base verb (prefer) + Object (tea or coffee)?",
+        "hints": ["Awali pertanyaan dengan 'Do'.", "Letakkan 'you prefer' setelah Do."],
+        "skill": "question-yes-no"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ is the nearest subway station located?",
+        "options": ["Where", "Why", "When"],
+        "answer": 0,
+        "explanation": "'Where' digunakan untuk menanyakan lokasi atau tempat fisik.",
+        "hints": ["Menanyakan letak lokasi stasiun.", "Gunakan 'Where'."],
+        "skill": "question-wh-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya dengan kata tanya 'Why'.",
+        "targetSentence": "Why is the office closed today?",
+        "explanation": "Wh-word (Why) + to be (is) + Subject (the office) + Adjective (closed) + Time (today)?",
+        "hints": ["Mulai dengan 'Why'.", "Inversikan to be 'is' sebelum subjek 'the office'."],
+        "skill": "question-wh-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of these two software licenses did your team purchase?",
+        "options": ["Which", "What", "Whose"],
+        "answer": 0,
+        "explanation": "Gunakan 'Which' ketika memilih dari sekumpulan opsi pilihan yang terbatas/spesifik ('these two licenses').",
+        "hints": ["Pilihan dari daftar opsi terbatas.", "Gunakan 'Which', bukan 'What'."],
+        "skill": "question-wh-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya untuk menanyakan durasi waktu dengan 'How long'.",
+        "targetSentence": "How long does the training session last?",
+        "explanation": "Question phrase (How long) + Auxiliary (does) + Subject (the training session) + Base verb (last)?",
+        "hints": ["Awali dengan 'How long'.", "Gunakan auxiliary 'does' sebelum subjek."],
+        "skill": "question-wh-order"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan pertanyaan klarifikasi alasan yang tepat.",
+        "dialogue": [
+          ["Manager", "___ did you decide to reschedule the product launch?"],
+          ["Product Lead", "Because our beta testers discovered critical bugs yesterday."]
+        ],
+        "options": ["Why", "How", "When"],
+        "answer": 0,
+        "explanation": "Jawaban yang diawali 'Because' (karena) menjawab pertanyaan alasan 'Why'.",
+        "hints": ["Jawaban memberikan alasan sebab-akibat (Because...).", "Gunakan kata tanya 'Why'."],
+        "skill": "question-wh-words"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ often does the internal audit committee inspect inventory logs?",
+        "options": ["How", "What", "Which"],
+        "answer": 0,
+        "explanation": "'How often' adalah frasa tanya untuk menanyakan frekuensi pengulangan (seberapa sering).",
+        "hints": ["Menanyakan frekuensi keteraturan.", "Gunakan 'How often'."],
+        "skill": "question-how-compounds"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference: '___ happened at the executive meeting?' (Subject question).",
+        "options": ["What", "What did", "How did"],
+        "answer": 0,
+        "explanation": "Ketika kata tanya 'What/Who' berfungsi sebagai SUBJEK kalimat, TIDAK menggunakan auxiliary 'did/do/does', melainkan langsung diikuti kata kerja: 'What happened?', bukan 'What did happen?'.",
+        "hints": ["Pertanyaan ini menanyakan subjek pelaku peristiwa.", "Subject questions tidak menggunakan auxiliary 'did'."],
+        "skill": "question-subject-vs-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun subject question tanpa auxiliary verb.",
+        "targetSentence": "Who wrote this detailed analysis?",
+        "explanation": "Subject question: 'Who' bertindak sebagai subjek, langsung diikuti past verb 'wrote' dan objek.",
+        "hints": ["'Who' adalah subjek pelaku tindakan penulisan.", "Jangan menyisipkan 'did'."],
+        "skill": "question-subject-vs-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sebaliknya, pada Object question: 'Who ___ at the networking dinner yesterday?'",
+        "options": ["did you meet", "met you", "you met"],
+        "answer": 0,
+        "explanation": "Ketika subjeknya adalah 'you' dan 'Who' adalah objek yang ditemui (Object question), wajib menggunakan auxiliary inversi: 'did you meet'.",
+        "hints": ["Subjeknya adalah 'you' (kamu menemui siapa).", "Wajib menggunakan auxiliary 'did you meet'."],
+        "skill": "question-subject-vs-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun pertanyaan dengan preposisi di akhir (preposition stranding).",
+        "targetSentence": "Who are you waiting for?",
+        "explanation": "Dalam bahasa Inggris lisan alami, preposisi diletakkan di akhir: Who + are + you + waiting for?",
+        "hints": ["Mulai dengan 'Who'.", "Letakkan preposisi 'for' di akhir kalimat."],
+        "skill": "question-preposition"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tanya jawab tentang biaya.",
+        "dialogue": [
+          ["Client", "___ does the annual software subscription cost?"],
+          ["Sales Rep", "It costs twelve hundred dollars per user."]
+        ],
+        "options": ["How much", "How many", "How high"],
+        "answer": 0,
+        "explanation": "Untuk menanyakan harga atau biaya (jumlah uang), gunakan frasa 'How much'.",
+        "hints": ["Menanyakan nominal biaya uang.", "Gunakan 'How much'."],
+        "skill": "question-how-compounds"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum penataan kalimat tanya tidak langsung (indirect / embedded question).",
+        "draft": "Could you please tell me where is the conference hall?",
+        "options": [
+          "Could you please tell me where the conference hall is?",
+          "Could you please tell me where does the conference hall locate?",
+          "Could you please tell me where is the conference hall located?"
+        ],
+        "answer": 0,
+        "explanation": "Pada indirect question (kalimat tanya yang disematkan setelah 'Could you tell me...'), urutan kata KEMBALI ke urutan pernyataan normal (Subject + Verb: 'where the conference hall is'), BUKAN bentuk tanya inversi ('where is...').",
+        "hints": ["Indirect question tidak menggunakan inversi Verb-Subject.", "Urutannya: Wh-word + Subject (the conference hall) + Verb (is)."],
+        "skill": "question-indirect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I wonder why ___ to sign the nondisclosure agreement.",
+        "options": ["they refused", "did they refuse", "refused they"],
+        "answer": 0,
+        "explanation": "Setelah klausa pernyataan 'I wonder why...', klausa bawahan menggunakan urutan subjek + kata kerja biasa: 'they refused'.",
+        "hints": ["Bukan kalimat tanya langsung mandiri.", "Gunakan urutan normal: Subject (they) + Verb (refused)."],
+        "skill": "question-indirect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you know what time ___?",
+        "options": ["the morning session concludes", "does the morning session conclude", "concludes the morning session"],
+        "answer": 0,
+        "explanation": "Embedded question setelah 'Do you know...': susunan harus 'Subject + Verb', tanpa auxiliary 'does'.",
+        "hints": ["Embedded question tidak memakai auxiliary 'does'.", "Subject: 'the morning session' + Verb: 'concludes'."],
+        "skill": "question-indirect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun indirect question yang santun dan formal.",
+        "targetSentence": "Do you know how much this will cost?",
+        "explanation": "Do you know + question phrase (how much) + Subject (this) + Verb (will cost)?",
+        "hints": ["Awali dengan 'Do you know'.", "Urutan klausa: how much this will cost."],
+        "skill": "question-indirect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi pertanyaan formal dengan preposisi depan (fronted preposition).",
+        "draft": "To whom did you submitted the revised specifications?",
+        "options": [
+          "To whom did you submit the revised specifications?",
+          "To who did you submit the revised specifications?",
+          "To whom submitted you the revised specifications?"
+        ],
+        "answer": 0,
+        "explanation": "Setelah auxiliary 'did', kata kerja wajib kembali ke bentuk dasar 'submit', bukan 'submitted'. Dalam gaya formal, preposisi di depan memakai objek pronoun 'whom' ('To whom').",
+        "hints": ["Setelah auxiliary 'did', verb kembali ke bentuk dasar 'submit'.", "Preposisi di depan berpasangan dengan 'whom'."],
+        "skill": "question-preposition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negative questions often express surprise or confirmation: '___ received the tracking confirmation yet?'",
+        "options": ["Haven't you", "Have you not to", "Did not you have"],
+        "answer": 0,
+        "explanation": "Negative question 'Haven't you received...?' digunakan untuk menyatakan keheranan atau meminta konfirmasi atas ekspektasi pembicara.",
+        "hints": ["Pertanyaan negatif untuk menyatakan rasa heran.", "Gunakan 'Haven't you received...?'."],
+        "skill": "question-negative"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi dengan indirect question tingkat lanjut.",
+        "dialogue": [
+          ["Client", "Can you explain ___?"],
+          ["Vendor", "Certainly. The cost covers 24/7 dedicated enterprise support."]
+        ],
+        "options": [
+          "what this service fee includes",
+          "what does this service fee include",
+          "what includes this service fee"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Can you explain...', klausa berbentuk indirect: Wh-word (what) + Subject (this service fee) + Verb (includes).",
+        "hints": ["Indirect question setelah 'Can you explain...'.", "Pola: Subject + Verb tanpa auxiliary 'does'."],
+        "skill": "question-indirect"
+      }
+    ]
+  }
+}

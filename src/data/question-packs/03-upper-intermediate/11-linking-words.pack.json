@@ -1,0 +1,350 @@
+{
+  "moduleKey": "03-upper-intermediate/11-linking-words",
+  "title": "Linking Words",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Concession with noun phrase: '___ the torrential downpour, the open-air festival continued.'",
+        "options": [
+          "Despite",
+          "Although",
+          "Even though"
+        ],
+        "answer": 0,
+        "explanation": "'Despite' dan 'In spite of' diikuti oleh Noun Phrase (the torrential downpour). 'Although' dan 'Even though' wajib diikuti klausa lengkap (Subject + Verb).",
+        "hints": [
+          "Diikuti langsung oleh frasa kata benda (noun phrase).",
+          "Gunakan 'Despite'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast with a clause: '___ she was tired, she reviewed the audit report thoroughly.'",
+        "options": [
+          "Although",
+          "Despite",
+          "In spite of"
+        ],
+        "answer": 0,
+        "explanation": "'Although' diikuti oleh klausa lengkap (she was tired).",
+        "hints": [
+          "Diikuti klausa subjek + predikat.",
+          "Gunakan 'Although'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kontras dengan 'However'.",
+        "targetSentence": "The prototype was innovative however it was too expensive.",
+        "explanation": "The prototype was innovative + however it was too expensive.",
+        "hints": [
+          "Klausa pertama: 'The prototype was innovative'.",
+          "Klausa kontras: 'however it was too expensive'."
+        ],
+        "skill": "discourse-marker-contrast"
+      },
+      {
+        "type": "choice",
+        "prompt": "Cause and effect: 'The flight was delayed ___ technical difficulties with the navigation system.'",
+        "options": [
+          "due to",
+          "because",
+          "since"
+        ],
+        "answer": 0,
+        "explanation": "'Due to' / 'Owing to' / 'Because of' diikuti oleh noun phrase ('technical difficulties').",
+        "hints": [
+          "Diikuti frasa nomina (bukan klausa).",
+          "Gunakan 'due to'."
+        ],
+        "skill": "cause-effect-linking"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan 'In spite of the rain'.",
+        "targetSentence": "In spite of the rain they enjoyed the city tour.",
+        "explanation": "In spite of the rain + they enjoyed the city tour.",
+        "hints": [
+          "Mulai dengan frasa konsesi: 'In spite of the rain'.",
+          "Klausa utama: 'they enjoyed the city tour'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "Addition linking word: 'The company expanded its sales territory; ___, it hired fifty engineers.'",
+        "options": [
+          "furthermore",
+          "although",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Furthermore' / 'Moreover' digunakan untuk menambahkan poin pendukung yang searah secara formal.",
+        "hints": [
+          "Menambahkan informasi pendukung.",
+          "Gunakan 'furthermore'."
+        ],
+        "skill": "addition-linking-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan 'Consequently'.",
+        "targetSentence": "Demand rose rapidly consequently prices surged across the market.",
+        "explanation": "Demand rose rapidly + consequently prices surged across the market.",
+        "hints": [
+          "Sebab: 'Demand rose rapidly'.",
+          "Akibat: 'consequently prices surged across the market'."
+        ],
+        "skill": "cause-effect-linking"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis komparatif bisnis dengan 'whereas'.",
+        "dialogue": [
+          [
+            "Analyst A",
+            "Domestic sales declined by 4% in Q3."
+          ],
+          [
+            "Analyst B",
+            "Indeed, ___ our overseas exports expanded by nearly 12%."
+          ]
+        ],
+        "options": [
+          "whereas",
+          "in spite of",
+          "due to"
+        ],
+        "answer": 0,
+        "explanation": "'Whereas' / 'While' digunakan untuk menyandingkan dua fakta kontras yang saling berhadapan secara seimbang.",
+        "hints": [
+          "Menjajarkan dua perbandingan kontras langsung.",
+          "Gunakan 'whereas'."
+        ],
+        "skill": "contrast-whereas-while"
+      },
+      {
+        "type": "choice",
+        "prompt": "Condition with negative assumption: 'We must finalize the contract now, ___ the vendor will raise their prices.'",
+        "options": [
+          "otherwise",
+          "nevertheless",
+          "likewise"
+        ],
+        "answer": 0,
+        "explanation": "'Otherwise' berarti 'jika tidak' (or else / if not).",
+        "hints": [
+          "Menyatakan konsekuensi negatif bila kondisi tidak dipenuhi.",
+          "Gunakan 'otherwise'."
+        ],
+        "skill": "condition-otherwise"
+      },
+      {
+        "type": "choice",
+        "prompt": "Concession with 'Notwithstanding': '___ the global economic headwinds, the conglomerate posted record profits.'",
+        "options": [
+          "Notwithstanding",
+          "Although",
+          "Even if"
+        ],
+        "answer": 0,
+        "explanation": "'Notwithstanding' adalah preposisi konsesi bernada sangat formal (mirip despite) yang diikuti noun phrase.",
+        "hints": [
+          "Kata penghubung konsesi formal setara 'despite'.",
+          "Gunakan 'Notwithstanding'."
+        ],
+        "skill": "formal-concession-linking"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kontras dengan 'Nevertheless'.",
+        "targetSentence": "The journey was arduous nevertheless they persevered until the summit.",
+        "explanation": "The journey was arduous + nevertheless they persevered until the summit.",
+        "hints": [
+          "Kondisi sulit: 'The journey was arduous'.",
+          "Penegasan sikap: 'nevertheless they persevered until the summit'."
+        ],
+        "skill": "discourse-marker-contrast"
+      },
+      {
+        "type": "choice",
+        "prompt": "Purpose linking: 'The safety valve was installed ___ steam pressure would not exceed critical thresholds.'",
+        "options": [
+          "so that",
+          "in case",
+          "in order to"
+        ],
+        "answer": 0,
+        "explanation": "'So that' diikuti oleh klausa lengkap bermodal (would not exceed) untuk menyatakan tujuan.",
+        "hints": [
+          "Diikuti klausa lengkap dengan modalitas.",
+          "Gunakan 'so that'."
+        ],
+        "skill": "purpose-linking-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tujuan dengan 'in order that'.",
+        "targetSentence": "Measures were introduced in order that transparency could be maintained.",
+        "explanation": "Measures were introduced + in order that transparency could be maintained.",
+        "hints": [
+          "Mulai dengan 'Measures were introduced'.",
+          "Klausa tujuan: 'in order that transparency could be maintained'."
+        ],
+        "skill": "purpose-linking-words"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perdebatan rencana mitigasi.",
+        "dialogue": [
+          [
+            "Director",
+            "Should we purchase the surplus insurance package?"
+          ],
+          [
+            "Risk Officer",
+            "Yes, ___ unexpected natural disruptions occur during transit."
+          ]
+        ],
+        "options": [
+          "in case",
+          "so that",
+          "unless"
+        ],
+        "answer": 0,
+        "explanation": "'In case' digunakan untuk aksi pencegahan terhadap kemungkinan terjadinya hal yang tidak diinginkan di masa depan.",
+        "hints": [
+          "Tindakan pencegahan/berjaga-jaga.",
+          "Gunakan 'in case'."
+        ],
+        "skill": "precaution-in-case"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi redundant connector pada klausa konsesi.",
+        "draft": "Although the fiscal policy was austere, but it successfully stabilized the national currency.",
+        "options": [
+          "Although the fiscal policy was austere, it successfully stabilized the national currency.",
+          "Although the fiscal policy was austere, however it stabilized the currency.",
+          "In spite of the policy was austere, but it stabilized the currency."
+        ],
+        "answer": 0,
+        "explanation": "Kesalahan umum bilingual: Jangan pernah menggabungkan 'Although' dan 'But' dalam satu kesatuan kalimat majemuk. Hapus kata 'but'.",
+        "hints": [
+          "Pantang memasangkan 'Although' dengan 'but'.",
+          "Hapus 'but'."
+        ],
+        "skill": "redundant-connector-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Cohesive signaling in academic argumentation: Which linker introduces an inevitable logical consequence?",
+        "options": [
+          "It follows that",
+          "On the other hand",
+          "Admittedly"
+        ],
+        "answer": 0,
+        "explanation": "'It follows that...' adalah ungkapan kohesi deduktif formal yang menandai kesimpulan logis yang tak terbantahkan.",
+        "hints": [
+          "Penanda deduksi logika formal.",
+          "Pilih 'It follows that'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Adcessive concessive concession: '___ that the initial expenditure is substantial, the long-term energy savings justify the investment.'",
+        "options": [
+          "Granted",
+          "Because",
+          "Providing"
+        ],
+        "answer": 0,
+        "explanation": "'Granted that...' / 'Admittedly...' digunakan untuk mengakui kebenaran suatu poin counter-argument sebelum kemudian membantahnya.",
+        "hints": [
+          "Mengakui kebenaran argumen lawan sebelum membantah.",
+          "Gunakan 'Granted'."
+        ],
+        "skill": "counter-argument-concession"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dengan 'Insofar as'.",
+        "targetSentence": "Insofar as the data is accurate the conclusions remain valid.",
+        "explanation": "Insofar as the data is accurate + the conclusions remain valid.",
+        "hints": [
+          "Mulai dengan pembatas: 'Insofar as the data is accurate'.",
+          "Klausa utama: 'the conclusions remain valid'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan posisi adverbial linker.",
+        "draft": "The hypothesis was refuted, on the contrary, new evidence supported the rival theory.",
+        "options": [
+          "The hypothesis was refuted; on the contrary, new evidence supported the rival theory.",
+          "The hypothesis was refuted, however on the contrary new evidence supported the rival theory.",
+          "The hypothesis was refuted despite on the contrary new evidence supported it."
+        ],
+        "answer": 0,
+        "explanation": "Penghubung transisi antarklausa mandiri (conjunctive adverb seperti 'on the contrary') harus diawali titik koma (;) atau titik (.), bukan sekadar koma (comma splice).",
+        "hints": [
+          "Hindari comma splice.",
+          "Gunakan titik koma sebelum 'on the contrary'."
+        ],
+        "skill": "punctuation-with-linkers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence with accurate register for introducing exemplification without conversational cliches:",
+        "options": [
+          "The pharmaceutical firm manufactures numerous biological agents, namely monoclonal antibodies and recombinant vaccines.",
+          "The pharmaceutical firm makes stuff, like for example antibodies.",
+          "The pharmaceutical firm makes drugs such like vaccines."
+        ],
+        "answer": 0,
+        "explanation": "'Namely' adalah linking adverb berbobot tinggi yang digunakan untuk merinci dan memperjelas entitas yang baru saja disebutkan.",
+        "hints": [
+          "Gaya bahasa formal dan presisi tinggi.",
+          "Pilih kalimat dengan 'namely'."
+        ],
+        "skill": "exemplification-markers"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog editorial akademik.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "The methodology is rigorous; ___ do the authors address potential sample bias?"
+          ],
+          [
+            "Editor",
+            "Nowhere in the methodology chapter."
+          ]
+        ],
+        "options": [
+          "yet nowhere",
+          "so everywhere",
+          "therefore nowhere"
+        ],
+        "answer": 0,
+        "explanation": "'Yet nowhere do the authors address...' menggabungkan kontras konsesif ('yet') dengan inversi negatif ('nowhere do the authors...').",
+        "hints": [
+          "Kontras elegan yang memicu inversi.",
+          "Gunakan 'yet nowhere'."
+        ],
+        "skill": "academic-cohesion-markers"
+      }
+    ]
+  }
+}

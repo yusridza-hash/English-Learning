@@ -1,0 +1,350 @@
+{
+  "moduleKey": "03-upper-intermediate/01-past-perfect-continuous",
+  "title": "Past Perfect Continuous",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "By the time the manager arrived, they ___ for over three hours.",
+        "options": [
+          "had been negotiating",
+          "have been negotiating",
+          "were negotiating"
+        ],
+        "answer": 0,
+        "explanation": "Past Perfect Continuous (had been + V-ing) digunakan untuk menekankan durasi aksi yang sedang berlangsung sebelum titik waktu tertentu di masa lampau.",
+        "hints": [
+          "Menekankan durasi aksi lampau sebelum peristiwa lampau lain.",
+          "Formula: had been + V-ing."
+        ],
+        "skill": "past-perfect-cont-duration"
+      },
+      {
+        "type": "choice",
+        "prompt": "His eyes were red and weary because he ___ all night on the server migration.",
+        "options": [
+          "had been working",
+          "has been working",
+          "would work"
+        ],
+        "answer": 0,
+        "explanation": "Menjelaskan bukti/akibat fisik di masa lalu (eyes were red) dari aktivitas yang baru saja berlangsung terus-menerus.",
+        "hints": [
+          "Bukti lampau (eyes were red) akibat aktivitas terus-menerus.",
+          "Gunakan 'had been working'."
+        ],
+        "skill": "past-perfect-cont-cause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Perfect Continuous dengan durasi waktu.",
+        "targetSentence": "She had been studying Japanese before moving to Tokyo.",
+        "explanation": "Subject + had been studying + Japanese + before moving to Tokyo.",
+        "hints": [
+          "Mulai dengan 'She had been studying Japanese'.",
+          "Keterangan waktu: 'before moving to Tokyo'."
+        ],
+        "skill": "past-perfect-cont-duration"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long ___ before the bus finally arrived?",
+        "options": [
+          "had you been waiting",
+          "have you been waiting",
+          "did you wait"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk interogatif: How long + had + subjek + been + V-ing.",
+        "hints": [
+          "Pertanyaan durasi sebelum peristiwa lampau.",
+          "Gunakan 'had you been waiting'."
+        ],
+        "skill": "past-perfect-cont-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif Past Perfect Continuous.",
+        "targetSentence": "They had not been working on that project for long.",
+        "explanation": "Subject + had not been working + on that project + for long.",
+        "hints": [
+          "Bentuk negatif: 'They had not been working'.",
+          "Lanjutkan dengan 'on that project for long'."
+        ],
+        "skill": "past-perfect-cont-negative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ground was wet because it ___ heavily throughout the afternoon.",
+        "options": [
+          "had been raining",
+          "rained",
+          "was raining"
+        ],
+        "answer": 0,
+        "explanation": "'Had been raining' menjelaskan penyebab dari kondisi masa lampau ('the ground was wet').",
+        "hints": [
+          "Aksi berlangsung terus-menerus yang menjelaskan kondisi lampau.",
+          "Gunakan 'had been raining'."
+        ],
+        "skill": "past-perfect-cont-cause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan time marker 'for two hours'.",
+        "targetSentence": "We had been driving for two hours when the engine failed.",
+        "explanation": "We had been driving for two hours + when the engine failed.",
+        "hints": [
+          "Aksi berkelanjutan: 'We had been driving for two hours'.",
+          "Interupsi: 'when the engine failed'."
+        ],
+        "skill": "past-perfect-cont-interruption"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk tenses yang membedakan proses (continuous) vs hasil selesai (simple).",
+        "dialogue": [
+          [
+            "Lead Auditor",
+            "Why was the balance sheet still incomplete at midnight?"
+          ],
+          [
+            "Associate",
+            "Because we ___ discrepancies in the ledger all evening."
+          ]
+        ],
+        "options": [
+          "had been investigating",
+          "had investigated",
+          "were investigated"
+        ],
+        "answer": 0,
+        "explanation": "Associate menekankan proses investigasi yang terus berlangsung dan melelahkan sepanjang malam ('had been investigating').",
+        "hints": [
+          "Menekankan proses dan usaha berkelanjutan.",
+          "Gunakan Past Perfect Continuous."
+        ],
+        "skill": "past-perf-cont-vs-past-perf-simple"
+      },
+      {
+        "type": "choice",
+        "prompt": "Stative verb constraint: 'Prior to the 2020 merger, the two executives ___ each other for decades.'",
+        "options": [
+          "had known",
+          "had been knowing",
+          "were knowing"
+        ],
+        "answer": 0,
+        "explanation": "'Know' adalah stative verb (tidak bisa continuous). Maka wajib menggunakan Past Perfect Simple ('had known'), bukan continuous.",
+        "hints": [
+          "'Know' adalah stative verb.",
+          "Stative verb tidak boleh menggunakan bentuk continuous."
+        ],
+        "skill": "past-perf-cont-stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast: 'He ___ the novel before the deadline.' (completed result)",
+        "options": [
+          "had written",
+          "had been writing",
+          "was writing"
+        ],
+        "answer": 0,
+        "explanation": "Untuk hasil yang selesai sempurna (completed result / quantity), gunakan Past Perfect Simple ('had written').",
+        "hints": [
+          "Menyatakan penyelesaian/output final.",
+          "Gunakan Past Perfect Simple."
+        ],
+        "skill": "past-perf-cont-vs-past-perf-simple"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan stative verb 'had belonged'.",
+        "targetSentence": "The antique watch had belonged to his grandfather for fifty years.",
+        "explanation": "'Belong' adalah kata kerja stative, gunakan Past Perfect Simple meskipun ada durasi 'for fifty years'.",
+        "hints": [
+          "'Belong' adalah stative verb.",
+          "Gunakan 'had belonged'."
+        ],
+        "skill": "past-perf-cont-stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Interrupted action: 'The team ___ on the prototype when the power grid collapsed.'",
+        "options": [
+          "had been collaborating",
+          "have collaborated",
+          "would collaborate"
+        ],
+        "answer": 0,
+        "explanation": "Menjelaskan aktivitas produktif yang sedang berjalan sebelum diinterupsi oleh pemadaman listrik.",
+        "hints": [
+          "Aktivitas berjalan sebelum titik putus masa lalu.",
+          "Gunakan 'had been collaborating'."
+        ],
+        "skill": "past-perfect-cont-interruption"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun dialog tanya jawab tentang durasi kerja.",
+        "targetSentence": "How long had you been living abroad before returning?",
+        "explanation": "How long had you been living abroad + before returning?",
+        "hints": [
+          "Mulai dengan 'How long had you been living abroad'.",
+          "Klausa waktu: 'before returning?'."
+        ],
+        "skill": "past-perfect-cont-question"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi proyek.",
+        "dialogue": [
+          [
+            "Director",
+            "Did they manage to fix the security breach quickly?"
+          ],
+          [
+            "Security Chief",
+            "No, hackers ___ into our database for weeks before detection."
+          ]
+        ],
+        "options": [
+          "had been infiltrating",
+          "have infiltrated",
+          "were infiltrated"
+        ],
+        "answer": 0,
+        "explanation": "Aksi infiltrasi berjalan berulang/kontinu selama berminggu-minggu sebelum disadari ('had been infiltrating').",
+        "hints": [
+          "Aktivitas rahasia yang berlangsung kontinu selama berminggu-minggu.",
+          "Gunakan Past Perfect Continuous."
+        ],
+        "skill": "past-perfect-cont-duration"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi penggunaan stative verb 'like' pada Past Perfect Continuous.",
+        "draft": "She had been liking classical music since she was a little girl.",
+        "options": [
+          "She had liked classical music since she was a little girl.",
+          "She had been like classical music since she was a little girl.",
+          "She was liking classical music since she was a little girl."
+        ],
+        "answer": 0,
+        "explanation": "'Like' adalah kata kerja emosi/status (stative). Tidak boleh dipakai dalam continuous ('had been liking' keliru). Wajib 'had liked'.",
+        "hints": [
+          "'Like' adalah stative verb.",
+          "Ganti dengan Past Perfect Simple: 'had liked'."
+        ],
+        "skill": "past-perf-cont-stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nuance distinction: 'She had been smoking for twenty years' vs 'She had smoked three cigarettes.' What dictates the choice?",
+        "options": [
+          "Continuous emphasizes duration/activity; Simple emphasizes completed amount/quantity.",
+          "Continuous is informal; Simple is academic only.",
+          "Continuous cannot take time prepositions."
+        ],
+        "answer": 0,
+        "explanation": "Continuous menekankan durasi/proses aktivitas ('for twenty years'), sedangkan Simple menekankan kuantitas/jumlah objek terselesaikan ('three cigarettes').",
+        "hints": [
+          "Perhatikan perbedaan proses vs jumlah hasil terselesaikan.",
+          "Pilih opsi penjelasan durasi vs jumlah."
+        ],
+        "skill": "past-perf-cont-vs-past-perf-simple"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal narrative exposition: 'The diplomatic envoy ___ rumors of rebellion for months before formal hostilities commenced.'",
+        "options": [
+          "had been monitoring",
+          "was monitored",
+          "has been monitoring"
+        ],
+        "answer": 0,
+        "explanation": "Dalam narasi sejarah formal, 'had been monitoring' menunjukkan pengawasan berkelanjutan sebelum pecahnya perang.",
+        "hints": [
+          "Pengawasan kontinu masa lalu.",
+          "Gunakan 'had been monitoring'."
+        ],
+        "skill": "past-perfect-cont-duration"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat analitis laporan kegagalan teknis.",
+        "targetSentence": "The cooling system had been malfunctioning intermittently for days.",
+        "explanation": "Subject + had been malfunctioning + intermittently (adverb) + for days (duration).",
+        "hints": [
+          "Mulai dengan 'The cooling system had been malfunctioning'.",
+          "Lanjutkan dengan 'intermittently for days'."
+        ],
+        "skill": "past-perfect-cont-cause"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki tenses pada klausa waktu sebelum titik lampau.",
+        "draft": "By 2018, the research laboratory has been developing the vaccine for seven years.",
+        "options": [
+          "By 2018, the research laboratory had been developing the vaccine for seven years.",
+          "By 2018, the research laboratory was developing the vaccine for seven years.",
+          "By 2018, the research laboratory would develop the vaccine for seven years."
+        ],
+        "answer": 0,
+        "explanation": "'By 2018' adalah titik waktu lampau tertentu. Maka tenses durasi sebelum titik tersebut WAJIB Past Perfect Continuous ('had been developing'), bukan Present Perfect ('has been').",
+        "hints": [
+          "'By 2018' menandai batas waktu lampau.",
+          "Gunakan 'had been developing'."
+        ],
+        "skill": "past-perfect-cont-duration"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence correctly contrasts repeated action with continuous ongoing state?",
+        "options": [
+          "They had been ringing the bell five times before someone answered. (Incorrect: quantity needs Simple)",
+          "They had rung the bell five times before someone answered. (Correct: specific quantity requires Simple)",
+          "They had been ringing the bell for five times. (Incorrect)"
+        ],
+        "answer": 1,
+        "explanation": "Jika ada frekuensi terhitung spesifik ('five times'), gunakan Past Perfect Simple ('had rung'), bukan continuous.",
+        "hints": [
+          "Jumlah hitungan spesifik (five times) memerlukan Simple.",
+          "Pilih kalimat 'had rung'."
+        ],
+        "skill": "past-perf-cont-vs-past-perf-simple"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog investigasi kecelakaan kerja.",
+        "dialogue": [
+          [
+            "Inspector",
+            "What led to the catastrophic structural collapse?"
+          ],
+          [
+            "Engineer",
+            "Vibrations from heavy machinery ___ the foundation walls for months."
+          ]
+        ],
+        "options": [
+          "had been weakening",
+          "have weakened",
+          "were weakened"
+        ],
+        "answer": 0,
+        "explanation": "Getaran secara kumulatif dan berkelanjutan terus memperlemah dinding selama berbulan-bulan sebelum roboh ('had been weakening').",
+        "hints": [
+          "Proses kumulatif berkelanjutan di masa lalu.",
+          "Gunakan 'had been weakening'."
+        ],
+        "skill": "past-perfect-cont-cause"
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "moduleKey": "02-intermediate/01-present-perfect-vs-past",
+  "title": "Present Perfect vs Past Simple",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Our enterprise ___ a regional branch in Kuala Lumpur three years ago.",
+        "options": ["opened", "has opened", "opens"],
+        "answer": 0,
+        "explanation": "'Three years ago' adalah penanda waktu lampau yang sudah selesai dan spesifik (finished time), sehingga wajib memakai Past Simple: 'opened'.",
+        "hints": ["Perhatikan keterangan waktu 'three years ago'.", "Waktu lampau spesifik mewajibkan bentuk Past Simple (V2)."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ significant growth in organic website traffic so far this quarter.",
+        "options": ["have observed", "observed", "were observing"],
+        "answer": 0,
+        "explanation": "'So far this quarter' merujuk pada kurun waktu yang belum selesai (unfinished time) dan berlanjut ke masa kini, sehingga memakai Present Perfect: 'have observed'.",
+        "hints": ["Kuartal ini masih berjalan hingga sekarang (so far this quarter).", "Gunakan Present Perfect untuk kurun waktu yang belum tuntas."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Simple dengan penanda waktu lampau spesifik.",
+        "targetSentence": "She graduated from university last year.",
+        "explanation": "Subject (She) + V2 (graduated) + from university + finished past time (last year).",
+        "hints": ["Mulai dengan subject 'She'.", "Penanda waktu 'last year' diletakkan di akhir."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ to four European capital cities in my lifetime.",
+        "options": ["have traveled", "traveled", "did travel"],
+        "answer": 0,
+        "explanation": "Pengalaman hidup seumur hidup (life experience tanpa menyebutkan waktu lampau spesifik) menggunakan Present Perfect: 'have traveled'.",
+        "hints": ["Menceritakan pengalaman hidup tanpa tanggal lampau tertentu.", "Gunakan Present Perfect."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengalaman hidup Present Perfect.",
+        "targetSentence": "They have never visited our headquarters.",
+        "explanation": "Subject (They) + have never + V3 (visited) + our headquarters.",
+        "hints": ["Mulai dengan 'They have never'.", "V3 adalah 'visited'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "At what time ___ your flight land this morning?",
+        "options": ["did", "has", "does"],
+        "answer": 0,
+        "explanation": "Pertanyaan yang menanyakan titik jam tertentu di masa lampau ('At what time...') selalu menggunakan Past Simple dengan auxiliary 'did'.",
+        "hints": ["Menanyakan jam kedatangan spesifik yang sudah lewat.", "Gunakan auxiliary Past Simple 'did'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya pengalaman dengan 'Have you ever'.",
+        "targetSentence": "Have you ever led a major project?",
+        "explanation": "Have you ever + V3 (led) + Object (a major project)?",
+        "hints": ["Awali dengan 'Have you ever'.", "V3 dari lead adalah led."],
+        "skill": "present-perfect-vs-past"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog pergantian tense dari umum ke spesifik.",
+        "dialogue": [
+          ["Manager", "Have you ever negotiated an enterprise software license?"],
+          ["Candidate", "Yes, I have. In fact, I ___ a major multi-year deal two months ago."]
+        ],
+        "options": ["closed", "have closed", "was closing"],
+        "answer": 0,
+        "explanation": "Ketika percakapan beralih dari pengalaman umum (Present Perfect) ke peristiwa spesifik berwaktu lampau ('two months ago'), tense beralih ke Past Simple: 'I closed'.",
+        "hints": ["Ada penanda waktu spesifik 'two months ago'.", "Beralih ke bentuk Past Simple V2."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "Shakespeare ___ thirty-seven plays during his lifetime.",
+        "options": ["wrote", "has written", "writes"],
+        "answer": 0,
+        "explanation": "Karena Shakespeare sudah meninggal dunia (hidupnya adalah periode waktu yang sudah selesai sepenuhnya), wajib menggunakan Past Simple: 'wrote', bukan Present Perfect.",
+        "hints": ["Tokoh sejarah yang sudah tiada (periode hidup sudah tutup).", "Gunakan Past Simple 'wrote'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "Haruki Murakami ___ numerous internationally acclaimed novels.",
+        "options": ["has written", "wrote", "was writing"],
+        "answer": 0,
+        "explanation": "Karena penulis masih hidup dan masih berpotensi menulis karya baru, pencapaian hidupnya menggunakan Present Perfect: 'has written'.",
+        "hints": ["Penulis masih hidup dan periode karirnya masih berlangsung.", "Gunakan Present Perfect."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang membedakan dampak masa kini (present result).",
+        "targetSentence": "I have lost my security pass and cannot enter the building.",
+        "explanation": "Present result: kehilangan kartu terjadi sebelumnya tetapi dampaknya langsung terasa saat ini (cannot enter), sehingga memakai Present Perfect: 'have lost'.",
+        "hints": ["Aksi lampau dengan dampak langsung saat ini.", "Gunakan 'I have lost my security pass'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "The package ___ thirty minutes ago, but nobody ___ it yet.",
+        "options": [
+          "arrived / has opened",
+          "has arrived / opened",
+          "arrived / opened"
+        ],
+        "answer": 0,
+        "explanation": "'Thirty minutes ago' menandakan Past Simple ('arrived'), sedangkan 'yet' menandakan Present Perfect negatif ('has opened').",
+        "hints": ["Bagian pertama ada 'ago' (Past Simple).", "Bagian kedua ada 'yet' (Present Perfect)."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berita baru (hot news) dengan Present Perfect.",
+        "targetSentence": "The government has announced a new tax policy.",
+        "explanation": "Berita baru yang baru saja diumumkan tanpa keterangan waktu spesifik: 'has announced'.",
+        "hints": ["Pemberitaan kabar baru (news announcement).", "Gunakan 'The government has announced'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih respon yang membedakan waktu selesai dan waktu berjalan.",
+        "dialogue": [
+          ["Colleague", "Did you drink coffee this morning?"],
+          ["Engineer (speaking at 3:00 p.m.)", "Yes, I ___ two cups before noon."]
+        ],
+        "options": ["drank", "have drunk", "am drinking"],
+        "answer": 0,
+        "explanation": "Karena percakapan dilakukan sore hari (pukul 3 sore), waktu 'this morning' dan 'before noon' sudah menjadi periode waktu yang selesai, sehingga memakai Past Simple: 'drank'.",
+        "hints": ["Pukul 3 sore berarti 'this morning' sudah selesai sepenuhnya.", "Gunakan Past Simple 'drank'."],
+        "skill": "present-perfect-vs-past"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan penggunaan Present Perfect dengan kata tanya waktu 'When'.",
+        "draft": "When have you submitted the revised architectural blueprint?",
+        "options": [
+          "When did you submit the revised architectural blueprint?",
+          "When have you been submitting the revised architectural blueprint?",
+          "When you submitted the revised architectural blueprint?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan dengan 'When' selalu menanyakan titik waktu spesifik di masa lalu, sehingga pantang menggunakan Present Perfect (*When have you...). Wajib menggunakan Past Simple: 'When did you submit...?'.",
+        "hints": ["Pertanyaan 'When' tidak pernah memakai Present Perfect.", "Ubah menjadi Past Simple 'When did you submit'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "In journalism headline vs details: 'A catastrophic earthquake ___ a coastal province. The tremor ___ at 04:12 local time.'",
+        "options": [
+          "has struck / struck",
+          "struck / has struck",
+          "has struck / has struck"
+        ],
+        "answer": 0,
+        "explanation": "Dalam jurnalistik bahasa Inggris, judul atau pembuka kabar menggunakan Present Perfect ('has struck'), lalu rincian waktu spesifik berikutnya beralih ke Past Simple ('struck at 04:12').",
+        "hints": ["Kabar pembuka memakai Present Perfect.", "Detail waktu spesifik beralih ke Past Simple."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference with 'for': 'He ___ in Singapore for ten years, and he still lives there now. His father ___ in Singapore for ten years, but then moved to Tokyo.'",
+        "options": [
+          "has lived / lived",
+          "lived / has lived",
+          "has lived / has lived"
+        ],
+        "answer": 0,
+        "explanation": "Jika keadaan masih berlangsung hingga kini ('still lives there now'), gunakan Present Perfect: 'has lived'. Jika periode 10 tahun tersebut sudah tuntas dan sudah pindah ('moved to Tokyo'), gunakan Past Simple: 'lived'.",
+        "hints": ["Masih tinggal di sana sekarang $\\rightarrow$ Present Perfect.", "Sudah pindah dan masa tinggal sudah usai $\\rightarrow$ Past Simple."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang membedakan klausa 'since' (Past Simple) dan klausa utama (Present Perfect).",
+        "targetSentence": "We haven't seen each other since we left high school.",
+        "explanation": "Main clause (We haven't seen each other - Present Perfect) + since + clause titik awal (since we left high school - Past Simple).",
+        "hints": ["Klausa utama: 'We haven't seen each other'.", "Klausa setelah since memakai Past Simple: 'since we left high school'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan Past Simple pada periode waktu yang belum selesai.",
+        "draft": "I didn't receive any customer inquiries this morning (the current time is 10:00 a.m.).",
+        "options": [
+          "I haven't received any customer inquiries this morning.",
+          "I wasn't receiving any customer inquiries this morning.",
+          "I had not received any customer inquiries this morning."
+        ],
+        "answer": 0,
+        "explanation": "Karena waktu saat ini masih pukul 10:00 pagi (periode 'this morning' belum selesai), kalimat harus menggunakan Present Perfect: 'I haven't received...'.",
+        "hints": ["Waktu saat berbicara masih pagi (belum siang).", "Periode waktu belum selesai memakai Present Perfect."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "It is exactly twelve months since the diplomatic mission ___ established.",
+        "options": ["was", "has been", "is"],
+        "answer": 0,
+        "explanation": "Setelah pola 'It is + durasi + since...', klausa titik awal menggunakan Past Simple: 'since the diplomatic mission was established'.",
+        "hints": ["Pola: It is (time) since (Past Simple).", "Gunakan Past Simple pasif 'was established'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi investigasi forensik.",
+        "dialogue": [
+          ["Auditor", "Did you find out who authorized the illegal transfer?"],
+          ["Investigator", "Yes, our audit ___ that the chief accountant signed the release on October 4th."]
+        ],
+        "options": ["revealed", "has revealed", "is revealing"],
+        "answer": 0,
+        "explanation": "Penyelidikan berfokus pada hasil temuan dari berkas bertanggal spesifik ('on October 4th'), sehingga menggunakan Past Simple: 'revealed'.",
+        "hints": ["Fokus pada fakta historis yang sudah selesai diverifikasi.", "Gunakan Past Simple 'revealed'."],
+        "skill": "present-perfect-vs-past"
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "moduleKey": "02-intermediate/06-relative-clauses",
+  "title": "Relative Clauses",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The lead engineer ___ architected the new microservices platform was promoted today.",
+        "options": ["who", "which", "whose"],
+        "answer": 0,
+        "explanation": "'Who' adalah relative pronoun untuk merujuk pada subjek manusia (the lead engineer).",
+        "hints": ["Merujuk pada orang (engineer).", "Gunakan relative pronoun 'who'."],
+        "skill": "relative-who"
+      },
+      {
+        "type": "choice",
+        "prompt": "We reviewed the technical blueprint ___ was submitted by the contractor yesterday.",
+        "options": ["which", "who", "whom"],
+        "answer": 0,
+        "explanation": "'Which' atau 'that' digunakan untuk merujuk pada benda mati, hewan, atau konsep abstrak ('the technical blueprint').",
+        "hints": ["Merujuk pada benda mati (blueprint).", "Gunakan 'which' atau 'that'."],
+        "skill": "relative-which"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan relative clause menggunakan 'who'.",
+        "targetSentence": "The woman who called you left a message.",
+        "explanation": "Subject (The woman) + relative clause (who called you) + main verb (left a message).",
+        "hints": ["Mulai dengan 'The woman who called you'.", "Lanjutkan dengan 'left a message'."],
+        "skill": "relative-who"
+      },
+      {
+        "type": "choice",
+        "prompt": "The startup company ___ innovative software disrupted the market was acquired yesterday.",
+        "options": ["whose", "who's", "which"],
+        "answer": 0,
+        "explanation": "'Whose' adalah relative pronoun kepemilikan (possessive: perangkat lunak milik startup tersebut). 'Who's' adalah singkatan 'who is'.",
+        "hints": ["Menyatakan kepemilikan (software milik startup).", "Gunakan 'whose', bukan 'who's'."],
+        "skill": "relative-whose"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan relative pronoun 'where' untuk tempat.",
+        "targetSentence": "This is the laboratory where we conduct experiments.",
+        "explanation": "This is the laboratory (tempat) + where + clause (we conduct experiments).",
+        "hints": ["Mulai dengan 'This is the laboratory'.", "Gunakan relative adverb 'where'."],
+        "skill": "relative-where"
+      },
+      {
+        "type": "choice",
+        "prompt": "The laptop ___ I purchased last week has exceptional battery performance.",
+        "options": ["that", "who", "where"],
+        "answer": 0,
+        "explanation": "'That' dapat digunakan sebagai relative pronoun untuk merujuk pada benda dalam defining relative clause.",
+        "hints": ["Merujuk pada benda (laptop).", "Gunakan 'that'."],
+        "skill": "relative-that"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan relative pronoun 'when' untuk waktu.",
+        "targetSentence": "I remember the day when we first launched the product.",
+        "explanation": "I remember the day (waktu) + when + clause (we first launched the product).",
+        "hints": ["Mulai dengan 'I remember the day'.", "Gunakan relative adverb 'when'."],
+        "skill": "relative-when"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan relative clause yang menghilangkan pronoun objek (omission).",
+        "dialogue": [
+          ["Manager", "Have you inspected the revised schematic diagram?"],
+          ["Technician", "Yes, the diagram ___ this morning appears completely accurate."]
+        ],
+        "options": [
+          "you emailed me",
+          "who you emailed me",
+          "where you emailed me"
+        ],
+        "answer": 0,
+        "explanation": "Dalam defining relative clause, jika relative pronoun berfungsi sebagai OBJEK (you emailed [which] to me), pronoun tersebut BISA dan umum dihilangkan (omitted): 'the diagram you emailed me'.",
+        "hints": ["Pronoun objek 'which/that' dapat dihilangkan secara alami.", "Pilihan 'you emailed me' langsung menyatu tanpa pronoun."],
+        "skill": "relative-omission"
+      },
+      {
+        "type": "choice",
+        "prompt": "Defining vs Non-defining: 'Dr. Emily Watson, ___ joined our research institute last month, received an international award.'",
+        "options": ["who", "that", "which"],
+        "answer": 0,
+        "explanation": "Dalam Non-defining relative clause (diapit tanda koma dan memberi informasi tambahan tentang orang tertentu), WAJIB menggunakan 'who'. Kata 'that' DILARANG digunakan dalam klausa di antara tanda koma.",
+        "hints": ["Diapit tanda koma (Non-defining relative clause).", "Kata 'that' tidak boleh dipakai diapit koma."],
+        "skill": "relative-non-defining"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regional headquarters, ___ was constructed in 1995, is undergoing major renovations.",
+        "options": ["which", "that", "where"],
+        "answer": 0,
+        "explanation": "Dalam Non-defining clause untuk benda (diapit koma), WAJIB menggunakan 'which', BUKAN 'that'.",
+        "hints": ["Diapit koma untuk benda.", "Gunakan 'which', jangan 'that'."],
+        "skill": "relative-non-defining"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat non-defining dengan tanda koma.",
+        "targetSentence": "Paris which is the capital of France attracts millions of tourists.",
+        "explanation": "Subject (Paris) + non-defining clause (which is the capital of France) + main verb (attracts millions of tourists).",
+        "hints": ["Mulai dengan 'Paris which is the capital of France'.", "Main clause: 'attracts millions of tourists'."],
+        "skill": "relative-non-defining"
+      },
+      {
+        "type": "choice",
+        "prompt": "The candidate with ___ I spoke yesterday seemed exceptionally qualified.",
+        "options": ["whom", "who", "which"],
+        "answer": 0,
+        "explanation": "Ketika preposisi diletakkan tepat di depan relative pronoun untuk merujuk pada orang (formal preposition placement), WAJIB menggunakan bentuk objektif 'whom': 'with whom', BUKAN *with who.",
+        "hints": ["Didahului langsung oleh preposisi 'with'.", "Bentuk objek orang resmi adalah 'whom'."],
+        "skill": "relative-preposition"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi di akhir klausa relatif (informal / conversational).",
+        "targetSentence": "The topic that we talked about was fascinating.",
+        "explanation": "The topic (benda) + that we talked about (preposisi di akhir) + was fascinating.",
+        "hints": ["Mulai dengan 'The topic that we talked about'.", "Diakhiri dengan 'was fascinating'."],
+        "skill": "relative-preposition"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih relative pronoun yang tepat untuk merujuk pada seluruh klausa sebelumnya.",
+        "dialogue": [
+          ["Team Lead", "The client approved the budget in less than twenty-four hours."],
+          ["Project Manager", "That's wonderful, ___ will allow us to start procurement immediately."]
+        ],
+        "options": ["which", "that", "what"],
+        "answer": 0,
+        "explanation": "Untuk merujuk kembali pada SELURUH KLAUSA ATAU SITUASI sebelumnya (sentential relative clause), gunakan 'which' setelah tanda koma: ', which will allow us...'.",
+        "hints": ["Merujuk pada keseluruhan peristiwa yang disebutkan sebelumnya.", "Gunakan 'which', bukan 'that' atau 'what'."],
+        "skill": "relative-sentential-which"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'that' di dalam non-defining relative clause.",
+        "draft": "My primary smartphone, that I purchased two months ago, suddenly malfunctioned.",
+        "options": [
+          "My primary smartphone, which I purchased two months ago, suddenly malfunctioned.",
+          "My primary smartphone that I purchased two months ago suddenly malfunctioned.",
+          "Both options above are grammatically correct ways to fix the sentence."
+        ],
+        "answer": 2,
+        "explanation": "'That' tidak boleh berada di dalam klausa non-defining berkoma. Perbaikannya bisa mengganti 'that' dengan 'which' (jika non-defining), ATAU menghilangkan tanda koma (jika defining clause).",
+        "hints": ["Kata 'that' tidak boleh diapit koma.", "Kedua opsi perbaikan adalah sah secara gramatikal."],
+        "skill": "relative-non-defining"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reduced Relative Clause: 'The delegates ___ at the diplomatic summit represented fifty nations.'",
+        "options": [
+          "participating",
+          "who participating",
+          "which participate"
+        ],
+        "answer": 0,
+        "explanation": "Relative clause aktif ('who were participating' atau 'who participated') dapat dipadatkan (reduced) menjadi present participle (-ing) saja: 'The delegates participating at the summit...'.",
+        "hints": ["Pemadatan klausa relatif aktif menjadi bentuk participle -ing.", "Gunakan 'participating'."],
+        "skill": "relative-reduced"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reduced Passive Relative Clause: 'All goods ___ through this logistics hub are subjected to customs inspection.'",
+        "options": [
+          "shipped",
+          "shipping",
+          "which shipped"
+        ],
+        "answer": 0,
+        "explanation": "Relative clause pasif ('which are shipped') dipadatkan menjadi past participle (V3) saja: 'All goods shipped through this hub...'.",
+        "hints": ["Pemadatan klausa relatif pasif (which are shipped).", "Gunakan bentuk past participle 'shipped'."],
+        "skill": "relative-reduced"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan reduced relative clause pasif.",
+        "targetSentence": "The documents submitted yesterday are being reviewed.",
+        "explanation": "The documents + reduced passive (submitted yesterday) + are being reviewed.",
+        "hints": ["Subject: 'The documents submitted yesterday'.", "Predikat: 'are being reviewed'."],
+        "skill": "relative-reduced"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan penggunaan 'what' sebagai relative pronoun penjelas kata benda.",
+        "draft": "The innovative solution what the engineer proposed saved millions of dollars.",
+        "options": [
+          "The innovative solution that the engineer proposed saved millions of dollars.",
+          "The innovative solution which the engineer proposed saved millions of dollars.",
+          "Both options above are correct because 'what' cannot have an antecedent noun."
+        ],
+        "answer": 2,
+        "explanation": "'What' adalah nominal relative pronoun yang bermakna 'the thing which' dan TIDAK PERNAH memiliki kata benda penjelas (antecedent) di depannya. Karena sudah ada noun 'The innovative solution', gunakan 'that' atau 'which'.",
+        "hints": ["'What' tidak boleh didahului kata benda (solution).", "Gunakan 'that' atau 'which'."],
+        "skill": "relative-what-vs-that"
+      },
+      {
+        "type": "choice",
+        "prompt": "Quantifier + of whom / of which: 'The university admitted two hundred doctoral candidates, most ___ were international scholars.'",
+        "options": [
+          "of whom",
+          "of which",
+          "of who"
+        ],
+        "answer": 0,
+        "explanation": "Struktur partitif formal menggabungkan quantifier + of whom (untuk orang) atau of which (untuk benda): 'most of whom were international scholars'.",
+        "hints": ["Kandidat doktoral adalah manusia (orang).", "Gunakan 'most of whom'."],
+        "skill": "relative-partitive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog teknis dengan partitive relative clause untuk benda.",
+        "dialogue": [
+          ["Quality Inspector", "How many server units were evaluated during the stress test?"],
+          ["Data Center Lead", "We evaluated sixty physical servers, all ___ passed with zero failover latency."]
+        ],
+        "options": [
+          "of which",
+          "of whom",
+          "of that"
+        ],
+        "answer": 0,
+        "explanation": "Untuk benda jamak (servers), struktur partitif formal menggunakan 'all of which', BUKAN *all of that atau *all of whom.",
+        "hints": ["Merujuk pada benda jamak (servers).", "Gunakan 'all of which'."],
+        "skill": "relative-partitive"
+      }
+    ]
+  }
+}

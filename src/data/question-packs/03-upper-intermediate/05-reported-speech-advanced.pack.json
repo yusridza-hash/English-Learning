@@ -1,0 +1,346 @@
+{
+  "moduleKey": "03-upper-intermediate/05-reported-speech-advanced",
+  "title": "Reported Speech (Advanced)",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Reporting reporting verb + infinitive: 'He ___ to assist us with the financial restructuring.'",
+        "options": [
+          "agreed",
+          "said",
+          "told"
+        ],
+        "answer": 0,
+        "explanation": "Pola verb pattern: agree + to-infinitive ('agreed to assist'). 'Said' dan 'told' tidak bisa langsung diikuti to-infinitive tanpa objek/that.",
+        "hints": [
+          "Pola: verb + to-infinitive.",
+          "Gunakan 'agreed'."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting with gerund: 'The suspect admitted ___ the luxury sedan.'",
+        "options": [
+          "stealing",
+          "to steal",
+          "steal"
+        ],
+        "answer": 0,
+        "explanation": "Pola verb: admit + Gerund / V-ing ('admit stealing').",
+        "hints": [
+          "Kata kerja 'admit' diikuti oleh bentuk gerund (-ing).",
+          "Gunakan 'stealing'."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech dengan 'encouraged him to'.",
+        "targetSentence": "The mentor encouraged him to pursue higher education.",
+        "explanation": "Subject + encouraged + object (him) + to pursue higher education.",
+        "hints": [
+          "Mulai dengan 'The mentor encouraged him'.",
+          "Lanjutkan dengan 'to pursue higher education'."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tense backshift: 'I am resigning tomorrow' -> He announced that he ___ the following day.",
+        "options": [
+          "was resigning",
+          "is resigning",
+          "will resign"
+        ],
+        "answer": 0,
+        "explanation": "Present continuous 'am resigning' bergeser mundur (backshift) menjadi Past continuous 'was resigning'.",
+        "hints": [
+          "Backshift dari Present Continuous ke Past Continuous.",
+          "Gunakan 'was resigning'."
+        ],
+        "skill": "tense-backshift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported apology.",
+        "targetSentence": "She apologized for arriving late to the seminar.",
+        "explanation": "Subject + apologized for + arriving late to the seminar.",
+        "hints": [
+          "Mulai dengan 'She apologized for'.",
+          "Gerund: 'arriving late to the seminar'."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting orders: 'The officer ordered the suspects ___ their hands.'",
+        "options": [
+          "to raise",
+          "raise",
+          "raising"
+        ],
+        "answer": 0,
+        "explanation": "Order + someone + to-infinitive: 'ordered the suspects to raise their hands'.",
+        "hints": [
+          "Pola perintah: order + object + to-infinitive.",
+          "Gunakan 'to raise'."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat peringatan reported speech.",
+        "targetSentence": "The guard warned us not to touch the exhibit.",
+        "explanation": "The guard + warned us + not to touch the exhibit.",
+        "hints": [
+          "Mulai dengan 'The guard warned us'.",
+          "Negatif infinitive: 'not to touch the exhibit'."
+        ],
+        "skill": "reporting-verb-patterns"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog reported speech tanpa backshift (universal truth / still true).",
+        "dialogue": [
+          [
+            "Teacher",
+            "Water boils at 100 degrees Celsius."
+          ],
+          [
+            "Student",
+            "Our physics teacher explained that water ___ at 100 degrees Celsius."
+          ]
+        ],
+        "options": [
+          "boils",
+          "boiled",
+          "had boiled"
+        ],
+        "answer": 0,
+        "explanation": "Ketika pernyataan berupa hukum alam, fakta ilmiah abadi, atau kebenaran umum yang tetap berlaku (timeless truth), tense TIDAK perlu di-backshift: 'boils'.",
+        "hints": [
+          "Fakta ilmiah abadi / kebenaran umum.",
+          "Tenses tetap Present Simple 'boils'."
+        ],
+        "skill": "no-backshift-universal-truth"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting suggestions: 'Dr. Lee suggested ___ the experimental drug dosage.'",
+        "options": [
+          "reducing",
+          "to reduce",
+          "us to reduce"
+        ],
+        "answer": 0,
+        "explanation": "Pola baku: suggest + V-ing ATAU suggest + that + subject + (should) base verb. 'Suggest to reduce' atau 'suggest us to' adalah kesalahan umum.",
+        "hints": [
+          "'Suggest' diikuti langsung oleh gerund (-ing).",
+          "Gunakan 'reducing'."
+        ],
+        "skill": "reporting-suggest"
+      },
+      {
+        "type": "choice",
+        "prompt": "Subjunctive with suggest: 'The auditor suggested that the company ___ its accounting practices.'",
+        "options": [
+          "revise",
+          "revises",
+          "revised"
+        ],
+        "answer": 0,
+        "explanation": "Dalam klausa 'suggest that...', bahasa Inggris baku menggunakan Mandative Subjunctive (kata kerja dasar tanpa -s/ed): 'revise'.",
+        "hints": [
+          "Mandative Subjunctive menggunakan bentuk dasar kata kerja.",
+          "Gunakan 'revise'."
+        ],
+        "skill": "mandative-subjunctive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech dengan 'denied taking'.",
+        "targetSentence": "The suspect firmly denied taking the confidential documents.",
+        "explanation": "The suspect firmly denied + taking the confidential documents.",
+        "hints": [
+          "Mulai dengan 'The suspect firmly denied'.",
+          "Gerund: 'taking the confidential documents'."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "Time marker transformation: 'yesterday' in direct speech changes to '___' in indirect speech.",
+        "options": [
+          "the day before / the previous day",
+          "that day",
+          "the next day"
+        ],
+        "answer": 0,
+        "explanation": "Keterangan waktu 'yesterday' berubah menjadi 'the day before' atau 'the previous day'.",
+        "hints": [
+          "Perubahan keterangan waktu 'kemarin'.",
+          "Gunakan 'the day before' atau 'the previous day'."
+        ],
+        "skill": "time-place-shifts"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat mandative subjunctive dengan 'insisted that'.",
+        "targetSentence": "The director insisted that all staff members attend the meeting.",
+        "explanation": "The director insisted that + all staff members attend (subjunctive base) + the meeting.",
+        "hints": [
+          "Mulai dengan 'The director insisted that'.",
+          "Bentuk dasar subjunctive: 'all staff members attend the meeting'."
+        ],
+        "skill": "mandative-subjunctive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penolakan formal.",
+        "dialogue": [
+          [
+            "Journalist",
+            "Did the spokesperson confirm the allegations?"
+          ],
+          [
+            "Correspondent",
+            "No, she categorically denied ___ any involvement whatsoever."
+          ]
+        ],
+        "options": [
+          "having",
+          "to have",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "Deny + gerund (having / having had): 'denied having any involvement'.",
+        "hints": [
+          "'Deny' diikuti gerund.",
+          "Gunakan 'having'."
+        ],
+        "skill": "reporting-verb-gerund"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan umum penggunaan 'suggest to someone'.",
+        "draft": "The financial advisor suggested me to invest in sovereign bonds.",
+        "options": [
+          "The financial advisor suggested that I invest in sovereign bonds.",
+          "The financial advisor suggested me investing in sovereign bonds.",
+          "The financial advisor suggested to me to invest in sovereign bonds."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja 'suggest' TIDAK PERNAH mengambil pola 'suggest someone to do something'. Pola yang tepat: 'suggest that someone (should) do something' atau 'suggest doing'.",
+        "hints": [
+          "'Suggest' tidak boleh diikuti 'someone to do'.",
+          "Gunakan pola subjunctive: 'suggested that I invest'."
+        ],
+        "skill": "reporting-suggest"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nuance in backshift retention: When the reported statement remains immediately relevant and true right now:",
+        "options": [
+          "Backshift is optional; the speaker may retain the present tense to signal current relevance.",
+          "Backshift is strictly mandatory in all circumstances without exception.",
+          "Backshift requires inversion."
+        ],
+        "answer": 0,
+        "explanation": "Jika informasi yang dilaporkan masih relevan atau benar saat percakapan terjadi ('Jane told me she is pregnant'), mempertahankan present tense menandakan validitas masa kini.",
+        "hints": [
+          "Relevansi situasi masih nyata saat ini.",
+          "Backshift bersifat opsional untuk menegaskan status terkini."
+        ],
+        "skill": "backshift-current-relevance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal register with reporting verbs: 'The committee ___ the board to proceed with the tender.'",
+        "options": [
+          "urged",
+          "spoke",
+          "insisted"
+        ],
+        "answer": 0,
+        "explanation": "Pola: urge + object + to-infinitive ('urged the board to proceed').",
+        "hints": [
+          "Pola: verb + object + to-infinitive.",
+          "Gunakan 'urged'."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat komplain reported speech dengan preposisi.",
+        "targetSentence": "The residents complained to the council about the unbearable noise.",
+        "explanation": "The residents complained + to the council + about the unbearable noise.",
+        "hints": [
+          "Mulai dengan 'The residents complained to the council'.",
+          "Lanjutkan dengan 'about the unbearable noise'."
+        ],
+        "skill": "reporting-prepositions"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi penyesuaian modalitas pada reported speech lampau.",
+        "draft": "She said that she must finish the report by noon yesterday.",
+        "options": [
+          "She said that she had had to finish the report by noon that day.",
+          "She said that she must to finish the report by noon that day.",
+          "She said that she have to finish the report by noon that day."
+        ],
+        "answer": 0,
+        "explanation": "Modal keharusan 'must' untuk kewajiban spesifik masa lalu bergeser menjadi 'had to' (atau had had to), dan 'yesterday' berubah menjadi 'that day' atau 'the previous day'.",
+        "hints": [
+          "'Must' untuk kewajiban lampau bergeser menjadi 'had to'.",
+          "Ganti 'yesterday' menjadi 'that day'."
+        ],
+        "skill": "modal-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Indirect speech in journalistic writing often synthesizes multiple quotes into summary reporting verbs. Which verb implies reluctance in admitting truth?",
+        "options": [
+          "conceded",
+          "proclaimed",
+          "asserted"
+        ],
+        "answer": 0,
+        "explanation": "'Concede' bermakna mengakui sesuatu yang benar secara enggan atau setelah perdebatan panjang.",
+        "hints": [
+          "Mengakui kebenaran dengan rasa enggan.",
+          "Pilih 'conceded'."
+        ],
+        "skill": "journalistic-reporting-verbs"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog diplomatik dengan reported speech bersyarat.",
+        "dialogue": [
+          [
+            "Spokesperson",
+            "The minister stated that if tensions escalated, sanctions ___ immediately."
+          ]
+        ],
+        "options": [
+          "would be applied",
+          "will be applied",
+          "are applied"
+        ],
+        "answer": 0,
+        "explanation": "Dalam reported speech, conditional clause bergeser: if + past simple (escalated), would + V1 ('would be applied').",
+        "hints": [
+          "Klausa syarat bergeser ke masa lampau.",
+          "Gunakan 'would be applied'."
+        ],
+        "skill": "reported-conditionals"
+      }
+    ]
+  }
+}

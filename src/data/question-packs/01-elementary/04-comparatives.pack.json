@@ -1,0 +1,222 @@
+{
+  "moduleKey": "01-elementary/04-comparatives",
+  "title": "Comparatives & Superlatives",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The new fiber-optic network is significantly ___ than our previous broadband connection.",
+        "options": ["faster", "more fast", "fastest"],
+        "answer": 0,
+        "explanation": "Adjective 1 suku kata (fast) membentuk comparative dengan menambahkan akhiran -er: 'faster than'.",
+        "hints": ["Kata sifat 1 suku kata.", "Tambahkan akhiran -er untuk perbandingan komparatif."],
+        "skill": "comparative-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "This cloud migration strategy is ___ than the alternative proposed by the consultant.",
+        "options": ["more expensive", "expensiver", "most expensive"],
+        "answer": 0,
+        "explanation": "Adjective dengan 3 suku kata atau lebih (ex-pen-sive) menggunakan kata bantu 'more': 'more expensive than'.",
+        "hints": ["Kata sifat panjang (3 suku kata).", "Gunakan 'more' sebelum kata sifat."],
+        "skill": "comparative-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbandingan komparatif dengan kata hubung 'than'.",
+        "targetSentence": "Tokyo is larger than Singapore.",
+        "explanation": "Large berakhiran -e ditambah -r (larger) + than + noun pembanding (Singapore).",
+        "hints": ["Subject: 'Tokyo is larger'.", "Gunakan 'than Singapore'."],
+        "skill": "comparative-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Mount Everest is ___ mountain in the world.",
+        "options": ["the highest", "higher", "the most high"],
+        "answer": 0,
+        "explanation": "Bentuk superlative dari adjective 1 suku kata 'high' adalah 'the highest' (wajib didahului 'the').",
+        "hints": ["Menyatakan perbandingan tingkat paling tinggi (superlative).", "Gunakan 'the' + akhiran -est."],
+        "skill": "superlative-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat superlative dengan adjective panjang.",
+        "targetSentence": "This is the most important decision.",
+        "explanation": "Superlative kata sifat panjang: 'the most important' + noun (decision).",
+        "hints": ["Mulai dengan 'This is'.", "Gunakan 'the most important decision'."],
+        "skill": "superlative-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Her presentation was good, but her colleague's performance was even ___.",
+        "options": ["better", "gooder", "more good"],
+        "answer": 0,
+        "explanation": "'Good' memiliki bentuk komparatif tidak beraturan (irregular comparative): good $\\rightarrow$ better $\\rightarrow$ the best.",
+        "hints": ["Bentuk comparative tidak beraturan dari 'good'.", "Bentuknya adalah 'better'."],
+        "skill": "comparative-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbandingan kesetaraan dengan 'as ... as'.",
+        "targetSentence": "This model is as efficient as that one.",
+        "explanation": "Pola perbandingan setara: as + adjective dasar (efficient) + as + pembanding.",
+        "hints": ["Mulai dengan 'This model is'.", "Gunakan pola 'as efficient as that one'."],
+        "skill": "comparative-as-as"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi performa kuartalan.",
+        "dialogue": [
+          ["Manager", "How do our Q3 sales figures compare to last year?"],
+          ["Analyst", "Unfortunately, our revenue was ___ than we originally projected."]
+        ],
+        "options": ["worse", "badder", "more bad"],
+        "answer": 0,
+        "explanation": "'Bad' memiliki bentuk komparatif irregular: bad $\\rightarrow$ worse $\\rightarrow$ the worst.",
+        "hints": ["Bentuk comparative irregular dari kata 'bad'.", "Bentuknya adalah 'worse'."],
+        "skill": "comparative-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "For adjective berakhiran -y (seperti easy, heavy, friendly), bentuk komparatifnya adalah...",
+        "options": ["easier", "more easy", "easyer"],
+        "answer": 0,
+        "explanation": "Adjective 2 suku kata yang berakhiran -y mengubah 'y' menjadi 'i' lalu ditambah -er: easier, heavier, friendlier.",
+        "hints": ["Huruf akhir 'y' berubah menjadi 'i'.", "Tambahkan akhiran -er."],
+        "skill": "comparative-spelling"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new smartphone interface is not nearly as ___ as the desktop dashboard.",
+        "options": ["intuitive", "more intuitive", "intuitiver"],
+        "answer": 0,
+        "explanation": "Di antara konstruksi 'as ... as' (atau 'not as ... as'), kata sifat WAJIB dalam bentuk positif dasar (positive degree), bukan komparatif: 'not as intuitive as'.",
+        "hints": ["Di antara 'as ... as' selalu gunakan bentuk dasar kata sifat.", "Tanpa 'more' dan tanpa akhiran -er."],
+        "skill": "comparative-as-as"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penguat komparatif menggunakan kata 'much'.",
+        "targetSentence": "The upgraded software is much faster now.",
+        "explanation": "Adverb seperti 'much', 'far', atau 'significantly' dapat memperkuat komparatif: 'much faster'.",
+        "hints": ["Subject: 'The upgraded software is'.", "Gunakan penguat 'much faster now'."],
+        "skill": "comparative-modifiers"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need to analyze the data ___ before reaching a binding agreement.",
+        "options": ["further", "farther", "more far"],
+        "answer": 0,
+        "explanation": "'Further' digunakan untuk makna kiasan/abstrak (tingkat lebih lanjut atau tambahan kedalaman). 'Farther' khusus untuk jarak fisik terukur.",
+        "hints": ["Bermakna 'lebih mendalam/lebih lanjut' secara konseptual.", "Gunakan 'further'."],
+        "skill": "comparative-irregular"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat superlative yang dibatasi dengan frasa 'one of the'.",
+        "targetSentence": "This is one of the oldest universities in Europe.",
+        "explanation": "Pola: one of the + superlative adjective (oldest) + plural noun (universities) + prepositional phrase.",
+        "hints": ["Mulai dengan 'This is one of the oldest'.", "Kata benda setelahnya harus jamak: 'universities'."],
+        "skill": "superlative-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih modifier perbandingan halus yang tepat dalam dialog.",
+        "dialogue": [
+          ["Designer", "Is the revised logo color acceptable?"],
+          ["Director", "Yes, it is ___ darker than the original, which gives it better contrast."]
+        ],
+        "options": ["slightly", "very", "more"],
+        "answer": 0,
+        "explanation": "Untuk menyatakan selisih kecil pada komparatif, gunakan modifier 'slightly', 'a bit', atau 'a little' sebelum kata komparatif: 'slightly darker'. (Jangan gunakan 'very' sebelum comparative).",
+        "hints": ["Modifier untuk selisih perbandingan sedikit.", "Gunakan 'slightly'."],
+        "skill": "comparative-modifiers"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum 'double comparative' pada naskah editorial ini.",
+        "draft": "The automated deployment pipeline is more easier to maintain than legacy scripts.",
+        "options": [
+          "The automated deployment pipeline is easier to maintain than legacy scripts.",
+          "The automated deployment pipeline is much easier to maintain than legacy scripts.",
+          "Both options above are grammatically correct without the double comparative error."
+        ],
+        "answer": 2,
+        "explanation": "'More easier' adalah kesalahan ganda (double comparative). Bentuk yang benar adalah cukup 'easier' saja, atau bila ingin diperkuat gunakan 'much easier'.",
+        "hints": ["Jangan menggabungkan 'more' dengan akhiran -er.", "Pilihan 'easier' atau 'much easier' keduanya benar."],
+        "skill": "comparative-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pola perbandingan proporsional ganda (parallel increase): 'The ___ we automate our testing, the ___ our delivery cycle becomes.'",
+        "options": [
+          "more / faster",
+          "most / fastest",
+          "more / more fast"
+        ],
+        "answer": 0,
+        "explanation": "Struktur 'The + comparative..., the + comparative...' menyatakan hubungan proporsional sebab-akibat (semakin... semakin...): 'The more..., the faster...'.",
+        "hints": ["Pola korelasi 'semakin... semakin...'.", "Rumus: The + comparative, the + comparative."],
+        "skill": "comparative-proportional"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan kata sifat serapan Latin yang berpasangan dengan 'to', bukan 'than': 'Her qualifications are superior ___ mine.'",
+        "options": ["to", "than", "from"],
+        "answer": 0,
+        "explanation": "Comparative berakhiran -ior asal Latin (superior, inferior, senior, junior, prior) berpasangan dengan preposisi 'to', BUKAN 'than': 'superior to', 'prior to'.",
+        "hints": ["Kata sifat berakhiran -ior asal Latin.", "Gunakan preposisi 'to', bukan 'than'."],
+        "skill": "comparative-latin"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbandingan proporsional ganda.",
+        "targetSentence": "The harder you work the more you achieve.",
+        "explanation": "The + comparative (The harder you work) + the + comparative (the more you achieve).",
+        "hints": ["Bagian pertama: 'The harder you work'.", "Bagian kedua: 'the more you achieve'."],
+        "skill": "comparative-proportional"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi perbandingan yang tidak setara (faulty / illogical comparison).",
+        "draft": "The battery life of this phone is longer than the competitor model.",
+        "options": [
+          "The battery life of this phone is longer than that of the competitor model.",
+          "The battery life of this phone is longer than those of the competitor model.",
+          "The battery life of this phone is more long than the competitor model."
+        ],
+        "answer": 0,
+        "explanation": "Kesalahan 'illogical comparison': kalimat asli membandingkan 'battery life' (daya tahan baterai) dengan 'model HP fisik'. Untuk membandingkan dua hal yang setara, gunakan kata pengganti 'that of': 'longer than that of the competitor model'.",
+        "hints": ["Bandingkan daya tahan baterai dengan daya tahan baterai, bukan dengan HP-nya.", "Gunakan pronoun 'that of' untuk menggantikan 'the battery life'."],
+        "skill": "comparative-faulty"
+      },
+      {
+        "type": "choice",
+        "prompt": "Between the two proposed marketing strategies, the board chose ___ one.",
+        "options": ["the more cost-effective", "the most cost-effective", "more cost-effective"],
+        "answer": 0,
+        "explanation": "Ketika membandingkan secara eksplisit HANYA ANTARA DUA hal ('Between the two...'), aturan tata bahasa baku mensyaratkan bentuk komparatif dengan article: 'the more cost-effective one' (bukan superlative 'most').",
+        "hints": ["Perbandingan eksklusif hanya antara dua benda (two items).", "Gunakan comparative dengan 'the': 'the more...'."],
+        "skill": "comparative-two-items"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dengan perbandingan bertingkat progresif.",
+        "dialogue": [
+          ["Economist", "What trend are you observing in microchip manufacturing?"],
+          ["Industry Analyst", "Automated production is becoming ___ specialized each year."]
+        ],
+        "options": ["more and more", "more or more", "the most and most"],
+        "answer": 0,
+        "explanation": "Pola 'more and more + adjective' (atau comparative + and + comparative: 'faster and faster') menyatakan perubahan intensitas yang terus meningkat secara berkelanjutan.",
+        "hints": ["Menyatakan tren yang semakin lama semakin meningkat.", "Gunakan formula 'more and more'."],
+        "skill": "comparative-progressive"
+      }
+    ]
+  }
+}

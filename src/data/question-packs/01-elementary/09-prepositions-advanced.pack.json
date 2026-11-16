@@ -1,0 +1,218 @@
+{
+  "moduleKey": "01-elementary/09-prepositions-advanced",
+  "title": "Prepositions (Advanced)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The flight was delayed ___ severe atmospheric turbulence over the mountain pass.",
+        "options": ["due to", "because", "despite of"],
+        "answer": 0,
+        "explanation": "'Due to' adalah frasa preposisi yang diikuti oleh kata benda (noun phrase: 'severe atmospheric turbulence'). 'Because' adalah konjungsi yang harus diikuti klausa lengkap (S + V).",
+        "hints": ["Diikuti oleh frasa kata benda tanpa verb.", "Gunakan preposisi 'due to'."],
+        "skill": "preposition-reason"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the heavy rainfall, all marathon runners completed the race.",
+        "options": ["Despite", "Although", "In spite"],
+        "answer": 0,
+        "explanation": "'Despite' adalah preposisi (diikuti noun phrase 'the heavy rainfall'). 'In spite' harus dilengkapi dengan 'of' (in spite of), sedangkan 'although' diikuti klausa lengkap.",
+        "hints": ["Preposisi konsesif yang diikuti frasa kata benda.", "Gunakan 'Despite' (tanpa 'of')."],
+        "skill": "preposition-concession"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan frasa preposisi 'in spite of'.",
+        "targetSentence": "They won the match in spite of the difficulties.",
+        "explanation": "Subject + Verb + Object + in spite of (preposisi) + noun phrase (the difficulties).",
+        "hints": ["Mulai dengan 'They won the match'.", "Gunakan 'in spite of the difficulties'."],
+        "skill": "preposition-concession"
+      },
+      {
+        "type": "choice",
+        "prompt": "The server logs are monitored continuously ___ the entire night.",
+        "options": ["throughout", "along", "across"],
+        "answer": 0,
+        "explanation": "'Throughout' berarti sepanjang seluruh periode waktu dari awal hingga akhir tanpa henti: 'throughout the entire night'.",
+        "hints": ["Sepanjang seluruh durasi waktu dari awal sampai akhir.", "Gunakan 'throughout'."],
+        "skill": "preposition-time-duration"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi batas waktu 'within'.",
+        "targetSentence": "Please submit the reimbursement request within thirty days.",
+        "explanation": "'Within + waktu' menyatakan batasan jangka waktu di mana sesuatu harus diselesaikan sebelum batas berakhir.",
+        "hints": ["Awali dengan instruksi 'Please submit'.", "Batas waktu: 'within thirty days'."],
+        "skill": "preposition-time-limit"
+      },
+      {
+        "type": "choice",
+        "prompt": "She walked ___ the exit doors after finishing her shift.",
+        "options": ["towards", "at", "against"],
+        "answer": 0,
+        "explanation": "'Towards' (atau 'toward') menyatakan arah pergerakan fisik menuju suatu sasaran lokasi.",
+        "hints": ["Menunjukkan arah pergerakan menuju suatu titik.", "Gunakan 'towards'."],
+        "skill": "preposition-direction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan preposisi posisi berhadapan 'opposite'.",
+        "targetSentence": "The pharmacy is situated opposite the hospital.",
+        "explanation": "'Opposite' berarti berhadapan langsung secara fisik di seberang jalan/ruangan.",
+        "hints": ["Subject: 'The pharmacy is situated'.", "Berhadapan: 'opposite the hospital'."],
+        "skill": "preposition-place-position"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di rapat logistik mengenai regulasi kepatuhan.",
+        "dialogue": [
+          ["Compliance Officer", "How was the chemical waste handled?"],
+          ["Plant Supervisor", "It was processed strictly in accordance ___ international environmental protocols."]
+        ],
+        "options": ["with", "to", "by"],
+        "answer": 0,
+        "explanation": "Frasa preposisi kompleks 'in accordance with' (sesuai dengan / selaras dengan) selalu berpasangan dengan preposisi 'with'.",
+        "hints": ["Frasa baku adalah 'in accordance with'.", "Bukan 'in accordance to'."],
+        "skill": "preposition-complex-phrase"
+      },
+      {
+        "type": "choice",
+        "prompt": "The customer was leaning ___ the counter while waiting for her prescription.",
+        "options": ["against", "towards", "onto"],
+        "answer": 0,
+        "explanation": "'Against' menyatakan kontak fisik bersandar atau bertumpu pada permukaan tegak/keras: 'leaning against the counter'.",
+        "hints": ["Menyatakan kontak fisik bersandar pada permukaan benda.", "Gunakan 'against'."],
+        "skill": "preposition-contact"
+      },
+      {
+        "type": "choice",
+        "prompt": "The library is quiet, ___ the occasional turning of book pages.",
+        "options": ["apart from", "in spite", "despite of"],
+        "answer": 0,
+        "explanation": "'Apart from' (atau 'except for') berarti 'selain / terkecuali': 'apart from the occasional turning of book pages'.",
+        "hints": ["Bermakna 'kecuali / selain daripada'.", "Gunakan 'apart from'."],
+        "skill": "preposition-exception"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan frasa preposisi 'in addition to'.",
+        "targetSentence": "In addition to his salary he receives quarterly bonuses.",
+        "explanation": "In addition to + noun (his salary) + clause (he receives quarterly bonuses).",
+        "hints": ["Awali dengan 'In addition to his salary'.", "Lanjutkan dengan 'he receives quarterly bonuses'."],
+        "skill": "preposition-addition"
+      },
+      {
+        "type": "choice",
+        "prompt": "We walked ___ the shoreline of the lake for over an hour.",
+        "options": ["along", "across", "through"],
+        "answer": 0,
+        "explanation": "'Along' berarti menyusuri garis memanjang tepian (in a line parallel to the shore). 'Across' berarti menyeberangi dari satu sisi ke sisi seberang.",
+        "hints": ["Menyusuri garis pantai/tepian danau.", "Gunakan 'along'."],
+        "skill": "preposition-direction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan frasa 'on behalf of'.",
+        "targetSentence": "I am speaking on behalf of our entire department.",
+        "explanation": "'On behalf of' berarti mewakili / atas nama seseorang atau organisasi.",
+        "hints": ["Mulai dengan 'I am speaking'.", "Gunakan 'on behalf of our entire department'."],
+        "skill": "preposition-representation"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih preposisi yang tepat untuk menyatakan perbandingan analogi 'seperti'.",
+        "dialogue": [
+          ["Manager", "How should we handle this critical security vulnerability?"],
+          ["Senior Engineer", "We should treat it ___ an emergency priority."]
+        ],
+        "options": ["as", "like", "such"],
+        "answer": 0,
+        "explanation": "Kata kerja 'treat' berpasangan dengan preposisi 'as': 'treat something AS an emergency'.",
+        "hints": ["Collocation kata kerja: 'treat something as...'.", "Gunakan 'as'."],
+        "skill": "preposition-dependent"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum menambahkan 'of' setelah preposisi 'despite'.",
+        "draft": "Despite of the turbulent financial markets, the hedge fund achieved positive returns.",
+        "options": [
+          "Despite the turbulent financial markets, the hedge fund achieved positive returns.",
+          "In despite of the turbulent financial markets, the hedge fund achieved positive returns.",
+          "Despite for the turbulent financial markets, the hedge fund achieved positive returns."
+        ],
+        "answer": 0,
+        "explanation": "'Despite' TIDAK pernah menggunakan 'of'. Bentuk yang memakai 'of' adalah 'In spite of'. Kesalahan 'despite of' adalah kekeliruan pencampuran dua struktur tersebut.",
+        "hints": ["'Despite' berdiri sendiri tanpa 'of'.", "Gunakan 'Despite the turbulent financial markets'."],
+        "skill": "preposition-concession"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan perbedaan arti: 'We walked ___ the dense jungle for three arduous days.'",
+        "options": ["through", "across", "along"],
+        "answer": 0,
+        "explanation": "'Through' berarti menembus ruang tiga dimensi yang tertutup atau dikelilingi rintangan (hutan lebat, terowongan, kerumunan). 'Across' untuk permukaan datar dua dimensi.",
+        "hints": ["Menembus ruang 3D yang rimbun/tertutup di sekelilingnya.", "Gunakan 'through'."],
+        "skill": "preposition-direction"
+      },
+      {
+        "type": "choice",
+        "prompt": "The company's compliance record was praised ___ its rigorous environmental audits.",
+        "options": ["on account of", "owing with", "due by"],
+        "answer": 0,
+        "explanation": "Frasa preposisi formal untuk menyatakan alasan sebab adalah 'on account of' (karena/berkat). Frasa lain tidak baku.",
+        "hints": ["Frasa preposisi baku bermakna 'karena / atas pertimbangan'.", "Gunakan 'on account of'."],
+        "skill": "preposition-reason"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan frasa 'by means of'.",
+        "targetSentence": "The message was transmitted by means of satellite communication.",
+        "explanation": "'By means of' adalah frasa formal yang bermakna 'melalui perantara / dengan sarana'.",
+        "hints": ["Subject: 'The message was transmitted'.", "Gunakan 'by means of satellite communication'."],
+        "skill": "preposition-means"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan penggunaan 'as' vs 'like' pada fungsi peran profesi.",
+        "draft": "He worked like a senior database architect at the multinational bank for five years.",
+        "options": [
+          "He worked as a senior database architect at the multinational bank for five years.",
+          "He worked as like a senior database architect at the multinational bank for five years.",
+          "He worked like to be a senior database architect at the multinational bank for five years."
+        ],
+        "answer": 0,
+        "explanation": "'As' digunakan untuk menyatakan fungsi, pekerjaan, atau kapasitas peran yang sebenarnya ('He worked as an architect' = dia memang seorang arsitek). 'Like' hanya untuk perbandingan kesamaan tingkah laku ('He worked like a machine' = seperti mesin).",
+        "hints": ["Menyatakan pekerjaan/profesi riil yang dijabat.", "Gunakan 'worked as', bukan 'worked like'."],
+        "skill": "preposition-as-like"
+      },
+      {
+        "type": "choice",
+        "prompt": "In the legal settlement, the defendants agreed to compensation ___ fifty thousand dollars.",
+        "options": ["to the amount of", "in the amount of", "both 'in the amount of' and 'to the amount of' are standard formal phrases"],
+        "answer": 2,
+        "explanation": "Dalam bahasa hukum dan korespondensi perbankan formal, baik frasa 'in the amount of' maupun 'to the amount of' adalah frasa preposisi baku yang diakui luas.",
+        "hints": ["Kedua frasa lazim digunakan dalam konteks legal/finansial.", "Keduanya benar."],
+        "skill": "preposition-complex-phrase"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog arbitrase kontrak dengan preposisi hak prerogatif.",
+        "dialogue": [
+          ["Arbitrator", "Under what authority did the board terminate the agreement?"],
+          ["Counsel", "Under the terms stipulated ___ clause 14.2 of the procurement charter."]
+        ],
+        "options": ["under", "by", "with"],
+        "answer": 0,
+        "explanation": "Dalam bahasa hukum formal, klausa kontrak atau undang-undang dirujuk dengan preposisi 'under clause...' (berdasarkan / di bawah ketentuan klausul).",
+        "hints": ["Rujukan klausul hukum atau undang-undang.", "Gunakan 'under clause...'."],
+        "skill": "preposition-legal"
+      }
+    ]
+  }
+}

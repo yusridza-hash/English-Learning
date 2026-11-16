@@ -1,0 +1,221 @@
+{
+  "moduleKey": "01-elementary/06-modals-basic",
+  "title": "Modals (Basic)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "You ___ wear a certified hard hat inside the construction zone; it is a strict safety law.",
+        "options": ["must", "might", "could"],
+        "answer": 0,
+        "explanation": "'Must' digunakan untuk menyatakan kewajiban mutlak atau keharusan hukum (strong obligation/legal requirement).",
+        "hints": ["Menyatakan aturan keselamatan wajib dan tegas.", "Gunakan modal 'must'."],
+        "skill": "modal-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "You look completely exhausted; you ___ get some proper rest tonight.",
+        "options": ["should", "must to", "ought"],
+        "answer": 0,
+        "explanation": "'Should' digunakan untuk memberikan saran, anjuran, atau rekomendasi baik (giving advice/recommendations).",
+        "hints": ["Memberikan nasihat atau saran.", "Gunakan 'should' diikuti verb dasar."],
+        "skill": "modal-advice"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kewajiban eksternal dengan 'have to'.",
+        "targetSentence": "We have to submit the tax documents by Friday.",
+        "explanation": "'Have to' menyatakan keharusan yang bersumber dari aturan eksternal (undang-undang pajak/kebijakan instansi).",
+        "hints": ["Subject: 'We have to submit'.", "Objek: the tax documents by Friday."],
+        "skill": "modal-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Visitors ___ enter the private server room without an authorized security badge.",
+        "options": ["must not", "don't have to", "should to"],
+        "answer": 0,
+        "explanation": "'Must not' (mustn't) menyatakan larangan keras (prohibition: dilarang keras).",
+        "hints": ["Menyatakan larangan keras (prohibition).", "Gunakan 'must not'."],
+        "skill": "modal-prohibition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Today is an official company holiday, so we ___ attend the morning conference.",
+        "options": ["don't have to", "must not", "should not to"],
+        "answer": 0,
+        "explanation": "'Don't have to' menyatakan ketiadaan keharusan (lack of obligation: tidak perlu/tidak wajib, boleh tidak hadir). Berbeda dengan 'must not' yang bermakna larangan.",
+        "hints": ["Hari libur, jadi tidak ada kewajiban untuk masuk.", "Gunakan 'don't have to' (tidak perlu)."],
+        "skill": "modal-no-obligation"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat saran negatif dengan 'shouldn't'.",
+        "targetSentence": "You shouldn't drink coffee so late at night.",
+        "explanation": "Saran negatif: You shouldn't + base verb (drink) + coffee so late at night.",
+        "hints": ["Mulai dengan 'You shouldn't'.", "Verb dasar adalah 'drink'."],
+        "skill": "modal-advice"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do we ___ show our physical passports at the domestic boarding gate?",
+        "options": ["have to", "must", "should to"],
+        "answer": 0,
+        "explanation": "Dalam kalimat tanya dengan auxiliary 'Do/Does', gunakan 'have to': 'Do we have to...?' (Bukan 'Do we must').",
+        "hints": ["Setelah auxiliary 'Do we', gunakan 'have to'.", "'Must' tidak dipasangkan dengan 'do'."],
+        "skill": "modal-obligation"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di klinik dokter dengan modal anjuran formal.",
+        "dialogue": [
+          ["Doctor", "Your blood pressure is slightly elevated."],
+          ["Patient", "What lifestyle changes ___ I make?"],
+          ["Doctor", "You ought ___ reduce sodium intake and exercise daily."]
+        ],
+        "options": ["to", "for", "in"],
+        "answer": 0,
+        "explanation": "Modal semi-auxiliary 'ought' SELALU berpasangan dengan infinitive 'to': 'ought to reduce' (maknanya setara dengan 'should').",
+        "hints": ["'Ought' selalu berpasangan dengan partikel 'to'.", "Rumusnya: ought to + V1."],
+        "skill": "modal-advice"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ pay for the workshop materials; the corporate sponsorship covered all expenses.",
+        "options": ["needn't", "mustn't", "shouldn't to"],
+        "answer": 0,
+        "explanation": "'Needn't + base verb' (atau 'don't need to') bermakna 'tidak perlu' (lack of necessity). Biaya sudah ditanggung, jadi peserta tidak perlu membayar.",
+        "hints": ["Menyatakan ketidakperluan (tidak wajib membayar).", "Gunakan 'needn't'."],
+        "skill": "modal-no-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference: 'I ___ stop eating fast food; I really want to lead a healthier life.'",
+        "options": ["must", "have to", "ought"],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris baku, 'must' sering digunakan untuk kewajiban internal yang bersumber dari tekad pribadi si pembicara sendiri ('I must...').",
+        "hints": ["Keinginan dan tekad berasal dari dalam diri sendiri.", "Gunakan 'must' untuk internal obligation."],
+        "skill": "modal-obligation"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat keharusan masa lampau menggunakan 'had to'.",
+        "targetSentence": "We had to cancel the outdoor seminar due to the thunderstorm.",
+        "explanation": "'Must' tidak memiliki bentuk lampau sendiri; untuk menyatakan kewajiban di masa lalu, WAJIB menggunakan 'had to'.",
+        "hints": ["Bentuk lampau dari must/have to adalah 'had to'.", "Subject: 'We had to cancel'."],
+        "skill": "modal-past-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "If you want to catch the early express train, you ___ better leave right now.",
+        "options": ["had", "would", "should"],
+        "answer": 0,
+        "explanation": "Idiom saran tegas yang disertai peringatan konsekuensi adalah 'had better + base verb': 'you had better leave' (sering disingkat 'you'd better').",
+        "hints": ["Formula saran kuat: had better + V1.", "Bukan 'would better'."],
+        "skill": "modal-had-better"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat peringatan dengan 'had better not'.",
+        "targetSentence": "You had better not miss the deadline.",
+        "explanation": "Pola negatif: Subject + had better not + base verb (miss) + the deadline.",
+        "hints": ["Pola negatif: 'had better not'.", "Verb dasar adalah 'miss'."],
+        "skill": "modal-had-better"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih perbedaan antara larangan dan kebebasan memilih.",
+        "dialogue": [
+          ["Tour Guide", "The museum exhibits are delicate."],
+          ["Tourist", "Can we touch the sculptures?"],
+          ["Tour Guide", "No, you ___ touch them under any circumstances."]
+        ],
+        "options": ["mustn't", "don't have to", "needn't"],
+        "answer": 0,
+        "explanation": "Menyentuh patung adalah larangan keras yang berbahaya bagi karya seni, sehingga menggunakan 'mustn't'.",
+        "hints": ["Larangan keras aturan museum.", "Gunakan 'mustn't' (dilarang)."],
+        "skill": "modal-prohibition"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan bentuk lampau modal keharusan.",
+        "draft": "Because the runway was flooded, the pilot must divert the aircraft to an alternate airport.",
+        "options": [
+          "Because the runway was flooded, the pilot had to divert the aircraft to an alternate airport.",
+          "Because the runway was flooded, the pilot musted divert the aircraft to an alternate airport.",
+          "Because the runway was flooded, the pilot was must diverting the aircraft to an alternate airport."
+        ],
+        "answer": 0,
+        "explanation": "'Must' tidak memiliki bentuk lampau (*musted tidak ada). Seluruh kewajiban di masa lampau wajib diungkapkan dengan 'had to': 'the pilot had to divert'.",
+        "hints": ["'Must' tidak bisa dipakai dalam konteks kalimat lampau.", "Gunakan bentuk lampau 'had to divert'."],
+        "skill": "modal-past-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the subtle distinction: 'We ___ bought so much printer paper; the digital transformation eliminated all printing needs.'",
+        "options": ["needn't have", "didn't need to", "must not have"],
+        "answer": 0,
+        "explanation": "'Needn't have + V3' berarti tindakan tersebut SUDAH terlanjur dilakukan padahal sebenarnya tidak perlu (an unnecessary action was performed). Sebaliknya 'didn't need to' berarti tidak perlu dan biasanya tidak dilakukan.",
+        "hints": ["Kertas sudah terlanjur dibeli padahal tidak dibutuhkan.", "Gunakan pola 'needn't have bought'."],
+        "skill": "modal-past-necessity"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ brought an umbrella yesterday, but you left it at home and got completely soaked.",
+        "options": ["should have", "must have", "had to have"],
+        "answer": 0,
+        "explanation": "'Should have + V3' menyatakan penyesalan atau kritik atas kewajiban/tindakan baik yang SEHARUSNYA dilakukan di masa lalu tetapi TIDAK dilakukan.",
+        "hints": ["Menyatakan penyesalan atau anjuran masa lalu yang tidak terlaksana.", "Rumus: should have + V3."],
+        "skill": "modal-should-have"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kritik penyesalan masa lampau.",
+        "targetSentence": "We should have tested the backup system earlier.",
+        "explanation": "Subject (We) + should have + V3 (tested) + Object (the backup system) + Time (earlier).",
+        "hints": ["Mulai dengan 'We should have tested'.", "Lanjutkan dengan 'the backup system earlier'."],
+        "skill": "modal-should-have"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kerancuan antara deduksi masa lampau 'must have' dan keharusan 'had to'.",
+        "draft": "To renew his passport yesterday, he must have submit three biometric photographs.",
+        "options": [
+          "To renew his passport yesterday, he had to submit three biometric photographs.",
+          "To renew his passport yesterday, he must had submitted three biometric photographs.",
+          "To renew his passport yesterday, he was having to submit three biometric photographs."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat ini menyatakan syarat/kewajiban administratif yang harus dipenuhi di masa lalu (obligation in the past), sehingga harus menggunakan 'had to submit', bukan 'must have submit'.",
+        "hints": ["Menyatakan syarat kewajiban di masa lampau.", "Gunakan 'had to submit'."],
+        "skill": "modal-past-obligation"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regulations require that every delegate ___ present their credentials upon entry.",
+        "options": ["shall", "must to", "ought"],
+        "answer": 0,
+        "explanation": "Dalam bahasa hukum formal (legal and regulatory English), modal 'shall' digunakan untuk menetapkan kewajiban resmi yang mengikat secara perundang-undangan.",
+        "hints": ["Bahasa hukum formal peraturan resmi.", "Gunakan modal 'shall'."],
+        "skill": "modal-legal-shall"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi pasca-krisis dengan kritik retrospektif.",
+        "dialogue": [
+          ["Executive", "Why was the security patch delayed?"],
+          ["IT Auditor", "The team ___ deployed the update immediately after the vulnerability report."]
+        ],
+        "options": ["should have", "must have", "might have"],
+        "answer": 0,
+        "explanation": "Kritik atas tindakan yang semestinya dilakukan di masa lalu: 'should have deployed'.",
+        "hints": ["Kritik atas tindakan yang seharusnya dilakukan.", "Gunakan 'should have deployed'."],
+        "skill": "modal-should-have"
+      }
+    ]
+  }
+}

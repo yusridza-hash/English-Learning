@@ -156,6 +156,28 @@ export function expandPractice(
 
 export function buildStages(moduleKey: string, content: GeneratedModuleContent): BuiltModuleStage[] {
   const enrichment = MODULE_ENRICHMENT[moduleKey] || {};
+  const qbModule = QUESTION_BANK[moduleKey];
+
+  const getQuestionsForLevel = (
+    level: "simple" | "intermediate" | "complex",
+    fallbackSeed: ModuleQuestion[]
+  ): ModuleQuestion[] => {
+    const bankQuestions = qbModule?.levels?.[level];
+    if (bankQuestions && bankQuestions.length >= 10) {
+      return bankQuestions.map((q) => {
+        const skill = inferSkill(content, q, level);
+        return {
+          ...q,
+          explanation: getExplanationForQuestion(moduleKey, q, content),
+          skill: q.skill || skill.key,
+          skillLabel: q.skillLabel || skill.label,
+          skillAnchor: q.skillAnchor || `materi-${level}`,
+        };
+      });
+    }
+    return expandPractice(moduleKey, fallbackSeed, content, level);
+  };
+
   return [
     {
       key: "simple",
@@ -163,12 +185,10 @@ export function buildStages(moduleKey: string, content: GeneratedModuleContent):
       materialId: "materi-simple",
       quizId: "latihan-simple",
       section: content.sections[0],
-      questions: expandPractice(
-        moduleKey,
-        [...content.quiz.slice(0, 2), ...(enrichment.quiz?.simple || [])],
-        content,
-        "simple"
-      ),
+      questions: getQuestionsForLevel("simple", [
+        ...content.quiz.slice(0, 2),
+        ...(enrichment.quiz?.simple || []),
+      ]),
     },
     {
       key: "intermediate",
@@ -176,12 +196,10 @@ export function buildStages(moduleKey: string, content: GeneratedModuleContent):
       materialId: "materi-intermediate",
       quizId: "latihan-intermediate",
       section: content.sections[1],
-      questions: expandPractice(
-        moduleKey,
-        [...content.quiz.slice(2, 4), ...(enrichment.quiz?.intermediate || [])],
-        content,
-        "intermediate"
-      ),
+      questions: getQuestionsForLevel("intermediate", [
+        ...content.quiz.slice(2, 4),
+        ...(enrichment.quiz?.intermediate || []),
+      ]),
     },
     {
       key: "complex",
@@ -189,12 +207,11 @@ export function buildStages(moduleKey: string, content: GeneratedModuleContent):
       materialId: "materi-complex",
       quizId: "latihan-complex",
       section: enrichment.complex || content.sections[2] || content.sections[1],
-      questions: expandPractice(
-        moduleKey,
-        [content.quiz[4], ...(enrichment.quiz?.complex || [])].filter(Boolean),
-        content,
-        "complex"
+      questions: getQuestionsForLevel(
+        "complex",
+        [content.quiz[4], ...(enrichment.quiz?.complex || [])].filter(Boolean)
       ),
     },
   ];
 }
+

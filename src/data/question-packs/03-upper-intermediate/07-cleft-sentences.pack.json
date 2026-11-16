@@ -1,0 +1,350 @@
+{
+  "moduleKey": "03-upper-intermediate/07-cleft-sentences",
+  "title": "Cleft Sentences",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "It-cleft to focus on the person: '___ who initiated the green energy campaign.'",
+        "options": [
+          "It was Sarah",
+          "There was Sarah",
+          "What was Sarah"
+        ],
+        "answer": 0,
+        "explanation": "Struktur It-cleft untuk memberi penekanan pada pelaku: It + is/was + fokus subjek + who/that...",
+        "hints": [
+          "Formula It-cleft: It was [person] who...",
+          "Gunakan 'It was Sarah'."
+        ],
+        "skill": "it-cleft-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wh-cleft / Pseudo-cleft with 'What': '___ is a comprehensive review of our cybersecurity protocols.'",
+        "options": [
+          "What we urgently require",
+          "That we urgently require",
+          "It we urgently require"
+        ],
+        "answer": 0,
+        "explanation": "Wh-cleft: What-clause + is/was + fokus ('What we urgently require is...').",
+        "hints": [
+          "Mulai dengan klausa penekanan 'What'.",
+          "Gunakan 'What we urgently require'."
+        ],
+        "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat It-cleft untuk penekanan waktu.",
+        "targetSentence": "It was in 2015 that the company was founded.",
+        "explanation": "It was + in 2015 (fokus waktu) + that the company was founded.",
+        "hints": [
+          "Mulai dengan 'It was in 2015'.",
+          "Klausa penjelas: 'that the company was founded'."
+        ],
+        "skill": "it-cleft-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "Focusing on an action with 'What... did': 'What the CEO ___ apologize directly to affected consumers.'",
+        "options": [
+          "did was",
+          "was doing",
+          "does is"
+        ],
+        "answer": 0,
+        "explanation": "Wh-cleft untuk aksi masa lalu: What + subjek + did + was + base verb / to-infinitive.",
+        "hints": [
+          "Fokus pada tindakan yang dilakukan.",
+          "Gunakan 'did was'."
+        ],
+        "skill": "wh-cleft-action"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Wh-cleft dengan 'What surprised me'.",
+        "targetSentence": "What surprised me most was his complete indifference.",
+        "explanation": "What surprised me most (wh-clause) + was + his complete indifference (focus).",
+        "hints": [
+          "Mulai dengan 'What surprised me most'.",
+          "Fokus: 'was his complete indifference'."
+        ],
+        "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "Focusing on a place: 'It was in Zurich ___ the international accord was signed.'",
+        "options": [
+          "that",
+          "which",
+          "where that"
+        ],
+        "answer": 0,
+        "explanation": "Dalam It-cleft, kata sambung baku yang paling netral dan umum adalah 'that' (atau where dalam ragam santai). Dalam tulisan formal, 'that' sangat dianjurkan.",
+        "hints": [
+          "Gunakan penghubung 'that' pada It-cleft tempat.",
+          "Pilih 'that'."
+        ],
+        "skill": "it-cleft-place"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat It-cleft untuk penekanan objek.",
+        "targetSentence": "It was the marketing budget that they decided to reduce.",
+        "explanation": "It was the marketing budget + that they decided to reduce.",
+        "hints": [
+          "Mulai dengan 'It was the marketing budget'.",
+          "Lanjutkan dengan 'that they decided to reduce'."
+        ],
+        "skill": "it-cleft-object"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog koreksi menggunakan It-cleft.",
+        "dialogue": [
+          [
+            "Client",
+            "Did the sales associate provide the inaccurate tariff data?"
+          ],
+          [
+            "Manager",
+            "No, ___ who miscalculated the export duties."
+          ]
+        ],
+        "options": [
+          "it was the automated billing software",
+          "there was the automated billing software",
+          "what was the billing software"
+        ],
+        "answer": 0,
+        "explanation": "It-cleft digunakan untuk mengoreksi kesalahpahaman secara tegas dan jelas: 'No, it was [X] that/who...'.",
+        "hints": [
+          "Koreksi subjek dengan It-cleft.",
+          "Gunakan 'it was the automated billing software'."
+        ],
+        "skill": "it-cleft-correction"
+      },
+      {
+        "type": "choice",
+        "prompt": "All-cleft for exclusive emphasis: '___ was ask for a twenty-four-hour extension on the project.'",
+        "options": [
+          "All I did",
+          "That I did",
+          "What did I"
+        ],
+        "answer": 0,
+        "explanation": "All-cleft: All + subject + verb + was/is + (to) infinitive ('All I did was ask...').",
+        "hints": [
+          "Hanya hal itu yang saya lakukan.",
+          "Gunakan 'All I did'."
+        ],
+        "skill": "all-cleft"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reversed Wh-cleft: 'A lack of proper communication ___ to the team's downfall.'",
+        "options": [
+          "was what led",
+          "it was what led",
+          "what led was"
+        ],
+        "answer": 0,
+        "explanation": "Reversed wh-cleft: Focus noun phrase + is/was + what-clause ('A lack of communication was what led...').",
+        "hints": [
+          "Fokus di depan dibalas dengan 'was what...'.",
+          "Gunakan 'was what led'."
+        ],
+        "skill": "reversed-wh-cleft"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat All-cleft penekanan sederhana.",
+        "targetSentence": "All she wanted was a fair chance to present her findings.",
+        "explanation": "All she wanted + was + a fair chance to present her findings.",
+        "hints": [
+          "Mulai dengan 'All she wanted was'.",
+          "Lanjutkan dengan 'a fair chance to present her findings'."
+        ],
+        "skill": "all-cleft"
+      },
+      {
+        "type": "choice",
+        "prompt": "Person-cleft with 'The person who': '___ designed the award-winning library was a local architect.'",
+        "options": [
+          "The person who",
+          "It was the person",
+          "That who"
+        ],
+        "answer": 0,
+        "explanation": "The person who / The one who cleft: 'The person who designed... was...'.",
+        "hints": [
+          "Menyoroti sosok orang secara spesifik.",
+          "Gunakan 'The person who'."
+        ],
+        "skill": "person-cleft"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reversed cleft.",
+        "targetSentence": "Her unwavering resilience is what inspired the whole department.",
+        "explanation": "Her unwavering resilience + is what inspired + the whole department.",
+        "hints": [
+          "Mulai dengan subjek fokus 'Her unwavering resilience'.",
+          "Cleft klausa: 'is what inspired the whole department'."
+        ],
+        "skill": "reversed-wh-cleft"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog klarifikasi prioritas bisnis.",
+        "dialogue": [
+          [
+            "Founder",
+            "Should we expand our warehouse capacity immediately?"
+          ],
+          [
+            "CFO",
+            "No, ___ is stabilize our cash flow reserves."
+          ]
+        ],
+        "options": [
+          "what we must do first",
+          "it is what we do",
+          "all that does"
+        ],
+        "answer": 0,
+        "explanation": "What we must do first is + base verb ('stabilize').",
+        "hints": [
+          "Penekanan tindakan prioritas utama.",
+          "Gunakan 'what we must do first'."
+        ],
+        "skill": "wh-cleft-action"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi agreement pada It-cleft dengan pronoun orang pertama.",
+        "draft": "It is I who is responsible for the organizational oversight.",
+        "options": [
+          "It is I who am responsible for the organizational oversight.",
+          "It is me who are responsible for the organizational oversight.",
+          "It is I whom is responsible for the organizational oversight."
+        ],
+        "answer": 0,
+        "explanation": "Dalam standar preskriptif bahasa Inggris formal, kata kerja di dalam klausa penjelas menyesuaikan dengan subjek pronoun 'I': 'It is I who AM responsible' (bukan who is).",
+        "hints": [
+          "Pronoun 'I' berpasangan dengan 'am'.",
+          "Gunakan 'It is I who am responsible'."
+        ],
+        "skill": "it-cleft-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rhetorical function of cleft sentences in expository prose:",
+        "options": [
+          "To strategically redistribute information by creating a clear boundary between 'given' information and 'new' focal points.",
+          "To avoid using passive voice at all costs.",
+          "To confuse informal readers."
+        ],
+        "answer": 0,
+        "explanation": "Cleft sentences membelah satu klausa menjadi dua bagian (cleft) untuk mengarahkan atensi pembaca tepat pada informasi baru/kunci (information packaging).",
+        "hints": [
+          "Fungsi pengemasan informasi (information packaging / focus).",
+          "Pilih opsi mendistribusikan informasi 'given' dan 'new'."
+        ],
+        "skill": "cleft-rhetorical-function"
+      },
+      {
+        "type": "choice",
+        "prompt": "The reason why-cleft: '___ resigned so abruptly remains shrouded in mystery.'",
+        "options": [
+          "The reason why she",
+          "It was why she",
+          "What she why"
+        ],
+        "answer": 0,
+        "explanation": "Cleft penjelas alasan: 'The reason why she resigned...'.",
+        "hints": [
+          "Menyoroti alasan di balik suatu peristiwa.",
+          "Gunakan 'The reason why she'."
+        ],
+        "skill": "reason-cleft"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat It-cleft untuk penekanan klausul adverbial kontras.",
+        "targetSentence": "It was not until yesterday that the board ratified the agreement.",
+        "explanation": "It was not until yesterday + that the board ratified the agreement.",
+        "hints": [
+          "Mulai dengan 'It was not until yesterday'.",
+          "Lanjutkan dengan 'that the board ratified the agreement'."
+        ],
+        "skill": "it-cleft-time"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki struktur Wh-cleft aksi yang berlebihan.",
+        "draft": "What the engineer did was he repaired the turbine unit.",
+        "options": [
+          "What the engineer did was repair the turbine unit.",
+          "What did the engineer was he repaired the turbine unit.",
+          "It was what the engineer did he repaired the turbine unit."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'What the engineer did was...', tidak boleh ada subjek ganda 'he'. Cukup gunakan bare infinitive atau to-infinitive: 'was repair the turbine unit'.",
+        "hints": [
+          "Hapus pengulangan subjek 'he'.",
+          "Gunakan 'was repair the turbine unit'."
+        ],
+        "skill": "wh-cleft-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence exhibiting formal preparatory It-cleft focus on prepositional phrase:",
+        "options": [
+          "It was under heavy pressure from shareholders that the chairman tendered his resignation.",
+          "It was the chairman under heavy pressure resigned.",
+          "Under pressure it was that the chairman resigns."
+        ],
+        "answer": 0,
+        "explanation": "It was + [prepositional phrase] + that + clause merupakan formula standar penekanan kondisi atau situasi dalam tulisan formal.",
+        "hints": [
+          "Pola: It was [prep phrase] that [clause].",
+          "Pilih opsi pertama."
+        ],
+        "skill": "it-cleft-place"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog pembelaan pengadilan.",
+        "dialogue": [
+          [
+            "Judge",
+            "Does the defense dispute the sequence of events?"
+          ],
+          [
+            "Counsel",
+            "No, Your Honor. ___ the intent behind those actions."
+          ]
+        ],
+        "options": [
+          "What we vigorously dispute is",
+          "It is what dispute we",
+          "All that disputes is"
+        ],
+        "answer": 0,
+        "explanation": "Wh-cleft penekanan poin perselisihan: 'What we vigorously dispute is the intent...'.",
+        "hints": [
+          "Penekanan tegas atas objek sengketa.",
+          "Gunakan 'What we vigorously dispute is'."
+        ],
+        "skill": "wh-cleft-clause"
+      }
+    ]
+  }
+}

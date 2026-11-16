@@ -1,0 +1,354 @@
+{
+  "moduleKey": "04-advanced-formal/09-cohesion-coherence",
+  "title": "Cohesion & Coherence",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Anaphoric reference: 'The company launched a new software product. ___ quickly captured 25% of market share.'",
+        "options": [
+          "It",
+          "Which",
+          "This one that"
+        ],
+        "answer": 0,
+        "explanation": "Pronoun anaphoris 'It' merujuk kembali secara mulus pada entitas yang baru saja diperkenalkan ('a new software product').",
+        "hints": [
+          "Kata ganti orang ketiga tunggal netral.",
+          "Gunakan 'It'."
+        ],
+        "skill": "anaphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Lexical cohesion through synonymy: 'The research team analyzed the initial data. Their rigorous ___ confirmed the hypothesis.'",
+        "options": [
+          "examination",
+          "doing",
+          "making"
+        ],
+        "answer": 0,
+        "explanation": "Kohesi leksikal menggunakan sinonim berbobot ('examination' menggantikan 'analyzed the data') untuk mencegah repetisi kaku.",
+        "hints": [
+          "Sinonim bermartabat dari analisis data.",
+          "Gunakan 'examination'."
+        ],
+        "skill": "lexical-cohesion-synonyms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan transisi kohesif 'In addition'.",
+        "targetSentence": "The policy reduced overhead costs in addition it improved employee retention.",
+        "explanation": "The policy reduced overhead costs + in addition it improved employee retention.",
+        "hints": [
+          "Mulai dengan 'The policy reduced overhead costs'.",
+          "Transisi penambahan: 'in addition it improved employee retention'."
+        ],
+        "skill": "additive-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Thematic progression: In clear English paragraphs, a sentence should generally begin with ___ information and end with ___ information.",
+        "options": [
+          "given (known) / new",
+          "new / given (known)",
+          "random / confusing"
+        ],
+        "answer": 0,
+        "explanation": "Prinsip 'Given-to-New': Kalimat sebaiknya diawali informasi yang sudah dikenal (given info) lalu memperkenalkan informasi baru (new info) di akhir agar mudah dipahami.",
+        "hints": [
+          "Prinsip 'Given-to-New'.",
+          "Pilih 'given (known) / new'."
+        ],
+        "skill": "thematic-progression-given-new"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan penanda kohesif 'On the contrary'.",
+        "targetSentence": "The reform did not fail on the contrary it succeeded brilliantly.",
+        "explanation": "The reform did not fail + on the contrary it succeeded brilliantly.",
+        "hints": [
+          "Pernyataan negatif: 'The reform did not fail'.",
+          "Penegasan kebalikan: 'on the contrary it succeeded brilliantly'."
+        ],
+        "skill": "contrastive-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Cataphoric reference: 'Here is ___ must be addressed first: the rising sovereign debt.'",
+        "options": [
+          "what",
+          "that",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "Cataphoric reference mengarahkan perhatian pembaca ke depan kepada informasi baru yang akan diungkap setelah tanda titik dua: 'Here is what must be addressed first...'.",
+        "hints": [
+          "Mengacu ke depan sebelum titik dua.",
+          "Gunakan 'what'."
+        ],
+        "skill": "cataphoric-reference"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan demonstrative reference 'These findings'.",
+        "targetSentence": "These findings demonstrate a clear correlation between diet and health.",
+        "explanation": "These findings demonstrate + a clear correlation between diet and health.",
+        "hints": [
+          "Mulai dengan demonstratif rujukan: 'These findings demonstrate'.",
+          "Hasil korelasi: 'a clear correlation between diet and health'."
+        ],
+        "skill": "demonstrative-reference"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perbaikan kohesi paragraf esai akademik.",
+        "dialogue": [
+          [
+            "Instructor",
+            "Your paragraphs jump abruptly between unrelated facts."
+          ],
+          [
+            "Student",
+            "How can I enhance the narrative flow?"
+          ],
+          [
+            "Instructor",
+            "Anchor each new topic sentence to the ___ of the preceding paragraph."
+          ]
+        ],
+        "options": [
+          "hypertheme or concluding thought",
+          "first random word",
+          "title alone"
+        ],
+        "answer": 0,
+        "explanation": "Koherensi antarparagraf diperkuat dengan menghubungkan kalimat topik baru ke gagasan penutup atau tema menyeluruh (hypertheme) paragraf sebelumnya.",
+        "hints": [
+          "Menghubungkan topik baru ke hypertheme paragraf sebelumnya.",
+          "Pilih 'hypertheme or concluding thought'."
+        ],
+        "skill": "hypertheme-coherence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Signaling contrastive discourse: 'Consumer confidence climbed; industrial output, ___, plummeted by six percent.'",
+        "options": [
+          "by comparison",
+          "in addition",
+          "for example"
+        ],
+        "answer": 0,
+        "explanation": "'By comparison' (atau conversely) menyandingkan dua indikator ekonomi yang bergerak berlawanan arah secara elegan di posisi tengah kalimat.",
+        "hints": [
+          "Penanda kontras di tengah kalimat.",
+          "Gunakan 'by comparison'."
+        ],
+        "skill": "contrastive-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Collocational cohesion: Words like 'plaintiff', 'tort', 'damages', and 'jurisdiction' belong to the same...",
+        "options": [
+          "lexical field / semantic domain",
+          "verb conjugation table",
+          "pronoun category"
+        ],
+        "answer": 0,
+        "explanation": "Kata-kata tersebut membangun kohesi leksikal karena berasal dari satu medan makna / medan leksikal (lexical field / semantic domain) yang sama, yaitu hukum perdata.",
+        "hints": [
+          "Konsep medan makna atau rumpun istilah.",
+          "Pilih 'lexical field / semantic domain'."
+        ],
+        "skill": "lexical-fields-cohesion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan transisi kronologis formal 'Subsequently'.",
+        "targetSentence": "The protocol was ratified and subsequently implemented across all branches.",
+        "explanation": "The protocol was ratified + and subsequently implemented across all branches.",
+        "hints": [
+          "Mulai dengan 'The protocol was ratified'.",
+          "Keterangan kronologis: 'and subsequently implemented across all branches'."
+        ],
+        "skill": "temporal-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Superordinate terms (Hypernyms): Replacing specific terms 'wheat, barley, and rye' with a general cohesive category:",
+        "options": [
+          "These cereal grains",
+          "These foods things",
+          "Those stuff"
+        ],
+        "answer": 0,
+        "explanation": "Penggunaan istilah payung (hypernym/superordinate noun) seperti 'These cereal grains' merangkum daftar rincian menjadi konsep ilmiah yang kohesif.",
+        "hints": [
+          "Istilah payung ilmiah (hypernym).",
+          "Pilih 'These cereal grains'."
+        ],
+        "skill": "lexical-cohesion-hypernyms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat rujukan anaforis 'Such discrepancies'.",
+        "targetSentence": "Such discrepancies cannot be overlooked during a forensic financial audit.",
+        "explanation": "Such discrepancies + cannot be overlooked + during a forensic financial audit.",
+        "hints": [
+          "Mulai dengan rujukan anaforis: 'Such discrepancies cannot be overlooked'.",
+          "Konteks: 'during a forensic financial audit'."
+        ],
+        "skill": "demonstrative-reference"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis koherensi logika.",
+        "dialogue": [
+          [
+            "Editor",
+            "Why does paragraph 3 feel disconnected from paragraph 2?"
+          ],
+          [
+            "Writer",
+            "Because I omitted the logical step explaining how the cost increases led to the ___."
+          ]
+        ],
+        "options": [
+          "ensuing supply chain crisis",
+          "random events elsewhere",
+          "previous origins"
+        ],
+        "answer": 0,
+        "explanation": "'Ensuing' menandai peristiwa yang timbul sebagai konsekuensi logis yang tak terpisahkan dari masalah sebelumnya.",
+        "hints": [
+          "Menandai akibat langsung berikutnya.",
+          "Gunakan 'ensuing supply chain crisis'."
+        ],
+        "skill": "cause-effect-linking"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi 'Topic Shift' mendadak yang merusak koherensi alur argumentasi.",
+        "draft": "Quantum computers solve calculations quickly. My cousin works in Silicon Valley. Algorithms are very sophisticated.",
+        "options": [
+          "Quantum computers execute calculations at exponential speeds. This computational advantage enables advanced algorithms to model complex molecular interactions.",
+          "Quantum computers are fast and algorithms are cool too.",
+          "Quantum computers solve math fast, which Silicon Valley people like."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat aslinya mengalami disrupsi koherensi (out-of-place personal anecdote). Revisi membangun rantai tema-rema (Theme-Rheme progression) yang konsisten: 'exponential speeds' dirujuk kembali sebagai 'This computational advantage'.",
+        "hints": [
+          "Bangun rantai tema-rema yang logis dan objektif.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "thematic-progression-given-new"
+      },
+      {
+        "type": "choice",
+        "prompt": "Theoretical foundation: In Discourse Analysis (Halliday, Martin, Eggins), 'Thematic Progression' patterns include:",
+        "options": [
+          "Constant Theme (same topic maintained), Linear Theme (Rheme of clause 1 becomes Theme of clause 2), and Derived Hypertheme.",
+          "Random associative stream of consciousness.",
+          "Rhyming couplets at the beginning of clauses."
+        ],
+        "answer": 0,
+        "explanation": "Tiga pola progres tema baku dalam teks akademik adalah: Constant Theme (tema konsisten), Linear Theme (informasi baru klausa 1 menjadi tema klausa 2), dan Split/Derived Hypertheme.",
+        "hints": [
+          "Tiga pola utama progres tema Hallidayan.",
+          "Pilih opsi Constant Theme, Linear Theme, and Derived Hypertheme."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the paragraph displaying quintessential Linear Thematic Progression:",
+        "options": [
+          "The government introduced a carbon tax. This fiscal mechanism disincentivizes fossil fuel consumption. Reduced consumption in turn lowers aggregate atmospheric emissions.",
+          "The government made a tax. Trees are green. Cars cause pollution.",
+          "Carbon taxes are implemented everywhere. Many people talk about climate change."
+        ],
+        "answer": 0,
+        "explanation": "Rantai linear yang sempurna: 'carbon tax' $\\rightarrow$ 'This fiscal mechanism disincentivizes fossil fuel consumption' $\\rightarrow$ 'Reduced consumption in turn lowers aggregate emissions'. Setiap Rheme menjadi Theme berikutnya.",
+        "hints": [
+          "Setiap akhir kalimat menjadi awal kalimat berikutnya.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dengan kohesi leksikal terangkai.",
+        "targetSentence": "The empirical survey revealed structural inequities which subsequent institutional reforms successfully eliminated.",
+        "explanation": "The empirical survey revealed structural inequities + which subsequent institutional reforms successfully eliminated.",
+        "hints": [
+          "Mulai dengan 'The empirical survey revealed structural inequities'.",
+          "Klausa penjelas terikat: 'which subsequent institutional reforms successfully eliminated'."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki referensi kata tunjuk yang ambigu ('broad pronoun reference').",
+        "draft": "The factory contaminated the municipal reservoir and falsified safety logs, which made the public extremely angry.",
+        "options": [
+          "The factory contaminated the municipal reservoir and falsified safety logs, a dual transgression that sparked widespread public outrage.",
+          "The factory did that and that which made people angry.",
+          "The factory contaminated the reservoir and falsified logs, which it was bad."
+        ],
+        "answer": 0,
+        "explanation": "Penggunaan 'which' yang mengambang tanpa kejelasan apakah merujuk ke pencemaran, pemalsuan, atau keduanya diperbaiki dengan meringkasnya ke dalam frasa nominal payung: 'a dual transgression that sparked widespread public outrage'.",
+        "hints": [
+          "Ringkas tindakan ambigu menjadi frasa nominal definitif.",
+          "Pilih 'a dual transgression that sparked widespread public outrage'."
+        ],
+        "skill": "broad-reference-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Macro-level discourse coherence: A well-structured academic monograph ensures coherence between the Abstract and the Conclusion primarily through:",
+        "options": [
+          "revisiting the initial research questions and demonstrating how empirical findings have answered or recontextualized them",
+          "repeating every single sentence word-for-word",
+          "introducing entirely new speculative theories in the final paragraph"
+        ],
+        "answer": 0,
+        "explanation": "Koherensi makro dicapai ketika kesimpulan menjawab tuntas pertanyaan penelitian awal yang diajukan dalam abstrak berdasarkan bukti data yang telah dianalisis.",
+        "hints": [
+          "Menjawab tuntas pertanyaan penelitian awal dari abstrak.",
+          "Pilih opsi revisiting the initial research questions."
+        ],
+        "skill": "macro-discourse-coherence"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi draf naskah ilmiah.",
+        "dialogue": [
+          [
+            "Chief Editor",
+            "How does the author maintain cohesion across this 40-page section?"
+          ],
+          [
+            "Reviewer",
+            "Through a meticulously maintained ___ where each chapter opens with a synthesis of earlier findings."
+          ]
+        ],
+        "options": [
+          "scaffold of macro-themes and transitional signposts",
+          "series of unpredictable metaphors",
+          "random assortment of headings"
+        ],
+        "answer": 0,
+        "explanation": "Kerangka makro-tema dan penanda transisi (signposts) adalah pilar koherensi tulisan ilmiah bervolume besar.",
+        "hints": [
+          "Kerangka makro-tema dan rambu-rambu transisi wacana.",
+          "Pilih 'scaffold of macro-themes and transitional signposts'."
+        ],
+        "skill": "macro-discourse-coherence"
+      }
+    ]
+  }
+}

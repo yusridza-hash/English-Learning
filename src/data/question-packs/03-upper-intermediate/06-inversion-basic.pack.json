@@ -1,0 +1,350 @@
+{
+  "moduleKey": "03-upper-intermediate/06-inversion-basic",
+  "title": "Inversion (Basic)",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Never in my life ___ such an extraordinary performance.",
+        "options": [
+          "have I witnessed",
+          "I have witnessed",
+          "did I witnessed"
+        ],
+        "answer": 0,
+        "explanation": "Ketika adverb negatif 'Never' diletakkan di awal kalimat untuk penekanan emosional, terjadi inversi: auxiliary + subjek + verb ('have I witnessed').",
+        "hints": [
+          "Kalimat diawali kata negatif 'Never'.",
+          "Auxiliary mendahului subjek: have + I + witnessed."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ such dedication from an apprentice.",
+        "options": [
+          "do we see",
+          "we see",
+          "we do see"
+        ],
+        "answer": 0,
+        "explanation": "Rarely + auxiliary (do) + subject (we) + main verb (see).",
+        "hints": [
+          "Inversi dengan 'Rarely'.",
+          "Gunakan auxiliary 'do'."
+        ],
+        "skill": "negative-inversion-rarely"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'Seldom'.",
+        "targetSentence": "Seldom have I experienced such remarkable hospitality.",
+        "explanation": "Seldom + have + I + experienced + such remarkable hospitality.",
+        "hints": [
+          "Mulai dengan 'Seldom have I experienced'.",
+          "Objek: 'such remarkable hospitality'."
+        ],
+        "skill": "negative-inversion-seldom"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little ___ that his life was about to change forever.",
+        "options": [
+          "did he realize",
+          "he realized",
+          "he did realize"
+        ],
+        "answer": 0,
+        "explanation": "'Little did he realize' adalah idiom inversi klasik yang menunjukkan ketidaktahuan sama sekali.",
+        "hints": [
+          "Little + auxiliary did + subjek he + realize.",
+          "Gunakan 'did he realize'."
+        ],
+        "skill": "negative-inversion-little"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'Hardly... when'.",
+        "targetSentence": "Hardly had they arrived when the thunderstorm began.",
+        "explanation": "Hardly had they arrived + when the thunderstorm began.",
+        "hints": [
+          "Mulai dengan inversi: 'Hardly had they arrived'.",
+          "Klausa kedua: 'when the thunderstorm began'."
+        ],
+        "skill": "inversion-hardly-when"
+      },
+      {
+        "type": "choice",
+        "prompt": "Barely ___ out of the building when the fire alarm sounded.",
+        "options": [
+          "had he stepped",
+          "he had stepped",
+          "did he stepped"
+        ],
+        "answer": 0,
+        "explanation": "Barely had + subjek + V3 ('Barely had he stepped...').",
+        "hints": [
+          "Barely berpasangan dengan had + subjek + V3.",
+          "Gunakan 'had he stepped'."
+        ],
+        "skill": "inversion-barely-when"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'Scarcely'.",
+        "targetSentence": "Scarcely had I closed my eyes when the telephone rang.",
+        "explanation": "Scarcely had I closed my eyes + when the telephone rang.",
+        "hints": [
+          "Mulai dengan 'Scarcely had I closed my eyes'.",
+          "Klausa sambung: 'when the telephone rang'."
+        ],
+        "skill": "inversion-scarcely-when"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog dramatis dengan inversi 'No sooner... than'.",
+        "dialogue": [
+          [
+            "Eyewitness",
+            "What occurred right after the announcement?"
+          ],
+          [
+            "Journalist",
+            "No sooner ___ the speech than the crowd erupted into cheers."
+          ]
+        ],
+        "options": [
+          "had the premier finished",
+          "the premier had finished",
+          "did the premier finished"
+        ],
+        "answer": 0,
+        "explanation": "No sooner + had + subjek + V3 ... THAN klausa lampau: 'had the premier finished'.",
+        "hints": [
+          "Pola: No sooner had + subjek + V3.",
+          "Gunakan 'had the premier finished'."
+        ],
+        "skill": "inversion-no-sooner-than"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with 'Not only... but also': 'Not only ___ the deadline, but she also exceeded sales targets.'",
+        "options": [
+          "did she meet",
+          "she met",
+          "she did meet"
+        ],
+        "answer": 0,
+        "explanation": "Not only di awal klausa memicu inversi pada klausa pertama: auxiliary 'did' + she + meet.",
+        "hints": [
+          "Inversi pada klausa pertama 'Not only'.",
+          "Gunakan auxiliary 'did she meet'."
+        ],
+        "skill": "inversion-not-only"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with 'Under no circumstances': 'Under no circumstances ___ the laboratory unattended.'",
+        "options": [
+          "should you leave",
+          "you should leave",
+          "you leave"
+        ],
+        "answer": 0,
+        "explanation": "Frasa preposisi restriktif/negatif 'Under no circumstances' mewajibkan inversi: modal (should) + subjek (you) + verb (leave).",
+        "hints": [
+          "Larangan mutlak di awal kalimat memicu inversi.",
+          "Gunakan 'should you leave'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi 'Not until'.",
+        "targetSentence": "Not until the following morning did we discover the truth.",
+        "explanation": "Not until the following morning (adverbial time) + did we discover (inversion) + the truth.",
+        "hints": [
+          "Mulai dengan 'Not until the following morning'.",
+          "Inversi: 'did we discover the truth'."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only after: 'Only after the audit was concluded ___ the extent of the loss.'",
+        "options": [
+          "did they comprehend",
+          "they comprehended",
+          "they did comprehend"
+        ],
+        "answer": 0,
+        "explanation": "Pada konstruksi 'Only after / Only when / Only if', klausa utama berikutnya mengalami inversi: did they comprehend.",
+        "hints": [
+          "Inversi terjadi pada klausa utama setelah 'Only after...'.",
+          "Gunakan 'did they comprehend'."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi 'On no account'.",
+        "targetSentence": "On no account must confidential patient files be shared.",
+        "explanation": "On no account + must (modal) + confidential patient files (subject) + be shared (verb).",
+        "hints": [
+          "Mulai dengan 'On no account must'.",
+          "Subjek dan pasif: 'confidential patient files be shared'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog konfirmasi protokol keamanan perbankan.",
+        "dialogue": [
+          [
+            "Auditor",
+            "Can bank employees disclose encryption keys to third parties?"
+          ],
+          [
+            "Security Director",
+            "In no way ___ employees authorize external key sharing."
+          ]
+        ],
+        "options": [
+          "may",
+          "do",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'In no way' bernilai negatif dan memicu inversi modal: 'In no way may employees authorize...'.",
+        "hints": [
+          "Inversi dengan 'In no way'.",
+          "Gunakan modal izin 'may'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki letak inversi pada kalimat bersyarat 'Not until'.",
+        "draft": "Not until did she speak with her manager she submitted the resignation letter.",
+        "options": [
+          "Not until she spoke with her manager did she submit the resignation letter.",
+          "Not until she did speak with her manager she submitted the resignation letter.",
+          "Not until did she spoke with her manager she did submit the letter."
+        ],
+        "answer": 0,
+        "explanation": "Pada 'Not until [time clause]', inversi BUKAN di dalam anak kalimat 'not until', melainkan di dalam KLAUSA UTAMA: 'Not until she spoke with her manager DID SHE SUBMIT...'.",
+        "hints": [
+          "Klausa setelah 'Not until' tetap normal.",
+          "Inversi diletakkan pada klausa utama."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "choice",
+        "prompt": "Locative inversion (Inversion of place): 'At the top of the steep hill ___ an ancient granite tower.'",
+        "options": [
+          "stood",
+          "did stand",
+          "standing"
+        ],
+        "answer": 0,
+        "explanation": "Dalam inversi tempat/lokatif sastra (Locative Inversion), kata kerja utama langsung bertukar posisi dengan subjek tanpa auxiliary 'did': 'stood an ancient granite tower'.",
+        "hints": [
+          "Inversi tempat sastra tidak menggunakan auxiliary 'did'.",
+          "Gunakan langsung main verb: 'stood'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is inversion predominantly employed in academic, oratorical, and literary contexts?",
+        "options": [
+          "To introduce rhetorical drama, solemnity, and strong stylistic emphasis to critical arguments.",
+          "Because standard SVO order is grammatically forbidden in formal essays.",
+          "To prevent readers from reading too quickly."
+        ],
+        "answer": 0,
+        "explanation": "Inversi memberikan nuansa retoris yang berbobot, elegan, khidmat, dan memberikan tekanan emosional/logis yang kuat pada gagasan utama.",
+        "hints": [
+          "Tujuan retoris dan penekanan gaya formal.",
+          "Pilih opsi rhetorical drama and stylistic emphasis."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi sastra dengan preposisi arah 'Into the room'.",
+        "targetSentence": "Into the packed boardroom stepped the enigmatic chief executive.",
+        "explanation": "Into the packed boardroom + stepped (main verb) + the enigmatic chief executive (subject).",
+        "hints": [
+          "Frasa tempat/arah: 'Into the packed boardroom'.",
+          "Verb langsung mendahului subjek: 'stepped the enigmatic chief executive'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan pasangan konjungsi pada 'No sooner'.",
+        "draft": "No sooner had the keynote speaker commenced when the microphone malfunctioned.",
+        "options": [
+          "No sooner had the keynote speaker commenced than the microphone malfunctioned.",
+          "No sooner had the keynote speaker commenced that the microphone malfunctioned.",
+          "No sooner did the keynote speaker commence when the microphone malfunctioned."
+        ],
+        "answer": 0,
+        "explanation": "'No sooner' selalu berpasangan dengan 'THAN' (bukan 'when'). Pasangan 'when' hanya untuk 'Hardly/Scarcely/Barely'.",
+        "hints": [
+          "'No sooner' berpasangan dengan 'than'.",
+          "Ganti 'when' menjadi 'than'."
+        ],
+        "skill": "inversion-no-sooner-than"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence with accurate negative inversion syntax:",
+        "options": [
+          "At no time during the trial did the defendant express genuine remorse.",
+          "At no time during the trial the defendant expressed remorse.",
+          "At no time during the trial did express the defendant remorse."
+        ],
+        "answer": 0,
+        "explanation": "Pola baku: At no time + auxiliary (did) + subjek (the defendant) + main verb dasar (express).",
+        "hints": [
+          "Auxiliary + subjek + base verb.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog debat parlemen.",
+        "dialogue": [
+          [
+            "Speaker of the House",
+            "Does the Prime Minister acknowledge the administrative failure?"
+          ],
+          [
+            "Opposition Leader",
+            "Never before in our parliamentary history ___ a cabinet demonstrated such sheer incompetence."
+          ]
+        ],
+        "options": [
+          "has",
+          "had",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Never before + auxiliary has + a cabinet (subject) + demonstrated (V3).",
+        "hints": [
+          "Inversi dengan 'Never before'.",
+          "Gunakan auxiliary 'has'."
+        ],
+        "skill": "negative-inversion-never"
+      }
+    ]
+  }
+}

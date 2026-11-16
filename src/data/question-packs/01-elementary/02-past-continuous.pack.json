@@ -1,0 +1,218 @@
+{
+  "moduleKey": "01-elementary/02-past-continuous",
+  "title": "Past Continuous",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "At 3:00 p.m. yesterday, our team ___ the quarterly financial audit.",
+        "options": ["was conducting", "were conducting", "conducted"],
+        "answer": 0,
+        "explanation": "Pada jam spesifik di masa lampau ('At 3:00 p.m. yesterday'), aktivitas sedang berlangsung. Subjek tunggal 'our team' berpasangan dengan 'was conducting'.",
+        "hints": ["Aktivitas sedang berlangsung pada jam tertentu di masa lalu.", "Subjek tunggal memakai 'was' + verb-ing."],
+        "skill": "past-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The developers ___ bugs in the codebase all night long.",
+        "options": ["was fixing", "were fixing", "are fixing"],
+        "answer": 1,
+        "explanation": "Subjek jamak 'The developers' berpasangan dengan 'were' + verb-ing: 'were fixing'.",
+        "hints": ["Perhatikan subjek jamak 'developers'.", "Gunakan 'were' + verb-ing."],
+        "skill": "past-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Continuous positif.",
+        "targetSentence": "She was writing the proposal yesterday afternoon.",
+        "explanation": "Subject (She) + was + Verb-ing (writing) + Object (the proposal) + Time (yesterday afternoon).",
+        "hints": ["Mulai dengan subject 'She'.", "Gunakan 'was writing'."],
+        "skill": "past-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ for the bus when the heavy rain suddenly started.",
+        "options": ["was waiting", "waited", "am waiting"],
+        "answer": 0,
+        "explanation": "Aksi latar belakang yang sedang berlangsung lebih panjang (background continuous action) memakai Past Continuous: 'was waiting'.",
+        "hints": ["Aksi sedang berlangsung sebelum dipotong oleh hujan.", "Gunakan Past Continuous."],
+        "skill": "past-continuous-interrupted"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Continuous negatif.",
+        "targetSentence": "They were not working at six o'clock.",
+        "explanation": "Subject (They) + were + not + Verb-ing (working) + at six o'clock.",
+        "hints": ["Subject: 'They'.", "Gunakan 'were not working'."],
+        "skill": "past-continuous-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "What ___ you doing when the fire alarm sounded in the building?",
+        "options": ["were", "was", "did"],
+        "answer": 0,
+        "explanation": "Pertanyaan Past Continuous untuk subjek 'you': 'What were you doing...?'",
+        "hints": ["Subjeknya adalah 'you'.", "To be lampau untuk 'you' adalah 'were'."],
+        "skill": "past-continuous-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Past Continuous.",
+        "targetSentence": "Was he reviewing the contract yesterday?",
+        "explanation": "To be (Was) + Subject (he) + Verb-ing (reviewing) + the contract + yesterday?",
+        "hints": ["Awali pertanyaan dengan 'Was'.", "Subjek 'he' diletakkan sebelum 'reviewing'."],
+        "skill": "past-continuous-question"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog alibi penyelidikan dengan Past Continuous.",
+        "dialogue": [
+          ["Detective", "What were you doing at 9:00 p.m. last night?"],
+          ["Witness", "I ___ dinner with my colleagues at a downtown restaurant."]
+        ],
+        "options": ["was having", "had", "have had"],
+        "answer": 0,
+        "explanation": "Menjawab aktivitas yang sedang berlangsung pada titik waktu lampau spesifik menggunakan Past Continuous: 'I was having dinner'.",
+        "hints": ["Menjawab pertanyaan 'What were you doing'.", "Gunakan 'was having'."],
+        "skill": "past-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "While the analysts were preparing the charts, the manager ___ the summary report.",
+        "options": ["was drafting", "drafted", "drafts"],
+        "answer": 0,
+        "explanation": "Dua aksi berdurasi yang berlangsung bersamaan secara simultan di masa lampau (parallel continuous actions) keduanya memakai Past Continuous: 'While A was preparing... B was drafting'.",
+        "hints": ["Dua aktivitas berjalan bersamaan secara simultan.", "Keduanya memakai Past Continuous."],
+        "skill": "past-continuous-parallel"
+      },
+      {
+        "type": "choice",
+        "prompt": "The internet connection went offline while we ___ the software update.",
+        "options": ["were downloading", "downloaded", "are downloading"],
+        "answer": 0,
+        "explanation": "Klausa setelah 'while' yang menunjukkan proses yang sedang berjalan memakai Past Continuous: 'while we were downloading'.",
+        "hints": ["Setelah kata hubung 'while' untuk proses yang berlangsung.", "Gunakan Past Continuous."],
+        "skill": "past-continuous-interrupted"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menggabungkan Past Continuous dan Past Simple dengan 'when'.",
+        "targetSentence": "I was walking home when I met Sarah.",
+        "explanation": "Aksi latar belakang (I was walking home) dipotong oleh aksi singkat (when I met Sarah).",
+        "hints": ["Aksi latar belakang: 'I was walking home'.", "Aksi interupsi singkat diawali 'when I met Sarah'."],
+        "skill": "past-continuous-interrupted"
+      },
+      {
+        "type": "choice",
+        "prompt": "Throughout the entire winter, the temperature ___ steadily colder every week.",
+        "options": ["was getting", "got", "is getting"],
+        "answer": 0,
+        "explanation": "Menyatakan proses perubahan bertahap di masa lampau (gradual past change): 'was getting steadily colder'.",
+        "hints": ["Perubahan yang terjadi bertahap di masa lalu.", "Gunakan 'was getting'."],
+        "skill": "past-continuous-trends"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dua aktivitas simultan yang dihubungkan dengan 'while'.",
+        "targetSentence": "She was coding while he was designing.",
+        "explanation": "Dua aktivitas simultan: She was coding + while + he was designing.",
+        "hints": ["Aktivitas pertama: 'She was coding'.", "Aktivitas kedua setelah while: 'he was designing'."],
+        "skill": "past-continuous-parallel"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk interupsi aksi yang tepat dalam dialog.",
+        "dialogue": [
+          ["Manager", "Why didn't you answer my phone call at two o'clock?"],
+          ["Staff", "I apologize; I ___ a client presentation at that exact moment."]
+        ],
+        "options": ["was delivering", "delivered", "have delivered"],
+        "answer": 0,
+        "explanation": "Alasan tidak menjawab telepon adalah karena sedang berada di tengah-tengah aktivitas presentasi: 'was delivering'.",
+        "hints": ["Sedang berlangsung di tengah aktivitas.", "Gunakan Past Continuous 'was delivering'."],
+        "skill": "past-continuous-form"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan penggunaan stative verb dalam bentuk Past Continuous.",
+        "draft": "When the merger occurred, he was knowing the true financial situation of the firm.",
+        "options": [
+          "When the merger occurred, he knew the true financial situation of the firm.",
+          "When the merger occurred, he had been knowing the true financial situation of the firm.",
+          "When the merger occurred, he was known the true financial situation of the firm."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja stative 'know' (mengetahui) tidak boleh berbentuk continuous (-ing). Gunakan Past Simple: 'he knew'.",
+        "hints": ["'Know' adalah stative verb yang tidak boleh memakai -ing.", "Ubah menjadi Past Simple V2 'knew'."],
+        "skill": "past-continuous-stative"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ going to launch the beta test in March, but technical complications forced a postponement.",
+        "options": ["were", "are", "had"],
+        "answer": 0,
+        "explanation": "'Was/were going to' digunakan untuk menyatakan rencana masa lalu yang tidak jadi terlaksana (unfulfilled past intention): 'We were going to launch... but...'.",
+        "hints": ["Rencana masa lalu yang batal atau berubah.", "Gunakan pola 'were going to'."],
+        "skill": "past-continuous-intention"
+      },
+      {
+        "type": "choice",
+        "prompt": "Polite inquiry: 'I ___ wondering if you might have ten minutes to discuss the contract terms?'",
+        "options": ["was", "am", "had been"],
+        "answer": 0,
+        "explanation": "Past Continuous sering digunakan dalam permohonan santun (polite request/tentative framing): 'I was wondering if...' bernada jauh lebih sopan dan tidak menuntut dibanding 'I am wondering'.",
+        "hints": ["Gaya bahasa formal dan santun (tentative framing).", "Gunakan formula 'I was wondering if...'."],
+        "skill": "past-continuous-polite"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sopan dengan formula 'I was hoping'.",
+        "targetSentence": "I was hoping you could help me.",
+        "explanation": "Pola permohonan santun: I was hoping + you could help me.",
+        "hints": ["Mulai dengan formula santun 'I was hoping'.", "Lanjutkan dengan 'you could help me'."],
+        "skill": "past-continuous-polite"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kerancuan penggunaan 'when' vs 'while' pada durasi latar belakang.",
+        "draft": "She broke her ankle while she played volleyball on Saturday.",
+        "options": [
+          "She broke her ankle while she was playing volleyball on Saturday.",
+          "She was breaking her ankle while she played volleyball on Saturday.",
+          "She broke her ankle when she was played volleyball on Saturday."
+        ],
+        "answer": 0,
+        "explanation": "Aktivitas bermain voli adalah proses latar belakang yang sedang berlangsung saat pergelangan kakinya patah: 'while she was playing volleyball'.",
+        "hints": ["Aktivitas bermain voli sedang berlangsung saat cedera terjadi.", "Gunakan 'while she was playing'."],
+        "skill": "past-continuous-interrupted"
+      },
+      {
+        "type": "choice",
+        "prompt": "At university, my roommate ___ leaving his damp towels on the floor, which irritated everyone.",
+        "options": ["was constantly", "constantly was", "is constantly"],
+        "answer": 0,
+        "explanation": "Pola 'was/were constantly/always + verb-ing' digunakan untuk mendeskripsikan kebiasaan menyebalkan di masa lalu yang membuat orang lain jengkel.",
+        "hints": ["Kekesalan terhadap kebiasaan buruk masa lalu.", "Gunakan 'was constantly leaving'."],
+        "skill": "past-continuous-annoyance"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog deskripsi latar belakang dalam narasi sastra/laporan.",
+        "dialogue": [
+          ["Narrator", "The scene was chaotic when the rescue boat arrived."],
+          ["Survivor", "The fierce wind ___ and massive waves were crashing against the hull."]
+        ],
+        "options": ["was howling", "howled", "had howled"],
+        "answer": 0,
+        "explanation": "Deskripsi latar suasana narasi lampau (setting the scene) memakai Past Continuous: 'The fierce wind was howling and massive waves were crashing'.",
+        "hints": ["Membangun suasana latar narasi (setting the scene).", "Gunakan Past Continuous 'was howling'."],
+        "skill": "past-continuous-setting"
+      }
+    ]
+  }
+}

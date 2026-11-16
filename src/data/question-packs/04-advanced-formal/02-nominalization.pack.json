@@ -1,0 +1,354 @@
+{
+  "moduleKey": "04-advanced-formal/02-nominalization",
+  "title": "Nominalization",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Transform the verb 'analyze' into an academic noun subject: '___ of the empirical dataset revealed several outliers.'",
+        "options": [
+          "Analysis",
+          "Analyzing",
+          "Analyzation"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk nomina formal dari 'analyze' adalah 'Analysis'.",
+        "hints": [
+          "Bentuk noun dari kata kerja analyze.",
+          "Gunakan 'Analysis'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Transform 'stabilize': 'The central bank's intervention resulted in the ___ of interest rates.'",
+        "options": [
+          "stabilization",
+          "stabilizing",
+          "stability of"
+        ],
+        "answer": 0,
+        "explanation": "'Stabilize' dinominalisasikan menjadi 'stabilization'.",
+        "hints": [
+          "Bentuk proses nomina berakhiran -tion.",
+          "Gunakan 'stabilization'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominalisasi dari 'The government intervened'.",
+        "targetSentence": "Government intervention prevented a complete banking collapse.",
+        "explanation": "Government intervention (noun phrase) + prevented + a complete banking collapse.",
+        "hints": [
+          "Subjek nomina: 'Government intervention'.",
+          "Predikat: 'prevented a complete banking collapse'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Transform 'deteriorate': 'The rapid ___ of the treaty led to immediate mobilization.'",
+        "options": [
+          "deterioration",
+          "deteriorating",
+          "deteriorance"
+        ],
+        "answer": 0,
+        "explanation": "'Deteriorate' (memburuk) menjadi 'deterioration' (pemburukan/kemerosotan).",
+        "hints": [
+          "Bentuk noun berakhiran -tion.",
+          "Gunakan 'deterioration'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominalisasi dengan 'The adoption of'.",
+        "targetSentence": "The adoption of renewable energy standards accelerated significantly.",
+        "explanation": "The adoption of renewable energy standards + accelerated significantly.",
+        "hints": [
+          "Mulai dengan 'The adoption of renewable energy standards'.",
+          "Predikat: 'accelerated significantly'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Transform 'allocate': 'The optimal ___ of scarce medical resources is critical.'",
+        "options": [
+          "allocation",
+          "allocating",
+          "allocative"
+        ],
+        "answer": 0,
+        "explanation": "Kata benda dari allocate adalah 'allocation'.",
+        "hints": [
+          "Bentuk noun berakhiran -tion.",
+          "Gunakan 'allocation'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dengan subjek nominal 'The expansion of'.",
+        "targetSentence": "The expansion of international trade networks stimulated domestic growth.",
+        "explanation": "The expansion of international trade networks + stimulated domestic growth.",
+        "hints": [
+          "Subjek: 'The expansion of international trade networks'.",
+          "Predikat: 'stimulated domestic growth'."
+        ],
+        "skill": "verb-to-noun-shift"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog transformasi laporan verbal ke nominal.",
+        "dialogue": [
+          [
+            "Analyst",
+            "When consumer confidence declined, discretionary spending contracted."
+          ],
+          [
+            "Economist",
+            "Precisely; the decline in consumer confidence precipitated a ___ in discretionary spending."
+          ]
+        ],
+        "options": [
+          "contraction",
+          "contracting",
+          "contract"
+        ],
+        "answer": 0,
+        "explanation": "Verba 'contracted' (menyusut) dinominalisasi menjadi kata benda abstrak 'contraction'.",
+        "hints": [
+          "Bentuk kata benda proses penyusutan.",
+          "Gunakan 'contraction'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Converting adjectives to abstract nouns: 'The algorithm is reliable' -> 'The ___ of the algorithm has been independently validated.'",
+        "options": [
+          "reliability",
+          "reliableness",
+          "reliablement"
+        ],
+        "answer": 0,
+        "explanation": "Adjektiva 'reliable' dinominalisasi menjadi 'reliability'.",
+        "hints": [
+          "Bentuk noun dari reliable berakhiran -ity.",
+          "Gunakan 'reliability'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Complex noun phrase as subject: 'The gradual ___ of agricultural land into commercial real estate raised food security concerns.'",
+        "options": [
+          "conversion",
+          "converting",
+          "converted"
+        ],
+        "answer": 0,
+        "explanation": "'Convert' dinominalisasi menjadi 'conversion' ('The gradual conversion of...').",
+        "hints": [
+          "Bentuk kata benda dari convert.",
+          "Gunakan 'conversion'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dari klausa verbal 'scientists discovered penicillin'.",
+        "targetSentence": "The scientific discovery of penicillin transformed clinical healthcare worldwide.",
+        "explanation": "The scientific discovery of penicillin + transformed clinical healthcare worldwide.",
+        "hints": [
+          "Mulai dengan nomina: 'The scientific discovery of penicillin'.",
+          "Predikat: 'transformed clinical healthcare worldwide'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Creating grammatical metaphors: Replacing the verb 'proliferate' with a nominal head:",
+        "options": [
+          "The rapid proliferation of nuclear technology",
+          "That nuclear technology proliferated rapidly",
+          "Because nuclear technology was proliferating"
+        ],
+        "answer": 0,
+        "explanation": "Dalam tata bahasa fungsional sistemik (Halliday), mengubah proses klausal menjadi 'The rapid proliferation of...' adalah grammatical metaphor yang memadatkan informasi.",
+        "hints": [
+          "Frasa nomina padat (grammatical metaphor).",
+          "Pilih 'The rapid proliferation of nuclear technology'."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik dengan 'The implementation of rigorous protocols'.",
+        "targetSentence": "The implementation of rigorous protocols minimized experimental error.",
+        "explanation": "The implementation of rigorous protocols + minimized experimental error.",
+        "hints": [
+          "Mulai dengan 'The implementation of rigorous protocols'.",
+          "Predikat: 'minimized experimental error'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penulisan abstrak tesis doktoral.",
+        "dialogue": [
+          [
+            "Advisor",
+            "Your sentence 'because prices fluctuated wildly, small farmers suffered' lacks scholarly weight."
+          ],
+          [
+            "Candidate",
+            "How about: 'Excessive price ___ exacerbated smallholder vulnerability'?"
+          ],
+          [
+            "Advisor",
+            "Substantially better."
+          ]
+        ],
+        "options": [
+          "volatility",
+          "volatileness",
+          "volatilization"
+        ],
+        "answer": 0,
+        "explanation": "'Price volatility' (volatilitas harga) adalah terminologi ekonomi nominal presisi yang menggantikan 'prices fluctuated wildly'.",
+        "hints": [
+          "Terminologi ekonomi nomina presisi untuk fluktuasi harga.",
+          "Gunakan 'volatility'."
+        ],
+        "skill": "academic-density-nominalization"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi tumpukan nominalisasi berlebih ('zombie nouns') yang mengaburkan kejelasan.",
+        "draft": "There was a realization of the necessity of the implementation of reforms by the ministry.",
+        "options": [
+          "The ministry realized that it had to implement reforms.",
+          "A realization of reform implementation necessity was made by the ministry.",
+          "The ministry made a realization concerning reform implementation."
+        ],
+        "answer": 0,
+        "explanation": "Tumpukan kata benda abstrak (realization of the necessity of the implementation) menghasilkan prosa birokratis yang kaku. Menghidupkan kembali kata kerja aktif membuat kalimat ringkas dan bertenaga: 'The ministry realized that it had to implement reforms'.",
+        "hints": [
+          "Ubah frasa kaku menjadi kata kerja aktif yang jelas.",
+          "Pilih 'The ministry realized that it had to implement reforms'."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hallidayan systemic functional linguistics concept: 'Grammatical Metaphor' primarily serves to:",
+        "options": [
+          "shift processes (verbs) and properties (adjectives) into entities (nouns), enabling complex scientific argumentation and taxonomy creation",
+          "create poetic rhyming schemes in essays",
+          "replace standard grammar with figurative slang"
+        ],
+        "answer": 0,
+        "explanation": "Grammatical metaphor memindahkan proses dinamis (kata kerja) menjadi entitas statis (kata benda) agar konsep tersebut dapat diklasifikasikan, diukur, dan dijadikan argumen ilmiah yang mapan.",
+        "hints": [
+          "Pergeseran proses menjadi entitas untuk argumentasi ilmiah.",
+          "Pilih opsi shift processes and properties into entities."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the sentence that achieves optimal lexical density through masterly nominalization without becoming turgid:",
+        "options": [
+          "The convergence of algorithmic trading and high-frequency execution amplified market volatility.",
+          "When algorithmic trading converged with executing at high frequencies it made markets fluctuate more volatilely.",
+          "There was an amplification of market volatility by convergence."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat pertama memadatkan dua proses finansial canggih menjadi subjek berbobot ('The convergence of algorithmic trading and high-frequency execution') dengan verba aktif yang tajam ('amplified market volatility').",
+        "hints": [
+          "Kepadatan leksikal optimal dengan kata kerja aktif yang kuat.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ilmiah berbobot leksikal tinggi.",
+        "targetSentence": "The systematic misallocation of capital precipitated structural insolvency across the banking sector.",
+        "explanation": "The systematic misallocation of capital + precipitated + structural insolvency across the banking sector.",
+        "hints": [
+          "Subjek nomina padat: 'The systematic misallocation of capital'.",
+          "Predikat dan objek: 'precipitated structural insolvency across the banking sector'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi bentukan nomina yang tidak lazim (ungrammatical derivation).",
+        "draft": "The resistence of the bacterial strain to modern antibiotics was documented.",
+        "options": [
+          "The resistance of the bacterial strain to modern antibiotics was documented.",
+          "The resistingness of the bacterial strain to antibiotics was documented.",
+          "The resistment of the bacterial strain to antibiotics was documented."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk ejaan kata benda baku dari 'resist' adalah 'resistance' (dengan -ance, bukan -ence atau resistingness).",
+        "hints": [
+          "Ejaan baku nomina dari resist: resistance.",
+          "Ganti 'resistence' menjadi 'resistance'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "In professional peer review, when should a reviewer advise an author to retain nominalization?",
+        "options": [
+          "When the noun refers to an established concept or term of art within the discipline (e.g., 'globalization', 'photosynthesis').",
+          "Only in the title, never in the text.",
+          "Only when writing for elementary school children."
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi wajib dipertahankan ketika kata benda tersebut merupakan istilah ilmiah mapan (term of art) seperti 'globalization', 'monetization', atau 'photosynthesis'.",
+        "hints": [
+          "Istilah ilmiah resmi (term of art).",
+          "Pilih opsi established concept or term of art."
+        ],
+        "skill": "terms-of-art-nominalization"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog editor jurnal ilmiah.",
+        "dialogue": [
+          [
+            "Author",
+            "Is 'The depletion of ozone facilitates ultraviolet penetration' sufficiently formal?"
+          ],
+          [
+            "Editor",
+            "Yes, because the two nominalizations construct a ___."
+          ]
+        ],
+        "options": [
+          "rigorous, objective causal relationship",
+          "casual, entertaining anecdote",
+          "poetic rhythm"
+        ],
+        "answer": 0,
+        "explanation": "Dua nominalisasi tersebut ('depletion' dan 'penetration') membangun hubungan kausalitas yang objektif dan ilmiah.",
+        "hints": [
+          "Membangun hubungan kausalitas yang objektif dan ketat.",
+          "Pilih 'rigorous, objective causal relationship'."
+        ],
+        "skill": "grammatical-metaphor"
+      }
+    ]
+  }
+}

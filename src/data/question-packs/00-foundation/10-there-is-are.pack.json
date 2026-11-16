@@ -1,0 +1,222 @@
+{
+  "moduleKey": "00-foundation/10-there-is-are",
+  "title": "There is / There are",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "___ a brand-new cafeteria on the fourth floor of the headquarters.",
+        "options": ["There is", "There are", "They are"],
+        "answer": 0,
+        "explanation": "'A brand-new cafeteria' adalah benda tunggal (singular countable), sehingga keberadaannya dinyatakan dengan 'There is'.",
+        "hints": ["Benda yang ada adalah tunggal ('a cafeteria').", "Gunakan 'There is' untuk benda tunggal."],
+        "skill": "there-is-are-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ multiple unresolved discrepancies in the audit log.",
+        "options": ["There is", "There are", "It is"],
+        "answer": 1,
+        "explanation": "'Discrepancies' adalah kata benda jamak, sehingga memakai 'There are'.",
+        "hints": ["Perhatikan akhiran jamak -ies pada 'discrepancies'.", "Gunakan 'There are' untuk benda jamak."],
+        "skill": "there-is-are-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat keberadaan dengan 'There is' dan kata benda tak terhitung (uncountable).",
+        "targetSentence": "There is fresh water in the dispenser.",
+        "explanation": "'Water' adalah uncountable noun, selalu berpasangan dengan bentuk tunggal 'There is'.",
+        "hints": ["Awali dengan 'There is'.", "Air (water) tidak bisa dihitung, gunakan 'is'."],
+        "skill": "there-is-are-uncountable"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ any vegetarian options on today's conference lunch menu?",
+        "options": ["Is there", "Are there", "Do there"],
+        "answer": 1,
+        "explanation": "Kalimat tanya keberadaan untuk benda jamak ('options') membalik to be ke depan: 'Are there...?'",
+        "hints": ["Benda yang ditanyakan jamak ('options').", "Gunakan 'Are there' untuk pertanyaan jamak."],
+        "skill": "there-is-are-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif dengan 'There is no'.",
+        "targetSentence": "There is no doubt about their competence.",
+        "explanation": "'Doubt' di sini diperlakukan sebagai kata benda tunggal/abstrak: 'There is no doubt'.",
+        "hints": ["Mulai dengan 'There is no doubt'.", "Lanjutkan dengan 'about their competence'."],
+        "skill": "there-is-are-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a projector and several spare cables in the equipment cabinet.",
+        "options": ["There is", "There are", "They have"],
+        "answer": 0,
+        "explanation": "Aturan kedekatan (rule of proximity): Jika subjek pertama yang disebut setelah to be adalah tunggal ('a projector'), bahasa Inggris baku menggunakan 'There is'.",
+        "hints": ["Perhatikan item pertama yang disebut: 'a projector' (tunggal).", "To be menyesuaikan dengan item pertama terdekat."],
+        "skill": "there-is-are-proximity"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya dengan 'Is there'.",
+        "targetSentence": "Is there a parking space available nearby?",
+        "explanation": "Pertanyaan tunggal: Is there + a parking space + available nearby?",
+        "hints": ["Mulai dengan 'Is there'.", "Subjek yang ditanyakan adalah 'a parking space'."],
+        "skill": "there-is-are-question"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di hotel dengan bentuk 'There is/are' yang tepat.",
+        "dialogue": [
+          ["Guest", "Excuse me, ___ a 24-hour gym facility in this building?"],
+          ["Concierge", "Yes, there is. It is located in the basement."]
+        ],
+        "options": ["is there", "are there", "there is"],
+        "answer": 0,
+        "explanation": "Pertanyaan untuk subjek tunggal 'a gym facility' membalik to be menjadi 'Is there'.",
+        "hints": ["Bentuk kalimat tanya.", "Subjeknya tunggal: 'a 24-hour gym facility'."],
+        "skill": "there-is-are-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "In the future, ___ much more demand for renewable energy specialists.",
+        "options": ["there will be", "there is being", "there will are"],
+        "answer": 0,
+        "explanation": "Bentuk masa depan (future) dari 'there is/are' menggunakan modal 'will' + base form 'be': 'there will be'.",
+        "hints": ["Keterangan waktu masa depan (In the future).", "Gunakan 'there will be'."],
+        "skill": "there-is-are-tenses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ten years ago, ___ only a small branch office in this commercial hub.",
+        "options": ["there was", "there were", "there has been"],
+        "answer": 0,
+        "explanation": "Keterangan waktu lampau ('Ten years ago') untuk subjek tunggal ('a small branch office') menggunakan 'there was'.",
+        "hints": ["Waktu lampau (ten years ago).", "Subjeknya tunggal ('a small branch office')."],
+        "skill": "there-is-are-tenses"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat masa lampau jamak 'There were'.",
+        "targetSentence": "There were over fifty participants at the workshop.",
+        "explanation": "Bentuk lampau jamak: 'There were' + plural noun (fifty participants) + place.",
+        "hints": ["Mulai dengan 'There were'.", "Subjeknya jamak: over fifty participants."],
+        "skill": "there-is-are-tenses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Be careful when driving; ___ thick fog over the mountain highway.",
+        "options": ["there is", "it is", "there are"],
+        "answer": 0,
+        "explanation": "Gunakan 'there is' untuk menyatakan eksistensi/keberadaan kabut ('thick fog' = uncountable noun). Jangan tertukar dengan 'it is' yang digunakan untuk cuaca deskriptif ('it is foggy').",
+        "hints": ["Menyatakan adanya kabut tebal (keberadaan benda).", "Gunakan 'there is'."],
+        "skill": "there-is-are-vs-it"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Present Perfect dengan 'Has there been'.",
+        "targetSentence": "Has there been any progress on the negotiation?",
+        "explanation": "Present perfect: Has + there + been + any progress (uncountable) + on the negotiation?",
+        "hints": ["Awali dengan 'Has there been'.", "'Progress' adalah uncountable noun."],
+        "skill": "there-is-are-tenses"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban singkat yang tepat untuk pertanyaan jamak.",
+        "dialogue": [
+          ["Interviewer", "Were there any objections from the community board?"],
+          ["Spokesperson", "No, ___."]
+        ],
+        "options": ["there weren't", "they weren't", "there wasn't"],
+        "answer": 0,
+        "explanation": "Jawaban singkat negatif untuk pertanyaan 'Were there...?' adalah 'No, there weren't.'",
+        "hints": ["Subjek tanya menggunakan 'there'.", "Pertanyaan lampau jamak dijawab dengan 'there weren't'."],
+        "skill": "there-is-are-short-answer"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kerancuan antara 'There is' (keberadaan eksistensial) dan 'It is' (identifikasi/cuaca).",
+        "draft": "It is a severe shortage of skilled healthcare personnel in remote provinces.",
+        "options": [
+          "There is a severe shortage of skilled healthcare personnel in remote provinces.",
+          "It has a severe shortage of skilled healthcare personnel in remote provinces.",
+          "There are a severe shortage of skilled healthcare personnel in remote provinces."
+        ],
+        "answer": 0,
+        "explanation": "Untuk menyatakan keberadaan sesuatu hal (existence of a shortage), gunakan konstruksi 'There is', bukan dummy pronoun 'It is'.",
+        "hints": ["Menyatakan eksistensi/keberadaan kekurangan tenaga medis.", "Gunakan 'There is a severe shortage'."],
+        "skill": "there-is-are-vs-it"
+      },
+      {
+        "type": "choice",
+        "prompt": "Judging by the empty parking lot, ___ anyone left in the facility.",
+        "options": ["there doesn't seem to be", "it doesn't seem to have", "there aren't seeming to be"],
+        "answer": 0,
+        "explanation": "Konstruksi modal/evidential: 'There + seems/appears to be'. Untuk bentuk negatif tunggal/unspecified: 'there doesn't seem to be anyone'.",
+        "hints": ["Kombinasi 'there' dengan kata kerja persepsi 'seem'.", "Gunakan 'there doesn't seem to be'."],
+        "skill": "there-is-are-modal"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ significant changes in consumer behavior since the digital transformation.",
+        "options": ["There have been", "There has been", "There were being"],
+        "answer": 0,
+        "explanation": "'Changes' adalah jamak, dan 'since...' menandakan periode waktu dari masa lalu hingga sekarang (Present Perfect). Bentuk yang tepat adalah 'There have been'.",
+        "hints": ["Subjeknya jamak ('changes').", "Ada penanda 'since', gunakan Present Perfect 'There have been'."],
+        "skill": "there-is-are-tenses"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan modal verb kemungkinan 'There must be'.",
+        "targetSentence": "There must be a logical explanation for this error.",
+        "explanation": "There + modal (must) + base verb (be) + a logical explanation.",
+        "hints": ["Mulai dengan 'There must be'.", "Lanjutkan dengan frasa benda 'a logical explanation'."],
+        "skill": "there-is-are-modal"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi subject-verb agreement pada klausa eksistensial formal.",
+        "draft": "In this contract, there exists several ambiguities regarding warranty coverage.",
+        "options": [
+          "In this contract, there exist several ambiguities regarding warranty coverage.",
+          "In this contract, there is existing several ambiguities regarding warranty coverage.",
+          "In this contract, there existing several ambiguities regarding warranty coverage."
+        ],
+        "answer": 0,
+        "explanation": "Ketika kata kerja eksistensial seperti 'exist', 'remain', atau 'arise' digunakan dengan 'there', kata kerjanya harus bersepakat dengan subjek riil di belakangnya: 'several ambiguities' (jamak) $\\rightarrow$ 'there exist' (tanpa akhiran -s).",
+        "hints": ["Subjek sebenarnya adalah 'several ambiguities' (jamak).", "Kata kerja jamak tidak memakai akhiran -s: 'exist'."],
+        "skill": "there-is-are-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ likely to be considerable opposition to the proposed restructuring.",
+        "options": ["There is", "It is", "There are"],
+        "answer": 0,
+        "explanation": "Frasa 'There is likely to be...' digunakan untuk memprediksi probabilitas keberadaan suatu hal ('considerable opposition' = uncountable).",
+        "hints": ["Prediksi kemungkinan keberadaan perlawanan.", "Gunakan 'There is likely to be'."],
+        "skill": "there-is-are-modal"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis risiko operasional.",
+        "dialogue": [
+          ["Risk Officer", "Is there any possibility of system downtime during the transition?"],
+          ["Systems Architect", "___ slight chance, but we have backup redundancy ready."]
+        ],
+        "options": [
+          "There is a",
+          "It is a",
+          "There are"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan keberadaan peluang ('a slight chance' = tunggal) menggunakan 'There is a'.",
+        "hints": ["Menyatakan adanya peluang kecil.", "Gunakan 'There is a slight chance'."],
+        "skill": "there-is-are-form"
+      }
+    ]
+  }
+}

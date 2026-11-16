@@ -1,0 +1,350 @@
+{
+  "moduleKey": "02-intermediate/07-reported-speech-basic",
+  "title": "Reported Speech (Basic)",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "He said, \"I work in digital marketing.\" -> He said that he ___ in digital marketing.",
+        "options": [
+          "worked",
+          "works",
+          "is working"
+        ],
+        "answer": 0,
+        "explanation": "Present Simple pada direct speech bergeser (backshift) menjadi Past Simple: worked.",
+        "hints": [
+          "Aturan backshift tense satu tingkat ke masa lampau.",
+          "Present Simple berubah menjadi Past Simple."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "She said to me, \"I have sent the email.\" -> She ___ me that she had sent the email.",
+        "options": [
+          "told",
+          "said",
+          "asked"
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja tell/told wajib diikuti objek orang langsung (told me), sedangkan said tidak bisa langsung objek orang tanpa to.",
+        "hints": [
+          "Ada objek orang penderita me.",
+          "Gunakan told me, bukan said me."
+        ],
+        "skill": "reported-speech-say-tell"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech positif.",
+        "targetSentence": "He said that he was busy yesterday.",
+        "explanation": "Subject + said that + subject pronoun + was busy + time.",
+        "hints": [
+          "Mulai dengan He said that.",
+          "Gunakan he was busy yesterday."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tom said, \"I am learning French.\" -> Tom said that he ___ French.",
+        "options": [
+          "was learning",
+          "is learning",
+          "learned"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous (am learning) bergeser menjadi Past Continuous: was learning.",
+        "hints": [
+          "Present Continuous bergeser menjadi Past Continuous.",
+          "Gunakan was learning."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun reported question Yes/No dengan if.",
+        "targetSentence": "She asked if I was ready for the presentation.",
+        "explanation": "She asked + if + subject + was ready for the presentation.",
+        "hints": [
+          "Awali dengan She asked if.",
+          "Urutan kembali ke pernyataan normal: I was ready."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "\"Will you join the committee?\" -> She asked me if I ___ join the committee.",
+        "options": [
+          "would",
+          "will",
+          "can"
+        ],
+        "answer": 0,
+        "explanation": "Modal will bergeser menjadi would dalam reported speech.",
+        "hints": [
+          "Bentuk lampau dari will adalah would.",
+          "Gunakan would."
+        ],
+        "skill": "reported-speech-modals"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun reported command positif dengan told me to.",
+        "targetSentence": "The manager told me to submit the report early.",
+        "explanation": "Pola reported command: told + object + to-infinitive (to submit).",
+        "hints": [
+          "Mulai dengan The manager told me to.",
+          "Verb dasar adalah submit the report early."
+        ],
+        "skill": "reported-speech-command"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perubahan keterangan waktu dan tempat.",
+        "dialogue": [
+          [
+            "Reporter",
+            "The minister stated: We will inaugurate the facility tomorrow."
+          ],
+          [
+            "Anchor",
+            "The minister announced that they would inaugurate the facility ___."
+          ]
+        ],
+        "options": [
+          "the following day",
+          "tomorrow",
+          "yesterday"
+        ],
+        "answer": 0,
+        "explanation": "Dalam reported speech, keterangan waktu tomorrow berubah menjadi the following day atau the next day.",
+        "hints": [
+          "Keterangan waktu bergeser perspektif.",
+          "Tomorrow menjadi the following day."
+        ],
+        "skill": "reported-speech-time-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "In reported questions, word order returns to statement order: He asked where ___.",
+        "options": [
+          "the conference room was",
+          "was the conference room",
+          "is the conference room"
+        ],
+        "answer": 0,
+        "explanation": "Pada reported question, inversi tanya dihilangkan dan urutan kembali ke Subject + Verb: the conference room was.",
+        "hints": [
+          "Tidak ada tanda tanya, urutan kembali ke Subjek + Verb.",
+          "Gunakan the conference room was."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "\"Don't touch the emergency valve!\" -> The engineer warned us ___ the emergency valve.",
+        "options": [
+          "not to touch",
+          "to not touch",
+          "don't touch"
+        ],
+        "answer": 0,
+        "explanation": "Reported negative command/warning: verb + object + NOT TO + bare verb: warned us not to touch.",
+        "hints": [
+          "Pola larangan perintah: not to + V1.",
+          "Gunakan not to touch."
+        ],
+        "skill": "reported-speech-command"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech dengan suggested.",
+        "targetSentence": "The consultant suggested taking a short break.",
+        "explanation": "Suggest diikuti oleh gerund (-ing): suggested taking a short break.",
+        "hints": [
+          "Mulai dengan The consultant suggested.",
+          "Diikuti gerund taking a short break."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "She said, \"I bought a new vehicle.\" -> She explained that she ___ a new vehicle.",
+        "options": [
+          "had bought",
+          "bought",
+          "has bought"
+        ],
+        "answer": 0,
+        "explanation": "Past Simple (bought) bergeser menjadi Past Perfect: had bought.",
+        "hints": [
+          "Past Simple bergeser satu tingkat lagi menjadi Past Perfect.",
+          "Gunakan had bought."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun reported question Wh- dengan urutan normal.",
+        "targetSentence": "He asked what time the train departed.",
+        "explanation": "Wh-word (what time) + subject (the train) + verb (departed).",
+        "hints": [
+          "Subject: the train.",
+          "Verb: departed."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih reporting verb yang tepat untuk janji.",
+        "dialogue": [
+          [
+            "Employee",
+            "I promise I will finish the task by 5 p.m."
+          ],
+          [
+            "Narrator",
+            "The employee ___ to finish the task by 5 p.m."
+          ]
+        ],
+        "options": [
+          "promised",
+          "told",
+          "insisted"
+        ],
+        "answer": 0,
+        "explanation": "Reporting verb spesifik promised + to-infinitive merangkum janji secara presisi.",
+        "hints": [
+          "Menyatakan janji.",
+          "Gunakan promised to finish."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan backshift yang tidak perlu pada fakta ilmiah abadi (universal truth).",
+        "draft": "The physics lecturer explained that water had boiled at 100 degrees Celsius.",
+        "options": [
+          "The physics lecturer explained that water boils at 100 degrees Celsius.",
+          "The physics lecturer explained that water would boil at 100 degrees Celsius.",
+          "The physics lecturer explained that water was boiling at 100 degrees Celsius."
+        ],
+        "answer": 0,
+        "explanation": "Hukum alam, fakta ilmiah abadi, atau kebenaran umum (universal truths) TIDAK mengalami backshift ke bentuk lampau; tetap dalam Present Simple: water boils at 100 degrees Celsius.",
+        "hints": [
+          "Fakta ilmiah abadi tidak mengalami pergeseran tense.",
+          "Gunakan Present Simple boils."
+        ],
+        "skill": "reported-speech-exceptions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting verb dengan struktur subjunctive that ... (should) be: The committee recommended that the proposal ___ without delay.",
+        "options": [
+          "be approved",
+          "was approved",
+          "is approved"
+        ],
+        "answer": 0,
+        "explanation": "Reporting verbs seperti recommend, suggest, insist, demand diikuti klausa mandat subjunctive that + subject + bare infinitive (be approved).",
+        "hints": [
+          "Mandative subjunctive setelah recommend.",
+          "Gunakan bare infinitive be approved."
+        ],
+        "skill": "reported-speech-subjunctive"
+      },
+      {
+        "type": "choice",
+        "prompt": "If the situation is still true right now: Ali said that he ___ in Berlin, and he still resides there today.",
+        "options": [
+          "lives",
+          "had lived",
+          "was living"
+        ],
+        "answer": 0,
+        "explanation": "Jika informasi yang dilaporkan masih berlaku dan benar saat ini, pembicara boleh mempertahankan Present Simple: Ali said that he lives in Berlin.",
+        "hints": [
+          "Keadaan masih benar dan berlangsung hingga saat ini.",
+          "Present Simple sah dipertahankan."
+        ],
+        "skill": "reported-speech-exceptions"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech dengan congratulated on.",
+        "targetSentence": "The board congratulated Sarah on winning the award.",
+        "explanation": "Reporting verb pattern: congratulate + someone + on + gerund (-ing).",
+        "hints": [
+          "Mulai dengan The board congratulated Sarah on.",
+          "Gerund: winning the award."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan struktur setelah reporting verb admit.",
+        "draft": "The technician admitted to make a calculation error in the report.",
+        "options": [
+          "The technician admitted making a calculation error in the report.",
+          "The technician admitted that he makes a calculation error in the report.",
+          "The technician admitted to have made a calculation error in the report."
+        ],
+        "answer": 0,
+        "explanation": "Admit diikuti oleh gerund (-ing) atau klausa that: admitted making / admitted that he had made.",
+        "hints": [
+          "Admit berpasangan dengan gerund (-ing).",
+          "Gunakan admitted making."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting verb accusatory: The auditor accused the contractor ___ inflating procurement invoices.",
+        "options": [
+          "of",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "Collocation preposisi: accuse someone OF doing something: accused the contractor of inflating.",
+        "hints": [
+          "Accuse selalu berpasangan dengan preposisi of.",
+          "Gunakan of."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi laporan persidangan formal.",
+        "dialogue": [
+          [
+            "Defense Lawyer",
+            "My client is innocent of all charges."
+          ],
+          [
+            "Journalist",
+            "Counsel maintained that his client ___ innocent throughout the legal proceedings."
+          ]
+        ],
+        "options": [
+          "had been",
+          "is being",
+          "has been"
+        ],
+        "answer": 0,
+        "explanation": "Backshift formal Past Perfect: had been innocent.",
+        "hints": [
+          "Backshift formal dalam laporan jurnalistik hukum.",
+          "Gunakan had been."
+        ],
+        "skill": "reported-speech-backshift"
+      }
+    ]
+  }
+}

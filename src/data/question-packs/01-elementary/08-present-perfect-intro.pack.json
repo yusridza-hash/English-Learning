@@ -1,0 +1,222 @@
+{
+  "moduleKey": "01-elementary/08-present-perfect-intro",
+  "title": "Present Perfect (Intro)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Our technical support team ___ the critical database migration successfully.",
+        "options": ["has completed", "have completed", "completed has"],
+        "answer": 0,
+        "explanation": "Subject 'Our technical support team' adalah collective noun tunggal (setara 'it'), sehingga rumus Present Perfect memakai 'has' + past participle (V3): 'has completed'.",
+        "hints": ["Subject tunggal berpasangan dengan 'has'.", "Rumus Present Perfect: has/have + V3."],
+        "skill": "present-perfect-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The developers ___ the new security patch to the production server yet.",
+        "options": ["haven't deployed", "hasn't deployed", "didn't deployed"],
+        "answer": 0,
+        "explanation": "'The developers' (jamak/they) memakai 'haven't' + V3 'deployed'. Kata keterangan 'yet' digunakan di akhir kalimat negatif atau tanya.",
+        "hints": ["Subjek jamak memakai 'haven't'.", "Penanda 'yet' di akhir kalimat negatif."],
+        "skill": "present-perfect-yet"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Present Perfect dengan kata keterangan 'already'.",
+        "targetSentence": "We have already submitted the project proposal.",
+        "explanation": "Pola: Subject (We) + have + already + V3 (submitted) + the project proposal.",
+        "hints": ["Mulai dengan 'We have already'.", "V3 adalah 'submitted'."],
+        "skill": "present-perfect-already"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ___ visited our regional branch office in Singapore?",
+        "options": ["ever", "never", "already to"],
+        "answer": 0,
+        "explanation": "Dalam pertanyaan pengalaman hidup (life experience), gunakan 'ever' (pernah): 'Have you ever visited...?'",
+        "hints": ["Menanyakan pengalaman seumur hidup 'apakah pernah'.", "Gunakan kata 'ever'."],
+        "skill": "present-perfect-ever"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengalaman negatif dengan 'never'.",
+        "targetSentence": "She has never tasted authentic Italian pizza.",
+        "explanation": "Subject (She) + has + never + V3 (tasted) + authentic Italian pizza.",
+        "hints": ["Mulai dengan 'She has never'.", "V3 adalah 'tasted'."],
+        "skill": "present-perfect-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "I have ___ finished reading your draft; I put it on your desk five seconds ago.",
+        "options": ["just", "yet", "ever"],
+        "answer": 0,
+        "explanation": "'Just' digunakan untuk aksi yang baru saja selesai terjadi beberapa saat yang lalu: 'have just finished'.",
+        "hints": ["Baru saja selesai beberapa detik lalu.", "Gunakan 'just' di antara have dan V3."],
+        "skill": "present-perfect-just"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya Present Perfect.",
+        "targetSentence": "Have they signed the partnership agreement?",
+        "explanation": "Auxiliary (Have) + Subject (they) + V3 (signed) + the partnership agreement?",
+        "hints": ["Awali dengan 'Have they'.", "Verb bentuk ketiga adalah 'signed'."],
+        "skill": "present-perfect-question"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di resepsionis tentang kedatangan tamu.",
+        "dialogue": [
+          ["Host", "Has the overseas delegation arrived at the conference hall?"],
+          ["Receptionist", "Yes, they have ___ arrived and are registering at the front desk."]
+        ],
+        "options": ["just", "yet", "ever"],
+        "answer": 0,
+        "explanation": "'Just' menandakan peristiwa yang baru saja terjadi beberapa saat lalu: 'have just arrived'.",
+        "hints": ["Baru saja tiba dan sekarang sedang registrasi.", "Gunakan 'just'."],
+        "skill": "present-perfect-just"
+      },
+      {
+        "type": "choice",
+        "prompt": "She has worked as the chief financial officer ___ more than eight years.",
+        "options": ["for", "since", "during to"],
+        "answer": 0,
+        "explanation": "'For' digunakan untuk menyatakan durasi atau rentang waktu terukur ('for eight years'). Sebaliknya 'since' untuk titik awal waktu ('since 2018').",
+        "hints": ["Menyatakan durasi panjang waktu (8 tahun).", "Gunakan 'for' untuk rentang durasi."],
+        "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "choice",
+        "prompt": "The engineering team has occupied this research facility ___ 2021.",
+        "options": ["since", "for", "from"],
+        "answer": 0,
+        "explanation": "'Since' digunakan untuk menyatakan titik awal dimulainya suatu keadaan yang berlanjut hingga sekarang: 'since 2021'.",
+        "hints": ["2021 adalah titik awal waktu (starting point).", "Gunakan 'since'."],
+        "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Present Perfect dengan 'since' dan klausa lampau.",
+        "targetSentence": "He has lived in Jakarta since he graduated from university.",
+        "explanation": "Present Perfect main clause (He has lived in Jakarta) + since + Past Simple clause (he graduated from university).",
+        "hints": ["Mulai dengan 'He has lived in Jakarta since'.", "Klausa setelah since memakai Past Simple 'he graduated from university'."],
+        "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan perbedaan arti: 'Sarah has ___ to London; she will return next week.'",
+        "options": ["gone", "been", "went"],
+        "answer": 0,
+        "explanation": "'Has gone to' berarti pergi ke sana dan saat ini masih berada di sana (belum kembali). 'Has been to' berarti pernah berkunjung dan sekarang sudah pulang/kembali.",
+        "hints": ["Sarah saat ini masih di London (baru pulang minggu depan).", "Gunakan 'has gone to'."],
+        "skill": "present-perfect-been-gone"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kunjungan pengalaman dengan 'have been to'.",
+        "targetSentence": "I have been to Japan twice.",
+        "explanation": "Subject (I) + have been to (pernah berkunjung bolak-balik) + Japan + frequency (twice).",
+        "hints": ["Mulai dengan 'I have been to'.", "Keterangan frekuensi 'twice' di akhir."],
+        "skill": "present-perfect-been-gone"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban singkat yang tepat untuk pertanyaan Present Perfect.",
+        "dialogue": [
+          ["Auditor", "Have you reviewed the revised confidentiality clause?"],
+          ["Legal Officer", "Yes, I ___."]
+        ],
+        "options": ["have", "have reviewed", "did"],
+        "answer": 0,
+        "explanation": "Jawaban singkat positif Present Perfect: 'Yes, I have.'",
+        "hints": ["Jawaban singkat positif.", "Cukup akhiri dengan auxiliary: 'Yes, I have.'"],
+        "skill": "present-perfect-short-answer"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan fatal mencampur penanda waktu lampau spesifik dengan Present Perfect.",
+        "draft": "Our marketing division has launched the regional advertising campaign yesterday.",
+        "options": [
+          "Our marketing division launched the regional advertising campaign yesterday.",
+          "Our marketing division has launched the regional advertising campaign since yesterday.",
+          "Our marketing division was launched the regional advertising campaign yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Penanda waktu lampau yang sudah selesai dan spesifik (definite finished past time seperti 'yesterday', 'last night', 'in 2010', 'three days ago') DILARANG menggunakan Present Perfect. Wajib menggunakan Past Simple: 'launched... yesterday'.",
+        "hints": ["'Yesterday' adalah waktu lampau selesai dan spesifik.", "Gunakan Past Simple V2 'launched', bukan 'has launched'."],
+        "skill": "present-perfect-vs-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pola penomoran pengalaman hidup: 'This is the first time our company ___ an international design award.'",
+        "options": ["has won", "wins", "won"],
+        "answer": 0,
+        "explanation": "Setelah formula 'This is the first/second time...', bahasa Inggris baku selalu menggunakan Present Perfect: 'has won'.",
+        "hints": ["Pola: 'This is the first time + Present Perfect'.", "Gunakan 'has won'."],
+        "skill": "present-perfect-first-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "This is the most challenging architectural project that we ___ on.",
+        "options": ["have ever worked", "ever worked", "had ever worked"],
+        "answer": 0,
+        "explanation": "Setelah konstruksi superlative ('the most challenging project'), klausa penjelas pengalaman hidup menggunakan Present Perfect: 'that we have ever worked on'.",
+        "hints": ["Didahului bentuk superlative 'the most challenging'.", "Gunakan 'have ever worked'."],
+        "skill": "present-perfect-superlative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengalaman superlative dengan 'ever'.",
+        "targetSentence": "That was the best meal I have ever eaten.",
+        "explanation": "Superlative (the best meal) + that I have ever eaten (Present Perfect).",
+        "hints": ["Mulai dengan 'That was the best meal'.", "Lanjutkan dengan 'I have ever eaten'."],
+        "skill": "present-perfect-superlative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan antara 'for' dan 'since' dengan kata penunjuk durasi 'last'.",
+        "draft": "We haven't received any shipment updates since three weeks.",
+        "options": [
+          "We haven't received any shipment updates for three weeks.",
+          "We haven't received any shipment updates since for three weeks.",
+          "We haven't received any shipment updates during three weeks."
+        ],
+        "answer": 0,
+        "explanation": "'Three weeks' adalah besaran durasi panjang waktu, sehingga preposisi yang benar adalah 'for three weeks', bukan 'since'.",
+        "hints": ["Tiga minggu adalah rentang durasi terukur.", "Gunakan 'for', bukan 'since'."],
+        "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference with 'the last': '___ the last three weeks, our sales have increased.'",
+        "options": ["For", "Since", "At"],
+        "answer": 0,
+        "explanation": "Frasa 'for the last/past three weeks' menyatakan durasi kurun waktu yang membentang hingga hari ini, sehingga memakai 'for'. ('Since last week' menyatakan titik awal).",
+        "hints": ["'The last three weeks' adalah rentang durasi 21 hari terakhir.", "Gunakan 'For the last three weeks'."],
+        "skill": "present-perfect-for-since"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog evaluasi karir profesional.",
+        "dialogue": [
+          ["Interviewer", "How long ___ as a certified cloud architect?"],
+          ["Candidate", "I have worked in cloud architecture for almost seven years."]
+        ],
+        "options": [
+          "have you worked",
+          "did you work",
+          "are you working"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan durasi keadaan yang masih berlangsung hingga saat ini menggunakan 'How long have you worked...?'",
+        "hints": ["Menanyakan durasi pekerjaan yang masih berlanjut sampai sekarang.", "Gunakan Present Perfect 'have you worked'."],
+        "skill": "present-perfect-how-long"
+      }
+    ]
+  }
+}

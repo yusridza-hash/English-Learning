@@ -1,0 +1,350 @@
+{
+  "moduleKey": "02-intermediate/09-modals-possibility",
+  "title": "Modals of Possibility",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Look at those dark skies; it ___ rain this afternoon.",
+        "options": [
+          "might",
+          "can to",
+          "shall to"
+        ],
+        "answer": 0,
+        "explanation": "Modal might menyatakan kemungkinan masa depan yang tentatif (uncertain possibility).",
+        "hints": [
+          "Menyatakan kemungkinan yang belum pasti.",
+          "Gunakan modal might."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "He isn't in his office; he ___ be in the conference hall.",
+        "options": [
+          "may",
+          "must to",
+          "can to"
+        ],
+        "answer": 0,
+        "explanation": "May be menyatakan kemungkinan spekulasi saat ini (present possibility).",
+        "hints": [
+          "Kemungkinan spekulatif saat ini.",
+          "Gunakan may be."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemungkinan dengan could.",
+        "targetSentence": "This proposal could solve our problem.",
+        "explanation": "Subject + could + base verb (solve) + our problem.",
+        "hints": [
+          "Mulai dengan This proposal could.",
+          "Lanjutkan dengan solve our problem."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "She has been working for 14 hours straight; she ___ be exhausted.",
+        "options": [
+          "must",
+          "can",
+          "might not"
+        ],
+        "answer": 0,
+        "explanation": "Must digunakan untuk deduksi kepastian logis kuat (strong logical deduction).",
+        "hints": [
+          "Deduksi logis pasti setelah 14 jam bekerja.",
+          "Gunakan must be."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi negatif dengan can't be.",
+        "targetSentence": "That story can't be true.",
+        "explanation": "Deduksi ketidakmungkinan logis: can't be true.",
+        "hints": [
+          "Mulai dengan That story.",
+          "Gunakan can't be true."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where are my keys? — They ___ be in your coat pocket.",
+        "options": [
+          "might",
+          "must to",
+          "can to"
+        ],
+        "answer": 0,
+        "explanation": "Might be menyatakan kemungkinan tebakan yang masuk akal.",
+        "hints": [
+          "Tebakan kemungkinan letak benda.",
+          "Gunakan might be."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan may not.",
+        "targetSentence": "We may not receive the delivery today.",
+        "explanation": "Subject + may not + base verb (receive) + the delivery today.",
+        "hints": [
+          "Mulai dengan We may not.",
+          "Verb dasar adalah receive."
+        ],
+        "skill": "modal-possibility-negative"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog deduksi investigasi.",
+        "dialogue": [
+          [
+            "Colleague",
+            "Is that the CEO walking across the parking lot?"
+          ],
+          [
+            "Assistant",
+            "No, it ___ be her; she is attending a conference in Tokyo this week."
+          ]
+        ],
+        "options": [
+          "can't",
+          "mustn't",
+          "may not"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi kemustahilan logis (pasti mustahil bukan dia): can't be her.",
+        "hints": [
+          "Mustahil karena orangnya sedang di Tokyo.",
+          "Gunakan can't be."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is the client hesitating? — They ___ waiting for board approval.",
+        "options": [
+          "might be",
+          "must to be",
+          "can be to"
+        ],
+        "answer": 0,
+        "explanation": "Might be + verb-ing menyatakan kemungkinan spekulatif untuk aksi yang sedang berlangsung.",
+        "hints": [
+          "Kemungkinan aksi yang sedang berjalan.",
+          "Gunakan might be waiting."
+        ],
+        "skill": "modal-possibility-continuous"
+      },
+      {
+        "type": "choice",
+        "prompt": "The lights in his study are still on; he ___ working late.",
+        "options": [
+          "must be",
+          "can't be",
+          "might not"
+        ],
+        "answer": 0,
+        "explanation": "Bukti fisik lampu menyala mendukung kesimpulan logis pasti: must be working late.",
+        "hints": [
+          "Lampu menyala adalah bukti pendukung kuat.",
+          "Gunakan must be working."
+        ],
+        "skill": "modal-deduction-continuous"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemungkinan negatif dengan might not.",
+        "targetSentence": "The flight might not depart on time due to fog.",
+        "explanation": "The flight + might not + base verb (depart) + on time due to fog.",
+        "hints": [
+          "Mulai dengan The flight might not.",
+          "Verb dasar adalah depart."
+        ],
+        "skill": "modal-possibility-negative"
+      },
+      {
+        "type": "choice",
+        "prompt": "He has a thick Scottish accent; he ___ from Edinburgh.",
+        "options": [
+          "must be",
+          "can't be",
+          "could to be"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi kuat berdasarkan ciri aksen: must be from Edinburgh.",
+        "hints": [
+          "Bukti aksen mendukung kesimpulan pasti.",
+          "Gunakan must be."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemungkinan alternatif dengan could be.",
+        "targetSentence": "The discrepancy could be an accounting error.",
+        "explanation": "Subject + could be + noun phrase (an accounting error).",
+        "hints": [
+          "Mulai dengan The discrepancy could be.",
+          "Noun: an accounting error."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih derajat probabilitas yang tepat.",
+        "dialogue": [
+          [
+            "Auditor",
+            "Are we confident in these revenue projections?"
+          ],
+          [
+            "Finance Lead",
+            "They are plausible, but market volatility ___ affect the bottom line."
+          ]
+        ],
+        "options": [
+          "could",
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Could menyatakan potensi risiko kemungkinan masa depan.",
+        "hints": [
+          "Potensi risiko yang mungkin terjadi.",
+          "Gunakan could."
+        ],
+        "skill": "modal-possibility"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan deduksi masa lalu yang keliru menggunakan present modal.",
+        "draft": "The team was celebrating yesterday; they must win the championship.",
+        "options": [
+          "The team was celebrating yesterday; they must have won the championship.",
+          "The team was celebrating yesterday; they had to win the championship.",
+          "The team was celebrating yesterday; they must had won the championship."
+        ],
+        "answer": 0,
+        "explanation": "Deduksi logis masa lampau (past logical deduction) WAJIB menggunakan modal perfect: must have + V3 (must have won).",
+        "hints": [
+          "Peristiwa terjadi kemarin (lampau).",
+          "Gunakan formula must have + V3."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "The server crash ___ prevented if the redundancy protocol had been triggered.",
+        "options": [
+          "could have been",
+          "must have",
+          "can have been"
+        ],
+        "answer": 0,
+        "explanation": "Kemampuan atau kemungkinan pasif di masa lampau yang tidak terwujud: could have been prevented.",
+        "hints": [
+          "Bentuk pasif modal perfect kemungkinan.",
+          "Gunakan could have been prevented."
+        ],
+        "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ seen Sarah in New York yesterday; she was having dinner with me in London!",
+        "options": [
+          "can't have",
+          "mustn't have",
+          "shouldn't have"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi kemustahilan logis masa lampau (past impossibility): can't have + V3 (can't have seen).",
+        "hints": [
+          "Mustahil karena orangnya ada di London kemarin.",
+          "Gunakan can't have + V3."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi negatif masa lampau.",
+        "targetSentence": "He can't have stolen the documents.",
+        "explanation": "Subject + can't have + past participle (stolen) + the documents.",
+        "hints": [
+          "Mulai dengan He can't have.",
+          "V3 dari steal adalah stolen."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan antara might have dan should have pada penyesalan.",
+        "draft": "I didn't hear the alarm, so I might have missed the meeting.",
+        "options": [
+          "I didn't hear the alarm, so I might miss the meeting.",
+          "I didn't hear the alarm, which is why I missed the meeting.",
+          "I didn't hear the alarm, so I may have missed the meeting."
+        ],
+        "answer": 1,
+        "explanation": "Klausa sebab-akibat fakta riil lampau (real past fact) tidak memerlukan modal spekulasi jika peristiwanya sudah pasti terjadi.",
+        "hints": [
+          "Fakta riil bahwa pertemuan sudah terlewatkan.",
+          "Gunakan fakta langsung missed."
+        ],
+        "skill": "modal-perfect-distinction"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ancient parchment ___ date back to the fourteenth century, according to recent radiocarbon testing.",
+        "options": [
+          "may well",
+          "can well",
+          "must to"
+        ],
+        "answer": 0,
+        "explanation": "Idiom 'may well / could well' digunakan untuk menyatakan probabilitas kuat yang sangat mungkin benar.",
+        "hints": [
+          "Menyatakan kemungkinan besar (very probable).",
+          "Gunakan may well."
+        ],
+        "skill": "modal-idiomatic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog investigasi forensik dengan modal perfect.",
+        "dialogue": [
+          [
+            "Detective",
+            "How did the intruder bypass the biometric gate?"
+          ],
+          [
+            "Forensic Lead",
+            "The intruder ___ had inside assistance from an employee."
+          ]
+        ],
+        "options": [
+          "might have",
+          "can have",
+          "should have"
+        ],
+        "answer": 0,
+        "explanation": "Spekulasi kemungkinan masa lampau: might have + V3 (might have had).",
+        "hints": [
+          "Spekulasi kemungkinan di masa lalu.",
+          "Gunakan might have had."
+        ],
+        "skill": "modal-perfect-possibility"
+      }
+    ]
+  }
+}

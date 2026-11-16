@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/06-advanced-connectors",
+  "title": "Advanced Connectors",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Contrasting formal connector: 'The initial trial failed; ___, subsequent iterations achieved higher precision.'",
+        "options": [
+          "nevertheless",
+          "besides",
+          "meanwhile"
+        ],
+        "answer": 0,
+        "explanation": "'Nevertheless' / 'Nonetheless' adalah konjungtor transisi formal untuk menyatakan kontras konsesif ('meskipun demikian').",
+        "hints": [
+          "Menyatakan 'meskipun demikian' secara formal.",
+          "Gunakan 'nevertheless'."
+        ],
+        "skill": "formal-contrast-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Result connector: 'The corporation breached fiduciary duties; ___, it was fined ten million dollars.'",
+        "options": [
+          "consequently",
+          "furthermore",
+          "conversely"
+        ],
+        "answer": 0,
+        "explanation": "'Consequently' menandai akibat langsung atau konsekuensi hukum/logis dari kalimat sebelumnya.",
+        "hints": [
+          "Menandai konsekuensi/akibat logis.",
+          "Gunakan 'consequently'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan transisi 'Furthermore'.",
+        "targetSentence": "The software is efficient furthermore it provides comprehensive data encryption.",
+        "explanation": "The software is efficient + furthermore it provides comprehensive data encryption.",
+        "hints": [
+          "Poin pertama: 'The software is efficient'.",
+          "Penambahan formal: 'furthermore it provides comprehensive data encryption'."
+        ],
+        "skill": "additive-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Alternative contrast: 'Western economies slowed; ___, emerging Asian markets experienced robust growth.'",
+        "options": [
+          "conversely",
+          "accordingly",
+          "namely"
+        ],
+        "answer": 0,
+        "explanation": "'Conversely' digunakan untuk menyajikan situasi sebaliknya (kebalikan langsung).",
+        "hints": [
+          "Menyatakan situasi sebaliknya.",
+          "Gunakan 'conversely'."
+        ],
+        "skill": "contrast-conversely"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penanda akibat 'Accordingly'.",
+        "targetSentence": "Costs increased sharply accordingly retail prices were adjusted upwards.",
+        "explanation": "Costs increased sharply + accordingly retail prices were adjusted upwards.",
+        "hints": [
+          "Penyebab: 'Costs increased sharply'.",
+          "Penyesuaian akibat: 'accordingly retail prices were adjusted upwards'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Clarification connector: 'The treaty applies to all maritime vessels, ___ commercial freighters and passenger liners.'",
+        "options": [
+          "namely",
+          "nonetheless",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Namely' (yaitu/secara spesifik) digunakan untuk merinci atau menyebutkan contoh entitas secara definitif.",
+        "hints": [
+          "Bermakna 'yaitu' atau 'secara spesifik'.",
+          "Gunakan 'namely'."
+        ],
+        "skill": "apposition-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kontras dengan 'On the contrary'.",
+        "targetSentence": "He is not indolent on the contrary he works tirelessly.",
+        "explanation": "He is not indolent + on the contrary he works tirelessly.",
+        "hints": [
+          "Membantah klaim: 'He is not indolent'.",
+          "Klarifikasi kontras: 'on the contrary he works tirelessly'."
+        ],
+        "skill": "contrast-on-the-contrary"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis kebijakan moneter dengan 'hitherto'.",
+        "dialogue": [
+          [
+            "Journalist",
+            "Is this interest rate hike unprecedented?"
+          ],
+          [
+            "Economist",
+            "Yes, it breaks with what had ___ been a decade of ultra-loose monetary stimulus."
+          ]
+        ],
+        "options": [
+          "hitherto",
+          "henceforth",
+          "inasmuch"
+        ],
+        "answer": 0,
+        "explanation": "'Hitherto' adalah adverbia formal tingkat tinggi yang berarti 'hingga saat itu' (until that time / previously).",
+        "hints": [
+          "Bermakna 'sebelum saat itu / hingga titik itu'.",
+          "Gunakan 'hitherto'."
+        ],
+        "skill": "archaic-formal-adverbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Forward-looking temporal connector: 'The new compliance regulations will take effect tomorrow; ___, all cross-border transfers require prior authorization.'",
+        "options": [
+          "henceforth",
+          "hitherto",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Henceforth' bermakna 'mulai saat ini dan seterusnya' (from this time onward).",
+        "hints": [
+          "Bermakna 'mulai saat ini seterusnya'.",
+          "Gunakan 'henceforth'."
+        ],
+        "skill": "archaic-formal-adverbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Concession with 'Be that as it may': 'The cost of modernizing the rail network is astronomical. ___, modern infrastructure is indispensable for long-term growth.'",
+        "options": [
+          "Be that as it may",
+          "For instance",
+          "By and large"
+        ],
+        "answer": 0,
+        "explanation": "'Be that as it may' (meskipun demikian halnya) adalah formula konsesi retoris elegan dalam debat dan esai formal.",
+        "hints": [
+          "Formula konsesi retoris formal.",
+          "Gunakan 'Be that as it may'."
+        ],
+        "skill": "rhetorical-concession-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat transisi dengan 'In like manner'.",
+        "targetSentence": "In like manner the secondary hypothesis received empirical confirmation.",
+        "explanation": "In like manner + the secondary hypothesis received empirical confirmation.",
+        "hints": [
+          "Transisi analogi serupa: 'In like manner'.",
+          "Klausa: 'the secondary hypothesis received empirical confirmation'."
+        ],
+        "skill": "comparative-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Logical deduction connector: 'All observed premises have been verified; ___, our theorem is conclusively proven.'",
+        "options": [
+          "ergo",
+          "meanwhile",
+          "notwithstanding"
+        ],
+        "answer": 0,
+        "explanation": "'Ergo' (oleh karena itu / therefore) berasal dari bahasa Latin dan sering digunakan dalam penalaran deduktif formal.",
+        "hints": [
+          "Kata sambung penalaran deduktif Latin formal.",
+          "Gunakan 'ergo'."
+        ],
+        "skill": "latinate-logical-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat konsesi formal dengan 'Albeit'.",
+        "targetSentence": "They achieved their sales targets albeit with considerable difficulty.",
+        "explanation": "They achieved their sales targets + albeit with considerable difficulty.",
+        "hints": [
+          "Klausa hasil: 'They achieved their sales targets'.",
+          "Konsesi ringkas: 'albeit with considerable difficulty'."
+        ],
+        "skill": "concession-albeit"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perencanaan strategis jangka panjang.",
+        "dialogue": [
+          [
+            "Director",
+            "Will the merger complicate our European operations?"
+          ],
+          [
+            "Strategist",
+            "Undoubtedly. ___, our Asian market presence will expand exponentially."
+          ]
+        ],
+        "options": [
+          "By contrast",
+          "Similarly",
+          "In other words"
+        ],
+        "answer": 0,
+        "explanation": "'By contrast' menyajikan perbandingan kontras langsung antara situasi Eropa dan Asia.",
+        "hints": [
+          "Membandingkan kontras dua wilayah pasar.",
+          "Gunakan 'By contrast'."
+        ],
+        "skill": "contrast-connectors"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan tanda baca 'comma splice' pada penggunaan konjungsi transisi.",
+        "draft": "The treaty negotiations collapsed, nevertheless, the envoys agreed to maintain diplomatic communication.",
+        "options": [
+          "The treaty negotiations collapsed; nevertheless, the envoys agreed to maintain diplomatic communication.",
+          "The treaty negotiations collapsed nevertheless, the envoys agreed to maintain communication.",
+          "The treaty negotiations collapsed, however nevertheless the envoys agreed to maintain communication."
+        ],
+        "answer": 0,
+        "explanation": "'Nevertheless' adalah conjunctive adverb (adverbia penghubung), BUKAN coordinating conjunction seperti 'and/but'. Menghubungkan dua klausa independen hanya dengan koma menghasilkan 'comma splice' yang keliru. Wajib diawali titik koma (;) atau titik (.).",
+        "hints": [
+          "Gunakan titik koma sebelum conjunctive adverb.",
+          "Pilih opsi dengan titik koma sebelum nevertheless."
+        ],
+        "skill": "connectors-punctuation-syntax"
+      },
+      {
+        "type": "choice",
+        "prompt": "Semantic precision: Differentiate 'On the other hand' vs 'On the contrary'. Which rule governs accurate usage?",
+        "options": [
+          "'On the other hand' balances two valid opposing facets of an issue; 'On the contrary' refutes a preceding negative assertion to state the opposite truth.",
+          "'On the contrary' is informal; 'On the other hand' is purely legal.",
+          "They are 100% interchangeable in all contexts."
+        ],
+        "answer": 0,
+        "explanation": "'On the other hand' menyeimbangkan dua sisi argumen yang sama-sama valid. Sebaliknya, 'On the contrary' digunakan setelah pernyataan negatif untuk membantah anggapan keliru dan menegaskan kebenaran sebaliknya.",
+        "hints": [
+          "Perbedaan penyeimbang dua sisi vs penyangkalan klaim keliru.",
+          "Pilih opsi balances two valid opposing facets vs refutes assertion."
+        ],
+        "skill": "semantic-precision-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence utilizing archaic legalistic connectors with consummate stylistic accuracy:",
+        "options": [
+          "The parties agreed to the settlement terms; wherein, all mutual claims were irrevocably discharged.",
+          "The parties agreed to settlement wherein they made all claims disappear.",
+          "Wherein the parties agreed they discharged all things."
+        ],
+        "answer": 0,
+        "explanation": "'Wherein' (di mana / di dalam instrumen tersebut) berfungsi sebagai konektor yuridis elegan yang merangkum substansi perjanjian.",
+        "hints": [
+          "Konektor yuridis baku dalam instrumen penyelesaian sengketa.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "legalistic-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik penanda kesimpulan tak terelakkan.",
+        "targetSentence": "It follows as a necessary corollary that the policy must be repealed.",
+        "explanation": "It follows as a necessary corollary that + the policy must be repealed.",
+        "hints": [
+          "Mulai dengan deduksi logika formal: 'It follows as a necessary corollary that'.",
+          "Kesimpulan: 'the policy must be repealed'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi redundant connectors pada argumen akademik.",
+        "draft": "Whereas the initial hypothesis appeared robust, however subsequent trials failed to replicate the results.",
+        "options": [
+          "Whereas the initial hypothesis appeared robust, subsequent trials failed to replicate the results.",
+          "Whereas the initial hypothesis appeared robust, but subsequent trials failed.",
+          "Whereas the initial hypothesis appeared robust, nevertheless subsequent trials failed."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menggabungkan subordinating conjunction 'Whereas' dengan conjunctive adverb 'however' dalam kalimat yang sama. Hapus 'however'.",
+        "hints": [
+          "Hapus konektor redundant 'however'.",
+          "Pilih kalimat tanpa 'however'."
+        ],
+        "skill": "redundant-connector-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Discourse flow in academic monographs: Which connector best announces the culmination of a multi-chapter proof?",
+        "options": [
+          "In light of the preceding analysis, it can be maintained that...",
+          "So basically as I said earlier...",
+          "Like I showed you before..."
+        ],
+        "answer": 0,
+        "explanation": "'In light of the preceding analysis...' merangkum seluruh argumen terdahulu dengan register keilmuan yang berwibawa.",
+        "hints": [
+          "Formula penutup sintesis monograf akademik.",
+          "Pilih 'In light of the preceding analysis...'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perumusan klausul putusan hukum.",
+        "dialogue": [
+          [
+            "Chief Justice",
+            "How does the statute reconcile municipal bylaws with federal statutes?"
+          ],
+          [
+            "Clerk",
+            "Federal statutes supersede municipal regulations; ___, any inconsistent local ordinance is null and void."
+          ]
+        ],
+        "options": [
+          "ipso facto",
+          "meanwhile",
+          "on the contrary"
+        ],
+        "answer": 0,
+        "explanation": "'Ipso facto' (oleh fakta itu sendiri / by that very fact) adalah konektor yuridis Latin yang menandakan konsekuensi otomatis menurut hukum.",
+        "hints": [
+          "Istilah hukum Latin untuk konsekuensi otomatis.",
+          "Gunakan 'ipso facto'."
+        ],
+        "skill": "latinate-logical-connectors"
+      }
+    ]
+  }
+}

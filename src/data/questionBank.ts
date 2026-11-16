@@ -1,5 +1,10 @@
-// Auto-extracted from assets/js/question-bank.js
+// Auto-extracted from assets/js/question-bank.js + Modular Question Packs Auto-Loader
 import { ModuleQuestion } from "./generatedModules";
+import {
+  getCustomQuestionPacks,
+  QuestionPack,
+  validateAndNormalizeQuestionPack,
+} from "./questionPackSchema";
 
 export interface SkillGuideEntry {
   label: string;
@@ -6711,3 +6716,97 @@ export const QUESTION_BANK: Record<string, QuestionBankModule> = {
     }
   }
 };
+
+export function applyQuestionPackToBank(rawPack: unknown): {
+  ok: boolean;
+  moduleKey?: string;
+  addedCount: number;
+  error?: string;
+} {
+  const validated = validateAndNormalizeQuestionPack(rawPack);
+  if (!validated.ok || !validated.pack || !validated.normalizedLevels) {
+    return { ok: false, addedCount: 0, error: validated.error };
+  }
+
+  const { pack, normalizedLevels } = validated;
+  const targetKey = pack.moduleKey;
+
+  if (pack.skillGuide) {
+    Object.entries(pack.skillGuide).forEach(([k, v]) => {
+      SKILL_GUIDE[k] = v;
+    });
+  }
+
+  if (!QUESTION_BANK[targetKey]) {
+    QUESTION_BANK[targetKey] = {
+      title: pack.title || targetKey,
+      levels: {
+        simple: [],
+        intermediate: [],
+        complex: [],
+      },
+    };
+  }
+
+  const targetMod = QUESTION_BANK[targetKey];
+  if (pack.title) {
+    targetMod.title = pack.title;
+  }
+
+  let addedCount = 0;
+  (["simple", "intermediate", "complex"] as const).forEach((lvl) => {
+    const incoming = normalizedLevels[lvl] || [];
+    if (!incoming.length) return;
+
+    if (pack.mode === "replace") {
+      targetMod.levels[lvl] = [...incoming];
+      addedCount += incoming.length;
+      return;
+    }
+
+    const existing = targetMod.levels[lvl] || [];
+    const existingPrompts = new Set(
+      existing.map((q) => `${q.type || "choice"}::${q.prompt.trim().toLowerCase()}`)
+    );
+    incoming.forEach((q) => {
+      const sig = `${q.type || "choice"}::${q.prompt.trim().toLowerCase()}`;
+      if (!existingPrompts.has(sig)) {
+        existingPrompts.add(sig);
+        existing.push(q);
+        addedCount++;
+      }
+    });
+    targetMod.levels[lvl] = existing;
+  });
+
+  return { ok: true, moduleKey: targetKey, addedCount };
+}
+
+// 1. Auto-discover all modular files in src/data/question-packs/**/*.{ts,json}
+const discoveredPackModules = import.meta.glob<{ default?: QuestionPack } | QuestionPack>(
+  "./question-packs/**/*.{ts,json}",
+  { eager: true }
+);
+
+export const DISCOVERED_PACK_FILES: { path: string; moduleKey: string; added: number }[] = [];
+
+Object.entries(discoveredPackModules).forEach(([filePath, mod]) => {
+  const payload = mod && typeof mod === "object" && "default" in mod ? mod.default : mod;
+  const res = applyQuestionPackToBank(payload);
+  if (res.ok && res.moduleKey) {
+    DISCOVERED_PACK_FILES.push({
+      path: filePath.replace(/^\.\//, "src/data/"),
+      moduleKey: res.moduleKey,
+      added: res.addedCount,
+    });
+  }
+});
+
+// 2. Also load any user/AI-imported packs stored in localStorage (if active)
+getCustomQuestionPacks().forEach((customItem) => {
+  if (customItem.isActive !== false) {
+    applyQuestionPackToBank(customItem.pack);
+  }
+});
+
+

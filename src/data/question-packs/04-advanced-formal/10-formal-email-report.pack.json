@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/10-formal-email-report",
+  "title": "Formal Email & Report",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Formal opening salutation when recipient's name is unknown: '___,'",
+        "options": [
+          "Dear Sir or Madam",
+          "Hey there",
+          "Hello friend"
+        ],
+        "answer": 0,
+        "explanation": "Dalam korespondensi bisnis resmi tradisional bahasa Inggris, jika nama penerima tidak diketahui, gunakan 'Dear Sir or Madam,' (diakhiri 'Yours faithfully,').",
+        "hints": [
+          "Salam pembuka resmi tradisional jika nama tidak diketahui.",
+          "Gunakan 'Dear Sir or Madam'."
+        ],
+        "skill": "salutations-and-valedictions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Stating the purpose of writing: 'I am writing to ___ clarification regarding the proposed restructuring.'",
+        "options": [
+          "request",
+          "ask for",
+          "get"
+        ],
+        "answer": 0,
+        "explanation": "Gunakan 'request' sebagai padanan resmi dalam pembuka surat bisnis: 'I am writing to request clarification...'.",
+        "hints": [
+          "Kata kerja formal meminta klarifikasi.",
+          "Gunakan 'request'."
+        ],
+        "skill": "stating-purpose"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal lampiran dokumen.",
+        "targetSentence": "Please find attached the finalized quarterly expenditure report.",
+        "explanation": "Please find attached + the finalized quarterly expenditure report.",
+        "hints": [
+          "Formula lampiran baku: 'Please find attached'.",
+          "Objek lampiran: 'the finalized quarterly expenditure report'."
+        ],
+        "skill": "attachment-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal closing sign-off when addressing someone by name ('Dear Ms. Jenkins,'): '___,'",
+        "options": [
+          "Yours sincerely",
+          "Yours faithfully",
+          "Best vibes"
+        ],
+        "answer": 0,
+        "explanation": "Aturan korespondensi baku British/Commonwealth: Jika menyapa dengan nama ('Dear Ms. Jenkins'), penutupnya adalah 'Yours sincerely,'. Jika tanpa nama ('Dear Sir/Madam'), penutupnya adalah 'Yours faithfully,'.",
+        "hints": [
+          "Pasangan salam pembuka bernama (Dear Ms. Jenkins).",
+          "Gunakan 'Yours sincerely'."
+        ],
+        "skill": "salutations-and-valedictions"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal permohonan tindak lanjut.",
+        "targetSentence": "I would appreciate your prompt response regarding this matter.",
+        "explanation": "I would appreciate + your prompt response regarding this matter.",
+        "hints": [
+          "Mulai dengan 'I would appreciate'.",
+          "Permohonan sopan: 'your prompt response regarding this matter'."
+        ],
+        "skill": "call-to-action-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "Formal executive report heading: '___ SUMMARY'",
+        "options": [
+          "EXECUTIVE",
+          "GENERAL",
+          "TOP LEVEL"
+        ],
+        "answer": 0,
+        "explanation": "Judul standar dokumen laporan manajerial resmi adalah 'EXECUTIVE SUMMARY'.",
+        "hints": [
+          "Judul standar ringkasan eksekutif laporan.",
+          "Gunakan 'EXECUTIVE'."
+        ],
+        "skill": "report-headings-structure"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka laporan resmi.",
+        "targetSentence": "This report examines the feasibility of expanding our operations.",
+        "explanation": "This report examines + the feasibility of expanding our operations.",
+        "hints": [
+          "Mulai dengan 'This report examines'.",
+          "Tujuan laporan: 'the feasibility of expanding our operations'."
+        ],
+        "skill": "report-introduction"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penyampaian kabar buruk dalam korespondensi resmi.",
+        "dialogue": [
+          [
+            "Manager",
+            "How should we inform the applicant that their grant was rejected?"
+          ],
+          [
+            "Coordinator",
+            "We should write: 'We ___ to inform you that we are unable to approve your application at this time.'"
+          ]
+        ],
+        "options": [
+          "regret",
+          "are sad",
+          "feel bad"
+        ],
+        "answer": 0,
+        "explanation": "'We regret to inform you that...' adalah formula diplomatis baku dan bermartabat untuk menyampaikan keputusan negatif dalam korespondensi resmi.",
+        "hints": [
+          "Formula baku penyampaian keputusan negatif.",
+          "Gunakan 'regret'."
+        ],
+        "skill": "delivering-negative-news"
+      },
+      {
+        "type": "choice",
+        "prompt": "Executive report recommendations section formula: 'It is strongly ___ that management commission an independent audit.'",
+        "options": [
+          "recommended",
+          "demanded",
+          "suggested unconditionally"
+        ],
+        "answer": 0,
+        "explanation": "Pola pasif rekomendasi laporan formal: 'It is strongly recommended that [subject] + subjunctive base verb...'.",
+        "hints": [
+          "Formula rekomendasi pasif berbobot.",
+          "Gunakan 'recommended'."
+        ],
+        "skill": "report-recommendations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Offering assistance diplomatically: 'Should you require any further assistance, please do not ___ to contact me.'",
+        "options": [
+          "hesitate",
+          "delay",
+          "pause"
+        ],
+        "answer": 0,
+        "explanation": "Formula penutup bantuan resmi: 'please do not hesitate to contact me'.",
+        "hints": [
+          "Formula standar penawaran bantuan sopan.",
+          "Gunakan 'hesitate'."
+        ],
+        "skill": "courtesy-closings"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penyampaian apresiasi atas kerja sama.",
+        "targetSentence": "Thank you for your continued cooperation and support.",
+        "explanation": "Thank you for your continued cooperation and support.",
+        "hints": [
+          "Mulai dengan 'Thank you for your continued'.",
+          "Lanjutkan dengan 'cooperation and support'."
+        ],
+        "skill": "courtesy-closings"
+      },
+      {
+        "type": "choice",
+        "prompt": "Report methodology section heading: 'DATA ___ AND METHODOLOGY'",
+        "options": [
+          "COLLECTION",
+          "GATHERING UP",
+          "TAKING"
+        ],
+        "answer": 0,
+        "explanation": "'DATA COLLECTION AND METHODOLOGY' adalah tajuk standar laporan ilmiah dan konsultasi manajemen.",
+        "hints": [
+          "Tajuk formal pengumpulan data riset.",
+          "Gunakan 'COLLECTION'."
+        ],
+        "skill": "report-headings-structure"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka penyesalan penundaan pengiriman.",
+        "targetSentence": "We sincerely apologize for any inconvenience caused by this delay.",
+        "explanation": "We sincerely apologize for any inconvenience caused by this delay.",
+        "hints": [
+          "Mulai dengan permohonan maaf resmi: 'We sincerely apologize for'.",
+          "Dampak: 'any inconvenience caused by this delay'."
+        ],
+        "skill": "delivering-negative-news"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tindak lanjut pertemuan bisnis.",
+        "dialogue": [
+          [
+            "Client",
+            "Will you send a summary of our discussion?"
+          ],
+          [
+            "Account Director",
+            "Yes, I will transmit the agreed action items ___ of tomorrow's meeting."
+          ]
+        ],
+        "options": [
+          "in the minutes",
+          "in the little writings",
+          "in the talking notes"
+        ],
+        "answer": 0,
+        "explanation": "'The minutes of the meeting' (notula rapat) adalah istilah resmi dokumen catatan keputusan pertemuan bisnis.",
+        "hints": [
+          "Istilah resmi notula rapat bisnis.",
+          "Gunakan 'in the minutes'."
+        ],
+        "skill": "report-terminology"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi inkonsistensi nada bicara (tone) yang terlalu agresif dalam surat tuntutan kepatuhan.",
+        "draft": "You guys must pay the invoice immediately or we will drag you to court right now.",
+        "options": [
+          "We respectfully request the immediate settlement of the outstanding invoice, failing which we shall be obliged to instruct our legal counsel to commence recovery proceedings.",
+          "Pay the money now because we really need it.",
+          "Please send the cash quick so we don't sue you."
+        ],
+        "answer": 0,
+        "explanation": "Surat tuntutan hukum resmi mempertahankan kesopanan dingin yang tak tergoyahkan (unflinching polite restraint): 'We respectfully request the immediate settlement..., failing which we shall be obliged to instruct our legal counsel...'.",
+        "hints": [
+          "Gunakan bahasa hukum yang tenang, tegas, dan berwibawa.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "choice",
+        "prompt": "Structure of a formal investigative report: What is the normative order of sections?",
+        "options": [
+          "Executive Summary -> Introduction -> Methodology -> Findings -> Discussion -> Recommendations",
+          "Recommendations -> Jokes -> Table of Contents -> Conclusion",
+          "Findings -> Executive Summary -> Goodbye"
+        ],
+        "answer": 0,
+        "explanation": "Urutan kanonikal laporan formal: Ringkasan Eksekutif $\\rightarrow$ Pendahuluan $\\rightarrow$ Metodologi $\\rightarrow$ Temuan $\\rightarrow$ Pembahasan $\\rightarrow$ Rekomendasi.",
+        "hints": [
+          "Urutan standar laporan investigasi formal.",
+          "Pilih opsi Executive Summary -> Introduction -> Methodology..."
+        ],
+        "skill": "report-structure-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Email etiquette in crisis communications: When communicating a data breach to enterprise clients, the opening paragraph should:",
+        "options": [
+          "immediately disclose the nature and containment of the incident without deflection or evasive euphemisms",
+          "blame third-party vendors and downplay the severity",
+          "start with a promotional pitch about new product upgrades"
+        ],
+        "answer": 0,
+        "explanation": "Komunikasi krisis profesional menuntut transparansi cepat, fakta konkret mengenai penahanan insiden (containment), dan empati tanpa penghindaran tanggung jawab.",
+        "hints": [
+          "Transparansi langsung dan penanganan insiden yang jelas.",
+          "Pilih opsi immediately disclose the nature and containment."
+        ],
+        "skill": "crisis-communication-protocol"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat resolusi rekomendasi laporan audit.",
+        "targetSentence": "Management should allocate capital to strengthen internal cybersecurity infrastructure.",
+        "explanation": "Management should allocate capital + to strengthen internal cybersecurity infrastructure.",
+        "hints": [
+          "Subjek: 'Management should allocate capital'.",
+          "Tujuan: 'to strengthen internal cybersecurity infrastructure'."
+        ],
+        "skill": "report-recommendations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi penutup email yang terlalu santai untuk komunikasi ke dewan komisaris.",
+        "draft": "Cheers and talk soon, John.",
+        "options": [
+          "Respectfully submitted, Johnathan Vance, Senior Vice President.",
+          "Thanks a ton, John.",
+          "Catch you later, John."
+        ],
+        "answer": 0,
+        "explanation": "Untuk dokumen formal kepada dewan komisaris, penutup harus mencerminkan rasa hormat dan jabatan resmi: 'Respectfully submitted, Johnathan Vance, Senior Vice President'.",
+        "hints": [
+          "Penutup formal kepada dewan komisaris.",
+          "Pilih 'Respectfully submitted, Johnathan Vance...'."
+        ],
+        "skill": "salutations-and-valedictions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence formulating a diplomatic conditional escalation in commercial correspondence:",
+        "options": [
+          "In the absence of a response by Friday close of business, we shall have no alternative but to reassign the territory.",
+          "If you don't reply by Friday we take the area back.",
+          "Reply until Friday or else you lose it."
+        ],
+        "answer": 0,
+        "explanation": "'In the absence of a response by [date/time], we shall have no alternative but to...' adalah formula eskalasi diplomatis standar korporasi multinasional.",
+        "hints": [
+          "Formula eskalasi diplomatis korporat multinasional.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penyusunan laporan kelayakan ekonomi.",
+        "dialogue": [
+          [
+            "Lead Consultant",
+            "How should we frame the cost-benefit analysis in the report conclusion?"
+          ],
+          [
+            "Partner",
+            "State that the projected return on investment outweighs the capital expenditure by a ratio of ___."
+          ]
+        ],
+        "options": [
+          "three to one over the designated five-year horizon",
+          "many dollars to fewer dollars",
+          "lots of profit"
+        ],
+        "answer": 0,
+        "explanation": "Presisi numerik dan jangka waktu ('three to one over the designated five-year horizon') mencerminkan standar laporan konsultasi manajemen papan atas.",
+        "hints": [
+          "Presisi rasio finansial terukur dengan horison waktu.",
+          "Pilih 'three to one over the designated five-year horizon'."
+        ],
+        "skill": "report-terminology"
+      }
+    ]
+  }
+}

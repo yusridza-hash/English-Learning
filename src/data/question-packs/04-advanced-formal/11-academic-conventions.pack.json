@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/11-academic-conventions",
+  "title": "Academic Conventions",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "In-text citation format (APA 7th): 'According to recent findings (___), carbon emissions have peaked.'",
+        "options": [
+          "Smith, 2021",
+          "Smith (2021)",
+          "Smith: 2021"
+        ],
+        "answer": 0,
+        "explanation": "Dalam format sitasi tanda kurung (parenthetical citation) APA 7th edition, format standarnya adalah (Nama Belakang, Tahun): '(Smith, 2021)'.",
+        "hints": [
+          "Format sitasi dalam kurung standar APA.",
+          "Gunakan 'Smith, 2021'."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "choice",
+        "prompt": "Third-person academic stance: Instead of writing 'I believe that...', an academic author writes: '___ that...'",
+        "options": [
+          "It is argued",
+          "I think",
+          "My feeling is"
+        ],
+        "answer": 0,
+        "explanation": "Konvensi penulisan akademik mengutamakan sudut pandang objektif persona ketiga atau pasif impersonal: 'It is argued that...'.",
+        "hints": [
+          "Sudut pandang objektif pasif impersonal.",
+          "Gunakan 'It is argued'."
+        ],
+        "skill": "objective-stance"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sitasi naratif format APA.",
+        "targetSentence": "Johnson demonstrated that cognitive behavioral therapy reduces severe anxiety.",
+        "explanation": "Johnson demonstrated that + cognitive behavioral therapy reduces severe anxiety.",
+        "hints": [
+          "Mulai dengan nama peneliti dan kata kerja: 'Johnson demonstrated that'.",
+          "Temuan: 'cognitive behavioral therapy reduces severe anxiety'."
+        ],
+        "skill": "narrative-citations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Abbreviation 'et al.': 'The seminal study by Harrison ___ revolutionized macroeconomic modeling.'",
+        "options": [
+          "et al.",
+          "etc.",
+          "i.e."
+        ],
+        "answer": 0,
+        "explanation": "'et al.' (singkatan dari bahasa Latin 'et alia' = dan kawan-kawan) digunakan saat merujuk pada tiga penulis atau lebih dalam karya ilmiah.",
+        "hints": [
+          "Singkatan Latin untuk 'dan rekan-rekan peneliti'.",
+          "Gunakan 'et al.'."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perumusan hipotesis penelitian.",
+        "targetSentence": "The primary hypothesis posited a positive relationship between variables.",
+        "explanation": "The primary hypothesis posited + a positive relationship between variables.",
+        "hints": [
+          "Mulai dengan 'The primary hypothesis posited'.",
+          "Hubungan variabel: 'a positive relationship between variables'."
+        ],
+        "skill": "formulating-hypotheses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Signaling methodology: 'Quantitative data was gathered ___ structured questionnaires.'",
+        "options": [
+          "via",
+          "throughout of",
+          "with using"
+        ],
+        "answer": 0,
+        "explanation": "Preposisi formal 'via' atau 'by means of' lazim digunakan untuk mendeskripsikan instrumen pengumpulan data.",
+        "hints": [
+          "Preposisi formal jalur pengumpulan data.",
+          "Gunakan 'via'."
+        ],
+        "skill": "methodology-terminology"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengantar tinjauan pustaka.",
+        "targetSentence": "A substantial body of literature supports this theoretical assumption.",
+        "explanation": "A substantial body of literature supports + this theoretical assumption.",
+        "hints": [
+          "Mulai dengan 'A substantial body of literature supports'.",
+          "Objek teoretis: 'this theoretical assumption'."
+        ],
+        "skill": "literature-review-formulas"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog etika sitasi ilmiah dalam penulisan tesis.",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Did you formulate this conceptual model yourself?"
+          ],
+          [
+            "Student",
+            "No, it was ___ from the framework originally developed by Vygotsky."
+          ]
+        ],
+        "options": [
+          "adapted",
+          "copied",
+          "stolen"
+        ],
+        "answer": 0,
+        "explanation": "'Adapted from...' adalah konvensi akademik baku untuk menyebutkan modifikasi kerangka kerja dari pemikir terdahulu secara etis dan sah.",
+        "hints": [
+          "Istilah etis modifikasi model teoretis terdahulu.",
+          "Gunakan 'adapted'."
+        ],
+        "skill": "academic-attribution-ethics"
+      },
+      {
+        "type": "choice",
+        "prompt": "Latin abbreviations: 'The survey questioned key stakeholders, ___ municipal leaders and civil advocates.'",
+        "options": [
+          "i.e.",
+          "e.g.",
+          "ibid."
+        ],
+        "answer": 0,
+        "explanation": "'i.e.' (id est = yaitu / that is) digunakan saat menyatakan identitas pasti, sedangkan 'e.g.' (exempli gratia = contohnya) digunakan untuk memberikan contoh sampel ilustratif. Jika menyebutkan contoh: gunakan 'e.g.'.",
+        "hints": [
+          "Singkatan untuk 'for example' (exempli gratia).",
+          "Pilih 'e.g.' (atau i.e. jika rincian definitif). Di sini adalah contoh ilustratif: e.g."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Reporting verbs for neutral literature reviews: 'Davis (2019) ___ that social capital mitigates poverty.'",
+        "options": [
+          "observes",
+          "shouts",
+          "insists stubbornly"
+        ],
+        "answer": 0,
+        "explanation": "Reporting verb netral berbobot seperti 'observes', 'maintains', 'contends', atau 'posits' adalah pilar tinjauan pustaka akademik.",
+        "hints": [
+          "Kata kerja pelaporan netral akademis.",
+          "Gunakan 'observes'."
+        ],
+        "skill": "academic-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat batasan cakupan penelitian.",
+        "targetSentence": "The scope of this investigation is confined to urban municipalities.",
+        "explanation": "The scope of this investigation + is confined to urban municipalities.",
+        "hints": [
+          "Mulai dengan 'The scope of this investigation'.",
+          "Batasan: 'is confined to urban municipalities'."
+        ],
+        "skill": "delimiting-study-scope"
+      },
+      {
+        "type": "choice",
+        "prompt": "Latin abbreviation 'cf.': In scholarly footnotes, 'cf.' directs the reader to:",
+        "options": [
+          "compare with an alternative or opposing source",
+          "congratulate the author",
+          "continue reading without stopping"
+        ],
+        "answer": 0,
+        "explanation": "'cf.' (singkatan dari bahasa Latin 'confer') menginstruksikan pembaca untuk 'membandingkan' dengan sumber atau pandangan lain.",
+        "hints": [
+          "Singkatan Latin untuk membandingkan (confer).",
+          "Pilih 'compare with an alternative or opposing source'."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pemaparan data statistik signifikan.",
+        "targetSentence": "The statistical analysis revealed a statistically significant correlation.",
+        "explanation": "The statistical analysis revealed + a statistically significant correlation.",
+        "hints": [
+          "Subjek: 'The statistical analysis revealed'.",
+          "Temuan: 'a statistically significant correlation'."
+        ],
+        "skill": "reporting-statistical-results"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog metodologi penelitian kuantitatif.",
+        "dialogue": [
+          [
+            "External Examiner",
+            "Was the sample size sufficient to generalize the findings?"
+          ],
+          [
+            "PhD Candidate",
+            "Yes, a post-hoc power calculation confirmed statistical ___."
+          ]
+        ],
+        "options": [
+          "validity",
+          "goodness",
+          "correctness"
+        ],
+        "answer": 0,
+        "explanation": "'Statistical validity' adalah terminologi baku untuk keabsahan metodologis dan daya uji generalisasi temuan riset.",
+        "hints": [
+          "Terminologi baku keabsahan statistik.",
+          "Gunakan 'validity'."
+        ],
+        "skill": "methodology-terminology"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi plagiarisme mosaik (patchwriting) agar menjadi sintesis parafrasa akademik yang sah.",
+        "draft": "According to researcher Brown, humans need oxygen to breathe and live comfortably in their everyday life.",
+        "options": [
+          "Brown (2018) posits that oxygen homeostasis constitutes a fundamental physiological requirement for sustained human metabolic function.",
+          "Humans need oxygen to live as Brown said in his paper.",
+          "Brown said that we all need oxygen to breathe every day."
+        ],
+        "answer": 0,
+        "explanation": "Parafrasa akademik yang unggul menerjemahkan ide dasar ke dalam register terminologi ilmiah presisi ('oxygen homeostasis constitutes a fundamental physiological requirement...') dengan sitasi yang tepat.",
+        "hints": [
+          "Gunakan register ilmiah presisi dan format sitasi naratif.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "paraphrasing-and-synthesis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Epistemological role of the 'Literature Review' in a doctoral dissertation:",
+        "options": [
+          "To map the contested intellectual terrain, locate a distinct knowledge deficit (gap in literature), and justify the necessity of the current inquiry.",
+          "To flatter famous senior professors so they pass the defense.",
+          "To fill up empty pages to meet university word counts."
+        ],
+        "answer": 0,
+        "explanation": "Tinjauan pustaka doktoral bertujuan memetakan perdebatan keilmuan, mengidentifikasi celah kebaruan (gap in knowledge), dan melegitimasi urgensi penelitian yang dilakukan.",
+        "hints": [
+          "Memetakan diskursus ilmiah dan menemukan celah pengetahuan (gap).",
+          "Pilih opsi map the contested intellectual terrain and locate a knowledge deficit."
+        ],
+        "skill": "epistemological-literature-review"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which reporting verb conveys critical skepticism toward another author's unverified claim?",
+        "options": [
+          "alleges",
+          "proves",
+          "demonstrates"
+        ],
+        "answer": 0,
+        "explanation": "'Alleges' (atau claims without substantiation) menandakan bahwa penulis artikel bersikap skeptis dan belum meyakini kebenaran klaim sumber yang dikutip.",
+        "hints": [
+          "Menandakan keraguan/skeptisisme kritis terhadap klaim sumber.",
+          "Gunakan 'alleges'."
+        ],
+        "skill": "academic-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sintesis pustaka komparatif tingkat tinggi.",
+        "targetSentence": "While orthodox neoclassical economists prioritize deregulation institutional theorists emphasize robust regulatory governance.",
+        "explanation": "While orthodox neoclassical economists prioritize deregulation + institutional theorists emphasize robust regulatory governance.",
+        "hints": [
+          "Klausa pembanding: 'While orthodox neoclassical economists prioritize deregulation'.",
+          "Klausa kontras mazhab: 'institutional theorists emphasize robust regulatory governance'."
+        ],
+        "skill": "paraphrasing-and-synthesis"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan format sitasi sekunder (secondary citations).",
+        "draft": "Foucault cited in Miller 1991 said that power is pervasive.",
+        "options": [
+          "As Foucault (1975, as cited in Miller, 1991) contends, power relations are pervasive across social institutions.",
+          "Foucault who was read in Miller 1991 argued power is everywhere.",
+          "Miller 1991 reading Foucault said power is pervasive."
+        ],
+        "answer": 0,
+        "explanation": "Format sitasi sekunder standar APA 7th: 'Foucault (1975, as cited in Miller, 1991) contends...' dengan kata kerja pelaporan akademik berbobot.",
+        "hints": [
+          "Format baku sitasi sekunder: as cited in.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence formulating a research limitation with consummate scholarly dignity:",
+        "options": [
+          "The cross-sectional design inherently precludes establishing definitive causal inferences between the observed variables.",
+          "Our study has a bad design so we cannot be sure of anything.",
+          "We could not find out what causes what because time ran out."
+        ],
+        "answer": 0,
+        "explanation": "'The cross-sectional design inherently precludes establishing definitive causal inferences...' adalah formulasi batasan metodologi yang sangat berkelas dan jujur secara epistemik.",
+        "hints": [
+          "Formulasi batasan metodologis ilmiah berbobot tinggi.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "delimiting-study-scope"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog sidang komite etik riset institusi.",
+        "dialogue": [
+          [
+            "Committee Chair",
+            "How will the project protect vulnerable human subjects from coercion?"
+          ],
+          [
+            "Principal Investigator",
+            "All protocols strictly adhere to the ethical tenets codified in the ___."
+          ]
+        ],
+        "options": [
+          "Declaration of Helsinki",
+          "Common Sense Guide",
+          "Popular Internet Forum"
+        ],
+        "answer": 0,
+        "explanation": "Deklarasi Helsinki (Declaration of Helsinki) adalah konvensi internasional kanonikal mengenai etika riset medis dan biomedis pada subjek manusia.",
+        "hints": [
+          "Konvensi etika riset internasional kanonikal.",
+          "Gunakan 'Declaration of Helsinki'."
+        ],
+        "skill": "academic-attribution-ethics"
+      }
+    ]
+  }
+}

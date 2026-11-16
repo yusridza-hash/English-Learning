@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/12-editing-precision",
+  "title": "Editing & Precision",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Eliminating pleonasm (redundancy): 'The committee reached a ___ consensus regarding the budget.'",
+        "options": [
+          "unanimous",
+          "unanimous and shared",
+          "totally shared unanimous"
+        ],
+        "answer": 0,
+        "explanation": "'Consensus' sudah bermakna kesepakatan bersama, sehingga 'unanimous consensus' sudah cukup. Menambahkan 'and shared' atau 'totally' adalah pemborosan kata (pleonasm/redundancy).",
+        "hints": [
+          "Hindari pengulangan makna kata yang mubazir.",
+          "Gunakan 'unanimous'."
+        ],
+        "skill": "eliminating-pleonasms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Eliminating wordiness: Replace 'due to the fact that' with a concise formal equivalent:",
+        "options": [
+          "because / since",
+          "in light of the reality that",
+          "owing to the circumstance of"
+        ],
+        "answer": 0,
+        "explanation": "'Due to the fact that' adalah frasa klise yang boros kata. Editor profesional selalu menggantinya dengan 'because' atau 'since'.",
+        "hints": [
+          "Ringkas frasa boros kata menjadi satu kata padat.",
+          "Gunakan 'because / since'."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hemat kata dari 'At the present point in time we are ready'.",
+        "targetSentence": "We are currently prepared to launch the campaign.",
+        "explanation": "We are currently prepared + to launch the campaign.",
+        "hints": [
+          "Mulai dengan kalimat ringkas: 'We are currently prepared'.",
+          "Tujuan: 'to launch the campaign'."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Subject-Verb agreement with intervening prepositional phrases: 'The collection of rare manuscripts ___ preserved in temperature-controlled vaults.'",
+        "options": [
+          "is",
+          "are",
+          "were being"
+        ],
+        "answer": 0,
+        "explanation": "Subjek utama adalah 'The collection' (tunggal), bukan 'manuscripts' (jamak). Maka verba to be yang tepat adalah 'is'.",
+        "hints": [
+          "Subjek gramatikal sejati adalah 'The collection' (tunggal).",
+          "Gunakan 'is'."
+        ],
+        "skill": "intervening-phrase-agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat presisi menghilangkan redundansi 'past history'.",
+        "targetSentence": "The regional archive documents our cultural heritage.",
+        "explanation": "The regional archive documents + our cultural heritage.",
+        "hints": [
+          "Mulai dengan 'The regional archive documents'.",
+          "Lanjutkan dengan 'our cultural heritage'."
+        ],
+        "skill": "eliminating-pleonasms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dangling modifier correction: 'Having arrived at the airport, ___.'",
+        "options": [
+          "our flight had already departed",
+          "we discovered that our flight had departed",
+          "the departure board showed a delay"
+        ],
+        "answer": 1,
+        "explanation": "Yang tiba di bandara adalah manusia ('we'), bukan 'our flight' atau 'the departure board'. Subjek tepat setelah koma harus 'we'.",
+        "hints": [
+          "Subjek yang tiba di bandara adalah manusia (we).",
+          "Pilih 'we discovered that our flight had departed'."
+        ],
+        "skill": "dangling-modifier-repair"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan agreement 'Neither the manager nor the employees'.",
+        "targetSentence": "Neither the manager nor the employees were informed of the closure.",
+        "explanation": "Neither the manager nor the employees + were informed of the closure.",
+        "hints": [
+          "Proximity rule: subjek terdekat ke verba adalah 'employees' (jamak).",
+          "Gunakan 'were informed of the closure'."
+        ],
+        "skill": "correlative-agreement-proximity"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog eliminasi kalimat berputar-putar (circumlocution).",
+        "dialogue": [
+          [
+            "Managing Editor",
+            "The author wrote: 'A large majority of the individuals who participated were in agreement.'"
+          ],
+          [
+            "Copyeditor",
+            "I will condense that to: 'Most participants ___.'"
+          ]
+        ],
+        "options": [
+          "concurred",
+          "were agreeing with one another",
+          "made an agreement"
+        ],
+        "answer": 0,
+        "explanation": "'Most participants concurred' menggantikan frasa bertele-tele 11 kata menjadi 3 kata yang berbobot dan bernas.",
+        "hints": [
+          "Ganti frasa bertele-tele dengan verba formal padat.",
+          "Gunakan 'concurred'."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Parallel structure (parallelism) in bullet lists or coordinated series: 'The consultant recommended optimizing operations, ___ costs, and restructuring governance.'",
+        "options": [
+          "reducing",
+          "to reduce",
+          "the reduction of"
+        ],
+        "answer": 0,
+        "explanation": "Prinsip paralelisme: Semua elemen dalam rangkaian harus berstruktur gramatikal sama (gerund): 'optimizing..., reducing..., and restructuring...'.",
+        "hints": [
+          "Selaraskan bentuk gerund (-ing).",
+          "Gunakan 'reducing'."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "choice",
+        "prompt": "Agreement with indefinite pronouns: 'Each of the participating laboratories ___ submitted their preliminary datasets.'",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'Each' bernilai tunggal secara gramatikal ('Each has submitted').",
+        "hints": [
+          "'Each' berpasangan dengan kata kerja tunggal.",
+          "Gunakan 'has'."
+        ],
+        "skill": "indefinite-pronoun-agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat paralelisme koordinasi.",
+        "targetSentence": "The CEO was admired for her visionary leadership and exceptional integrity.",
+        "explanation": "The CEO was admired for + her visionary leadership + and exceptional integrity.",
+        "hints": [
+          "Mulai dengan 'The CEO was admired for'.",
+          "Pasangan frasa adjektiva-nomina paralel: 'her visionary leadership and exceptional integrity'."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "choice",
+        "prompt": "Precision in lexical distinction: Differentiate 'disinterested' vs 'uninterested': An arbitrator must be ___.",
+        "options": [
+          "disinterested (impartial and unbiased)",
+          "uninterested (bored and indifferent)",
+          "disinterestedly uninterested"
+        ],
+        "answer": 0,
+        "explanation": "'Disinterested' bermakna netral, adil, dan bebas benturan kepentingan (unbiased). 'Uninterested' bermakna tidak peduli atau bosan.",
+        "hints": [
+          "Bermakna netral dan tidak memihak.",
+          "Pilih 'disinterested'."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat presisi perbedaan 'affect' vs 'effect'.",
+        "targetSentence": "The environmental regulations did not significantly affect corporate profit margins.",
+        "explanation": "The environmental regulations did not significantly + affect (verb) + corporate profit margins.",
+        "hints": [
+          "Kata kerja mempengaruhi: 'affect'.",
+          "Gunakan 'affect corporate profit margins'."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penyuntingan ketelitian tanda baca Oxford comma.",
+        "dialogue": [
+          [
+            "Proofreader",
+            "Why do you advocate retaining the serial (Oxford) comma?"
+          ],
+          [
+            "Senior Editor",
+            "Because it prevents grotesque ___ in complex coordinate lists."
+          ]
+        ],
+        "options": [
+          "semantic ambiguity",
+          "spelling errors",
+          "font problems"
+        ],
+        "answer": 0,
+        "explanation": "Oxford comma (koma sebelum 'and' di elemen terakhir rangkaian) berfungsi esensial untuk mencegah ambiguitas makna semantik.",
+        "hints": [
+          "Mencegah ambiguitas makna pada daftar rincian.",
+          "Pilih 'semantic ambiguity'."
+        ],
+        "skill": "oxford-comma-precision"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi pelanggaran paralelisme tingkat tinggi dalam kalimat thesis statement.",
+        "draft": "The dissertation examines how monetary policy influences inflation, the regulation of commercial banks, and how labor markets are impacted.",
+        "options": [
+          "The dissertation examines the impact of monetary policy on inflation, commercial banking regulations, and labor market dynamics.",
+          "The dissertation examines monetary policy, banking, and how labor is.",
+          "The dissertation examines inflation influenced by policy, how banks regulate, and labor."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat asli mencampur aduk 'how-clause', noun phrase, dan passive clause. Revisi menyelaraskan seluruh elemen menjadi struktur frasa nominal paralel murni: 'inflation, commercial banking regulations, and labor market dynamics'.",
+        "hints": [
+          "Selaraskan ketiga objek menjadi frasa nominal paralel murni.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "choice",
+        "prompt": "Strunk and White's foundational dictum 'Omit needless words' implies that professional prose should:",
+        "options": [
+          "ensure that every single word carries distinct informational and thematic weight, eliminating bureaucratic padding",
+          "consist solely of 3-letter words",
+          "never use adjectives or adverbs under any circumstances"
+        ],
+        "answer": 0,
+        "explanation": "Prinsip 'Omit needless words' bukan berarti memangkas detail penting, melainkan memastikan bahwa setiap kata yang bertahan memiliki fungsi informasional dan estetika yang nyata tanpa basa-basi birokratis.",
+        "hints": [
+          "Setiap kata membawa fungsi informasional dan tematik nyata.",
+          "Pilih opsi ensure that every single word carries distinct weight."
+        ],
+        "skill": "strunk-white-editing-philosophy"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the sentence that has been purged of nominal smog (bureaucratic bloat):",
+        "options": [
+          "The team analyzed how consumer behavior shifted during the recession.",
+          "The team conducted an analytical investigation of the shifting nature of consumer behavior in the temporal period of the recession.",
+          "There was an analysis by the team on behavior."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat pertama menyampaikan fakta secara jernih, tajam, dan bertenaga dalam 10 kata, menyingkirkan 20 kata 'nominal smog' yang membebani draf kedua.",
+        "hints": [
+          "Kalimat paling jernih dan bertenaga tanpa tumpukan kata benda mubazir.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat presisi membedakan 'complement' vs 'compliment'.",
+        "targetSentence": "The quantitative statistical findings complement the qualitative interview narratives.",
+        "explanation": "The quantitative statistical findings + complement (melengkapi) + the qualitative interview narratives.",
+        "hints": [
+          "Subjek: 'The quantitative statistical findings'.",
+          "Verba melengkapi: 'complement the qualitative interview narratives'."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan 'squinting modifier' (kata keterangan ambigu yang bisa memodifikasi kata sebelum atau sesudahnya).",
+        "draft": "Exercising frequently improves cardiovascular health.",
+        "options": [
+          "Frequent exercise improves cardiovascular health.",
+          "Exercising improves frequently health.",
+          "Cardiovascular health improves when exercising frequently."
+        ],
+        "answer": 0,
+        "explanation": "'Exercising frequently improves...' dapat bermakna 'sering berolahraga' ATAU 'olahraga sering kali meningkatkan'. Mengubahnya menjadi 'Frequent exercise improves cardiovascular health' melenyapkan ambiguitas seketika.",
+        "hints": [
+          "Lenyapkan ambiguitas squinting modifier.",
+          "Gunakan 'Frequent exercise improves cardiovascular health'."
+        ],
+        "skill": "squinting-modifier-repair"
+      },
+      {
+        "type": "choice",
+        "prompt": "The editorial concept of 'Syntactic Rhythm' (cadence and sentence length variation):",
+        "options": [
+          "Alternating between short, punchy declarative sentences and longer, complex periodic sentences to sustain reader engagement and modulate cognitive tension.",
+          "Ensuring every single sentence has exactly twelve syllables.",
+          "Always using rhyming suffixes on verbs."
+        ],
+        "answer": 0,
+        "explanation": "Ritme sintaksis dicapai dengan memvariasikan panjang kalimat: memadukan kalimat pendek yang tajam dengan kalimat majemuk yang mengalir guna menjaga ketegangan kognitif dan kenyamanan membaca.",
+        "hints": [
+          "Memvariasikan kalimat pendek dan panjang untuk dinamika membaca.",
+          "Pilih opsi alternating between short, punchy sentences and longer periodic sentences."
+        ],
+        "skill": "syntactic-rhythm-cadence"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog meja redaksi penerbit universitas.",
+        "dialogue": [
+          [
+            "Chief Copyeditor",
+            "What is the hallmark of a truly pristine scholarly manuscript?"
+          ],
+          [
+            "Senior Editor",
+            "Uncompromising conceptual clarity achieved through relentless ___ of superfluous verbiage."
+          ]
+        ],
+        "options": [
+          "excising",
+          "decorating",
+          "inflating"
+        ],
+        "answer": 0,
+        "explanation": "'Excising' (memotong / membuang tanpa ampun) kata-kata mubazir adalah keterampilan utama penyunting naskah kelas dunia.",
+        "hints": [
+          "Memangkas/membuang kata-kata mubazir secara tegas.",
+          "Gunakan 'excising'."
+        ],
+        "skill": "strunk-white-editing-philosophy"
+      }
+    ]
+  }
+}

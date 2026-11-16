@@ -1,0 +1,223 @@
+{
+  "moduleKey": "00-foundation/03-to-be",
+  "title": "To Be (am / is / are)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "She ___ a senior software consultant at an international firm.",
+        "options": ["am", "is", "are"],
+        "answer": 1,
+        "explanation": "Subject 'She' (orang ketiga tunggal) berpasangan dengan to be 'is'.",
+        "hints": ["Subject adalah 'She'.", "Untuk he/she/it gunakan 'is'."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The team members ___ ready for the product demonstration.",
+        "options": ["is", "are", "am"],
+        "answer": 1,
+        "explanation": "'The team members' adalah subject jamak (plural/they), sehingga memakai to be 'are'.",
+        "hints": ["Perhatikan akhiran jamak -s pada 'members'.", "Subject jamak menggunakan 'are'."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deklaratif menggunakan to be yang tepat.",
+        "targetSentence": "I am responsible for customer support.",
+        "explanation": "Subject 'I' berpasangan dengan 'am', diikuti complement sifat 'responsible for customer support'.",
+        "hints": ["Awali dengan pronoun 'I'.", "Setelah 'I' gunakan to be 'am'."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The weather in this coastal town ___ very pleasant in April.",
+        "options": ["is", "are", "be"],
+        "answer": 0,
+        "explanation": "'The weather' adalah uncountable noun (kata benda tak terhitung/tunggal), sehingga memakai 'is'.",
+        "hints": ["Cuaca (weather) adalah kata benda tunggal.", "Gunakan 'is' untuk subjek tunggal."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya sederhana menggunakan to be.",
+        "targetSentence": "Are you available for a quick meeting?",
+        "explanation": "Kalimat tanya untuk 'you': To be (Are) + Subject (you) + Adjective (available) + Prepositional phrase.",
+        "hints": ["Awali pertanyaan dengan to be 'Are'.", "Letakkan subject 'you' setelah to be."],
+        "skill": "to-be-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both my brother and my sister ___ working remotely today.",
+        "options": ["is", "are", "am"],
+        "answer": 1,
+        "explanation": "Subjek majemuk yang dihubungkan dengan 'and' bernilai jamak (plural/they), jadi gunakan 'are'.",
+        "hints": ["Ada dua orang: brother dan sister.", "Dua subjek digabung dengan 'and' bernilai jamak."],
+        "skill": "to-be-plural"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif to be.",
+        "targetSentence": "This document is not the final version.",
+        "explanation": "Pola negatif: Subject (This document) + is + not + Noun phrase complement (the final version).",
+        "hints": ["Mulai dengan subject 'This document'.", "Gunakan 'is not' sebelum frasa pelengkap."],
+        "skill": "to-be-negation"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di resepsionis kantor dengan to be yang sesuai.",
+        "dialogue": [
+          ["Visitor", "Excuse me, ___ Mr. Rahman in his office right now?"],
+          ["Receptionist", "Yes, he is. Please have a seat for a moment."]
+        ],
+        "options": ["Is", "Are", "Am"],
+        "answer": 0,
+        "explanation": "'Mr. Rahman' adalah orang ketiga tunggal (he), sehingga pertanyaan memakai 'Is'.",
+        "hints": ["Subjek yang ditanyakan adalah 'Mr. Rahman' (tunggal).", "Gunakan 'Is' di awal pertanyaan."],
+        "skill": "to-be-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the manager nor the supervisors ___ satisfied with the initial draft.",
+        "options": ["is", "are", "was"],
+        "answer": 1,
+        "explanation": "Pada pola 'neither... nor...', to be menyesuaikan subjek terdekat yaitu 'the supervisors' (jamak), sehingga memakai 'are'.",
+        "hints": ["Perhatikan subjek yang paling dekat dengan to be ('supervisors').", "Subjek terdekat berbentuk jamak."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the supervisors nor the manager ___ present at the hearing.",
+        "options": ["are", "is", "were"],
+        "answer": 1,
+        "explanation": "Subjek terdekat dengan to be adalah 'the manager' (tunggal), maka to be yang tepat adalah 'is'.",
+        "hints": ["Subjek terdekat di sini adalah 'the manager' (tunggal).", "Gunakan 'is' sesuai aturan kedekatan (proximity rule)."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun respon tanya jawab singkat dengan to be.",
+        "targetSentence": "No they are not in the conference room.",
+        "explanation": "Respon negatif: No + subject pronoun (they) + are + not + prepositional phrase.",
+        "hints": ["Mulai dengan 'No'.", "Gunakan 'they are not' setelahnya."],
+        "skill": "to-be-negation"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih jawaban singkat yang gramatikal dan alami.",
+        "dialogue": [
+          ["Manager", "Are all project files updated on the shared drive?"],
+          ["Assistant", "Yes, ___."]
+        ],
+        "options": ["they are", "they're", "it is"],
+        "answer": 0,
+        "explanation": "Jawaban singkat positif tidak boleh disingkat dengan apostrof (tidak boleh 'Yes, they're'). Harus lengkap: 'Yes, they are.'",
+        "hints": ["Subjek 'files' adalah jamak (they).", "Jawaban singkat positif pantang disingkat (uncontracted)."],
+        "skill": "to-be-short-answer"
+      },
+      {
+        "type": "choice",
+        "prompt": "The committee ___ unanimous in its historic verdict.",
+        "options": ["is", "are", "am"],
+        "answer": 0,
+        "explanation": "Collective noun 'committee' yang bertindak sebagai satu kesatuan utuh (terlihat dari pronoun 'its') memakai to be tunggal 'is'.",
+        "hints": ["Perhatikan kata ganti 'its' (menandakan kesatuan tunggal).", "Gunakan 'is' untuk collective noun sebagai satu entitas."],
+        "skill": "to-be-collective"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya inversi dengan kata tanya Wh-.",
+        "targetSentence": "Why are the server logs unavailable today?",
+        "explanation": "Wh-word (Why) + to be (are) + Subject (the server logs) + Adjective complement (unavailable) + Time (today).",
+        "hints": ["Mulai dengan 'Why'.", "Letakkan 'are' sebelum subjek 'the server logs'."],
+        "skill": "to-be-question"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki subject-verb agreement pada kalimat yang disisipi frasa preposisi.",
+        "draft": "The primary cause of these complex issues are lack of communication.",
+        "options": [
+          "The primary cause of these complex issues is lack of communication.",
+          "The primary cause of these complex issues are the lack of communication.",
+          "The primary causes of this complex issue is lack of communication."
+        ],
+        "answer": 0,
+        "explanation": "Subjek utama kalimat adalah 'The primary cause' (tunggal), bukan 'issues'. Maka to be yang benar adalah 'is'.",
+        "hints": ["Abaikan frasa pengganggu 'of these complex issues'.", "Subjek intinya adalah 'cause' (tunggal)."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "A number of qualified candidates ___ being interviewed this afternoon.",
+        "options": ["is", "are", "am"],
+        "answer": 1,
+        "explanation": "Frasa 'A number of' berarti 'sejumlah/banyak' dan selalu diikuti noun jamak serta kata kerja jamak 'are'.",
+        "hints": ["'A number of' berbeda dengan 'The number of'.", "'A number of' bermakna jamak (several/many)."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sebaliknya: 'The number of applicants ___ increased substantially this quarter.'",
+        "options": ["has", "have", "are"],
+        "answer": 0,
+        "explanation": "Frasa 'The number of' mengacu pada angka/jumlah spesifik (entitas tunggal), sehingga memakai 'has' atau 'is'.",
+        "hints": ["'The number' merujuk pada angka tunggal.", "Gunakan bentuk singular."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan to be pada konstruksi sematan.",
+        "draft": "One of the most experienced directors are leading the new taskforce.",
+        "options": [
+          "One of the most experienced directors is leading the new taskforce.",
+          "One of the most experienced directors are being leading the new taskforce.",
+          "One of the most experienced director is leading the new taskforce."
+        ],
+        "answer": 0,
+        "explanation": "Pola 'One of + plural noun' memiliki subjek inti 'One' (satu orang/tunggal), sehingga membutuhkan to be 'is'.",
+        "hints": ["Subjek kalimat adalah 'One' (satu orang).", "Meskipun 'directors' jamak, pelakunya hanya satu."],
+        "skill": "to-be-agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan klausa relatif dan to be.",
+        "targetSentence": "The data that is collected remains confidential.",
+        "explanation": "'Data' di konteks modern teknologi sering diperlakukan sebagai singular mass noun: 'that is collected'.",
+        "hints": ["Mulai dengan 'The data'.", "Gunakan klausa relatif 'that is collected' sebelum verb utama 'remains'."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk to be yang sesuai dengan subjek semu (dummy subject).",
+        "dialogue": [
+          ["Auditor", "What is the reason for this expenditure?"],
+          ["Accountant", "It ___ the additional consulting fees that caused the surge."]
+        ],
+        "options": ["is", "are", "were"],
+        "answer": 0,
+        "explanation": "Pada cleft sentence yang diawali dummy 'It', to be SELALU berbentuk tunggal ('It is' atau 'It was'), meskipun kata yang ditekankan jamak.",
+        "hints": ["Pada konstruksi 'It is/was...', subjek tata bahasa adalah 'It'.", "'It' selalu berpasangan dengan to be tunggal."],
+        "skill": "to-be-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi to be pada kalimat dengan frasa 'as well as'.",
+        "draft": "The CEO, as well as her senior executives, are attending the summit.",
+        "options": [
+          "The CEO, as well as her senior executives, is attending the summit.",
+          "The CEO, as well as her senior executives, are being attending the summit.",
+          "The CEO as well as her senior executives were both attending the summit."
+        ],
+        "answer": 0,
+        "explanation": "Frasa sisipan seperti 'as well as', 'together with', atau 'along with' tidak mengubah jumlah subjek utama ('The CEO' = tunggal), sehingga tetap memakai 'is'.",
+        "hints": ["Subjek sebelum koma adalah 'The CEO' (tunggal).", "Frasa 'as well as' adalah keterangan tambahan, bukan penggabung jamak 'and'."],
+        "skill": "to-be-agreement"
+      }
+    ]
+  }
+}

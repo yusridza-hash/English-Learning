@@ -77,3 +77,44 @@ Before declaring a module expansion complete:
 - Test choice, dialogue, build, and edit interactions that the module uses, including hints, explanations, retry limits, and score calculation.
 - Confirm score/checklist persistence uses `el_quiz` and `el_check` and the dashboard still computes status correctly.
 - Run file diagnostics and check mobile/desktop for overflow.
+
+## Modular Question Bank Authoring (For Any AI Agent)
+
+To add new questions to any of the 58 modules **without editing the large `src/data/questionBank.ts` file**, drop a new `.pack.json` or `.pack.ts` file anywhere inside `src/data/question-packs/` (for example `src/data/question-packs/01-elementary/01-past-simple.pack.json`).
+
+Vite automatically discovers all files matching `src/data/question-packs/**/*.{ts,json}` at build/runtime, validates them via `src/data/questionPackSchema.ts`, and merges them into `QUESTION_BANK` and the Pop-up Quiz randomizer.
+
+### Option A: Pure JSON Pack (`.pack.json`)
+```json
+{
+  "moduleKey": "01-elementary/01-past-simple",
+  "title": "Past Simple",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "We ___ the client yesterday.",
+        "options": ["visited", "visit", "visiting"],
+        "answer": 0,
+        "explanation": "Yesterday menandai waktu lampau selesai, gunakan V2 visited.",
+        "hints": ["Perhatikan keterangan waktu yesterday.", "Pilih bentuk lampau (V2)."],
+        "skill": "past-simple-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Simple ini.",
+        "targetSentence": "She finished the report last night.",
+        "explanation": "Subject + V2 + object + keterangan waktu."
+      }
+    ],
+    "intermediate": [],
+    "complex": []
+  }
+}
+```
+> Note: For `"type": "build"`, you can simply pass `"targetSentence"` as a plain string and the loader automatically tokenizes, scrambles the word bank, and computes the exact `answer` index array.
+
+### Option B: TypeScript Helper Pack (`.pack.ts`)
+Use `defineQuestionPack`, `qChoice`, `qDialogue`, `qEdit`, and `qBuild` from `src/data/questionPackSchema.ts`. See `src/data/question-packs/00-foundation/04-articles.pack.ts` for a reference example.
+

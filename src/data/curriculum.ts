@@ -2,6 +2,7 @@ export interface CurriculumLevel {
   id: string;
   title: string;
   desc: string;
+  ieltsBand: string;
   modules: [string, string][];
 }
 
@@ -10,6 +11,7 @@ export const CURRICULUM: CurriculumLevel[] = [
     id: "00-foundation",
     title: "Level 0 · Foundation",
     desc: "Kelas kata & pola dasar",
+    ieltsBand: "IELTS 3.5 – 4.5 (A1 – A2)",
     modules: [
       ["01-parts-of-speech", "Parts of Speech"],
       ["02-sentence-svo", "Sentence: SVO"],
@@ -29,6 +31,7 @@ export const CURRICULUM: CurriculumLevel[] = [
     id: "01-elementary",
     title: "Level 1 · Elementary",
     desc: "Tenses & perbandingan",
+    ieltsBand: "IELTS 4.5 – 5.5 (B1)",
     modules: [
       ["01-past-simple", "Past Simple"],
       ["02-past-continuous", "Past Continuous"],
@@ -46,6 +49,7 @@ export const CURRICULUM: CurriculumLevel[] = [
     id: "02-intermediate",
     title: "Level 2 · Intermediate",
     desc: "Waktu & kalimat majemuk",
+    ieltsBand: "IELTS 5.5 – 6.5 (B2)",
     modules: [
       ["01-present-perfect-vs-past", "Present Perfect vs Past Simple"],
       ["02-present-perfect-continuous", "Present Perfect Continuous"],
@@ -65,6 +69,7 @@ export const CURRICULUM: CurriculumLevel[] = [
     id: "03-upper-intermediate",
     title: "Level 3 · Upper-Intermediate",
     desc: "Struktur kompleks & kohesi",
+    ieltsBand: "IELTS 6.5 – 7.5 (C1)",
     modules: [
       ["01-past-perfect-continuous", "Past Perfect Continuous"],
       ["02-future-perfect-continuous", "Future Perfect & Continuous"],
@@ -84,6 +89,7 @@ export const CURRICULUM: CurriculumLevel[] = [
     id: "04-advanced-formal",
     title: "Level 4 · Advanced-Formal",
     desc: "Register, presisi & kolokasi",
+    ieltsBand: "IELTS 7.5 – 8.5+ (C2 Academic)",
     modules: [
       ["01-complex-subordination", "Complex Subordination"],
       ["02-nominalization", "Nominalization"],

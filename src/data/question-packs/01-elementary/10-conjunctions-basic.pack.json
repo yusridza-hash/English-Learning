@@ -1,0 +1,226 @@
+{
+  "moduleKey": "01-elementary/10-conjunctions-basic",
+  "title": "Conjunctions (Basic)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "She studied diligently every evening, ___ she passed the professional certification exam.",
+        "options": ["so", "because", "although"],
+        "answer": 0,
+        "explanation": "'So' adalah coordinating conjunction yang menghubungkan sebab (studied diligently) dengan akibat/hasil logis (passed the exam).",
+        "hints": ["Menunjukkan hasil atau konsekuensi logis.", "Gunakan konjungsi akibat 'so'."],
+        "skill": "conjunction-coordinating"
+      },
+      {
+        "type": "choice",
+        "prompt": "The flight was delayed ___ there was an unexpected mechanical fault on the aircraft.",
+        "options": ["because", "so", "but"],
+        "answer": 0,
+        "explanation": "'Because' adalah subordinating conjunction yang memperkenalkan alasan atau penyebab ('karena ada kerusakan mesin').",
+        "hints": ["Menunjukkan alasan atau sebab di balik peristiwa.", "Gunakan konjungsi alasan 'because'."],
+        "skill": "conjunction-subordinating"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan konjungsi pertentangan 'but'.",
+        "targetSentence": "He worked hard but he did not succeed.",
+        "explanation": "Klausa pertama + coordinating conjunction 'but' + klausa pertentangan kedua.",
+        "hints": ["Klausa pertama: 'He worked hard'.", "Gunakan 'but he did not succeed'."],
+        "skill": "conjunction-coordinating"
+      },
+      {
+        "type": "choice",
+        "prompt": "You can pay with a credit card, ___ you can settle the bill in cash.",
+        "options": ["or", "and", "so"],
+        "answer": 0,
+        "explanation": "'Or' digunakan untuk menghubungkan dua alternatif pilihan (options/alternatives).",
+        "hints": ["Menghubungkan dua pilihan alternatif pembayaran.", "Gunakan konjungsi 'or'."],
+        "skill": "conjunction-coordinating"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan konjungsi konsesif 'although'.",
+        "targetSentence": "Although it was raining we enjoyed the concert.",
+        "explanation": "Although + dependent clause (it was raining) + main clause (we enjoyed the concert).",
+        "hints": ["Mulai dengan 'Although it was raining'.", "Main clause: 'we enjoyed the concert'."],
+        "skill": "conjunction-subordinating"
+      },
+      {
+        "type": "choice",
+        "prompt": "He is talented ___ hardworking, making him a valuable asset to the engineering team.",
+        "options": ["and", "or", "but"],
+        "answer": 0,
+        "explanation": "'And' menghubungkan dua ide positif yang setara dan saling melengkapi (talented and hardworking).",
+        "hints": ["Menghubungkan dua sifat positif yang setara.", "Gunakan kata hubung 'and'."],
+        "skill": "conjunction-coordinating"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan konjungsi waktu 'while'.",
+        "targetSentence": "I listened to music while I was cooking.",
+        "explanation": "Main clause (I listened to music) + while + continuous clause (I was cooking).",
+        "hints": ["Mulai dengan 'I listened to music'.", "Lanjutkan dengan 'while I was cooking'."],
+        "skill": "conjunction-subordinating"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di rapat perencanaan dengan correlative conjunction 'both ... and'.",
+        "dialogue": [
+          ["Project Manager", "Which operating systems will our mobile software support?"],
+          ["Lead Architect", "The app will be fully compatible with ___ iOS and Android."]
+        ],
+        "options": ["both", "either", "neither"],
+        "answer": 0,
+        "explanation": "Pasangan korelatif dari 'and' adalah 'both': 'both iOS and Android' (baik iOS maupun Android).",
+        "hints": ["Berpasangan dengan kata 'and'.", "Gunakan 'both ... and'."],
+        "skill": "conjunction-correlative"
+      },
+      {
+        "type": "choice",
+        "prompt": "We can schedule the demonstration ___ on Thursday afternoon or on Friday morning.",
+        "options": ["either", "neither", "both"],
+        "answer": 0,
+        "explanation": "Pasangan korelatif dari 'or' adalah 'either': 'either ... or' (salah satu dari dua kemungkinan).",
+        "hints": ["Berpasangan dengan kata 'or'.", "Gunakan 'either ... or'."],
+        "skill": "conjunction-correlative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The candidate has ___ the required educational credentials nor the practical field experience.",
+        "options": ["neither", "either", "both"],
+        "answer": 0,
+        "explanation": "Pasangan korelatif dari 'nor' adalah 'neither': 'neither ... nor' (tidak A dan tidak pula B).",
+        "hints": ["Berpasangan dengan kata 'nor'.", "Gunakan 'neither ... nor'."],
+        "skill": "conjunction-correlative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan correlative conjunction 'not only ... but also'.",
+        "targetSentence": "She is not only intelligent but also very kind.",
+        "explanation": "Pola: Subject + Verb + not only + Adjective 1 (intelligent) + but also + Adjective 2 (very kind).",
+        "hints": ["Mulai dengan 'She is not only intelligent'.", "Lanjutkan dengan 'but also very kind'."],
+        "skill": "conjunction-correlative"
+      },
+      {
+        "type": "choice",
+        "prompt": "You cannot access the corporate portal ___ you configure two-factor authentication.",
+        "options": ["unless", "if", "because"],
+        "answer": 0,
+        "explanation": "'Unless' bermakna 'kecuali jika / jika tidak' (if not). Kalimat bermakna: Anda tidak bisa mengakses portal kecuali jika Anda mengaktifkan 2FA.",
+        "hints": ["Bermakna 'kecuali jika' (if not).", "Gunakan 'unless'."],
+        "skill": "conjunction-conditional"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan konjungsi tujuan 'so that'.",
+        "targetSentence": "We left early so that we could avoid the morning traffic.",
+        "explanation": "'So that + modal clause' digunakan untuk menyatakan maksud atau tujuan (purpose).",
+        "hints": ["Klausa tindakan: 'We left early'.", "Klausa tujuan: 'so that we could avoid the morning traffic'."],
+        "skill": "conjunction-purpose"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih konjungsi kontras formal yang tepat dalam dialog.",
+        "dialogue": [
+          ["Director", "How did the pilot rollout proceed?"],
+          ["Project Lead", "The team achieved its milestones, ___ the timeline was exceptionally tight."]
+        ],
+        "options": ["even though", "because", "so"],
+        "answer": 0,
+        "explanation": "'Even though' menyatakan kontras kuat/konsesi yang nyata (meskipun / kendati).",
+        "hints": ["Menyatakan kenyataan yang kontras (meskipun tenggat waktu sangat ketat).", "Gunakan 'even though'."],
+        "skill": "conjunction-subordinating"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum 'double conjunction' (menggabungkan 'although' dan 'but' bersamaan).",
+        "draft": "Although the budget was severely constrained, but the engineering team delivered the project on time.",
+        "options": [
+          "Although the budget was severely constrained, the engineering team delivered the project on time.",
+          "The budget was severely constrained, but the engineering team delivered the project on time.",
+          "Both options above are grammatically correct corrections that eliminate the double conjunction."
+        ],
+        "answer": 2,
+        "explanation": "Dalam bahasa Inggris baku, TIDAK BOLEH menggabungkan 'Although' dan 'But' dalam satu kalimat majemuk (double conjunction error). Pilih salah satu: gunakan 'Although' di awal klausa anak TANPA 'but', ATAU gunakan 'but' di antara dua klausa independen.",
+        "hints": ["Jangan mendobel 'although' dan 'but' dalam satu kalimat.", "Keduanya merupakan opsi perbaikan yang sah."],
+        "skill": "conjunction-double-error"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan perbedaan konjungsi vs adverb transisi: 'The proposal was innovative; ___, it exceeded our allocated capital expenditure.'",
+        "options": ["however", "although", "despite"],
+        "answer": 0,
+        "explanation": "Diapit oleh titik koma (;) dan koma (,), kata yang menghubungkan dua kalimat independen adalah conjunctive adverb 'however'. 'Although' adalah konjungsi subordinat yang tidak digunakan dengan pola tanda baca ini.",
+        "hints": ["Diapit tanda titik koma (;) dan koma (,).", "Gunakan conjunctive adverb 'however'."],
+        "skill": "conjunction-vs-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Agreement with 'Neither ... nor': 'Neither the director nor the senior analysts ___ available for comment.'",
+        "options": ["were", "was", "is"],
+        "answer": 0,
+        "explanation": "Aturan Proximity pada 'neither... nor...': Kata kerja bersepakat dengan subjek yang PALING DEKAT. Karena 'the senior analysts' (jamak) berada paling dekat dengan verb, gunakan 'were'.",
+        "hints": ["Subjek terdekat dengan verb adalah 'senior analysts' (jamak).", "Kata kerja mengikuti subjek terdekat: 'were'."],
+        "skill": "conjunction-correlative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan konjungsi perbandingan kontras 'whereas'.",
+        "targetSentence": "Profits grew rapidly whereas operational costs remained stable.",
+        "explanation": "'Whereas' digunakan dalam konteks formal untuk mengontraskan dua fakta yang bertolak belakang secara berimbang.",
+        "hints": ["Klausa pertama: 'Profits grew rapidly'.", "Konjungsi kontras 'whereas' + 'operational costs remained stable'."],
+        "skill": "conjunction-contrast"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan antara konjungsi 'because' dan preposisi 'because of'.",
+        "draft": "The conference was canceled because the unforeseen flight cancellations across the continent.",
+        "options": [
+          "The conference was canceled because of the unforeseen flight cancellations across the continent.",
+          "The conference was canceled because that the unforeseen flight cancellations across the continent.",
+          "The conference was canceled so because the unforeseen flight cancellations across the continent."
+        ],
+        "answer": 0,
+        "explanation": "Frasa setelahnya adalah frasa kata benda tanpa predikat verb ('the unforeseen flight cancellations...'). Maka wajib menggunakan frasa preposisi 'because of', bukan konjungsi 'because'.",
+        "hints": ["Diikuti oleh frasa kata benda tanpa kata kerja.", "Gunakan 'because of', bukan 'because'."],
+        "skill": "conjunction-vs-preposition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilihlah kalimat yang menggunakan parallelism yang sempurna pada correlative conjunction.",
+        "options": [
+          "The program is designed not only to educate students but also to inspire them.",
+          "The program is designed not only to educate students but also inspiring them.",
+          "The program is not only designed to educate students but also inspires them."
+        ],
+        "answer": 0,
+        "explanation": "Aturan paralelisme (parallel structure): Elemen gramatikal setelah 'not only' dan 'but also' harus memiliki bentuk struktur yang identik ('not only TO EDUCATE ... but also TO INSPIRE').",
+        "hints": ["Struktur bentuk setelah 'not only' dan 'but also' harus seimbang/paralel.", "Keduanya menggunakan pola 'to + infinitive'."],
+        "skill": "conjunction-parallelism"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog hukum dengan konjungsi syarat formal 'provided that'.",
+        "dialogue": [
+          ["Licensor", "Can we deploy the proprietary software across foreign servers?"],
+          ["Legal Counsel", "Yes, ___ all user data remains encrypted at rest and in transit."]
+        ],
+        "options": [
+          "provided that",
+          "in case of",
+          "despite that"
+        ],
+        "answer": 0,
+        "explanation": "'Provided that' (atau 'providing that') adalah konjungsi formal yang bermakna 'dengan syarat bahwa / asalkan' (only if/on the condition that).",
+        "hints": ["Konjungsi formal bermakna 'dengan syarat bahwa'.", "Gunakan 'provided that'."],
+        "skill": "conjunction-conditional"
+      }
+    ]
+  }
+}

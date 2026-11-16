@@ -1,0 +1,218 @@
+{
+  "moduleKey": "01-elementary/03-future-will-going-to",
+  "title": "Future: will / going to",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Look at those dark storm clouds! It ___ rain very soon.",
+        "options": ["is going to", "will", "is raining"],
+        "answer": 0,
+        "explanation": "Ketika ada bukti fisik nyata yang terlihat saat ini (present evidence seperti awan gelap), gunakan 'be going to' untuk prediksi: 'It is going to rain'.",
+        "hints": ["Ada bukti fisik yang jelas terlihat di depan mata.", "Gunakan 'be going to' untuk prediksi berbasis bukti nyata."],
+        "skill": "future-going-to-evidence"
+      },
+      {
+        "type": "choice",
+        "prompt": "The telephone is ringing! — Don't worry, I ___ answer it.",
+        "options": ["will", "am going to", "shall to"],
+        "answer": 0,
+        "explanation": "Keputusan spontan yang dibuat pada saat berbicara (spontaneous on-the-spot decision) menggunakan modal 'will': 'I will answer it'.",
+        "hints": ["Keputusan mendadak dibuat seketika saat itu juga.", "Gunakan 'will' untuk keputusan spontan."],
+        "skill": "future-will-spontaneous"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat rencana masa depan yang sudah diniatkan (prior intention).",
+        "targetSentence": "We are going to launch the website next week.",
+        "explanation": "Subject (We) + are going to + base verb (launch) + the website + next week.",
+        "hints": ["Rencana yang sudah diniatkan sebelum berbicara.", "Gunakan 'are going to launch'."],
+        "skill": "future-going-to-plan"
+      },
+      {
+        "type": "choice",
+        "prompt": "I promise I ___ reveal your confidential project details to anyone.",
+        "options": ["won't", "am not going to", "will not to"],
+        "answer": 0,
+        "explanation": "Janji (promises), tawaran (offers), dan ancaman (threats) menggunakan modal 'will' atau bentuk negatifnya 'won't'.",
+        "hints": ["Menyatakan sebuah janji (promise).", "Gunakan 'won't'."],
+        "skill": "future-will-promise"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tawaran bantuan spontan.",
+        "targetSentence": "I will carry those heavy boxes for you.",
+        "explanation": "Tawaran bantuan spontan: I will + carry + those heavy boxes + for you.",
+        "hints": ["Mulai dengan tawaran 'I will carry'.", "Objek: those heavy boxes."],
+        "skill": "future-will-offer"
+      },
+      {
+        "type": "choice",
+        "prompt": "She has already bought her flight tickets; she ___ spend her vacation in Bali.",
+        "options": ["is going to", "will", "would"],
+        "answer": 0,
+        "explanation": "Karena tiket sudah dibeli (ada persiapan dan rencana matang), gunakan 'be going to': 'is going to spend'.",
+        "hints": ["Rencana yang sudah dipersiapkan dan diniatkan sebelumnya.", "Gunakan 'is going to'."],
+        "skill": "future-going-to-plan"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya rencana dengan 'Are you going to'.",
+        "targetSentence": "Are you going to attend the seminar tomorrow?",
+        "explanation": "Are you going to + base verb (attend) + the seminar + tomorrow?",
+        "hints": ["Awali dengan 'Are you going to'.", "Verb dasar adalah 'attend'."],
+        "skill": "future-going-to-question"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di restoran yang menunjukkan keputusan spontan.",
+        "dialogue": [
+          ["Waiter", "Are you ready to order, sir?"],
+          ["Customer", "Yes, I ___ have the grilled salmon and a sparkling water, please."]
+        ],
+        "options": ["will", "am going to", "must"],
+        "answer": 0,
+        "explanation": "Pemesanan makanan di restoran adalah keputusan spontan saat membaca menu, sehingga menggunakan 'will': 'I will have...'.",
+        "hints": ["Memutuskan pesanan seketika saat memesan.", "Gunakan 'will have'."],
+        "skill": "future-will-spontaneous"
+      },
+      {
+        "type": "choice",
+        "prompt": "In my opinion, renewable energy ___ replace fossil fuels within the next two decades.",
+        "options": ["will", "is going to", "is replacing"],
+        "answer": 0,
+        "explanation": "Prediksi berdasarkan opini pribadi atau keyakinan subjektif (personal belief/opinion setelah 'In my opinion' atau 'I think') biasanya memakai 'will'.",
+        "hints": ["Prediksi berbasis opini atau keyakinan subjektif.", "Gunakan 'will'."],
+        "skill": "future-will-prediction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Watch out! That unstable stack of crates ___ topple over!",
+        "options": ["is going to", "will", "shall"],
+        "answer": 0,
+        "explanation": "Peringatan darurat berdasarkan kejadian fisik yang sedang berlangsung saat itu (immediate visible evidence) menggunakan 'is going to'.",
+        "hints": ["Tanda-tanda fisik sudah terlihat bergoyang mau jatuh.", "Gunakan 'is going to'."],
+        "skill": "future-going-to-evidence"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat janji formal dengan 'will never'.",
+        "targetSentence": "We will never compromise on data security.",
+        "explanation": "Janji formal: We will never + compromise on + data security.",
+        "hints": ["Mulai dengan janji 'We will never'.", "Lanjutkan dengan 'compromise on data security'."],
+        "skill": "future-will-promise"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we organize a farewell dinner for the departing project manager?",
+        "options": ["Shall", "Will", "Are"],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris baku, 'Shall I / Shall we...?' digunakan untuk menawarkan saran atau usulan sopan (suggestions/offers with I/we).",
+        "hints": ["Saran atau tawaran sopan dengan subjek 'we'.", "Gunakan modal tradisional 'Shall'."],
+        "skill": "future-shall-suggestions"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penolakan tegas (refusal) dengan 'won't'.",
+        "targetSentence": "The printer won't print this document.",
+        "explanation": "'Won't' dapat digunakan untuk benda yang menolak berfungsi (refusal of an object): 'The car won't start / The printer won't print'.",
+        "hints": ["Mesin menolak berfungsi.", "Gunakan 'The printer won't print'."],
+        "skill": "future-will-refusal"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih bentuk rencana terkonfirmasi vs keputusan seketika.",
+        "dialogue": [
+          ["Manager", "Why are you packing up your files?"],
+          ["Staff", "Because I ___ clean out my desk before relocating tomorrow."]
+        ],
+        "options": ["am going to", "will", "shall"],
+        "answer": 0,
+        "explanation": "Rencana yang sudah diniatkan sebelum ditanya (prior plan/intention) menggunakan 'am going to clean'.",
+        "hints": ["Rencana ini sudah diniatkan sebelumnya.", "Gunakan 'am going to'."],
+        "skill": "future-going-to-plan"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan penggunaan 'will' di dalam klausa waktu (time clause).",
+        "draft": "As soon as the client will arrive, we will start the product walkthrough.",
+        "options": [
+          "As soon as the client arrives, we will start the product walkthrough.",
+          "As soon as the client is arriving, we will start the product walkthrough.",
+          "As soon as the client arrived, we will start the product walkthrough."
+        ],
+        "answer": 0,
+        "explanation": "Di dalam klausa waktu yang diawali konjungsi seperti 'as soon as', 'when', 'before', 'after', atau 'until', TIDAK boleh menggunakan 'will'. Wajib menggunakan Present Simple ('arrives') untuk menyatakan waktu masa depan.",
+        "hints": ["Klausa waktu (as soon as, when, before) tidak boleh memakai 'will'.", "Gunakan Present Simple di dalam klausa waktunya."],
+        "skill": "future-time-clauses"
+      },
+      {
+        "type": "choice",
+        "prompt": "If the audit team ___ any irregularities, they will notify executive management immediately.",
+        "options": ["discovers", "will discover", "is going to discover"],
+        "answer": 0,
+        "explanation": "Dalam First Conditional (If-clause), klausa 'if' menggunakan Present Simple ('discovers'), bukan 'will'.",
+        "hints": ["Klausa 'if' tidak boleh memakai 'will'.", "Gunakan bentuk Present Simple."],
+        "skill": "future-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "The train ___ at precisely 08:45 tomorrow morning according to the official timetable.",
+        "options": ["departs", "will be going to depart", "is departing to"],
+        "answer": 0,
+        "explanation": "Untuk jadwal transportasi umum atau agenda resmi yang sudah tertera di jadwal tetap (timetables/schedules), bahasa Inggris formal menggunakan Present Simple ('departs'), bukan 'will'.",
+        "hints": ["Jadwal transportasi resmi menggunakan Present Simple.", "Pilihlah bentuk Present Simple tunggal 'departs'."],
+        "skill": "future-timetables"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat klausa waktu masa depan dengan konjungsi 'until'.",
+        "targetSentence": "We will wait here until you return.",
+        "explanation": "Main clause (We will wait here) + Time clause (until you return). Di klausa 'until' gunakan Present Simple 'return'.",
+        "hints": ["Main clause memakai 'We will wait here'.", "Klausa 'until' menggunakan Present Simple 'you return'."],
+        "skill": "future-time-clauses"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kerancuan penggunaan modal masa depan pada klausa 'unless'.",
+        "draft": "We cannot finalize the deal unless the vendor will agree to the terms.",
+        "options": [
+          "We cannot finalize the deal unless the vendor agrees to the terms.",
+          "We cannot finalize the deal unless the vendor is agreeing to the terms.",
+          "We cannot finalize the deal unless the vendor will be agreeing to the terms."
+        ],
+        "answer": 0,
+        "explanation": "Sama seperti 'if', konjungsi syarat 'unless' (jika tidak) tidak boleh diikuti 'will'. Gunakan Present Simple: 'unless the vendor agrees'.",
+        "hints": ["Klausa 'unless' bertindak seperti klausa 'if'.", "Gunakan Present Simple: 'unless the vendor agrees'."],
+        "skill": "future-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "The international trade conference ___ take place next October in Singapore.",
+        "options": ["is to", "will be to", "is going"],
+        "answer": 0,
+        "explanation": "Struktur formal resmi 'be to + infinitive' ('is to take place') digunakan dalam konteks berita, diplomatik, atau instruksi resmi untuk peristiwa masa depan yang sudah dijadwalkan secara kenegaraan/resmi.",
+        "hints": ["Struktur diplomatik/berita formal: be + to-infinitive.", "Gunakan 'is to take place'."],
+        "skill": "future-formal-be-to"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi dengan janji bersyarat yang gramatikal.",
+        "dialogue": [
+          ["Supplier", "When can we expect the milestone payment?"],
+          ["Buyer", "We will issue the disbursement the moment the shipment ___ our warehouse."]
+        ],
+        "options": ["reaches", "will reach", "is going to reach"],
+        "answer": 0,
+        "explanation": "Frasa waktu 'the moment...' berfungsi sebagai konjungsi waktu (seperti as soon as), sehingga klausa berikutnya harus menggunakan Present Simple: 'reaches'.",
+        "hints": ["'The moment' adalah konjungsi waktu penanda saat.", "Klausa waktu memakai Present Simple 'reaches'."],
+        "skill": "future-time-clauses"
+      }
+    ]
+  }
+}

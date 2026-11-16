@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { PILOT_SKILL_GUIDE, PRESENT_SIMPLE_LEVELS } from "../data/presentSimplePilot";
+import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import { getChecks, saveChecks, saveScore } from "../utils/storage";
-import { GuidedQuestionItem, QuestionProgressState } from "./GuidedQuestionItem";
+import { QuestionProgressState } from "./GuidedQuestionItem";
+import { QuizLevelConfig } from "./LevelQuizModal";
+import { LevelQuizSummarySection } from "./LevelQuizSummarySection";
+import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SpeakButton } from "./SpeakButton";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface PresentSimplePilotViewProps {
   onNavigate: (path: string) => void;
@@ -9,14 +15,31 @@ interface PresentSimplePilotViewProps {
 
 const MODULE_KEY = "00-foundation/07-present-simple";
 
+function buildPilotQuizLevels(): QuizLevelConfig[] {
+  return PRESENT_SIMPLE_LEVELS.map((lvl, idx) => ({
+    key: lvl.key,
+    label: `0${idx + 1} · ${lvl.title}`,
+    title: lvl.title,
+    description: lvl.description,
+    materialId: `materi-${lvl.key}`,
+    quizId: `latihan-${lvl.key}`,
+    questions: getRandomizedLevelQuestions(MODULE_KEY, lvl.key, lvl.questions, 10),
+  }));
+}
+
 export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ onNavigate }) => {
   const [checks, setChecks] = useState<boolean[]>(() => {
     const saved = getChecks()[MODULE_KEY] || [];
     return [Boolean(saved[0]), Boolean(saved[1]), Boolean(saved[2])];
   });
 
+  const [quizLevels, setQuizLevels] = useState<QuizLevelConfig[]>(() => buildPilotQuizLevels());
+  const [sessionSeed, setSessionSeed] = useState<number[]>([0, 0, 0]);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+  const [activeLevelIndex, setActiveLevelIndex] = useState<number>(0);
+
   const [questionStates, setQuestionStates] = useState<QuestionProgressState[][]>(() =>
-    PRESENT_SIMPLE_LEVELS.map((level) =>
+    quizLevels.map((level) =>
       level.questions.map(() => ({
         attempts: 0,
         points: 0,
@@ -39,6 +62,39 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
     saveChecks(MODULE_KEY, next);
   };
 
+  const handleOpenLevelModal = (levelIndex: number) => {
+    setActiveLevelIndex(levelIndex);
+    setModalOpen(true);
+  };
+
+  const handleRandomizeLevel = (levelIndex: number) => {
+    const baseLevel = PRESENT_SIMPLE_LEVELS[levelIndex];
+    if (!baseLevel) return;
+    const newQuestions = getRandomizedLevelQuestions(
+      MODULE_KEY,
+      baseLevel.key,
+      baseLevel.questions,
+      10
+    );
+
+    setQuizLevels((prev) =>
+      prev.map((lvl, idx) => (idx === levelIndex ? { ...lvl, questions: newQuestions } : lvl))
+    );
+    setQuestionStates((prev) =>
+      prev.map((lvlStates, idx) =>
+        idx === levelIndex
+          ? newQuestions.map(() => ({
+              attempts: 0,
+              points: 0,
+              correct: false,
+              completed: false,
+            }))
+          : lvlStates
+      )
+    );
+    setSessionSeed((prev) => prev.map((s, idx) => (idx === levelIndex ? s + 1 : s)));
+  };
+
   const handleUpdateQuestionState = (
     levelIndex: number,
     questionIndex: number,
@@ -53,7 +109,7 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
 
       const allStates = next.flat();
       const completedCount = allStates.filter((q) => q.completed).length;
-      if (completedCount === allStates.length) {
+      if (completedCount === allStates.length && allStates.length > 0) {
         const earned = allStates.reduce((sum, q) => sum + q.points, 0);
         const score = Math.round((earned / (allStates.length * 3)) * 100);
         saveScore(MODULE_KEY, score);
@@ -63,11 +119,12 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
     });
   };
 
-  const allStates = questionStates.flat();
-  const totalCompletedCount = allStates.filter((q) => q.completed).length;
-  const totalEarned = allStates.reduce((sum, q) => sum + q.points, 0);
-  const allCompleted = totalCompletedCount === allStates.length;
-  const finalScore = Math.round((totalEarned / (allStates.length * 3)) * 100);
+  const handleJumpToMaterial = (anchorId: string) => {
+    const el = document.getElementById(anchorId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
     e.preventDefault();
@@ -76,6 +133,7 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
 
   return (
     <>
+      <OfflineIndicator />
       <nav>
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
@@ -83,6 +141,14 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           Kurikulum
         </a>
+        <a href="word-choice-bank.html" onClick={(e) => handleLinkClick(e, "word-choice-bank.html")}>
+          Word Bank
+        </a>
+        <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
+          Error Journal
+        </a>
+        <PWAInstallButton />
+        <ThemeToggle />
       </nav>
 
       <main className="module-page guided-learning">
@@ -98,7 +164,7 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
         </div>
         <p className="module-meta">
           <span>Materi: 3 level</span>
-          <span>Latihan: 30 soal</span>
+          <span>Latihan: Pop-up 30 soal (Acak Bank Soal)</span>
           <span>Target: 80%</span>
         </p>
 
@@ -106,9 +172,33 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
           <a href="#materi-simple">Materi Simple</a>
           <a href="#materi-intermediate">Materi Intermediate</a>
           <a href="#materi-complex">Materi Complex</a>
-          <a href="#latihan-simple">Kuis Simple</a>
-          <a href="#latihan-intermediate">Kuis Intermediate</a>
-          <a href="#latihan-complex">Kuis Complex</a>
+          <a
+            href="#latihan-simple"
+            onClick={(e) => {
+              e.preventDefault();
+              handleOpenLevelModal(0);
+            }}
+          >
+            ▸ Pop-up Kuis Simple
+          </a>
+          <a
+            href="#latihan-intermediate"
+            onClick={(e) => {
+              e.preventDefault();
+              handleOpenLevelModal(1);
+            }}
+          >
+            ▸ Pop-up Kuis Intermediate
+          </a>
+          <a
+            href="#latihan-complex"
+            onClick={(e) => {
+              e.preventDefault();
+              handleOpenLevelModal(2);
+            }}
+          >
+            ▸ Pop-up Kuis Complex
+          </a>
         </nav>
 
         <section className="guided-lesson" id="materi-simple">
@@ -127,12 +217,14 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             kebiasaan.
           </p>
           <p className="guided-example">
-            <b>I check customer messages every morning.</b>
+            <b>I check customer messages every morning.</b>{" "}
+            <SpeakButton text="I check customer messages every morning." />
             <br />
             <span>Aku memeriksa pesan pelanggan setiap pagi.</span>
           </p>
           <p className="guided-example">
-            <b>Mira checks the sales report before the meeting.</b>
+            <b>Mira checks the sales report before the meeting.</b>{" "}
+            <SpeakButton text="Mira checks the sales report before the meeting." />
             <br />
             <span>Mira memeriksa laporan penjualan sebelum rapat.</span>
           </p>
@@ -143,12 +235,14 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             bentuk continuous.
           </p>
           <p className="guided-example">
-            <b>Water boils at 100°C at sea level.</b>
+            <b>Water boils at 100°C at sea level.</b>{" "}
+            <SpeakButton text="Water boils at 100 degrees Celsius at sea level." />
             <br />
             <span>Air mendidih pada suhu 100°C di permukaan laut.</span>
           </p>
           <p className="guided-example">
-            <b>Our office has two meeting rooms.</b>
+            <b>Our office has two meeting rooms.</b>{" "}
+            <SpeakButton text="Our office has two meeting rooms." />
             <br />
             <span>Kantor kami memiliki dua ruang rapat.</span>
           </p>
@@ -223,9 +317,16 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <b>She studies English, but her colleagues study Indonesian.</b> Periksa subject sebelum
             mengubah ejaan verb.
           </p>
-          <a className="guided-shortcut" href="#latihan-simple">
-            Uji pemahaman Simple →
-          </a>
+          <div className="toolbar-actions">
+            <button
+              type="button"
+              className="check-quiz"
+              style={{ marginTop: 0 }}
+              onClick={() => handleOpenLevelModal(0)}
+            >
+              ▸ Uji Pemahaman Simple (Pop-up) →
+            </button>
+          </div>
         </section>
 
         <section className="guided-lesson" id="materi-intermediate">
@@ -271,19 +372,22 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
           <p className="guided-example">
             <span className="guided-error">✗</span> He doesn&apos;t <i>checks</i> the schedule.
             <br />
-            <b>✓ He doesn&apos;t check the schedule.</b>
+            <b>✓ He doesn&apos;t check the schedule.</b>{" "}
+            <SpeakButton text="He doesn't check the schedule." />
           </p>
           <h3 id="materi-do-does-question">2. Pertanyaan yes/no dan jawaban singkat</h3>
           <p>
             Letakkan <b>do/does</b> sebelum subject. Gunakan verb dasar setelah subject.
           </p>
           <p className="guided-example">
-            <b>Do you review the orders every morning?</b>
+            <b>Do you review the orders every morning?</b>{" "}
+            <SpeakButton text="Do you review the orders every morning? Yes, I do." />
             <br />
             <span>Yes, I do. / No, I don&apos;t.</span>
           </p>
           <p className="guided-example">
-            <b>Does Niko work on Sundays?</b>
+            <b>Does Niko work on Sundays?</b>{" "}
+            <SpeakButton text="Does Niko work on Sundays? No, he doesn't." />
             <br />
             <span>Yes, he does. / No, he doesn&apos;t.</span>
           </p>
@@ -314,9 +418,16 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <b>Does your manager usually start early?</b> ·{" "}
             <b>My manager doesn&apos;t usually start early.</b>
           </p>
-          <a className="guided-shortcut" href="#latihan-intermediate">
-            Uji pemahaman Intermediate →
-          </a>
+          <div className="toolbar-actions">
+            <button
+              type="button"
+              className="check-quiz"
+              style={{ marginTop: 0 }}
+              onClick={() => handleOpenLevelModal(1)}
+            >
+              ▸ Uji Pemahaman Intermediate (Pop-up) →
+            </button>
+          </div>
         </section>
 
         <section className="guided-lesson" id="materi-complex">
@@ -329,7 +440,8 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
           </p>
           <h3 id="materi-routine-vs-now">1. Rutinitas dibanding kegiatan saat ini</h3>
           <p className="guided-example">
-            <b>Nadia usually works from home, but today she is working at the office.</b>
+            <b>Nadia usually works from home, but today she is working at the office.</b>{" "}
+            <SpeakButton text="Nadia usually works from home, but today she is working at the office." />
             <br />
             <span>
               Kebiasaan: <i>usually works</i>. Situasi sementara hari ini: <i>is working</i>.
@@ -345,7 +457,8 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             meskipun waktunya akan datang.
           </p>
           <p className="guided-example">
-            <b>The first train leaves at 6:20 tomorrow morning.</b>
+            <b>The first train leaves at 6:20 tomorrow morning.</b>{" "}
+            <SpeakButton text="The first train leaves at 6:20 tomorrow morning." />
             <br />
             <span>Kereta pertama berangkat pukul 6:20 besok pagi. Ini jadwal tetap.</span>
           </p>
@@ -355,7 +468,8 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             Present Simple saat maknanya berupa keadaan.
           </p>
           <p className="guided-example">
-            <b>I understand the instructions, and I need one more copy.</b>
+            <b>I understand the instructions, and I need one more copy.</b>{" "}
+            <SpeakButton text="I understand the instructions, and I need one more copy." />
           </p>
           <p className="guided-example">
             <span className="guided-error">✗</span> I am understanding the instructions.
@@ -371,7 +485,8 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <b>
               Our support team answers calls until six. This week, two agents are covering the
               evening shift.
-            </b>
+            </b>{" "}
+            <SpeakButton text="Our support team answers calls until six. This week, two agents are covering the evening shift." />
             <br />
             <span>
               Aturan umum memakai <i>answers</i>; pengaturan sementara minggu ini memakai{" "}
@@ -383,136 +498,34 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <br />
             <b>Kegiatan sementara yang sedang berlangsung → Present Continuous.</b>
           </p>
-          <a className="guided-shortcut" href="#latihan-complex">
-            Uji pemahaman Complex →
-          </a>
-        </section>
-
-        <section className="guided-practice-area" id="latihan">
-          <p className="level">Latihan setelah materi</p>
-          <h2>Periksa pemahaman per level</h2>
-          <p>
-            Setiap level berisi 10 soal. Pilih jawaban untuk semuanya, lalu periksa untuk melihat
-            skor dan pembahasan.
-          </p>
-          <p className="guided-quiz-progress" id="presentSimpleQuizProgress" aria-live="polite">
-            {totalCompletedCount} dari {allStates.length} soal diperiksa
-          </p>
-          <div id="presentSimpleQuiz">
-            {PRESENT_SIMPLE_LEVELS.map((level, levelIndex) => {
-              const lvlStates = questionStates[levelIndex];
-              const completedCount = lvlStates.filter((q) => q.completed).length;
-              const correctCount = lvlStates.filter((q) => q.correct).length;
-              const points = lvlStates.reduce((sum, q) => sum + q.points, 0);
-              const isLevelDone = completedCount === level.questions.length;
-              const levelPassed = points >= level.questions.length * 3 * 0.8;
-
-              const skillTotals = new Map<string, { correct: number; count: number }>();
-              if (isLevelDone) {
-                level.questions.forEach((question, qIdx) => {
-                  const sk = question.skill || "agreement";
-                  const total = skillTotals.get(sk) || { correct: 0, count: 0 };
-                  total.count += 1;
-                  if (lvlStates[qIdx].correct) total.correct += 1;
-                  skillTotals.set(sk, total);
-                });
-              }
-              const reviewSkills = [...skillTotals.entries()].filter(
-                ([, total]) => total.correct / total.count < 0.8
-              );
-
-              return (
-                <section
-                  key={level.key}
-                  className="guided-question-level"
-                  id={`latihan-${level.key}`}
-                >
-                  <p className="level">
-                    0{levelIndex + 1} · {level.title} · {level.questions.length} soal
-                  </p>
-                  <h3>{level.title}: latihan dan feedback</h3>
-                  <p>{level.description}</p>
-                  <p
-                    className="guided-level-progress"
-                    id={`progress-${level.key}`}
-                    aria-live="polite"
-                  >
-                    {completedCount}/{level.questions.length} soal diperiksa
-                  </p>
-                  <div className="guided-level-questions" id={`questions-${level.key}`}>
-                    {level.questions.map((question, questionIndex) => (
-                      <GuidedQuestionItem
-                        key={`${level.key}-${questionIndex}`}
-                        question={question}
-                        questionIndex={questionIndex}
-                        state={lvlStates[questionIndex]}
-                        onUpdateState={(nextState) =>
-                          handleUpdateQuestionState(levelIndex, questionIndex, nextState)
-                        }
-                        fallbackSecondHint="Periksa lagi agreement subject-verb dan posisi auxiliary."
-                      />
-                    ))}
-                  </div>
-                  <div
-                    className="guided-level-result"
-                    id={`result-${level.key}`}
-                    aria-live="polite"
-                    data-state={isLevelDone ? (levelPassed ? "pass" : "retry") : undefined}
-                  >
-                    {isLevelDone && (
-                      <>
-                        <p>
-                          Hasil {level.title}: {correctCount}/{level.questions.length} benar ·{" "}
-                          {points}/{level.questions.length * 3} poin.
-                        </p>
-                        <p className="guided-skill-review">
-                          {reviewSkills.length > 0 ? (
-                            <>
-                              Topik untuk diulang:{" "}
-                              {reviewSkills.map(([skill, total], idx) => {
-                                const guide = PILOT_SKILL_GUIDE[skill] || {
-                                  label: skill,
-                                  href: `#materi-${level.key}`,
-                                };
-                                return (
-                                  <React.Fragment key={skill}>
-                                    {idx > 0 && " · "}
-                                    <a href={guide.href}>
-                                      {guide.label} ({total.correct}/{total.count})
-                                    </a>
-                                  </React.Fragment>
-                                );
-                              })}
-                            </>
-                          ) : (
-                            "Semua topik di level ini sudah mencapai 80% atau lebih."
-                          )}
-                        </p>
-                      </>
-                    )}
-                  </div>
-                  <a className="guided-shortcut guided-back" href={`#materi-${level.key}`}>
-                    ← Kembali ke materi {level.title}
-                  </a>
-                </section>
-              );
-            })}
+          <div className="toolbar-actions">
+            <button
+              type="button"
+              className="check-quiz"
+              style={{ marginTop: 0 }}
+              onClick={() => handleOpenLevelModal(2)}
+            >
+              ▸ Uji Pemahaman Complex (Pop-up) →
+            </button>
           </div>
-          <p
-            className="guided-feedback"
-            id="presentSimpleOverall"
-            aria-live="polite"
-            data-state={allCompleted ? (finalScore >= 80 ? "pass" : "retry") : undefined}
-          >
-            {allCompleted
-              ? `Skor akhir: ${finalScore}% (${totalEarned}/${allStates.length * 3} poin). ${
-                  finalScore >= 80
-                    ? "LULUS. Nilai tersimpan di dashboard."
-                    : "Belum lulus. Pelajari pembahasan dan ulangi latihan."
-                }`
-              : ""}
-          </p>
         </section>
+
+        <LevelQuizSummarySection
+          moduleKey={MODULE_KEY}
+          moduleTitle="Present Simple"
+          levels={quizLevels}
+          questionStates={questionStates}
+          sessionSeed={sessionSeed}
+          modalOpen={modalOpen}
+          activeLevelIndex={activeLevelIndex}
+          skillGuide={PILOT_SKILL_GUIDE}
+          fallbackSecondHint="Periksa lagi agreement subject-verb dan posisi auxiliary."
+          onOpenLevelModal={handleOpenLevelModal}
+          onCloseModal={() => setModalOpen(false)}
+          onRandomizeLevel={handleRandomizeLevel}
+          onUpdateQuestionState={handleUpdateQuestionState}
+          onJumpToMaterial={handleJumpToMaterial}
+        />
 
         <section className="guided-mission">
           <p className="level">Refleksi mandiri</p>
@@ -531,6 +544,11 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             onChange={(e) => setWritingDraft(e.target.value)}
             placeholder="I start work at ... I usually ... My colleague ..."
           />
+          {writingDraft.trim() && (
+            <div style={{ marginTop: ".5rem" }}>
+              <SpeakButton text={writingDraft} label="Dengarkan Tulisanmu" />
+            </div>
+          )}
           <fieldset className="guided-selfcheck">
             <legend>Cek pemahaman</legend>
             <label>

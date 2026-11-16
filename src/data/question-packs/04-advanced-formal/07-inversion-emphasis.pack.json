@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/07-inversion-emphasis",
+  "title": "Inversion & Emphasis",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Negative inversion with 'Not only': 'Not only ___ the data thoroughly, but they also uncovered fraud.'",
+        "options": [
+          "did they audit",
+          "they audited",
+          "they did audit"
+        ],
+        "answer": 0,
+        "explanation": "Not only di awal klausa mewajibkan inversi pola pertanyaan: auxiliary (did) + subjek (they) + verb dasar (audit).",
+        "hints": [
+          "Inversi dengan 'Not only'.",
+          "Gunakan 'did they audit'."
+        ],
+        "skill": "not-only-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with 'Under no circumstances': 'Under no circumstances ___ unauthorized personnel enter the reactor room.'",
+        "options": [
+          "may",
+          "will they",
+          "they may"
+        ],
+        "answer": 0,
+        "explanation": "Under no circumstances + modal (may) + subjek (unauthorized personnel) + verb (enter).",
+        "hints": [
+          "Inversi larangan mutlak.",
+          "Gunakan modal 'may' sebelum subjek."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'Rarely'.",
+        "targetSentence": "Rarely has such profound scientific progress been accomplished.",
+        "explanation": "Rarely + has (auxiliary) + such profound scientific progress (subject) + been accomplished (verb).",
+        "hints": [
+          "Mulai dengan 'Rarely has'.",
+          "Subjek dan pasif: 'such profound scientific progress been accomplished'."
+        ],
+        "skill": "negative-inversion-rarely"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with 'Little': 'Little ___ that his research would ignite a medical revolution.'",
+        "options": [
+          "did the chemist suspect",
+          "the chemist suspected",
+          "suspected the chemist"
+        ],
+        "answer": 0,
+        "explanation": "'Little did + subject + verb' adalah formula klasik penekanan ketidaktahuan total di masa lalu.",
+        "hints": [
+          "Formula: Little did [subject] suspect.",
+          "Gunakan 'did the chemist suspect'."
+        ],
+        "skill": "negative-inversion-little"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi penekanan 'At no time'.",
+        "targetSentence": "At no time did the witnesses contradict their testimony.",
+        "explanation": "At no time + did the witnesses contradict + their testimony.",
+        "hints": [
+          "Mulai dengan 'At no time did the witnesses'.",
+          "Predikat dan objek: 'contradict their testimony'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with 'Seldom': 'Seldom ___ an orator captivate an audience so thoroughly.'",
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Present simple habit/ability: Seldom + does + an orator (subjek tunggal) + captivate (verb dasar).",
+        "hints": [
+          "Auxiliary untuk subjek tunggal 'an orator'.",
+          "Gunakan 'does'."
+        ],
+        "skill": "negative-inversion-seldom"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'No sooner... than'.",
+        "targetSentence": "No sooner had the treaty been signed than border clashes ceased.",
+        "explanation": "No sooner had the treaty been signed + than border clashes ceased.",
+        "hints": [
+          "Mulai dengan 'No sooner had the treaty been signed'.",
+          "Klausa sambung: 'than border clashes ceased'."
+        ],
+        "skill": "inversion-no-sooner-than"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog retoris pidato kenegaraan.",
+        "dialogue": [
+          [
+            "Speaker",
+            "Has any administration ever faced such multifaceted crises?"
+          ],
+          [
+            "Historian",
+            "Never before in the annals of the republic ___ the sovereign institutions been tested so severely."
+          ]
+        ],
+        "options": [
+          "have",
+          "did",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Never before + auxiliary (have) + the sovereign institutions (subjek jamak) + been tested.",
+        "hints": [
+          "Inversi dengan 'Never before'.",
+          "Subjek jamak: gunakan auxiliary 'have'."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fronting an adjective for dramatic emphasis: '___ were his rhetorical gifts that even sworn adversaries were swayed.'",
+        "options": [
+          "So persuasive",
+          "Such persuasive",
+          "Very persuasive"
+        ],
+        "answer": 0,
+        "explanation": "Pola: 'So + adjective + were/was + subject + that...': 'So persuasive were his rhetorical gifts that...'.",
+        "hints": [
+          "Pola: So + adj + to be + subject + that...",
+          "Gunakan 'So persuasive'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Such inversion: '___ was the severity of the frost that citrus groves across the province perished.'",
+        "options": [
+          "Such",
+          "So",
+          "Thus"
+        ],
+        "answer": 0,
+        "explanation": "Pola: 'Such + was/were + noun phrase + that...': 'Such was the severity of the frost that...'.",
+        "hints": [
+          "Pola 'Such + was + noun phrase + that...'",
+          "Gunakan 'Such'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi 'Only when'.",
+        "targetSentence": "Only when the audit was finalized did management realize the deficit.",
+        "explanation": "Only when the audit was finalized (adverbial clause) + did management realize (inversion) + the deficit.",
+        "hints": [
+          "Mulai dengan anak kalimat waktu: 'Only when the audit was finalized'.",
+          "Inversi klausa utama: 'did management realize the deficit'."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with comparative clause: 'The president delivered an address, as ___ all prime ministers before him.'",
+        "options": [
+          "had",
+          "did have",
+          "having"
+        ],
+        "answer": 0,
+        "explanation": "Dalam klausa komparatif formal dengan 'as' atau 'than', inversi subjek-auxiliary lazim digunakan: 'as had all prime ministers...'.",
+        "hints": [
+          "Inversi komparatif setelah 'as'.",
+          "Gunakan auxiliary 'had'."
+        ],
+        "skill": "comparative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi dengan 'So profound'.",
+        "targetSentence": "So profound was his grief that he retired from public life.",
+        "explanation": "So profound was his grief + that he retired from public life.",
+        "hints": [
+          "Mulai dengan 'So profound was his grief'.",
+          "Klausa konsekuensi: 'that he retired from public life'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis keamanan siber.",
+        "dialogue": [
+          [
+            "Director",
+            "Could the unauthorized intruder gain access without hardware tokens?"
+          ],
+          [
+            "Engineer",
+            "On no account ___ the internal firewall permit external administrative logins."
+          ]
+        ],
+        "options": [
+          "will",
+          "is",
+          "does have"
+        ],
+        "answer": 0,
+        "explanation": "'On no account will the firewall permit...' melarang keras akses dengan penekanan inversi modal.",
+        "hints": [
+          "Inversi larangan tegas 'On no account'.",
+          "Gunakan modal 'will'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan penempatan inversi pada klausa 'Only after'.",
+        "draft": "Only after did the regulatory body investigate the bank the accounts were unfreezed.",
+        "options": [
+          "Only after the regulatory body investigated the bank were the accounts unfrozen.",
+          "Only after did the body investigate the bank were the accounts unfreezed.",
+          "Only after the body investigated did the accounts unfroze."
+        ],
+        "answer": 0,
+        "explanation": "Pada konstruksi 'Only after [clause]', klausa 'after' tetap menggunakan urutan kata normal (the regulatory body investigated). Inversi HANYA terjadi pada klausa utama: 'were the accounts unfrozen'. Selain itu, bentuk V3 dari freeze adalah 'unfrozen' (bukan unfreezed).",
+        "hints": [
+          "Inversi hanya pada klausa utama.",
+          "Past participle freeze adalah frozen."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rhetorical stylistics: What distinct communicative value does inversion impart in formal and literary English?",
+        "options": [
+          "It elevates informational salience, crafts dramatic suspense, and marks high rhetorical solemnity.",
+          "It converts declarative statements into colloquial jokes.",
+          "It is a syntactic error that authors try to hide."
+        ],
+        "answer": 0,
+        "explanation": "Inversi mengangkat derajat keterlihatan informasi (salience), menciptakan ketegangan artistik/dramatik, dan memberikan wibawa retoris tingkat tinggi.",
+        "hints": [
+          "Meningkatkan bobot retoris dan ketegangan artistik.",
+          "Pilih opsi elevates informational salience and rhetorical solemnity."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "Inversion with participle fronting: '___ atop the ancient marble plinth was the bronze bust of Caesar.'",
+        "options": [
+          "Perched",
+          "Perching",
+          "Having perched"
+        ],
+        "answer": 0,
+        "explanation": "Participle fronting (memajukan kata kerja past participle ke depan kalimat untuk efek dramatis): 'Perched atop the ancient plinth was...'.",
+        "hints": [
+          "Participle pasif di awal kalimat mendahului to be.",
+          "Gunakan 'Perched'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat participle fronting sastra formal.",
+        "targetSentence": "Hanging from the gilded ceiling was a magnificent Venetian chandelier.",
+        "explanation": "Hanging from the gilded ceiling + was (verb) + a magnificent Venetian chandelier (subject).",
+        "hints": [
+          "Mulai dengan participle tempat: 'Hanging from the gilded ceiling'.",
+          "Verb dan subjek: 'was a magnificent Venetian chandelier'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi struktur inversi komparatif ganda yang cacat.",
+        "draft": "So heavy the snowfall was that the mountain pass was closed for a fortnight.",
+        "options": [
+          "So heavy was the snowfall that the mountain pass was closed for a fortnight.",
+          "Such heavy was the snowfall that the pass was closed.",
+          "So was the heavy snowfall that the mountain pass was closed."
+        ],
+        "answer": 0,
+        "explanation": "Pola baku: 'So + adjective (heavy) + was (verb) + the snowfall (subject) + that...'. Menempatkan subjek sebelum 'was' menghilangkan efek inversi yang dituju.",
+        "hints": [
+          "Pola: So + adjective + was + subject.",
+          "Ganti menjadi 'So heavy was the snowfall'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence with impeccable formal correlative inversion:",
+        "options": [
+          "Not until the final ballots were tallied did either candidate concede defeat.",
+          "Not until were the final ballots tallied did the candidate concede.",
+          "Not until the final ballots tallied the candidate conceded."
+        ],
+        "answer": 0,
+        "explanation": "Urutan sintaksis sempurna: 'Not until [normal clause] did [subject] [base verb]'.",
+        "hints": [
+          "Sintaksis sempurna: inversi pada klausa utama.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perdebatan doktrin yurisprudensi.",
+        "dialogue": [
+          [
+            "Chief Justice",
+            "Can the executive order override statutory enactments?"
+          ],
+          [
+            "Solicitor General",
+            "In no historical precedent ___ the executive claimed such unfettered prerogative."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "In no historical precedent + auxiliary has + the executive (subjek) + claimed (V3).",
+        "hints": [
+          "Inversi preseden sejarah dengan auxiliary has.",
+          "Gunakan 'has'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      }
+    ]
+  }
+}

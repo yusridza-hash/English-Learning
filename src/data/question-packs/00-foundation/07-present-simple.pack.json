@@ -1,0 +1,69 @@
+{
+  "moduleKey": "00-foundation/07-present-simple",
+  "title": "Present Simple",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Our finance department ___ all reimbursement requests on Fridays.",
+        "options": ["process", "processes", "processing"],
+        "answer": 1,
+        "explanation": "Department adalah noun tunggal (setara dengan 'it') dan berakhiran -ss, sehingga ditambah -es menjadi 'processes'.",
+        "hints": [
+          "Perhatikan subject tunggal 'Our finance department'.",
+          "Verb berakhiran -ss mendapat akhiran -es untuk subject tunggal."
+        ],
+        "skill": "verb-spelling"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tentang jadwal keberangkatan pesawat ini.",
+        "targetSentence": "The flight leaves at seven every morning.",
+        "explanation": "Jadwal rutin memakai Present Simple; 'The flight' (tunggal) memakai 'leaves'.",
+        "hints": [
+          "Mulai dengan subject 'The flight'.",
+          "Letakkan verb 'leaves' sebelum keterangan waktu."
+        ],
+        "skill": "schedules"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi pertanyaan dalam dialog wawancara kerja ini.",
+        "dialogue": [
+          ["HR", "___ your current team use project management software?"],
+          ["Candidate", "Yes, we use it every day to track tasks."]
+        ],
+        "options": ["Do", "Does", "Is"],
+        "answer": 1,
+        "explanation": "'Your current team' adalah subject tunggal, sehingga pertanyaan Present Simple memakai auxiliary 'Does'.",
+        "hints": [
+          "Periksa subject 'your current team' (tunggal) dan main verb 'use'.",
+          "Pertanyaan dengan verb dasar 'use' untuk subject tunggal memakai 'Does'."
+        ],
+        "skill": "question-order"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat email operasional berikut agar sesuai kaidah Present Simple.",
+        "draft": "The warehouse don't opens on public holidays, so deliveries wait until Monday.",
+        "options": [
+          "The warehouse doesn't open on public holidays, so deliveries wait until Monday.",
+          "The warehouse doesn't opens on public holidays, so deliveries waits until Monday.",
+          "The warehouse isn't open on public holidays, so deliveries are waiting every Monday."
+        ],
+        "answer": 0,
+        "explanation": "'The warehouse' (tunggal) memakai 'doesn't' diikuti verb dasar 'open'.",
+        "hints": [
+          "Periksa kesesuaian subject tunggal 'The warehouse' dengan auxiliary negatif.",
+          "Setelah 'doesn't', verb kembali ke bentuk dasar tanpa -s."
+        ],
+        "skill": "negative-does"
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "moduleKey": "02-intermediate/04-passive-basic",
+  "title": "Passive Voice (Basic)",
+  "mode": "append",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "The annual financial report ___ by an independent auditing agency every January.",
+        "options": ["is reviewed", "reviews", "is reviewing"],
+        "answer": 0,
+        "explanation": "Laporan keuangan adalah objek yang menerima aksi peninjauan (pasif rutin). Rumus Present Simple Passive: to be (is) + past participle (reviewed).",
+        "hints": ["Laporan tidak memeriksa sendiri, melainkan diperiksa.", "Rumus pasif: to be + V3."],
+        "skill": "passive-basic-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "This historic suspension bridge ___ in 1883 by a visionary structural engineer.",
+        "options": ["was constructed", "constructed", "is constructed"],
+        "answer": 0,
+        "explanation": "Tahun 1883 adalah waktu lampau spesifik. Rumus Past Simple Passive: was/were + V3: 'was constructed'.",
+        "hints": ["Waktu lampau spesifik (1883).", "Gunakan 'was' + V3 untuk subjek tunggal."],
+        "skill": "passive-basic-past"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif sederhana dengan pelaku aksi (agent 'by').",
+        "targetSentence": "The email was sent by the director.",
+        "explanation": "Patient Subject (The email) + was + V3 (sent) + agent phrase (by the director).",
+        "hints": ["Mulai dengan 'The email was sent'.", "Pelaku aksi ditandai dengan 'by the director'."],
+        "skill": "passive-basic-agent"
+      },
+      {
+        "type": "choice",
+        "prompt": "Thousands of hybrid vehicles ___ at this regional manufacturing plant every month.",
+        "options": ["are assembled", "is assembled", "assemble"],
+        "answer": 0,
+        "explanation": "Subjek jamak 'Thousands of hybrid vehicles' berpasangan dengan to be jamak 'are' + V3 'assembled'.",
+        "hints": ["Subjek 'vehicles' berbentuk jamak.", "Gunakan 'are assembled'."],
+        "skill": "passive-basic-present"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif negatif masa lampau.",
+        "targetSentence": "The confidential documents were not leaked.",
+        "explanation": "Subject (The confidential documents) + were not + V3 (leaked).",
+        "hints": ["Subjek jamak: 'The confidential documents'.", "Gunakan 'were not leaked'."],
+        "skill": "passive-basic-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the database backup created before the power outage occurred?",
+        "options": ["Was", "Did", "Is"],
+        "answer": 0,
+        "explanation": "Pertanyaan pasif lampau: Was/Were + Subject + V3: 'Was the database backup created...?'",
+        "hints": ["Bentuk pertanyaan pasif lampau.", "Gunakan 'Was' di awal kalimat."],
+        "skill": "passive-basic-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya pasif Present Simple.",
+        "targetSentence": "Is English spoken in this hotel?",
+        "explanation": "Is + Subject (English) + V3 (spoken) + in this hotel?",
+        "hints": ["Awali dengan to be 'Is'.", "Subjek 'English' diikuti V3 'spoken'."],
+        "skill": "passive-basic-question"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog status perbaikan peralatan kantor.",
+        "dialogue": [
+          ["Manager", "Can we print the conference materials right now?"],
+          ["Assistant", "Not yet. The main photocopier ___ by a technician at the moment."]
+        ],
+        "options": ["is being repaired", "is repaired", "was repaired"],
+        "answer": 0,
+        "explanation": "Aksi pasif yang sedang berlangsung saat ini (Present Continuous Passive) menggunakan rumus: am/is/are + BEING + V3: 'is being repaired'.",
+        "hints": ["Perbaikan sedang berlangsung sekarang (at the moment).", "Rumus: is being + V3."],
+        "skill": "passive-continuous"
+      },
+      {
+        "type": "choice",
+        "prompt": "All the meeting rooms ___ before the international delegates arrived.",
+        "options": ["had been sanitized", "were sanitizing", "have been sanitized"],
+        "answer": 0,
+        "explanation": "Aksi pasif yang tuntas LEBIH DULU sebelum peristiwa lampau lain (Past Perfect Passive): had been + V3: 'had been sanitized'.",
+        "hints": ["Aksi pasif yang terjadi lebih awal di masa lalu.", "Gunakan Past Perfect Passive 'had been sanitized'."],
+        "skill": "passive-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new enterprise software ___ by over five hundred clients so far.",
+        "options": ["has been adopted", "have been adopted", "was adopted so far"],
+        "answer": 0,
+        "explanation": "Present Perfect Passive untuk subjek tunggal 'software' dengan penanda waktu 'so far': has been + V3: 'has been adopted'.",
+        "hints": ["Subjek tunggal 'software' dengan penanda 'so far'.", "Gunakan 'has been adopted'."],
+        "skill": "passive-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif dengan modal auxiliary 'must be'.",
+        "targetSentence": "Safety goggles must be worn in the laboratory.",
+        "explanation": "Subject + modal (must) + be + V3 (worn) + prepositional phrase.",
+        "hints": ["Subject: 'Safety goggles'.", "Rumus modal pasif: must be + V3 (worn)."],
+        "skill": "passive-modals"
+      },
+      {
+        "type": "choice",
+        "prompt": "The contract ___ signed tomorrow morning during the formal ceremony.",
+        "options": ["will be", "is being to", "will have"],
+        "answer": 0,
+        "explanation": "Future Simple Passive: will be + V3: 'will be signed tomorrow morning'.",
+        "hints": ["Waktu masa depan (tomorrow morning).", "Gunakan 'will be signed'."],
+        "skill": "passive-future"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif Continuous masa lampau.",
+        "targetSentence": "The bridge was being renovated when the accident happened.",
+        "explanation": "Subject (The bridge) + was being + V3 (renovated) + when-clause.",
+        "hints": ["Aktivitas pasif sedang berlangsung di masa lalu.", "Gunakan 'was being renovated'."],
+        "skill": "passive-continuous"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Pilih alasan penghilangan pelaku aksi (omitting the agent) yang tepat.",
+        "dialogue": [
+          ["Auditor", "Why isn't the specific suspect mentioned in the report?"],
+          ["Investigator", "Because the perpetrator is still unknown, so the crime ___ by persons unknown."]
+        ],
+        "options": ["was committed", "committed", "is committing"],
+        "answer": 0,
+        "explanation": "Pasif sangat berguna ketika pelaku aksi tidak diketahui, tidak penting, atau sudah jelas dari konteks: 'was committed'.",
+        "hints": ["Pelaku kejahatan belum diketahui.", "Gunakan bentuk pasif lampau 'was committed'."],
+        "skill": "passive-agent-omission"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan membuat pasif pada intransitive verb (kata kerja yang tidak memiliki objek penderita).",
+        "draft": "The fatal road accident was occurred around 2:00 a.m. on the coastal expressway.",
+        "options": [
+          "The fatal road accident occurred around 2:00 a.m. on the coastal expressway.",
+          "The fatal road accident was occurring around 2:00 a.m. on the coastal expressway.",
+          "The fatal road accident had been occurred around 2:00 a.m. on the coastal expressway."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja intransitif seperti 'occur', 'happen', 'arrive', 'die', 'vanish' TIDAK memiliki objek penderita, sehingga SECARA MUTLAK TIDAK BISA DIBUAT PASIF (*was occurred adalah salah). Wajib aktif: 'occurred'.",
+        "hints": ["'Occur' adalah kata kerja intransitif tanpa objek.", "Intransitive verb pantang dibentuk pasif."],
+        "skill": "passive-intransitive-error"
+      },
+      {
+        "type": "choice",
+        "prompt": "When a verb has two objects (Direct and Indirect), which passive version is generally more natural in English?",
+        "options": [
+          "I was offered a promotion by the board. (Indirect object becomes subject)",
+          "A promotion was offered to me by the board. (Direct object becomes subject)",
+          "Both are fully grammatical, with the person-subject version being more frequent in spoken English"
+        ],
+        "answer": 2,
+        "explanation": "Kedua bentuk pasif adalah sah secara gramatikal, namun menjadikan orang (Indirect Object) sebagai subjek pasif ('I was offered a promotion') lebih alami dan umum digunakan dalam percakapan sehari-hari.",
+        "hints": ["Dua objek menghasilkan dua kemungkinan kalimat pasif yang sah.", "Keduanya benar secara gramatikal."],
+        "skill": "passive-two-objects"
+      },
+      {
+        "type": "choice",
+        "prompt": "Prepositional passive (phrasal verb in passive): 'The community members feel that their urgent concerns were ___ by local authorities.'",
+        "options": [
+          "laughed at",
+          "laughed",
+          "being laughed to"
+        ],
+        "answer": 0,
+        "explanation": "Pada phrasal verb pasif, preposisi bawaan (seperti 'at' pada 'laugh at') WAJIB tetap dipertahankan menempel setelah V3: 'were laughed at by...'.",
+        "hints": ["Preposisi dari phrasal verb tidak boleh dibuang.", "Gunakan 'were laughed at'."],
+        "skill": "passive-phrasal-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif formal dengan phrasal verb 'look into'.",
+        "targetSentence": "The incident is being looked into by the security board.",
+        "explanation": "Subject + is being + V3 (looked into) + agent (by the security board). Preposisi 'into' wajib dipertahankan.",
+        "hints": ["Mulai dengan 'The incident is being looked into'.", "Agen: 'by the security board'."],
+        "skill": "passive-phrasal-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kekeliruan pembentukan pasif pada kata kerja 'make' dalam bentuk aktif vs pasif.",
+        "draft": "During the military drills, the new recruits were made perform two hundred push-ups.",
+        "options": [
+          "During the military drills, the new recruits were made to perform two hundred push-ups.",
+          "During the military drills, the new recruits were made performing two hundred push-ups.",
+          "During the military drills, the new recruits made to perform two hundred push-ups."
+        ],
+        "answer": 0,
+        "explanation": "Dalam kalimat aktif, 'make' diikuti bare infinitive ('They made him perform'). Namun ketika diubah ke PASIF, partikel 'to' WAJIB dimunculkan kembali: 'were made TO perform'.",
+        "hints": ["Dalam bentuk pasif, 'be made' wajib diikuti 'to + infinitive'.", "Gunakan 'were made to perform'."],
+        "skill": "passive-causative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The identity of the confidential whistleblower ___ under any circumstances.",
+        "options": ["must not be disclosed", "must be not disclosed", "must not disclose"],
+        "answer": 0,
+        "explanation": "Modal pasif negatif: modal (must) + not + be + V3 (disclosed): 'must not be disclosed'.",
+        "hints": ["Posisi 'not' berada tepat setelah modal 'must'.", "Rumus: must not be + V3."],
+        "skill": "passive-modals"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog hukum formal mengenai asas praduga tak bersalah.",
+        "dialogue": [
+          ["Judge", "What is the core principle of constitutional due process?"],
+          ["Defense Attorney", "Every accused citizen is presumed innocent until guilt ___ beyond reasonable doubt."]
+        ],
+        "options": ["is proven", "has proven", "will prove"],
+        "answer": 0,
+        "explanation": "Klausa waktu 'until...' menggunakan Present Simple Passive: 'until guilt is proven'.",
+        "hints": ["Klausa pasif waktu sekarang.", "Gunakan bentuk pasif 'is proven'."],
+        "skill": "passive-basic-present"
+      }
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "moduleKey": "04-advanced-formal/08-ellipsis-substitution",
+  "title": "Ellipsis & Substitution",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Verbal substitution with 'do so': 'Management asked him to resign, and after consulting counsel, he ___.'",
+        "options": [
+          "did so",
+          "did that so",
+          "made so"
+        ],
+        "answer": 0,
+        "explanation": "'Do so' (atau did so) adalah bentuk substitusi formal untuk menggantikan verba dan komplemennya yang sudah disebutkan ('to resign').",
+        "hints": [
+          "Substitusi tindakan formal.",
+          "Gunakan 'did so'."
+        ],
+        "skill": "substitution-do-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Clausal substitution with 'so': 'Will the new tax regulation take effect next fiscal quarter? The minister believes ___.'",
+        "options": [
+          "so",
+          "it",
+          "that so"
+        ],
+        "answer": 0,
+        "explanation": "Substitusi klausa positif dengan kata kerja keyakinan/pikiran (believe, think, hope): 'believes so'.",
+        "hints": [
+          "Substitusi pernyataan klausa positif.",
+          "Gunakan 'so'."
+        ],
+        "skill": "clausal-substitution-so"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat elipsis koordinasi sederhana.",
+        "targetSentence": "She ordered the salmon and her husband the steak.",
+        "explanation": "She ordered the salmon and her husband (ellipsis: ordered) the steak.",
+        "hints": [
+          "Mulai dengan 'She ordered the salmon'.",
+          "Elipsis kata kerja: 'and her husband the steak'."
+        ],
+        "skill": "gapping-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Clausal substitution with 'not': 'Is there any risk of a default? The central bank governor hopes ___.'",
+        "options": [
+          "not",
+          "no",
+          "not so"
+        ],
+        "answer": 0,
+        "explanation": "Substitusi klausa negatif dengan kata kerja 'hope', 'afraid', 'suppose': 'hopes not' (berharap tidak terjadi default).",
+        "hints": [
+          "Substitusi klausa negatif setelah 'hope'.",
+          "Gunakan 'not'."
+        ],
+        "skill": "clausal-substitution-not"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat substitusi nominal dengan 'the former' dan 'the latter'.",
+        "targetSentence": "Gold and silver are precious the former is more valuable.",
+        "explanation": "Gold and silver are precious the former is more valuable.",
+        "hints": [
+          "Mulai dengan 'Gold and silver are precious'.",
+          "Substitusi entitas pertama: 'the former is more valuable'."
+        ],
+        "skill": "former-latter-substitution"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nominal substitution with 'one/ones': 'The revised proposal is far superior to the previous ___.'",
+        "options": [
+          "one",
+          "ones",
+          "it"
+        ],
+        "answer": 0,
+        "explanation": "'One' menggantikan kata benda tunggal yang dapat dihitung ('proposal') yang telah disebutkan sebelumnya.",
+        "hints": [
+          "Substitusi kata benda tunggal.",
+          "Gunakan 'one'."
+        ],
+        "skill": "nominal-substitution-one"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat elipsis predikat dengan auxiliary 'did'.",
+        "targetSentence": "He promised to complete the report and indeed he did.",
+        "explanation": "He promised to complete the report + and indeed he did (ellipsis: completed it).",
+        "hints": [
+          "Mulai dengan 'He promised to complete the report'.",
+          "Elipsis penegasan: 'and indeed he did'."
+        ],
+        "skill": "predicate-ellipsis"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog substitusi verba formal dalam riset ilmiah.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Did the control group adhere to the caloric protocol?"
+          ],
+          [
+            "Lead Author",
+            "All forty participants ___ without exception."
+          ]
+        ],
+        "options": [
+          "did so",
+          "did that",
+          "done so"
+        ],
+        "answer": 0,
+        "explanation": "'Did so' merepresentasikan pemenuhan protokol tindakan dalam tulisan ilmiah.",
+        "hints": [
+          "Bentuk substitusi aksi formal.",
+          "Gunakan 'did so'."
+        ],
+        "skill": "substitution-do-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Ellipsis after to-infinitive (infinitival ellipsis): 'You may inspect the confidential archives if you wish ___.'",
+        "options": [
+          "to",
+          "to do",
+          "to so"
+        ],
+        "answer": 0,
+        "explanation": "Infinitival ellipsis (menghilangkan verb phrase dan hanya mempertahankan partikel 'to'): 'if you wish to' (= wish to inspect).",
+        "hints": [
+          "Pertahankan hanya partikel 'to'.",
+          "Gunakan 'to'."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Gapping ellipsis: 'The first cohort received placebo injections; the second, ___ dosages.'",
+        "options": [
+          "therapeutic",
+          "received",
+          "to receive"
+        ],
+        "answer": 0,
+        "explanation": "Gapping: kata kerja utama 'received' dihilangkan pada klausa kedua dan digantikan tanda koma (the second, therapeutic dosages).",
+        "hints": [
+          "Struktur gapping dengan penghilangan verba.",
+          "Gunakan langsung objek adjektiva 'therapeutic'."
+        ],
+        "skill": "gapping-ellipsis"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat substitusi klausal formal 'if so'.",
+        "targetSentence": "Are there any further amendments if so submit them now.",
+        "explanation": "Are there any further amendments + if so submit them now.",
+        "hints": [
+          "Mulai dengan pertanyaan: 'Are there any further amendments'.",
+          "Kondisi substitusi: 'if so submit them now'."
+        ],
+        "skill": "conditional-ellipsis-if-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negative conditional ellipsis: 'Is funding guaranteed? If ___, alternative sponsors must be found.'",
+        "options": [
+          "not",
+          "no",
+          "it isn't"
+        ],
+        "answer": 0,
+        "explanation": "'If not' adalah bentuk elipsis baku untuk 'If funding is not guaranteed'.",
+        "hints": [
+          "Bentuk elipsis bersyarat negatif.",
+          "Gunakan 'not'."
+        ],
+        "skill": "conditional-ellipsis-if-not"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan infinitival ellipsis 'afford to'.",
+        "targetSentence": "We would like to acquire the patent but cannot afford to.",
+        "explanation": "We would like to acquire the patent + but cannot afford to (ellipsis: acquire it).",
+        "hints": [
+          "Mulai dengan 'We would like to acquire the patent'.",
+          "Elipsis infinitif: 'but cannot afford to'."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi akuisisi perusahaan.",
+        "dialogue": [
+          [
+            "Buyer",
+            "Can the seller guarantee debt indemnity?"
+          ],
+          [
+            "Counsel",
+            "They explicitly agreed ___ in yesterday's pre-closing protocol."
+          ]
+        ],
+        "options": [
+          "to do so",
+          "doing that",
+          "to doing"
+        ],
+        "answer": 0,
+        "explanation": "Agree + to-infinitive + verbal substitution 'do so': 'agreed to do so'.",
+        "hints": [
+          "Kombinasi agree to + do so.",
+          "Gunakan 'to do so'."
+        ],
+        "skill": "substitution-do-so"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Koreksi ketidaktepatan substitusi 'do so' dengan kata kerja stative/keadaan.",
+        "draft": "She liked the historical architecture of Florence, and her colleagues did so too.",
+        "options": [
+          "She liked the historical architecture of Florence, and her colleagues did too.",
+          "She liked the architecture of Florence, and her colleagues done so too.",
+          "She liked the architecture of Florence, and her colleagues made so too."
+        ],
+        "answer": 0,
+        "explanation": "'Do so' HANYA dapat menggantikan kata kerja aksi dinamis (dynamic actions). Untuk stative verbs seperti 'like / know / believe', gunakan elipsis auxiliary standar: 'and her colleagues did too' (bukan did so too).",
+        "hints": [
+          "'Do so' tidak boleh dipakai untuk kata kerja keadaan (stative verbs).",
+          "Gunakan 'did too'."
+        ],
+        "skill": "substitution-restrictions-stative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Linguistic differentiation: What separates 'Ellipsis' from 'Substitution' in cohesive discourse (Halliday & Hasan, 1976)?",
+        "options": [
+          "Ellipsis is substitution by zero (leaving a blank space); Substitution replaces an item with an explicit counter-token (one, do so, so).",
+          "Ellipsis is only written; Substitution is only spoken.",
+          "Substitution is considered bad grammar."
+        ],
+        "answer": 0,
+        "explanation": "Menurut Halliday & Hasan, elipsis adalah penggantian oleh kekosongan (substitution by zero / omission), sedangkan substitusi mengganti unsur leksikal dengan kata pengganti nyata seperti 'one', 'do so', atau 'so'.",
+        "hints": [
+          "Konsep Halliday & Hasan mengenai penggantian nol vs token pengganti nyata.",
+          "Pilih opsi Ellipsis is substitution by zero."
+        ],
+        "skill": "cohesion-theory-halliday"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pseudogapping in formal comparative prose: 'The central bank monitored currency markets more vigilantly than the treasury ___ equity markets.'",
+        "options": [
+          "did",
+          "done",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Pseudogapping menyisakan auxiliary 'did' sebelum objek kontras ('equity markets'): 'more vigilantly than the treasury did equity markets'.",
+        "hints": [
+          "Auxiliary pada konstruksi pseudogapping.",
+          "Gunakan 'did'."
+        ],
+        "skill": "pseudogapping"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademik elipsis komparatif formal.",
+        "targetSentence": "Higher inflation rates eroded consumer purchasing power as did rising interest rates.",
+        "explanation": "Higher inflation rates eroded consumer purchasing power + as did rising interest rates.",
+        "hints": [
+          "Mulai dengan 'Higher inflation rates eroded consumer purchasing power'.",
+          "Elipsis komparatif terbalik: 'as did rising interest rates'."
+        ],
+        "skill": "comparative-inversion-ellipsis"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan repetisi kata yang seharusnya di-elipsis secara elegan.",
+        "draft": "Some pharmaceutical companies developed vaccines, while other pharmaceutical companies developed diagnostic kits.",
+        "options": [
+          "Some pharmaceutical companies developed vaccines, while others developed diagnostic kits.",
+          "Some pharmaceutical companies developed vaccines, and other ones developed kits.",
+          "Some pharmaceutical companies developed vaccines, while other companies did so kits."
+        ],
+        "answer": 0,
+        "explanation": "Pengulangan canggung 'pharmaceutical companies' dihindari dengan substitusi pronominal elegan: 'while others developed diagnostic kits'.",
+        "hints": [
+          "Gunakan 'others' untuk menghindari repetisi frasa yang sama.",
+          "Pilih kalimat dengan 'while others developed diagnostic kits'."
+        ],
+        "skill": "nominal-substitution-others"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the sentence with flawless ellipsis in coordinated clauses:",
+        "options": [
+          "The senior diplomats favored compromise; the junior military officers, decisive confrontation.",
+          "The senior diplomats favored compromise, the junior military officers did compromise.",
+          "The diplomats favored compromise; junior officers decisive."
+        ],
+        "answer": 0,
+        "explanation": "Struktur gapping klasik: kata kerja 'favored' dihilangkan pada klausa kedua dan digantikan oleh koma yang anggun diapit titik koma.",
+        "hints": [
+          "Gapping klasik dengan titik koma dan koma pengganti verba.",
+          "Pilih opsi pertama."
+        ],
+        "skill": "gapping-ellipsis"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perdebatan doktrin yudisial mahkamah agung.",
+        "dialogue": [
+          [
+            "Chief Justice",
+            "Does the appellant seek to overturn the 1974 precedent?"
+          ],
+          [
+            "Associate Justice",
+            "The appellant has not explicitly requested to, but their legal reasoning effectively ___."
+          ]
+        ],
+        "options": [
+          "does so",
+          "makes it",
+          "does that so"
+        ],
+        "answer": 0,
+        "explanation": "'Their legal reasoning effectively does so' menggantikan verba aksi 'overturns the precedent' secara presisi.",
+        "hints": [
+          "Substitusi aksi verba formal.",
+          "Gunakan 'does so'."
+        ],
+        "skill": "substitution-do-so"
+      }
+    ]
+  }
+}

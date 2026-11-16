@@ -1,7 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { ModuleQuestion } from "../data/generatedModules";
 import { QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
-import { saveScore } from "../utils/storage";
+import { addErrorJournalEntry, saveScore } from "../utils/storage";
+import { AIQuestionPackStudio } from "./AIQuestionPackStudio";
+import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SpeakButton } from "./SpeakButton";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface WordChoiceBankViewProps {
   onNavigate: (path: string) => void;
@@ -29,7 +33,8 @@ interface BankQuestionState {
 }
 
 export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNavigate }) => {
-  const moduleKeys = useMemo(() => Object.keys(QUESTION_BANK), []);
+  const [packVersion, setPackVersion] = useState<number>(0);
+  const moduleKeys = useMemo(() => Object.keys(QUESTION_BANK), [packVersion]);
   const [currentModuleKey, setCurrentModuleKey] = useState<string>(moduleKeys[0] || "");
   const [currentLevelFilter, setCurrentLevelFilter] = useState<"all" | LevelKey>("all");
   const [questionStates, setQuestionStates] = useState<Record<string, BankQuestionState>>({});
@@ -52,7 +57,7 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
       { name: "Intermediate", count: levelStats.intermediate },
       { name: "Advanced (complex)", count: levelStats.complex },
     ];
-  }, [moduleKeys]);
+  }, [moduleKeys, packVersion]);
 
   const levelsToShow: LevelKey[] = useMemo(
     () => (currentLevelFilter === "all" ? LEVEL_ORDER : [currentLevelFilter]),
@@ -84,7 +89,7 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
       });
     });
     setQuestionStates(initial);
-  }, [currentModuleKey, levelsToShow]);
+  }, [currentModuleKey, levelsToShow, packVersion]);
 
   const currentMod = currentModuleKey ? QUESTION_BANK[currentModuleKey] : null;
 
@@ -211,13 +216,21 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
             ? q.wrongFeedback[st.selectedOption]
             : undefined;
         const wfText = Array.isArray(wfEntry) ? wfEntry[0] : wfEntry || "";
+        addErrorJournalEntry({
+          moduleKey: currentModuleKey,
+          wrongSentence: q.draft || q.prompt,
+          correctSentence: q.prompt.includes("___")
+            ? q.prompt.replace("___", correctAnswerText)
+            : correctAnswerText,
+          ruleNote: q.explanation || wfText,
+        });
         nextState = {
           ...st,
           attempts: nextAttempts,
           completed: true,
           correct: false,
           points: 0,
-          feedbackText: `Salah. Jawaban benar: ${correctAnswerText}. ${q.explanation || ""}`,
+          feedbackText: `Salah. Jawaban benar: ${correctAnswerText}. ${q.explanation || ""} (Dicatat ke Error Journal)`,
           wrongFeedbackText: wfText ? `Petunjuk: ${wfText}` : "",
           feedbackType: "review",
         };
@@ -272,13 +285,26 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
 
   return (
     <>
+      <OfflineIndicator />
       <nav>
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
         </a>
+        <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
+          Question Bank
+        </a>
+
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           Kurikulum
         </a>
+        <a href="logs/vocab-log.html" onClick={(e) => handleLinkClick(e, "logs/vocab-log.html")}>
+          Vocab Log
+        </a>
+        <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
+          Error Journal
+        </a>
+        <PWAInstallButton />
+        <ThemeToggle />
       </nav>
 
       <main className="question-bank page">
@@ -289,6 +315,14 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
           dilengkapi penjelasan dan petunjuk kesalahan. Skor disimpan otomatis dan ditampilkan di
           dashboard.
         </p>
+
+        <AIQuestionPackStudio
+          selectedModuleKey={currentModuleKey}
+          onPackImported={(importedModuleKey) => {
+            setPackVersion((v) => v + 1);
+            setCurrentModuleKey(importedModuleKey);
+          }}
+        />
 
         <section id="bankSelector" className="bank-selector">
           <label htmlFor="moduleSelect">Pilih modul:</label>{" "}
@@ -403,8 +437,11 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
                             data-index={i}
                             data-state={st.feedbackType || undefined}
                           >
-                            <legend>
-                              {i + 1}. {q.prompt}
+                            <legend className="question-legend-row">
+                              <span>
+                                {i + 1}. {q.prompt}
+                              </span>
+                              <SpeakButton text={q.draft || q.prompt} label="Listen" />
                             </legend>
 
                             {q.type === "dialogue" && q.dialogue && (
@@ -473,7 +510,7 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
                                       className="bank-answer-choice"
                                       style={
                                         highlightPass
-                                          ? { borderColor: "#000", background: "#f7f7f7" }
+                                          ? { borderColor: "var(--ink)", background: "var(--bg-soft)" }
                                           : undefined
                                       }
                                     >

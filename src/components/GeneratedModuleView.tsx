@@ -1,8 +1,15 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { GeneratedModuleContent } from "../data/generatedModules";
+import { SKILL_GUIDE } from "../data/questionBank";
+import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import { buildStages } from "../utils/stageBuilder";
 import { getChecks, saveChecks, saveScore } from "../utils/storage";
-import { GuidedQuestionItem, QuestionProgressState } from "./GuidedQuestionItem";
+import { QuestionProgressState } from "./GuidedQuestionItem";
+import { QuizLevelConfig } from "./LevelQuizModal";
+import { LevelQuizSummarySection } from "./LevelQuizSummarySection";
+import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SpeakButton } from "./SpeakButton";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface GeneratedModuleViewProps {
   moduleKey: string;
@@ -10,20 +17,43 @@ interface GeneratedModuleViewProps {
   onNavigate: (path: string) => void;
 }
 
+const STAGE_TITLES: Record<"simple" | "intermediate" | "complex", string> = {
+  simple: "Simple",
+  intermediate: "Intermediate",
+  complex: "Complex",
+};
+
 export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
   moduleKey,
   content,
   onNavigate,
 }) => {
-  const stages = useMemo(() => buildStages(moduleKey, content), [moduleKey, content]);
+  const baseStages = useMemo(() => buildStages(moduleKey, content), [moduleKey, content]);
+
+  const buildRandomizedConfig = (): QuizLevelConfig[] =>
+    baseStages.map((stage) => ({
+      key: stage.key,
+      label: stage.label,
+      title: STAGE_TITLES[stage.key],
+      description: `${content.focus} — tahap ${STAGE_TITLES[stage.key]}.`,
+      materialId: stage.materialId,
+      quizId: stage.quizId,
+      questions: getRandomizedLevelQuestions(moduleKey, stage.key, stage.questions, 10),
+    }));
 
   const [checks, setChecks] = useState<boolean[]>(() => {
     const saved = getChecks()[moduleKey] || [];
     return content.checklist.map((_, idx) => Boolean(saved[idx]));
   });
 
+  const [writingDraft, setWritingDraft] = useState<string>("");
+  const [quizLevels, setQuizLevels] = useState<QuizLevelConfig[]>(() => buildRandomizedConfig());
+  const [sessionSeed, setSessionSeed] = useState<number[]>([0, 0, 0]);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+  const [activeLevelIndex, setActiveLevelIndex] = useState<number>(0);
+
   const [states, setStates] = useState<QuestionProgressState[][]>(() =>
-    stages.map((stage) =>
+    quizLevels.map((stage) =>
       stage.questions.map(() => ({
         attempts: 0,
         points: 0,
@@ -38,8 +68,15 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     document.title = `${content.title} — English Learning`;
     const saved = getChecks()[moduleKey] || [];
     setChecks(content.checklist.map((_, idx) => Boolean(saved[idx])));
+    setWritingDraft("");
+
+    const freshLevels = buildRandomizedConfig();
+    setQuizLevels(freshLevels);
+    setSessionSeed([0, 0, 0]);
+    setModalOpen(false);
+    setActiveLevelIndex(0);
     setStates(
-      stages.map((stage) =>
+      freshLevels.map((stage) =>
         stage.questions.map(() => ({
           attempts: 0,
           points: 0,
@@ -48,12 +85,45 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
         }))
       )
     );
-  }, [moduleKey, content, stages]);
+  }, [moduleKey, content, baseStages]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
     const next = checks.map((val, i) => (i === index ? checked : val));
     setChecks(next);
     saveChecks(moduleKey, next);
+  };
+
+  const handleOpenLevelModal = (levelIndex: number) => {
+    setActiveLevelIndex(levelIndex);
+    setModalOpen(true);
+  };
+
+  const handleRandomizeLevel = (levelIndex: number) => {
+    const baseStage = baseStages[levelIndex];
+    if (!baseStage) return;
+    const newQuestions = getRandomizedLevelQuestions(
+      moduleKey,
+      baseStage.key,
+      baseStage.questions,
+      10
+    );
+
+    setQuizLevels((prev) =>
+      prev.map((lvl, idx) => (idx === levelIndex ? { ...lvl, questions: newQuestions } : lvl))
+    );
+    setStates((prev) =>
+      prev.map((lvlStates, idx) =>
+        idx === levelIndex
+          ? newQuestions.map(() => ({
+              attempts: 0,
+              points: 0,
+              correct: false,
+              completed: false,
+            }))
+          : lvlStates
+      )
+    );
+    setSessionSeed((prev) => prev.map((s, idx) => (idx === levelIndex ? s + 1 : s)));
   };
 
   const handleUpdateQuestionState = (
@@ -70,7 +140,7 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
 
       const all = next.flat();
       const completed = all.filter((q) => q.completed).length;
-      if (completed === all.length) {
+      if (completed === all.length && all.length > 0) {
         const earned = all.reduce((sum, q) => sum + q.points, 0);
         const score = Math.round((earned / (all.length * 3)) * 100);
         saveScore(moduleKey, score);
@@ -80,12 +150,12 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     });
   };
 
-  const questionCount = stages.reduce((sum, stage) => sum + stage.questions.length, 0);
-  const all = states.flat();
-  const totalCompleted = all.filter((q) => q.completed).length;
-  const totalEarned = all.reduce((sum, q) => sum + q.points, 0);
-  const allDone = totalCompleted === all.length && all.length > 0;
-  const finalScore = allDone ? Math.round((totalEarned / (all.length * 3)) * 100) : 0;
+  const handleJumpToMaterial = (anchorId: string) => {
+    const el = document.getElementById(anchorId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
     e.preventDefault();
@@ -94,6 +164,7 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
 
   return (
     <>
+      <OfflineIndicator />
       <nav>
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
@@ -101,9 +172,17 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           Kurikulum
         </a>
+        <a href="word-choice-bank.html" onClick={(e) => handleLinkClick(e, "word-choice-bank.html")}>
+          Word Bank
+        </a>
+        <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
+          Error Journal
+        </a>
+        <PWAInstallButton />
+        <ThemeToggle />
       </nav>
 
-      <main className="module-page" id="generatedModule">
+      <main className="module-page guided-learning" id="generatedModule">
         <p className="level">
           {content.level} / {content.number}
         </p>
@@ -112,192 +191,111 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
         <p className="module-meta">
           <span>Fokus: {content.focus}</span>
           <span>3 tahap belajar</span>
-          <span>{questionCount} soal</span>
+          <span>Latihan: Pop-up 30 soal (Acak Bank Soal)</span>
           <span>Target: 80%</span>
         </p>
 
         <nav className="guided-jump" aria-label="Navigasi materi dan latihan">
-          {stages.map((stage) => (
+          {baseStages.map((stage, idx) => (
             <React.Fragment key={stage.key}>
-              <a href={`#${stage.materialId}`}>Materi {stage.key}</a>
-              <a href={`#${stage.quizId}`}>Kuis {stage.key}</a>
+              <a href={`#${stage.materialId}`}>Materi {STAGE_TITLES[stage.key]}</a>
+              <a
+                href={`#${stage.quizId}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleOpenLevelModal(idx);
+                }}
+              >
+                ▸ Pop-up Kuis {STAGE_TITLES[stage.key]}
+              </a>
             </React.Fragment>
           ))}
         </nav>
 
-        {stages.map((stage) => (
+        {baseStages.map((stage, idx) => (
           <React.Fragment key={stage.key}>
             <p className="level">{stage.label}</p>
-            <section className="lesson-stage" id={stage.materialId}>
+            <section className="lesson-stage guided-lesson" id={stage.materialId}>
               <h2>{stage.section.title}</h2>
               {stage.section.paragraphs.map((paragraph, pIdx) => (
                 <p key={pIdx}>{paragraph}</p>
               ))}
               {stage.section.examples?.map((example, eIdx) => (
-                <p key={eIdx} className="example">
-                  {example}
+                <p key={eIdx} className="example guided-example">
+                  <span>{example}</span> <SpeakButton text={example} />
                 </p>
               ))}
               {stage.section.rule && (
-                <p className="rule">
+                <p className="rule guided-rule">
                   <b>{stage.section.rule}</b>
                 </p>
               )}
+              <div className="toolbar-actions" style={{ marginTop: ".75rem" }}>
+                <button
+                  type="button"
+                  className="check-quiz"
+                  style={{ marginTop: 0 }}
+                  onClick={() => handleOpenLevelModal(idx)}
+                >
+                  ▸ Uji Pemahaman {STAGE_TITLES[stage.key]} (Pop-up) →
+                </button>
+              </div>
             </section>
-            <a className="guided-shortcut" href={`#${stage.quizId}`}>
-              Uji pemahaman {stage.key} →
-            </a>
           </React.Fragment>
         ))}
 
-        <section>
-          <h2>Cek pemahaman</h2>
-          <ul className="checklist">
+        <LevelQuizSummarySection
+          moduleKey={moduleKey}
+          moduleTitle={content.title}
+          levels={quizLevels}
+          questionStates={states}
+          sessionSeed={sessionSeed}
+          modalOpen={modalOpen}
+          activeLevelIndex={activeLevelIndex}
+          skillGuide={SKILL_GUIDE}
+          onOpenLevelModal={handleOpenLevelModal}
+          onCloseModal={() => setModalOpen(false)}
+          onRandomizeLevel={handleRandomizeLevel}
+          onUpdateQuestionState={handleUpdateQuestionState}
+          onJumpToMaterial={handleJumpToMaterial}
+        />
+
+        <section className="guided-mission">
+          <p className="level">Refleksi mandiri</p>
+          <h2>Terapkan dalam kalimat nyata</h2>
+          <p>
+            Tulis 2–3 kalimat menggunakan pola <b>{content.title}</b> ({content.focus}), lalu
+            centang daftar pemahaman di bawah ini.
+          </p>
+          <label className="guided-writing-label" htmlFor="generatedWriting">
+            Latihan menulis mandiri
+          </label>
+          <textarea
+            id="generatedWriting"
+            rows={4}
+            value={writingDraft}
+            onChange={(e) => setWritingDraft(e.target.value)}
+            placeholder={`Tulis contoh kalimat dengan ${content.title}...`}
+          />
+          {writingDraft.trim() && (
+            <div style={{ marginTop: ".5rem" }}>
+              <SpeakButton text={writingDraft} label="Dengarkan Tulisanmu" />
+            </div>
+          )}
+          <fieldset className="guided-selfcheck">
+            <legend>Cek pemahaman</legend>
             {content.checklist.map((item, idx) => (
-              <li key={idx}>
-                <label>
-                  <input
-                    type="checkbox"
-                    data-check
-                    checked={Boolean(checks[idx])}
-                    onChange={(e) => handleCheckChange(idx, e.target.checked)}
-                  />{" "}
-                  {item}
-                </label>
-              </li>
+              <label key={idx}>
+                <input
+                  type="checkbox"
+                  data-check
+                  checked={Boolean(checks[idx])}
+                  onChange={(e) => handleCheckChange(idx, e.target.checked)}
+                />{" "}
+                {item}
+              </label>
             ))}
-          </ul>
-        </section>
-
-        <section className="guided-practice-area">
-          <p className="level">Latihan setelah materi</p>
-          <h2>Kuis bertahap</h2>
-          <p id="generatedQuizProgress" className="guided-quiz-progress" aria-live="polite">
-            {totalCompleted} dari {questionCount} soal diperiksa
-          </p>
-
-          <div id="generatedQuiz">
-            {stages.map((stage, levelIndex) => {
-              const stageStates = states[levelIndex] || [];
-              const completed = stageStates.filter((q) => q.completed).length;
-              const correct = stageStates.filter((q) => q.correct).length;
-              const points = stageStates.reduce((sum, q) => sum + q.points, 0);
-              const isStageDone = completed === stage.questions.length;
-              const isStagePass = points >= stage.questions.length * 3 * 0.8;
-
-              const skills = new Map<string, { correct: number; count: number }>();
-              if (isStageDone) {
-                stage.questions.forEach((question, qIdx) => {
-                  const sk = question.skill || stage.key;
-                  const tally = skills.get(sk) || { correct: 0, count: 0 };
-                  tally.count += 1;
-                  if (stageStates[qIdx]?.correct) tally.correct += 1;
-                  skills.set(sk, tally);
-                });
-              }
-              const weakSkills = [...skills.entries()].filter(
-                ([, tally]) => tally.correct / tally.count < 0.8
-              );
-
-              return (
-                <section
-                  key={`${moduleKey}-${stage.key}`}
-                  className="guided-question-level"
-                  id={stage.quizId}
-                >
-                  <p className="level">
-                    {stage.label} · {stage.questions.length} soal
-                  </p>
-                  <h3>{stage.key}: latihan dan feedback</h3>
-                  <p>{content.focus}</p>
-                  <p
-                    className="guided-level-progress"
-                    id={`generated-${stage.key}-progress`}
-                    aria-live="polite"
-                  >
-                    {completed}/{stage.questions.length} soal diperiksa
-                  </p>
-                  <div className="guided-level-questions">
-                    {stage.questions.map((question, qIdx) => (
-                      <GuidedQuestionItem
-                        key={`${moduleKey}-${stage.key}-${qIdx}`}
-                        question={question}
-                        questionIndex={qIdx}
-                        state={
-                          stageStates[qIdx] || {
-                            attempts: 0,
-                            points: 0,
-                            correct: false,
-                            completed: false,
-                          }
-                        }
-                        onUpdateState={(nextState) =>
-                          handleUpdateQuestionState(levelIndex, qIdx, nextState)
-                        }
-                      />
-                    ))}
-                  </div>
-                  <div
-                    className="guided-level-result"
-                    id={`generated-${stage.key}-result`}
-                    aria-live="polite"
-                    data-state={isStageDone ? (isStagePass ? "pass" : "retry") : undefined}
-                  >
-                    {isStageDone && (
-                      <>
-                        <p>
-                          Hasil {stage.key}: {correct}/{stage.questions.length} benar · {points}/
-                          {stage.questions.length * 3} poin.
-                        </p>
-                        <p className="guided-skill-review">
-                          {weakSkills.length > 0 ? (
-                            <>
-                              Topik untuk diulang:{" "}
-                              {weakSkills.map(([skill, tally], idx) => {
-                                const skillQuestion = stage.questions.find(
-                                  (q) => q.skill === skill
-                                );
-                                const label = skillQuestion?.skillLabel || content.title;
-                                const anchor = skillQuestion?.skillAnchor || stage.materialId;
-                                return (
-                                  <React.Fragment key={skill}>
-                                    {idx > 0 && " · "}
-                                    <a href={`#${anchor}`}>
-                                      {label} ({tally.correct}/{tally.count})
-                                    </a>
-                                  </React.Fragment>
-                                );
-                              })}
-                            </>
-                          ) : (
-                            "Semua topik di level ini sudah mencapai 80% atau lebih."
-                          )}
-                        </p>
-                      </>
-                    )}
-                  </div>
-                  <a className="guided-shortcut guided-back" href={`#${stage.materialId}`}>
-                    ← Kembali ke materi {stage.key}
-                  </a>
-                </section>
-              );
-            })}
-          </div>
-
-          <p
-            id="generatedQuizResult"
-            className="guided-overall"
-            aria-live="polite"
-            data-state={allDone ? (finalScore >= 80 ? "pass" : "retry") : undefined}
-          >
-            {allDone
-              ? `Skor akhir: ${finalScore}% (${totalEarned}/${all.length * 3} poin). ${
-                  finalScore >= 80
-                    ? "LULUS. Nilai tersimpan di dashboard."
-                    : "Belum lulus. Pelajari topik yang ditandai lalu ulangi latihan."
-                }`
-              : ""}
-          </p>
+          </fieldset>
         </section>
 
         <footer className="footer-link">

@@ -1,0 +1,350 @@
+{
+  "moduleKey": "03-upper-intermediate/04-passive-advanced",
+  "title": "Passive Voice (Advanced)",
+  "levels": {
+    "simple": [
+      {
+        "type": "choice",
+        "prompt": "Passive with modals: 'The confidential documents ___ under strict surveillance.'",
+        "options": [
+          "must be kept",
+          "must keep",
+          "must been kept"
+        ],
+        "answer": 0,
+        "explanation": "Modal passive: modal + be + V3 ('must be kept').",
+        "hints": [
+          "Modal pasif: modal + be + V3.",
+          "Gunakan 'must be kept'."
+        ],
+        "skill": "modal-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Present Continuous Passive: 'The highway ___ due to emergency roadworks.'",
+        "options": [
+          "is being repaired",
+          "is repairing",
+          "has repaired"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous Passive: to be (is/are) + being + V3 ('is being repaired').",
+        "hints": [
+          "Aksi yang sedang berlangsung pasif.",
+          "Gunakan 'is being repaired'."
+        ],
+        "skill": "continuous-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif modal masa lalu 'should have been'.",
+        "targetSentence": "The client should have been notified earlier.",
+        "explanation": "Subject + should have been + past participle (notified) + earlier.",
+        "hints": [
+          "Mulai dengan 'The client should have been'.",
+          "Past participle: 'notified earlier'."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Present Perfect Passive: 'Several unexpected vulnerabilities ___ in the new update.'",
+        "options": [
+          "have been discovered",
+          "have discovered",
+          "are discovering"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect Passive: have/has + been + V3 ('have been discovered').",
+        "hints": [
+          "Subjek jamak (vulnerabilities).",
+          "Gunakan 'have been discovered'."
+        ],
+        "skill": "perfect-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Past Continuous Passive.",
+        "targetSentence": "The suspect was being interrogated by detectives.",
+        "explanation": "Subject + was being interrogated + by detectives.",
+        "hints": [
+          "Mulai dengan 'The suspect was being interrogated'.",
+          "Pelaku: 'by detectives'."
+        ],
+        "skill": "continuous-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Future Passive: 'The newly constructed suspension bridge ___ next month.'",
+        "options": [
+          "will be inaugurated",
+          "will inaugurate",
+          "will being inaugurated"
+        ],
+        "answer": 0,
+        "explanation": "Future Passive: will be + V3 ('will be inaugurated').",
+        "hints": [
+          "Pasif masa depan: will be + V3.",
+          "Gunakan 'will be inaugurated'."
+        ],
+        "skill": "future-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif dengan dua objek.",
+        "targetSentence": "The scholarship was awarded to the top candidate.",
+        "explanation": "The scholarship (direct object) + was awarded to + the top candidate.",
+        "hints": [
+          "Mulai dengan objek 'The scholarship'.",
+          "Bentuk pasif: 'was awarded to the top candidate'."
+        ],
+        "skill": "two-object-passive"
+      }
+    ],
+    "intermediate": [
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog passive reporting verbs (impersonal construction).",
+        "dialogue": [
+          [
+            "Journalist",
+            "What is the consensus regarding the merger?"
+          ],
+          [
+            "Spokesperson",
+            "It ___ that the acquisition will create thousands of jobs."
+          ]
+        ],
+        "options": [
+          "is widely believed",
+          "is widely believing",
+          "widely believes"
+        ],
+        "answer": 0,
+        "explanation": "Impersonal reporting passive: It + is/was + V3 (believed/reported/claimed) + that clause.",
+        "hints": [
+          "Struktur impersonal: It is believed that...",
+          "Gunakan 'is widely believed'."
+        ],
+        "skill": "impersonal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Personal reporting passive: 'The billionaire ___ to be negotiating the purchase of the football club.'",
+        "options": [
+          "is rumored",
+          "rumors",
+          "is rumoring"
+        ],
+        "answer": 0,
+        "explanation": "Personal passive construction: Subject + is/are + V3 (rumored/thought/said) + to-infinitive.",
+        "hints": [
+          "Subjek person + to be + V3 + to-infinitive.",
+          "Gunakan 'is rumored'."
+        ],
+        "skill": "personal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Causative passive: 'We need to ___ our financial statements audited by an independent firm.'",
+        "options": [
+          "have",
+          "make",
+          "let"
+        ],
+        "answer": 0,
+        "explanation": "Causative passive: have/get + something + V3 ('have our financial statements audited').",
+        "hints": [
+          "Pola causative pasif: have + object + V3.",
+          "Gunakan 'have'."
+        ],
+        "skill": "causative-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat personal passive dengan 'is said to be'.",
+        "targetSentence": "The ancient artifact is said to be cursed.",
+        "explanation": "Subject + is said to be + cursed (adjective/participle).",
+        "hints": [
+          "Mulai dengan 'The ancient artifact'.",
+          "Lanjutkan dengan 'is said to be cursed'."
+        ],
+        "skill": "personal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Prepositional passive verbs: 'The elderly gentleman was well ___ by his hospice nurses.'",
+        "options": [
+          "looked after",
+          "looked",
+          "looked for"
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verbs dalam bentuk pasif mempertahankan preposisinya: 'was well looked after by...'.",
+        "hints": [
+          "Preposisi 'after' harus tetap menempel pada kata kerja.",
+          "Gunakan 'looked after'."
+        ],
+        "skill": "prepositional-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat causative passive dengan 'got'.",
+        "targetSentence": "She got her passport renewed before the trip.",
+        "explanation": "Subject + got + her passport (object) + renewed (V3) + before the trip.",
+        "hints": [
+          "Mulai dengan 'She got her passport renewed'.",
+          "Keterangan waktu: 'before the trip'."
+        ],
+        "skill": "causative-passive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog laporan berita kriminal.",
+        "dialogue": [
+          [
+            "Reporter",
+            "Has the fugitive been apprehended?"
+          ],
+          [
+            "Police Chief",
+            "He is understood ___ the border under an assumed identity."
+          ]
+        ],
+        "options": [
+          "to have crossed",
+          "to cross",
+          "crossing"
+        ],
+        "answer": 0,
+        "explanation": "Ketika peristiwa pasif merujuk pada aksi yang sudah terjadi di masa lampau sebelum waktu pelaporan, gunakan Perfect Infinitive ('to have crossed').",
+        "hints": [
+          "Aksi melintasi perbatasan terjadi sebelum pelaporan.",
+          "Gunakan perfect infinitive 'to have crossed'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      }
+    ],
+    "complex": [
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan konstruksi impersonal passive.",
+        "draft": "There is reported that several passengers sustained minor injuries.",
+        "options": [
+          "It is reported that several passengers sustained minor injuries.",
+          "Passengers are reported that they sustained minor injuries.",
+          "That several passengers sustained minor injuries is reporting."
+        ],
+        "answer": 0,
+        "explanation": "Impersonal passive reporting menggunakan dummy pronoun 'It' (bukan There): 'It is reported that...'.",
+        "hints": [
+          "Gunakan dummy pronoun 'It' bukan 'There'.",
+          "Pola baku: 'It is reported that...'."
+        ],
+        "skill": "impersonal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the correct transformation for past events into personal passive: 'People believe that Socrates drank hemlock.'",
+        "options": [
+          "Socrates is believed to have drunk hemlock.",
+          "Socrates is believed to drink hemlock.",
+          "Socrates was believed to drink hemlock."
+        ],
+        "answer": 0,
+        "explanation": "Karena aksi (minum racun) terjadi sebelum waktu keyakinan saat ini (present belief), wajib memakai Perfect Infinitive: 'is believed to have drunk'.",
+        "hints": [
+          "Aksi masa lalu dilaporkan pada masa kini.",
+          "Gunakan 'to have + V3'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Passive gerunds and infinitives: 'The diplomat objected to ___ as a junior representative.'",
+        "options": [
+          "being treated",
+          "be treated",
+          "treating"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'to' pada 'object to', kata kerja harus berbentuk Gerund. Dalam konteks pasif: 'being treated'.",
+        "hints": [
+          "'Object to' diikuti gerund.",
+          "Bentuk gerund pasif: 'being treated'."
+        ],
+        "skill": "passive-gerund"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat passive dengan perfect infinitive 'is alleged to have embezzled'.",
+        "targetSentence": "The former CFO is alleged to have embezzled company funds.",
+        "explanation": "Subject + is alleged + to have embezzled (perfect infinitive) + company funds.",
+        "hints": [
+          "Mulai dengan 'The former CFO is alleged'.",
+          "Lanjutkan dengan 'to have embezzled company funds'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kata kerja intransitif yang keliru dipasifkan.",
+        "draft": "An unfortunate traffic collision was happened on the expressway.",
+        "options": [
+          "An unfortunate traffic collision happened on the expressway.",
+          "An unfortunate traffic collision was occurred on the expressway.",
+          "An unfortunate traffic collision was being happened on the expressway."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja intransitif seperti 'happen', 'occur', 'appear', dan 'exist' TIDAK MEMILIKI objek langsung, sehingga sama sekali TIDAK BISA dipasifkan. Wajib aktif: 'happened'.",
+        "hints": [
+          "'Happen' adalah kata kerja intransitif.",
+          "Kata kerja intransitif tidak bisa dipasifkan."
+        ],
+        "skill": "intransitive-verbs-no-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Subtle register analysis: Why do scientific and academic research papers heavily favor passive constructions?",
+        "options": [
+          "To establish an objective tone by foregrounding the methodology and findings rather than the researcher's ego.",
+          "Because active voice is grammatically prohibited in all journals.",
+          "To make the text artificially longer."
+        ],
+        "answer": 0,
+        "explanation": "Gaya penulisan akademik ilmiah mengutamakan proses eksperimen, metodologi, dan data hasil temuan (objectivity), bukan pelaku peneliti.",
+        "hints": [
+          "Tujuan objektivitas dan fokus pada metodologi/hasil.",
+          "Pilih opsi penekanan objektivitas."
+        ],
+        "skill": "academic-passive-register"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog persidangan dengan bentuk pasif yuridis formal.",
+        "dialogue": [
+          [
+            "Prosecutor",
+            "What is the status of the seized evidence?"
+          ],
+          [
+            "Clerk",
+            "The encrypted hard drives are deemed ___ by state forensic analysts."
+          ]
+        ],
+        "options": [
+          "to have been tampered with",
+          "to tamper with",
+          "being tampered"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk pasif ganda dengan perfect infinitive: 'to have been tampered with' (dianggap telah dirusak).",
+        "hints": [
+          "Bukti telah dimanipulasi di masa lalu.",
+          "Gunakan 'to have been tampered with'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      }
+    ]
+  }
+}
