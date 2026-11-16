@@ -1,13 +1,31 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { GeneratedModuleContent } from "../data/generatedModules";
+import { getStagePedagogy } from "../data/lessonEnrichment";
 import { SKILL_GUIDE } from "../data/questionBank";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
 import { buildStages } from "../utils/stageBuilder";
-import { getChecks, saveChecks, saveScore } from "../utils/storage";
+import {
+  getChecks,
+  parseModuleResumeHash,
+  recordModuleHistory,
+  saveChecks,
+  saveScore,
+  subLevelFromAnchor,
+  SubLevelKey,
+} from "../utils/storage";
 import { QuestionProgressState } from "./GuidedQuestionItem";
+import {
+  LessonConceptCards,
+  LessonExampleCard,
+  LessonFormulaBox,
+  LessonParagraphBlock,
+  LessonStageMemoryFooter,
+  RichText,
+} from "./LessonRichContent";
 import { QuizLevelConfig } from "./LevelQuizModal";
 import { LevelQuizSummarySection } from "./LevelQuizSummarySection";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { FavoriteModuleButton, SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -73,18 +91,28 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     const freshLevels = buildRandomizedConfig();
     setQuizLevels(freshLevels);
     setSessionSeed([0, 0, 0]);
-    setModalOpen(false);
-    setActiveLevelIndex(0);
-    setStates(
-      freshLevels.map((stage) =>
-        stage.questions.map(() => ({
-          attempts: 0,
-          points: 0,
-          correct: false,
-          completed: false,
-        }))
-      )
-    );
+    const applyResumeState = () => {
+      const parsed = parseModuleResumeHash(window.location.hash);
+      recordModuleHistory({
+        moduleKey,
+        moduleTitle: content.title,
+        levelTitle: content.level,
+        activityType: parsed.activityType,
+        subLevel: parsed.subLevel,
+        anchorId: parsed.anchorId,
+      });
+      if (parsed.openQuizModal) {
+        setActiveLevelIndex(parsed.levelIndex);
+        setModalOpen(true);
+      } else {
+        setModalOpen(false);
+        setActiveLevelIndex(0);
+      }
+    };
+
+    applyResumeState();
+    window.addEventListener("el_route_change", applyResumeState);
+    return () => window.removeEventListener("el_route_change", applyResumeState);
   }, [moduleKey, content, baseStages]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
@@ -94,6 +122,15 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
   };
 
   const handleOpenLevelModal = (levelIndex: number) => {
+    const levelKey: SubLevelKey = baseStages[levelIndex]?.key || "simple";
+    recordModuleHistory({
+      moduleKey,
+      moduleTitle: content.title,
+      levelTitle: content.level,
+      activityType: "quiz",
+      subLevel: levelKey,
+      anchorId: `latihan-${levelKey}`,
+    });
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
@@ -151,6 +188,14 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
   };
 
   const handleJumpToMaterial = (anchorId: string) => {
+    recordModuleHistory({
+      moduleKey,
+      moduleTitle: content.title,
+      levelTitle: content.level,
+      activityType: "material",
+      subLevel: subLevelFromAnchor(anchorId),
+      anchorId,
+    });
     const el = document.getElementById(anchorId);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
@@ -166,6 +211,7 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
         </a>
@@ -183,9 +229,12 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
       </nav>
 
       <main className="module-page guided-learning" id="generatedModule">
-        <p className="level">
-          {content.level} / {content.number}
-        </p>
+        <div className="module-header-top">
+          <p className="level">
+            {content.level} / {content.number}
+          </p>
+          <FavoriteModuleButton moduleKey={moduleKey} />
+        </div>
         <h1>{content.title}</h1>
         <p className="module-intro">{content.intro}</p>
         <p className="module-meta">
@@ -198,7 +247,21 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
         <nav className="guided-jump" aria-label="Navigasi materi dan latihan">
           {baseStages.map((stage, idx) => (
             <React.Fragment key={stage.key}>
-              <a href={`#${stage.materialId}`}>Materi {STAGE_TITLES[stage.key]}</a>
+              <a
+                href={`#${stage.materialId}`}
+                onClick={() =>
+                  recordModuleHistory({
+                    moduleKey,
+                    moduleTitle: content.title,
+                    levelTitle: content.level,
+                    activityType: "material",
+                    subLevel: stage.key,
+                    anchorId: stage.materialId,
+                  })
+                }
+              >
+                Materi {STAGE_TITLES[stage.key]}
+              </a>
               <a
                 href={`#${stage.quizId}`}
                 onClick={(e) => {
@@ -212,37 +275,65 @@ export const GeneratedModuleView: React.FC<GeneratedModuleViewProps> = ({
           ))}
         </nav>
 
-        {baseStages.map((stage, idx) => (
-          <React.Fragment key={stage.key}>
-            <p className="level">{stage.label}</p>
-            <section className="lesson-stage guided-lesson" id={stage.materialId}>
-              <h2>{stage.section.title}</h2>
-              {stage.section.paragraphs.map((paragraph, pIdx) => (
-                <p key={pIdx}>{paragraph}</p>
-              ))}
-              {stage.section.examples?.map((example, eIdx) => (
-                <p key={eIdx} className="example guided-example">
-                  <span>{example}</span> <SpeakButton text={example} />
-                </p>
-              ))}
-              {stage.section.rule && (
-                <p className="rule guided-rule">
-                  <b>{stage.section.rule}</b>
-                </p>
-              )}
-              <div className="toolbar-actions" style={{ marginTop: ".75rem" }}>
-                <button
-                  type="button"
-                  className="check-quiz"
-                  style={{ marginTop: 0 }}
-                  onClick={() => handleOpenLevelModal(idx)}
-                >
-                  ▸ Uji Pemahaman {STAGE_TITLES[stage.key]} (Pop-up) →
-                </button>
-              </div>
-            </section>
-          </React.Fragment>
-        ))}
+        {baseStages.map((stage, idx) => {
+          const pedagogy = getStagePedagogy({
+            moduleKey,
+            stageKey: stage.key,
+            moduleTitle: content.title,
+            focus: content.focus,
+            existingRule: stage.section.rule,
+          });
+          const formulaToDisplay = pedagogy.formula || stage.section.rule;
+
+          return (
+            <React.Fragment key={stage.key}>
+              <p className="level">{stage.label}</p>
+              <section className="lesson-stage guided-lesson" id={stage.materialId}>
+                <h2>{stage.section.title}</h2>
+
+                {pedagogy.introLead && (
+                  <p className="lesson-lead-box">
+                    <RichText text={pedagogy.introLead} />
+                  </p>
+                )}
+
+                {pedagogy.concepts && pedagogy.concepts.length > 0 ? (
+                  <LessonConceptCards concepts={pedagogy.concepts} />
+                ) : (
+                  stage.section.paragraphs.map((paragraph, pIdx) => (
+                    <LessonParagraphBlock key={pIdx} text={paragraph} />
+                  ))
+                )}
+
+                {stage.section.examples && stage.section.examples.length > 0 && (
+                  <div className="lesson-examples-block">
+                    <p className="lesson-sublabel">Contoh &amp; Pemakaian Kalimat</p>
+                    {stage.section.examples.map((example, eIdx) => (
+                      <LessonExampleCard key={eIdx} example={example} />
+                    ))}
+                  </div>
+                )}
+
+                {formulaToDisplay && (
+                  <LessonFormulaBox formula={formulaToDisplay} note={pedagogy.formulaNote} />
+                )}
+
+                <LessonStageMemoryFooter pedagogy={pedagogy} hideFormula />
+
+                <div className="toolbar-actions" style={{ marginTop: ".9rem" }}>
+                  <button
+                    type="button"
+                    className="check-quiz"
+                    style={{ marginTop: 0 }}
+                    onClick={() => handleOpenLevelModal(idx)}
+                  >
+                    ▸ Uji Pemahaman {STAGE_TITLES[stage.key]} (Pop-up) →
+                  </button>
+                </div>
+              </section>
+            </React.Fragment>
+          );
+        })}
 
         <LevelQuizSummarySection
           moduleKey={moduleKey}

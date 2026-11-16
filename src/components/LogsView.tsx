@@ -9,6 +9,7 @@ import {
   VocabEntry,
 } from "../utils/storage";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -111,6 +112,7 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>

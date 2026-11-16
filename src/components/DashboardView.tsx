@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BUILT, CURRICULUM, TOTAL_MODULES } from "../data/curriculum";
 import { ModuleQuestion } from "../data/generatedModules";
 import { QUESTION_BANK } from "../data/questionBank";
@@ -10,16 +10,25 @@ import {
 } from "../utils/speech";
 import {
   exportAllData,
+  formatRelativeTime,
   getChecks,
   getErrorJournal,
+  getFavorites,
+  getModuleHistory,
+  getModuleMeta,
   getScores,
   getVocabLog,
   importAllData,
-  ModuleStatus,
-  statusOf,
+  ModuleHistoryEntry,
+  SubLevelKey,
 } from "../utils/storage";
 import { GuidedQuestionItem, QuestionProgressState } from "./GuidedQuestionItem";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import {
+  FavoriteModuleButton,
+  openModuleSidebar,
+  SidebarToggleButton,
+} from "./SidebarControls";
 import { ThemeToggle } from "./ThemeToggle";
 
 interface DashboardViewProps {
@@ -30,8 +39,22 @@ interface DailyReviewItem {
   id: string;
   moduleKey: string;
   moduleTitle: string;
-  levelKey: "simple" | "intermediate" | "complex";
+  levelKey: SubLevelKey;
   question: ModuleQuestion;
+}
+
+const SUBLEVEL_LABELS: Record<SubLevelKey, string> = {
+  simple: "Simple",
+  intermediate: "Intermediate",
+  complex: "Complex",
+};
+
+function buildResumePath(entry: ModuleHistoryEntry): string {
+  const hash =
+    entry.activityType === "quiz"
+      ? `resume-quiz-${entry.subLevel}`
+      : entry.anchorId || `materi-${entry.subLevel}`;
+  return `${entry.moduleKey}.html#${hash}`;
 }
 
 function generateDailyReviewSet(
@@ -86,30 +109,28 @@ function generateDailyReviewSet(
 export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
   const [scores, setScores] = useState<Record<string, number>>(() => getScores());
   const [checks, setChecks] = useState<Record<string, boolean[]>>(() => getChecks());
+  const [favorites, setFavorites] = useState<string[]>(() => getFavorites());
+  const [history, setHistory] = useState<ModuleHistoryEntry[]>(() => getModuleHistory());
   const [vocabCount, setVocabCount] = useState<number>(() => getVocabLog().length);
   const [errorCount, setErrorCount] = useState<number>(() => getErrorJournal().length);
-
-
-  // Filter & Search state
-  const [searchQuery, setSearchQuery] = useState("");
-  const [statusFilter, setStatusFilter] = useState<"all" | ModuleStatus>("all");
-  const [levelFilter, setLevelFilter] = useState<string>("all");
+  const [backupNotice, setBackupNotice] = useState<string>("");
 
   // Daily Spaced Repetition state
   const [dailyActive, setDailyActive] = useState(false);
   const [dailyItems, setDailyItems] = useState<DailyReviewItem[]>([]);
   const [dailyStates, setDailyStates] = useState<QuestionProgressState[]>([]);
 
-  // Speech & Backup state
+  // Speech settings state
   const [speechRateMode, setSpeechRateModeState] = useState<"normal" | "slow">(() =>
     getSpeechRate() < 1 ? "slow" : "normal"
   );
   const [voiceInfo, setVoiceInfo] = useState(() => getSpeechVoiceInfo());
 
-
   const refreshData = () => {
     setScores(getScores());
     setChecks(getChecks());
+    setFavorites(getFavorites());
+    setHistory(getModuleHistory());
     setVocabCount(getVocabLog().length);
     setErrorCount(getErrorJournal().length);
     setVoiceInfo(getSpeechVoiceInfo());
@@ -124,6 +145,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
     const handleVisibility = () => {
       if (!document.hidden) refreshData();
     };
+    window.addEventListener("el_storage_sync", refreshData);
     window.addEventListener("focus", handleFocus);
     window.addEventListener("pageshow", handleFocus);
     window.addEventListener("visibilitychange", handleVisibility);
@@ -133,6 +155,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
       };
     }
     return () => {
+      window.removeEventListener("el_storage_sync", refreshData);
       window.removeEventListener("focus", handleFocus);
       window.removeEventListener("pageshow", handleFocus);
       window.removeEventListener("visibilitychange", handleVisibility);
@@ -160,35 +183,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
   const avgText = countScore ? `${Math.round(sumScore / countScore)}%` : "—";
   const quizEntries = Object.entries(scores).sort((a, b) => b[1] - a[1]);
 
-  const filteredCurriculum = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    return CURRICULUM.filter((lvl) => levelFilter === "all" || lvl.id === levelFilter)
-      .map((level) => {
-        const matchedModules = level.modules.filter(([mod, title], idx) => {
-          const key = `${level.id}/${mod}`;
-          const st = statusOf(key, scores, checks);
-          if (statusFilter !== "all" && st !== statusFilter) return false;
-          if (!q) return true;
-          const numStr = String(idx + 1).padStart(2, "0");
-          return (
-            title.toLowerCase().includes(q) ||
-            mod.toLowerCase().includes(q) ||
-            level.title.toLowerCase().includes(q) ||
-            numStr.includes(q)
-          );
-        });
-        return {
-          ...level,
-          matchedModules,
-        };
-      })
-      .filter((level) => level.matchedModules.length > 0);
-  }, [searchQuery, statusFilter, levelFilter, scores, checks]);
-
-  const totalMatchedModules = useMemo(
-    () => filteredCurriculum.reduce((acc, lvl) => acc + lvl.matchedModules.length, 0),
-    [filteredCurriculum]
-  );
+  const latestEntry = history[0] || null;
+  const recentFive = history.slice(0, 5);
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
     e.preventDefault();
@@ -237,6 +233,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
+    setBackupNotice("Cadangan JSON berhasil diunduh.");
   };
 
   const handleImportFile = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -246,30 +243,26 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
     reader.onload = (event) => {
       const content = event.target?.result as string;
       const res = importAllData(content);
+      setBackupNotice(res.message);
       if (res.ok) {
-        setScores(getScores());
-        setChecks(getChecks());
-        setVocabCount(getVocabLog().length);
-        setErrorCount(getErrorJournal().length);
+        refreshData();
       }
     };
     reader.readAsText(file);
     e.target.value = "";
   };
 
-
-
   return (
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>
         <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
           Question Bank
         </a>
-
         <a href="word-choice-bank.html" onClick={(e) => handleLinkClick(e, "word-choice-bank.html")}>
           Word Bank
         </a>
@@ -285,11 +278,191 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
 
       <h1>Kurikulum</h1>
       <p className="level">
-        Basic → Complex · 5 Level · 58 Modul · <span id="builtCounter">{BUILT.size}</span>/58 dibangun
+        Basic → Complex · 5 Level · 58 Modul · IELTS 3.5–8.5+ ·{" "}
+        <span id="builtCounter">{BUILT.size}</span>/58 siap
       </p>
 
+      <section id="progress-tracker">
+        <div className="tracker-section-head">
+          <h2>Progress Tracker &amp; Riwayat</h2>
+          <button
+            type="button"
+            className="filter-pill"
+            onClick={() => openModuleSidebar("all")}
+          >
+            ☰ Jelajahi 58 Modul →
+          </button>
+        </div>
+
+        {latestEntry ? (
+          <div className="tracker-resume-card">
+            <div className="tracker-resume-top">
+              <div>
+                <p className="tracker-kicker">
+                  Lanjutkan Terakhir · {formatRelativeTime(latestEntry.openedAt)}
+                </p>
+                <p className="tracker-level-text">{latestEntry.levelTitle}</p>
+                <h3 className="tracker-resume-title">{latestEntry.moduleTitle}</h3>
+              </div>
+              <FavoriteModuleButton moduleKey={latestEntry.moduleKey} />
+            </div>
+
+            <p className="tracker-meta-line">
+              <span>
+                Titik Terakhir:{" "}
+                <b>
+                  {latestEntry.activityType === "quiz" ? "Kuis" : "Materi"}{" "}
+                  {SUBLEVEL_LABELS[latestEntry.subLevel]}
+                </b>
+              </span>
+              <span>
+                Skor Terbaru:{" "}
+                <b>
+                  {scores[latestEntry.moduleKey] != null
+                    ? `${scores[latestEntry.moduleKey]}%`
+                    : latestEntry.latestScore != null
+                    ? `${latestEntry.latestScore}%`
+                    : "Belum ada skor"}
+                </b>
+              </span>
+              <span>
+                Checklist:{" "}
+                <b>{(checks[latestEntry.moduleKey] || []).filter(Boolean).length}/3</b>
+              </span>
+            </p>
+
+            <div className="toolbar-actions" style={{ marginTop: "0.75rem" }}>
+              <button
+                type="button"
+                className="check-quiz"
+                style={{ marginTop: 0 }}
+                onClick={() => onNavigate(buildResumePath(latestEntry))}
+              >
+                Lanjutkan Belajar →
+              </button>
+              <button
+                type="button"
+                className="guided-reset"
+                onClick={() => openModuleSidebar("all")}
+              >
+                Pilih Modul Lain
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="tracker-resume-card tracker-empty-card">
+            <p className="tracker-kicker">Belum Ada Riwayat Belajar</p>
+            <h3 className="tracker-resume-title">Mulai Sesi Pertamamu</h3>
+            <p className="tracker-meta-line">
+              Buka salah satu modul lewat tombol <b>☰ Modul</b> di pojok kiri atas untuk mencatat
+              posisi materi, kuis, dan skor terbaru secara otomatis.
+            </p>
+            <div className="toolbar-actions" style={{ marginTop: "0.75rem" }}>
+              <button
+                type="button"
+                className="check-quiz"
+                style={{ marginTop: 0 }}
+                onClick={() => onNavigate("00-foundation/01-parts-of-speech.html")}
+              >
+                Mulai Level 0: Parts of Speech →
+              </button>
+              <button
+                type="button"
+                className="guided-reset"
+                onClick={() => openModuleSidebar("all")}
+              >
+                ☰ Buka Daftar 58 Modul
+              </button>
+            </div>
+          </div>
+        )}
+
+        <div className="tracker-recent-wrap">
+          <div className="tracker-subhead">
+            <h3>Riwayat 5 Modul Terakhir</h3>
+            <span className="tracker-submeta">
+              {recentFive.length > 0 ? `${recentFive.length} terakhir` : "Kosong"}
+            </span>
+          </div>
+
+          {recentFive.length === 0 ? (
+            <p className="empty">Belum ada aktivitas modul yang terekam.</p>
+          ) : (
+            <ul className="tracker-recent-list">
+              {recentFive.map((item) => {
+                const liveScore =
+                  scores[item.moduleKey] != null ? scores[item.moduleKey] : item.latestScore;
+                const activityLabel = `${
+                  item.activityType === "quiz" ? "Kuis" : "Materi"
+                } ${SUBLEVEL_LABELS[item.subLevel]}`;
+
+                return (
+                  <li key={`${item.moduleKey}-${item.openedAt}`} className="tracker-recent-row">
+                    <button
+                      type="button"
+                      className="tracker-recent-link"
+                      onClick={() => onNavigate(buildResumePath(item))}
+                    >
+                      <span className="tracker-recent-title">{item.moduleTitle}</span>
+                      <span className="tracker-recent-details">
+                        {item.levelTitle} · {activityLabel} ·{" "}
+                        {liveScore != null ? `Skor ${liveScore}%` : "Belum ada skor"} ·{" "}
+                        {formatRelativeTime(item.openedAt)}
+                      </span>
+                    </button>
+                    <FavoriteModuleButton moduleKey={item.moduleKey} compact />
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </div>
+
+        <div className="tracker-favorites-wrap">
+          <div className="tracker-subhead">
+            <h3>★ Modul Favorit ({favorites.length})</h3>
+            <button
+              type="button"
+              className="tracker-text-action"
+              onClick={() => openModuleSidebar("favorites")}
+            >
+              Kelola di Sidebar →
+            </button>
+          </div>
+          {favorites.length === 0 ? (
+            <p className="empty" style={{ padding: "0.35rem 0" }}>
+              Belum ada modul favorit. Tandai <b>☆</b> di daftar modul atau di halaman materi agar
+              terpin di sini dan di puncak sidebar.
+            </p>
+          ) : (
+            <div className="tracker-favorites-grid">
+              {favorites.slice(0, 6).map((favKey) => {
+                const meta = getModuleMeta(favKey);
+                const sc = scores[favKey];
+                return (
+                  <div key={favKey} className="tracker-fav-item">
+                    <button
+                      type="button"
+                      className="tracker-fav-open"
+                      onClick={() => onNavigate(`${favKey}.html`)}
+                    >
+                      <span className="tracker-fav-title">{meta.moduleTitle}</span>
+                      <span className="tracker-fav-meta">
+                        {meta.levelTitle}
+                        {sc != null ? ` · ${sc}%` : ""}
+                      </span>
+                    </button>
+                    <FavoriteModuleButton moduleKey={favKey} compact />
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </section>
+
       <section id="overview">
-        <h2>Progress</h2>
+        <h2>Progress Keseluruhan</h2>
         <div className="progress-bar">
           <span id="overallBar" style={{ width: `${pct}%` }}></span>
         </div>
@@ -313,7 +486,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         </div>
         <p style={{ fontSize: ".85rem", color: "var(--muted)", fontFamily: "var(--mono,monospace)", marginBottom: "0.75rem" }}>
           <b>LULUS</b> = quiz ≥ 80% + 3 checklist · <b>PROSES</b> = ada data · <b>BELUM</b> = belum
-          dikerjakan · <b>BELUM DITULIS</b> = file modul belum dibuat
+          dikerjakan
         </p>
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center", paddingTop: "0.5rem", borderTop: "1px dashed var(--line, #e0e0e0)" }}>
@@ -325,7 +498,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
             className="filter-pill"
             style={{ fontSize: "0.8rem", padding: "0.25rem 0.65rem" }}
             onClick={handleExportData}
-            title="Unduh seluruh riwayat skor, checklist, kosakata, dan error journal ke berkas JSON"
+            title="Unduh seluruh riwayat skor, checklist, favorit, tracker, kosakata, dan error journal ke berkas JSON"
           >
             ⤓ Unduh Cadangan (Backup JSON)
           </button>
@@ -343,6 +516,11 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
             />
           </label>
         </div>
+        {backupNotice && (
+          <p className="hint" style={{ marginTop: "0.5rem" }} aria-live="polite">
+            {backupNotice}
+          </p>
+        )}
       </section>
 
       <section id="daily-review">
@@ -419,136 +597,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         )}
       </section>
 
-      <section id="levels">
-        <h2>Daftar Modul ({totalMatchedModules} / {TOTAL_MODULES})</h2>
-
-        <div className="curriculum-filter-bar">
-          <input
-            type="search"
-            className="filter-search-input"
-            placeholder="Cari modul atau topik (mis. articles, passive, hedging, conditional)..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Cari modul kurikulum"
-          />
-          <select
-            className="filter-level-select"
-            value={levelFilter}
-            onChange={(e) => setLevelFilter(e.target.value)}
-            aria-label="Filter berdasarkan level"
-          >
-            <option value="all">Semua Level (0–4)</option>
-            {CURRICULUM.map((lvl) => (
-              <option key={lvl.id} value={lvl.id}>
-                {lvl.title}
-              </option>
-            ))}
-          </select>
-          <div className="filter-status-group" role="group" aria-label="Filter status modul">
-            {(
-              [
-                ["all", "Semua"],
-                ["belum", "Belum"],
-                ["proses", "Proses"],
-                ["lulus", "Lulus"],
-              ] as const
-            ).map(([key, label]) => (
-              <button
-                key={key}
-                type="button"
-                className={`filter-pill ${statusFilter === key ? "is-active" : ""}`}
-                onClick={() => setStatusFilter(key)}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div id="levelList">
-          {filteredCurriculum.length === 0 ? (
-            <p className="empty">
-              Tidak ada modul yang cocok dengan pencarian &ldquo;{searchQuery}&rdquo;.
-            </p>
-          ) : (
-            filteredCurriculum.map((level) => (
-              <details key={level.id} className="level-group" open>
-                <summary>
-                  <span className="level-title">{level.title}</span>
-                  {level.ieltsBand && (
-                    <span
-                      style={{
-                        marginLeft: "0.5rem",
-                        padding: "0.15rem 0.5rem",
-                        border: "1px solid var(--line, #ccc)",
-                        fontSize: "0.75rem",
-                        textTransform: "uppercase",
-                        letterSpacing: "0.03em",
-                        fontWeight: 600,
-                        background: "var(--bg-soft, #f7f7f7)",
-                      }}
-                    >
-                      {level.ieltsBand}
-                    </span>
-                  )}
-                  <span className="level-desc" style={{ marginLeft: "auto" }}>
-                    {level.desc} ({level.matchedModules.length})
-                  </span>
-                </summary>
-                <table className="module-table">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Modul</th>
-                      <th>Status</th>
-                      <th>Skor</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {level.matchedModules.map(([mod, title]) => {
-                      const origIndex = level.modules.findIndex(([m]) => m === mod);
-                      const key = `${level.id}/${mod}`;
-                      const path = `${level.id}/${mod}.html`;
-                      const st = statusOf(key, scores, checks);
-                      const score = scores[key];
-                      const isBuilt = BUILT.has(key);
-
-                      const statusLabel =
-                        st === "unbuilt"
-                          ? "— BELUM DITULIS"
-                          : st === "lulus"
-                          ? "✓ LULUS"
-                          : st === "proses"
-                          ? "· PROSES"
-                          : "— BELUM";
-
-                      return (
-                        <tr key={key} className={`mod-${st}`}>
-                          <td className="mod-num">{String(origIndex + 1).padStart(2, "0")}</td>
-                          <td className="mod-title">
-                            {isBuilt ? (
-                              <a href={path} onClick={(e) => handleLinkClick(e, path)}>
-                                {title}
-                              </a>
-                            ) : (
-                              <span style={{ color: "var(--soft)" }}>{title}</span>
-                            )}
-                          </td>
-                          <td className="mod-status">{statusLabel}</td>
-                          <td className="mod-score">{score != null ? `${score}%` : "—"}</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </details>
-            ))
-          )}
-        </div>
-      </section>
-
       <section id="quiz-log">
-        <h2>Riwayat Quiz</h2>
+        <h2>Riwayat Skor Kuis</h2>
         {quizEntries.length === 0 ? (
           <p id="quizEmpty" className="empty">
             Belum ada quiz yang dikerjakan.
@@ -563,20 +613,22 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
               </tr>
             </thead>
             <tbody>
-              {quizEntries.map(([k, s]) => (
-                <tr key={k}>
-                  <td>
-                    <a
-                      href={`${k}.html`}
-                      onClick={(e) => handleLinkClick(e, `${k}.html`)}
-                    >
-                      {k}
-                    </a>
-                  </td>
-                  <td>{s}%</td>
-                  <td>{s >= 80 ? "LULUS" : "ULANGI"}</td>
-                </tr>
-              ))}
+              {quizEntries.map(([k, s]) => {
+                const meta = getModuleMeta(k);
+                return (
+                  <tr key={k}>
+                    <td>
+                      <a href={`${k}.html`} onClick={(e) => handleLinkClick(e, `${k}.html`)}>
+                        {meta.moduleTitle}
+                      </a>
+                    </td>
+                    <td style={{ fontFamily: "var(--mono)", fontVariantNumeric: "tabular-nums" }}>
+                      {s}%
+                    </td>
+                    <td style={{ fontFamily: "var(--mono)" }}>{s >= 80 ? "LULUS" : "ULANGI"}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         )}
@@ -623,8 +675,6 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
           </div>
         </div>
       </section>
-
-
     </>
   );
 };

@@ -1,11 +1,22 @@
 import React, { useEffect, useState } from "react";
+import { getStagePedagogy } from "../data/lessonEnrichment";
 import { PILOT_SKILL_GUIDE, PRESENT_SIMPLE_LEVELS } from "../data/presentSimplePilot";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
-import { getChecks, saveChecks, saveScore } from "../utils/storage";
+import {
+  getChecks,
+  parseModuleResumeHash,
+  recordModuleHistory,
+  saveChecks,
+  saveScore,
+  subLevelFromAnchor,
+  SubLevelKey,
+} from "../utils/storage";
 import { QuestionProgressState } from "./GuidedQuestionItem";
+import { LessonStageMemoryFooter } from "./LessonRichContent";
 import { QuizLevelConfig } from "./LevelQuizModal";
 import { LevelQuizSummarySection } from "./LevelQuizSummarySection";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { FavoriteModuleButton, SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -54,6 +65,26 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
   useEffect(() => {
     document.body.dataset.module = MODULE_KEY;
     document.title = "Present Simple — English Learning";
+
+    const applyResumeState = () => {
+      const parsed = parseModuleResumeHash(window.location.hash);
+      recordModuleHistory({
+        moduleKey: MODULE_KEY,
+        moduleTitle: "Present Simple",
+        levelTitle: "Level 0 · Foundation",
+        activityType: parsed.activityType,
+        subLevel: parsed.subLevel,
+        anchorId: parsed.anchorId,
+      });
+      if (parsed.openQuizModal) {
+        setActiveLevelIndex(parsed.levelIndex);
+        setModalOpen(true);
+      }
+    };
+
+    applyResumeState();
+    window.addEventListener("el_route_change", applyResumeState);
+    return () => window.removeEventListener("el_route_change", applyResumeState);
   }, []);
 
   const handleCheckChange = (index: number, checked: boolean) => {
@@ -63,6 +94,16 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
   };
 
   const handleOpenLevelModal = (levelIndex: number) => {
+    const subLevel: SubLevelKey =
+      PRESENT_SIMPLE_LEVELS[levelIndex]?.key || "simple";
+    recordModuleHistory({
+      moduleKey: MODULE_KEY,
+      moduleTitle: "Present Simple",
+      levelTitle: "Level 0 · Foundation",
+      activityType: "quiz",
+      subLevel,
+      anchorId: `latihan-${subLevel}`,
+    });
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
@@ -120,6 +161,14 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
   };
 
   const handleJumpToMaterial = (anchorId: string) => {
+    recordModuleHistory({
+      moduleKey: MODULE_KEY,
+      moduleTitle: "Present Simple",
+      levelTitle: "Level 0 · Foundation",
+      activityType: "material",
+      subLevel: subLevelFromAnchor(anchorId),
+      anchorId,
+    });
     const el = document.getElementById(anchorId);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
@@ -131,10 +180,22 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
     onNavigate(path);
   };
 
+  const trackMaterialAnchor = (subLevel: SubLevelKey, anchorId: string) => {
+    recordModuleHistory({
+      moduleKey: MODULE_KEY,
+      moduleTitle: "Present Simple",
+      levelTitle: "Level 0 · Foundation",
+      activityType: "material",
+      subLevel,
+      anchorId,
+    });
+  };
+
   return (
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
         </a>
@@ -152,7 +213,10 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
       </nav>
 
       <main className="module-page guided-learning">
-        <p className="level">Level 0 · Foundation / 07</p>
+        <div className="module-header-top">
+          <p className="level">Level 0 · Foundation / 07</p>
+          <FavoriteModuleButton moduleKey={MODULE_KEY} />
+        </div>
         <h1>Present Simple</h1>
         <p className="module-intro">
           Pelajari bentuk, fungsi, dan pilihan tense-nya. Materi bergerak dari kalimat dasar ke
@@ -169,9 +233,18 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
         </p>
 
         <nav className="guided-jump" aria-label="Navigasi materi dan latihan">
-          <a href="#materi-simple">Materi Simple</a>
-          <a href="#materi-intermediate">Materi Intermediate</a>
-          <a href="#materi-complex">Materi Complex</a>
+          <a href="#materi-simple" onClick={() => trackMaterialAnchor("simple", "materi-simple")}>
+            Materi Simple
+          </a>
+          <a
+            href="#materi-intermediate"
+            onClick={() => trackMaterialAnchor("intermediate", "materi-intermediate")}
+          >
+            Materi Intermediate
+          </a>
+          <a href="#materi-complex" onClick={() => trackMaterialAnchor("complex", "materi-complex")}>
+            Materi Complex
+          </a>
           <a
             href="#latihan-simple"
             onClick={(e) => {
@@ -317,7 +390,15 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <b>She studies English, but her colleagues study Indonesian.</b> Periksa subject sebelum
             mengubah ejaan verb.
           </p>
-          <div className="toolbar-actions">
+          <LessonStageMemoryFooter
+            pedagogy={getStagePedagogy({
+              moduleKey: MODULE_KEY,
+              stageKey: "simple",
+              moduleTitle: "Present Simple",
+              focus: "rutinitas, fakta, akhiran -s/-es",
+            })}
+          />
+          <div className="toolbar-actions" style={{ marginTop: ".9rem" }}>
             <button
               type="button"
               className="check-quiz"
@@ -418,7 +499,15 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <b>Does your manager usually start early?</b> ·{" "}
             <b>My manager doesn&apos;t usually start early.</b>
           </p>
-          <div className="toolbar-actions">
+          <LessonStageMemoryFooter
+            pedagogy={getStagePedagogy({
+              moduleKey: MODULE_KEY,
+              stageKey: "intermediate",
+              moduleTitle: "Present Simple",
+              focus: "kalimat negatif dan tanya do/does",
+            })}
+          />
+          <div className="toolbar-actions" style={{ marginTop: ".9rem" }}>
             <button
               type="button"
               className="check-quiz"
@@ -498,7 +587,15 @@ export const PresentSimplePilotView: React.FC<PresentSimplePilotViewProps> = ({ 
             <br />
             <b>Kegiatan sementara yang sedang berlangsung → Present Continuous.</b>
           </p>
-          <div className="toolbar-actions">
+          <LessonStageMemoryFooter
+            pedagogy={getStagePedagogy({
+              moduleKey: MODULE_KEY,
+              stageKey: "complex",
+              moduleTitle: "Present Simple",
+              focus: "rutinitas vs sementara dan stative verbs",
+            })}
+          />
+          <div className="toolbar-actions" style={{ marginTop: ".9rem" }}>
             <button
               type="button"
               className="check-quiz"

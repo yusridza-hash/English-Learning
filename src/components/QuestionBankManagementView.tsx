@@ -16,6 +16,7 @@ import {
   resetAllProgress,
 } from "../utils/storage";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SidebarToggleButton } from "./SidebarControls";
 import { ThemeToggle } from "./ThemeToggle";
 
 interface QuestionBankManagementViewProps {
@@ -411,6 +412,7 @@ ${keysList.join("\n")}
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>

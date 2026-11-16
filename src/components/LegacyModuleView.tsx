@@ -1,12 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { LegacyModuleData } from "../data/legacyModules";
+import { getStagePedagogy } from "../data/lessonEnrichment";
 import { QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
 import { getRandomizedLevelQuestions } from "../utils/questionRandomizer";
-import { getChecks, saveChecks, saveScore } from "../utils/storage";
+import {
+  getChecks,
+  parseModuleResumeHash,
+  recordModuleHistory,
+  saveChecks,
+  saveScore,
+  subLevelFromAnchor,
+  SubLevelKey,
+} from "../utils/storage";
 import { QuestionProgressState } from "./GuidedQuestionItem";
+import { LessonStageMemoryFooter } from "./LessonRichContent";
 import { QuizLevelConfig } from "./LevelQuizModal";
 import { LevelQuizSummarySection } from "./LevelQuizSummarySection";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { FavoriteModuleButton, SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -86,8 +97,6 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
     const initialLevels = buildLegacyQuizLevels(data.key);
     setQuizLevels(initialLevels);
     setSessionSeed([0, 0, 0]);
-    setModalOpen(false);
-    setActiveLevelIndex(0);
     setQuestionStates(
       initialLevels.map((lvl) =>
         lvl.questions.map(() => ({
@@ -98,6 +107,28 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
         }))
       )
     );
+
+    const applyResumeState = () => {
+      const parsed = parseModuleResumeHash(window.location.hash);
+      recordModuleHistory({
+        moduleKey: data.key,
+        moduleTitle: data.title,
+        activityType: parsed.activityType,
+        subLevel: parsed.subLevel,
+        anchorId: parsed.anchorId,
+      });
+      if (parsed.openQuizModal) {
+        setActiveLevelIndex(parsed.levelIndex);
+        setModalOpen(true);
+      } else {
+        setModalOpen(false);
+        setActiveLevelIndex(0);
+      }
+    };
+
+    applyResumeState();
+    window.addEventListener("el_route_change", applyResumeState);
+    return () => window.removeEventListener("el_route_change", applyResumeState);
   }, [data]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
@@ -107,6 +138,14 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
   };
 
   const handleOpenLevelModal = (levelIndex: number) => {
+    const subLevel: SubLevelKey = LEVEL_KEYS[levelIndex] || "simple";
+    recordModuleHistory({
+      moduleKey: data.key,
+      moduleTitle: data.title,
+      activityType: "quiz",
+      subLevel,
+      anchorId: `latihan-${subLevel}`,
+    });
     setActiveLevelIndex(levelIndex);
     setModalOpen(true);
   };
@@ -160,6 +199,13 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
   };
 
   const handleJumpToMaterial = (anchorId: string) => {
+    recordModuleHistory({
+      moduleKey: data.key,
+      moduleTitle: data.title,
+      activityType: "material",
+      subLevel: subLevelFromAnchor(anchorId),
+      anchorId,
+    });
     const el = document.getElementById(anchorId);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
@@ -171,18 +217,40 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
     onNavigate(path);
   };
 
-  const renderPopUpTrigger = (levelIndex: number, title: string) => (
-    <div className="toolbar-actions" style={{ marginTop: ".75rem" }}>
-      <button
-        type="button"
-        className="check-quiz"
-        style={{ marginTop: 0 }}
-        onClick={() => handleOpenLevelModal(levelIndex)}
-      >
-        ▸ Uji Pemahaman {title} (Pop-up) →
-      </button>
-    </div>
-  );
+  const trackMaterialAnchor = (subLevel: SubLevelKey, anchorId: string) => {
+    recordModuleHistory({
+      moduleKey: data.key,
+      moduleTitle: data.title,
+      activityType: "material",
+      subLevel,
+      anchorId,
+    });
+  };
+
+  const renderPopUpTrigger = (levelIndex: number, title: string) => {
+    const stageKey: SubLevelKey = LEVEL_KEYS[levelIndex] || "simple";
+    const pedagogy = getStagePedagogy({
+      moduleKey: data.key,
+      stageKey,
+      moduleTitle: data.title,
+      focus: data.title,
+    });
+    return (
+      <>
+        <LessonStageMemoryFooter pedagogy={pedagogy} />
+        <div className="toolbar-actions" style={{ marginTop: ".9rem" }}>
+          <button
+            type="button"
+            className="check-quiz"
+            style={{ marginTop: 0 }}
+            onClick={() => handleOpenLevelModal(levelIndex)}
+          >
+            ▸ Uji Pemahaman {title} (Pop-up) →
+          </button>
+        </div>
+      </>
+    );
+  };
 
   const renderMaterialSections = () => {
     switch (data.key) {
@@ -673,6 +741,7 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
         </a>
@@ -690,7 +759,10 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
       </nav>
 
       <main className="module-page guided-learning">
-        <p className="level">{data.levelLabel}</p>
+        <div className="module-header-top">
+          <p className="level">{data.levelLabel}</p>
+          <FavoriteModuleButton moduleKey={data.key} />
+        </div>
         <h1>{data.title}</h1>
         <p className="module-intro">{data.intro}</p>
         <p className="module-meta">
@@ -700,9 +772,18 @@ export const LegacyModuleView: React.FC<LegacyModuleViewProps> = ({ data, onNavi
         </p>
 
         <nav className="guided-jump" aria-label="Navigasi materi dan latihan">
-          <a href="#materi-simple">Materi Simple</a>
-          <a href="#materi-intermediate">Materi Intermediate</a>
-          <a href="#materi-complex">Materi Complex</a>
+          <a href="#materi-simple" onClick={() => trackMaterialAnchor("simple", "materi-simple")}>
+            Materi Simple
+          </a>
+          <a
+            href="#materi-intermediate"
+            onClick={() => trackMaterialAnchor("intermediate", "materi-intermediate")}
+          >
+            Materi Intermediate
+          </a>
+          <a href="#materi-complex" onClick={() => trackMaterialAnchor("complex", "materi-complex")}>
+            Materi Complex
+          </a>
           <a
             href="#latihan-simple"
             onClick={(e) => {

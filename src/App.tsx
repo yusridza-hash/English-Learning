@@ -4,6 +4,7 @@ import { DashboardView } from "./components/DashboardView";
 import { GeneratedModuleView } from "./components/GeneratedModuleView";
 import { LegacyModuleView } from "./components/LegacyModuleView";
 import { LogsView } from "./components/LogsView";
+import { ModuleSidebarDrawer } from "./components/ModuleSidebarDrawer";
 import { PresentSimplePilotView } from "./components/PresentSimplePilotView";
 import { QuestionBankManagementView } from "./components/QuestionBankManagementView";
 import { WordChoiceBankView } from "./components/WordChoiceBankView";
@@ -34,7 +35,7 @@ export const App: React.FC = () => {
   });
 
   const scrollToHash = useCallback((hash: string) => {
-    if (!hash) {
+    if (!hash || hash.startsWith("resume-quiz-")) {
       window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
@@ -56,6 +57,7 @@ export const App: React.FC = () => {
           ? "/"
           : `/${route}.html${hash ? `#${hash}` : ""}`;
       window.history.pushState({ route, hash }, "", urlPath);
+      window.dispatchEvent(new Event("el_route_change"));
       scrollToHash(hash);
     },
     [scrollToHash]
@@ -65,52 +67,46 @@ export const App: React.FC = () => {
     const onPopState = () => {
       const { route, hash } = normalizeRoute(window.location.pathname + window.location.hash);
       setCurrentRoute(route);
+      window.dispatchEvent(new Event("el_route_change"));
       scrollToHash(hash);
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, [scrollToHash]);
 
+  let activeView: React.ReactNode;
   if (currentRoute === "index") {
-    return <DashboardView onNavigate={handleNavigate} />;
-  }
-
-  if (currentRoute === "question-bank") {
-    return <QuestionBankManagementView onNavigate={handleNavigate} />;
-  }
-
-
-  if (currentRoute === "word-choice-bank") {
-    return <WordChoiceBankView onNavigate={handleNavigate} />;
-  }
-
-  if (currentRoute === "logs/vocab-log") {
-    return <LogsView mode="vocab" onNavigate={handleNavigate} />;
-  }
-
-  if (currentRoute === "logs/error-journal") {
-    return <LogsView mode="error" onNavigate={handleNavigate} />;
-  }
-
-  if (currentRoute === "00-foundation/07-present-simple") {
-    return <PresentSimplePilotView onNavigate={handleNavigate} />;
-  }
-
-  if (LEGACY_MODULES[currentRoute]) {
-    return <LegacyModuleView data={LEGACY_MODULES[currentRoute]} onNavigate={handleNavigate} />;
-  }
-
-  if (MODULE_CONTENT[currentRoute]) {
-    return (
+    activeView = <DashboardView onNavigate={handleNavigate} />;
+  } else if (currentRoute === "question-bank") {
+    activeView = <QuestionBankManagementView onNavigate={handleNavigate} />;
+  } else if (currentRoute === "word-choice-bank") {
+    activeView = <WordChoiceBankView onNavigate={handleNavigate} />;
+  } else if (currentRoute === "logs/vocab-log") {
+    activeView = <LogsView mode="vocab" onNavigate={handleNavigate} />;
+  } else if (currentRoute === "logs/error-journal") {
+    activeView = <LogsView mode="error" onNavigate={handleNavigate} />;
+  } else if (currentRoute === "00-foundation/07-present-simple") {
+    activeView = <PresentSimplePilotView onNavigate={handleNavigate} />;
+  } else if (LEGACY_MODULES[currentRoute]) {
+    activeView = <LegacyModuleView data={LEGACY_MODULES[currentRoute]} onNavigate={handleNavigate} />;
+  } else if (MODULE_CONTENT[currentRoute]) {
+    activeView = (
       <GeneratedModuleView
         moduleKey={currentRoute}
         content={MODULE_CONTENT[currentRoute]}
         onNavigate={handleNavigate}
       />
     );
+  } else {
+    activeView = <DashboardView onNavigate={handleNavigate} />;
   }
 
-  return <DashboardView onNavigate={handleNavigate} />;
+  return (
+    <>
+      <ModuleSidebarDrawer currentRoute={currentRoute} onNavigate={handleNavigate} />
+      {activeView}
+    </>
+  );
 };
 
 export default App;

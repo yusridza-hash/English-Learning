@@ -4,6 +4,7 @@ import { QUESTION_BANK, SKILL_GUIDE } from "../data/questionBank";
 import { addErrorJournalEntry, saveScore } from "../utils/storage";
 import { AIQuestionPackStudio } from "./AIQuestionPackStudio";
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
+import { SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -287,6 +288,7 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
     <>
       <OfflineIndicator />
       <nav>
+        <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           English · Learning
         </a>
