@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 
+import { ChallengeKnowledgeView } from "./components/ChallengeKnowledgeView";
 import { DashboardView } from "./components/DashboardView";
 import { GeneratedModuleView } from "./components/GeneratedModuleView";
 import { LegacyModuleView } from "./components/LegacyModuleView";
@@ -10,6 +11,7 @@ import { QuestionBankManagementView } from "./components/QuestionBankManagementV
 import { WordChoiceBankView } from "./components/WordChoiceBankView";
 import { MODULE_CONTENT } from "./data/generatedModules";
 import { LEGACY_MODULES } from "./data/legacyModules";
+import { applyViewportMode, getViewportMode } from "./utils/storage";
 
 function normalizeRoute(rawPath: string): { route: string; hash: string } {
   const [pathPart, hashPart = ""] = rawPath.split("#");
@@ -64,6 +66,10 @@ export const App: React.FC = () => {
   );
 
   useEffect(() => {
+    applyViewportMode(getViewportMode());
+  }, []);
+
+  useEffect(() => {
     const onPopState = () => {
       const { route, hash } = normalizeRoute(window.location.pathname + window.location.hash);
       setCurrentRoute(route);
@@ -77,6 +83,8 @@ export const App: React.FC = () => {
   let activeView: React.ReactNode;
   if (currentRoute === "index") {
     activeView = <DashboardView onNavigate={handleNavigate} />;
+  } else if (currentRoute === "challenge-knowledge") {
+    activeView = <ChallengeKnowledgeView onNavigate={handleNavigate} />;
   } else if (currentRoute === "question-bank") {
     activeView = <QuestionBankManagementView onNavigate={handleNavigate} />;
   } else if (currentRoute === "word-choice-bank") {

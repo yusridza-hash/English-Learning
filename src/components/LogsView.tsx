@@ -12,6 +12,7 @@ import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
 import { SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
+import { ViewportToggle } from "./ViewportToggle";
 
 interface LogsViewProps {
   mode: "vocab" | "error";
@@ -116,10 +117,12 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>
+        <a href="challenge-knowledge.html" onClick={(e) => handleLinkClick(e, "challenge-knowledge.html")}>
+          Challenge
+        </a>
         <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
           Question Bank
         </a>
-
         <a
           href="word-choice-bank.html"
           onClick={(e) => handleLinkClick(e, "word-choice-bank.html")}
@@ -138,8 +141,11 @@ export const LogsView: React.FC<LogsViewProps> = ({ mode, onNavigate }) => {
         >
           Error Journal
         </a>
-        <PWAInstallButton />
-        <ThemeToggle />
+        <div className="nav-utilities">
+          <ViewportToggle />
+          <PWAInstallButton />
+          <ThemeToggle />
+        </div>
       </nav>
 
       {mode === "vocab" ? (

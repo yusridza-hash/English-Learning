@@ -219,11 +219,145 @@ export function parseModuleResumeHash(rawHash: string): {
   };
 }
 
+export type ViewportMode = "laptop" | "android";
+
+const VIEWPORT_MODE_KEY = "el_viewport_mode";
+
+export function getViewportMode(): ViewportMode {
+  if (typeof window === "undefined") return "laptop";
+  const saved = localStorage.getItem(VIEWPORT_MODE_KEY);
+  return saved === "android" ? "android" : "laptop";
+}
+
+export function applyViewportMode(mode: ViewportMode): void {
+  if (typeof document === "undefined") return;
+  document.documentElement.dataset.viewport = mode;
+}
+
+export function setViewportMode(mode: ViewportMode): void {
+  if (typeof window !== "undefined") {
+    localStorage.setItem(VIEWPORT_MODE_KEY, mode);
+  }
+  applyViewportMode(mode);
+  emitStorageSync();
+}
+
+export type ChallengeDifficultyMode = "simple" | "intermediate" | "complex" | "progressive";
+export type ChallengeScopeMode = "random-all" | "favorites" | "level" | "custom";
+
+export interface ChallengeRecordEntry {
+  id: string;
+  playedAt: string;
+  difficultyMode: ChallengeDifficultyMode;
+  scopeMode: ChallengeScopeMode;
+  scopeLabel: string;
+  questionCount: number;
+  timerEnabled: boolean;
+  durationSec: number;
+  scorePct: number;
+  earnedPoints: number;
+  maxPoints: number;
+  correctCount: number;
+  bestStreak: number;
+  accuracyByLevel: Partial<Record<SubLevelKey, { correct: number; total: number }>>;
+}
+
+export interface ChallengeStats {
+  totalSessions: number;
+  totalAnswered: number;
+  bestScorePct: number;
+  bestStreak: number;
+  lastPlayedAt?: string;
+}
+
+const CHALLENGE_STATS_KEY = "el_challenge_stats";
+const CHALLENGE_HISTORY_KEY = "el_challenge_history";
+
+const DEFAULT_CHALLENGE_STATS: ChallengeStats = {
+  totalSessions: 0,
+  totalAnswered: 0,
+  bestScorePct: 0,
+  bestStreak: 0,
+};
+
+export function getChallengeStats(): ChallengeStats {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CHALLENGE_STATS_KEY) || "null");
+    if (!parsed || typeof parsed !== "object") return { ...DEFAULT_CHALLENGE_STATS };
+    return {
+      totalSessions: Number(parsed.totalSessions) || 0,
+      totalAnswered: Number(parsed.totalAnswered) || 0,
+      bestScorePct: Number(parsed.bestScorePct) || 0,
+      bestStreak: Number(parsed.bestStreak) || 0,
+      lastPlayedAt: typeof parsed.lastPlayedAt === "string" ? parsed.lastPlayedAt : undefined,
+    };
+  } catch {
+    return { ...DEFAULT_CHALLENGE_STATS };
+  }
+}
+
+export function getChallengeHistory(): ChallengeRecordEntry[] {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CHALLENGE_HISTORY_KEY) || "[]");
+    return Array.isArray(parsed) ? (parsed as ChallengeRecordEntry[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveChallengeResult(
+  entry: Omit<ChallengeRecordEntry, "id" | "playedAt">
+): {
+  savedEntry: ChallengeRecordEntry;
+  nextStats: ChallengeStats;
+  isNewBestScore: boolean;
+  isNewBestStreak: boolean;
+} {
+  const prevStats = getChallengeStats();
+  const prevHistory = getChallengeHistory();
+  const now = new Date().toISOString();
+
+  const savedEntry: ChallengeRecordEntry = {
+    ...entry,
+    id: `chl-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+    playedAt: now,
+  };
+
+  const isNewBestScore =
+    entry.scorePct > prevStats.bestScorePct && entry.scorePct > 0;
+  const isNewBestStreak =
+    entry.bestStreak > prevStats.bestStreak && entry.bestStreak > 0;
+
+  const nextStats: ChallengeStats = {
+    totalSessions: prevStats.totalSessions + 1,
+    totalAnswered: prevStats.totalAnswered + entry.questionCount,
+    bestScorePct: Math.max(prevStats.bestScorePct, entry.scorePct),
+    bestStreak: Math.max(prevStats.bestStreak, entry.bestStreak),
+    lastPlayedAt: now,
+  };
+
+  localStorage.setItem(CHALLENGE_STATS_KEY, JSON.stringify(nextStats));
+  localStorage.setItem(
+    CHALLENGE_HISTORY_KEY,
+    JSON.stringify([savedEntry, ...prevHistory].slice(0, 15))
+  );
+  emitStorageSync();
+
+  return {
+    savedEntry,
+    nextStats,
+    isNewBestScore,
+    isNewBestStreak,
+  };
+}
+
 export function resetAllProgress(): void {
   localStorage.removeItem("el_quiz");
   localStorage.removeItem("el_check");
   localStorage.removeItem("el_favorites");
   localStorage.removeItem("el_history");
+  localStorage.removeItem(CHALLENGE_STATS_KEY);
+  localStorage.removeItem(CHALLENGE_HISTORY_KEY);
   emitStorageSync();
 }
 
@@ -324,12 +458,15 @@ export interface BackupPayload {
   el_errors: ErrorJournalEntry[];
   el_favorites?: string[];
   el_history?: ModuleHistoryEntry[];
+  el_challenge_stats?: ChallengeStats;
+  el_challenge_history?: ChallengeRecordEntry[];
+  el_viewport_mode?: ViewportMode;
   el_theme?: string;
 }
 
 export function exportAllData(): string {
   const payload: BackupPayload = {
-    version: 2,
+    version: 3,
     exportedAt: new Date().toISOString(),
     el_quiz: getScores(),
     el_check: getChecks(),
@@ -337,6 +474,9 @@ export function exportAllData(): string {
     el_errors: getErrorJournal(),
     el_favorites: getFavorites(),
     el_history: getModuleHistory(),
+    el_challenge_stats: getChallengeStats(),
+    el_challenge_history: getChallengeHistory(),
+    el_viewport_mode: getViewportMode(),
     el_theme: localStorage.getItem("el_theme") || "light",
   };
   return JSON.stringify(payload, null, 2);
@@ -366,14 +506,27 @@ export function importAllData(jsonText: string): { ok: boolean; message: string 
     if (Array.isArray(parsed.el_history)) {
       localStorage.setItem("el_history", JSON.stringify(parsed.el_history));
     }
+    if (parsed.el_challenge_stats && typeof parsed.el_challenge_stats === "object") {
+      localStorage.setItem(CHALLENGE_STATS_KEY, JSON.stringify(parsed.el_challenge_stats));
+    }
+    if (Array.isArray(parsed.el_challenge_history)) {
+      localStorage.setItem(CHALLENGE_HISTORY_KEY, JSON.stringify(parsed.el_challenge_history));
+    }
+    if (parsed.el_viewport_mode === "laptop" || parsed.el_viewport_mode === "android") {
+      localStorage.setItem(VIEWPORT_MODE_KEY, parsed.el_viewport_mode);
+      applyViewportMode(parsed.el_viewport_mode);
+    }
     emitStorageSync();
     const quizCount = parsed.el_quiz ? Object.keys(parsed.el_quiz).length : 0;
     const vocabCount = Array.isArray(parsed.el_vocab) ? parsed.el_vocab.length : 0;
     const errCount = Array.isArray(parsed.el_errors) ? parsed.el_errors.length : 0;
     const favCount = Array.isArray(parsed.el_favorites) ? parsed.el_favorites.length : 0;
+    const chlCount = Array.isArray(parsed.el_challenge_history)
+      ? parsed.el_challenge_history.length
+      : 0;
     return {
       ok: true,
-      message: `Data berhasil dipulihkan (${quizCount} skor modul, ${vocabCount} kosakata, ${errCount} catatan Error Journal, ${favCount} favorit).`,
+      message: `Data berhasil dipulihkan (${quizCount} skor modul, ${vocabCount} kosakata, ${errCount} catatan Error Journal, ${favCount} favorit, ${chlCount} sesi Challenge).`,
     };
   } catch {
     return { ok: false, message: "Gagal membaca file JSON. Pastikan file backup valid." };

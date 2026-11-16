@@ -18,6 +18,7 @@ import {
 import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
 import { SidebarToggleButton } from "./SidebarControls";
 import { ThemeToggle } from "./ThemeToggle";
+import { ViewportToggle } from "./ViewportToggle";
 
 interface QuestionBankManagementViewProps {
   onNavigate: (path: string) => void;
@@ -416,6 +417,9 @@ ${keysList.join("\n")}
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>
+        <a href="challenge-knowledge.html" onClick={(e) => handleLinkClick(e, "challenge-knowledge.html")}>
+          Challenge
+        </a>
         <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
           Question Bank
         </a>
@@ -428,8 +432,11 @@ ${keysList.join("\n")}
         <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
           Error Journal
         </a>
-        <PWAInstallButton />
-        <ThemeToggle />
+        <div className="nav-utilities">
+          <ViewportToggle />
+          <PWAInstallButton />
+          <ThemeToggle />
+        </div>
       </nav>
 
       <main className="module-page">

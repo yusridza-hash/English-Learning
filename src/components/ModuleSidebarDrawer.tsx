@@ -392,6 +392,13 @@ export const ModuleSidebarDrawer: React.FC<ModuleSidebarDrawerProps> = ({
         </div>
 
         <div className="sidebar-footer">
+          <button
+            type="button"
+            className="is-challenge-footer-btn"
+            onClick={() => handleNavAction("challenge-knowledge.html")}
+          >
+            Challenge Knowledge →
+          </button>
           <button type="button" onClick={() => handleNavAction("index.html")}>
             Beranda Tracker
           </button>

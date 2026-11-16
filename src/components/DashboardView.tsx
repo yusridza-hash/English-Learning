@@ -9,8 +9,10 @@ import {
   speakEnglish,
 } from "../utils/speech";
 import {
+  ChallengeStats,
   exportAllData,
   formatRelativeTime,
+  getChallengeStats,
   getChecks,
   getErrorJournal,
   getFavorites,
@@ -30,6 +32,7 @@ import {
   SidebarToggleButton,
 } from "./SidebarControls";
 import { ThemeToggle } from "./ThemeToggle";
+import { ViewportToggle } from "./ViewportToggle";
 
 interface DashboardViewProps {
   onNavigate: (path: string) => void;
@@ -113,6 +116,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
   const [history, setHistory] = useState<ModuleHistoryEntry[]>(() => getModuleHistory());
   const [vocabCount, setVocabCount] = useState<number>(() => getVocabLog().length);
   const [errorCount, setErrorCount] = useState<number>(() => getErrorJournal().length);
+  const [challengeStats, setChallengeStats] = useState<ChallengeStats>(() => getChallengeStats());
   const [backupNotice, setBackupNotice] = useState<string>("");
 
   // Daily Spaced Repetition state
@@ -133,6 +137,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
     setHistory(getModuleHistory());
     setVocabCount(getVocabLog().length);
     setErrorCount(getErrorJournal().length);
+    setChallengeStats(getChallengeStats());
     setVoiceInfo(getSpeechVoiceInfo());
   };
 
@@ -260,6 +265,9 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           ENGLISH · LEARNING
         </a>
+        <a href="challenge-knowledge.html" onClick={(e) => handleLinkClick(e, "challenge-knowledge.html")}>
+          Challenge
+        </a>
         <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
           Question Bank
         </a>
@@ -272,8 +280,11 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
           Error Journal ({errorCount})
         </a>
-        <PWAInstallButton />
-        <ThemeToggle />
+        <div className="nav-utilities">
+          <ViewportToggle />
+          <PWAInstallButton />
+          <ThemeToggle />
+        </div>
       </nav>
 
       <h1>Kurikulum</h1>
@@ -282,17 +293,18 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         <span id="builtCounter">{BUILT.size}</span>/58 siap
       </p>
 
-      <section id="progress-tracker">
-        <div className="tracker-section-head">
-          <h2>Progress Tracker &amp; Riwayat</h2>
-          <button
-            type="button"
-            className="filter-pill"
-            onClick={() => openModuleSidebar("all")}
-          >
-            ☰ Jelajahi 58 Modul →
-          </button>
-        </div>
+      <div className="dashboard-top-grid">
+        <section id="progress-tracker">
+          <div className="tracker-section-head">
+            <h2>Progress Tracker &amp; Riwayat</h2>
+            <button
+              type="button"
+              className="filter-pill"
+              onClick={() => openModuleSidebar("all")}
+            >
+              ☰ Jelajahi 58 Modul →
+            </button>
+          </div>
 
         {latestEntry ? (
           <div className="tracker-resume-card">
@@ -461,67 +473,95 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
         </div>
       </section>
 
-      <section id="overview">
-        <h2>Progress Keseluruhan</h2>
-        <div className="progress-bar">
-          <span id="overallBar" style={{ width: `${pct}%` }}></span>
-        </div>
-        <div className="stat-row">
-          <div>
-            <span className="stat-label">Modul Lulus</span>
-            <span id="statDone">
-              {done} / {TOTAL_MODULES} ({pct}%)
-            </span>
-          </div>
-          <div>
-            <span className="stat-label">File Dibangun</span>
-            <span id="statBuilt">
-              {BUILT.size} / {TOTAL_MODULES}
-            </span>
-          </div>
-          <div>
-            <span className="stat-label">Skor Rata-rata</span>
-            <span id="statAvg">{avgText}</span>
-          </div>
-        </div>
-        <p style={{ fontSize: ".85rem", color: "var(--muted)", fontFamily: "var(--mono,monospace)", marginBottom: "0.75rem" }}>
-          <b>LULUS</b> = quiz ≥ 80% + 3 checklist · <b>PROSES</b> = ada data · <b>BELUM</b> = belum
-          dikerjakan
-        </p>
+        <div className="dashboard-side-column">
+          <section id="challenge-spotlight" className="challenge-dashboard-card">
+            <div className="tracker-section-head">
+              <h2>Challenge Knowledge</h2>
+              <span className="tracker-submeta tabular-num">
+                Rekor: {challengeStats.bestScorePct}% · Streak {challengeStats.bestStreak}
+              </span>
+            </div>
+            <p className="challenge-spotlight-desc">
+              Tantang dirimu dengan soal <b>Simple → Complex</b> atau <b>Mode Progresif</b> lintas
+              58 modul, timer opsional, dan pencatatan ke Error Journal.
+            </p>
+            <div className="toolbar-actions">
+              <button
+                type="button"
+                className="check-quiz"
+                style={{ marginTop: 0 }}
+                onClick={() => onNavigate("challenge-knowledge.html")}
+              >
+                ▸ Buka Challenge Knowledge →
+              </button>
+            </div>
+          </section>
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center", paddingTop: "0.5rem", borderTop: "1px dashed var(--line, #e0e0e0)" }}>
-          <span style={{ fontSize: "0.8rem", color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
-            Cadangan Belajar:
-          </span>
-          <button
-            type="button"
-            className="filter-pill"
-            style={{ fontSize: "0.8rem", padding: "0.25rem 0.65rem" }}
-            onClick={handleExportData}
-            title="Unduh seluruh riwayat skor, checklist, favorit, tracker, kosakata, dan error journal ke berkas JSON"
-          >
-            ⤓ Unduh Cadangan (Backup JSON)
-          </button>
-          <label
-            className="filter-pill"
-            style={{ fontSize: "0.8rem", padding: "0.25rem 0.65rem", cursor: "pointer", display: "inline-flex", alignItems: "center" }}
-            title="Pulihkan progres belajar dari berkas JSON yang pernah diunduh"
-          >
-            ⤒ Pulihkan Data
-            <input
-              type="file"
-              accept=".json,application/json"
-              style={{ display: "none" }}
-              onChange={handleImportFile}
-            />
-          </label>
+          <section id="overview">
+            <h2>Progress Keseluruhan</h2>
+            <div className="progress-bar">
+              <span id="overallBar" style={{ width: `${pct}%` }}></span>
+            </div>
+            <div className="stat-row">
+              <div>
+                <span className="stat-label">Modul Lulus</span>
+                <span id="statDone" className="tabular-num">
+                  {done} / {TOTAL_MODULES} ({pct}%)
+                </span>
+              </div>
+              <div>
+                <span className="stat-label">File Dibangun</span>
+                <span id="statBuilt" className="tabular-num">
+                  {BUILT.size} / {TOTAL_MODULES}
+                </span>
+              </div>
+              <div>
+                <span className="stat-label">Skor Rata-rata</span>
+                <span id="statAvg" className="tabular-num">
+                  {avgText}
+                </span>
+              </div>
+            </div>
+            <p style={{ fontSize: ".85rem", color: "var(--muted)", fontFamily: "var(--mono,monospace)", marginBottom: "0.75rem" }}>
+              <b>LULUS</b> = quiz ≥ 80% + 3 checklist · <b>PROSES</b> = ada data · <b>BELUM</b> =
+              belum dikerjakan
+            </p>
+
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center", paddingTop: "0.5rem", borderTop: "1px dashed var(--line, #e0e0e0)" }}>
+              <span style={{ fontSize: "0.8rem", color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
+                Cadangan Belajar:
+              </span>
+              <button
+                type="button"
+                className="filter-pill"
+                style={{ fontSize: "0.8rem", padding: "0.25rem 0.65rem" }}
+                onClick={handleExportData}
+                title="Unduh seluruh riwayat skor, checklist, favorit, tracker, kosakata, dan error journal ke berkas JSON"
+              >
+                ⤓ Unduh Cadangan (Backup JSON)
+              </button>
+              <label
+                className="filter-pill"
+                style={{ fontSize: "0.8rem", padding: "0.25rem 0.65rem", cursor: "pointer", display: "inline-flex", alignItems: "center" }}
+                title="Pulihkan progres belajar dari berkas JSON yang pernah diunduh"
+              >
+                ⤒ Pulihkan Data
+                <input
+                  type="file"
+                  accept=".json,application/json"
+                  style={{ display: "none" }}
+                  onChange={handleImportFile}
+                />
+              </label>
+            </div>
+            {backupNotice && (
+              <p className="hint" style={{ marginTop: "0.5rem" }} aria-live="polite">
+                {backupNotice}
+              </p>
+            )}
+          </section>
         </div>
-        {backupNotice && (
-          <p className="hint" style={{ marginTop: "0.5rem" }} aria-live="polite">
-            {backupNotice}
-          </p>
-        )}
-      </section>
+      </div>
 
       <section id="daily-review">
         <h2>Latihan Harian · Spaced Repetition</h2>

@@ -7,6 +7,7 @@ import { OfflineIndicator, PWAInstallButton } from "./PWAControls";
 import { SidebarToggleButton } from "./SidebarControls";
 import { SpeakButton } from "./SpeakButton";
 import { ThemeToggle } from "./ThemeToggle";
+import { ViewportToggle } from "./ViewportToggle";
 
 interface WordChoiceBankViewProps {
   onNavigate: (path: string) => void;
@@ -290,12 +291,14 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
       <nav>
         <SidebarToggleButton />
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
-          English · Learning
+          ENGLISH · LEARNING
+        </a>
+        <a href="challenge-knowledge.html" onClick={(e) => handleLinkClick(e, "challenge-knowledge.html")}>
+          Challenge
         </a>
         <a href="question-bank.html" onClick={(e) => handleLinkClick(e, "question-bank.html")}>
           Question Bank
         </a>
-
         <a href="index.html" onClick={(e) => handleLinkClick(e, "index.html")}>
           Kurikulum
         </a>
@@ -305,8 +308,11 @@ export const WordChoiceBankView: React.FC<WordChoiceBankViewProps> = ({ onNaviga
         <a href="logs/error-journal.html" onClick={(e) => handleLinkClick(e, "logs/error-journal.html")}>
           Error Journal
         </a>
-        <PWAInstallButton />
-        <ThemeToggle />
+        <div className="nav-utilities">
+          <ViewportToggle />
+          <PWAInstallButton />
+          <ThemeToggle />
+        </div>
       </nav>
 
       <main className="question-bank page">
