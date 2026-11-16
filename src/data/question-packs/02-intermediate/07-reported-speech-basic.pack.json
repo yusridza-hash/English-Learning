@@ -99,6 +99,167 @@
           "Verb dasar adalah submit the report early."
         ],
         "skill": "reported-speech-command"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rani said, 'I work at a publishing house.' → Reported speech: Rani said that she ___ at a publishing house.",
+        "options": [
+          "worked",
+          "works tomorrow",
+          "has working"
+        ],
+        "answer": 0,
+        "explanation": "Ketika reporting verb berbentuk lampau ('said'), tense mundur satu langkah (backshift): Present Simple ('work') menjadi Past Simple ('worked').",
+        "hints": [
+          "Reporting verb-nya adalah 'said' (lampau).",
+          "Present Simple mundur menjadi Past Simple."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "The receptionist ___ me that the afternoon workshop had moved to Hall C.",
+        "options": [
+          "told",
+          "said",
+          "spoke"
+        ],
+        "answer": 0,
+        "explanation": "Karena ada objek penerima informasi ('me') langsung setelah verb tanpa 'to', gunakan 'told' ('tell + someone + that...'), BUKAN 'said me'.",
+        "hints": [
+          "Perhatikan objek orang 'me' tepat setelah rumpang.",
+          "'Say' tidak bisa langsung diikuti orang tanpa 'to'; gunakan 'told'."
+        ],
+        "skill": "reported-speech-say-tell"
+      },
+      {
+        "type": "choice",
+        "prompt": "'We will ship the remaining boxes tomorrow,' the clerk promised. → He promised they ___ ship them the next day.",
+        "options": [
+          "would",
+          "will",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Dalam reported speech dengan reporting verb lampau ('promised'), modal 'will' mundur menjadi 'would'.",
+        "hints": [
+          "Modal 'will' ikut mengalami backshift saat dilaporkan secara lampau.",
+          "'Will' berubah menjadi 'would'."
+        ],
+        "skill": "reported-speech-modals"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'Do you enjoy remote work?' → Reported: She asked me ___ I enjoyed remote work.",
+        "options": [
+          "whether",
+          "that",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Untuk melaporkan pertanyaan Yes/No ('Do you...?'), gunakan penghubung 'if' atau 'whether' (bukan 'that'), dan hilangkan auxiliary 'do'.",
+        "hints": [
+          "Kalimat aslinya adalah pertanyaan Yes/No.",
+          "Pertanyaan Yes/No dilaporkan memakai 'if/whether'."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan melaporkan perintah dokter.",
+        "dialogue": [
+          [
+            "Parent",
+            "What did the dentist advise Toby to do?"
+          ],
+          [
+            "Caregiver",
+            "She told him ___ sugary snacks right before bedtime."
+          ]
+        ],
+        "options": [
+          "not to eat",
+          "don't eat",
+          "to not eating"
+        ],
+        "answer": 0,
+        "explanation": "Perintah atau nasihat negatif dilaporkan dengan pola 'tell + object + not to + V1' ('told him not to eat').",
+        "hints": [
+          "Rumus reported negative command: 'told + sb + not to + V1'.",
+          "Letakkan 'not' tepat sebelum 'to eat'."
+        ],
+        "skill": "reported-speech-command"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'I am reviewing the blueprint now.' → Reported: Dani said he ___ reviewing the blueprint then.",
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous ('am reviewing') mundur menjadi Past Continuous ('was reviewing'), dan 'now' berubah menjadi 'then'.",
+        "hints": [
+          "'Am' pada subjek tunggal 'he' mundur menjadi 'was'.",
+          "Backshift Present Continuous -> Past Continuous."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum penggunaan 'said' langsung diikuti objek orang berikut.",
+        "draft": "My manager said me that the quarterly budget looked balanced.",
+        "options": [
+          "My manager told me that the quarterly budget looked balanced.",
+          "My manager said to me that the quarterly budget look balanced.",
+          "My manager told to me that the quarterly budget looked balanced."
+        ],
+        "answer": 0,
+        "explanation": "Hindari 'said me' dan 'told to me'; gunakan 'told me' (atau 'said to me' dengan tense backshift yang benar).",
+        "hints": [
+          "'Said + orang' tanpa 'to' tidak gramatikal; 'told + to' juga salah.",
+          "Pilih 'told me' dengan verb lampau 'looked'."
+        ],
+        "skill": "reported-speech-say-tell"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'Please print three copies.' → Reported: The supervisor asked the intern ___ three copies.",
+        "options": [
+          "to print",
+          "print",
+          "printing"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan sopan dilaporkan dengan pola 'ask + someone + to + V1' ('asked the intern to print').",
+        "hints": [
+          "Permintaan memakai to-infinitive setelah objek.",
+          "Pilih 'to print'."
+        ],
+        "skill": "reported-speech-command"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reported speech dengan pergeseran penanda waktu.",
+        "targetSentence": "She mentioned that she would submit the invoice the following day.",
+        "explanation": "'Will' bergeser menjadi 'would' dan 'tomorrow' menjadi 'the following day'.",
+        "hints": [
+          "Awali dengan 'She mentioned that she would'.",
+          "Akhiri dengan 'the following day'."
+        ],
+        "skill": "reported-speech-time-shift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan pertanyaan Yes/No tanpa inversi.",
+        "targetSentence": "He asked if our regional office stayed open on Saturdays.",
+        "explanation": "Dalam reported question, urutannya kembali normal Subject + Verb ('our regional office stayed') tanpa tanda tanya.",
+        "hints": [
+          "Mulai dengan 'He asked if our regional office'.",
+          "Jangan letakkan 'did' atau tanda tanya."
+        ],
+        "skill": "reported-speech-question"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan promised to finish."
         ],
         "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'Where did you park the company van?' → Reported: The guard asked me where ___ the company van.",
+        "options": [
+          "I had parked",
+          "did I park",
+          "had I parked"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan langsung Past Simple ('did you park') mundur menjadi Past Perfect ('had parked'), dan susunan reported question kembali ke urutan pernyataan (Subject sebelum Verb: 'where I had parked').",
+        "hints": [
+          "1) Hilangkan inversi tanya; 2) Mundurkan Past Simple ke Past Perfect.",
+          "Urutan: where + Subject (I) + had parked."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'I haven't received your email yet.' → Reported: Maya explained that she ___ our email yet.",
+        "options": [
+          "hadn't received",
+          "hasn't received",
+          "didn't receive since"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect ('haven't received') mundur menjadi Past Perfect ('hadn't received') ketika reporting verb-nya lampau ('explained').",
+        "hints": [
+          "Present Perfect mundur satu langkah ke Past Perfect.",
+          "Pilih 'hadn't received'."
+        ],
+        "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tentang pergeseran kata keterangan tempat & waktu ('here', 'today').",
+        "dialogue": [
+          [
+            "Coordinator",
+            "How should I report Riko's text: 'I am waiting here today'?"
+          ],
+          [
+            "Lead",
+            "Since you are across town tomorrow, report it as: Riko texted that he was waiting ___."
+          ]
+        ],
+        "options": [
+          "there that day",
+          "here today",
+          "there tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "Saat sudut pandang waktu dan tempat pembicara sudah berubah keesokan harinya di tempat lain, 'here' bergeser menjadi 'there' dan 'today' menjadi 'that day'.",
+        "hints": [
+          "Ubah penunjuk kedekatan ruang dan waktu: 'here' -> 'there', 'today' -> 'that day'.",
+          "Pastikan kedua kata bergeser."
+        ],
+        "skill": "reported-speech-time-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "'I'll handle the shipping paperwork,' said Bima. Using a precise reporting verb, we write: Bima ___ to handle the shipping paperwork.",
+        "options": [
+          "offered",
+          "suggested",
+          "explained"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'offer' langsung berpola 'offer + to + V1' ('offered to handle'), berbeda dari 'suggest' (yang diikuti V-ing atau that-clause, tidak bisa 'suggest to handle').",
+        "hints": [
+          "Periksa pola verb sebelum 'to handle'.",
+          "'Suggest + to V1' salah; gunakan 'offered'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'You must wear protective helmets.' → Reported (reporting a past rule at that site): The foreman insisted that we ___ protective helmets.",
+        "options": [
+          "had to wear",
+          "musted wear",
+          "are wearing"
+        ],
+        "answer": 0,
+        "explanation": "'Must' bermakna keharusan sering dilaporkan dalam bentuk lampau menggunakan 'had to + V1'.",
+        "hints": [
+          "Modal 'must' untuk kewajiban mundur menjadi 'had to'.",
+          "Pilih 'had to wear'."
+        ],
+        "skill": "reported-speech-modals"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum tetap memakai susunan tanya (inversi) di dalam reported question berikut.",
+        "draft": "The tourist asked the guide what time did the morning train depart.",
+        "options": [
+          "The tourist asked the guide what time the morning train departed.",
+          "The tourist asked the guide what time departed the morning train.",
+          "The tourist asked the guide what time does the morning train depart yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Reported Wh-question memakai susunan pernyataan tanpa 'did': 'what time the morning train departed' (atau 'had departed').",
+        "hints": [
+          "Hilangkan auxiliary 'did' dan akhiri dengan titik.",
+          "Letakkan subjek 'the morning train' sebelum verb lampau."
+        ],
+        "skill": "reported-speech-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our biology teacher reminded the class that water ___ at 100 degrees Celsius at sea level.",
+        "options": [
+          "boils",
+          "boiled",
+          "was boiling"
+        ],
+        "answer": 0,
+        "explanation": "Untuk kebenaran ilmiah umum atau fakta permanen ('water boils at 100°C'), tense TIDAK wajib dimundurkan meskipun reporting verb berbentuk lampau ('reminded').",
+        "hints": [
+          "Ini adalah hukum fisika universal yang selalu benar.",
+          "Fakta ilmiah permanen tidak perlu di-backshift."
+        ],
+        "skill": "reported-speech-exceptions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which reporting sentence uses 'refuse' accurately?",
+        "options": [
+          "The vendor refused to lower the minimum order quantity.",
+          "The vendor refused lowering the minimum order quantity.",
+          "The vendor refused that he would lower the quantity."
+        ],
+        "answer": 0,
+        "explanation": "Pola baku kata kerja pelaporan 'refuse' adalah 'refuse + to + infinitive' ('refused to lower').",
+        "hints": [
+          "Cek struktur gramatikal verb 'refuse'.",
+          "'Refuse' selalu diikuti 'to + V1'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan negatif dengan reporting verb 'deny' + gerund.",
+        "targetSentence": "The contractor denied altering any safety inspection records.",
+        "explanation": "'Deny' merupakan reporting verb yang wajib diikuti gerund ('altering') atau that-clause, bukan 'to alter'.",
+        "hints": [
+          "Awali dengan 'The contractor denied'.",
+          "Pasangkan langsung gerund 'altering'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan saran tanpa 'to' menggunakan 'suggest + V-ing'.",
+        "targetSentence": "Our logistics lead suggested booking an earlier cargo flight.",
+        "explanation": "Verb 'suggest' tidak boleh memakai 'to book'; gunakan gerund ('suggested booking').",
+        "hints": [
+          "Mulai dengan 'Our logistics lead suggested'.",
+          "Tambahkan gerund 'booking' lalu objek."
+        ],
+        "skill": "reported-speech-reporting-verbs"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan had been."
         ],
         "skill": "reported-speech-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'I would help if I had a van.' → Reported: He said he ___ if he had a van.",
+        "options": [
+          "would help",
+          "would have helped",
+          "will help"
+        ],
+        "answer": 0,
+        "explanation": "Modal lampau ('would', 'could', 'might', 'should') serta Second/Third Conditional TIDAK mengalami backshift lebih jauh dalam reported speech; 'would help' tetap 'would help'.",
+        "hints": [
+          "'Would' sudah berada pada bentuk paling mundur.",
+          "Modal 'would' dan Tipe 2/3 tetap sama saat dilaporkan."
+        ],
+        "skill": "reported-speech-modals"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'You'd better take a taxi.' → How is 'had better' reported formally using an accurate reporting verb?",
+        "options": [
+          "She advised him to take a taxi.",
+          "She told him he has better take a taxi.",
+          "She said him he bettered to take a taxi."
+        ],
+        "answer": 0,
+        "explanation": "Ungkapan saran kuat 'had better' umumnya diparafrasekan dengan verb 'advise + object + to + V1' atau dipertahankan sebagai 'had better' (tidak pernah berubah menjadi 'has better' atau 'bettered').",
+        "hints": [
+          "Parafrasekan 'had better' menjadi verb pelapor yang alami.",
+          "'Advise + objek + to + V1' tepat dan ringkas."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan struktur verb pelapor 'recommend' pada kalimat rapat direksi berikut.",
+        "draft": "The external auditor recommended us to revise our procurement checklist immediately.",
+        "options": [
+          "The external auditor recommended that we revise our procurement checklist immediately.",
+          "The external auditor recommended us revising our procurement checklist immediately.",
+          "The external auditor suggested us to revise our procurement checklist immediately."
+        ],
+        "answer": 0,
+        "explanation": "Berbeda dengan 'advise', kata 'recommend' dan 'suggest' TIDAK bisa memakai pola 'verb + person + to V1' ('recommended us to revise' salah); gunakan 'recommended that we revise...' (mandative subjunctive) atau 'recommended revising...'.",
+        "hints": [
+          "'Recommend' dan 'suggest' terlarang memakai pola 'someone to do'.",
+          "Gunakan pola 'that + subject + bare infinitive' (subjunctive)."
+        ],
+        "skill": "reported-speech-subjunctive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang melaporkan tuntutan hukum/kebijakan dengan Mandative Subjunctive.",
+        "dialogue": [
+          [
+            "Dean",
+            "What did the ethics board mandate in its formal ruling?"
+          ],
+          [
+            "Secretary",
+            "The panel insisted that every research grant ___ publicly audited before renewal."
+          ]
+        ],
+        "options": [
+          "be",
+          "is being",
+          "was to be"
+        ],
+        "answer": 0,
+        "explanation": "Setelah verb perintah/desakan formal ('insist', 'mandate', 'demand', 'propose') + 'that', bahasa Inggris akademik dan hukum memakai Mandative Subjunctive (bare infinitive 'be', tanpa konjugasi 'is/was').",
+        "hints": [
+          "Lihat struktur formal 'insisted that + subject + ...'.",
+          "Mandative subjunctive selalu memakai bentuk dasar murni 'be'."
+        ],
+        "skill": "reported-speech-subjunctive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'Why not split the dataset by region?' → Reported cleanly with a reporting verb: The analyst ___ splitting the dataset by region.",
+        "options": [
+          "proposed",
+          "urged",
+          "instructed"
+        ],
+        "answer": 0,
+        "explanation": "'Propose' (seperti 'suggest') dapat langsung diikuti gerund ('proposed splitting'), sedangkan 'urge' dan 'instruct' wajib diikuti objek manusia ('urged us to split').",
+        "hints": [
+          "Tidak ada objek manusia di belakang rumpang.",
+          "Hanya 'proposed' yang bisa langsung diikuti '-ing'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "When reporting something said two minutes ago that is STILL true right now ('I'm currently in Room 4'), the manager can naturally say: 'Maya just called to say she ___ in Room 4.'",
+        "options": [
+          "is",
+          "had been",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Jika situasi yang dilaporkan masih relevan dan berlaku di saat ini ('just called'), penutur sering mempertahankan Present Tense ('is') tanpa backshift.",
+        "hints": [
+          "Situasinya masih berlangsung saat laporan diucapkan ('just called').",
+          "Tanpa backshift ('is') menandakan fakta masih aktif sekarang."
+        ],
+        "skill": "reported-speech-exceptions"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan reporting verb 'accuse' dan preposisinya pada kalimat berita hukum berikut.",
+        "draft": "The regulator accused the distributor to falsifying three export certificates.",
+        "options": [
+          "The regulator accused the distributor of falsifying three export certificates.",
+          "The regulator accused the distributor for falsifying three export certificates.",
+          "The regulator accused the distributor that they falsified three export certificates."
+        ],
+        "answer": 0,
+        "explanation": "Verb pelapor 'accuse' memiliki pasangan preposisi mutlak 'of + gerund': 'accuse someone of doing something' (bukan 'to' atau 'for').",
+        "hints": [
+          "Cari pasangan preposisi tetap dari 'accuse'.",
+          "Struktur bakunya: 'accuse + sb + of + V-ing'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "'I wish I had checked the pressure gauge,' sighed the operator. → The operator regretted ___ the pressure gauge.",
+        "options": [
+          "not checking / not having checked",
+          "to not check",
+          "having check"
+        ],
+        "answer": 0,
+        "explanation": "Untuk melaporkan penyesalan atas kejadian masa lalu dengan 'regret', gunakan gerund negatif ('regret not checking' / 'not having checked'); 'regret to + V1' khusus untuk menyampaikan kabar buruk saat ini.",
+        "hints": [
+          "Menyesali kejadian lalu menggunakan 'regret + (not) V-ing / having V3'.",
+          "Bukan 'regret to check'."
+        ],
+        "skill": "reported-speech-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan formal memakai mandative subjunctive setelah 'demanded that'.",
+        "targetSentence": "The committee demanded that the supplier submit updated lab results immediately.",
+        "explanation": "'Demanded that + Subject + V1 (submit)' menggunakan bentuk dasar tanpa -s/-ed.",
+        "hints": [
+          "Awali dengan 'The committee demanded that the supplier'.",
+          "Gunakan verb dasar 'submit' tanpa akhiran."
+        ],
+        "skill": "reported-speech-subjunctive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan memakai pola 'apologize for + V-ing'.",
+        "targetSentence": "The courier apologized for delivering the fragile crate a day late.",
+        "explanation": "'Apologize' berpasangan dengan preposisi 'for' + gerund ('delivering').",
+        "hints": [
+          "Mulai dengan 'The courier apologized for'.",
+          "Pasangkan gerund 'delivering' sebelum objek."
+        ],
+        "skill": "reported-speech-reporting-verbs"
       }
     ]
   }

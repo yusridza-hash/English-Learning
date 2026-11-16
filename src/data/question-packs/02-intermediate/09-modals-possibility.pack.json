@@ -99,6 +99,167 @@
           "Verb dasar adalah receive."
         ],
         "skill": "modal-possibility-negative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The lights in the meeting room are on, so the team ___ be inside right now.",
+        "options": [
+          "must",
+          "can't",
+          "shouldn't to"
+        ],
+        "answer": 0,
+        "explanation": "Keyakinan logis yang sangat kuat (~95-100% yakin) berdasarkan bukti nyata ('the lights are on') memakai 'must + V1'.",
+        "hints": [
+          "Ada bukti jelas lampu ruang rapat menyala.",
+          "Kesimpulan pasti positif memakai modal 'must'."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "That signature ___ be Maya's — she left for Singapore yesterday morning!",
+        "options": [
+          "can't",
+          "mustn't",
+          "mightn't to"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menyatakan sesuatu PASTI TIDAK MUNGKIN secara logis (~0% mungkin), bahasa Inggris memakai 'can't' (BUKAN 'mustn't'!).",
+        "hints": [
+          "Lawan logis dari deduksi 'must be' bukanlah 'mustn't be'.",
+          "Ketidakmungkinan logis memakai 'can't'."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where is the courier? — I am not certain, yet he ___ be stuck in downtown traffic.",
+        "options": [
+          "might",
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan yang belum pasti (~30-50%, 'I am not certain') dinyatakan dengan 'might', 'may', atau 'could'.",
+        "hints": [
+          "Pembicara berkata 'I am not certain' (tidak yakin).",
+          "Kemungkinan ragu-ragu memakai 'might/may/could'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even with a good backup plan, shipping delays ___ still happen during monsoon season.",
+        "options": [
+          "could",
+          "mustn't",
+          "wouldn't to"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan kemungkinan umum yang masuk akal menggunakan 'could' atau 'may/might'.",
+        "hints": [
+          "Menunjukkan potensi terjadinya keterlambatan.",
+          "Modal kemungkinan umum: 'could'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di meja kantor tentang kemungkinan ketidakhadiran.",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Is Kevin coming to the product tasting?"
+          ],
+          [
+            "Assistant",
+            "He ___ attend because he has a dental appointment at four."
+          ]
+        ],
+        "options": [
+          "may not",
+          "can't be",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan kemungkinan negatif ('mungkin tidak hadir') menggunakan 'may not' atau 'might not' (bukan 'can't' jika tidak 100% mustahil).",
+        "hints": [
+          "Belum pasti 100%, melainkan kemungkinan tidak ikut.",
+          "Kemungkinan negatif memakai 'may not' atau 'might not'."
+        ],
+        "skill": "modal-possibility-negative"
+      },
+      {
+        "type": "choice",
+        "prompt": "You have been driving for eight hours straight; you ___ feel exhausted!",
+        "options": [
+          "must",
+          "can't",
+          "might not"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi logis yang wajar dan hampir pasti benar dari kelelahan menyetir 8 jam memakai 'must'.",
+        "hints": [
+          "Menyetir 8 jam pasti melelahkan.",
+          "Kesimpulan kuat memakai 'must'."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum memakai 'mustn't' untuk kesimpulan logis negatif berikut.",
+        "draft": "That blurry profile photo mustn't be our new CEO; our CEO is much taller.",
+        "options": [
+          "That blurry profile photo can't be our new CEO; our CEO is much taller.",
+          "That blurry profile photo doesn't must be our new CEO; our CEO is much taller.",
+          "That blurry profile photo shouldn't be our new CEO; our CEO is much taller."
+        ],
+        "answer": 0,
+        "explanation": "'Mustn't' hanya dipakai untuk larangan ('dilarang'), BUKAN deduksi logis mustahil; lawan dari deduksi 'must be' adalah 'can't be'.",
+        "hints": [
+          "'Mustn't' berarti larangan aturan, bukan kesimpulan logika.",
+          "Ganti 'mustn't be' menjadi 'can't be'."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't call the branch now; at 9 p.m., they ___ be closed already.",
+        "options": [
+          "might",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Menebak kemungkinan yang cukup masuk akal namun belum dicek pasti memakai 'might/may/could'.",
+        "hints": [
+          "Masih perkiraan situasi di jam 9 malam.",
+          "Pilih modal kemungkinan 'might'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemungkinan menggunakan modal 'could' + 'be'.",
+        "targetSentence": "The missing HDMI adapter could be inside the blue camera bag.",
+        "explanation": "Modal kemungkinan 'could' langsung diikuti bentuk dasar 'be' + keterangan tempat.",
+        "hints": [
+          "Awali dengan 'The missing HDMI adapter could be'.",
+          "Tambahkan lokasi 'inside the blue camera bag'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kesimpulan logis negatif memakai 'can't'.",
+        "targetSentence": "This invoice can't be accurate because the tax rate doubled.",
+        "explanation": "Subjek + can't be + adjective + klausa alasan 'because...'.",
+        "hints": [
+          "Mulai dengan 'This invoice can't be accurate'.",
+          "Lengkapi alasan logis di belakang."
+        ],
+        "skill": "modal-deduction"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan could."
         ],
         "skill": "modal-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "Listen — do you hear clicking upstairs? The IT intern ___ be fixing the ceiling router right now.",
+        "options": [
+          "might",
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi atau kemungkinan tentang aksi yang sedang berlangsung saat ini menggunakan pola Modal Continuous: 'might/must + be + V-ing'.",
+        "hints": [
+          "Ada kata 'be fixing ... right now'.",
+          "Berdasarkan suara klik di atas, ia mungkin sedang memperbaiki router."
+        ],
+        "skill": "modal-possibility-continuous"
+      },
+      {
+        "type": "choice",
+        "prompt": "She didn't answer my text immediately — she ___ be driving on the toll road right now.",
+        "options": [
+          "must",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Menebak dengan yakin apa yang sedang dilakukan seseorang saat ini memakai 'must be + V-ing'.",
+        "hints": [
+          "Kesimpulan masuk akal tentang aktivitas sedang berlangsung.",
+          "Struktur: 'must be + V-ing'."
+        ],
+        "skill": "modal-deduction-continuous"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang dugaan kejadian di masa lampau.",
+        "dialogue": [
+          [
+            "Manager",
+            "Why was the warehouse back door unlocked this morning?"
+          ],
+          [
+            "Guard",
+            "The night delivery crew ___ forgotten to latch it before driving off."
+          ]
+        ],
+        "options": [
+          "must have",
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Deduksi pasti tentang peristiwa MASA LAMPAU memakai Modal Perfect: 'must have + V3 (forgotten)'.",
+        "hints": [
+          "Ada V3 'forgotten' dan kejadiannya tadi malam/pagi.",
+          "Modal deduksi masa lalu memakai 'modal + have + V3'."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — he ___ missed the announcement; I sent it directly to his personal phone AND pinned it to Slack!",
+        "options": [
+          "couldn't have",
+          "must have",
+          "shouldn't"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan ketidakmungkinan logis atas kejadian di masa lampau memakai 'can't have + V3' atau 'couldn't have + V3'.",
+        "hints": [
+          "Ada dua bukti pengiriman langsung, jadi mustahil dia melewatkannya.",
+          "Ketidakmungkinan masa lampau memakai 'couldn't/can't have + V3'."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference between 'couldn't' and 'might not': 'The parcel didn't arrive — the courier ___ found our new side entrance yet.'",
+        "options": [
+          "might not have",
+          "couldn't have",
+          "mustn't have"
+        ],
+        "answer": 0,
+        "explanation": "Jika belum yakin 100% penyebabnya di masa lalu ('mungkin belum menemukan'), gunakan 'might not have + V3' (bukan 'couldn't have' yang berarti 100% mustahil).",
+        "hints": [
+          "Maknanya kemungkinan negatif ('mungkin tidak menemukan'), bukan mustahil.",
+          "Gunakan 'might not have + V3'."
+        ],
+        "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk modal perfect tanpa 'have' pada kalimat dugaan lampau berikut.",
+        "draft": "Judging by the wet pavement outside, it must rained heavily during the night.",
+        "options": [
+          "Judging by the wet pavement outside, it must have rained heavily during the night.",
+          "Judging by the wet pavement outside, it must been raining heavily during the night.",
+          "Judging by the wet pavement outside, it must raining heavily during the night."
+        ],
+        "answer": 0,
+        "explanation": "Untuk membuat deduksi masa lampau dari modal ('must', 'might', 'can't'), jangan langsung tempel V2; wajib sisipkan 'have' sebelum V3 ('must have rained').",
+        "hints": [
+          "'Must' tidak bisa langsung bertemu V2 'rained'.",
+          "Rumus deduksi lampau: 'must + have + V3'."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ be serious about hiking four hours in dress shoes!",
+        "options": [
+          "can't",
+          "mustn't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Ungkapan ketidakpercayaan saat mendengar sesuatu yang tidak masuk akal saat ini adalah 'You can't be serious!'.",
+        "hints": [
+          "Menunjukkan keterkejutan dan ketidakpercayaan.",
+          "Gunakan 'can't'."
+        ],
+        "skill": "modal-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why isn't Farhan at his workstation? — He ___ be taking a short coffee break downstairs.",
+        "options": [
+          "could",
+          "can",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Sebagai catatan penting: untuk kemungkinan spesifik sekarang/akan datang, gunakan 'may/might/could', BUKAN 'can' dalam kalimat positif! ('He can be taking' salah).",
+        "hints": [
+          "'Can' tidak dipakai untuk menebak kemungkinan kasus spesifik saat ini.",
+          "Gunakan 'could/might/may'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi aktivitas yang sedang berjalan sekarang.",
+        "targetSentence": "The external auditors must be reviewing our tax receipts in Room B right now.",
+        "explanation": "Pola 'must be + V-ing' menyimpulkan aksi yang diyakini sedang berlangsung sekarang.",
+        "hints": [
+          "Awali dengan 'The external auditors must be reviewing'.",
+          "Tambahkan objek, tempat, dan 'right now'."
+        ],
+        "skill": "modal-deduction-continuous"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemungkinan lampau dengan 'may have + V3'.",
+        "targetSentence": "A loose power cable may have caused the brief server outage.",
+        "explanation": "Modal kemungkinan masa lalu memakai 'may have + V3 (caused)'.",
+        "hints": [
+          "Mulai dengan 'A loose power cable may have caused'.",
+          "Tambahkan objek 'the brief server outage'."
+        ],
+        "skill": "modal-perfect-possibility"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan might have had."
         ],
         "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare carefully: 'The train ___ be here soon; it left the previous station ten minutes ago' (logical expectation based on normal timing) vs 'He ___ have taken the shortcut' (pure speculation).",
+        "options": [
+          "should / might",
+          "mustn't / can't",
+          "can / would"
+        ],
+        "answer": 0,
+        "explanation": "'Should' juga berfungsi sebagai modal deduksi ekspektasi/probabilitas wajar (~80%: 'seharusnya sudah hampir tiba menurut jadwal'), sedangkan tebakan terbuka memakai 'might'.",
+        "hints": [
+          "Kalimat pertama menyatakan ekspektasi logis berdasarkan jadwal.",
+          "'Should' menyatakan probabilitas yang wajar diharapkan terjadi."
+        ],
+        "skill": "modal-perfect-distinction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even if we had launched earlier, consumers ___ still have hesitated to adopt the new format.",
+        "options": [
+          "might",
+          "mustn't",
+          "couldn't to"
+        ],
+        "answer": 0,
+        "explanation": "Dalam Third/Mixed Conditional spekulatif, 'might have + V3' menyatakan kemungkinan hasil alternatif masa lampau yang lebih lemah daripada 'would have'.",
+        "hints": [
+          "Perhatikan struktur modal spekulatif lampau '... have hesitated'.",
+          "Gunakan 'might' di posisi modal."
+        ],
+        "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan modal 'can' untuk spekulasi masa depan tunggal berikut.",
+        "draft": "Given tomorrow's forecast, heavy coastal winds can delay the morning cargo vessel.",
+        "options": [
+          "Given tomorrow's forecast, heavy coastal winds could delay the morning cargo vessel.",
+          "Given tomorrow's forecast, heavy coastal winds mustn't delay the morning cargo vessel.",
+          "Given tomorrow's forecast, heavy coastal winds can have delayed the morning cargo vessel."
+        ],
+        "answer": 0,
+        "explanation": "Untuk prediksi kemungkinan masa depan pada kejadian spesifik ('tomorrow's cargo vessel'), 'can' tidak dipakai dalam kalimat positif — gunakan 'could', 'may', atau 'might'.",
+        "hints": [
+          "'Can' hanya untuk kemampuan atau kemungkinan teoretis umum, bukan prediksi kejadian tunggal esok hari.",
+          "Ganti 'can' menjadi 'could' atau 'may/might'."
+        ],
+        "skill": "modal-possibility"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan teknis tentang deduksi kontinu di masa lampau.",
+        "dialogue": [
+          [
+            "Lead",
+            "Why did the battery drain overnight while the laptop sat in sleep mode?"
+          ],
+          [
+            "Engineer",
+            "A background indexing task ___ running silently all night."
+          ]
+        ],
+        "options": [
+          "must have been",
+          "must be",
+          "can't been"
+        ],
+        "answer": 0,
+        "explanation": "Menyimpulkan aktivitas yang kemungkinan/pasti sedang berlangsung di masa lampau memakai Modal Perfect Continuous: 'must have been + V-ing'.",
+        "hints": [
+          "Aktivitas terjadi di masa lalu ('overnight') dan berlangsung terus ('running all night').",
+          "Rumusnya: 'must have been + V-ing'."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast epistemic certainty vs counterfactual past risk: 'Watch out — that cracked ladder ___ have collapsed under two people!' (luckily it didn't).",
+        "options": [
+          "could",
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "'Could have + V3' sering mengungkapkan bahaya/kejadian masa lalu yang BERPOTENSI terjadi namun untungnya tidak terjadi ('nyaris saja roboh').",
+        "hints": [
+          "Maknanya 'tadi bisa saja roboh kalau dinaiki dua orang'.",
+          "Risiko lampau yang nyaris terjadi memakai 'could have + V3'."
+        ],
+        "skill": "modal-perfect-distinction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Well, we ___ as well review the backup slides now since the client asked for a ten-minute break.",
+        "options": [
+          "may / might",
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Idiom tetap 'may/might as well + V1' digunakan ketika tidak ada pilihan yang lebih baik dalam situasi saat ini ('sekalian saja kita...').",
+        "hints": [
+          "Cari kata yang tepat untuk idiom '... as well review'.",
+          "'May as well' / 'Might as well' berarti sekalian saja."
+        ],
+        "skill": "modal-idiomatic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan dua modal atau 'had' di dalam deduksi lampau berikut.",
+        "draft": "The missing courier must hadn't seen our bright loading bay sign in the rain.",
+        "options": [
+          "The missing courier must not have seen our bright loading bay sign in the rain.",
+          "The missing courier mustn't hadn't seen our bright loading bay sign in the rain.",
+          "The missing courier can't hadn't seen our bright loading bay sign in the rain."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif deduksi masa lampau dari 'must have seen' adalah 'must not have seen' (atau 'couldn't/can't have seen' untuk mustahil), bukan 'must hadn't'.",
+        "hints": [
+          "Jangan pernah menggabungkan 'must' dengan 'hadn't'.",
+          "Pakai 'must not have + V3' (atau 'couldn't have + V3')."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "No matter what shortcuts they tried, the old bridge ___ possibly have carried a forty-ton truck safely.",
+        "options": [
+          "couldn't",
+          "mightn't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menekankan ketidakmungkinan mutlak di masa lampau dengan penegas 'possibly', bahasa Inggris baku memakai 'couldn't possibly have + V3'.",
+        "hints": [
+          "Penegas 'possibly' sangat sering mendampingi 'couldn't' untuk mustahil total.",
+          "Pastikan V3 di belakangnya ('have carried')."
+        ],
+        "skill": "modal-perfect-deduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi berkelanjutan masa lalu memakai 'might have been'.",
+        "targetSentence": "The customer might have been waiting on the wrong floor for twenty minutes.",
+        "explanation": "Pola 'might have been + V-ing' menduga aktivitas berdurasi yang terjadi di masa lampau.",
+        "hints": [
+          "Awali dengan 'The customer might have been waiting'.",
+          "Lengkapi tempat dan durasi."
+        ],
+        "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ekspektasi logis di masa depan memakai 'should'.",
+        "targetSentence": "According to the courier tracker, our spare parts should arrive before lunch.",
+        "explanation": "'Should + V1' mengekspresikan keyakinan/harapan wajar berdasarkan data pelacak.",
+        "hints": [
+          "Mulai dengan 'According to the courier tracker,'.",
+          "Tambahkan 'our spare parts should arrive before lunch'."
+        ],
+        "skill": "modal-perfect-distinction"
       }
     ]
   }

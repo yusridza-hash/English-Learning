@@ -7,19 +7,33 @@
       {
         "type": "choice",
         "prompt": "She ___ arrives at the office fifteen minutes before the official shift starts.",
-        "options": ["always", "ever", "never to"],
+        "options": [
+          "always",
+          "ever",
+          "never to"
+        ],
         "answer": 0,
         "explanation": "'Always' (100% frekuensi) diletakkan SEBELUM main verb 'arrives': 'She always arrives'.",
-        "hints": ["Keterangan frekuensi 100% (selalu).", "Letakkan sebelum kata kerja utama."],
+        "hints": [
+          "Keterangan frekuensi 100% (selalu).",
+          "Letakkan sebelum kata kerja utama."
+        ],
         "skill": "adverb-frequency-position"
       },
       {
         "type": "choice",
         "prompt": "The senior manager is ___ punctual for all board meetings.",
-        "options": ["always", "always is", "does always"],
+        "options": [
+          "always",
+          "always is",
+          "does always"
+        ],
         "answer": 0,
         "explanation": "Adverb of frequency diletakkan SETELAH to be (am/is/are/was/were): 'is always punctual'.",
-        "hints": ["Letakkan adverb of frequency setelah to be 'is'.", "Pola: to be + adverb of frequency."],
+        "hints": [
+          "Letakkan adverb of frequency setelah to be 'is'.",
+          "Pola: to be + adverb of frequency."
+        ],
         "skill": "adverb-frequency-position"
       },
       {
@@ -27,16 +41,26 @@
         "prompt": "Susun kalimat dengan adverb of frequency 'usually'.",
         "targetSentence": "We usually have lunch at noon.",
         "explanation": "Subject (We) + Adverb of frequency (usually) + Main verb (have) + Object + Time.",
-        "hints": ["Mulai dengan 'We usually'.", "Kata kerja utama adalah 'have'."],
+        "hints": [
+          "Mulai dengan 'We usually'.",
+          "Kata kerja utama adalah 'have'."
+        ],
         "skill": "adverb-frequency-position"
       },
       {
         "type": "choice",
         "prompt": "I ___ drink caffeinated beverages after 6:00 p.m. because it disrupts my sleep.",
-        "options": ["never", "ever", "always not"],
+        "options": [
+          "never",
+          "ever",
+          "always not"
+        ],
         "answer": 0,
         "explanation": "'Never' (0% frekuensi) sudah bermakna negatif secara inheren, sehingga kata kerja tetap berbentuk positif tanpa 'not': 'I never drink'.",
-        "hints": ["Menyatakan frekuensi 0% (tidak pernah).", "'Never' tidak memerlukan kata 'not'."],
+        "hints": [
+          "Menyatakan frekuensi 0% (tidak pernah).",
+          "'Never' tidak memerlukan kata 'not'."
+        ],
         "skill": "adverb-frequency-never"
       },
       {
@@ -44,16 +68,26 @@
         "prompt": "Susun kalimat dengan to be dan 'often'.",
         "targetSentence": "They are often busy on Mondays.",
         "explanation": "Subject (They) + to be (are) + Adverb (often) + Adjective (busy) + on Mondays.",
-        "hints": ["Subject: 'They are often'.", "Letakkan 'often' setelah to be 'are'."],
+        "hints": [
+          "Subject: 'They are often'.",
+          "Letakkan 'often' setelah to be 'are'."
+        ],
         "skill": "adverb-frequency-position"
       },
       {
         "type": "choice",
         "prompt": "He ___ checks his personal email during working hours.",
-        "options": ["rarely", "rare", "rarely does"],
+        "options": [
+          "rarely",
+          "rare",
+          "rarely does"
+        ],
         "answer": 0,
         "explanation": "'Rarely' (jarang/hampir tidak pernah: ~5-10%) diletakkan sebelum main verb: 'rarely checks'.",
-        "hints": ["Kata keterangan 'jarang'.", "Bentuk adverb adalah 'rarely'."],
+        "hints": [
+          "Kata keterangan 'jarang'.",
+          "Bentuk adverb adalah 'rarely'."
+        ],
         "skill": "adverb-frequency-position"
       },
       {
@@ -61,7 +95,171 @@
         "prompt": "Susun kalimat dengan 'sometimes'.",
         "targetSentence": "She sometimes works from home on Fridays.",
         "explanation": "Subject (She) + sometimes + works + from home on Fridays.",
-        "hints": ["Subject: 'She sometimes'.", "Verb untuk orang ketiga tunggal adalah 'works'."],
+        "hints": [
+          "Subject: 'She sometimes'.",
+          "Verb untuk orang ketiga tunggal adalah 'works'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rafi ___ checks his calendar first thing every morning.",
+        "options": [
+          "always",
+          "ever",
+          "is always"
+        ],
+        "answer": 0,
+        "explanation": "Untuk kebiasaan rutin positif dengan main verb 'checks', letakkan 'always' tepat sebelum main verb.",
+        "hints": [
+          "Lihat verb aksi 'checks' setelah rumpang.",
+          "Dalam kalimat positif, gunakan 'always', bukan 'ever'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our delivery courier is ___ late; he arrives promptly at nine every day.",
+        "options": [
+          "never",
+          "often",
+          "always"
+        ],
+        "answer": 0,
+        "explanation": "Berdasarkan konteks 'arrives promptly at nine every day', kurir tersebut tidak pernah terlambat ('never').",
+        "hints": [
+          "Konteks kalimat kedua menunjukkan ketepatan waktu sempurna.",
+          "Pilih adverb bermakna 0%: 'never'."
+        ],
+        "skill": "adverb-frequency-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where should 'usually' go in this sentence with 'to be'?",
+        "options": [
+          "The downtown branch is usually quiet on Tuesday mornings.",
+          "The downtown branch usually is quiet on Tuesday mornings.",
+          "Usually the downtown branch is quiet on Tuesday mornings?"
+        ],
+        "answer": 0,
+        "explanation": "Dengan kata kerja to be ('is'), adverb of frequency diletakkan SESUDAH to be: 'is usually quiet'.",
+        "hints": [
+          "Periksa posisi to be 'is'.",
+          "Aturan dasar: verb biasa → sebelum verb; to be → sesudah to be."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you ___ work from home on rainy Mondays?",
+        "options": [
+          "often",
+          "never",
+          "hardly"
+        ],
+        "answer": 0,
+        "explanation": "Dalam kalimat tanya standar menanyakan seberapa sering, 'often' diletakkan setelah subjek ('you') dan sebelum main verb ('work').",
+        "hints": [
+          "Pertanyaan 'Do you ... work?' menanyakan frekuensi kebiasaan positif.",
+          "Gunakan 'often' atau 'usually'."
+        ],
+        "skill": "adverb-frequency-question"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang rutinitas olahraga pagi.",
+        "dialogue": [
+          [
+            "Dina",
+            "How often does your team hold stand-up meetings?"
+          ],
+          [
+            "Kino",
+            "We ___ meet three times a week via video call."
+          ]
+        ],
+        "options": [
+          "normally",
+          "never",
+          "hardly ever"
+        ],
+        "answer": 0,
+        "explanation": "Bertemu tiga kali seminggu menunjukkan rutinitas normal ('normally').",
+        "hints": [
+          "Tiga kali seminggu adalah kebiasaan yang konsisten.",
+          "'Never' dan 'hardly ever' bertentangan dengan tiga kali seminggu."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "My cousin ___ eats spicy food because of his sensitive stomach.",
+        "options": [
+          "rarely",
+          "always",
+          "usually"
+        ],
+        "answer": 0,
+        "explanation": "Karena perutnya sensitif, makna yang logis adalah jarang sekali memakan makanan pedas ('rarely').",
+        "hints": [
+          "Lihat alasan 'because of his sensitive stomach'.",
+          "Pilih adverb frekuensi rendah: 'rarely'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda negatif dengan kata 'never' berikut.",
+        "draft": "Our security supervisor never skips not a single evening patrol.",
+        "options": [
+          "Our security supervisor never skips a single evening patrol.",
+          "Our security supervisor skips never a single evening patrol.",
+          "Our security supervisor doesn't never skip a single evening patrol."
+        ],
+        "answer": 0,
+        "explanation": "'Never' sudah membawa makna negatif sepenuhnya, sehingga tidak boleh dipasangkan dengan 'not' atau 'doesn't'.",
+        "hints": [
+          "Hindari double negative dalam bahasa Inggris standar.",
+          "Hapus kata 'not' karena sudah ada 'never'."
+        ],
+        "skill": "adverb-frequency-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "She doesn't ___ drink espresso after five in the afternoon.",
+        "options": [
+          "usually",
+          "never",
+          "seldom"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'doesn't', kata keterangan frekuensi seperti 'usually' atau 'often' mengikuti pola negatif wajar, hindari negatif ganda 'never/seldom'.",
+        "hints": [
+          "Kalimat sudah memakai bentuk negatif 'doesn't'.",
+          "Pilih adverb netral/positif 'usually'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kebiasaan dengan adverb sebelum kata kerja utama.",
+        "targetSentence": "My parents occasionally travel by overnight train.",
+        "explanation": "Adverb 'occasionally' diletakkan di antara subjek jamak 'My parents' dan verb 'travel'.",
+        "hints": [
+          "Mulai dengan 'My parents occasionally'.",
+          "Tambahkan verb 'travel' lalu 'by overnight train'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat frekuensi memakai to be di tengah.",
+        "targetSentence": "The conference room microphone is rarely out of battery.",
+        "explanation": "Karena main verb adalah to be 'is', 'rarely' diletakkan tepat sesudah 'is'.",
+        "hints": [
+          "Mulai dengan 'The conference room microphone is'.",
+          "Pasangkan 'rarely' sebelum 'out of battery'."
+        ],
         "skill": "adverb-frequency-position"
       }
     ],
@@ -70,22 +268,42 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog dengan posisi adverb of frequency setelah modal auxiliary.",
         "dialogue": [
-          ["New Intern", "Where should I store the signed delivery receipts?"],
-          ["Office Manager", "You must ___ file them in the green cabinet immediately."]
+          [
+            "New Intern",
+            "Where should I store the signed delivery receipts?"
+          ],
+          [
+            "Office Manager",
+            "You must ___ file them in the green cabinet immediately."
+          ]
         ],
-        "options": ["always", "file always", "always must"],
+        "options": [
+          "always",
+          "file always",
+          "always must"
+        ],
         "answer": 0,
         "explanation": "Bila terdapat modal auxiliary (must, can, should, will), adverb of frequency diletakkan DI ANTARA modal dan main verb: 'must always file'.",
-        "hints": ["Letakkan adverb di antara modal 'must' dan verb dasar 'file'.", "Pola: Modal + Adverb + Verb."],
+        "hints": [
+          "Letakkan adverb di antara modal 'must' dan verb dasar 'file'.",
+          "Pola: Modal + Adverb + Verb."
+        ],
         "skill": "adverb-frequency-auxiliary"
       },
       {
         "type": "choice",
         "prompt": "We have ___ experienced such unprecedented server instability in our cloud history.",
-        "options": ["seldom", "never to", "seldomly"],
+        "options": [
+          "seldom",
+          "never to",
+          "seldomly"
+        ],
         "answer": 0,
         "explanation": "Pada tenses majemuk (Present Perfect: have + V3), adverb of frequency diletakkan setelah auxiliary pertama: 'have seldom experienced'. Kata baku adalah 'seldom', bukan *seldomly.",
-        "hints": ["Letakkan di antara 'have' dan V3 'experienced'.", "Bentuk baku adalah 'seldom'."],
+        "hints": [
+          "Letakkan di antara 'have' dan V3 'experienced'.",
+          "Bentuk baku adalah 'seldom'."
+        ],
         "skill": "adverb-frequency-auxiliary"
       },
       {
@@ -98,7 +316,10 @@
         ],
         "answer": 0,
         "explanation": "'Sometimes' dan 'occasionally' sangat fleksibel: bisa di awal kalimat ('Sometimes we meet online'), di posisi tengah standar ('We sometimes meet'), maupun di akhir kalimat ('We meet online sometimes').",
-        "hints": ["'Sometimes' dan 'occasionally' memiliki fleksibilitas posisi tertinggi.", "Bisa di awal, tengah, maupun akhir."],
+        "hints": [
+          "'Sometimes' dan 'occasionally' memiliki fleksibilitas posisi tertinggi.",
+          "Bisa di awal, tengah, maupun akhir."
+        ],
         "skill": "adverb-frequency-flexibility"
       },
       {
@@ -106,16 +327,26 @@
         "prompt": "Susun kalimat dengan modal 'can' dan adverb 'usually'.",
         "targetSentence": "You can usually reach him by phone.",
         "explanation": "Subject (You) + modal (can) + adverb (usually) + base verb (reach) + him + by phone.",
-        "hints": ["Mulai dengan 'You can usually'.", "Main verb adalah 'reach him by phone'."],
+        "hints": [
+          "Mulai dengan 'You can usually'.",
+          "Main verb adalah 'reach him by phone'."
+        ],
         "skill": "adverb-frequency-auxiliary"
       },
       {
         "type": "choice",
         "prompt": "Negative frequency adverbs: 'hardly ever' means practically the same as...",
-        "options": ["almost never / rarely", "almost always", "often"],
+        "options": [
+          "almost never / rarely",
+          "almost always",
+          "often"
+        ],
         "answer": 0,
         "explanation": "'Hardly ever' bermakna 'hampir tidak pernah' (almost never/rarely).",
-        "hints": ["Makna 'hampir tidak pernah'.", "Setara dengan 'almost never'."],
+        "hints": [
+          "Makna 'hampir tidak pernah'.",
+          "Setara dengan 'almost never'."
+        ],
         "skill": "adverb-frequency-negative"
       },
       {
@@ -123,21 +354,198 @@
         "prompt": "Susun kalimat dengan frasa frekuensi 'hardly ever'.",
         "targetSentence": "He hardly ever takes a sick day.",
         "explanation": "Subject (He) + hardly ever + main verb (takes) + a sick day.",
-        "hints": ["Subject: 'He hardly ever'.", "Verb dengan subjek tunggal: 'takes'."],
+        "hints": [
+          "Subject: 'He hardly ever'.",
+          "Verb dengan subjek tunggal: 'takes'."
+        ],
         "skill": "adverb-frequency-negative"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog menanyakan frekuensi rutinitas.",
         "dialogue": [
-          ["Auditor", "___ do you back up the customer database?"],
-          ["System Admin", "We back it up automatically twice every day."]
+          [
+            "Auditor",
+            "___ do you back up the customer database?"
+          ],
+          [
+            "System Admin",
+            "We back it up automatically twice every day."
+          ]
         ],
-        "options": ["How often", "How long", "How much"],
+        "options": [
+          "How often",
+          "How long",
+          "How much"
+        ],
         "answer": 0,
         "explanation": "Pertanyaan untuk menanyakan frekuensi keteraturan rutinitas adalah 'How often'.",
-        "hints": ["Menanyakan seberapa sering rutinitas dilakukan.", "Gunakan 'How often'."],
+        "hints": [
+          "Menanyakan seberapa sering rutinitas dilakukan.",
+          "Gunakan 'How often'."
+        ],
         "skill": "adverb-frequency-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "The maintenance team can ___ resolve minor network glitches within ten minutes.",
+        "options": [
+          "usually",
+          "never not",
+          "ever"
+        ],
+        "answer": 0,
+        "explanation": "Saat kalimat memakai modal atau auxiliary verb ('can', 'will', 'have'), adverb of frequency diletakkan DI ANTARA auxiliary dan main verb: 'can usually resolve'.",
+        "hints": [
+          "Cari auxiliary 'can' dan main verb 'resolve'.",
+          "Sisipkan 'usually' tepat di tengah keduanya."
+        ],
+        "skill": "adverb-frequency-auxiliary"
+      },
+      {
+        "type": "choice",
+        "prompt": "I have ___ missed an international flight in twelve years of consulting work.",
+        "options": [
+          "never",
+          "always",
+          "usually"
+        ],
+        "answer": 0,
+        "explanation": "Dalam Present Perfect ('have + V3'), adverb of frequency diletakkan di antara 'have/has' dan past participle ('have never missed').",
+        "hints": [
+          "Struktur Present Perfect memisahkan 'have' dan V3 'missed'.",
+          "Pilih 'never' sebagai makna belum pernah terjadi."
+        ],
+        "skill": "adverb-frequency-auxiliary"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di ruang rapat mengenai kebiasaan pengecekan berkala.",
+        "dialogue": [
+          [
+            "Manager",
+            "Does the backup script run overnight?"
+          ],
+          [
+            "Dev",
+            "Yes, it runs ___, right after midnight."
+          ]
+        ],
+        "options": [
+          "every single night",
+          "ever",
+          "alwaysly"
+        ],
+        "answer": 0,
+        "explanation": "Frasa penjelas frekuensi spesifik ('every single night', 'twice a day') diletakkan di posisi akhir kalimat (bukan di antara subjek dan verb).",
+        "hints": [
+          "Perhatikan posisi rumpang di akhir klausa.",
+          "Frasa multi-kata seperti 'every single night' cocok di belakang."
+        ],
+        "skill": "adverb-frequency-flexibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ attends optional Friday workshops, though she prefers independent reading.",
+        "options": [
+          "sometimes",
+          "doesn't seldom",
+          "hardly not"
+        ],
+        "answer": 0,
+        "explanation": "'Sometimes' menempati posisi tengah sebelum verb 'attends' (juga fleksibel diletakkan di awal atau akhir kalimat).",
+        "hints": [
+          "Hindari bentuk negatif ganda pada pengecoh.",
+          "'Sometimes' sesuai untuk makna sesekali."
+        ],
+        "skill": "adverb-frequency-flexibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ ever receive complaints about our packaging durability.",
+        "options": [
+          "hardly",
+          "almost",
+          "rarely not"
+        ],
+        "answer": 0,
+        "explanation": "Ungkapan tetap 'hardly ever' berarti 'hampir tidak pernah' dan bersifat negatif tanpa perlu 'not'.",
+        "hints": [
+          "Pasangan kata baku dengan 'ever' adalah 'hardly'.",
+          "'Hardly ever' bermakna sangat jarang."
+        ],
+        "skill": "adverb-frequency-negative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penempatan adverb frekuensi pada kalimat ber-auxiliary berikut.",
+        "draft": "Our regional suppliers have always been reliable, yet they will delay occasionally deliveries.",
+        "options": [
+          "Our regional suppliers have always been reliable, yet they will occasionally delay deliveries.",
+          "Our regional suppliers always have been reliable, yet they occasionally will delay deliveries.",
+          "Our regional suppliers have been always reliable, yet they will delay deliveries occasionally?"
+        ],
+        "answer": 0,
+        "explanation": "Pada klausa kedua yang memakai modal 'will' + verb 'delay', letakkan 'occasionally' di antara modal dan verb utama: 'will occasionally delay'.",
+        "hints": [
+          "Periksa klausa kedua: 'will ... delay'.",
+          "Adverb frekuensi di antara auxiliary 'will' dan main verb 'delay'."
+        ],
+        "skill": "adverb-frequency-auxiliary"
+      },
+      {
+        "type": "choice",
+        "prompt": "Have you ___ visited the maritime museum near the old port?",
+        "options": [
+          "ever",
+          "never",
+          "seldom not"
+        ],
+        "answer": 0,
+        "explanation": "Dalam kalimat tanya pengalaman ('Have you...?'), gunakan 'ever' di antara subjek 'you' dan verb V3 'visited'.",
+        "hints": [
+          "Kalimatnya bertanya 'Pernahkah Anda...?'.",
+          "Gunakan 'ever' di dalam pertanyaan."
+        ],
+        "skill": "adverb-frequency-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ do your quarterly steering committee meetings take place?",
+        "options": [
+          "often",
+          "usually",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "Frasa tanya baku untuk menanyakan frekuensi adalah 'How often...?'.",
+        "hints": [
+          "Menanyakan seberapa sering rapat berlangsung.",
+          "Pasangkan 'How' + 'often'."
+        ],
+        "skill": "adverb-frequency-question"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai dua auxiliary sebelum verb utama.",
+        "targetSentence": "That legacy script has always been maintained by the senior architect.",
+        "explanation": "Jika ada dua auxiliary ('has' + 'been'), adverb frekuensi umumnya diletakkan setelah auxiliary PERTAMA ('has always been').",
+        "hints": [
+          "Awali dengan 'That legacy script has always'.",
+          "Lanjutkan dengan 'been maintained by the senior architect'."
+        ],
+        "skill": "adverb-frequency-auxiliary"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan frasa waktu spesifik di akhir.",
+        "targetSentence": "Our editorial desk publishes a printed digest twice a month.",
+        "explanation": "Frasa frekuensi berpola jumlah ('twice a month', 'every two weeks') diletakkan di akhir kalimat.",
+        "hints": [
+          "Awali dengan subjek dan verb 'Our editorial desk publishes'.",
+          "Akhiri dengan 'twice a month'."
+        ],
+        "skill": "adverb-frequency-flexibility"
       }
     ],
     "complex": [
@@ -152,25 +560,42 @@
         ],
         "answer": 0,
         "explanation": "'Hardly ever', 'rarely', 'seldom', dan 'scarcely' sudah bermakna negatif secara inheren. Menggabungkannya dengan 'doesn't' atau 'not' menghasilkan double negative yang salah secara gramatikal.",
-        "hints": ["Jangan menggabungkan 'doesn't' dengan 'hardly ever'.", "Hapus 'doesn't' dan gunakan 'hardly ever outsources'."],
+        "hints": [
+          "Jangan menggabungkan 'doesn't' dengan 'hardly ever'.",
+          "Hapus 'doesn't' dan gunakan 'hardly ever outsources'."
+        ],
         "skill": "adverb-frequency-negative"
       },
       {
         "type": "choice",
         "prompt": "Inversion formal gaya sastra/akademis: 'Seldom ___ such an inspiring innovation showcase.'",
-        "options": ["have we witnessed", "we have witnessed", "we witnessed"],
+        "options": [
+          "have we witnessed",
+          "we have witnessed",
+          "we witnessed"
+        ],
         "answer": 0,
         "explanation": "Ketika negative/restrictive frequency adverb (Seldom, Rarely, Never, Scarcely) diletakkan di AWAL kalimat untuk penekanan dramatis (inversion), kata kerja mengalami inversi bentuk tanya (Auxiliary + Subject): 'Seldom have we witnessed...'.",
-        "hints": ["Negative adverb di awal kalimat memicu inversi kalimat tanya.", "Pola: Seldom + have + we + V3."],
+        "hints": [
+          "Negative adverb di awal kalimat memicu inversi kalimat tanya.",
+          "Pola: Seldom + have + we + V3."
+        ],
         "skill": "adverb-frequency-inversion"
       },
       {
         "type": "choice",
         "prompt": "Inversi dengan 'Never before': 'Never before ___ such high customer satisfaction ratings.'",
-        "options": ["has the firm achieved", "the firm has achieved", "the firm achieved"],
+        "options": [
+          "has the firm achieved",
+          "the firm has achieved",
+          "the firm achieved"
+        ],
         "answer": 0,
         "explanation": "Inversi: Never before + auxiliary (has) + subject (the firm) + V3 (achieved).",
-        "hints": ["'Never before' di awal kalimat memicu inversi.", "Auxiliary 'has' mendahului subjek 'the firm'."],
+        "hints": [
+          "'Never before' di awal kalimat memicu inversi.",
+          "Auxiliary 'has' mendahului subjek 'the firm'."
+        ],
         "skill": "adverb-frequency-inversion"
       },
       {
@@ -178,7 +603,10 @@
         "prompt": "Susun kalimat inversi formal dengan 'Rarely'.",
         "targetSentence": "Rarely does such an opportunity present itself.",
         "explanation": "Negative adverb (Rarely) + auxiliary (does) + subject (such an opportunity) + base verb (present itself).",
-        "hints": ["Awali dengan 'Rarely does'.", "Subject: 'such an opportunity present itself'."],
+        "hints": [
+          "Awali dengan 'Rarely does'.",
+          "Subject: 'such an opportunity present itself'."
+        ],
         "skill": "adverb-frequency-inversion"
       },
       {
@@ -192,30 +620,215 @@
         ],
         "answer": 0,
         "explanation": "Bila kalimat memiliki lebih dari satu kata kerja bantu (has been tested), adverb of frequency diletakkan TEPAT SETELAH AUXILIARY PERTAMA: 'has ALWAYS been tested'.",
-        "hints": ["Letakkan adverb tepat setelah auxiliary pertama ('has').", "Bukan setelah 'been'."],
+        "hints": [
+          "Letakkan adverb tepat setelah auxiliary pertama ('has').",
+          "Bukan setelah 'been'."
+        ],
         "skill": "adverb-frequency-auxiliary"
       },
       {
         "type": "choice",
         "prompt": "Inversion dengan 'Hardly': 'Hardly ever ___ to complain about the rigorous workload.'",
-        "options": ["did she pause", "she paused", "paused she"],
+        "options": [
+          "did she pause",
+          "she paused",
+          "paused she"
+        ],
         "answer": 0,
         "explanation": "Inversi masa lampau: Hardly ever + did + she + pause.",
-        "hints": ["Inversi lampau dengan auxiliary 'did'.", "Gunakan 'did she pause'."],
+        "hints": [
+          "Inversi lampau dengan auxiliary 'did'.",
+          "Gunakan 'did she pause'."
+        ],
         "skill": "adverb-frequency-inversion"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog retorika formal parlemen/sidang.",
         "dialogue": [
-          ["Prosecutor", "Has the defendant demonstrated genuine remorse?"],
-          ["Judge", "Scarcely ever ___ any acknowledgment of wrongdoing."]
+          [
+            "Prosecutor",
+            "Has the defendant demonstrated genuine remorse?"
+          ],
+          [
+            "Judge",
+            "Scarcely ever ___ any acknowledgment of wrongdoing."
+          ]
         ],
-        "options": ["has he shown", "he has shown", "he showed"],
+        "options": [
+          "has he shown",
+          "he has shown",
+          "he showed"
+        ],
         "answer": 0,
         "explanation": "Scarcely ever + auxiliary (has) + subject (he) + past participle (shown).",
-        "hints": ["Inversi formal dengan 'Scarcely ever'.", "Pola: has + he + shown."],
+        "hints": [
+          "Inversi formal dengan 'Scarcely ever'.",
+          "Pola: has + he + shown."
+        ],
         "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Seldom ___ such cohesive teamwork during an emergency server migration.",
+        "options": [
+          "have I witnessed",
+          "I have witnessed",
+          "witnessed I have"
+        ],
+        "answer": 0,
+        "explanation": "Adverb frekuensi negatif/restriktif ('Seldom', 'Rarely', 'Never', 'Hardly ever') di awal kalimat formal wajib memicu INVERSI (Auxiliary + Subject + Main Verb).",
+        "hints": [
+          "Perhatikan adverb negatif 'Seldom' berdiri di awal kalimat.",
+          "Aturan inversi: tempatkan 'have' sebelum subjek 'I'."
+        ],
+        "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly ever ___ willing to revise terms after signing a final agreement.",
+        "options": [
+          "are commercial banks",
+          "commercial banks are",
+          "do commercial banks are"
+        ],
+        "answer": 0,
+        "explanation": "'Hardly ever' di awal kalimat diikuti to be 'are' sebelum subjek jamak 'commercial banks' ('Hardly ever are commercial banks...').",
+        "hints": [
+          "Adjective 'willing' membutuhkan to be 'are'.",
+          "Inversi to be menukar 'are' ke depan subjek."
+        ],
+        "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan struktur inversi setelah adverb negatif 'Never' di awal kalimat berikut.",
+        "draft": "Never the audit board has approved an expense without supporting receipts.",
+        "options": [
+          "Never has the audit board approved an expense without supporting receipts.",
+          "Never did the audit board approved an expense without supporting receipts.",
+          "Never the audit board approved has an expense without supporting receipts."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Never' di posisi paling depan kalimat formal, auxiliary 'has' wajib berpindah ke depan subjek 'the audit board'.",
+        "hints": [
+          "'Never' di awal kalimat menuntut inversi auxiliary + subjek.",
+          "Gunakan 'has + the audit board + approved'."
+        ],
+        "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penekanan khusus dengan adverb sebelum to be (kasus emfatis/elipsis).",
+        "dialogue": [
+          [
+            "Lead",
+            "Does your analyst check the logs?"
+          ],
+          [
+            "Partner",
+            "Check them? Oh, he certainly does — in fact, he ALWAYS ___ when alerts fire!"
+          ]
+        ],
+        "options": [
+          "is watching",
+          "watches always",
+          "never is"
+        ],
+        "answer": 0,
+        "explanation": "Penekanan vokal pada modal/to be atau bentuk emfatis tidak memindahkan verb secara acak; 'he ALWAYS is watching' atau bentuk lengkap dengan auxiliary berstres menempatkan 'always' sebelum auxiliary ketika seluruh auxiliary ditekan untuk penegasan emfatis.",
+        "hints": [
+          "Cari bentuk kalimat yang tetap gramatikal dan sesuai konteks aktif.",
+          "'Watches always' dan 'never is' melanggar urutan atau makna."
+        ],
+        "skill": "adverb-frequency-flexibility"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not only does the team review bugs weekly, but rarely ___ an unpatched release reach production.",
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'rarely' di klausa kedua, inversi Present Simple dengan subjek tunggal 'an unpatched release' dan verb dasar 'reach' membutuhkan auxiliary 'does'.",
+        "hints": [
+          "Perhatikan main verb dasar 'reach' di akhir kalimat.",
+          "Inversi Present Simple tunggal memakai 'does'."
+        ],
+        "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal academic writing, 'now and then' or 'every once in a while' is best replaced by the single-word adverb ___.",
+        "options": [
+          "periodically / occasionally",
+          "alwaysly / oftenly",
+          "hardly never"
+        ],
+        "answer": 0,
+        "explanation": "'Periodically' atau 'occasionally' menyampaikan frekuensi berkala secara ringkas dan tepat dalam ragam tulis formal.",
+        "hints": [
+          "Pilih kata keterangan resmi yang benar ejaannya.",
+          "'Alwaysly' dan 'hardly never' tidak ada dalam bahasa Inggris baku."
+        ],
+        "skill": "adverb-frequency-flexibility"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum posisi adverb frekuensi dalam kalimat elipsis jawaban singkat berikut.",
+        "draft": "Are the regional managers attending on time? — Yes, they are always.",
+        "options": [
+          "Are the regional managers attending on time? — Yes, they always are.",
+          "Are the regional managers attending on time? — Yes, always they are.",
+          "Are the regional managers attending on time? — Yes, they are always doing."
+        ],
+        "answer": 0,
+        "explanation": "Saat kalimat berakhir dengan to be atau auxiliary singkat tanpa pelengkap (elipsis/short response), adverb of frequency berpindah ke DEPAN to be/auxiliary: 'Yes, they always are.'",
+        "hints": [
+          "Di ujung kalimat pendek tanpa objek/pelengkap, to be TIDAK diletakkan sebelum 'always'.",
+          "Balik posisinya menjadi 'they always are'."
+        ],
+        "skill": "adverb-frequency-position"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare carefully: 'Usually, I don't work past seven' vs 'I don't usually work past seven' — the second sentence means...",
+        "options": [
+          "it is not my habit to work past seven",
+          "I refuse every time without exception",
+          "I am always working past seven"
+        ],
+        "answer": 0,
+        "explanation": "'Don't usually' meniadakan kebiasaan secara wajar ('biasanya tidak bekerja lewat jam tujuh'), lebih lunak daripada 'never'.",
+        "hints": [
+          "Pahami perbedaan makna 'not usually' vs 'never'.",
+          "'Usually' setelah 'don't' melunakkan frekuensi kebiasaan."
+        ],
+        "skill": "adverb-frequency-negative"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi formal berawalan 'Rarely'.",
+        "targetSentence": "Rarely have we observed such rapid adoption across rural clinics.",
+        "explanation": "'Rarely' di awal kalimat memicu inversi Present Perfect: 'Rarely + have + we + observed...'.",
+        "hints": [
+          "Mulai dengan 'Rarely have we'.",
+          "Lengkapi dengan V3 'observed' dan objeknya."
+        ],
+        "skill": "adverb-frequency-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat elipsis penutup dengan adverb frekuensi sebelum auxiliary.",
+        "targetSentence": "She promises to submit reports early, and she almost always does.",
+        "explanation": "Karena 'does' berdiri sebagai auxiliary pengganti di akhir kalimat, 'almost always' ditempatkan SEBELUM 'does'.",
+        "hints": [
+          "Awali dengan 'She promises to submit reports early,'.",
+          "Akhiri dengan 'and she almost always does'."
+        ],
+        "skill": "adverb-frequency-auxiliary"
       }
     ]
   }

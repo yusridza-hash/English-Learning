@@ -7,19 +7,33 @@
       {
         "type": "choice",
         "prompt": "Pada kalimat 'The creative designer works quickly', kata 'creative' tergolong...",
-        "options": ["noun", "adjective", "adverb"],
+        "options": [
+          "noun",
+          "adjective",
+          "adverb"
+        ],
         "answer": 1,
         "explanation": "'Creative' menjelaskan sifat noun 'designer', sehingga berfungsi sebagai adjective (kata sifat).",
-        "hints": ["Perhatikan kata mana yang diterangkan oleh 'creative'.", "Kata yang menjelaskan benda (designer) adalah kata sifat."],
+        "hints": [
+          "Perhatikan kata mana yang diterangkan oleh 'creative'.",
+          "Kata yang menjelaskan benda (designer) adalah kata sifat."
+        ],
         "skill": "pos-adjective"
       },
       {
         "type": "choice",
         "prompt": "Manakah di bawah ini yang merupakan contoh noun (kata benda)?",
-        "options": ["develop", "decision", "silently"],
+        "options": [
+          "develop",
+          "decision",
+          "silently"
+        ],
         "answer": 1,
         "explanation": "'Decision' (keputusan) berakhiran -sion yang merupakan penanda khas kata benda (noun).",
-        "hints": ["Carilah kata yang merujuk pada hal, konsep, atau objek.", "Akhiran -sion sering kali menandakan noun."],
+        "hints": [
+          "Carilah kata yang merujuk pada hal, konsep, atau objek.",
+          "Akhiran -sion sering kali menandakan noun."
+        ],
         "skill": "pos-noun"
       },
       {
@@ -27,34 +41,58 @@
         "prompt": "Susun kata-kata ini untuk membentuk kalimat dengan pola Parts of Speech yang benar.",
         "targetSentence": "The smart engineer solved the problem.",
         "explanation": "Pola: Article (The) + Adjective (smart) + Noun (engineer) + Verb (solved) + Object (the problem).",
-        "hints": ["Mulai dengan subject 'The smart engineer'.", "Lanjutkan dengan verb 'solved' lalu object."],
+        "hints": [
+          "Mulai dengan subject 'The smart engineer'.",
+          "Lanjutkan dengan verb 'solved' lalu object."
+        ],
         "skill": "pos-order"
       },
       {
         "type": "choice",
         "prompt": "Kata 'under' dalam kalimat 'The documents are under the desk' berfungsi sebagai...",
-        "options": ["conjunction", "preposition", "adverb"],
+        "options": [
+          "conjunction",
+          "preposition",
+          "adverb"
+        ],
         "answer": 1,
         "explanation": "'Under' menunjukkan hubungan posisi tempat antara dokumen dan meja, jadi merupakan preposition.",
-        "hints": ["Kata ini menunjukkan lokasi fisik atau posisi.", "Preposition menghubungkan kata benda dengan bagian kalimat lain."],
+        "hints": [
+          "Kata ini menunjukkan lokasi fisik atau posisi.",
+          "Preposition menghubungkan kata benda dengan bagian kalimat lain."
+        ],
         "skill": "pos-preposition"
       },
       {
         "type": "choice",
         "prompt": "Identifikasi kelas kata dari 'collaborate' dalam kalimat 'We need to collaborate effectively.'",
-        "options": ["verb", "noun", "adjective"],
+        "options": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
         "answer": 0,
         "explanation": "'Collaborate' (bekerja sama) menyatakan tindakan atau aksi, sehingga merupakan kata kerja (verb).",
-        "hints": ["Setelah 'need to', kita membutuhkan kata kerja dasar.", "Kata ini bermakna melakukan suatu tindakan."],
+        "hints": [
+          "Setelah 'need to', kita membutuhkan kata kerja dasar.",
+          "Kata ini bermakna melakukan suatu tindakan."
+        ],
         "skill": "pos-verb"
       },
       {
         "type": "choice",
         "prompt": "Pada kalimat 'She spoke extremely well during the presentation', kata 'extremely' adalah...",
-        "options": ["adjective", "adverb", "conjunction"],
+        "options": [
+          "adjective",
+          "adverb",
+          "conjunction"
+        ],
         "answer": 1,
         "explanation": "'Extremely' menerangkan adverb 'well' untuk menyatakan tingkat intensitas, sehingga merupakan adverb (adverb of degree).",
-        "hints": ["Kata berakhiran -ly ini menerangkan kata lain yang bukan benda.", "Adverb dapat menerangkan verb, adjective, atau adverb lain."],
+        "hints": [
+          "Kata berakhiran -ly ini menerangkan kata lain yang bukan benda.",
+          "Adverb dapat menerangkan verb, adjective, atau adverb lain."
+        ],
         "skill": "pos-adverb"
       },
       {
@@ -62,7 +100,170 @@
         "prompt": "Susun kalimat yang menggabungkan pronoun, verb, adjective, dan noun.",
         "targetSentence": "They launched a modern website.",
         "explanation": "Susunan: Subject pronoun (They) + Verb (launched) + Article (a) + Adjective (modern) + Noun (website).",
-        "hints": ["Awali dengan kata ganti 'They'.", "Letakkan adjective 'modern' sebelum kata benda 'website'."],
+        "hints": [
+          "Awali dengan kata ganti 'They'.",
+          "Letakkan adjective 'modern' sebelum kata benda 'website'."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identifikasi kelas kata dari 'schedule' dalam kalimat 'Please check the train schedule.'",
+        "options": [
+          "noun",
+          "verb",
+          "adverb"
+        ],
+        "answer": 0,
+        "explanation": "'Schedule' didahului 'the train' sebagai objek benda (jadwal), jadi merupakan noun.",
+        "hints": [
+          "Lihat posisinya setelah kata sandang 'the'.",
+          "Maknanya di sini adalah kata benda 'jadwal'."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kata kerja (verb) pada kalimat 'The interns organize the folders every Friday'?",
+        "options": [
+          "interns",
+          "organize",
+          "folders"
+        ],
+        "answer": 1,
+        "explanation": "'Organize' menyatakan tindakan mengatur yang dilakukan oleh subjek 'the interns'.",
+        "hints": [
+          "Cari kata yang menunjukkan aksi.",
+          "Kata kerja berada tepat setelah subjek."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat 'My office has a spacious lobby', kata 'spacious' tergolong...",
+        "options": [
+          "adverb",
+          "adjective",
+          "pronoun"
+        ],
+        "answer": 1,
+        "explanation": "'Spacious' menerangkan sifat kata benda 'lobby' (luas), sehingga merupakan adjective.",
+        "hints": [
+          "Kata ini berada sebelum kata benda 'lobby'.",
+          "Kata yang menjelaskan sifat benda adalah adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Kata 'polite' berubah menjadi adverb yang tepat pada kalimat 'She answered the client ___.'",
+        "options": [
+          "polite",
+          "politely",
+          "politeness"
+        ],
+        "answer": 1,
+        "explanation": "'Politely' adalah adverb of manner yang menerangkan cara menjawab (verb 'answered').",
+        "hints": [
+          "Kita butuh keterangan cara untuk verb 'answered'.",
+          "Tambahkan akhiran -ly pada adjective 'polite'."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah yang termasuk pronoun pada kalimat 'Everyone gave her a warm welcome'?",
+        "options": [
+          "everyone & her",
+          "warm & welcome",
+          "gave & warm"
+        ],
+        "answer": 0,
+        "explanation": "'Everyone' (indefinite pronoun) dan 'her' (object pronoun) keduanya menggantikan kata benda orang.",
+        "hints": [
+          "Cari kata ganti orang atau subjek umum.",
+          "Kata sifat 'warm' bukan pronoun."
+        ],
+        "skill": "pos-pronoun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat 'We stayed indoors because it rained heavily', kata 'because' berfungsi sebagai...",
+        "options": [
+          "preposition",
+          "conjunction",
+          "interjection"
+        ],
+        "answer": 1,
+        "explanation": "'Because' menghubungkan dua klausa sebab-akibat, sehingga merupakan subordinating conjunction.",
+        "hints": [
+          "Kata ini menghubungkan dua klausa lengkap.",
+          "Pilih kelas kata penghubung klausa."
+        ],
+        "skill": "pos-conjunction"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di meja informasi dengan preposition yang sesuai.",
+        "dialogue": [
+          [
+            "Visitor",
+            "Where can I find the registration desk?"
+          ],
+          [
+            "Receptionist",
+            "Go straight and turn left ___ the main elevator."
+          ]
+        ],
+        "options": [
+          "beside",
+          "connect",
+          "quickly"
+        ],
+        "answer": 0,
+        "explanation": "'Beside' adalah preposition yang menunjukkan posisi tempat di samping lift utama.",
+        "hints": [
+          "Dibutuhkan kata depan penunjuk lokasi.",
+          "'Connect' adalah verb dan 'quickly' adverb."
+        ],
+        "skill": "pos-preposition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Kata 'Oops!' dalam kalimat 'Oops! I forgot to attach the PDF file' adalah contoh...",
+        "options": [
+          "conjunction",
+          "interjection",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "'Oops!' merupakan seruan spontan untuk reaksi tak terduga (interjection).",
+        "hints": [
+          "Kata ini berdiri sendiri untuk mengungkapkan emosi/reaksi.",
+          "Kelas kata seruan disebut interjection."
+        ],
+        "skill": "pos-interjection"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sederhana yang memuat adjective sebelum noun.",
+        "targetSentence": "The helpful guide showed our group the museum.",
+        "explanation": "Article (The) + Adjective (helpful) + Noun (guide) + Verb (showed) + IO + DO.",
+        "hints": [
+          "Awali dengan 'The helpful guide'.",
+          "Lanjutkan dengan verb 'showed' lalu objek."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menggunakan adverb untuk menjelaskan kata kerja.",
+        "targetSentence": "The technician fixed the printer rapidly.",
+        "explanation": "Adverb 'rapidly' menerangkan cara verb 'fixed' dilakukan.",
+        "hints": [
+          "Subjek adalah 'The technician'.",
+          "Letakkan adverb 'rapidly' di akhir kalimat."
+        ],
         "skill": "pos-order"
       }
     ],
@@ -71,31 +272,58 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog dengan kata hubung (conjunction) yang paling tepat.",
         "dialogue": [
-          ["Manager", "Did you submit the budget proposal?"],
-          ["Staff", "I finished it on time, ___ I am waiting for approval."]
+          [
+            "Manager",
+            "Did you submit the budget proposal?"
+          ],
+          [
+            "Staff",
+            "I finished it on time, ___ I am waiting for approval."
+          ]
         ],
-        "options": ["but", "because", "during"],
+        "options": [
+          "but",
+          "because",
+          "during"
+        ],
         "answer": 0,
         "explanation": "'But' adalah conjunction yang menghubungkan dua klausa yang menunjukkan pertentangan atau kontras situasi.",
-        "hints": ["Hubungan antara klausa pertama dan kedua menunjukkan sedikit kontras.", "Pilihlah conjunction yang bermakna 'tetapi'."],
+        "hints": [
+          "Hubungan antara klausa pertama dan kedua menunjukkan sedikit kontras.",
+          "Pilihlah conjunction yang bermakna 'tetapi'."
+        ],
         "skill": "pos-conjunction"
       },
       {
         "type": "choice",
         "prompt": "Kata 'fast' dapat berfungsi ganda. Pada kalimat 'He drove a fast car', 'fast' adalah...",
-        "options": ["adverb", "adjective", "verb"],
+        "options": [
+          "adverb",
+          "adjective",
+          "verb"
+        ],
         "answer": 1,
         "explanation": "'Fast' di sini mendeskripsikan noun 'car', sehingga berfungsi sebagai adjective.",
-        "hints": ["Perhatikan posisi kata sebelum kata benda 'car'.", "Kata yang menjelaskan sifat benda adalah adjective."],
+        "hints": [
+          "Perhatikan posisi kata sebelum kata benda 'car'.",
+          "Kata yang menjelaskan sifat benda adalah adjective."
+        ],
         "skill": "pos-adjective"
       },
       {
         "type": "choice",
         "prompt": "Sebaliknya, pada kalimat 'He drove fast on the highway', 'fast' berfungsi sebagai...",
-        "options": ["adjective", "adverb", "noun"],
+        "options": [
+          "adjective",
+          "adverb",
+          "noun"
+        ],
         "answer": 1,
         "explanation": "'Fast' di sini menjelaskan cara mengemudi (verb 'drove'), sehingga berfungsi sebagai adverb of manner.",
-        "hints": ["Kata ini menjawab pertanyaan 'how did he drive?'.", "Keterangan cara yang menerangkan kata kerja adalah adverb."],
+        "hints": [
+          "Kata ini menjawab pertanyaan 'how did he drive?'.",
+          "Keterangan cara yang menerangkan kata kerja adalah adverb."
+        ],
         "skill": "pos-adverb"
       },
       {
@@ -103,39 +331,230 @@
         "prompt": "Susun kalimat dengan urutan Part of Speech yang logis.",
         "targetSentence": "Careful planning prevents serious mistakes.",
         "explanation": "Adjective (Careful) + Noun (planning) + Verb (prevents) + Adjective (serious) + Noun (mistakes).",
-        "hints": ["Gunakan 'Careful planning' sebagai subjek kalimat.", "Verb 'prevents' diikuti objek 'serious mistakes'."],
+        "hints": [
+          "Gunakan 'Careful planning' sebagai subjek kalimat.",
+          "Verb 'prevents' diikuti objek 'serious mistakes'."
+        ],
         "skill": "pos-order"
       },
       {
         "type": "choice",
         "prompt": "Kata 'record' dalam 'They will record the podcast today' berkelas kata...",
-        "options": ["noun", "verb", "adjective"],
+        "options": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
         "answer": 1,
         "explanation": "Setelah modal auxiliary 'will', kata dasar 'record' berfungsi sebagai verb (merekam).",
-        "hints": ["Letaknya setelah modal auxiliary 'will'.", "Kata ini menyatakan tindakan merekam."],
+        "hints": [
+          "Letaknya setelah modal auxiliary 'will'.",
+          "Kata ini menyatakan tindakan merekam."
+        ],
         "skill": "pos-verb"
       },
       {
         "type": "choice",
         "prompt": "Sedangkan pada 'The company set a new sales record', kata 'record' adalah...",
-        "options": ["noun", "verb", "preposition"],
+        "options": [
+          "noun",
+          "verb",
+          "preposition"
+        ],
         "answer": 0,
         "explanation": "Didahului article 'a' dan adjective 'sales', 'record' di sini adalah noun (rekor).",
-        "hints": ["Didahului oleh article 'a' dan kata sifat.", "Kata ini berarti rekor/pencapaian."],
+        "hints": [
+          "Didahului oleh article 'a' dan kata sifat.",
+          "Kata ini berarti rekor/pencapaian."
+        ],
         "skill": "pos-noun"
       },
       {
         "type": "dialogue",
         "prompt": "Pilih kelas kata yang benar untuk melengkapi respon.",
         "dialogue": [
-          ["Tutor", "What part of speech is 'efficiently' in 'She handled the client efficiently'?"],
-          ["Student", "It describes how she handled it, so it is an ___."]
+          [
+            "Tutor",
+            "What part of speech is 'efficiently' in 'She handled the client efficiently'?"
+          ],
+          [
+            "Student",
+            "It describes how she handled it, so it is an ___."
+          ]
         ],
-        "options": ["adverb", "adjective", "interjection"],
+        "options": [
+          "adverb",
+          "adjective",
+          "interjection"
+        ],
         "answer": 0,
         "explanation": "Kata yang menjelaskan cara kerja suatu verb (handled) adalah adverb.",
-        "hints": ["Menjawab pertanyaan 'bagaimana' tindakan dilakukan.", "Akhiran -ly pada kata sifat umumnya membentuk adverb."],
+        "hints": [
+          "Menjawab pertanyaan 'bagaimana' tindakan dilakukan.",
+          "Akhiran -ly pada kata sifat umumnya membentuk adverb."
+        ],
         "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat 'The train was late, yet we arrived on time', kata 'yet' berfungsi sebagai...",
+        "options": [
+          "adverb",
+          "conjunction",
+          "preposition"
+        ],
+        "answer": 1,
+        "explanation": "'Yet' menghubungkan dua klausa independen yang berlawanan (FANBOYS conjunction).",
+        "hints": [
+          "Kata ini menyambung dua kalimat lengkap yang kontras.",
+          "Fungsinya setara dengan 'but' sebagai conjunction."
+        ],
+        "skill": "pos-conjunction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bandingkan: pada 'Let us water the garden', kata 'water' berfungsi sebagai...",
+        "options": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "Setelah struktur 'Let us', 'water' bermakna menyiram sehingga berfungsi sebagai verb.",
+        "hints": [
+          "Perhatikan maknanya sebagai tindakan menyiram.",
+          "Struktur 'Let us + base verb'."
+        ],
+        "skill": "pos-verb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada kalimat 'The glass holds clean drinking water', kata 'water' adalah...",
+        "options": [
+          "verb",
+          "noun",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "Di sini 'water' adalah kata benda yang menjadi objek dari verb 'holds'.",
+        "hints": [
+          "Apakah kata ini menjadi benda yang ditampung?",
+          "Diterangkan oleh adjective 'clean' dan 'drinking'."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih adverb yang tepat untuk menerangkan adjective dalam 'The new policy is ___ effective.'",
+        "options": [
+          "remarkably",
+          "remarkable",
+          "remark"
+        ],
+        "answer": 0,
+        "explanation": "Untuk memodifikasi adjective 'effective', kita wajib memakai adverb 'remarkably'.",
+        "hints": [
+          "Adjective diterangkan oleh adverb, bukan adjective lain.",
+          "Pilih bentuk berakhiran -ly."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kantor dengan membedakan fungsi 'hard'.",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Is Rina a ___ worker?"
+          ],
+          [
+            "Lead",
+            "Yes, she always works very hard on tight deadlines."
+          ]
+        ],
+        "options": [
+          "hard (adjective)",
+          "hardly (adverb)",
+          "hardness (noun)"
+        ],
+        "answer": 0,
+        "explanation": "'Hard' sebelum noun 'worker' adalah adjective ('pekerja keras'); berbeda jauh dari 'hardly' (hampir tidak).",
+        "hints": [
+          "Posisinya menjelaskan noun 'worker'.",
+          "'Hardly' bermakna negatif (hampir tidak)."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum kelas kata pada kalimat laporan kerja berikut.",
+        "draft": "The consultant gave a very clearly explanation to the board.",
+        "options": [
+          "The consultant gave a very clear explanation to the board.",
+          "The consultant gave a very clarify explanation to the board.",
+          "The consultant gave a clearness explanation to the board."
+        ],
+        "answer": 0,
+        "explanation": "Untuk menerangkan noun 'explanation', gunakan adjective 'clear', bukan adverb 'clearly'.",
+        "hints": [
+          "Lihat kata yang dijelaskan: 'explanation' adalah noun.",
+          "Ubah adverb 'clearly' menjadi adjective."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat 'Wait until the light turns green', kata 'until' berperan sebagai...",
+        "options": [
+          "conjunction",
+          "interjection",
+          "pronoun"
+        ],
+        "answer": 0,
+        "explanation": "'Until' menghubungkan klausa perintah 'Wait' dengan klausa waktu 'the light turns green'.",
+        "hints": [
+          "Mengikuti klausa lengkap 'the light turns green'.",
+          "Penghubung antarklausa adalah conjunction."
+        ],
+        "skill": "pos-conjunction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada 'I need a brief break before the next session', kata 'break' berfungsi sebagai...",
+        "options": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "'Break' didahului article 'a' dan adjective 'brief', sehingga jelas merupakan noun.",
+        "hints": [
+          "Lihat kata sandang 'a' dan sifat 'brief' di depannya.",
+          "Artinya di sini 'waktu istirahat'."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda majemuk dan keterangan cara.",
+        "targetSentence": "Our senior analyst carefully reviewed the quarterly report.",
+        "explanation": "Adverb 'carefully' diletakkan sebelum verb 'reviewed' untuk menerangkan aksi secara tepat.",
+        "hints": [
+          "Awali dengan subjek 'Our senior analyst'.",
+          "Gunakan adverb 'carefully' sebelum verb 'reviewed'."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan prepositional phrase penunjuk waktu di akhir.",
+        "targetSentence": "She submitted the travel claim before noon.",
+        "explanation": "Preposition 'before' diikuti objek noun 'noon' membentuk frasa preposisi waktu.",
+        "hints": [
+          "Subjek + Verb adalah 'She submitted'.",
+          "Akhiri dengan 'before noon'."
+        ],
+        "skill": "pos-order"
       }
     ],
     "complex": [
@@ -150,7 +569,10 @@
         ],
         "answer": 0,
         "explanation": "Kata 'impressive' adalah adjective. Kata yang menerangkan adjective harus berbentuk adverb, yaitu 'extremely', bukan 'extreme'.",
-        "hints": ["Perhatikan kata sebelum kata sifat 'impressive'.", "Gunakan bentuk adverb berakhiran -ly untuk menerangkan adjective."],
+        "hints": [
+          "Perhatikan kata sebelum kata sifat 'impressive'.",
+          "Gunakan bentuk adverb berakhiran -ly untuk menerangkan adjective."
+        ],
         "skill": "pos-adverb"
       },
       {
@@ -164,16 +586,26 @@
         ],
         "answer": 0,
         "explanation": "'Perform' adalah kata kerja. Setelah article 'The', kita memerlukan kata benda (noun), yaitu 'performance'.",
-        "hints": ["Cari bentuk noun abstrak dari kata kerja 'perform'.", "Akhiran -ance membentuk kata benda."],
+        "hints": [
+          "Cari bentuk noun abstrak dari kata kerja 'perform'.",
+          "Akhiran -ance membentuk kata benda."
+        ],
         "skill": "pos-noun"
       },
       {
         "type": "choice",
         "prompt": "Pada kalimat 'Since the deadline is approaching, we must act decisively', kata 'Since' berfungsi sebagai...",
-        "options": ["subordinating conjunction", "preposition", "adverb"],
+        "options": [
+          "subordinating conjunction",
+          "preposition",
+          "adverb"
+        ],
         "answer": 0,
         "explanation": "'Since' menghubungkan klausa anak 'the deadline is approaching' dengan klausa utama, sehingga bertindak sebagai subordinating conjunction bermakna 'karena'.",
-        "hints": ["Kata ini menghubungkan dua klausa lengkap dengan subjek dan kata kerja.", "Di sini maknanya sepadan dengan 'because'."],
+        "hints": [
+          "Kata ini menghubungkan dua klausa lengkap dengan subjek dan kata kerja.",
+          "Di sini maknanya sepadan dengan 'because'."
+        ],
         "skill": "pos-conjunction"
       },
       {
@@ -181,25 +613,42 @@
         "prompt": "Susun kalimat berstruktur formal dengan mengidentifikasi fungsi gramatikal setiap kata.",
         "targetSentence": "Regular physical exercise greatly improves mental clarity.",
         "explanation": "Susunan: Adjective + Adjective + Noun (Subject) + Adverb + Verb + Adjective + Noun (Object).",
-        "hints": ["Awali dengan frasa subjek 'Regular physical exercise'.", "Gunakan adverb 'greatly' tepat sebelum verb 'improves'."],
+        "hints": [
+          "Awali dengan frasa subjek 'Regular physical exercise'.",
+          "Gunakan adverb 'greatly' tepat sebelum verb 'improves'."
+        ],
         "skill": "pos-order"
       },
       {
         "type": "choice",
         "prompt": "Dalam kalimat 'The committee debated whether to approve the budget', kata 'whether' adalah...",
-        "options": ["conjunction", "relative pronoun", "preposition"],
+        "options": [
+          "conjunction",
+          "relative pronoun",
+          "preposition"
+        ],
         "answer": 0,
         "explanation": "'Whether' adalah conjunction yang memperkenalkan klausa alternatif atau pertanyaan tidak langsung.",
-        "hints": ["Kata ini memperkenalkan klausa dependen pilihan.", "Sering berpasangan dengan kemungkinan 'or not'."],
+        "hints": [
+          "Kata ini memperkenalkan klausa dependen pilihan.",
+          "Sering berpasangan dengan kemungkinan 'or not'."
+        ],
         "skill": "pos-conjunction"
       },
       {
         "type": "choice",
         "prompt": "Perhatikan kata 'well': pada kalimat 'She did not feel well yesterday', kata 'well' berfungsi sebagai...",
-        "options": ["adjective", "adverb", "interjection"],
+        "options": [
+          "adjective",
+          "adverb",
+          "interjection"
+        ],
         "answer": 0,
         "explanation": "Saat merujuk pada kondisi kesehatan fisik setelah linking verb 'feel', 'well' berfungsi sebagai adjective (bermakna sehat).",
-        "hints": ["'Feel' di sini adalah linking verb terkait kesehatan tubuh.", "Sebagai lawan kata dari 'sick/ill', kata ini berkelas kata sifat."],
+        "hints": [
+          "'Feel' di sini adalah linking verb terkait kesehatan tubuh.",
+          "Sebagai lawan kata dari 'sick/ill', kata ini berkelas kata sifat."
+        ],
         "skill": "pos-adjective"
       },
       {
@@ -213,30 +662,215 @@
         ],
         "answer": 0,
         "explanation": "'Conducted' adalah passive verb. Kata yang menerangkan bagaimana audit dilakukan harus berbentuk adverb 'thoroughly' (secara menyeluruh).",
-        "hints": ["Menerangkan cara kata kerja pasif 'was conducted'.", "Tambahkan akhiran -ly pada kata sifat 'thorough'."],
+        "hints": [
+          "Menerangkan cara kata kerja pasif 'was conducted'.",
+          "Tambahkan akhiran -ly pada kata sifat 'thorough'."
+        ],
         "skill": "pos-adverb"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog teknis linguistik ini dengan pilihan istilah yang akurat.",
         "dialogue": [
-          ["Interviewer", "In the phrase 'a government official', what is the grammatical role of 'government'?"],
-          ["Linguist", "It is a noun functioning as an ___ modifying another noun."]
+          [
+            "Interviewer",
+            "In the phrase 'a government official', what is the grammatical role of 'government'?"
+          ],
+          [
+            "Linguist",
+            "It is a noun functioning as an ___ modifying another noun."
+          ]
         ],
-        "options": ["adjective (noun adjunct)", "adverb", "interjection"],
+        "options": [
+          "adjective (noun adjunct)",
+          "adverb",
+          "interjection"
+        ],
         "answer": 0,
         "explanation": "Ketika sebuah kata benda dipakai menerangkan kata benda lain di depannya, ia berfungsi sebagai noun adjunct atau kata sifat penjelas.",
-        "hints": ["'Government' adalah benda yang dipakai mendeskripsikan 'official'.", "Fenomena ini disebut noun adjunct atau noun as adjective."],
+        "hints": [
+          "'Government' adalah benda yang dipakai mendeskripsikan 'official'.",
+          "Fenomena ini disebut noun adjunct atau noun as adjective."
+        ],
         "skill": "pos-adjective"
       },
       {
         "type": "choice",
         "prompt": "Pada kalimat 'Ah, that explains the discrepancy', kata 'Ah' berkelas kata...",
-        "options": ["interjection", "conjunction", "adverb"],
+        "options": [
+          "interjection",
+          "conjunction",
+          "adverb"
+        ],
         "answer": 0,
         "explanation": "'Ah' adalah interjection (kata seru) yang mengekspresikan emosi, kesadaran, atau reaksi spontan pembicara.",
-        "hints": ["Kata seru pendek yang berdiri sendiri di awal kalimat.", "Dipisahkan dengan tanda koma atau tanda seru."],
+        "hints": [
+          "Kata seru pendek yang berdiri sendiri di awal kalimat.",
+          "Dipisahkan dengan tanda koma atau tanda seru."
+        ],
         "skill": "pos-interjection"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan kata sifat setelah verb indra (linking verb).",
+        "draft": "Freshly brewed coffee always smells wonderfully in the morning.",
+        "options": [
+          "Freshly brewed coffee always smells wonderful in the morning.",
+          "Freshly brewed coffee always smells wonder in the morning.",
+          "Freshly brew coffee always smells wonderfully in the morning."
+        ],
+        "answer": 0,
+        "explanation": "Linking verb 'smells' membutuhkan adjective pelengkap 'wonderful', bukan adverb 'wonderfully'.",
+        "hints": [
+          "Verb indra (smell, taste, sound, look) diikuti adjective.",
+          "Ubah 'wonderfully' menjadi bentuk sifat."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada 'The findings were published in a peer-reviewed journal; however, further testing remains essential', kata 'however' secara gramatikal adalah...",
+        "options": [
+          "coordinating conjunction",
+          "conjunctive adverb",
+          "preposition"
+        ],
+        "answer": 1,
+        "explanation": "'However' adalah conjunctive adverb yang menghubungkan makna dua klausa setelah tanda titik koma (semicolon).",
+        "hints": [
+          "Perhatikan tanda titik koma sebelum 'however' dan koma sesudahnya.",
+          "Berfungsi sebagai adverb penghubung logika."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identifikasi kelas kata 'running' pada kalimat 'Running a regional office requires decisive leadership.'",
+        "options": [
+          "present participle verb",
+          "gerund (noun)",
+          "adjective"
+        ],
+        "answer": 1,
+        "explanation": "'Running a regional office' menduduki posisi subjek kalimat, sehingga 'running' berfungsi sebagai gerund (verbal noun).",
+        "hints": [
+          "Lihat posisi frasa di awal kalimat sebelum verb 'requires'.",
+          "Kata kerja bentuk -ing yang berfungsi sebagai benda disebut gerund."
+        ],
+        "skill": "pos-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Dalam kalimat 'Look at the broken monitor on the corner desk', kata 'broken' berfungsi sebagai...",
+        "options": [
+          "main verb",
+          "participial adjective",
+          "adverb"
+        ],
+        "answer": 1,
+        "explanation": "'Broken' (past participle) berada di depan noun 'monitor' untuk mendeskripsikan kondisinya sebagai adjective.",
+        "hints": [
+          "Posisinya terletak di antara 'the' dan 'monitor'.",
+          "Menjelaskan kondisi fisik benda."
+        ],
+        "skill": "pos-adjective"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog sunting naskah akademik berikut dengan membedakan preposition dan conjunction.",
+        "dialogue": [
+          [
+            "Editor",
+            "Your sentence says 'Despite it rained, the field survey continued.' Is 'despite' right here?"
+          ],
+          [
+            "Writer",
+            "Thanks for catching that. Since 'it rained' is a full clause, I should use ___ instead."
+          ]
+        ],
+        "options": [
+          "although",
+          "because of",
+          "during"
+        ],
+        "answer": 0,
+        "explanation": "'Despite' adalah preposition yang hanya diikuti frasa benda; untuk klausa lengkap (S+V), gunakan conjunction 'although'.",
+        "hints": [
+          "Setelah kata ini terdapat subjek 'it' dan verb 'rained'.",
+          "Preposition seperti 'despite' tidak diikuti klausa S+V."
+        ],
+        "skill": "pos-conjunction"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum kata kerja bantu vs keterangan pada kalimat formal berikut.",
+        "draft": "Scarcely the auditors had entered the archive when the alarm triggered.",
+        "options": [
+          "Had the auditors scarcely entered the archive when the alarm triggered?",
+          "Scarcely had the auditors entered the archive when the alarm triggered.",
+          "Scarcely the auditors entered the archive when the alarm triggered."
+        ],
+        "answer": 1,
+        "explanation": "Adverb bermakna negatif 'Scarcely' di awal kalimat memicu inversi auxiliary 'had' sebelum subjek 'the auditors'.",
+        "hints": [
+          "Kata negatif di awal kalimat menuntut susunan inversi (Aux + Subject).",
+          "Letakkan 'had' sebelum 'the auditors'."
+        ],
+        "skill": "pos-adverb"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah analisis kelas kata yang TEPAT untuk kata 'like' pada kalimat 'Actions speak louder than words, like a true leader demonstrates' vs 'He behaves like a mentor'?",
+        "options": [
+          "Dalam 'He behaves like a mentor', 'like' adalah preposition",
+          "Dalam 'He behaves like a mentor', 'like' adalah verb",
+          "Dalam kedua kalimat, 'like' adalah noun"
+        ],
+        "answer": 0,
+        "explanation": "Pada 'like a mentor', kata 'like' diikuti frasa noun 'a mentor' sebagai preposition yang berarti 'seperti'.",
+        "hints": [
+          "Perhatikan apakah 'like' menyatakan rasa suka (verb) atau perbandingan (preposition).",
+          "Setelahnya ada frasa benda 'a mentor'."
+        ],
+        "skill": "pos-preposition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pada 'The committee approved the proposal, which pleased all stakeholders', kata 'which' termasuk...",
+        "options": [
+          "demonstrative adjective",
+          "relative pronoun",
+          "subordinating conjunction"
+        ],
+        "answer": 1,
+        "explanation": "'Which' adalah relative pronoun yang merujuk kembali ke keseluruhan klausa sebelumnya.",
+        "hints": [
+          "Kata ini menggantikan klausa persetujuan proposal sebagai subjek klausa baru.",
+          "Merujuk pada hal yang sudah disebut."
+        ],
+        "skill": "pos-pronoun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan susunan nominalization dan prepositional modifier yang presisi.",
+        "targetSentence": "The rapid implementation of new safety rules reduced workplace accidents.",
+        "explanation": "Noun phrase kompleks (The rapid implementation of new safety rules) menjadi subjek bagi verb 'reduced'.",
+        "hints": [
+          "Awali dengan frasa benda 'The rapid implementation'.",
+          "Hubungkan dengan 'of new safety rules' sebelum verb 'reduced'."
+        ],
+        "skill": "pos-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal yang membedakan posisi adverbial sebelum past participle.",
+        "targetSentence": "The system remained completely functional despite heavy network traffic.",
+        "explanation": "Adverb 'completely' memodifikasi adjective 'functional' setelah linking verb 'remained'.",
+        "hints": [
+          "Mulai dengan 'The system remained'.",
+          "Pasangkan adverb 'completely' sebelum 'functional'."
+        ],
+        "skill": "pos-order"
       }
     ]
   }

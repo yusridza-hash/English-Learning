@@ -99,6 +99,167 @@
           "Klarifikasi kontras: 'on the contrary he works tirelessly'."
         ],
         "skill": "contrast-on-the-contrary"
+      },
+      {
+        "type": "choice",
+        "prompt": "The electric bus trial achieved high passenger ratings; ___, charging station installation lagged behind schedule.",
+        "options": [
+          "however / nonetheless",
+          "therefore",
+          "moreover"
+        ],
+        "answer": 0,
+        "explanation": "Dua klausa yang dipisah titik koma membawa kontras antara kepuasan tinggi dan keterlambatan instalasi pengisian daya: gunakan 'however' atau 'nonetheless'.",
+        "hints": [
+          "Klausa kedua menyoroti kendala yang bertolak belakang dengan keberhasilan awal.",
+          "Pilih konektor kontras."
+        ],
+        "skill": "formal-contrast-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Grid battery costs fell by thirty percent; ___, municipal utilities accelerated solar storage orders.",
+        "options": [
+          "consequently",
+          "conversely",
+          "albeit"
+        ],
+        "answer": 0,
+        "explanation": "Klausa kedua merupakan akibat langsung dari turunnya harga baterai; gunakan 'consequently' (setara 'therefore' / 'as a result').",
+        "hints": [
+          "Hubungan antar-klausa adalah sebab → akibat.",
+          "Konektor hasil adalah 'consequently'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "The mobile app offers instant voice transcription; ___, it exports clean summaries in three formats.",
+        "options": [
+          "furthermore / moreover",
+          "otherwise",
+          "nevertheless"
+        ],
+        "answer": 0,
+        "explanation": "Menambahkan keunggulan kedua yang searah memakai konektor aditif formal 'furthermore' atau 'moreover'.",
+        "hints": [
+          "Kedua klausa sama-sama memuji fitur aplikasi.",
+          "Penambah poin searah memakai 'furthermore / moreover'."
+        ],
+        "skill": "additive-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Export agriculture grew steadily in northern valleys; ___, timber shipments in southern ports declined slightly.",
+        "options": [
+          "conversely",
+          "therefore",
+          "furthermore"
+        ],
+        "answer": 0,
+        "explanation": "'Conversely' menyoroti perbandingan dua tren atau hasil yang bergerak ke arah berkebalikan (satu naik, satu turun).",
+        "hints": [
+          "Tren utara dan selatan bergerak berlawanan arah.",
+          "Konektor kebalikan tren adalah 'conversely'."
+        ],
+        "skill": "contrast-conversely"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang memperjelas istilah dengan apposition connector.",
+        "dialogue": [
+          [
+            "Student",
+            "Should I clarify which fiscal period my chart covers right inside the sentence?"
+          ],
+          [
+            "Advisor",
+            "Yes — insert the appositive abbreviation ___, meaning 'that is to say', right before 'Q1 through Q3'."
+          ]
+        ],
+        "options": [
+          "namely / i.e.",
+          "conversely / e.g.",
+          "nonetheless / vs."
+        ],
+        "answer": 0,
+        "explanation": "'Namely' (atau singkatan Latin 'i.e.' / 'that is') berfungsi mempersempit atau menyebutkan secara spesifik hal yang dimaksud sebelumnya (berbeda dengan 'e.g.' yang hanya memberi sebagian contoh).",
+        "hints": [
+          "Memperjelas identitas tepat satu periode ('yaitu Q1 sampai Q3').",
+          "Gunakan 'namely / i.e.'."
+        ],
+        "skill": "apposition-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "The coastal rail upgrade will reduce freight travel times, ___ at a substantial upfront capital cost.",
+        "options": [
+          "albeit",
+          "therefore",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Albeit' adalah konektor konsesi ringkas sebelum frasa preposisi atau kata sifat tanpa perlu klausa kerja penuh.",
+        "hints": [
+          "Setelah rumpang hanya terdapat frasa preposisi 'at a substantial upfront capital cost'.",
+          "'Albeit' masuk langsung sebelum frasa tanpa verb."
+        ],
+        "skill": "concession-albeit"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tanda baca koma (comma splice) saat memakai 'therefore' di tengah kalimat berikut.",
+        "draft": "Water pressure dipped overnight, therefore, the automatic irrigation cycle paused until dawn.",
+        "options": [
+          "Water pressure dipped overnight; therefore, the automatic irrigation cycle paused until dawn.",
+          "Water pressure dipped overnight, therefore the automatic irrigation cycle paused until dawn.",
+          "Water pressure dipped overnight; therefore the automatic irrigation cycle paused until dawn."
+        ],
+        "answer": 0,
+        "explanation": "Conjunctive adverb seperti 'therefore', 'hence', dan 'moreover' wajib didahului titik koma (;) atau titik (.) saat menyambung dua klausa independen, dan diikuti koma (,).",
+        "hints": [
+          "Jangan gunakan koma sebelum 'therefore' di antara dua kalimat utuh.",
+          "Gunakan titik koma (;) sebelum 'therefore,' dan koma sesudahnya."
+        ],
+        "skill": "connectors-punctuation-syntax"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ initial skepticism among rural shopkeepers, contactless QR adoption tripled within six months.",
+        "options": [
+          "Notwithstanding",
+          "Whereas",
+          "Accordingly"
+        ],
+        "answer": 0,
+        "explanation": "'Notwithstanding' adalah preposisi konsesif formal (setara 'Despite') yang langsung diikuti frasa benda ('initial skepticism...').",
+        "hints": [
+          "Setelah rumpang hanya berupa frasa benda tanpa kata kerja.",
+          "Gunakan preposisi konsesif 'Notwithstanding'."
+        ],
+        "skill": "formal-contrast-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai konektor sebab-akibat formal 'accordingly'.",
+        "targetSentence": "Seasonal rainfall fell below average; accordingly, reservoir managers tightened irrigation quotas.",
+        "explanation": "'Accordingly' (= menindaklanjuti hal tersebut) menyambung sebab dan tindakan penyesuaian yang logis.",
+        "hints": [
+          "Awali dengan 'Seasonal rainfall fell below average;'.",
+          "Sambungkan dengan 'accordingly, reservoir managers...'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai 'by the same token' untuk perbandingan sejajar.",
+        "targetSentence": "Consistent design aids reader comprehension; by the same token, erratic typography causes fatigue.",
+        "explanation": "'By the same token' (= dengan alasan yang sama pula) menghubungkan dua analogi searah.",
+        "hints": [
+          "Mulai dengan klausa pertama diikuti titik koma.",
+          "Lanjutkan dengan 'by the same token, erratic typography causes fatigue'."
+        ],
+        "skill": "comparative-connectors"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'By contrast'."
         ],
         "skill": "contrast-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Distinguish 'on the contrary' vs 'by contrast': 'The prototype did not overheat during stress tests; ___, core temperatures remained five degrees cooler than forecast.'",
+        "options": [
+          "on the contrary",
+          "moreover",
+          "for instance"
+        ],
+        "answer": 0,
+        "explanation": "'On the contrary' dipakai khusus SETELAH pernyataan negatif untuk membantah anggapan salah tersebut dan menyatakan kebalikannya ('bahkan sebaliknya...').",
+        "hints": [
+          "Klausa pertama berbentuk negatif ('did not overheat') dan klausa kedua membalik asumsi itu.",
+          "Penyangkal pernyataan negatif memakai 'on the contrary'."
+        ],
+        "skill": "contrast-on-the-contrary"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare with 'by contrast': 'Urban transit lines run electric buses exclusively; ___, suburban routes still rely largely on hybrid vans.'",
+        "options": [
+          "by contrast",
+          "on the contrary",
+          "thereby"
+        ],
+        "answer": 0,
+        "explanation": "Di sini tidak ada klaim negatif yang disangkal; kedua klausa sekadar membandingkan perbedaan dua situasi berbeda ('bus kota vs rute pinggiran'), sehingga memakai 'by contrast' (atau 'in contrast').",
+        "hints": [
+          "Kedua kalimat hanya membandingkan dua fakta berbeda tanpa membantah klaim sebelumnya.",
+          "Gunakan 'by contrast'."
+        ],
+        "skill": "contrast-connectors"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan naskah tentang penggunaan 'thereby' + gerund.",
+        "dialogue": [
+          [
+            "Writer",
+            "How can I link 'The city widened bike lanes' with its direct result 'lowering commuter collisions' smoothly?"
+          ],
+          [
+            "Editor",
+            "Connect the participle result cleanly using the adverbial connector ___: '...bike lanes, ___ lowering commuter collisions.'"
+          ]
+        ],
+        "options": [
+          "thereby",
+          "therefore",
+          "however"
+        ],
+        "answer": 0,
+        "explanation": "'Thereby + V-ing' (= dengan demikian menghasilkan...) adalah cara ringkas dan sangat elegan dalam tulisan akademis untuk mengaitkan aksi klausa utama dengan konsekuensi langsungnya.",
+        "hints": [
+          "Perhatikan bentuk '-ing' ('lowering') setelah koma dan rumpang.",
+          "Konektor formal sebelum '-ing' hasil adalah 'thereby'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal legal or historical prose, adverbs like 'herein', 'thereafter', and 'whereby' serve to condense spatial/temporal reference; e.g., 'All parties signed the treaty and ___ observed a ten-year truce.'",
+        "options": [
+          "thereafter",
+          "thereby",
+          "herein"
+        ],
+        "answer": 0,
+        "explanation": "'Thereafter' bermakna 'sejak saat itu / setelah peristiwa tersebut', menggantikan frasa panjang 'after that event'.",
+        "hints": [
+          "Maknanya adalah urutan waktu setelah penandatanganan perjanjian.",
+          "'Thereafter' berarti setelah itu."
+        ],
+        "skill": "archaic-formal-adverbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new sorting robot processes packages swiftly; ___, it requires quarterly optical sensor cleaning.",
+        "options": [
+          "that said / even so",
+          "consequently",
+          "in addition"
+        ],
+        "answer": 0,
+        "explanation": "'That said' atau 'Even so' (= meski demikian) mengakui kelebihan klausa pertama lalu memunculkan catatan kontras atau batasan yang perlu diperhatikan.",
+        "hints": [
+          "Ada pengakuan keunggulan + catatan pengecualian kontras.",
+          "Gunakan konektor konsesi moderat 'that said / even so'."
+        ],
+        "skill": "rhetorical-concession-connectors"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan konjungsi subordinator dengan konektor adverbial sekaligus berikut.",
+        "draft": "Although the pilot battery charged twice as fast, however its total cycle lifespan shortened noticeably.",
+        "options": [
+          "Although the pilot battery charged twice as fast, its total cycle lifespan shortened noticeably.",
+          "Although the pilot battery charged twice as fast, therefore its total cycle lifespan shortened noticeably.",
+          "Despite the pilot battery charged twice as fast, however its total cycle lifespan shortened noticeably."
+        ],
+        "answer": 0,
+        "explanation": "Jangan memakai 'Although' bersama 'however' sekaligus untuk satu hubungan kontras; pilih 'Although...' saja ATAU ganti menjadi titik koma '; however,'.",
+        "hints": [
+          "Satu hubungan kontras cukup memakai satu konektor.",
+          "Hapus 'however' dari kalimat yang sudah memakai 'Although'."
+        ],
+        "skill": "redundant-connector-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "High-speed rail trims intercity flight demand; ___, regional airports can reallocate gates to long-haul cargo.",
+        "options": [
+          "hence",
+          "albeit",
+          "conversely"
+        ],
+        "answer": 0,
+        "explanation": "'Hence' (= oleh karenanya) diikuti klausa hasil atau frasa nomina akibat secara formal dan ringkas.",
+        "hints": [
+          "Klausa kedua adalah konsekuensi logis dari berkurangnya permintaan penerbangan pendek.",
+          "Pilih konektor akibat 'hence'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the precise connector for an appositive restatement: 'Several Nordic utilities rely on dispatchable renewables — ___, hydropower reservoirs and geothermal plants.'",
+        "options": [
+          "specifically / namely",
+          "on the contrary",
+          "otherwise"
+        ],
+        "answer": 0,
+        "explanation": "Setelah tanda pisah (em-dash), 'specifically' atau 'namely' menyebutkan daftar pasti dari 'dispatchable renewables' yang dimaksud.",
+        "hints": [
+          "Menjelaskan rincian tepat dari istilah sebelumnya.",
+          "Gunakan 'specifically / namely'."
+        ],
+        "skill": "apposition-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai konektor hasil 'thereby' + gerund.",
+        "targetSentence": "The port automated customs declarations, thereby cutting average container clearance times in half.",
+        "explanation": "Koma + 'thereby' + gerund ('cutting') menyatakan konsekuensi langsung dari tindakan di klausa utama.",
+        "hints": [
+          "Awali dengan 'The port automated customs declarations,'.",
+          "Tambahkan ', thereby cutting average container clearance times in half'."
+        ],
+        "skill": "result-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuktian konsesi retoris dengan 'admittedly'.",
+        "targetSentence": "Admittedly, initial solar installation outlays remain steep; nonetheless, five-year operating savings justify the shift.",
+        "explanation": "'Admittedly' mengakui argumen lawan di awal lalu dibalas secara tegas dengan '; nonetheless,'.",
+        "hints": [
+          "Mulai dengan pengakuan 'Admittedly, initial solar installation outlays remain steep;'.",
+          "Balas dengan 'nonetheless, five-year operating savings justify the shift'."
+        ],
+        "skill": "rhetorical-concession-connectors"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'ipso facto'."
         ],
         "skill": "latinate-logical-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine subtle semantic precision: 'Regional grain output surged 20%. ___ expected, export surpluses stabilized domestic bread prices.'",
+        "options": [
+          "As",
+          "Therefore",
+          "Such as"
+        ],
+        "answer": 0,
+        "explanation": "'As expected,' berfungsi sebagai comment clause komparatif-korelasi ringkas (setara 'As it was expected,'); hindari memakai 'Therefore' atau 'Such as' sebelum participle tunggal tanpa subjek.",
+        "hints": [
+          "Perhatikan past participle 'expected' berdiri setelah rumpang.",
+          "Klausa komentar ringkas memakai 'As expected'."
+        ],
+        "skill": "semantic-precision-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "In legal statutes, '___ the Seller fails to deliver conforming goods within fourteen days, the Buyer may terminate the order' uses a distinctly legalistic conditional connector:",
+        "options": [
+          "In the event that / Where",
+          "Albeit",
+          "Namely"
+        ],
+        "answer": 0,
+        "explanation": "Dalam penyusunan pasal kontrak dan undang-undang, 'Where + clause' atau 'In the event that + clause' lazim digunakan sebagai konektor kondisi/skenario hukum ('Dalam hal Penjual gagal...').",
+        "hints": [
+          "Konteksnya penyusunan pasal perjanjian dagang resmi.",
+          "Klausa skenario hukum diawali 'In the event that / Where'."
+        ],
+        "skill": "legalistic-connectors"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pengunaan 'therefore' hanya dengan koma dan kekeliruan makna 'whereas' pada kalimat berikut.",
+        "draft": "The urban metro runs cleanly on hydroelectric power, whereas rural diesel buses remain expensive; on the contrary, suburban rail bridges both networks smoothly.",
+        "options": [
+          "The urban metro runs cleanly on hydroelectric power, whereas rural diesel buses remain expensive; meanwhile, suburban rail bridges both networks smoothly.",
+          "The urban metro runs cleanly on hydroelectric power; therefore rural diesel buses remain expensive; on the contrary, rail bridges both.",
+          "Whereas the urban metro runs cleanly, rural diesel buses remain expensive, on the contrary rail bridges both."
+        ],
+        "answer": 0,
+        "explanation": "'On the contrary' SALAH dipakai di sini karena tidak membantah pernyataan negatif sebelumnya; untuk menambahkan elemen penghubung yang berlangsung bersamaan ('sementara itu'), gunakan 'meanwhile' atau 'similarly'!",
+        "hints": [
+          "Apakah klausa ketiga membantah pernyataan negatif? Tidak.",
+          "Gunakan 'meanwhile' setelah titik koma untuk peran penghubung paralel."
+        ],
+        "skill": "contrast-on-the-contrary"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang penulisan 'insofar as' vs 'inasmuch as'.",
+        "dialogue": [
+          [
+            "Examiner",
+            "You wrote 'The model succeeds inasmuch as it accounts for seasonal humidity.' What exact logical relation does 'inasmuch as' signal?"
+          ],
+          [
+            "Candidate",
+            "'Inasmuch as' signals ___ ('since / to the extent that'), rather than contrast."
+          ]
+        ],
+        "options": [
+          "explanatory cause or limiting qualification",
+          "direct contradiction between opposing trends",
+          "chronological sequence across centuries"
+        ],
+        "answer": 0,
+        "explanation": "'Inasmuch as' (bermakna 'mengingat fakta bahwa / sejauh bahwa') menjelaskan dasar alasan atau batasan berlakunya suatu klaim formal.",
+        "hints": [
+          "'Inasmuch as' mirip 'since / to the extent that'.",
+          "Fungsinya menjelaskan sebab/cakupan kualifikasi."
+        ],
+        "skill": "latinate-logical-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how 'all the same' or 'be that as it may' operates at paragraph transitions: 'Budget approvals faced minor parliamentary delays. ___, construction equipment arrived at the harbor on time.'",
+        "options": [
+          "Be that as it may",
+          "For that reason",
+          "Specifically"
+        ],
+        "answer": 0,
+        "explanation": "'Be that as it may,' adalah penanda konsesi retoris berwibawa yang menerima fakta sebelumnya ('bagaimanapun juga / terlepas dari hal itu') lalu membalik fokus ke fakta positif baru.",
+        "hints": [
+          "Kalimat pertama menyebut kendala, kalimat kedua menyebut hasil yang tetap tepat waktu.",
+          "Konektor transisi konsesif formal adalah 'Be that as it may'."
+        ],
+        "skill": "rhetorical-concession-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "In legal/contractual style, 'heretofore' refers to 'until now', while '___' means 'after this point / from now on in this document'.",
+        "options": [
+          "hereafter / henceforth",
+          "hereinbefore",
+          "nonetheless"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan kata keterangan hukum klasik: 'heretofore' (sebelum/hingga saat ini) vs 'hereafter / henceforth' (mulai saat ini dan seterusnya).",
+        "hints": [
+          "Lawan kata dari 'until now' dalam bahasa perjanjian formal.",
+          "Pilih 'hereafter / henceforth'."
+        ],
+        "skill": "archaic-formal-adverbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan tanda baca setelah 'viz.' / 'i.e.' dan kesalahan makna 'namely' berikut.",
+        "draft": "Three coastal hubs recorded higher container throughput, i.e., Semarang, Makassar, among others.",
+        "options": [
+          "Three coastal hubs recorded higher container throughput — namely, Semarang, Makassar, and Bitung.",
+          "Three coastal hubs recorded higher container throughput, i.e., Semarang, Makassar, and so forth.",
+          "Three coastal hubs recorded higher container throughput, namely, among others, Semarang."
+        ],
+        "answer": 0,
+        "explanation": "'i.e.' (= yaitu secara lengkap) dan 'namely' menuntut daftar TUNTAS semua item yang disebut ('Three coastal hubs' → harus menyebutkan KETIGANYA, bukan cuma 2 + 'among others'!). Jika hanya sebagian contoh, harusnya memakai 'e.g.' / 'such as'.",
+        "hints": [
+          "Jika menyebut 'Three coastal hubs', maka daftar setelah 'namely/i.e.' wajib tuntas 3 kota tanpa 'among others'.",
+          "Aturan logika aposisi vs eksemplifikasi."
+        ],
+        "skill": "apposition-connectors"
+      },
+      {
+        "type": "choice",
+        "prompt": "The empirical findings align with earlier surveys; ___, they extend the analysis into rural service wages.",
+        "options": [
+          "moreover, / in addition,",
+          "conversely,",
+          "regardless,"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat kedua tidak hanya sejajar, tetapi memperluas temuan sebelumnya ke dimensi baru; gunakan konektor aditif progresif 'moreover,' atau 'furthermore,'.",
+        "hints": [
+          "Hubungannya memperluas argumen searah.",
+          "Pilih konektor tambahan progresif 'moreover, / in addition,'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai 'Granted, ...; nevertheless, ...' untuk konsesi seimbang.",
+        "targetSentence": "Granted, manual data cleaning takes longer upfront; nevertheless, it eliminates costly model drift.",
+        "explanation": "Mengakui keberatan dengan 'Granted,' di awal lalu menutupnya dengan '; nevertheless,' membentuk argumen persuasif seimbang.",
+        "hints": [
+          "Awali dengan 'Granted, manual data cleaning takes longer upfront;'.",
+          "Sambungkan dengan 'nevertheless, it eliminates costly model drift'."
+        ],
+        "skill": "rhetorical-concession-connectors"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hukum presisi memakai 'notwithstanding anything to the contrary'.",
+        "targetSentence": "Notwithstanding prior verbal assurances, only signed written addenda modify delivery deadlines.",
+        "explanation": "'Notwithstanding + noun phrase' menempatkan pengecualian tegas di awal kalimat hukum.",
+        "hints": [
+          "Mulai dengan 'Notwithstanding prior verbal assurances,'.",
+          "Akhiri dengan klausa utama 'only signed written addenda...'."
+        ],
+        "skill": "legalistic-connectors"
       }
     ]
   }

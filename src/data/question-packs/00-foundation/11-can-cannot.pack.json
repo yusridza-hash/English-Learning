@@ -7,28 +7,49 @@
       {
         "type": "choice",
         "prompt": "She ___ speak three Asian languages fluently.",
-        "options": ["can", "cans", "is can"],
+        "options": [
+          "can",
+          "cans",
+          "is can"
+        ],
         "answer": 0,
         "explanation": "Modal 'can' tidak pernah mendapat akhiran -s, -ed, atau -ing, apa pun subjeknya (I can, he can, she can).",
-        "hints": ["Modal auxiliary tidak berubah bentuk.", "Jangan menambahkan -s pada 'can'."],
+        "hints": [
+          "Modal auxiliary tidak berubah bentuk.",
+          "Jangan menambahkan -s pada 'can'."
+        ],
         "skill": "can-ability"
       },
       {
         "type": "choice",
         "prompt": "After 'can', the main verb must always be in the base form: 'He can ___ the financial report.'",
-        "options": ["analyzes", "analyze", "analyzing"],
+        "options": [
+          "analyzes",
+          "analyze",
+          "analyzing"
+        ],
         "answer": 1,
         "explanation": "Setelah modal auxiliary 'can', kata kerja utama WAJIB berupa bare infinitive (kata kerja dasar murni tanpa to dan tanpa -s): 'can analyze'.",
-        "hints": ["Gunakan bentuk dasar kata kerja (V1 murni).", "Tanpa akhiran -s atau -ing."],
+        "hints": [
+          "Gunakan bentuk dasar kata kerja (V1 murni).",
+          "Tanpa akhiran -s atau -ing."
+        ],
         "skill": "can-base-verb"
       },
       {
         "type": "choice",
         "prompt": "I am terribly sorry, but I ___ attend the team retrospective tomorrow.",
-        "options": ["cannot", "not can", "am not can"],
+        "options": [
+          "cannot",
+          "not can",
+          "am not can"
+        ],
         "answer": 0,
         "explanation": "Bentuk negatif baku dari 'can' ditulis sebagai satu kata tanpa spasi: 'cannot' (atau bentuk singkatan 'can't').",
-        "hints": ["Bentuk negatif resmi ditulis menyatu.", "Tulis 'cannot', bukan 'can not'."],
+        "hints": [
+          "Bentuk negatif resmi ditulis menyatu.",
+          "Tulis 'cannot', bukan 'can not'."
+        ],
         "skill": "can-negation"
       },
       {
@@ -36,16 +57,26 @@
         "prompt": "Susun kalimat tanya kemampuan dengan 'Can'.",
         "targetSentence": "Can you drive a manual transmission car?",
         "explanation": "Pertanyaan modal: Can + Subject (you) + Verb dasar (drive) + Object.",
-        "hints": ["Awali pertanyaan dengan modal 'Can'.", "Subjek 'you' diletakkan sebelum verb dasar 'drive'."],
+        "hints": [
+          "Awali pertanyaan dengan modal 'Can'.",
+          "Subjek 'you' diletakkan sebelum verb dasar 'drive'."
+        ],
         "skill": "can-question"
       },
       {
         "type": "choice",
         "prompt": "Excuse me, ___ I borrow your charger for a few minutes?",
-        "options": ["can", "am", "do"],
+        "options": [
+          "can",
+          "am",
+          "do"
+        ],
         "answer": 0,
         "explanation": "'Can I...?' digunakan secara umum untuk meminta izin (asking for permission).",
-        "hints": ["Meminta izin meminjam charger.", "Gunakan 'Can I borrow...'."],
+        "hints": [
+          "Meminta izin meminjam charger.",
+          "Gunakan 'Can I borrow...'."
+        ],
         "skill": "can-permission"
       },
       {
@@ -53,17 +84,188 @@
         "prompt": "Susun kalimat negatif kemampuan menggunakan singkatan 'can't'.",
         "targetSentence": "They can't access the database right now.",
         "explanation": "Subject (They) + can't + Verb dasar (access) + Object + Time.",
-        "hints": ["Mulai dengan subject 'They'.", "Gunakan 'can't access'."],
+        "hints": [
+          "Mulai dengan subject 'They'.",
+          "Gunakan 'can't access'."
+        ],
         "skill": "can-negation"
       },
       {
         "type": "choice",
         "prompt": "Can your sister swim? — Yes, she ___.",
-        "options": ["can", "can swims", "is can"],
+        "options": [
+          "can",
+          "can swims",
+          "is can"
+        ],
         "answer": 0,
         "explanation": "Jawaban singkat positif: 'Yes, she can.' (tanpa mengulang kata kerja utama).",
-        "hints": ["Jawaban singkat positif.", "Cukup akhiri dengan modal: 'Yes, she can.'"],
+        "hints": [
+          "Jawaban singkat positif.",
+          "Cukup akhiri dengan modal: 'Yes, she can.'"
+        ],
         "skill": "can-short-answer"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleague ___ speak both Japanese and Mandarin fluently.",
+        "options": [
+          "can",
+          "cans",
+          "is can"
+        ],
+        "answer": 0,
+        "explanation": "Modal verb 'can' bentuknya selalu tetap untuk semua subjek; tidak pernah mendapat akhiran -s.",
+        "hints": [
+          "Modal 'can' tidak berubah walau subjeknya tunggal.",
+          "Jangan tambahkan -s atau 'is'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the software update, users can ___ spreadsheets in PDF format directly.",
+        "options": [
+          "exporting",
+          "to export",
+          "export"
+        ],
+        "answer": 2,
+        "explanation": "Setelah modal 'can', verb utama wajib kembali ke bentuk dasar murni (tanpa 'to' maupun '-ing').",
+        "hints": [
+          "Setelah modal verb selalu diikuti base verb.",
+          "Jangan tambahkan 'to' atau '-ing'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "I'm afraid I ___ join the lunch meeting today because I have a dentist appointment.",
+        "options": [
+          "can't",
+          "don't can",
+          "not can"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif 'can' adalah 'cannot' atau 'can't' (tanpa auxiliary 'don't').",
+        "hints": [
+          "Jangan pernah memakai 'don't' bersama 'can'.",
+          "Singkatan negatifnya adalah 'can't'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you help me carry these projector cables to Room 4?",
+        "options": [
+          "Can",
+          "Do can",
+          "Are"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan dengan 'can' cukup membalik 'Can' ke depan subjek (tanpa 'do/are').",
+        "hints": [
+          "Modal langsung berpindah ke awal kalimat tanya.",
+          "Gunakan 'Can'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di ruang kerja dengan jawaban singkat 'can'.",
+        "dialogue": [
+          [
+            "Technician",
+            "Can your laptop connect to the guest Wi-Fi network?"
+          ],
+          [
+            "Intern",
+            "Yes, it ___. The signal is quite strong here."
+          ]
+        ],
+        "options": [
+          "can",
+          "does",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan diawali 'Can', maka jawaban singkat wajib memakai 'can' kembali.",
+        "hints": [
+          "Pertanyaan modal dijawab dengan modal yang sama.",
+          "Pilih 'can'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Without a valid access card, visitors ___ enter the laboratory wing.",
+        "options": [
+          "can't",
+          "cannot to",
+          "doesn't can"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan ketidakmampuan atau larangan akses memakai 'can't' atau 'cannot' diikuti verb dasar 'enter'.",
+        "hints": [
+          "Setelah 'cannot' tidak memakai 'to'.",
+          "Subjek jamak dan tunggal memakai bentuk sama."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan umum penambahan 'to' setelah modal 'can' berikut.",
+        "draft": "Our team can to finish the prototype before Friday afternoon.",
+        "options": [
+          "Our team can finish the prototype before Friday afternoon.",
+          "Our team cans finish the prototype before Friday afternoon.",
+          "Our team can finishing the prototype before Friday afternoon."
+        ],
+        "answer": 0,
+        "explanation": "Modal verb tidak pernah diikuti kata 'to' sebelum verb utama; langsung gunakan base verb 'finish'.",
+        "hints": [
+          "Hapus kata 'to' setelah 'can'.",
+          "Pola: can + bare infinitive."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even from the back row, everyone ___ see the presentation slides clearly.",
+        "options": [
+          "can",
+          "can to",
+          "are can"
+        ],
+        "answer": 0,
+        "explanation": "'Everyone' bersama semua subjek lainnya menggunakan 'can' + base verb 'see'.",
+        "hints": [
+          "Modal 'can' berlaku sama untuk semua subjek.",
+          "Gunakan 'can'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya izin sederhana memakai 'Can I'.",
+        "targetSentence": "Can I leave my suitcase at the reception desk?",
+        "explanation": "Pertanyaan izin santai: Can + I + base verb (leave) + object + place?",
+        "hints": [
+          "Awali dengan 'Can I leave my suitcase'.",
+          "Tambahkan tempat 'at the reception desk?'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat negatif kemampuan dengan ejaan baku satu kata 'cannot'.",
+        "targetSentence": "He cannot attend tomorrow's workshop due to travel.",
+        "explanation": "Bentuk negatif lengkap 'cannot' ditulis serangkai satu kata dalam penulisan formal.",
+        "hints": [
+          "Mulai dengan 'He cannot attend'.",
+          "Akhiri dengan 'due to travel'."
+        ],
+        "skill": "can-ability"
       }
     ],
     "intermediate": [
@@ -71,31 +273,58 @@
         "type": "dialogue",
         "prompt": "Pilih permohonan bantuan (request) yang sopan di lingkungan kerja.",
         "dialogue": [
-          ["Manager", "___ you please forward me the updated presentation slides?"],
-          ["Staff", "Certainly, I will send them right away."]
+          [
+            "Manager",
+            "___ you please forward me the updated presentation slides?"
+          ],
+          [
+            "Staff",
+            "Certainly, I will send them right away."
+          ]
         ],
-        "options": ["Could", "Can", "both 'Could' and 'Can' are correct, with 'Could' being more polite"],
+        "options": [
+          "Could",
+          "Can",
+          "both 'Could' and 'Can' are correct, with 'Could' being more polite"
+        ],
         "answer": 2,
         "explanation": "Baik 'Can you...?' maupun 'Could you...?' dapat digunakan untuk meminta tolong, dengan 'Could' bernada lebih santun dan formal.",
-        "hints": ["Keduanya bisa dipakai untuk request.", "'Could' memberikan nuansa kesantunan lebih tinggi."],
+        "hints": [
+          "Keduanya bisa dipakai untuk request.",
+          "'Could' memberikan nuansa kesantunan lebih tinggi."
+        ],
         "skill": "can-polite-request"
       },
       {
         "type": "choice",
         "prompt": "You ___ park your vehicle here; this space is strictly reserved for emergency ambulances.",
-        "options": ["cannot", "can", "could"],
+        "options": [
+          "cannot",
+          "can",
+          "could"
+        ],
         "answer": 0,
         "explanation": "'Cannot' atau 'can't' digunakan untuk menyatakan larangan mutlak (prohibition): Anda tidak diperbolehkan parkir di sini.",
-        "hints": ["Menyatakan larangan aturan.", "Gunakan bentuk negatif 'cannot'."],
+        "hints": [
+          "Menyatakan larangan aturan.",
+          "Gunakan bentuk negatif 'cannot'."
+        ],
         "skill": "can-prohibition"
       },
       {
         "type": "choice",
         "prompt": "Working late hours every night ___ lead to severe burnout.",
-        "options": ["can", "is can", "cans"],
+        "options": [
+          "can",
+          "is can",
+          "cans"
+        ],
         "answer": 0,
         "explanation": "'Can' digunakan untuk menyatakan kemungkinan teoretis atau fakta umum (theoretical possibility): hal tersebut memang mungkin terjadi.",
-        "hints": ["Menyatakan kemungkinan umum/teoretis.", "Gunakan modal 'can'."],
+        "hints": [
+          "Menyatakan kemungkinan umum/teoretis.",
+          "Gunakan modal 'can'."
+        ],
         "skill": "can-possibility"
       },
       {
@@ -103,16 +332,26 @@
         "prompt": "Susun kalimat yang menyatakan kemampuan di masa lampau menggunakan 'could'.",
         "targetSentence": "She could read when she was four years old.",
         "explanation": "Bentuk lampau umum dari 'can' untuk kemampuan masa lalu adalah 'could'.",
-        "hints": ["Subject: 'She'.", "Kemampuan masa lalu memakai 'could read'."],
+        "hints": [
+          "Subject: 'She'.",
+          "Kemampuan masa lalu memakai 'could read'."
+        ],
         "skill": "can-past-ability"
       },
       {
         "type": "choice",
         "prompt": "Because the fire exit was unlocked, all occupants ___ escape safely from the building.",
-        "options": ["were able to", "could", "can"],
+        "options": [
+          "were able to",
+          "could",
+          "can"
+        ],
         "answer": 0,
         "explanation": "Untuk keberhasilan melakukan tindakan pada satu kesempatan spesifik di masa lalu (specific past achievement), gunakan 'was/were able to', bukan 'could'.",
-        "hints": ["Keberhasilan pada satu peristiwa spesifik masa lalu.", "Gunakan 'were able to'."],
+        "hints": [
+          "Keberhasilan pada satu peristiwa spesifik masa lalu.",
+          "Gunakan 'were able to'."
+        ],
         "skill": "can-vs-able-to"
       },
       {
@@ -120,21 +359,198 @@
         "prompt": "Susun kalimat permintaan izin formal dengan 'Could I'.",
         "targetSentence": "Could I ask a clarifying question about the timeline?",
         "explanation": "Could I + base verb (ask) + object (a clarifying question) + prepositional phrase.",
-        "hints": ["Awali dengan permohonan santun 'Could I ask'.", "Objek: a clarifying question."],
+        "hints": [
+          "Awali dengan permohonan santun 'Could I ask'.",
+          "Objek: a clarifying question."
+        ],
         "skill": "can-permission"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog deduksi negatif (logical impossibility).",
         "dialogue": [
-          ["Detective", "Could the suspect have committed the crime at 10 p.m.?"],
-          ["Officer", "That ___ be true; he was on a live television broadcast at that hour."]
+          [
+            "Detective",
+            "Could the suspect have committed the crime at 10 p.m.?"
+          ],
+          [
+            "Officer",
+            "That ___ be true; he was on a live television broadcast at that hour."
+          ]
         ],
-        "options": ["can't", "mustn't", "doesn't"],
+        "options": [
+          "can't",
+          "mustn't",
+          "doesn't"
+        ],
         "answer": 0,
         "explanation": "'Can't' digunakan untuk menyatakan kepastian negatif/ketidakmungkinan logis (logical impossibility: pasti mustahil demikian).",
-        "hints": ["Menyatakan hal yang pasti mustahil benar.", "Gunakan 'can't be true'."],
+        "hints": [
+          "Menyatakan hal yang pasti mustahil benar.",
+          "Gunakan 'can't be true'."
+        ],
         "skill": "can-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "When she lived in Kyoto five years ago, she ___ read basic street signs quickly.",
+        "options": [
+          "can",
+          "could",
+          "can't"
+        ],
+        "answer": 1,
+        "explanation": "Kemampuan umum di masa lalu ('five years ago') dinyatakan dengan bentuk lampau 'could'.",
+        "hints": [
+          "Perhatikan keterangan waktu lampau 'five years ago'.",
+          "Lampau dari 'can' untuk kemampuan umum adalah 'could'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the strict prohibition: 'Visitors ___ bring food or drinks inside the archival reading room.'",
+        "options": [
+          "cannot",
+          "don't can",
+          "mustn't to"
+        ],
+        "answer": 0,
+        "explanation": "Dalam pengumuman aturan resmi, 'cannot' digunakan untuk menyatakan hal yang dilarang/tidak diizinkan.",
+        "hints": [
+          "Bermakna larangan resmi di ruang arsip.",
+          "Gunakan 'cannot' diikuti base verb."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan permohonan sopan dengan 'Could'.",
+        "dialogue": [
+          [
+            "Client",
+            "Excuse me, ___ you send me a duplicate receipt by email?"
+          ],
+          [
+            "Agent",
+            "Certainly, I'll dispatch it within five minutes."
+          ]
+        ],
+        "options": [
+          "can't",
+          "could",
+          "did"
+        ],
+        "answer": 1,
+        "explanation": "Dalam situasi layanan pelanggan atau profesional, 'Could you...?' terdengar lebih sopan dan halus daripada 'Can you...?'.",
+        "hints": [
+          "Dibutuhkan permintaan bantuan yang santun.",
+          "Pilih modal 'could'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Because the emergency ladder was accessible, everyone ___ escape safely before the smoke spread.",
+        "options": [
+          "could",
+          "was able to",
+          "can"
+        ],
+        "answer": 1,
+        "explanation": "Untuk keberhasilan satu aksi spesifik di masa lalu (berhasil menyelamatkan diri dalam satu peristiwa tertentu), gunakan 'was/were able to', bukan 'could'.",
+        "hints": [
+          "Satu peristiwa keberhasilan nyata di masa lalu.",
+          "Untuk 'berhasil melakukan pada kejadian tertentu', pakai 'was able to'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at that glowing receipt—she ___ be the buyer, because her name isn't on the invoice!",
+        "options": [
+          "can't",
+          "mustn't",
+          "couldn't to"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menyatakan keyakinan logis bahwa sesuatu MUSTAHIL benar saat ini ('pasti bukan...'), gunakan 'can't be' (bukan 'mustn't be').",
+        "hints": [
+          "Menyatakan ketidakmungkinan logis (deduksi negatif).",
+          "Deduksi mustahil sekarang memakai 'can't'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan 'can' dengan 'will' dalam kalimat masa depan berikut.",
+        "draft": "Once we upgrade the router, the office will can handle fifty simultaneous video calls.",
+        "options": [
+          "Once we upgrade the router, the office will be able to handle fifty simultaneous video calls.",
+          "Once we upgrade the router, the office will could handle fifty simultaneous video calls.",
+          "Once we upgrade the router, the office can will handle fifty simultaneous video calls."
+        ],
+        "answer": 0,
+        "explanation": "Dua modal ('will' dan 'can') tidak boleh diletakkan berurutan; gunakan frasa padanan 'will be able to'.",
+        "hints": [
+          "Modal 'will' tidak bisa diikuti 'can' secara langsung.",
+          "Ganti 'can' dengan 'be able to' setelah 'will'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you turn down the volume? I ___ hear the client on the phone.",
+        "options": [
+          "can't",
+          "couldn't",
+          "wasn't able"
+        ],
+        "answer": 0,
+        "explanation": "Situasi kesulitan mendengar yang sedang dialami sekarang memakai 'can't'.",
+        "hints": [
+          "Kejadiannya berlangsung sekarang.",
+          "Pilih 'can't'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even though the street was dark, our guide ___ locate the trailhead without GPS.",
+        "options": [
+          "was able to",
+          "could",
+          "can"
+        ],
+        "answer": 0,
+        "explanation": "Keberhasilan nyata pada satu momen lampau tertentu menggunakan 'was able to' (setara 'managed to').",
+        "hints": [
+          "Berhasil menuntaskan aksi sekali di masa lalu.",
+          "Pilih 'was able to'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat permohonan izin yang sangat sopan dengan 'Could I'.",
+        "targetSentence": "Could I borrow your charger until my laptop reaches fifty percent?",
+        "explanation": "'Could I + base verb' adalah ungkapan sopan meminta izin.",
+        "hints": [
+          "Awali dengan 'Could I borrow your charger'.",
+          "Lengkapi klausa batas waktu 'until...'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat larangan formal untuk tamu.",
+        "targetSentence": "Guests cannot enter restricted laboratory zones without protective gear.",
+        "explanation": "Modal 'cannot' menyatakan larangan tegas bagi tamu.",
+        "hints": [
+          "Mulai dengan 'Guests cannot enter'.",
+          "Akhiri dengan 'without protective gear'."
+        ],
+        "skill": "can-ability"
       }
     ],
     "complex": [
@@ -149,25 +565,42 @@
         ],
         "answer": 0,
         "explanation": "Dua modal verb tidak boleh berdampingan ('will can' adalah salah). Untuk menyatakan kemampuan di masa depan bersama modal lain, ganti 'can' dengan frasa ekuivalennya: 'will be able to'.",
-        "hints": ["Modal tidak boleh digabung 'will can'.", "Gunakan bentuk ekuivalen 'will be able to'."],
+        "hints": [
+          "Modal tidak boleh digabung 'will can'.",
+          "Gunakan bentuk ekuivalen 'will be able to'."
+        ],
         "skill": "can-vs-able-to"
       },
       {
         "type": "choice",
         "prompt": "He has been practicing intensely, so he ___ finish the marathon under four hours next week.",
-        "options": ["will be able to", "can to", "shall can"],
+        "options": [
+          "will be able to",
+          "can to",
+          "shall can"
+        ],
         "answer": 0,
         "explanation": "Kemampuan di masa depan dengan modal masa depan diungkapkan dengan 'will be able to'.",
-        "hints": ["Kemampuan masa depan.", "Gunakan 'will be able to'."],
+        "hints": [
+          "Kemampuan masa depan.",
+          "Gunakan 'will be able to'."
+        ],
         "skill": "can-vs-able-to"
       },
       {
         "type": "choice",
         "prompt": "Look at the receipt! You ___ paid 500 dollars for that simple lunch; there must be a calculation error.",
-        "options": ["can't have", "mustn't have", "shouldn't have"],
+        "options": [
+          "can't have",
+          "mustn't have",
+          "shouldn't have"
+        ],
         "answer": 0,
         "explanation": "Pola 'can't have + V3' (modal perfect) menyatakan deduksi ketidakmungkinan logis di masa lampau: mustahil kamu membayar sebanyak itu.",
-        "hints": ["Deduksi masa lampau yang mustahil terjadi.", "Rumusnya: can't have + V3."],
+        "hints": [
+          "Deduksi masa lampau yang mustahil terjadi.",
+          "Rumusnya: can't have + V3."
+        ],
         "skill": "can-modal-perfect"
       },
       {
@@ -175,7 +608,10 @@
         "prompt": "Susun kalimat deduksi logis masa lampau.",
         "targetSentence": "She can't have forgotten the appointment.",
         "explanation": "Subject (She) + can't have + past participle (forgotten) + the appointment.",
-        "hints": ["Mulai dengan subject 'She'.", "Gunakan deduksi negatif masa lampau 'can't have forgotten'."],
+        "hints": [
+          "Mulai dengan subject 'She'.",
+          "Gunakan deduksi negatif masa lampau 'can't have forgotten'."
+        ],
         "skill": "can-modal-perfect"
       },
       {
@@ -189,30 +625,215 @@
         ],
         "answer": 0,
         "explanation": "Idiom 'cannot help' bermakna 'tidak bisa tidak/tak kuasa menahan diri untuk tidak...' dan harus diikuti oleh Gerund (verb-ing): 'could not help admiring'. (Atau varian 'cannot help but admire').",
-        "hints": ["Idiom 'cannot help' diikuti oleh verb-ing.", "Contoh: I cannot help laughing/admiring."],
+        "hints": [
+          "Idiom 'cannot help' diikuti oleh verb-ing.",
+          "Contoh: I cannot help laughing/admiring."
+        ],
         "skill": "can-idiomatic"
       },
       {
         "type": "choice",
         "prompt": "The legal contract is so unambiguous that it ___ open to multiple interpretations.",
-        "options": ["cannot be", "might not be", "could be not"],
+        "options": [
+          "cannot be",
+          "might not be",
+          "could be not"
+        ],
         "answer": 0,
         "explanation": "'Cannot be' menegaskan kepastian logis bahwa hal tersebut tidak mungkin terbuka untuk tafsir ganda.",
-        "hints": ["Menyatakan ketidakmungkinan yang pasti.", "Gunakan 'cannot be'."],
+        "hints": [
+          "Menyatakan ketidakmungkinan yang pasti.",
+          "Gunakan 'cannot be'."
+        ],
         "skill": "can-deduction"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog analisis investigasi dengan bentuk modal past deduction.",
         "dialogue": [
-          ["Auditor", "Is it possible the accountant miscalculated the tax liabilities?"],
-          ["Senior Partner", "No, with our automated verification, he ___ made such a rudimentary blunder."]
+          [
+            "Auditor",
+            "Is it possible the accountant miscalculated the tax liabilities?"
+          ],
+          [
+            "Senior Partner",
+            "No, with our automated verification, he ___ made such a rudimentary blunder."
+          ]
         ],
-        "options": ["could not have", "cannot", "must not"],
+        "options": [
+          "could not have",
+          "cannot",
+          "must not"
+        ],
         "answer": 0,
         "explanation": "'Could not have + V3' (atau can't have + V3) digunakan untuk menyatakan kemustahilan suatu peristiwa di masa lampau.",
-        "hints": ["Menyatakan hal lampau yang mustahil terjadi.", "Gunakan 'could not have made'."],
+        "hints": [
+          "Menyatakan hal lampau yang mustahil terjadi.",
+          "Gunakan 'could not have made'."
+        ],
         "skill": "can-modal-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The warehouse lights are completely off and the gate is locked; the night crew ___ still be inside.",
+        "options": [
+          "can't",
+          "mustn't",
+          "won't"
+        ],
+        "answer": 0,
+        "explanation": "Untuk deduksi logis negatif saat ini ('mustahil masih berada di dalam'), gunakan 'can't' (bukan 'mustn't').",
+        "hints": [
+          "Kesimpulan logis dari bukti lampu mati dan gerbang terkunci.",
+          "Gunakan 'can't' untuk ketidakmungkinan."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "I checked the pantry three times! You ___ have finished an entire jar of coffee in one morning!",
+        "options": [
+          "couldn't",
+          "can't to",
+          "didn't could"
+        ],
+        "answer": 0,
+        "explanation": "Untuk mengekspresikan rasa tak percaya atau ketidakmungkinan atas peristiwa masa lalu, gunakan 'couldn't have + V3' (atau 'can't have + V3').",
+        "hints": [
+          "Peristiwa sudah terjadi tadi pagi (lampau).",
+          "Pola deduksi masa lalu memakai 'couldn't have + V3'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk setelah 'has been able to' pada kalimat Present Perfect berikut.",
+        "draft": "After six months of coaching, Nadia has been can lead complex negotiations independently.",
+        "options": [
+          "After six months of coaching, Nadia has been able to lead complex negotiations independently.",
+          "After six months of coaching, Nadia has could lead complex negotiations independently.",
+          "After six months of coaching, Nadia is able lead complex negotiations independently."
+        ],
+        "answer": 0,
+        "explanation": "'Can' tidak memiliki bentuk Present Perfect ('has could' salah); gunakan 'has been able to + base verb'.",
+        "hints": [
+          "Modal 'can' tidak punya bentuk past participle.",
+          "Gunakan 'has been able to'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog analisis kasus hukum menggunakan idiom 'cannot help + V-ing'.",
+        "dialogue": [
+          [
+            "Lawyer",
+            "Why did the witness pause so long during cross-examination?"
+          ],
+          [
+            "Colleague",
+            "Notice the inconsistencies in the timeline—anyone reviewing those dates ___ noticing the gap."
+          ]
+        ],
+        "options": [
+          "cannot help",
+          "cannot help to",
+          "cannot but"
+        ],
+        "answer": 0,
+        "explanation": "Idiom 'cannot help + V-ing' berarti 'tidak bisa menahan diri untuk tidak...' atau 'pasti merasakan/melihat'.",
+        "hints": [
+          "Setelah 'cannot help', gunakan verb-ing ('noticing').",
+          "Bandingkan dengan 'cannot but + bare infinitive'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Because the audit policy is crystal clear, the contract clause ___ possibly be misinterpreted.",
+        "options": [
+          "cannot",
+          "must not to",
+          "mightn't to"
+        ],
+        "answer": 0,
+        "explanation": "Penguat 'cannot possibly + bare infinitive' mengekspresikan ketidakmungkinan mutlak dengan gaya formal yang tegas.",
+        "hints": [
+          "Lihat penekanan 'possibly' untuk menyangkal kemungkinan.",
+          "Pola 'cannot possibly be + V3'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Without regular maintenance, even industrial servers ___ fail unexpectedly—note the general tendency expressed here.",
+        "options": [
+          "can",
+          "must",
+          "need"
+        ],
+        "answer": 0,
+        "explanation": "'Can' juga berfungsi menyatakan kemungkinan teoritis atau kecenderungan umum ('bisa saja terjadi sewaktu-waktu').",
+        "hints": [
+          "Menyatakan potensi atau risiko umum.",
+          "Gunakan 'can'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk kalimat dengan 'could' untuk peluang hipotesis masa lalu yang gagal terjadi.",
+        "draft": "With an extra week of preparation, the team could easily win last month's pitch competition.",
+        "options": [
+          "With an extra week of preparation, the team could easily have won last month's pitch competition.",
+          "With an extra week of preparation, the team could easily won last month's pitch competition.",
+          "With an extra week of preparation, the team can easily have won last month's pitch competition."
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan lampau yang tidak terjadi ('seharusnya bisa menang bulan lalu') wajib memakai 'could have + V3': 'could easily have won'.",
+        "hints": [
+          "Perhatikan konteks 'last month' dan syarat tak terpenuhi.",
+          "Gunakan 'could + (adverb) + have + V3'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the formal equivalent of 'we couldn't avoid admiring the craftsmanship':",
+        "options": [
+          "We could not but admire the craftsmanship.",
+          "We could not but admiring the craftsmanship.",
+          "We could not help admire the craftsmanship."
+        ],
+        "answer": 0,
+        "explanation": "Idiom sastra/formal 'cannot/could not but + bare infinitive' setara artinya dengan 'cannot/could not help + V-ing'.",
+        "hints": [
+          "Setelah 'could not but', pakai kata kerja bentuk dasar.",
+          "Jangan tambahkan '-ing' setelah 'but'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi mustahil masa lampau dengan 'can't have'.",
+        "targetSentence": "They can't have missed the morning ferry by accident.",
+        "explanation": "'Can't have + V3' menyatakan kesimpulan kuat bahwa sesuatu mustahil terjadi secara kebetulan.",
+        "hints": [
+          "Awali dengan 'They can't have missed'.",
+          "Akhiri dengan 'the morning ferry by accident'."
+        ],
+        "skill": "can-ability"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kemampuan hipotesis yang tidak sempat diambil.",
+        "targetSentence": "He could have accepted the fellowship, yet he chose industry.",
+        "explanation": "'Could have accepted' menunjukkan peluang nyata di masa lalu yang tidak diambil.",
+        "hints": [
+          "Mulai dengan 'He could have accepted the fellowship,'.",
+          "Tambahkan 'yet he chose industry'."
+        ],
+        "skill": "can-ability"
       }
     ]
   }

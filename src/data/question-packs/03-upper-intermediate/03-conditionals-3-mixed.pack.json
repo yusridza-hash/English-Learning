@@ -99,6 +99,167 @@
           "Kondisi: 'if they had practiced more'."
         ],
         "skill": "third-conditional-modal"
+      },
+      {
+        "type": "choice",
+        "prompt": "If we had checked the tire pressure earlier, we wouldn't ___ missed the morning ferry.",
+        "options": [
+          "have",
+          "had",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Third Conditional selalu mengikuti pola: 'If + had + V3, S + would/wouldn't + have + V3'.",
+        "hints": [
+          "Setelah modal 'wouldn't' pada Tipe 3, gunakan 'have'.",
+          "Jangan memakai 'had' setelah 'wouldn't'."
+        ],
+        "skill": "third-conditional-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "If Maya ___ accepted the Kyoto fellowship in 2021, she would have gained two years of lab experience.",
+        "options": [
+          "had",
+          "has",
+          "would have"
+        ],
+        "answer": 0,
+        "explanation": "If-clause pada Third Conditional wajib menggunakan Past Perfect ('had + V3'), bukan 'would have'.",
+        "hints": [
+          "Kejadiannya di masa lalu ('in 2021').",
+          "If-clause Tipe 3 memakai 'had + V3'."
+        ],
+        "skill": "third-conditional-if-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "What would you have ___ if the client had rejected the revised schedule yesterday?",
+        "options": [
+          "done",
+          "did",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan hasil Third Conditional ('What would + S + have + V3...?') memerlukan V3: 'done'.",
+        "hints": [
+          "Sudah ada 'would you have' sebelum rumpang.",
+          "Setelah 'have' pada Tipe 3 wajib memakai V3 ('done')."
+        ],
+        "skill": "third-conditional-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "If the backup batteries hadn't failed, the monitoring cameras would have ___ recording.",
+        "options": [
+          "kept",
+          "keep",
+          "keeping"
+        ],
+        "answer": 0,
+        "explanation": "Klausa hasil Third Conditional membutuhkan V3 setelah 'would have': V3 dari 'keep' adalah 'kept'.",
+        "hints": [
+          "Pola: 'would have + V3'.",
+          "Keep - kept - kept."
+        ],
+        "skill": "third-conditional-result"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penyesalan masa lampau dengan Third Conditional.",
+        "dialogue": [
+          [
+            "Manager",
+            "Why did the courier return the package to the warehouse?"
+          ],
+          [
+            "Clerk",
+            "If someone ___ our phone number on the label, he could have called us."
+          ]
+        ],
+        "options": [
+          "had written",
+          "wrote tomorrow",
+          "would write"
+        ],
+        "answer": 0,
+        "explanation": "Pengandaian masa lalu yang tidak terjadi ('seandainya seseorang tadi menulis nomor telepon...') memakai Past Perfect ('had written') di dalam if-clause.",
+        "hints": [
+          "Hasilnya memakai 'could have called' (Tipe 3).",
+          "If-clause Tipe 3 memakai 'had + V3'."
+        ],
+        "skill": "third-conditional-if-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ have avoided the traffic bottleneck if we had taken the coastal highway.",
+        "options": [
+          "could",
+          "can",
+          "will"
+        ],
+        "answer": 0,
+        "explanation": "Klausa hasil Third Conditional memakai modal lampau ('would', 'could', atau 'might') + 'have + V3'.",
+        "hints": [
+          "If-clause memakai 'had taken' (lampau).",
+          "Gunakan modal lampau 'could' di klausa hasil."
+        ],
+        "skill": "third-conditional-modal"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda meletakkan 'would have' di dalam if-clause Tipe 3 berikut.",
+        "draft": "If Riko would have double-checked the customs form, our crate wouldn't have been delayed.",
+        "options": [
+          "If Riko had double-checked the customs form, our crate wouldn't have been delayed.",
+          "If Riko has double-checked the customs form, our crate wouldn't have been delayed.",
+          "If Riko double-check the customs form, our crate wouldn't have been delayed."
+        ],
+        "answer": 0,
+        "explanation": "Jangan pernah meletakkan 'would have' di dalam if-clause; gunakan Past Perfect 'had double-checked'.",
+        "hints": [
+          "Klausa 'If' pada Tipe 3 hanya memakai Past Perfect ('had + V3').",
+          "Hapus 'would' dan gunakan 'had double-checked'."
+        ],
+        "skill": "third-conditional-if-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "If she hadn't reminded me about the deadline, I ___ have forgotten to upload the PDF.",
+        "options": [
+          "might",
+          "may",
+          "shall"
+        ],
+        "answer": 0,
+        "explanation": "Kemungkinan hasil masa lalu pada Third Conditional memakai modal bentuk lampau 'might' ('might have forgotten').",
+        "hints": [
+          "If-clause memakai Past Perfect 'hadn't reminded'.",
+          "Pasangkan dengan modal lampau 'might' (bukan 'may')."
+        ],
+        "skill": "third-conditional-modal"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Third Conditional positif yang tepat.",
+        "targetSentence": "If the technician had arrived earlier, we would have fixed the valve in time.",
+        "explanation": "If + had + V3 ('had arrived') diikuti koma dan klausa hasil 'would have + V3'.",
+        "hints": [
+          "Awali dengan 'If the technician had arrived earlier,'.",
+          "Lengkapi klausa hasil 'we would have fixed...'."
+        ],
+        "skill": "third-conditional-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Third Conditional negatif di kedua klausanya.",
+        "targetSentence": "If they hadn't cut corners on testing, the app wouldn't have crashed.",
+        "explanation": "Kedua klausa berbentuk negatif: 'hadn't cut' dan 'wouldn't have crashed'.",
+        "hints": [
+          "Mulai dengan 'If they hadn't cut corners on testing,'.",
+          "Akhiri dengan 'the app wouldn't have crashed'."
+        ],
+        "skill": "third-conditional-result"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'would be graduating'."
         ],
         "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "Mixed Conditional (Past cause → Present result): 'If I had taken that intensive Python course last year, I ___ much more confident at work today.'",
+        "options": [
+          "would feel",
+          "would have felt",
+          "will feel"
+        ],
+        "answer": 0,
+        "explanation": "Sebab terjadi di masa lalu ('had taken ... last year'), tetapi hasilnya dirasakan SEKARANG ('today'): klausa hasil memakai Tipe 2 'would + V1 (would feel)', BUKAN 'would have felt'.",
+        "hints": [
+          "Perhatikan penanda waktu 'today' di ujung kalimat!",
+          "Hasil yang berlaku saat ini memakai 'would + V1'."
+        ],
+        "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "Now contrast (Present trait → Past action): 'If Elena weren't so afraid of heights, she ___ joined us on the suspension bridge hike last Sunday.'",
+        "options": [
+          "would have",
+          "would",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Kondisi tetap di masa kini ('weren't so afraid' = Tipe 2) memengaruhi kejadian di masa lalu ('last Sunday' = Tipe 3 'would have joined').",
+        "hints": [
+          "If-clause Tipe 2 ('weren't') tentang sifat permanen, hasil lampau ('last Sunday').",
+          "Hasil lampau memakai 'would have + V3'."
+        ],
+        "skill": "mixed-conditional-present-to-past"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang keputusan masa lalu yang berdampak hingga sekarang.",
+        "dialogue": [
+          [
+            "Colleague",
+            "Why are we still paying high cloud storage fees this month?"
+          ],
+          [
+            "Lead",
+            "If we ___ the old database last quarter, we wouldn't face this bill now."
+          ]
+        ],
+        "options": [
+          "had archived",
+          "archived tomorrow",
+          "would archive"
+        ],
+        "answer": 0,
+        "explanation": "Sebab di masa lalu ('last quarter') memakai Past Perfect Tipe 3 ('had archived'), sementara dampaknya hari ini memakai 'wouldn't face ... now'.",
+        "hints": [
+          "Penyebabnya terjadi di masa lalu ('last quarter').",
+          "If-clause sebab masa lalu memakai 'had + V3'."
+        ],
+        "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had it not been for the night guard's quick reaction, the archive room ___ caught fire.",
+        "options": [
+          "would have",
+          "would",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Frasa inversi Third Conditional 'Had it not been for...' bermakna 'Andaikan bukan karena [kejadian lampau]', selalu diikuti hasil lampau 'would have + V3'.",
+        "hints": [
+          "Perhatikan V3 'caught' di akhir kalimat.",
+          "Lengkapi hasil Tipe 3 dengan 'would have'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "If our regional manager spoke Mandarin, he ___ conducted Tuesday's briefing without an interpreter.",
+        "options": [
+          "could have",
+          "could",
+          "will have"
+        ],
+        "answer": 0,
+        "explanation": "Sifat/kemampuan saat ini yang tidak dimiliki ('spoke' = Tipe 2) menghasilkan akibat tidak terjadi pada acara Selasa lalu ('Tuesday's briefing' = Tipe 3 'could have conducted').",
+        "hints": [
+          "Kemampuan bahasa bersifat umum/sekarang, sementara rapatnya Selasa lalu.",
+          "Gabungkan if-clause Tipe 2 dengan hasil Tipe 3 ('could have conducted')."
+        ],
+        "skill": "mixed-conditional-present-to-past"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyamakan kedua sisi Mixed Conditional berikut.",
+        "draft": "If we hadn't missed the morning shuttle, we wouldn't have been sitting in this noisy terminal right now.",
+        "options": [
+          "If we hadn't missed the morning shuttle, we wouldn't be sitting in this noisy terminal right now.",
+          "If we didn't miss the morning shuttle, we wouldn't have been sitting in this noisy terminal right now.",
+          "If we wouldn't have missed the morning shuttle, we wouldn't be sitting in this noisy terminal right now."
+        ],
+        "answer": 0,
+        "explanation": "Kata 'right now' menunjukkan hasil yang sedang terjadi saat ini (Continuous Tipe 2: 'wouldn't be sitting'), sedangkan sebabnya sudah terjadi pagi tadi ('hadn't missed').",
+        "hints": [
+          "Cek kata penanda waktu 'right now' di akhir kalimat.",
+          "Hasil sekarang memakai 'wouldn't be sitting'."
+        ],
+        "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we received the customs clearance on Friday, the spare turbines would already be operating.",
+        "options": [
+          "Had",
+          "If had",
+          "Were"
+        ],
+        "answer": 0,
+        "explanation": "Inversi if-clause Tipe 3 menghapus 'If' dan menukar 'Had' ke depan subjek ('Had we received...').",
+        "hints": [
+          "Tidak ada kata 'If' di awal kalimat.",
+          "Inversi Tipe 3 memakai 'Had + Subject + V3'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Without your generous seed grant two years ago, this rural clinic ___ even exist today.",
+        "options": [
+          "wouldn't",
+          "wouldn't have",
+          "won't"
+        ],
+        "answer": 0,
+        "explanation": "'Without + noun phrase (two years ago)' bertindak sebagai sebab masa lalu, dan hasil masa kini ('exist today') memakai Tipe 2 'wouldn't + V1 (wouldn't exist)'.",
+        "hints": [
+          "Perhatikan V1 'exist' dan waktu 'today'.",
+          "Hasil saat ini memakai 'wouldn't'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Mixed Conditional (sebab masa lalu → akibat saat ini).",
+        "targetSentence": "If she had accepted that promotion in 2020, she would live in Zurich now.",
+        "explanation": "'Had accepted' (Tipe 3 masa lalu) menghasilkan situasi sekarang 'would live ... now' (Tipe 2).",
+        "hints": [
+          "Awali dengan 'If she had accepted that promotion in 2020,'.",
+          "Akhiri dengan 'she would live in Zurich now'."
+        ],
+        "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi Third Conditional tanpa kata 'If'.",
+        "targetSentence": "Had the committee verified those figures sooner, the error would have surfaced early.",
+        "explanation": "'Had + S + V3' menggantikan 'If the committee had verified...'.",
+        "hints": [
+          "Mulai dengan 'Had the committee verified those figures sooner,'.",
+          "Lanjutkan klausa hasil 'the error would have surfaced early'."
+        ],
+        "skill": "conditional-inversion"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'Had not'."
         ],
         "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look closely at this complex counterfactual: 'But for our mentor's intervention last month, the negotiation ___ collapsed completely.'",
+        "options": [
+          "would have",
+          "would",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "'But for + noun phrase' bermakna 'Andaikan bukan karena [intervensi bulan lalu]', sehingga klausa hasil masa lampaunya memakai Third Conditional ('would have collapsed').",
+        "hints": [
+          "Ada kata 'last month' dan V3 'collapsed'.",
+          "Hasil pengandaian masa lampau memakai 'would have'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare: 'If you ___ listened to my warning, you wouldn't be dealing with this audit crisis now — AND if you weren't so stubborn, you ___ ignored the email yesterday.'",
+        "options": [
+          "had / wouldn't have",
+          "would have / had",
+          "had / wouldn't"
+        ],
+        "answer": 0,
+        "explanation": "Klausa pertama adalah Past→Present ('had listened ... wouldn't be dealing now'); klausa kedua adalah Present→Past ('weren't so stubborn ... wouldn't have ignored yesterday').",
+        "hints": [
+          "Periksa pola masing-masing klausa secara terpisah.",
+          "Klausa 1 butuh 'had'; klausa 2 butuh hasil lampau 'wouldn't have'."
+        ],
+        "skill": "mixed-conditional-present-to-past"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan inversi negatif Third Conditional ('Hadn't...') berikut.",
+        "draft": "Hadn't the harbor pilots spotted the drifting barge, it would have struck the pier.",
+        "options": [
+          "Had the harbor pilots not spotted the drifting barge, it would have struck the pier.",
+          "Hadn't if the harbor pilots spotted the drifting barge, it would have struck the pier.",
+          "Did the harbor pilots not spotted the drifting barge, it would have struck the pier."
+        ],
+        "answer": 0,
+        "explanation": "ATURAN KETAT INVERSI: Dalam inversi formal ('Had + Subject + not + V3'), bentuk singkatan negatif 'Hadn't' TIDAK PERNAH boleh diletakkan di awal kalimat sebelum subjek! Selalu pisahkan 'not' setelah subjek: 'Had the harbor pilots not spotted...'.",
+        "hints": [
+          "Dalam inversi kondisional negatif, dilarang memakai singkatan 'Hadn't' di posisi depan.",
+          "Pindahkan 'not' ke posisi sesudah subjek: 'Had + S + not + V3'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang variasi 'might have been' dalam Mixed Conditional.",
+        "dialogue": [
+          [
+            "Advisor",
+            "Why didn't the field team finish mapping the glacier in June?"
+          ],
+          [
+            "Student",
+            "If their budget weren't so limited this year, they ___ able to charter two helicopters back in June."
+          ]
+        ],
+        "options": [
+          "might have been",
+          "might be yesterday",
+          "would had been"
+        ],
+        "answer": 0,
+        "explanation": "Keterbatasan dana saat ini ('weren't so limited' = Tipe 2) menjelaskan ketidakmampuan di bulan Juni lalu ('might have been able to... back in June' = hasil modal Tipe 3).",
+        "hints": [
+          "Hasilnya terjadi di bulan Juni lalu ('back in June').",
+          "Gunakan 'might have been'."
+        ],
+        "skill": "mixed-conditional-present-to-past"
+      },
+      {
+        "type": "choice",
+        "prompt": "Suppose the treaty ___ ratified in 1995 instead of failing by two votes; coastal fisheries ___ far healthier today.",
+        "options": [
+          "had been / would be",
+          "were / would have been",
+          "has been / will be"
+        ],
+        "answer": 0,
+        "explanation": "'Suppose' menggantikan 'If'; kejadian tahun 1995 yang tidak terjadi memakai Pasif Past Perfect ('had been ratified'), dan kondisi perikanan hari ini memakai Tipe 2 ('would be').",
+        "hints": [
+          "Klausa 1 merujuk tahun 1995 (pasif Tipe 3); klausa 2 merujuk kondisi hari ini (Tipe 2).",
+          "Pilih 'had been / would be'."
+        ],
+        "skill": "mixed-conditional-past-to-present"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even if the backup cooling pump ___ activated automatically, the core would still have overheated without external grid power.",
+        "options": [
+          "had been",
+          "has been",
+          "was being"
+        ],
+        "answer": 0,
+        "explanation": "Dalam Third Conditional pasif ('would still have overheated'), if-clause 'Even if...' memerlukan Past Perfect Passive: 'had been + V3 (activated)'.",
+        "hints": [
+          "Klausa hasil memakai 'would still have overheated'.",
+          "Pasif Past Perfect memakai 'had been activated'."
+        ],
+        "skill": "third-conditional-if-clause"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan pengandaian ganda dengan 'otherwise' dan 'would' pada kalimat argumen formal berikut.",
+        "draft": "Our engineers fortified the sea wall last winter; otherwise, the spring tide will flood the entire substation.",
+        "options": [
+          "Our engineers fortified the sea wall last winter; otherwise, the spring tide would have flooded the entire substation.",
+          "Our engineers fortified the sea wall last winter; otherwise, the spring tide flooded the entire substation.",
+          "Our engineers had fortified the sea wall last winter; otherwise, the spring tide would flood the entire substation tomorrow."
+        ],
+        "answer": 0,
+        "explanation": "Ketika 'otherwise' (= jika tidak begitu) memproyeksikan akibat pengandaian di masa lalu ('last winter / spring tide' yang sudah berlalu), klausa sesudah 'otherwise' memakai hasil Third Conditional ('would have flooded').",
+        "hints": [
+          "Akibat pengandaiannya bersifat lampau kontrafaktual.",
+          "Setelah 'otherwise' pada konteks lampau, pakai 'would have + V3'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had I not ___ that tiny footnote in Appendix C, we would still be applying the obsolete tax rate today.",
+        "options": [
+          "spotted",
+          "spot",
+          "been spot"
+        ],
+        "answer": 0,
+        "explanation": "Inversi negatif Tipe 3 ('Had + S + not + V3') membutuhkan Past Participle 'spotted', berpasangan dengan hasil berkelanjutan masa kini ('would still be applying ... today').",
+        "hints": [
+          "Setelah 'Had I not', verb harus berbentuk V3 ('spotted').",
+          "Ini contoh inversi Mixed Conditional."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi negatif Third Conditional (tanpa singkatan 'Hadn't').",
+        "targetSentence": "Had the crew not double-checked the fuel gauge, the vessel would have stalled offshore.",
+        "explanation": "Inversi negatif formal wajib memisahkan 'not' setelah subjek: 'Had the crew not double-checked...'.",
+        "hints": [
+          "Awali dengan 'Had the crew not double-checked'.",
+          "Lengkapi klausa hasil 'the vessel would have stalled offshore'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengandaian campuran (sifat permanen sekarang → aksi lampau).",
+        "targetSentence": "If Maya didn't speak Korean fluently, she couldn't have led yesterday's Seoul briefing.",
+        "explanation": "'Didn't speak' (kondisi umum sekarang, Tipe 2) memengaruhi kemampuan pada 'yesterday's Seoul briefing' ('couldn't have led', Tipe 3).",
+        "hints": [
+          "Mulai dengan 'If Maya didn't speak Korean fluently,'.",
+          "Akhiri dengan 'she couldn't have led yesterday's Seoul briefing'."
+        ],
+        "skill": "mixed-conditional-present-to-past"
       }
     ]
   }

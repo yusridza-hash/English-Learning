@@ -7,7 +7,11 @@
       {
         "type": "choice",
         "prompt": "Our finance department ___ all reimbursement requests on Fridays.",
-        "options": ["process", "processes", "processing"],
+        "options": [
+          "process",
+          "processes",
+          "processing"
+        ],
         "answer": 1,
         "explanation": "Department adalah noun tunggal (setara dengan 'it') dan berakhiran -ss, sehingga ditambah -es menjadi 'processes'.",
         "hints": [
@@ -26,6 +30,257 @@
           "Letakkan verb 'leaves' sebelum keterangan waktu."
         ],
         "skill": "schedules"
+      },
+      {
+        "type": "choice",
+        "prompt": "My colleague ___ a short status update every afternoon at four.",
+        "options": [
+          "send",
+          "sends",
+          "sending"
+        ],
+        "answer": 1,
+        "explanation": "'My colleague' adalah orang ketiga tunggal (he/she), sehingga verb 'send' ditambah -s menjadi 'sends'.",
+        "hints": [
+          "Subjeknya satu orang ('My colleague').",
+          "Present Simple subjek tunggal memakai akhiran -s."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "The museum ___ free admission to students on Tuesdays.",
+        "options": [
+          "offer",
+          "offers",
+          "offering"
+        ],
+        "answer": 1,
+        "explanation": "'The museum' adalah benda tunggal ('it'), jadi gunakan 'offers'.",
+        "hints": [
+          "Museum berjumlah satu.",
+          "Tambahkan -s pada verb 'offer'."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our delivery drivers ___ all routes before seven in the morning.",
+        "options": [
+          "check",
+          "checks",
+          "is check"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'Our delivery drivers' menggunakan kata kerja bentuk dasar 'check'.",
+        "hints": [
+          "Lihat akhiran jamak pada 'drivers'.",
+          "Subjek jamak tidak memakai akhiran -s pada verb."
+        ],
+        "skill": "base-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Water ___ at 0 degrees Celsius under normal atmospheric pressure.",
+        "options": [
+          "freeze",
+          "freezes",
+          "freezing"
+        ],
+        "answer": 1,
+        "explanation": "Fakta ilmiah selalu memakai Present Simple; subjek tak terhitung 'Water' setara 'it', sehingga memakai 'freezes'.",
+        "hints": [
+          "Fakta umum memakai Present Simple.",
+          "Subjek 'Water' diperlakukan sebagai tunggal."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "He always ___ his luggage carefully before an international flight.",
+        "options": [
+          "pack",
+          "packs",
+          "packes"
+        ],
+        "answer": 1,
+        "explanation": "Verb berakhiran -k cukup ditambah -s untuk subjek 'He': 'packs'.",
+        "hints": [
+          "Lihat subjek 'He'.",
+          "Akhiran huruf -k hanya butuh -s."
+        ],
+        "skill": "verb-spelling"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rina ___ her emails and ___ client calls every morning.",
+        "options": [
+          "read / answer",
+          "reads / answers",
+          "reading / answering"
+        ],
+        "answer": 1,
+        "explanation": "Kedua verb berbagi subjek orang ketiga tunggal 'Rina', sehingga keduanya mendapat akhiran -s: 'reads / answers'.",
+        "hints": [
+          "Subjeknya 'Rina' (she).",
+          "Pastikan kedua verb sejajar mendapat -s."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "That courier service ___ packages across thirty provinces.",
+        "options": [
+          "carry",
+          "carries",
+          "carrys"
+        ],
+        "answer": 1,
+        "explanation": "Verb 'carry' berakhiran konsonan r + y, sehingga untuk subjek tunggal berubah menjadi 'carries'.",
+        "hints": [
+          "Perhatikan huruf sebelum 'y' pada 'carry'.",
+          "Konsonan + y berubah menjadi -ies."
+        ],
+        "skill": "verb-spelling"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our main branch ___ a dedicated customer service lounge on the ground floor.",
+        "options": [
+          "have",
+          "has",
+          "having"
+        ],
+        "answer": 1,
+        "explanation": "Untuk subjek tunggal ('Our main branch'), kata kerja tidak beraturan 'have' berubah menjadi 'has'.",
+        "hints": [
+          "'Have' memiliki bentuk khusus untuk he/she/it.",
+          "Gunakan 'has'."
+        ],
+        "skill": "irregular-have"
+      },
+      {
+        "type": "choice",
+        "prompt": "The workshop presenter ___ clearly so every participant follows easily.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking"
+        ],
+        "answer": 1,
+        "explanation": "Subjek tunggal 'The workshop presenter' memakai verb + -s: 'speaks'.",
+        "hints": [
+          "Hanya ada satu presenter.",
+          "Tambahkan -s pada verb."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "My grandparents ___ fresh vegetables in their garden every weekend.",
+        "options": [
+          "grow",
+          "grows",
+          "growing"
+        ],
+        "answer": 0,
+        "explanation": "'My grandparents' adalah subjek jamak (they), sehingga verb tetap bentuk dasar 'grow'.",
+        "hints": [
+          "'Grandparents' jamak (kakek dan nenek).",
+          "Subjek jamak memakai verb dasar."
+        ],
+        "skill": "base-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang rutinitas akhir pekan.",
+        "dialogue": [
+          [
+            "Lina",
+            "What does your brother usually do on Saturdays?"
+          ],
+          [
+            "Arman",
+            "He ___ football with his college friends."
+          ]
+        ],
+        "options": [
+          "play",
+          "plays",
+          "playing"
+        ],
+        "answer": 1,
+        "explanation": "Kata 'play' berakhiran vokal a + y, sehingga untuk 'He' cukup ditambah -s menjadi 'plays'.",
+        "hints": [
+          "Lihat huruf vokal 'a' sebelum 'y'.",
+          "Vokal + y hanya ditambah -s, bukan -ies."
+        ],
+        "skill": "verb-spelling"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog singkat tentang kebiasaan sarapan.",
+        "dialogue": [
+          [
+            "Host",
+            "Do you and your sister drink tea in the morning?"
+          ],
+          [
+            "Guest",
+            "No, we usually ___ black coffee instead."
+          ]
+        ],
+        "options": [
+          "drinks",
+          "drink",
+          "are drink"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'we' menggunakan kata kerja bentuk dasar 'drink'.",
+        "hints": [
+          "Perhatikan subjek jamak 'we'.",
+          "Jangan tambahkan -s setelah 'we'."
+        ],
+        "skill": "base-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan akhiran verb pada kalimat rutinitas berikut.",
+        "draft": "The local bakery bake fresh sourdough bread every morning at six.",
+        "options": [
+          "The local bakery bakes fresh sourdough bread every morning at six.",
+          "The local bakery is bake fresh sourdough bread every morning at six.",
+          "The local bakery baking fresh sourdough bread every morning at six."
+        ],
+        "answer": 0,
+        "explanation": "'The local bakery' adalah subjek tunggal (it), sehingga verb 'bake' wajib ditambah -s menjadi 'bakes'.",
+        "hints": [
+          "Periksa subjek tunggal 'The local bakery'.",
+          "Tambahkan -s pada verb Present Simple."
+        ],
+        "skill": "agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat fakta sederhana tentang jam buka kantor.",
+        "targetSentence": "The reception desk opens at eight every weekday.",
+        "explanation": "Jadwal tetap menggunakan Present Simple; 'The reception desk' tunggal memakai 'opens'.",
+        "hints": [
+          "Awali dengan 'The reception desk'.",
+          "Pasangkan verb 'opens' sebelum keterangan waktu."
+        ],
+        "skill": "schedules"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kebiasaan yang menggunakan subjek jamak.",
+        "targetSentence": "They review safety procedures every Monday morning.",
+        "explanation": "Subjek jamak 'They' memakai verb dasar 'review'.",
+        "hints": [
+          "Mulai dengan 'They review'.",
+          "Akhiri dengan keterangan waktu 'every Monday morning'."
+        ],
+        "skill": "base-form"
       }
     ],
     "intermediate": [
@@ -33,10 +288,20 @@
         "type": "dialogue",
         "prompt": "Lengkapi pertanyaan dalam dialog wawancara kerja ini.",
         "dialogue": [
-          ["HR", "___ your current team use project management software?"],
-          ["Candidate", "Yes, we use it every day to track tasks."]
+          [
+            "HR",
+            "___ your current team use project management software?"
+          ],
+          [
+            "Candidate",
+            "Yes, we use it every day to track tasks."
+          ]
         ],
-        "options": ["Do", "Does", "Is"],
+        "options": [
+          "Do",
+          "Does",
+          "Is"
+        ],
         "answer": 1,
         "explanation": "'Your current team' adalah subject tunggal, sehingga pertanyaan Present Simple memakai auxiliary 'Does'.",
         "hints": [
@@ -44,6 +309,274 @@
           "Pertanyaan dengan verb dasar 'use' untuk subject tunggal memakai 'Does'."
         ],
         "skill": "question-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "My supervisor ___ work on public holidays unless there is an emergency.",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "Main verb aksi 'work' untuk subjek tunggal 'My supervisor' membutuhkan auxiliary negatif 'doesn't'.",
+        "hints": [
+          "Apakah ada main verb aksi ('work') setelahnya?",
+          "Subjek tunggal memakai 'doesn't', bukan 'don't'."
+        ],
+        "skill": "negative-does"
+      },
+      {
+        "type": "choice",
+        "prompt": "Does the shuttle bus ___ directly in front of Terminal 2?",
+        "options": [
+          "stops",
+          "stop",
+          "stopped"
+        ],
+        "answer": 1,
+        "explanation": "Karena auxiliary 'Does' sudah menandai orang ketiga tunggal, main verb harus kembali ke bentuk dasar murni: 'stop'.",
+        "hints": [
+          "Lihat auxiliary 'Does' di awal kalimat.",
+          "Setelah 'Does', verb tidak memakai -s."
+        ],
+        "skill": "verb-after-does"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where ___ your parents spend their winter holidays every year?",
+        "options": [
+          "do",
+          "does",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "'Your parents' berbentuk jamak (they), sehingga pertanyaan dengan main verb 'spend' memakai auxiliary 'do'.",
+        "hints": [
+          "Cek subjek 'your parents' (jamak).",
+          "Main verb 'spend' memakai 'do'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "She ___ usually check social media during working hours.",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "Untuk subjek 'She' dengan main verb 'check', gunakan auxiliary negatif 'doesn't' sebelum adverb 'usually'.",
+        "hints": [
+          "Subjeknya orang ketiga tunggal 'She'.",
+          "Negatif dengan verb aksi memakai 'doesn't'."
+        ],
+        "skill": "negative-does"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ your new tablet support a Bluetooth stylus?",
+        "options": [
+          "Do",
+          "Does",
+          "Is"
+        ],
+        "answer": 1,
+        "explanation": "'Your new tablet' adalah benda tunggal ('it') dan main verb-nya 'support', maka pertanyaan diawali 'Does'.",
+        "hints": [
+          "Tablet berjumlah satu.",
+          "Main verb 'support' membutuhkan 'Does'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch office ___ offer walk-in consultations on weekends.",
+        "options": [
+          "don't",
+          "doesn't",
+          "aren't"
+        ],
+        "answer": 1,
+        "explanation": "Subjek tunggal 'Our branch office' memakai 'doesn't' + bentuk dasar 'offer'.",
+        "hints": [
+          "'Branch office' adalah subjek tunggal.",
+          "Jangan pakai 'don't' untuk subjek tunggal."
+        ],
+        "skill": "negative-does"
+      },
+      {
+        "type": "choice",
+        "prompt": "How frequently ___ the IT team run automated backups?",
+        "options": [
+          "do",
+          "does",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Dalam frasa 'the IT team' sebagai satu unit tunggal, pertanyaan memakai 'does' + base verb 'run'.",
+        "hints": [
+          "'The IT team' diperlakukan sebagai satu kesatuan tunggal.",
+          "Pilih auxiliary 'does'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do all passengers need to show their boarding passes? — Yes, they ___.",
+        "options": [
+          "do",
+          "does",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Jawaban singkat harus cocok dengan auxiliary pertanyaan ('Do' + 'they') menjadi 'Yes, they do.'",
+        "hints": [
+          "Sesuaikan jawaban singkat dengan subjek 'they' dan kata tanya 'Do'.",
+          "Jangan ganti dengan 'are'."
+        ],
+        "skill": "short-answer"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih posisi frequency adverb 'often' yang paling tepat.",
+        "options": [
+          "He often arrives ten minutes early.",
+          "He arrives often ten minutes early.",
+          "Often he arrives is ten minutes early."
+        ],
+        "answer": 0,
+        "explanation": "Dengan kata kerja biasa ('arrives'), frequency adverb seperti 'often' diletakkan tepat sebelum main verb.",
+        "hints": [
+          "Adverb of frequency berada di antara subjek dan main verb biasa.",
+          "Letakkan 'often' sebelum 'arrives'."
+        ],
+        "skill": "frequency-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ this software crash whenever I export large charts?",
+        "options": [
+          "do",
+          "does",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'this software' (tak terhitung/tunggal) bersama main verb 'crash' memakai 'does'.",
+        "hints": [
+          "'Software' selalu dianggap tunggal.",
+          "Pertanyaan memakai 'does'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang jadwal operasional apotek.",
+        "dialogue": [
+          [
+            "Customer",
+            "Does the pharmacy stay open past midnight?"
+          ],
+          [
+            "Clerk",
+            "No, it ___. We close at eleven every night."
+          ]
+        ],
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan diawali 'Does' dengan subjek tunggal 'it', sehingga jawaban singkat negatifnya 'No, it doesn't.'",
+        "hints": [
+          "Cocokkan auxiliary pertanyaan ('Does') pada jawaban singkat.",
+          "Bentuk negatif 'does not' adalah 'doesn't'."
+        ],
+        "skill": "short-answer"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di meja layanan pelanggan.",
+        "dialogue": [
+          [
+            "Agent",
+            "Do you receive our weekly newsletter?"
+          ],
+          [
+            "Client",
+            "Actually, no. I ___ get any messages from your system."
+          ]
+        ],
+        "options": [
+          "doesn't",
+          "don't",
+          "am not"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'I' dengan main verb 'get' menggunakan bentuk negatif 'don't'.",
+        "hints": [
+          "Subjeknya adalah 'I'.",
+          "Setelah 'I', pakai 'don't' sebelum verb 'get'."
+        ],
+        "skill": "negative-does"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum auxiliary ganda pada kalimat negatif berikut.",
+        "draft": "The accounting intern doesn't submits invoices without approval.",
+        "options": [
+          "The accounting intern doesn't submit invoices without approval.",
+          "The accounting intern don't submit invoices without approval.",
+          "The accounting intern isn't submits invoices without approval."
+        ],
+        "answer": 0,
+        "explanation": "Setelah auxiliary 'doesn't', kata kerja wajib kembali ke bentuk dasar murni 'submit' tanpa akhiran -s.",
+        "hints": [
+          "Sudah ada 'doesn't', jadi akhiran -s pada verb harus dilepas.",
+          "Pilih 'doesn't submit'."
+        ],
+        "skill": "verb-after-does"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk pertanyaan tanpa auxiliary berikut.",
+        "draft": "Where your sister works during the summer break?",
+        "options": [
+          "Where does your sister work during the summer break?",
+          "Where do your sister works during the summer break?",
+          "Where does your sister works during the summer break?"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan Wh- dalam Present Simple memerlukan auxiliary 'does' sebelum subjek tunggal 'your sister', dan verb kembali ke bentuk dasar 'work'.",
+        "hints": [
+          "Letakkan 'does' di antara 'Where' dan 'your sister'.",
+          "Hapus -s pada kata kerja 'work'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun pertanyaan Present Simple menggunakan 'Why' dan 'doesn't'.",
+        "targetSentence": "Why doesn't the projector connect to my laptop?",
+        "explanation": "Urutan pertanyaan negatif: Wh-word + doesn't + Subject + base verb + complement?",
+        "hints": [
+          "Awali dengan 'Why doesn't the projector'.",
+          "Tambahkan verb dasar 'connect' lalu 'to my laptop?'."
+        ],
+        "skill": "question-order"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tanya dengan kata keterangan frekuensi.",
+        "targetSentence": "Does your manager usually review reports on Friday?",
+        "explanation": "Frequency adverb 'usually' berada tepat setelah subjek dan sebelum main verb 'review' dalam pertanyaan.",
+        "hints": [
+          "Awali dengan 'Does your manager'.",
+          "Letakkan 'usually' sebelum verb dasar 'review'."
+        ],
+        "skill": "frequency-order"
       }
     ],
     "complex": [
@@ -63,6 +596,274 @@
           "Setelah 'doesn't', verb kembali ke bentuk dasar tanpa -s."
         ],
         "skill": "negative-does"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our clinic usually ___ at eight, but today technicians ___ the X-ray machine, so we open at nine.",
+        "options": [
+          "opens / are servicing",
+          "is opening / service",
+          "open / servicing"
+        ],
+        "answer": 0,
+        "explanation": "Rutinitas biasa memakai Present Simple ('opens'); kegiatan perbaikan sementara hari ini memakai Present Continuous ('are servicing').",
+        "hints": [
+          "Bedakan rutinitas ('usually') vs situasi sementara hari ini ('today').",
+          "Clinic tunggal memakai 'opens'."
+        ],
+        "skill": "routine-vs-now"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the departure board: Flight GA-402 ___ at 14:35 tomorrow afternoon.",
+        "options": [
+          "departs",
+          "is going depart",
+          "depart"
+        ],
+        "answer": 0,
+        "explanation": "Jadwal penerbangan dan transportasi publik yang tetap menggunakan Present Simple meskipun waktunya esok hari.",
+        "hints": [
+          "Jadwal resmi pesawat tetap memakai Present Simple.",
+          "Subjek tunggal memakai 'departs'."
+        ],
+        "skill": "schedules"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ your point about shipping costs, even though I disagree with the proposed timeline.",
+        "options": [
+          "am seeing",
+          "see",
+          "seeing"
+        ],
+        "answer": 1,
+        "explanation": "Ketika 'see' bermakna memahami atau menangkap maksud secara mental (stative verb), gunakan Present Simple ('I see'), bukan continuous.",
+        "hints": [
+          "'See' di sini berarti 'memahami', bukan 'bertemu'.",
+          "Stative verb pemahaman tidak memakai -ing."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence correctly uses a stative verb of ownership?",
+        "options": [
+          "This logistics hub is belonging to a regional cooperative.",
+          "This logistics hub belongs to a regional cooperative.",
+          "This logistics hub belong to a regional cooperative."
+        ],
+        "answer": 1,
+        "explanation": "Kata kerja kepemilikan seperti 'belong', 'own', dan 'possess' adalah stative verb sehingga tidak dipakai dalam bentuk -ing.",
+        "hints": [
+          "'Belong' menyatakan kepemilikan tetap.",
+          "Subjek tunggal memakai 'belongs'."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih posisi frequency adverb yang benar bersama kata kerja to be.",
+        "options": [
+          "The reception area is never unattended during business hours.",
+          "The reception area never is unattended during business hours.",
+          "Never the reception area is unattended during business hours."
+        ],
+        "answer": 0,
+        "explanation": "Saat main verb-nya adalah 'be' (am/is/are), adverb of frequency ('never', 'always', 'usually') diletakkan SESUDAH to be.",
+        "hints": [
+          "Cari letak to be 'is'.",
+          "Adverb berada di belakang 'is'."
+        ],
+        "skill": "frequency-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "The museum's main gallery closes at six, yet the rooftop café ___ open until nine every evening.",
+        "options": [
+          "stays",
+          "is staying",
+          "stay"
+        ],
+        "answer": 0,
+        "explanation": "Kondisi dan jam buka tetap yang berlaku rutin setiap malam memakai Present Simple: 'stays'.",
+        "hints": [
+          "Penanda 'every evening' menunjukkan jadwal permanen.",
+          "Subjek tunggal 'the rooftop café' memakai 'stays'."
+        ],
+        "skill": "schedules"
+      },
+      {
+        "type": "choice",
+        "prompt": "At the moment, the marketing director ___ in Tokyo, where she usually ___ two regional seminars a year.",
+        "options": [
+          "is staying / leads",
+          "stays / is leading",
+          "stays / lead"
+        ],
+        "answer": 0,
+        "explanation": "'At the moment' menandai kondisi sementara ('is staying'), sedangkan 'usually ... a year' menandai kebiasaan berulang ('leads').",
+        "hints": [
+          "Klausa pertama bersifat sementara saat ini.",
+          "Klausa kedua adalah kebiasaan tahunan."
+        ],
+        "skill": "routine-vs-now"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the semantic shift: 'He ___ the candidates carefully right now' vs 'His voice ___ calm.'",
+        "options": [
+          "is weighing / sounds",
+          "weighs / is sounding",
+          "weigh / sound"
+        ],
+        "answer": 0,
+        "explanation": "'Weigh' bermakna aksi menimbang/menilai saat ini ('is weighing'); 'sound' sebagai linking/stative verb kesan memakai Present Simple ('sounds').",
+        "hints": [
+          "Aksi sadar 'right now' memakai continuous.",
+          "Stative verb 'sound' tidak memakai -ing."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Whenever a shipment ___ delayed at customs, our coordinator immediately notifies the buyer.",
+        "options": [
+          "is",
+          "is being",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Fakta prosedural umum dengan 'Whenever' selalu memakai Present Simple ('is'), menyatakan kondisi rutin setiap kali terjadi.",
+        "hints": [
+          "'Whenever' menyatakan kondisi berulang.",
+          "Gunakan Present Simple 'is'."
+        ],
+        "skill": "routine-vs-now"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ you always suspect that something goes wrong?",
+        "options": [
+          "are",
+          "do",
+          "does"
+        ],
+        "answer": 1,
+        "explanation": "'Suspect' adalah stative verb pikiran, sehingga pertanyaan Present Simple untuk 'you' wajib memakai auxiliary 'do'.",
+        "hints": [
+          "'Suspect' adalah stative verb (tidak ber-ing).",
+          "Pertanyaan Present Simple untuk 'you' memakai 'do'."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perbedaan jadwal tetap vs rencana rapat mendadak.",
+        "dialogue": [
+          [
+            "Coordinator",
+            "When does the autumn semester start?"
+          ],
+          [
+            "Registrar",
+            "Official classes ___ on September 1, even though orientation takes place earlier."
+          ]
+        ],
+        "options": [
+          "begin",
+          "are beginning",
+          "begins"
+        ],
+        "answer": 0,
+        "explanation": "Jadwal akademik resmi memakai Present Simple; subjek jamak 'Official classes' memakai verb dasar 'begin'.",
+        "hints": [
+          "Periksa subjek jamak 'Official classes'.",
+          "Jadwal tetap menggunakan Present Simple."
+        ],
+        "skill": "schedules"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan yang membedakan stative 'taste' dan dynamic 'taste'.",
+        "dialogue": [
+          [
+            "Sous-chef",
+            "Why are you tasting the reduction again?"
+          ],
+          [
+            "Head Chef",
+            "I ___ it to check the salt level, and honestly, it ___ slightly sweet already."
+          ]
+        ],
+        "options": [
+          "am tasting / tastes",
+          "taste / is tasting",
+          "am tasting / is tasting"
+        ],
+        "answer": 0,
+        "explanation": "Aksi mencicipi sengaja saat ini memakai continuous ('am tasting'), sedangkan cita rasa sifat sup tersebut memakai stative verb ('tastes').",
+        "hints": [
+          "Bagian pertama adalah tindakan aktif mencicipi.",
+          "Bagian kedua mendeskripsikan sifat rasa makanan."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum pemakaian Present Continuous untuk stative verb dan rutinitas.",
+        "draft": "Currently I am knowing three programming languages, and every weekend I am building small tools.",
+        "options": [
+          "Currently I know three programming languages, and every weekend I build small tools.",
+          "Currently I know three programming languages, and every weekend I am building small tools.",
+          "Currently I am knowing three programming languages, and every weekend I build small tools."
+        ],
+        "answer": 0,
+        "explanation": "'Know' adalah stative verb pengetahuan (pakai 'know', bukan 'am knowing'), dan 'every weekend' menandakan kebiasaan rutin ('build').",
+        "hints": [
+          "Periksa kata kerja 'know' (keadaan) dan penanda waktu 'every weekend'.",
+          "Keduanya wajib menggunakan Present Simple."
+        ],
+        "skill": "stative-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan perpaduan jadwal dan auxiliary dalam laporan kerja berikut.",
+        "draft": "The evening ferry don't arrive at nine anymore; it is leaving at 8:30 sharp every day.",
+        "options": [
+          "The evening ferry doesn't arrive at nine anymore; it leaves at 8:30 sharp every day.",
+          "The evening ferry doesn't arrives at nine anymore; it leaves at 8:30 sharp every day.",
+          "The evening ferry isn't arrive at nine anymore; it leaves at 8:30 sharp every day."
+        ],
+        "answer": 0,
+        "explanation": "'The evening ferry' tunggal memakai 'doesn't arrive' (verb dasar), dan jadwal tetap harian memakai 'leaves' (bukan 'is leaving').",
+        "hints": [
+          "Cek subject tunggal dengan 'doesn't' + base verb.",
+          "Jadwal transportasi harian memakai Present Simple 'leaves'."
+        ],
+        "skill": "schedules"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang memadukan kebiasaan umum dengan pengecualian sementara.",
+        "targetSentence": "We usually host clients onsite, but today we are meeting online.",
+        "explanation": "Kebiasaan memakai 'usually host'; pengecualian sementara 'today' memakai 'are meeting'.",
+        "hints": [
+          "Mulai dengan klausa kebiasaan 'We usually host clients onsite,'.",
+          "Hubungkan dengan 'but today we are meeting online'."
+        ],
+        "skill": "routine-vs-now"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ber-stative verb dengan kata keterangan frekuensi.",
+        "targetSentence": "This warehouse always contains enough emergency supplies.",
+        "explanation": "Subjek tunggal 'This warehouse' memakai adverb 'always' sebelum stative verb 'contains'.",
+        "hints": [
+          "Awali dengan 'This warehouse always contains'.",
+          "Akhiri dengan 'enough emergency supplies'."
+        ],
+        "skill": "stative-verbs"
       }
     ]
   }

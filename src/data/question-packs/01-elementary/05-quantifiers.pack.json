@@ -7,19 +7,33 @@
       {
         "type": "choice",
         "prompt": "How ___ time do we have before the flight gate closes?",
-        "options": ["much", "many", "few"],
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
         "answer": 0,
         "explanation": "'Time' (waktu dalam arti durasi jam/menit) adalah uncountable noun, sehingga ditanyakan dengan 'How much'. ('Many' hanya untuk benda yang bisa dihitung).",
-        "hints": ["Waktu/durasi adalah kata benda yang tidak dapat dihitung.", "Gunakan 'much' untuk uncountable noun."],
+        "hints": [
+          "Waktu/durasi adalah kata benda yang tidak dapat dihitung.",
+          "Gunakan 'much' untuk uncountable noun."
+        ],
         "skill": "quantifier-much-many"
       },
       {
         "type": "choice",
         "prompt": "How ___ participants registered for the software workshop?",
-        "options": ["many", "much", "little"],
+        "options": [
+          "many",
+          "much",
+          "little"
+        ],
         "answer": 0,
         "explanation": "'Participants' adalah countable noun jamak (bisa dihitung per orang), sehingga memakai 'How many'.",
-        "hints": ["Peserta adalah kata benda jamak yang bisa dihitung.", "Gunakan 'many'."],
+        "hints": [
+          "Peserta adalah kata benda jamak yang bisa dihitung.",
+          "Gunakan 'many'."
+        ],
         "skill": "quantifier-much-many"
       },
       {
@@ -27,25 +41,42 @@
         "prompt": "Susun kalimat dengan quantifier 'a lot of'.",
         "targetSentence": "We received a lot of feedback from users.",
         "explanation": "'A lot of' fleksibel dapat digunakan baik untuk uncountable noun (feedback) maupun plural countable.",
-        "hints": ["Mulai dengan 'We received'.", "Gunakan 'a lot of feedback from users'."],
+        "hints": [
+          "Mulai dengan 'We received'.",
+          "Gunakan 'a lot of feedback from users'."
+        ],
         "skill": "quantifier-general"
       },
       {
         "type": "choice",
         "prompt": "We have ___ apples in the refrigerator, enough to make a pie.",
-        "options": ["a few", "few", "a little"],
+        "options": [
+          "a few",
+          "few",
+          "a little"
+        ],
         "answer": 0,
         "explanation": "'A few' bermakna positif ('beberapa/cukup ada') untuk countable noun jamak (apples).",
-        "hints": ["Maknanya positif (cukup untuk membuat pie).", "Gunakan 'a few' untuk countable noun."],
+        "hints": [
+          "Maknanya positif (cukup untuk membuat pie).",
+          "Gunakan 'a few' untuk countable noun."
+        ],
         "skill": "quantifier-few-little"
       },
       {
         "type": "choice",
         "prompt": "There is only ___ milk left in the carton; we should buy more today.",
-        "options": ["a little", "a few", "many"],
+        "options": [
+          "a little",
+          "a few",
+          "many"
+        ],
         "answer": 0,
         "explanation": "'Milk' adalah cairan (uncountable noun), sehingga menggunakan 'a little' (sedikit).",
-        "hints": ["Susu adalah benda cair tak terhitung.", "Gunakan 'a little'."],
+        "hints": [
+          "Susu adalah benda cair tak terhitung.",
+          "Gunakan 'a little'."
+        ],
         "skill": "quantifier-few-little"
       },
       {
@@ -53,17 +84,188 @@
         "prompt": "Susun kalimat negatif dengan quantifier 'any'.",
         "targetSentence": "She doesn't have any questions about the contract.",
         "explanation": "Pada kalimat negatif, gunakan 'any' untuk countable jamak atau uncountable: 'doesn't have any questions'.",
-        "hints": ["Subject: 'She doesn't have'.", "Gunakan 'any questions about the contract'."],
+        "hints": [
+          "Subject: 'She doesn't have'.",
+          "Gunakan 'any questions about the contract'."
+        ],
         "skill": "quantifier-some-any"
       },
       {
         "type": "choice",
         "prompt": "Would you like ___ coffee while you wait for the director?",
-        "options": ["some", "any", "many"],
+        "options": [
+          "some",
+          "any",
+          "many"
+        ],
         "answer": 0,
         "explanation": "Dalam kalimat tawaran (offers) atau permohonan sopan di mana kita mengharapkan jawaban 'ya', gunakan 'some' meskipun berbentuk kalimat tanya.",
-        "hints": ["Kalimat ini menawarkan sesuatu secara ramah (offer).", "Tawaran sopan menggunakan 'some', bukan 'any'."],
+        "hints": [
+          "Kalimat ini menawarkan sesuatu secara ramah (offer).",
+          "Tawaran sopan menggunakan 'some', bukan 'any'."
+        ],
         "skill": "quantifier-some-any"
+      },
+      {
+        "type": "choice",
+        "prompt": "How ___ sugar do you take in your morning coffee?",
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "'Sugar' adalah kata benda tak terhitung (uncountable), sehingga pertanyaan jumlahnya memakai 'How much'.",
+        "hints": [
+          "Bisakah kita menghitung butiran 'sugar' menjadi 1 sugar, 2 sugars?",
+          "Uncountable noun memakai 'much'."
+        ],
+        "skill": "quantifier-much-many"
+      },
+      {
+        "type": "choice",
+        "prompt": "We didn't have ___ printed handouts left after the afternoon session.",
+        "options": [
+          "any",
+          "some",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "Pada kalimat negatif ('didn't have') dengan kata benda jamak 'handouts', gunakan 'any'.",
+        "hints": [
+          "Kalimatnya berbentuk negatif ('didn't').",
+          "'Handouts' jamak; negatif memakai 'any'."
+        ],
+        "skill": "quantifier-some-any"
+      },
+      {
+        "type": "choice",
+        "prompt": "There are ___ helpful tutorials on the company's internal portal.",
+        "options": [
+          "a lot of",
+          "much",
+          "a little"
+        ],
+        "answer": 0,
+        "explanation": "'Tutorials' dapat dihitung jamak dan kalimatnya positif; 'a lot of' cocok untuk countable jamak maupun uncountable.",
+        "hints": [
+          "Kalimat positif dengan noun jamak 'tutorials'.",
+          "'Much' dan 'a little' hanya untuk uncountable."
+        ],
+        "skill": "quantifier-general"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you lend me ___ blank sheets of printer paper?",
+        "options": [
+          "some",
+          "any",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "Dalam permintaan atau tawaran sopan berbentuk kalimat tanya ('Can you...?', 'Would you like...?'), kita memakai 'some', bukan 'any'.",
+        "hints": [
+          "Ini kalimat permintaan tolong ('Can you lend me...?').",
+          "Permintaan/tawaran memakai 'some'."
+        ],
+        "skill": "quantifier-some-any"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan di kafe menggunakan quantifier jumlah sedikit.",
+        "dialogue": [
+          [
+            "Server",
+            "Would you like more cream in your soup?"
+          ],
+          [
+            "Diner",
+            "Just ___, please — I prefer a light flavor."
+          ]
+        ],
+        "options": [
+          "a little",
+          "a few",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "'Cream' adalah uncountable noun sehingga jumlah sedikit yang positif memakai 'a little'.",
+        "hints": [
+          "'Cream' termasuk kata benda tak terhitung.",
+          "Untuk uncountable noun positif, gunakan 'a little'."
+        ],
+        "skill": "quantifier-few-little"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only ___ volunteers signed up for the Saturday coastal cleanup.",
+        "options": [
+          "a few",
+          "a little",
+          "much"
+        ],
+        "answer": 0,
+        "explanation": "'Volunteers' berbentuk countable plural, sehingga jumlah sedikit memakai 'a few'.",
+        "hints": [
+          "Perhatikan akhiran jamak -s pada 'volunteers'.",
+          "Countable plural memakai 'a few'."
+        ],
+        "skill": "quantifier-few-little"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pasangan quantifier dan kata benda tak terhitung berikut.",
+        "draft": "The interns don't have many experience with accounting software yet.",
+        "options": [
+          "The interns don't have much experience with accounting software yet.",
+          "The interns don't have a few experience with accounting software yet.",
+          "The interns don't have several experience with accounting software yet."
+        ],
+        "answer": 0,
+        "explanation": "'Experience' (pengalaman kerja secara umum) bersifat uncountable sehingga memakai 'much', bukan 'many' atau 'a few'.",
+        "hints": [
+          "Cek kata benda 'experience' — apakah berbentuk jamak?",
+          "Uncountable noun negatif memakai 'much'."
+        ],
+        "skill": "quantifier-much-many"
+      },
+      {
+        "type": "choice",
+        "prompt": "We bought ___ fresh apples and pears at the farmers' market.",
+        "options": [
+          "several",
+          "much",
+          "little"
+        ],
+        "answer": 0,
+        "explanation": "'Several' khusus digunakan bersama kata benda jamak terhitung ('apples and pears').",
+        "hints": [
+          "Bendanya jamak dan bisa dihitung.",
+          "'Much' dan 'little' tidak boleh untuk benda jamak."
+        ],
+        "skill": "quantifier-general"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat positif sederhana dengan 'a lot of'.",
+        "targetSentence": "Our neighborhood library receives a lot of visitors every weekend.",
+        "explanation": "'A lot of' berpasangan dengan countable plural 'visitors' pada kalimat positif.",
+        "hints": [
+          "Awali dengan 'Our neighborhood library receives'.",
+          "Gunakan 'a lot of visitors' sebagai objek."
+        ],
+        "skill": "quantifier-general"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun pertanyaan jumlah benda dapat dihitung dengan 'How many'.",
+        "targetSentence": "How many laptops are connected to the office Wi-Fi?",
+        "explanation": "Countable noun jamak 'laptops' memakai 'How many' dan verb jamak 'are'.",
+        "hints": [
+          "Mulai pertanyaan dengan 'How many laptops'.",
+          "Pasangkan to be jamak 'are connected'."
+        ],
+        "skill": "quantifier-much-many"
       }
     ],
     "intermediate": [
@@ -71,31 +273,58 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog perbandingan nuansa 'few' (sedikit sekali/kurang) vs 'a few' (ada beberapa).",
         "dialogue": [
-          ["Organizer", "Can we start the panel discussion right now?"],
-          ["Moderator", "Not yet. Very ___ people have arrived, so the room is practically empty."]
+          [
+            "Organizer",
+            "Can we start the panel discussion right now?"
+          ],
+          [
+            "Moderator",
+            "Not yet. Very ___ people have arrived, so the room is practically empty."
+          ]
         ],
-        "options": ["few", "a few", "little"],
+        "options": [
+          "few",
+          "a few",
+          "little"
+        ],
         "answer": 0,
         "explanation": "Tanpa article 'a', kata 'few' bermakna negatif: 'hampir tidak ada / sangat sedikit' (scarcity). Ditambah 'very few' mempertegas ruangan yang masih kosong.",
-        "hints": ["Maknanya negatif (hampir tidak ada orang, ruangan kosong).", "Gunakan 'few' tanpa 'a'."],
+        "hints": [
+          "Maknanya negatif (hampir tidak ada orang, ruangan kosong).",
+          "Gunakan 'few' tanpa 'a'."
+        ],
         "skill": "quantifier-few-little"
       },
       {
         "type": "choice",
         "prompt": "He has ___ patience for repetitive clerical tasks and prefers strategic work.",
-        "options": ["little", "a little", "few"],
+        "options": [
+          "little",
+          "a little",
+          "few"
+        ],
         "answer": 0,
         "explanation": "'Patience' (kesabaran) adalah uncountable noun. Makna 'hampir tidak punya kesabaran' (nuansa negatif) diungkapkan dengan 'little' (tanpa 'a').",
-        "hints": ["Kesabaran adalah kata benda abstrak tak terhitung.", "Bermakna negatif (hampir tidak sabar), gunakan 'little'."],
+        "hints": [
+          "Kesabaran adalah kata benda abstrak tak terhitung.",
+          "Bermakna negatif (hampir tidak sabar), gunakan 'little'."
+        ],
         "skill": "quantifier-few-little"
       },
       {
         "type": "choice",
         "prompt": "___ of the five regional branches exceeded its annual profit target.",
-        "options": ["Each", "Every", "All"],
+        "options": [
+          "Each",
+          "Every",
+          "All"
+        ],
         "answer": 0,
         "explanation": "'Each of the...' merujuk pada setiap anggota kelompok satu per satu dan berpasangan dengan kata kerja/pronoun tunggal ('its target'). 'Every' tidak bisa langsung diikuti 'of the' tanpa noun.",
-        "hints": ["Dapat diikuti oleh 'of the + plural noun'.", "Berpasangan dengan singular pronoun 'its'."],
+        "hints": [
+          "Dapat diikuti oleh 'of the + plural noun'.",
+          "Berpasangan dengan singular pronoun 'its'."
+        ],
         "skill": "quantifier-each-every"
       },
       {
@@ -103,16 +332,26 @@
         "prompt": "Susun kalimat dengan quantifier 'several'.",
         "targetSentence": "We investigated several potential security vulnerabilities yesterday.",
         "explanation": "'Several' (beberapa) digunakan khusus untuk plural countable nouns: several vulnerabilities.",
-        "hints": ["Mulai dengan 'We investigated'.", "Gunakan 'several potential security vulnerabilities'."],
+        "hints": [
+          "Mulai dengan 'We investigated'.",
+          "Gunakan 'several potential security vulnerabilities'."
+        ],
         "skill": "quantifier-general"
       },
       {
         "type": "choice",
         "prompt": "Most of the research ___ funded by an independent scientific grant.",
-        "options": ["was", "were", "are"],
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
         "answer": 0,
         "explanation": "Kata benda 'research' adalah uncountable noun (tak terhitung). Maka 'Most of the research' berpasangan dengan kata kerja tunggal 'was'.",
-        "hints": ["'Research' dalam bahasa Inggris adalah uncountable.", "Gunakan to be tunggal 'was'."],
+        "hints": [
+          "'Research' dalam bahasa Inggris adalah uncountable.",
+          "Gunakan to be tunggal 'was'."
+        ],
         "skill": "quantifier-agreement"
       },
       {
@@ -120,21 +359,198 @@
         "prompt": "Susun kalimat dengan quantifier 'all of the'.",
         "targetSentence": "All of the computers were updated successfully.",
         "explanation": "'Computers' adalah jamak terhitung, sehingga 'All of the computers' berpasangan dengan 'were'.",
-        "hints": ["Subject: 'All of the computers'.", "Gunakan 'were updated successfully'."],
+        "hints": [
+          "Subject: 'All of the computers'.",
+          "Gunakan 'were updated successfully'."
+        ],
         "skill": "quantifier-agreement"
       },
       {
         "type": "dialogue",
         "prompt": "Pilih kuantifikasi yang tepat untuk pilihan antara dua alternatif.",
         "dialogue": [
-          ["Manager", "Which of the two candidates will lead the project?"],
-          ["HR", "___ candidate has unique strengths, so the decision is difficult."]
+          [
+            "Manager",
+            "Which of the two candidates will lead the project?"
+          ],
+          [
+            "HR",
+            "___ candidate has unique strengths, so the decision is difficult."
+          ]
         ],
-        "options": ["Either", "Neither", "All"],
+        "options": [
+          "Either",
+          "Neither",
+          "All"
+        ],
         "answer": 0,
         "explanation": "'Either candidate' berarti 'salah satu dari kedua kandidat' dan diikuti kata benda tunggal serta kata kerja tunggal 'has'.",
-        "hints": ["Memilih dari dua kandidat (two options).", "Diikuti kata benda tunggal 'candidate'."],
+        "hints": [
+          "Memilih dari dua kandidat (two options).",
+          "Diikuti kata benda tunggal 'candidate'."
+        ],
         "skill": "quantifier-either-neither"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ participant at the workshop received a laminated name badge.",
+        "options": [
+          "Every",
+          "All",
+          "Both"
+        ],
+        "answer": 0,
+        "explanation": "'Participant' berbentuk tunggal tanpa -s dan verb-nya pun sesuai untuk tunggal; 'Every' selalu diikuti kata benda tunggal.",
+        "hints": [
+          "Perhatikan bentuk tunggal 'participant' (tanpa -s).",
+          "'All' dan 'Both' memerlukan noun jamak."
+        ],
+        "skill": "quantifier-each-every"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the difference: she has ___ close friends in town, so she feels lonely; whereas he has ___ supportive neighbors he can call anytime.",
+        "options": [
+          "few / a few",
+          "a few / few",
+          "little / a little"
+        ],
+        "answer": 0,
+        "explanation": "'Few' (tanpa 'a') bermakna negatif ('hampir tidak ada/kurang'), sedangkan 'a few' bermakna positif ('ada beberapa yang cukup').",
+        "hints": [
+          "Bedakan 'few' (bernuansa kurang/kesepian) vs 'a few' (cukup membantu).",
+          "'Friends' dan 'neighbors' keduanya jamak terhitung."
+        ],
+        "skill": "quantifier-few-little"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di dapur kantor tentang sisa persediaan.",
+        "dialogue": [
+          [
+            "Assistant",
+            "Should I buy more olive oil for the pantry?"
+          ],
+          [
+            "Chef",
+            "Yes, please. There is ___ left in the bottle."
+          ]
+        ],
+        "options": [
+          "very little",
+          "very few",
+          "several"
+        ],
+        "answer": 0,
+        "explanation": "'Olive oil' tidak dapat dihitung (uncountable) dan hampir habis, maka gunakan 'very little'.",
+        "hints": [
+          "Minyak zaitun adalah uncountable noun.",
+          "Gunakan 'very little' untuk jumlah tak terhitung yang hampir habis."
+        ],
+        "skill": "quantifier-few-little"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of the two submitted invoices includes the tax identification number.",
+        "options": [
+          "Neither",
+          "None",
+          "All"
+        ],
+        "answer": 0,
+        "explanation": "Untuk tepat DUA benda ('two submitted invoices') diikuti verb tunggal 'includes', gunakan 'Neither' ('tidak satu pun dari dua'); 'None' umumnya untuk tiga atau lebih.",
+        "hints": [
+          "Hanya ada dua faktur ('the two submitted invoices').",
+          "Verb tunggal 'includes' cocok dengan 'Neither'."
+        ],
+        "skill": "quantifier-either-neither"
+      },
+      {
+        "type": "choice",
+        "prompt": "There is hardly ___ room left inside the storage locker.",
+        "options": [
+          "any",
+          "some",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "Kata bermakna negatif seperti 'hardly', 'barely', dan 'never' dipasangkan dengan 'any' (bukan 'some').",
+        "hints": [
+          "'Hardly' membawa makna hampir tidak ada (negatif).",
+          "Pasangkan kata negatif tersirat dengan 'any'."
+        ],
+        "skill": "quantifier-some-any"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan agreement pada konstruksi 'Each of' berikut.",
+        "draft": "Each of the three regional offices submit their monthly inventory report by Friday.",
+        "options": [
+          "Each of the three regional offices submits its monthly inventory report by Friday.",
+          "Each of the three regional offices submit its monthly inventory report by Friday.",
+          "Every of the three regional offices submits its monthly inventory report by Friday."
+        ],
+        "answer": 0,
+        "explanation": "Frasa 'Each of the + plural noun' memiliki inti subjek tunggal ('Each'), sehingga kata kerja wajib tunggal ('submits') dan rujukan posesif formal 'its' (juga tidak ada bentuk 'Every of').",
+        "hints": [
+          "Inti subjeknya adalah kata tunggal 'Each', bukan 'offices'.",
+          "Verb-nya wajib berakhiran -s: 'submits'."
+        ],
+        "skill": "quantifier-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do we need ___ extra chairs for the afternoon panel?",
+        "options": [
+          "plenty of",
+          "much",
+          "a little"
+        ],
+        "answer": 0,
+        "explanation": "'Extra chairs' jamak terhitung; 'plenty of' dapat dipakai untuk benda jamak maupun tak terhitung.",
+        "hints": [
+          "'Chairs' adalah countable plural.",
+          "'Much' dan 'a little' salah untuk benda jamak."
+        ],
+        "skill": "quantifier-general"
+      },
+      {
+        "type": "choice",
+        "prompt": "You can pick ___ Tuesday or Thursday morning for your dental checkup.",
+        "options": [
+          "either",
+          "neither",
+          "both"
+        ],
+        "answer": 0,
+        "explanation": "Kata hubung berpasangan untuk dua alternatif pilihan adalah 'either ... or ...'.",
+        "hints": [
+          "Perhatikan kata 'or' di antara dua hari.",
+          "Pasangannya adalah 'either ... or'."
+        ],
+        "skill": "quantifier-either-neither"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai 'few' tanpa 'a' untuk nuansa negatif.",
+        "targetSentence": "Unfortunately, few commuters read the updated station timetable.",
+        "explanation": "'Few' (tanpa 'a') menekankan jumlah yang sangat sedikit dan kurang memadai.",
+        "hints": [
+          "Awali dengan 'Unfortunately, few commuters'.",
+          "Verb jamak setelahnya adalah 'read'."
+        ],
+        "skill": "quantifier-few-little"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai 'plenty of' untuk kata benda tak terhitung.",
+        "targetSentence": "We still have plenty of time before the boarding gate closes.",
+        "explanation": "'Plenty of' diikuti uncountable noun 'time' tanpa akhiran -s.",
+        "hints": [
+          "Mulai dengan 'We still have plenty of time'.",
+          "Akhiri dengan klausa 'before the boarding gate closes'."
+        ],
+        "skill": "quantifier-general"
       }
     ],
     "complex": [
@@ -149,7 +565,10 @@
         ],
         "answer": 0,
         "explanation": "'Workers' adalah plural countable noun. Dalam bahasa Inggris baku formal, gunakan 'fewer' untuk kata benda yang bisa dihitung, dan 'less' hanya untuk uncountable nouns (seperti 'less time', 'less water').",
-        "hints": ["Pekerja (workers) bisa dihitung per orang.", "Gunakan 'fewer' untuk countable, bukan 'less'."],
+        "hints": [
+          "Pekerja (workers) bisa dihitung per orang.",
+          "Gunakan 'fewer' untuk countable, bukan 'less'."
+        ],
         "skill": "quantifier-fewer-less"
       },
       {
@@ -162,16 +581,26 @@
         ],
         "answer": 0,
         "explanation": "'A large amount of' digunakan untuk uncountable nouns ('equipment' tak terhitung). 'A large number of' digunakan untuk plural countable nouns ('workers' terhitung).",
-        "hints": ["'Equipment' adalah uncountable noun $\\rightarrow$ amount.", "'Workers' adalah plural countable $\\rightarrow$ number."],
+        "hints": [
+          "'Equipment' adalah uncountable noun $\\rightarrow$ amount.",
+          "'Workers' adalah plural countable $\\rightarrow$ number."
+        ],
         "skill": "quantifier-amount-number"
       },
       {
         "type": "choice",
         "prompt": "There are ___ reasons to doubt the validity of the survey methodology.",
-        "options": ["plenty of", "a great deal of", "much"],
+        "options": [
+          "plenty of",
+          "a great deal of",
+          "much"
+        ],
         "answer": 0,
         "explanation": "'A great deal of' dan 'much' hanya untuk uncountable nouns. 'Reasons' adalah plural countable, sehingga harus menggunakan 'plenty of' (atau 'many').",
-        "hints": ["'Reasons' adalah countable noun jamak.", "'A great deal of' hanya untuk uncountable."],
+        "hints": [
+          "'Reasons' adalah countable noun jamak.",
+          "'A great deal of' hanya untuk uncountable."
+        ],
         "skill": "quantifier-general"
       },
       {
@@ -179,7 +608,10 @@
         "prompt": "Susun kalimat dengan frasa formal 'a great deal of'.",
         "targetSentence": "The project requires a great deal of effort.",
         "explanation": "'A great deal of' + uncountable noun (effort).",
-        "hints": ["Subject: 'The project requires'.", "Gunakan 'a great deal of effort'."],
+        "hints": [
+          "Subject: 'The project requires'.",
+          "Gunakan 'a great deal of effort'."
+        ],
         "skill": "quantifier-amount-number"
       },
       {
@@ -193,24 +625,40 @@
         ],
         "answer": 0,
         "explanation": "Pada fraksi dan persentase ('Two-thirds of...'), kesepakatan kata kerja ditentukan oleh kata benda setelah 'of'. Karena 'water supply' adalah uncountable tunggal, kata kerja yang benar adalah 'is contaminated'.",
-        "hints": ["Perhatikan kata benda setelah 'of': 'water supply' (tunggal).", "Gunakan kata kerja tunggal 'is'."],
+        "hints": [
+          "Perhatikan kata benda setelah 'of': 'water supply' (tunggal).",
+          "Gunakan kata kerja tunggal 'is'."
+        ],
         "skill": "quantifier-agreement"
       },
       {
         "type": "choice",
         "prompt": "Sebaliknya: 'Sixty percent of the registered voters ___ in favor of the infrastructure bill.'",
-        "options": ["were", "was", "is"],
+        "options": [
+          "were",
+          "was",
+          "is"
+        ],
         "answer": 0,
         "explanation": "Kata benda setelah persentase adalah 'registered voters' (plural countable), sehingga kata kerja yang sesuai adalah jamak: 'were'.",
-        "hints": ["Kata benda setelah persen adalah 'voters' (jamak).", "Gunakan kata kerja jamak 'were'."],
+        "hints": [
+          "Kata benda setelah persen adalah 'voters' (jamak).",
+          "Gunakan kata kerja jamak 'were'."
+        ],
         "skill": "quantifier-agreement"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog analisis demografi dengan penentu kuantitatif ganda.",
         "dialogue": [
-          ["Demographer", "Did the entire sample group complete the digital survey?"],
-          ["Research Fellow", "No, ___ participants submitted incomplete questionnaires."]
+          [
+            "Demographer",
+            "Did the entire sample group complete the digital survey?"
+          ],
+          [
+            "Research Fellow",
+            "No, ___ participants submitted incomplete questionnaires."
+          ]
         ],
         "options": [
           "a minority of the",
@@ -219,8 +667,173 @@
         ],
         "answer": 0,
         "explanation": "'A minority of the' (sebagian kecil dari) berpasangan dengan plural countable noun ('participants'). 'Little' dan 'less' keliru jika dipasangkan dengan kata benda jamak terhitung.",
-        "hints": ["'Participants' adalah kata benda jamak terhitung.", "Gunakan frasa 'a minority of the'."],
+        "hints": [
+          "'Participants' adalah kata benda jamak terhitung.",
+          "Gunakan frasa 'a minority of the'."
+        ],
         "skill": "quantifier-general"
+      },
+      {
+        "type": "choice",
+        "prompt": "From an editorial standpoint, this pharmacy express lane is strictly for ___ ten items.",
+        "options": [
+          "fewer than",
+          "less than",
+          "little than"
+        ],
+        "answer": 0,
+        "explanation": "Karena 'items' merupakan countable plural noun, ragam tulis presisi wajib memakai 'fewer than' ('less than' dipakai untuk jumlah tak terhitung/pengukuran satuan tunggal).",
+        "hints": [
+          "'Items' dapat dihitung satu per satu (jamak).",
+          "Gunakan 'fewer than' untuk countable plural."
+        ],
+        "skill": "quantifier-fewer-less"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the agreement rule: 'A large amount of confidential data ___ leaked, whereas a large number of user passwords ___ reset.'",
+        "options": [
+          "was / were",
+          "were / was",
+          "were / were"
+        ],
+        "answer": 0,
+        "explanation": "'Amount of + uncountable noun (data)' memakai verb tunggal 'was'; 'A number of + plural noun (passwords)' memakai verb jamak 'were'.",
+        "hints": [
+          "Bedakan 'amount of' (uncountable) vs 'a number of' (countable plural).",
+          "Cek kesesuaian verb masing-masing klausa."
+        ],
+        "skill": "quantifier-amount-number"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum mencampur 'amount of' dengan kata benda terhitung jamak.",
+        "draft": "A surprising amount of graduate applicants opted for the remote interview track.",
+        "options": [
+          "A surprising number of graduate applicants opted for the remote interview track.",
+          "A surprising amount of graduate applicant opted for the remote interview track.",
+          "The surprising amount of graduate applicants opted for the remote interview track."
+        ],
+        "answer": 0,
+        "explanation": "'Applicants' dapat dihitung (countable plural), sehingga kata pengukurnya wajib 'number of', bukan 'amount of'.",
+        "hints": [
+          "Bisakah kita menghitung jumlah 'applicants'? Bisa.",
+          "Countable plural memakai 'number of', bukan 'amount of'."
+        ],
+        "skill": "quantifier-amount-number"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi penyuntingan akademis tentang 'most' vs 'most of the'.",
+        "dialogue": [
+          [
+            "Student",
+            "Should I write 'Most of researchers agree' or 'Most researchers agree' for a general claim?"
+          ],
+          [
+            "Supervisor",
+            "For a broad general statement without a specific group modifier, drop 'of the' and write ___."
+          ]
+        ],
+        "options": [
+          "Most researchers agree",
+          "The most researchers agree",
+          "Almost researchers agree"
+        ],
+        "answer": 0,
+        "explanation": "Generalisasi umum menggunakan 'Most + plural noun' ('Most researchers'); gunakan 'Most of the + noun' hanya saat merujuk kelompok spesifik yang sudah dibatasi.",
+        "hints": [
+          "Jangan sisipkan 'of' langsung sebelum kata benda umum tanpa determiner ('the/these/my').",
+          "'Almost' tidak boleh langsung diikuti noun tanpa 'all'."
+        ],
+        "skill": "quantifier-general"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ of the two proposed amendments gained enough votes to pass, so the committee tabled both.",
+        "options": [
+          "Neither",
+          "Both",
+          "None"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat menunjukkan kedua amandemen ditunda ('tabled both') karena tidak ada satu pun dari keduanya yang mendapat cukup suara: gunakan 'Neither'.",
+        "hints": [
+          "Perhatikan hasil akhirnya: kedua rancangan ditunda.",
+          "Tidak satu pun dari dua pilihan memakai 'Neither'."
+        ],
+        "skill": "quantifier-either-neither"
+      },
+      {
+        "type": "choice",
+        "prompt": "The survey revealed that less than twenty percent of the budget ___ allocated to rural clinics.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Dengan persentase ('twenty percent of + noun'), verb menyesuaikan kata benda setelah 'of': 'the budget' tunggal/uncountable, sehingga memakai 'was'.",
+        "hints": [
+          "Periksa kata benda setelah 'of': 'the budget'.",
+          "Subjek tunggal/uncountable memakai 'was'."
+        ],
+        "skill": "quantifier-agreement"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan letak 'every' vs 'each' bersama kata ganti tunggal di klausa ber-preposisi.",
+        "draft": "Every of the safety inspectors submitted a signed checklist before noon.",
+        "options": [
+          "Each of the safety inspectors submitted a signed checklist before noon.",
+          "Every of the safety inspector submitted a signed checklist before noon.",
+          "Every safety inspectors submitted a signed checklist before noon."
+        ],
+        "answer": 0,
+        "explanation": "'Every' TIDAK boleh diikuti langsung oleh 'of the...' (harus 'Every one of the...' atau diganti 'Each of the...').",
+        "hints": [
+          "'Every of' bukan struktur yang gramatikal dalam bahasa Inggris.",
+          "Gunakan 'Each of the + plural noun'."
+        ],
+        "skill": "quantifier-each-every"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — we spent ___ five hundred dollars on emergency repairs, which is less than what was budgeted.",
+        "options": [
+          "under",
+          "fewer than",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "Sebagai pengecualian standar untuk satuan tunggal uang, jarak, atau waktu ('$500', '10 miles'), penutur baku memakai 'less than' atau 'under' (BUKAN 'fewer than' meskipun kata 'dollars' jamak).",
+        "hints": [
+          "Uang sebagai satu jumlah nilai total bukan item terpisah.",
+          "Jangan memakai 'fewer than' untuk jumlah total nilai uang."
+        ],
+        "skill": "quantifier-fewer-less"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai pola 'a great deal of' untuk kata benda abstrak.",
+        "targetSentence": "The policy overhaul demanded a great deal of patience from everyone.",
+        "explanation": "'A great deal of' hanya digunakan bersama uncountable noun seperti 'patience'.",
+        "hints": [
+          "Awali dengan 'The policy overhaul demanded'.",
+          "Gunakan 'a great deal of patience'."
+        ],
+        "skill": "quantifier-amount-number"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata pengukur tepat untuk 'research' dan 'studies'.",
+        "targetSentence": "Little research exists on this glacier, though several studies mention it.",
+        "explanation": "'Research' bersifat uncountable ('Little research exists'), sedangkan 'studies' jamak terhitung ('several studies').",
+        "hints": [
+          "Mulai dengan 'Little research exists on this glacier,'.",
+          "Sambungkan dengan 'though several studies mention it'."
+        ],
+        "skill": "quantifier-few-little"
       }
     ]
   }

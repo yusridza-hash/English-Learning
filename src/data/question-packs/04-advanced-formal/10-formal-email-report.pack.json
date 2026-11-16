@@ -99,6 +99,167 @@
           "Tujuan laporan: 'the feasibility of expanding our operations'."
         ],
         "skill": "report-introduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "When you open a formal letter with 'Dear Mr. Hartono,', which complimentary close matches British and international business conventions?",
+        "options": [
+          "Yours sincerely,",
+          "Yours faithfully,",
+          "Best wishes forever,"
+        ],
+        "answer": 0,
+        "explanation": "Aturan klasik korespondensi: jika nama penerima DISEBUTKAN ('Dear Mr. Hartono,'), tutup dengan 'Yours sincerely,' atau 'Sincerely,'; 'Yours faithfully,' khusus bila nama penerima tidak diketahui ('Dear Sir or Madam,').",
+        "hints": [
+          "Nama penerima disebutkan secara eksplisit ('Mr. Hartono').",
+          "Dengan nama → 'Yours sincerely'; tanpa nama → 'Yours faithfully'."
+        ],
+        "skill": "salutations-and-valedictions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which opening line states the purpose of a formal inquiry email most professionally?",
+        "options": [
+          "I am writing to inquire about group registration rates for the November summit.",
+          "I just wanted to drop a quick line wondering how much tickets cost.",
+          "Hey, please tell me right now what the group rates are."
+        ],
+        "answer": 0,
+        "explanation": "Formula baku pembuka email bisnis resmi untuk tujuan bertanya: 'I am writing to inquire about...'.",
+        "hints": [
+          "Cari pembuka email yang jelas, ringkas, dan sopan.",
+          "Hindari 'Hey' atau 'drop a quick line' dalam konteks resmi."
+        ],
+        "skill": "stating-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the standard formal phrase used to direct a recipient to an attached PDF file:",
+        "options": [
+          "Please find attached the quarterly expense summary for your review.",
+          "Here is the PDF thing I stuck onto this email.",
+          "Look down below for the file I attached just now."
+        ],
+        "answer": 0,
+        "explanation": "'Please find attached...' atau 'I have attached...' adalah formula standar dan elegan dalam korespondensi profesional.",
+        "hints": [
+          "Hindari ungkapan kasual seperti 'PDF thing' atau 'stuck onto'.",
+          "Gunakan formula standar 'Please find attached...'."
+        ],
+        "skill": "attachment-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which heading belongs inside an executive business report rather than a casual chat?",
+        "options": [
+          "2. Key Findings and Budget Implications",
+          "Stuff We Found Out Lately",
+          "Why Things Went Kinda Wrong"
+        ],
+        "answer": 0,
+        "explanation": "Judul subbab laporan (report headings) harus ringkas, nominalisasi terstruktur, dan netral ('Key Findings and Budget Implications').",
+        "hints": [
+          "Report heading memakai frasa nomina padat tanpa slang.",
+          "Pilih heading paling profesional."
+        ],
+        "skill": "report-headings-structure"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi penutup email formal yang berisi ajakan tindakan sopan (call to action).",
+        "dialogue": [
+          [
+            "Sender",
+            "We have prepared two options for the logistics schedule."
+          ],
+          [
+            "Closer",
+            "___ your preferred delivery window by Thursday afternoon so we can lock in the carrier."
+          ]
+        ],
+        "options": [
+          "Could you please confirm",
+          "Answer me fast about",
+          "You better pick"
+        ],
+        "answer": 0,
+        "explanation": "'Could you please confirm...' atau 'We would appreciate it if you could confirm...' menjaga nada kerjasama yang santun sekaligus tegas soal tenggat.",
+        "hints": [
+          "Ajakan tindakan harus sopan namun jelas batas waktunya.",
+          "Pilih formula 'Could you please confirm'."
+        ],
+        "skill": "call-to-action-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "In a formal business report, where do 'Recommendations' normally appear in standard report order?",
+        "options": [
+          "Near the end, following Findings and Conclusions",
+          "Before the Title Page and Terms of Reference",
+          "Inside the email subject line"
+        ],
+        "answer": 0,
+        "explanation": "Urutan baku laporan resmi: Title/Executive Summary → Introduction (Terms of Reference) → Methodology/Findings → Conclusions → Recommendations.",
+        "hints": [
+          "Rekomendasi disusun setelah analisis temuan dan kesimpulan.",
+          "Letaknya di bagian akhir laporan."
+        ],
+        "skill": "report-structure-order"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan perpaduan sapaan tanpa nama dan penutup surat yang tidak cocok berikut.",
+        "draft": "Dear Sir or Madam, Please find enclosed our revised compliance tender. Yours sincerely, Farhan",
+        "options": [
+          "Dear Sir or Madam, Please find enclosed our revised compliance tender. Yours faithfully, Farhan",
+          "Dear Sir or Madam, Please find enclosed our revised compliance tender. Yours truly best, Farhan",
+          "Dear Sir, Enclosed is our tender. Warm hugs, Farhan"
+        ],
+        "answer": 0,
+        "explanation": "Karena pembuka tidak menyebut nama orang ('Dear Sir or Madam,'), penutup tradisional resminya adalah 'Yours faithfully,' (bukan 'Yours sincerely,').",
+        "hints": [
+          "Periksa aturan pasangan 'Dear Sir or Madam' → 'Yours faithfully'.",
+          "Ganti 'Yours sincerely' menjadi 'Yours faithfully'."
+        ],
+        "skill": "salutations-and-valedictions"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which introductory phrase fits the opening of a formal feasibility report?",
+        "options": [
+          "The purpose of this report is to evaluate two solar microgrid proposals.",
+          "In this short write-up I wanna talk about solar panels.",
+          "Let's check out if solar grids are worth doing."
+        ],
+        "answer": 0,
+        "explanation": "'The purpose of this report is to evaluate...' adalah kalimat pembuka klasik dan lugas untuk laporan analitis.",
+        "hints": [
+          "Pembuka laporan memakai nada objektif dan kata kerja evaluatif presisi.",
+          "Pilih 'The purpose of this report is to evaluate...'."
+        ],
+        "skill": "report-introduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penutup sopan menawarkan bantuan lanjutan di email bisnis.",
+        "targetSentence": "Should you have any questions regarding the contract terms, please do not hesitate to contact us.",
+        "explanation": "Formula baku penutup email resmi memakai inversi sopan 'Should you have any questions...'.",
+        "hints": [
+          "Awali dengan 'Should you have any questions regarding the contract terms,'.",
+          "Akhiri dengan 'please do not hesitate to contact us'."
+        ],
+        "skill": "courtesy-closings"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat rekomendasi laporan formal menggunakan modal 'should' atau 'is recommended'.",
+        "targetSentence": "It is recommended that regional warehouses install automated temperature loggers prior to summer.",
+        "explanation": "Formula rekomendasi laporan memakai impersonal 'It is recommended that + S + V1 (subjunctive)'.",
+        "hints": [
+          "Mulai dengan 'It is recommended that regional warehouses'.",
+          "Lengkapi V1 subjunctive 'install' dan objeknya."
+        ],
+        "skill": "report-recommendations"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'in the minutes'."
         ],
         "skill": "report-terminology"
+      },
+      {
+        "type": "choice",
+        "prompt": "When delivering negative news diplomatically in a client email (rejecting a discount request), which structure maintains goodwill best?",
+        "options": [
+          "Acknowledge the partnership -> state the refusal neutrally with a clear reason -> offer a constructive alternative",
+          "State 'No, your request is denied' in bold red uppercase -> end immediately",
+          "Apologize twenty times while blaming the accounting intern by name"
+        ],
+        "answer": 0,
+        "explanation": "Dalam komunikasi bisnis, menyampaikan kabar buruk memakai pendekatan taktis 'buffer (apresiasi) → alasan objektif & penolakan sopan → opsi alternatif' menjaga hubungan jangka panjang tanpa merendahkan pihak mana pun.",
+        "hints": [
+          "Hindari penolakan kasar maupun menyalahkan individu internal.",
+          "Gunakan alur diplomatis 3 langkah."
+        ],
+        "skill": "delivering-negative-news"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace the vague email subject 'Question / Help!' with a crisp, scannable business subject line:",
+        "options": [
+          "Action Required: Approval of Q4 Freight Budget by Oct 18",
+          "Read this ASAP please thanks",
+          "Quick thing about some money issues"
+        ],
+        "answer": 0,
+        "explanation": "Subjek email bisnis yang efektif langsung mencantumkan jenis tindakan ('Action Required:'), topik spesifik, dan tenggat waktu ('by Oct 18').",
+        "hints": [
+          "Subjek email harus langsung jelas isi dan urgensi waktunya tanpa memaksa.",
+          "Pilih format 'Action Required: [Topik] by [Tanggal]'."
+        ],
+        "skill": "stating-purpose"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang menyusun kalimat 'Findings' laporan dengan istilah terukur.",
+        "dialogue": [
+          [
+            "Lead",
+            "Which verb phrase sounds objective in our warehouse audit findings: 'We noticed lots of delays' or '___'?"
+          ],
+          [
+            "Analyst",
+            "'Inspection logs indicated that 18% of cold-chain dispatches exceeded the two-hour loading threshold.'"
+          ]
+        ],
+        "options": [
+          "specific quantified evidence with neutral reporting verbs",
+          "emotional complaints about slow morning crews",
+          "unverified rumors from temporary drivers"
+        ],
+        "answer": 0,
+        "explanation": "Laporan resmi tidak memakai kesan emosional ('lots of delays'); ia menyajikan angka persentase terukur dan sumber data spesifik ('Inspection logs indicated...').",
+        "hints": [
+          "Laporan membutuhkan data terukur dan kata kerja pelapor objektif.",
+          "Pilih deskripsi temuan faktual berbasis angka."
+        ],
+        "skill": "report-terminology"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the tactful diplomatic phrase for requesting overdue invoice payment in a second reminder:",
+        "options": [
+          "We would be grateful if you could arrange settlement of Invoice #408 at your earliest convenience.",
+          "Pay us right now before we call our lawyers tomorrow morning.",
+          "Why haven't you bothered sending our money since August?"
+        ],
+        "answer": 0,
+        "explanation": "'We would be grateful if you could arrange settlement...' tetap tegas menagih hak perusahaan namun menjaga citra profesional dan hubungan klien.",
+        "hints": [
+          "Nada surat pengingat tagihan kedua perlu sopan tapi tegas.",
+          "Gunakan 'arrange settlement... at your earliest convenience'."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify an accurate sentence opening a formal Incident / Crisis Update to stakeholders:",
+        "options": [
+          "We are writing to inform you of a temporary service interruption that occurred earlier today.",
+          "Oops! Everything crashed this morning and we are freaking out.",
+          "Bad news guys — our server completely blew up around noon."
+        ],
+        "answer": 0,
+        "explanation": "Komunikasi krisis harus tenang, transparan, menghindari kepanikan, dan membuka dengan formula resmi 'We are writing to inform you of...'.",
+        "hints": [
+          "Komunikasi krisis butuh ketenangan, fakta objektif, dan profesionalisme.",
+          "Pilih pembuka resmi yang terukur."
+        ],
+        "skill": "crisis-communication-protocol"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan nada menuntut kasar dan register campuran dalam email tindak lanjut proyek berikut.",
+        "draft": "Hey Mr. Tan, I need the signed blueprints right now because we're already behind, get back to me ASAP!",
+        "options": [
+          "Dear Mr. Tan, We would appreciate receiving the signed blueprints by 3:00 p.m. today so that site mobilization can stay on schedule. Kind regards,",
+          "Mr. Tan, Send me the blueprints ASAP because we are super behind right now. Sincerely,",
+          "Dear Mr. Tan, You didn't send the blueprints yet, so drop everything and email them. Cheers,"
+        ],
+        "answer": 0,
+        "explanation": "Mengganti perintah kasar ('I need ... right now', 'get back to me ASAP!') dengan 'We would appreciate receiving... by [exact time] so that...' menjelaskan dampak jadwal secara jelas tanpa terdengar agresif.",
+        "hints": [
+          "Ganti 'Hey' dan 'ASAP!' menjadi tenggat spesifik dan alasan operasional yang sopan.",
+          "Jaga sapaan dan penutup yang serasi."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "choice",
+        "prompt": "When referencing a specific section of an annual report cleanly, use standard report terminology: 'As detailed in ___ 3.2, solar yield peaked in August.'",
+        "options": [
+          "Section / Subsection",
+          "Chunk",
+          "Bit"
+        ],
+        "answer": 0,
+        "explanation": "Istilah formal untuk bagian laporan adalah 'Section', 'Subsection', atau 'Appendix' (bukan 'Chunk' atau 'Bit').",
+        "hints": [
+          "Gunakan nomenklatur dokumen formal.",
+          "Pilih 'Section / Subsection'."
+        ],
+        "skill": "report-terminology"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence closes a formal recommendation section concisely?",
+        "options": [
+          "In light of these cost savings, full migration to LED dock lighting is strongly recommended.",
+          "So anyway, buying LED lights is probably a pretty cool idea for us.",
+          "I think LEDs might be neat to put up if anyone agrees."
+        ],
+        "answer": 0,
+        "explanation": "Rekomendasi laporan sebaiknya impersonal dan terhubung langsung ke bukti sebelumnya ('In light of these cost savings, ... is strongly recommended').",
+        "hints": [
+          "Gunakan konstruksi impersonal tegas yang terhubung dengan alasan bukti.",
+          "Hindari 'pretty cool' atau 'I think ... neat'."
+        ],
+        "skill": "report-recommendations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka formal untuk menyampaikan penolakan aplikasi secara sopan.",
+        "targetSentence": "Thank you for your interest; unfortunately, we are unable to offer an internship placement this term.",
+        "explanation": "Mengucapkan terima kasih terlebih dulu diikuti 'unfortunately, we are unable to...' menjaga martabat pelamar.",
+        "hints": [
+          "Awali dengan 'Thank you for your interest;'.",
+          "Sambungkan penolakan sopan 'unfortunately, we are unable to...'."
+        ],
+        "skill": "delivering-negative-news"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pernyataan ruang lingkup dalam pendahuluan laporan (Terms of Reference).",
+        "targetSentence": "This report examines quarterly freight delays across three maritime hubs and proposes mitigation steps.",
+        "explanation": "Kalimat pendahuluan lugas menyatakan cakupan objek ('three maritime hubs') dan tujuannya ('proposes mitigation steps').",
+        "hints": [
+          "Mulai dengan 'This report examines quarterly freight delays'.",
+          "Lengkapi ruang lingkup dan tujuannya."
+        ],
+        "skill": "report-introduction"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Pilih 'three to one over the designated five-year horizon'."
         ],
         "skill": "report-terminology"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine Crisis Communication best practices when the exact root cause of a service outage is still under investigation: which sentence avoids premature liability while reassuring clients?",
+        "options": [
+          "While our engineering team has already restored primary access, a comprehensive root-cause analysis is underway and will be shared within 24 hours.",
+          "It was definitely our new database vendor's terrible fault, and we promise nothing can ever go wrong again.",
+          "We have no clue what broke or when anything might ever be fixed."
+        ],
+        "answer": 0,
+        "explanation": "Dalam komunikasi krisis korporat tingkat lanjut, jangan langsung menyalahkan vendor maupun berjanji mustahil ('never go wrong again'); nyatakan status pemulihan saat ini, investigasi berjalan, dan komitmen jadwal pembaruan berikutnya.",
+        "hints": [
+          "Komunikasi krisis profesional menyatakan fakta terverifikasi + langkah pemulihan + jadwal update.",
+          "Hindari menyalahkan pihak lain tanpa audit atau bersikap panik."
+        ],
+        "skill": "crisis-communication-protocol"
+      },
+      {
+        "type": "choice",
+        "prompt": "When issuing a formal final payment notice (elevating firmness without losing legal dignity), which phrasing sets explicit escalation steps cleanly?",
+        "options": [
+          "Should payment remain outstanding beyond October 30, we will be obliged to suspend account privileges in accordance with Clause 11.",
+          "Pay your overdue invoice right now or we will ruin your company reputation everywhere!",
+          "Please maybe think about paying whenever you happen to find spare cash."
+        ],
+        "answer": 0,
+        "explanation": "Menggunakan inversi kondisional sopan ('Should payment remain outstanding beyond [date]') + konsekuensi faktual merujuk klausul kontrak ('we will be obliged to...') menjaga kewibawaan hukum surat resmi.",
+        "hints": [
+          "Gunakan bahasa kontraktual objektif berbasis tanggal batas dan klausul.",
+          "Hindari ancaman emosional maupun nada terlalu memohon."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pengurutan informasi dan gaya laporan eksekutif yang mencampur rekomendasi mentah di dalam bagian metodologi berikut.",
+        "draft": "Methodology: Staff interviewed forty retail suppliers, and therefore management should immediately replace all paper invoices with QR billing next Monday.",
+        "options": [
+          "Methodology: Staff interviewed forty structured retail suppliers across four provinces to identify invoicing bottlenecks.",
+          "Methodology: Staff interviewed forty retail suppliers, so obviously paper invoices are awful and must go immediately.",
+          "Findings and Methodology: Replacing paper invoices is the main methodology of our interview with forty suppliers."
+        ],
+        "answer": 0,
+        "explanation": "Kesalahan struktur laporan yang serius adalah menaruh rekomendasi tindakan ('management should immediately replace...') di dalam bagian METHODOLOGY; bagian Methodology hanya menjelaskan siapa, bagaimana, dan cakupan pengumpulan data.",
+        "hints": [
+          "Bagian 'Methodology' harus netral menjelaskan proses riset, bukan memberi rekomendasi kebijakan.",
+          "Simpan rekomendasi untuk bagian akhir 'Recommendations'."
+        ],
+        "skill": "report-structure-order"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan manajerial mengenai nada diplomatis saat mengoreksi kesalahan klien eksternal.",
+        "dialogue": [
+          [
+            "Account Lead",
+            "The client forgot to include their tax ID on the PO, delaying shipment. How do I phrase that without sounding accusatory?"
+          ],
+          [
+            "Director",
+            "Use impersonal framing focused on the document rather than 'you forgot': '___.'"
+          ]
+        ],
+        "options": [
+          "To complete customs clearance, could you kindly provide your updated tax ID number?",
+          "Because you carelessly forgot your tax ID again, your crate is stuck.",
+          "Your mistake on the purchase order stopped our warehouse from shipping."
+        ],
+        "answer": 0,
+        "explanation": "Dalam email profesional, menghindari kata ganti tuduhan 'you forgot / your mistake' dan memfokuskan permintaan pada persyaratan proses ('To complete customs clearance, could you kindly provide...') mencegah defensivitas penerima.",
+        "hints": [
+          "Fokus pada proses dan solusi ke depan, bukan menyalahkan kelalaian penerima.",
+          "Hilangkan kata tuduhan 'you forgot / your mistake'."
+        ],
+        "skill": "delivering-negative-news"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how Executive Summaries differ from Introductions in formal reports: an Executive Summary MUST provide ___ upfront for time-pressed decision makers.",
+        "options": [
+          "a concise distillation of purpose, key findings, conclusions, and main recommendations",
+          "only a vague teaser withholding the conclusions until Page 40",
+          "every single raw interview transcript in full"
+        ],
+        "answer": 0,
+        "explanation": "Berbeda dari 'Introduction' yang hanya membuka topik, 'Executive Summary' adalah versi mini utuh laporan yang langsung memaparkan temuan inti dan rekomendasi di halaman awal.",
+        "hints": [
+          "Executive Summary memberi gambaran lengkap hasil & rekomendasi untuk pembaca eksekutif yang sibuk.",
+          "Jangan menahan kesimpulan di Executive Summary."
+        ],
+        "skill": "report-structure-order"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence handles third-party reference cleanly inside a formal recommendation report?",
+        "options": [
+          "Based on the comparative cost model outlined in Appendix C, centralizing cold-chain dispatch yields an estimated 14% annual saving.",
+          "Looking at what I scribbled in Appendix C, centralizing stuff saves around 14% or so.",
+          "Appendix C basically tells us that we should probably centralize dispatch maybe."
+        ],
+        "answer": 0,
+        "explanation": "Merujuk ke lampiran dengan frasa partisipel/preposisional presisi ('Based on the comparative cost model outlined in Appendix C,') menunjukkan ketelitian analitis laporan.",
+        "hints": [
+          "Padukan rujukan lampiran spesifik dan angka estimasi yang jernih.",
+          "Hindari 'scribbled', 'stuff', atau ketidakpastian 'probably ... maybe'."
+        ],
+        "skill": "report-terminology"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan klaim hukum 'without prejudice' atau penutup lampiran yang klise berikut.",
+        "draft": "Enclosed herewith please find attached the above-mentioned signed affidavit of the same.",
+        "options": [
+          "Please find attached the signed affidavit referenced above.",
+          "Please find enclosed herewith attached the same signed affidavit.",
+          "Herewith find attached the above-said affidavit of the same."
+        ],
+        "answer": 0,
+        "explanation": "Menumpuk klise birokratis usang ('Enclosed herewith please find attached... above-mentioned... of the same') adalah gaya kuno bertele-tele; ganti dengan kalimat modern yang bersih dan profesional ('Please find attached the signed affidavit referenced above').",
+        "hints": [
+          "Hindari tumpukan kata usang 'herewith', 'above-mentioned', 'of the same'.",
+          "Gunakan formula modern yang ringkas dan jelas."
+        ],
+        "skill": "attachment-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal stakeholder apologies after an operational error, pairing ownership with concrete remediation is crucial: 'We take full responsibility for this dispatch error and ___ a complimentary express replacement at zero cost.'",
+        "options": [
+          "have already dispatched",
+          "will think about maybe sending",
+          "cannot confirm whether anyone cares to send"
+        ],
+        "answer": 0,
+        "explanation": "Permintaan maaf bisnis yang kredibel menyatakan tanggung jawab penuh lalu langsung menyebutkan tindakan perbaikan nyata yang sudah diambil ('have already dispatched').",
+        "hints": [
+          "Tunjukkan tindakan korektif nyata, bukan keraguan.",
+          "Pilih 'have already dispatched'."
+        ],
+        "skill": "crisis-communication-protocol"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat eskalasi tagihan resmi yang tetap diplomatis memakai inversi 'Should'.",
+        "targetSentence": "Should unforeseen delays affect your transfer schedule, please notify our finance desk before Friday.",
+        "explanation": "Pembuka inversi 'Should...' memperhalus nada komunikasi batas waktu pembayaran.",
+        "hints": [
+          "Awali dengan 'Should unforeseen delays affect your transfer schedule,'.",
+          "Lanjutkan permintaan pemberitahuan yang sopan."
+        ],
+        "skill": "formal-demand-tone"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat rekomendasi laporan bertingkat menggunakan konstruksi pasif 'is proposed'.",
+        "targetSentence": "A phased pilot across two regional depots is proposed prior to full national rollout.",
+        "explanation": "Rekomendasi kebijakan dengan 'is proposed prior to...' menjaga objektivitas nada eksekutif.",
+        "hints": [
+          "Mulai dengan 'A phased pilot across two regional depots is proposed'.",
+          "Akhiri dengan 'prior to full national rollout'."
+        ],
+        "skill": "report-recommendations"
       }
     ]
   }

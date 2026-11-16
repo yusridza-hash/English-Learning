@@ -99,6 +99,167 @@
           "Negatif infinitive: 'not to touch the exhibit'."
         ],
         "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Maya denied ___ any confidential client numbers to external contractors.",
+        "options": [
+          "leaking",
+          "to leak",
+          "leak"
+        ],
+        "answer": 0,
+        "explanation": "Reporting verb 'deny' wajib diikuti gerund (V-ing) atau that-clause, bukan to-infinitive.",
+        "hints": [
+          "Lihat verb pelapor 'denied'.",
+          "'Deny + V-ing'."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "The safety officer reminded all lab assistants ___ their protective visors before entering.",
+        "options": [
+          "to wear",
+          "wearing",
+          "wear"
+        ],
+        "answer": 0,
+        "explanation": "Pola 'remind + someone + to + V1' wajib menyertakan objek orang dan to-infinitive.",
+        "hints": [
+          "Setelah objek 'all lab assistants', gunakan to-infinitive.",
+          "Pola: remind + sb + to V1."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our mentor advised ___ a concise outline before drafting the twenty-page thesis.",
+        "options": [
+          "writing",
+          "us write",
+          "to writing"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa objek manusia di belakangnya, 'advise' langsung diikuti gerund ('advise writing'); jika memakai objek orang, barulah 'advise someone to write'.",
+        "hints": [
+          "Tidak ada objek orang tepat setelah 'advised'.",
+          "'Advise' tanpa objek orang memakai V-ing."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "The vendor apologized ___ delivering the acoustic panels two days behind schedule.",
+        "options": [
+          "for",
+          "about to",
+          "of"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan preposisi tetap untuk 'apologize' sebelum gerund/noun adalah 'for' ('apologize for + V-ing').",
+        "hints": [
+          "Cari preposisi tetap dari 'apologize'.",
+          "'Apologize for doing something'."
+        ],
+        "skill": "reporting-prepositions"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang pelaporan janji dengan reporting verb yang presisi.",
+        "dialogue": [
+          [
+            "Lead",
+            "What did the cloud provider guarantee in writing?"
+          ],
+          [
+            "Engineer",
+            "They ___ to compensate any downtime exceeding ten minutes."
+          ]
+        ],
+        "options": [
+          "promised",
+          "suggested",
+          "insisted"
+        ],
+        "answer": 0,
+        "explanation": "Hanya 'promise' yang dapat diikuti langsung oleh to-infinitive ('promised to compensate'); 'suggest' dan 'insist' tidak memakai to-infinitive.",
+        "hints": [
+          "Lihat 'to compensate' tepat di belakang rumpang.",
+          "Hanya 'promised' berpola verb + to V1."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "The coordinator accused the freight agency ___ misplacing three priority crates.",
+        "options": [
+          "of",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "Pola baku 'accuse' adalah 'accuse + someone + of + V-ing'.",
+        "hints": [
+          "Pasangan tetap dari 'accuse' adalah 'of'.",
+          "Pilih 'of'."
+        ],
+        "skill": "reporting-prepositions"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan struktur verb pelapor 'insist' pada kalimat berikut.",
+        "draft": "Our project lead insisted to double-check every formula prior to publication.",
+        "options": [
+          "Our project lead insisted on double-checking every formula prior to publication.",
+          "Our project lead insisted us to double-check every formula prior to publication.",
+          "Our project lead insisted double-check every formula prior to publication."
+        ],
+        "answer": 0,
+        "explanation": "'Insist' tidak memakai to-infinitive ('insist to...'); pola yang tepat adalah 'insist on + V-ing' atau 'insist that + S + verb'.",
+        "hints": [
+          "Verb 'insist' berpasangan dengan preposisi 'on' + gerund.",
+          "Ubah 'to double-check' menjadi 'on double-checking'."
+        ],
+        "skill": "reporting-prepositions"
+      },
+      {
+        "type": "choice",
+        "prompt": "She congratulated her junior partner ___ securing the regional sustainability grant.",
+        "options": [
+          "on",
+          "for to",
+          "at"
+        ],
+        "answer": 0,
+        "explanation": "Ungkapan selamat resmi memakai 'congratulate + someone + on + V-ing' (atau 'for' dalam ragam ringan; opsi baku tes adalah 'on').",
+        "hints": [
+          "Pasangan baku 'congratulate someone...' adalah 'on'.",
+          "Pilih 'on'."
+        ],
+        "skill": "reporting-prepositions"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan memakai 'warn + someone + not to + V1'.",
+        "targetSentence": "The harbor master warned boaters not to cross the channel during high tide.",
+        "explanation": "Peringatan negatif memakai 'warned + objek + not to + V1'.",
+        "hints": [
+          "Awali dengan 'The harbor master warned boaters'.",
+          "Tambahkan larangan 'not to cross the channel during high tide'."
+        ],
+        "skill": "reporting-verb-patterns"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan penyesalan dengan 'regret + V-ing'.",
+        "targetSentence": "He later regretted rejecting the collaborative fellowship in Oslo.",
+        "explanation": "Menyesali keputusan lampau memakai 'regret + V-ing' ('regretted rejecting').",
+        "hints": [
+          "Mulai dengan 'He later regretted rejecting'.",
+          "Lengkapi objek dan lokasi."
+        ],
+        "skill": "reporting-verb-gerund"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'having'."
         ],
         "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal policy recommendations, which verb triggers the Mandative Subjunctive ('that + subject + bare verb')?",
+        "options": [
+          "recommended that every contract be audited",
+          "recommended us to audit every contract",
+          "recommended that every contract is been audited"
+        ],
+        "answer": 0,
+        "explanation": "'Recommend', 'suggest', 'propose', dan 'demand' + 'that' mewajibkan kata kerja dasar tanpa konjugasi ('be', bukan 'is/was') dalam bahasa formal (dan tidak boleh 'recommend + sb + to V1').",
+        "hints": [
+          "Subjunctive sesudah 'recommended that...' memakai bare infinitive 'be'.",
+          "Jangan memakai 'recommended us to...'."
+        ],
+        "skill": "mandative-subjunctive"
+      },
+      {
+        "type": "choice",
+        "prompt": "The physics professor reminded students that sound waves ___ faster through steel than through air.",
+        "options": [
+          "travel",
+          "traveled only yesterday",
+          "had been travel"
+        ],
+        "answer": 0,
+        "explanation": "Hukum alam atau fakta ilmiah universal ('sound waves travel faster through steel...') mempertahankan Present Simple meskipun reporting verb berbentuk lampau ('reminded').",
+        "hints": [
+          "Ini adalah fakta fisika yang selalu berlaku sepanjang masa.",
+          "Fakta ilmiah permanen tidak perlu mengalami backshift."
+        ],
+        "skill": "no-backshift-universal-truth"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog tentang pelaporan informasi yang masih relevan saat ini.",
+        "dialogue": [
+          [
+            "Manager",
+            "Wait — didn't Dani text earlier today saying he is staying in Bandung until Friday?"
+          ],
+          [
+            "Assistant",
+            "Yes, he texted at nine that he ___ in Bandung all week, and today is only Tuesday."
+          ]
+        ],
+        "options": [
+          "is staying",
+          "had stayed last year",
+          "stay"
+        ],
+        "answer": 0,
+        "explanation": "Karena rencana tinggal di Bandung sampai Jumat masih berlangsung sekarang ('today is only Tuesday'), bahasa Inggris modern mempertahankan Present Continuous ('is staying') demi menjaga relevansi kini.",
+        "hints": [
+          "Hari ini baru Selasa, jadi informasi itu masih aktif berlaku.",
+          "Current relevance membolehkan tanpa backshift ('is staying')."
+        ],
+        "skill": "backshift-current-relevance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the accurate reported form of: 'If you had locked the cabinet, the files would be safe.'",
+        "options": [
+          "She pointed out that if we had locked the cabinet, the files would be safe.",
+          "She pointed out that if we would lock the cabinet, the files will be safe.",
+          "She pointed out that if we locked the cabinet, the files had been safe."
+        ],
+        "answer": 0,
+        "explanation": "Second/Third/Mixed Conditional dalam ucapan asli SUDAH berada di bentuk mundur terjauh, sehingga tidak berubah lagi dalam reported speech.",
+        "hints": [
+          "Conditional Tipe 2, 3, dan Mixed tidak mengalami backshift lebih lanjut.",
+          "Pertahankan 'had locked' dan 'would be'."
+        ],
+        "skill": "reported-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "The attorney ___ having altered any clause in the final annex.",
+        "options": [
+          "strenuously denied",
+          "strenuously refused",
+          "strenuously promised"
+        ],
+        "answer": 0,
+        "explanation": "Verb yang langsung diikuti Perfect Gerund ('having altered') dan bermakna membantah tuduhan adalah 'denied' ('refused' dan 'promised' memakai to-infinitive).",
+        "hints": [
+          "Perhatikan bentuk '-ing' ('having altered') tepat di belakang rumpang.",
+          "Hanya 'denied' cocok secara makna dan struktur gerund."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan reporting verb 'suggest' yang sering disalahgunakan dengan objek orang berikut.",
+        "draft": "My academic supervisor suggested me to submit the abstract before the early-bird deadline.",
+        "options": [
+          "My academic supervisor suggested that I submit the abstract before the early-bird deadline.",
+          "My academic supervisor suggested me submitting the abstract before the early-bird deadline.",
+          "My academic supervisor suggested to me submit the abstract before the early-bird deadline."
+        ],
+        "answer": 0,
+        "explanation": "'Suggest' TIDAK boleh diikuti objek orang + to-infinitive ('suggested me to...'); gunakan 'suggested that I submit...' (subjunctive) atau 'suggested submitting...'.",
+        "hints": [
+          "'Suggest' melarang keras pola 'verb + orang + to V1'.",
+          "Ubah ke 'suggested that + S + V1'."
+        ],
+        "skill": "reporting-suggest"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'I must finish this blueprint tonight.' → Reported two weeks later: She said she ___ finish that blueprint that night.",
+        "options": [
+          "had to",
+          "musts",
+          "has to"
+        ],
+        "answer": 0,
+        "explanation": "Ketika melaporkan kewajiban masa lalu yang sudah lewat dua minggu, 'must' bergeser ke bentuk lampau 'had to'.",
+        "hints": [
+          "Kewajiban tersebut terjadi dua minggu lalu.",
+          "'Must' untuk kewajiban lampau menjadi 'had to'."
+        ],
+        "skill": "modal-backshift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Direct: 'You may leave once the scanner finishes.' → Reported: The technician told us that we ___ leave once the scanner finished.",
+        "options": [
+          "might",
+          "mayed",
+          "can"
+        ],
+        "answer": 0,
+        "explanation": "Dalam backshift standar dengan reporting verb lampau ('told'), 'may' mundur menjadi 'might' dan 'finishes' menjadi 'finished'.",
+        "hints": [
+          "Kedua klausa dimundurkan ke bentuk lampau.",
+          "'May' mundur menjadi 'might'."
+        ],
+        "skill": "modal-backshift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pelaporan formal memakai Mandative Subjunctive.",
+        "targetSentence": "The audit board insisted that every overseas invoice include a verified tax code.",
+        "explanation": "'Insisted that + Subject + V1 (include)' menggunakan bare infinitive tanpa -s meski subjeknya tunggal ('invoice').",
+        "hints": [
+          "Awali dengan 'The audit board insisted that every overseas invoice'.",
+          "Gunakan verb dasar tanpa -s: 'include'."
+        ],
+        "skill": "mandative-subjunctive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan tanpa backshift untuk kebenaran umum.",
+        "targetSentence": "Our marine biologist noted that coral reefs shelter roughly a quarter of ocean species.",
+        "explanation": "Fakta ilmiah permanen tetap mempertahankan Present Simple 'shelter' setelah 'noted that'.",
+        "hints": [
+          "Mulai dengan 'Our marine biologist noted that coral reefs'.",
+          "Pasangkan Present Simple 'shelter' dan lanjutannya."
+        ],
+        "skill": "no-backshift-universal-truth"
       }
     ],
     "complex": [
@@ -338,6 +660,168 @@
         "hints": [
           "Klausa syarat bergeser ke masa lampau.",
           "Gunakan 'would be applied'."
+        ],
+        "skill": "reported-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare carefully: 'The minister ___ rumors that fuel subsidies would end' (firmly stated they are false) vs 'The committee ___ to reconsider the zoning rule' (declined/rejected a request).",
+        "options": [
+          "refuted or denied / refused",
+          "refused / denied",
+          "declined / accused"
+        ],
+        "answer": 0,
+        "explanation": "'Deny/refute' digunakan untuk menyangkal pernyataan atau rumor ('membantah rumor'), sedangkan 'refuse/decline + to V1' digunakan untuk menolak melakukan sesuatu ('menolak meninjau ulang').",
+        "hints": [
+          "Bedakan menyangkal kebenaran klaim ('deny/refute') vs menolak ajakan/permintaan ('refuse').",
+          "Perhatikan klausa vs 'to + V1' setelahnya."
+        ],
+        "skill": "journalistic-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice how journalistic style distinguishes certainty: 'The leaked memo ___ that quarterly layoffs are imminent' implies an unverified claim, whereas 'confirmed' treats it as established fact.",
+        "options": [
+          "alleged / claimed",
+          "demonstrated / proved",
+          "acknowledged / admitted"
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja pelapor jurnalistik seperti 'allege' dan 'claim' menjaga jarak netral penulis terhadap tuduhan atau pernyataan yang belum terbukti secara independen.",
+        "hints": [
+          "Cari verb yang menunjukkan klaim sepihak yang belum terverifikasi.",
+          "'Allege' dan 'claim' menandakan penulis belum mengonfirmasi kebenarannya."
+        ],
+        "skill": "journalistic-reporting-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda tenses saat melaporkan First Conditional dengan sudut pandang lampau berikut.",
+        "draft": "Earlier this morning, the contractor warned us that if the concrete didn't arrive by noon, the crew will halt pouring.",
+        "options": [
+          "Earlier this morning, the contractor warned us that if the concrete didn't arrive by noon, the crew would halt pouring.",
+          "Earlier this morning, the contractor warned us that if the concrete hadn't arrived by noon, the crew would halt pouring.",
+          "Earlier this morning, the contractor warned us that if the concrete doesn't arrive by noon, the crew would halt pouring."
+        ],
+        "answer": 0,
+        "explanation": "First Conditional ('If concrete doesn't arrive..., crew will halt...') ketika dilaporkan secara lampau ('warned us') memundurkan kedua klausa secara sejajar: 'didn't arrive' berpasangan dengan 'would halt'.",
+        "hints": [
+          "Periksa konsistensi backshift di kedua bagian conditional.",
+          "Present Simple mundur ke Past Simple ('didn't arrive'), 'will' ke 'would'."
+        ],
+        "skill": "reported-conditionals"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang konotasi verb pengutipan netral vs evaluatif.",
+        "dialogue": [
+          [
+            "Advisor",
+            "In your literature review, if you write 'Smith (2022) conceded that sample size was narrow', what stance does 'conceded' signal?"
+          ],
+          [
+            "Candidate",
+            "'Conceded' signals that Smith ___ despite perhaps wishing the data were broader."
+          ]
+        ],
+        "options": [
+          "reluctantly acknowledged a valid limitation or counter-point",
+          "enthusiastically celebrated a flawless methodology",
+          "angrily dismissed every critic without evidence"
+        ],
+        "answer": 0,
+        "explanation": "Reporting verb evaluatif seperti 'concede' (mengakui dengan agak enggan poin kelemahan/argumen lawan) jauh lebih bernuansa daripada verb netral 'stated'.",
+        "hints": [
+          "Pikirkan arti akademis kata 'concede' (= mengakui titik lemah atau argumen lawan).",
+          "Ini bukan verb netral ataupun pujian."
+        ],
+        "skill": "journalistic-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "The witness could remember little else, yet she clearly recalled ___ a blue van turn into the loading dock.",
+        "options": [
+          "seeing",
+          "to see",
+          "have saw"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'recall' (mengingat kembali peristiwa lampau) selalu diikuti gerund ('recalling seeing' / 'recalled seeing'), bukan to-infinitive.",
+        "hints": [
+          "'Recall' mengikuti pola yang sama dengan 'remember' untuk kenangan lampau.",
+          "Pasangkan gerund 'seeing'."
+        ],
+        "skill": "reporting-verb-gerund"
+      },
+      {
+        "type": "choice",
+        "prompt": "In reporting direct advice 'You really ought to back up the ledger', 'ought to' does NOT change form in backshift: 'He insisted that we ___ up the ledger.'",
+        "options": [
+          "ought to back",
+          "oughted to back",
+          "had ought backed"
+        ],
+        "answer": 0,
+        "explanation": "Modal defektif 'ought to' (seperti 'should' dan 'might') tidak memiliki bentuk lampau lain dan tetap sama ('ought to + V1') dalam reported speech.",
+        "hints": [
+          "'Ought' tidak pernah mendapat akhiran '-ed'.",
+          "Pertahankan 'ought to back'."
+        ],
+        "skill": "modal-backshift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyisipkan 'that' sebelum kata tanya dalam reported question berikut.",
+        "draft": "The board asked the treasurer that how soon the municipal bonds would mature.",
+        "options": [
+          "The board asked the treasurer how soon the municipal bonds would mature.",
+          "The board asked the treasurer that how soon would the municipal bonds mature.",
+          "The board asked to the treasurer how soon the municipal bonds would mature."
+        ],
+        "answer": 0,
+        "explanation": "Jangan pernah menggabungkan 'that' langsung sebelum kata tanya ('that how soon', 'that whether', 'that what') di dalam reported question; langsung gunakan 'how soon...' dengan urutan S+V.",
+        "hints": [
+          "Hapus kata 'that' sebelum kata tanya 'how soon'.",
+          "Pastikan urutan pernyataan tetap S + would + V1."
+        ],
+        "skill": "reported-conditionals"
+      },
+      {
+        "type": "choice",
+        "prompt": "The compliance director urged that the subsidiary ___ any further payments pending investigation.",
+        "options": [
+          "suspend",
+          "suspends",
+          "suspended to"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'urged that...', mandative subjunctive formal menggunakan bare infinitive 'suspend' tanpa '-s' meskipun subjeknya tunggal ('the subsidiary').",
+        "hints": [
+          "Subjek tunggal 'the subsidiary' tetap memakai bentuk dasar tanpa '-s' di subjunctive.",
+          "Pilih 'suspend'."
+        ],
+        "skill": "mandative-subjunctive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pelaporan jurnalistik dengan jarak kritis memakai 'alleged that'.",
+        "targetSentence": "Investigative reporters alleged that the contractor had submitted inflated mileage logs.",
+        "explanation": "'Alleged that' menjaga netralitas jurnalis terhadap klaim yang belum divonis, diikuti Past Perfect 'had submitted'.",
+        "hints": [
+          "Awali dengan 'Investigative reporters alleged that'.",
+          "Pasangkan klausa Past Perfect 'the contractor had submitted...'."
+        ],
+        "skill": "journalistic-reporting-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengandaian tipe 1 yang sudah di-backshift dalam laporan.",
+        "targetSentence": "She promised that if the spare valve arrived early, mechanics would install it overnight.",
+        "explanation": "Present Simple ('arrives') dan 'will install' dimundurkan menjadi 'arrived' dan 'would install' setelah 'She promised'.",
+        "hints": [
+          "Mulai dengan 'She promised that if the spare valve arrived early,'.",
+          "Lengkapi klausa hasil 'mechanics would install it overnight'."
         ],
         "skill": "reported-conditionals"
       }

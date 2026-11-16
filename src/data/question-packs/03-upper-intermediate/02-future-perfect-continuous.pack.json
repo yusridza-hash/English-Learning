@@ -99,6 +99,167 @@
           "Lanjutkan dengan 'they will have been married for twenty years'."
         ],
         "skill": "future-perf-cont-duration"
+      },
+      {
+        "type": "choice",
+        "prompt": "By five o'clock tomorrow, all engineers will have ___ the safety simulation.",
+        "options": [
+          "completed",
+          "complete",
+          "completing"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect Simple berpola 'will have + V3' menyatakan aksi yang sudah selesai sebelum titik waktu masa depan ('By five o'clock tomorrow').",
+        "hints": [
+          "Ada penanda batas waktu depan 'By five o'clock tomorrow'.",
+          "Future Perfect Simple membutuhkan V3 ('completed')."
+        ],
+        "skill": "future-perfect-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "By next June, our family ___ in Surabaya for ten years.",
+        "options": [
+          "will have been living",
+          "will living",
+          "have been living tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect Continuous ('will have been + V-ing') menyorot durasi berkelanjutan yang dihitung sampai satu titik di masa depan ('By next June ... for ten years').",
+        "hints": [
+          "Ada batas depan 'By next June' DAN durasi 'for ten years'.",
+          "Rumus lengkapnya: 'will have been + V-ing'."
+        ],
+        "skill": "future-perf-cont-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Will the printing shop ___ printed the brochures before Tuesday noon?",
+        "options": [
+          "have",
+          "has",
+          "been"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan Future Perfect Simple berpola 'Will + Subject + have + V3?'; selalu pakai 'have' (jangan 'has').",
+        "hints": [
+          "Setelah 'Will + subjek', auxiliary sempurna tetap 'have'.",
+          "Pilih 'have'."
+        ],
+        "skill": "future-perfect-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "By midnight, the automated script ___ have backed up all user accounts.",
+        "options": [
+          "will",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Menyatakan target penyelesaian di masa depan sebelum batas waktu ('By midnight') memakai 'will have + V3'.",
+        "hints": [
+          "Penanda 'By midnight' mengarah ke Future Perfect.",
+          "Isi dengan modal 'will'."
+        ],
+        "skill": "future-perfect-by"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog rencana proyek mengenai target penyelesaian.",
+        "dialogue": [
+          [
+            "Client",
+            "Can we review the edited video on Thursday afternoon?"
+          ],
+          [
+            "Producer",
+            "Yes — our editors ___ exported the final cut by Thursday morning."
+          ]
+        ],
+        "options": [
+          "will have",
+          "will be",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "'By Thursday morning' + V3 'exported' memerlukan Future Perfect Simple ('will have exported').",
+        "hints": [
+          "Perhatikan V3 'exported' dan batas waktu 'by Thursday morning'.",
+          "Pasangkan 'will have'."
+        ],
+        "skill": "future-perfect-by"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't visit at eight tonight; we won't have ___ unpacking the lab crates yet.",
+        "options": [
+          "finished",
+          "finish",
+          "finishing"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect negatif ('won't have + V3') menyatakan pekerjaan belum selesai pada jam tertentu nanti malam.",
+        "hints": [
+          "Setelah 'won't have', gunakan V3 'finished'.",
+          "Pola negatif Future Perfect: 'won't have + V3'."
+        ],
+        "skill": "future-perfect-negation"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk auxiliary setelah 'will' dalam kalimat durasi masa depan berikut.",
+        "draft": "By December, Nina will has been mentoring junior analysts for three full years.",
+        "options": [
+          "By December, Nina will have been mentoring junior analysts for three full years.",
+          "By December, Nina will had been mentoring junior analysts for three full years.",
+          "By December, Nina will have being mentoring junior analysts for three full years."
+        ],
+        "answer": 0,
+        "explanation": "Meskipun subjeknya tunggal ('Nina'), setelah modal 'will' TIDAK PERNAH boleh memakai 'has'; selalu gunakan bentuk dasar 'have' ('will have been mentoring').",
+        "hints": [
+          "Modal 'will' selalu diikuti bentuk dasar 'have', bukan 'has'.",
+          "Ubah 'will has' menjadi 'will have'."
+        ],
+        "skill": "future-perf-cont-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "At ten tonight, our colleagues in London ___ boarding their overnight flight.",
+        "options": [
+          "will be",
+          "will have",
+          "are been"
+        ],
+        "answer": 0,
+        "explanation": "Aksi yang SEDANG berlangsung tepat pada titik waktu masa depan tertentu ('At ten tonight') memakai Future Continuous ('will be + V-ing'), bukan Future Perfect.",
+        "hints": [
+          "Kalimat ini menyebut 'At ten tonight' (sedang berlangsung), bukan 'By ten' (sudah selesai).",
+          "Aksi sedang berjalan di masa depan memakai 'will be + V-ing'."
+        ],
+        "skill": "future-continuous-vs-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Future Perfect Simple dengan penanda waktu 'by Friday'.",
+        "targetSentence": "The committee will have reviewed every scholarship application by Friday.",
+        "explanation": "Subjek + will have + V3 ('reviewed') + objek + 'by Friday'.",
+        "hints": [
+          "Awali dengan 'The committee will have reviewed'.",
+          "Akhiri dengan 'by Friday'."
+        ],
+        "skill": "future-perfect-by"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Future Perfect Continuous untuk merayakan masa kerja.",
+        "targetSentence": "Next month, my father will have been teaching economics for thirty years.",
+        "explanation": "Penanda titik depan + subjek + will have been + V-ing + durasi 'for thirty years'.",
+        "hints": [
+          "Mulai dengan 'Next month, my father will have been'.",
+          "Pasangkan 'teaching economics for thirty years'."
+        ],
+        "skill": "future-perf-cont-form"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan Future Perfect Continuous."
         ],
         "skill": "future-perf-cont-duration"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast carefully: 'By 2030, engineers ___ four solar islands' (completed count) vs 'By 2030, they ___ solar islands across the archipelago for over a decade' (ongoing duration).",
+        "options": [
+          "will have built / will have been building",
+          "will have been building / will have built",
+          "will build / are building"
+        ],
+        "answer": 0,
+        "explanation": "Hasil terhitung selesai ('four solar islands') memakai Future Perfect Simple ('will have built'); fokus durasi proses berkelanjutan ('for over a decade') memakai Future Perfect Continuous ('will have been building').",
+        "hints": [
+          "Angka hasil tuntas memakai Future Perfect Simple.",
+          "Durasi kerja berkelanjutan memakai Future Perfect Continuous."
+        ],
+        "skill": "future-perf-simple-vs-cont"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many quarterly reports ___ our compliance unit ___ by the end of December?",
+        "options": [
+          "will / have filed",
+          "will / be filing",
+          "does / have filed"
+        ],
+        "answer": 0,
+        "explanation": "Menanyakan total kuantitas yang sudah selesai sebelum tenggat ('How many... by the end of December') memakai Future Perfect Simple ('will ... have filed').",
+        "hints": [
+          "'How many' menanyakan jumlah tuntas + batas 'by the end of December'.",
+          "Pola pertanyaan: 'will + subjek + have + V3'."
+        ],
+        "skill": "future-perf-simple-vs-cont"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kantor mengenai prediksi aktivitas yang sedang berlangsung saat itu (Future Continuous).",
+        "dialogue": [
+          [
+            "Visitor",
+            "Should I knock on Director Tan's door right at two tomorrow?"
+          ],
+          [
+            "Assistant",
+            "Better wait until three — at two o'clock, she ___ the board's quarterly call."
+          ]
+        ],
+        "options": [
+          "will be leading",
+          "will have led",
+          "leads yesterday"
+        ],
+        "answer": 0,
+        "explanation": "Pada pukul dua tepat ('at two o'clock'), rapat tersebut SEDANG berlangsung, bukan sudah selesai; gunakan Future Continuous ('will be leading').",
+        "hints": [
+          "Rapatnya sedang berjalan di jam 2 besok.",
+          "Gunakan Future Continuous 'will be + V-ing'."
+        ],
+        "skill": "future-continuous-vs-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the time the train crosses the border, I ___ for nearly nine hours without a proper break.",
+        "options": [
+          "will have been riding",
+          "will ride",
+          "have ridden"
+        ],
+        "answer": 0,
+        "explanation": "'By the time + Present Simple (crosses)' menetapkan batas masa depan, sedangkan 'for nearly nine hours' menuntut Future Perfect Continuous ('will have been riding').",
+        "hints": [
+          "Klausa 'By the time...' merujuk ke masa depan (Present Simple 'crosses').",
+          "Durasi sembilan jam hingga titik depan memakai 'will have been + V-ing'."
+        ],
+        "skill": "future-perf-cont-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Remember: in future time clauses after 'by the time' or 'before', use Present Simple instead of 'will': 'By the time the courier ___, our office will have closed.'",
+        "options": [
+          "arrives",
+          "will arrive",
+          "will have arrived"
+        ],
+        "answer": 0,
+        "explanation": "Jangan memakai 'will' di dalam klausa waktu setelah 'By the time', 'when', atau 'before'; gunakan Present Simple ('arrives').",
+        "hints": [
+          "Ini berada di dalam anak kalimat waktu setelah 'By the time'.",
+          "Subjek tunggal 'the courier' memakai Present Simple 'arrives'."
+        ],
+        "skill": "future-time-clauses"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan stative verb 'know' ke Future Perfect Continuous berikut.",
+        "draft": "By our anniversary next Sunday, my wife and I will have been knowing each other for twelve years.",
+        "options": [
+          "By our anniversary next Sunday, my wife and I will have known each other for twelve years.",
+          "By our anniversary next Sunday, my wife and I will have been know each other for twelve years.",
+          "By our anniversary next Sunday, my wife and I are knowing each other for twelve years."
+        ],
+        "answer": 0,
+        "explanation": "Stative verb seperti 'know' tidak boleh berbentuk '-ing' bahkan dengan penanda durasi 'for twelve years'; ubah menjadi Future Perfect Simple ('will have known').",
+        "hints": [
+          "'Know' adalah stative verb yang terlarang dalam Continuous.",
+          "Gunakan Future Perfect Simple 'will have known'."
+        ],
+        "skill": "future-perf-stative-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please don't phone me between seven and eight tonight; I ___ dinner with overseas clients.",
+        "options": [
+          "will be having",
+          "will have had",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "Rentang waktu spesifik di masa depan ('between seven and eight tonight') ketika aktivitas sedang berjalan memakai Future Continuous ('will be having').",
+        "hints": [
+          "Aksi sedang berlangsung selama rentang jam 7–8 malam ini.",
+          "Gunakan 'will be having'."
+        ],
+        "skill": "future-continuous-vs-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ have owned that coastal bookstore for forty years this October.",
+        "options": [
+          "will",
+          "are",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "'Own' adalah stative verb kepemilikan, sehingga durasi 'for forty years' hingga Oktober nanti memakai Future Perfect Simple: 'will have owned'.",
+        "hints": [
+          "Ada kata 'have owned' setelah rumpang.",
+          "Future Perfect Simple memakai 'will'."
+        ],
+        "skill": "future-perf-stative-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Future Continuous untuk menanyakan rencana orang lain secara sopan (tanpa kesan mendesak).",
+        "targetSentence": "Will you be using the studio tripod later this afternoon?",
+        "explanation": "Menanyakan rencana penggunaan barang secara santun dan tidak menuntut memakai Future Continuous ('Will you be + V-ing?').",
+        "hints": [
+          "Awali dengan 'Will you be using'.",
+          "Tambahkan objek dan keterangan waktu."
+        ],
+        "skill": "future-continuous-nuance"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Future Perfect Simple dengan klausa 'before + Present Simple'.",
+        "targetSentence": "We will have tested every sensor before the inspection team arrives.",
+        "explanation": "Klausa hasil 'will have + V3', diikuti klausa waktu Present Simple 'before... arrives'.",
+        "hints": [
+          "Mulai dengan 'We will have tested every sensor'.",
+          "Akhiri dengan 'before the inspection team arrives'."
+        ],
+        "skill": "future-time-clauses"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan Future Continuous."
         ],
         "skill": "future-continuous-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at this inferential (deductive) use of Future Perfect: 'Wait — why are you rushing to the airport now? The London flight ___ by now!'",
+        "options": [
+          "will have landed",
+          "will be landing yesterday",
+          "is landed"
+        ],
+        "answer": 0,
+        "explanation": "Selain waktu mendatang, 'will have + V3' sering dipakai untuk DEDUKSI logis mengenai hal yang hampir pasti SUDAH terjadi pada saat ini ('by now' = pastinya sekarang sudah mendarat).",
+        "hints": [
+          "Perhatikan 'by now' yang berarti asumsi pasti saat ini.",
+          "'Will have + V3' dapat menyatakan deduksi logis masa kini."
+        ],
+        "skill": "future-continuous-deduction"
+      },
+      {
+        "type": "choice",
+        "prompt": "Similarly, Future Continuous can express present supposition: 'Don't wake Maya up; at this hour in Berlin, she ___ soundly.'",
+        "options": [
+          "will be sleeping",
+          "will have been slept",
+          "sleeps tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "'Will be + V-ing' kerap menyatakan dugaan logis tentang apa yang kemungkinan besar sedang dilakukan seseorang saat ini di zona waktu lain ('at this hour in Berlin').",
+        "hints": [
+          "Menduga aktivitas yang sedang berlangsung saat ini di zona waktu berbeda.",
+          "Gunakan 'will be + V-ing'."
+        ],
+        "skill": "future-continuous-deduction"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk pasif Future Perfect dan pengandaian klausa waktu berikut.",
+        "draft": "By the time our regional audit will conclude next month, forty new compliance standards will have been adopting.",
+        "options": [
+          "By the time our regional audit concludes next month, forty new compliance standards will have been adopted.",
+          "By the time our regional audit will conclude next month, forty new compliance standards will have adopted.",
+          "By the time our regional audit concludes next month, forty new compliance standards will have been adopting."
+        ],
+        "answer": 0,
+        "explanation": "Dua perbaikan penting: 1) setelah 'By the time', hilangkan 'will' menjadi Present Simple ('concludes'); 2) standar diadopsi secara pasif, jadi pakai Future Perfect Passive ('will have been adopted', V3).",
+        "hints": [
+          "Cek klausa waktu ('By the time...') dan bentuk pasif standar kebijakan.",
+          "Future Perfect Passive berpola 'will have been + V3'."
+        ],
+        "skill": "future-perfect-by"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan negosiasi sopan memakai Future Continuous ('Will you be + V-ing?') agar tidak terdengar seperti perintah.",
+        "dialogue": [
+          [
+            "Intern",
+            "Which phrasing sounds more tactful to ask our senior partner about his travel?"
+          ],
+          [
+            "Mentor",
+            "Ask '___ to the Jakarta summit this Thursday?' — it asks about existing plans without pressuring him."
+          ]
+        ],
+        "options": [
+          "Will you be flying",
+          "Will you fly now please",
+          "Do you have flown"
+        ],
+        "answer": 0,
+        "explanation": "'Will you be flying...?' terdengar jauh lebih sopan dan tidak memaksa daripada 'Will you fly...?' (yang terkesan menagih janji/kesediaan).",
+        "hints": [
+          "Future Continuous berfungsi menanyakan rencana yang sudah terjadwal secara halus.",
+          "Pilih 'Will you be flying'."
+        ],
+        "skill": "future-continuous-nuance"
+      },
+      {
+        "type": "choice",
+        "prompt": "In March, the solar observatory ___ data continuously for five years, barring any unexpected grid failures.",
+        "options": [
+          "will have been gathering",
+          "will have been gathered by",
+          "will be gather"
+        ],
+        "answer": 0,
+        "explanation": "Subjek pelaku ('the solar observatory') terus mengumpulkan data selama 5 tahun hingga Maret mendatang: bentuk aktif 'will have been gathering'.",
+        "hints": [
+          "Subjeknya pelaku aktif pengumpul data.",
+          "Durasi berkelanjutan menuju titik masa depan memakai 'will have been + V-ing'."
+        ],
+        "skill": "future-perf-cont-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of the fiscal quarter, nearly half of the legacy terminals ___ replaced under the hardware refresh plan.",
+        "options": [
+          "will have been",
+          "will be been",
+          "have had been"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect Passive ('will have been + V3') menyatakan proses penggantian yang sudah tuntas sebelum akhir kuartal.",
+        "hints": [
+          "Ada V3 'replaced' bermakna pasif di belakang rumpang.",
+          "Future Perfect Passive memakai 'will have been'."
+        ],
+        "skill": "future-perfect-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyisipkan Future Perfect di dalam klausa 'once' berikut.",
+        "draft": "Once the technicians will have finished calibrating the radar, shipping traffic can resume.",
+        "options": [
+          "Once the technicians have finished calibrating the radar, shipping traffic can resume.",
+          "Once the technicians will finish calibrating the radar, shipping traffic can resume.",
+          "Once the technicians had finished calibrating the radar, shipping traffic can resume tomorrow."
+        ],
+        "answer": 0,
+        "explanation": "Dalam time clause masa depan setelah 'Once', 'when', atau 'as soon as', JANGAN pakai 'will'; untuk menekankan penyelesaian prasyarat di klausa waktu, gunakan Present Simple atau Present Perfect ('have finished').",
+        "hints": [
+          "Setelah konjungsi waktu 'Once', 'will' dilarang keras.",
+          "Gunakan Present Perfect ('have finished') untuk aksi prasyarat selesai."
+        ],
+        "skill": "future-time-clauses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — if we take the late train, everyone ___ for an hour by the time we arrive, so we'll only catch the closing remarks.",
+        "options": [
+          "will have been waiting",
+          "is waiting",
+          "had waited"
+        ],
+        "answer": 0,
+        "explanation": "Durasi menunggu ('for an hour') yang berlangsung hingga saat kedatangan kita di masa depan ('by the time we arrive') memakai 'will have been waiting'.",
+        "hints": [
+          "Ada batas depan ('by the time we arrive') dan durasi ('for an hour').",
+          "Pilih Future Perfect Continuous."
+        ],
+        "skill": "future-perf-cont-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi kini dengan Future Continuous.",
+        "targetSentence": "The Singapore team will probably be wrapping up their morning briefing right now.",
+        "explanation": "'Will probably be wrapping up right now' menebak secara logis aktivitas yang sedang berlangsung saat ini.",
+        "hints": [
+          "Awali dengan 'The Singapore team will probably be'.",
+          "Lengkapi dengan 'wrapping up their morning briefing right now'."
+        ],
+        "skill": "future-continuous-deduction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Future Perfect Passive dengan batas waktu 'before midnight'.",
+        "targetSentence": "Every encrypted backup file will have been verified before midnight.",
+        "explanation": "Subjek pasif + will have been + V3 ('verified') + before midnight.",
+        "hints": [
+          "Mulai dengan 'Every encrypted backup file will have been'.",
+          "Akhiri dengan 'verified before midnight'."
+        ],
+        "skill": "future-perfect-form"
       }
     ]
   }

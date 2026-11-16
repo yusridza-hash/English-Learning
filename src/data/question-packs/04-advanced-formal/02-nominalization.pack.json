@@ -99,6 +99,167 @@
           "Predikat: 'stimulated domestic growth'."
         ],
         "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Transform 'The clinic verified patient records promptly' into a formal nominalized subject phrase: '___ reduced waiting room bottlenecks.'",
+        "options": [
+          "Prompt verification of patient records",
+          "Promptly verifying of patient records",
+          "Verify promptly patient records"
+        ],
+        "answer": 0,
+        "explanation": "Adverb 'promptly' menjadi adjective 'Prompt', verb 'verified' menjadi noun 'verification', dan objek langsung dihubungkan dengan 'of'.",
+        "hints": [
+          "Gunakan pola Adjective + Noun + of + Noun Phrase.",
+          "Nominalisasi dari 'verify' adalah 'verification'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the correct nominalized noun from the adjective 'scarce'?",
+        "options": [
+          "scarcity",
+          "scarceness",
+          "scarcely"
+        ],
+        "answer": 0,
+        "explanation": "Kata benda akademis yang tepat dari 'scarce' adalah 'scarcity' ('kelangkaan').",
+        "hints": [
+          "'Scarcely' adalah adverb.",
+          "Pilih akhiran baku '-ity': 'scarcity'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Verb: 'Coastal communities adapted quickly to rising tides.' → 'The rapid ___ of coastal communities inspired policymakers.'",
+        "options": [
+          "adaptation",
+          "adaptable",
+          "adaptingly"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'adapt' berubah menjadi nomina proses 'adaptation' setelah adjective 'rapid'.",
+        "hints": [
+          "Setelah 'The rapid', wajib berupa noun.",
+          "Bentuk nominalisasi dari 'adapt' adalah 'adaptation'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence replaces a clause with a nominalized phrase smoothly?",
+        "options": [
+          "The sudden withdrawal of funding halted construction.",
+          "Funding withdrew suddenly, which halting construction.",
+          "Because suddenly withdrawal of funding, construction halted."
+        ],
+        "answer": 0,
+        "explanation": "'The sudden withdrawal of funding' memadatkan seluruh klausa sebab menjadi subjek benda tunggal yang bersih bagi verb 'halted'.",
+        "hints": [
+          "Cari kalimat berstruktur subjek frasa nominalisasi + predikat utuh.",
+          "Nominalisasi dari 'withdraw' adalah 'withdrawal'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog penyuntingan naskah riset dengan nomina yang tepat.",
+        "dialogue": [
+          [
+            "Advisor",
+            "How can we formalize 'Software failed repeatedly, so clients complained'?"
+          ],
+          [
+            "Student",
+            "Combine both clauses around the noun phrase '___ prompted client complaints.'"
+          ]
+        ],
+        "options": [
+          "Repeated software failures",
+          "Software failed repeatedly it",
+          "Repeatingly software fail"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'failed' + adverb 'repeatedly' menjadi adjective + plural noun: 'Repeated software failures'.",
+        "hints": [
+          "Ubah adverb menjadi adjective ('Repeated') sebelum noun ('failures').",
+          "Pastikan menjadi subjek frasa benda tanpa pronoun pengulang 'it'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nominalize 'transparent': 'The committee demands higher ___ in public procurement tenders.'",
+        "options": [
+          "transparency",
+          "transparently",
+          "transparentness"
+        ],
+        "answer": 0,
+        "explanation": "Adjective berakhiran '-ent' umumnya membentuk nomina berakhiran '-ency': 'transparent' → 'transparency'.",
+        "hints": [
+          "Akhiran '-ent' sering menjadi '-ency'.",
+          "Pilih 'transparency'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan menyandingkan adverb setelah kata sandang sebelum nominalisasi berikut.",
+        "draft": "An immediate and accurately assessment of flood damage helped insurers deploy aid.",
+        "options": [
+          "An immediate and accurate assessment of flood damage helped insurers deploy aid.",
+          "An immediately and accurately assessment of flood damage helped insurers deploy aid.",
+          "An immediate and accurate assess of flood damage helped insurers deploy aid."
+        ],
+        "answer": 0,
+        "explanation": "'Assessment' adalah noun sehingga kedua kata penjelasnya wajib berbentuk adjective paralel ('immediate and accurate').",
+        "hints": [
+          "Kedua kata sifat menerangkan noun 'assessment'.",
+          "Ubah 'accurately' menjadi 'accurate'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the precise nominalized form of 'comply' (mematuhi peraturan) in legal prose:",
+        "options": [
+          "compliance",
+          "compliancy",
+          "complyingness"
+        ],
+        "answer": 0,
+        "explanation": "Istilah hukum dan bisnis standar dari kata kerja 'comply (with)' adalah 'compliance (with)'.",
+        "hints": [
+          "Istilah baku untuk kepatuhan regulasi adalah 'compliance'.",
+          "Pilih 'compliance'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ber-nominalisasi dari sifat 'resilient'.",
+        "targetSentence": "The remarkable resilience of coastal mangroves protects villages during cyclones.",
+        "explanation": "Adjective 'resilient' menjadi noun abstrak 'resilience' sebagai inti subjek tunggal.",
+        "hints": [
+          "Awali dengan 'The remarkable resilience of coastal mangroves'.",
+          "Pasangkan verb tunggal 'protects'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kausal akademis dengan nominalisasi di kedua sisi.",
+        "targetSentence": "Prolonged neglect of rural bridges accelerated structural deterioration.",
+        "explanation": "Dua frasa nomina dihubungkan secara padat oleh kata kerja kausal 'accelerated'.",
+        "hints": [
+          "Mulai dengan subjek 'Prolonged neglect of rural bridges'.",
+          "Tambahkan 'accelerated structural deterioration'."
+        ],
+        "skill": "academic-density-nominalization"
       }
     ],
     "intermediate": [
@@ -227,6 +388,167 @@
           "Gunakan 'volatility'."
         ],
         "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "In Systemic Functional Linguistics, turning actions ('employers cut shifts') into static entities ('shift reductions') is defined as ___.",
+        "options": [
+          "grammatical metaphor",
+          "onomatopoeic drift",
+          "pleonastic reduplication"
+        ],
+        "answer": 0,
+        "explanation": "Pengemasan proses/tindakan (yang lazimnya berbentuk verb) menjadi kata benda (noun) dalam wacana ilmiah disebut grammatical metaphor.",
+        "hints": [
+          "Ini istilah linguistik fungsional untuk pergeseran kelas kata verba/adjektiva ke nomina.",
+          "Pilih 'grammatical metaphor'."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the true legal term of art where nominalization MUST be kept rather than unpacked into a verb:",
+        "options": [
+          "The defendant waived all rights to statutory indemnification.",
+          "The manager performed an execution of a signature on the memo.",
+          "The committee made a decision on the elimination of parking fees."
+        ],
+        "answer": 0,
+        "explanation": "Istilah hukum baku seperti 'indemnification', 'arbitration', dan 'jurisdiction' adalah terms of art (istilah teknis spesifik) yang memiliki makna yuridis presisi dan tidak boleh sembarangan diganti; sebaliknya, 'performed an execution of a signature' hanyalah bloat yang harus diedit menjadi 'signed'.",
+        "hints": [
+          "Cari istilah hukum teknis sah, bukan penggelembungan kata benda kosong.",
+          "'Indemnification' adalah istilah hukum baku."
+        ],
+        "skill": "terms-of-art-nominalization"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan untuk membersihkan 'zombie nouns' berlebihan.",
+        "dialogue": [
+          [
+            "Editor",
+            "Your sentence reads: 'The department conducted an investigation into the causes of the delay of cargo.' How do we make it crisp?"
+          ],
+          [
+            "Writer",
+            "Drop the empty verb 'conducted an investigation' and write ___."
+          ]
+        ],
+        "options": [
+          "The department investigated why the cargo was delayed.",
+          "The department performed an investigating of the delay of cargo.",
+          "An investigation was conducted into cargo delaying by the department."
+        ],
+        "answer": 0,
+        "explanation": "Membongkar nominalisasi tidak perlu dengan verb kosong ('conduct an investigation into...') menjadi kata kerja aktif langsung ('investigated why...') memangkas kata mubazir dan memperjelas pelaku.",
+        "hints": [
+          "Cari kalimat aktif yang ringkas dengan kata kerja kuat langsung.",
+          "Hindari 'performed/conducted + nominalization'."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Observe thematic progression: 'Researchers isolated a thermophilic enzyme in volcanic vents. This ___ enabled faster DNA amplification.'",
+        "options": [
+          "discovery",
+          "discover",
+          "discovering"
+        ],
+        "answer": 0,
+        "explanation": "'This discovery' berfungsi sebagai 'shell noun' / nominalisasi perangkum yang mengemas seluruh informasi kalimat pertama menjadi subjek padat kalimat kedua.",
+        "hints": [
+          "Setelah demonstratif 'This', gunakan noun tunggal perangkum.",
+          "Pilih 'discovery'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nominalize 'disrupt': 'Port strikes disrupted cold-chain exports, raising fruit spoilage.' → 'Port strike ___ led to higher fruit spoilage.'",
+        "options": [
+          "disruptions",
+          "disruptive",
+          "disruptedly"
+        ],
+        "answer": 0,
+        "explanation": "'Port strike disruptions' menggunakan noun jamak 'disruptions' sebagai inti subjek bagi verb 'led to'.",
+        "hints": [
+          "Butuh kata benda inti setelah modifier 'Port strike'.",
+          "Bentuk noun dari 'disrupt' adalah 'disruption(s)'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan preposisi yang salah saat menominalisasi verb 'prohibit' dan 'prevent' berikut.",
+        "draft": "Strict enforcement of the ban ensured the prevention against illegal trawling.",
+        "options": [
+          "Strict enforcement of the ban prevented illegal trawling effectively.",
+          "Strict enforcement of the ban ensured prevention to illegal trawling.",
+          "Strict enforcement of the ban did the prevention on illegal trawling."
+        ],
+        "answer": 0,
+        "explanation": "'Ensure the prevention against...' adalah contoh zombie noun bertele-tele sekaligus salah preposisi ('prevention of', bukan 'against'); ubah menjadi verba aktif tegas 'prevented illegal trawling effectively'.",
+        "hints": [
+          "Nominalisasi bertumpuk 'ensured the prevention against' terasa kaku dan salah preposisi.",
+          "Ganti frasa bertele-tele itu dengan kata kerja langsung 'prevented'."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "In technical documentation, 'negligence', 'amortization', and 'mitigation' function as ___ that compress complex procedures into shareable concepts.",
+        "options": [
+          "institutional terms of art",
+          "conversational fillers",
+          "dangling modifiers"
+        ],
+        "answer": 0,
+        "explanation": "Dalam disiplin ilmu (keuangan, hukum, lingkungan), nominalisasi mapan seperti 'amortization' atau 'mitigation' berperan sebagai istilah teknis baku (terms of art).",
+        "hints": [
+          "Kata-kata ini adalah konsep baku dalam profesi masing-masing.",
+          "Pilih 'institutional terms of art'."
+        ],
+        "skill": "terms-of-art-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the most natural academic nominalization of 'The urban population aged rapidly':",
+        "options": [
+          "rapid demographic aging",
+          "agingly urban demography",
+          "population aged rapidness"
+        ],
+        "answer": 0,
+        "explanation": "'Rapid demographic aging' memadukan adjective tepat + noun gerundial akademis secara padat dan alami.",
+        "hints": [
+          "Periksa urutan Adjective + Adjective + Noun.",
+          "'Aging' di sini berfungsi sebagai noun abstrak."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat padat menggunakan grammatical metaphor pada topik ekonomi.",
+        "targetSentence": "Declining household savings weakened domestic retail demand across three quarters.",
+        "explanation": "'Household savings declined' berubah menjadi frasa nomina 'Declining household savings' sebagai penyebab.",
+        "hints": [
+          "Awali dengan subjek 'Declining household savings'.",
+          "Sambungkan dengan verb 'weakened' dan objek."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat revisi aktif yang menghilangkan nominalisasi berlebihan ('made an assumption').",
+        "targetSentence": "Early planners mistakenly assumed that rural broadband demand would remain flat.",
+        "explanation": "Mengganti 'made a mistaken assumption that' dengan adverb + active verb ('mistakenly assumed that') menjadikan kalimat langsung dan bertenaga.",
+        "hints": [
+          "Mulai dengan 'Early planners mistakenly assumed that'.",
+          "Tambahkan klausa 'rural broadband demand would remain flat'."
+        ],
+        "skill": "nominalization-overuse-editing"
       }
     ],
     "complex": [
@@ -348,6 +670,168 @@
           "Pilih 'rigorous, objective causal relationship'."
         ],
         "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "choice",
+        "prompt": "Evaluate the rhetorical balance of this IELTS Band 8+ opening: 'While widespread mechanization boosted factory throughput, its displacement of entry-level crafts generated acute regional inequality.' Why is nominalization effective here?",
+        "options": [
+          "It condenses two multi-actor processes into comparable noun phrases linked by a causal verb",
+          "It hides grammatical errors inside passive auxiliaries",
+          "It lengthens simple clauses with empty 'conduct/perform' collocations"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi ('widespread mechanization', 'displacement of entry-level crafts', 'acute regional inequality') memungkinkan penulis menghubungkan fenomena sosial makro melalui verb relasional ('boosted', 'generated') dengan kepadatan konseptual tinggi.",
+        "hints": [
+          "Lihat bagaimana proses kompleks dipadatkan tanpa verb kosong seperti 'conduct'.",
+          "Fungsinya membandingkan dua fenomena abstrak lewat verb relasional."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the subtle lexical error inside this nominalized academic sentence: 'The rapid proliferating of unverified health claims undermined vaccine uptake.'",
+        "options": [
+          "'Proliferating' should be the established noun 'proliferation' after 'The rapid ... of'",
+          "'Uptake' cannot follow 'undermined'",
+          "'Health claims' must become 'healthy claimings'"
+        ],
+        "answer": 0,
+        "explanation": "Ketika bentuk nominalisasi baku sudah ada ('proliferation'), memakai bentuk gerund '-ing' yang dipasangi article + adjective + 'of' ('The rapid proliferating of...') terasa janggal dan tidak baku.",
+        "hints": [
+          "Setelah 'The + adjective', utamakan noun mapan ('proliferation'), bukan '-ing'.",
+          "Ubah 'proliferating' menjadi 'proliferation'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kalimat birokratis penuh 'smothered verbs' berikut agar menjadi ringkas tanpa menghilangkan makna istilah hukumnya.",
+        "draft": "We are currently in the process of giving consideration to the implementation of mandatory arbitration.",
+        "options": [
+          "We are currently considering implementing mandatory arbitration.",
+          "We are currently making a consideration for implement mandatory arbitration.",
+          "Consideration is currently in the process of being given to implementing mandatory arbitration."
+        ],
+        "answer": 0,
+        "explanation": "'In the process of giving consideration to the implementation of' adalah pemborosan empat tingkat; cukup pakai 'considering implementing' sambil mempertahankan istilah hukum baku 'mandatory arbitration'!",
+        "hints": [
+          "Pangkas frasa kosong 'in the process of giving consideration to'.",
+          "Pertahankan term of art 'mandatory arbitration'."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tesis mengenai kapan grammatical metaphor berpotensi memudarkan tanggung jawab pelaku (agency).",
+        "dialogue": [
+          [
+            "Examiner",
+            "Your policy critique states: 'Job losses occurred following automation.' Why did a critic call this phrasing evasive?"
+          ],
+          [
+            "Candidate",
+            "Because pure nominalization ('Job losses occurred') deletes human decision-makers, obscuring ___."
+          ]
+        ],
+        "options": [
+          "who authorized the restructuring and why",
+          "how fast factory printers ran overnight",
+          "whether plural nouns take '-s' endings"
+        ],
+        "answer": 0,
+        "explanation": "Salah satu dampak wacana kritis dari nominalisasi adalah penghilangan pelaku (agency deletion): 'Job losses occurred' menyamarkan siapa yang membuat keputusan pemangkasan tenaga kerja.",
+        "hints": [
+          "Nominalisasi mengubah tindakan aktor menjadi peristiwa benda abstrak tanpa subjek manusia.",
+          "Ini mengaburkan siapa pelaku keputusan sebenarnya."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence balances abstract nominalization with clear Subject-Verb proximity (keeping the grammatical subject crisp before the verb)?",
+        "options": [
+          "Rising energy costs triggered early factory retrofits across Surabaya.",
+          "The rapid and unprecedented post-pandemic escalation of global industrial energy and freight logistics unit costs triggered early retrofits.",
+          "Retrofits by factories early were triggered of costs energy rising."
+        ],
+        "answer": 0,
+        "explanation": "Meskipun nominalisasi memadatkan ide, menumpuk 12 kata modifikator dalam satu frasa subjek membuat pembaca kehilangan arah sebelum mencapai verb ('triggered'); subjek 3–4 kata ('Rising energy costs') menjaga keseimbangan baca optimal.",
+        "hints": [
+          "Bandingkan kejelasan jarak antara kepala subjek dan kata kerja.",
+          "Frasa subjek yang terlampau panjang melelahkan pembaca."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "When transforming 'to allocate funds equitably', which nominalization preserves exact collocation and preposition?",
+        "options": [
+          "the equitable allocation of funds",
+          "an equity allocate for funds",
+          "allocating equitably of funds"
+        ],
+        "answer": 0,
+        "explanation": "Verb + adverb + objek ('allocate funds equitably') berubah presisi menjadi 'the + adj (equitable) + noun (allocation) + of + objek (funds)'.",
+        "hints": [
+          "Adverb 'equitably' menjadi adjective 'equitable'.",
+          "Objek langsung 'funds' dihubungkan dengan 'of'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk nominalisasi kata sifat yang salah akhiran pada kalimat laporan keuangan berikut.",
+        "draft": "Excessive dependance on short-term credit exposed the importer to currency volatile.",
+        "options": [
+          "Excessive dependence on short-term credit exposed the importer to currency volatility.",
+          "Excessive dependancy on short-term credit exposed the importer to currency volatile.",
+          "Excessive dependent on short-term credit exposed the importer to currency volatility."
+        ],
+        "answer": 0,
+        "explanation": "Ejaan baku Inggris modern untuk ketergantungan adalah 'dependence' (memakai -ence) dan kata benda dari sifat 'volatile' adalah 'volatility' (bukan adjective 'volatile' setelah 'currency').",
+        "hints": [
+          "Periksa ejaan 'dependence' dan bentuk benda dari 'volatile'.",
+          "Kedua slot membutuhkan nomina yang tepat ejaannya."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how nominalization compresses concession: 'Even though public clinics initially resisted digital triage, adoption surged by Q4.' → 'Despite ___ to digital triage, adoption surged by Q4.'",
+        "options": [
+          "initial clinical resistance",
+          "initially clinics resisting that",
+          "resisting initially clinical"
+        ],
+        "answer": 0,
+        "explanation": "Klausa konsesif 'Even though public clinics initially resisted' dikompresi sempurna sesudah preposisi 'Despite' menjadi 'initial clinical resistance'.",
+        "hints": [
+          "Setelah 'Despite', wajib memakai noun phrase utuh tanpa verb finit.",
+          "Nominalisasi 'resisted' adalah 'resistance'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang mengemas ulang tindakan kalimat sebelumnya memakai shell noun 'this concession'.",
+        "targetSentence": "This timely concession defused prolonged labor negotiations at the container port.",
+        "explanation": "Demonstratif 'This' + adjective 'timely' + nominalisasi 'concession' merangkum klausa sebelumnya secara kohesif.",
+        "hints": [
+          "Awali dengan 'This timely concession defused'.",
+          "Tambahkan objek dan lokasi."
+        ],
+        "skill": "grammatical-metaphor"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai istilah hukum/akademis 'mitigation' tanpa verb kosong.",
+        "targetSentence": "Targeted mangrove restoration accelerates flood mitigation along low-lying estuaries.",
+        "explanation": "Menggabungkan nomina teknis ('flood mitigation') dengan active verb tegas ('accelerates') menjaga kekuatan kalimat.",
+        "hints": [
+          "Mulai dengan 'Targeted mangrove restoration accelerates'.",
+          "Akhiri dengan 'flood mitigation along low-lying estuaries'."
+        ],
+        "skill": "terms-of-art-nominalization"
       }
     ]
   }

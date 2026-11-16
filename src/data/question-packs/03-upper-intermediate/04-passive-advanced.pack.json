@@ -99,6 +99,167 @@
           "Bentuk pasif: 'was awarded to the top candidate'."
         ],
         "skill": "two-object-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "All confidential medical records must ___ stored inside the encrypted hospital vault.",
+        "options": [
+          "be",
+          "been",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Modal passive dasar selalu mengikuti rumus: modal + be + V3 ('must be stored').",
+        "hints": [
+          "Setelah modal 'must', verb to be tetap berbentuk dasar 'be'.",
+          "Rumusnya: must + be + V3."
+        ],
+        "skill": "modal-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the courtyard — a new rainwater harvesting tank ___ being installed right now.",
+        "options": [
+          "is",
+          "has",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous Passive ('sedang dipasang sekarang') menggunakan pola 'is/are + being + V3'.",
+        "hints": [
+          "Perhatikan 'being installed right now'.",
+          "Lengkapi dengan to be 'is'."
+        ],
+        "skill": "continuous-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — the parcel can't be delivered today because the street ___ currently being resurfaced.",
+        "options": [
+          "is",
+          "was",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Penanda 'currently' dan konteks hari ini meminta Present Continuous Passive ('is ... being resurfaced').",
+        "hints": [
+          "Kata 'currently' menandakan masa kini sedang berjalan.",
+          "Gunakan 'is'."
+        ],
+        "skill": "continuous-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "All quarterly travel claims will have ___ processed before the holiday break.",
+        "options": [
+          "been",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect Passive ('akan sudah selesai diproses') menggunakan rumus 'will have been + V3'.",
+        "hints": [
+          "Sudah ada 'will have' sebelum rumpang dan V3 'processed' sesudahnya.",
+          "Sisipkan past participle 'been'."
+        ],
+        "skill": "future-passive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang pembaruan sistem secara pasif.",
+        "dialogue": [
+          [
+            "Manager",
+            "Have the security certificates been renewed yet?"
+          ],
+          [
+            "Engineer",
+            "Yes, every certificate ___ updated automatically early this morning."
+          ]
+        ],
+        "options": [
+          "was",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Kejadian pasif selesai pada waktu lampau spesifik ('early this morning') memakai Past Simple Passive ('was updated').",
+        "hints": [
+          "Ada waktu lampau 'early this morning'.",
+          "Subjek tunggal 'every certificate' memakai 'was'."
+        ],
+        "skill": "continuous-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your library pass could ___ revoked if overdue fines remain unpaid for ninety days.",
+        "options": [
+          "be",
+          "been",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Setelah modal 'could', bentuk pasif wajib memakai 'be' + V3 ('could be revoked').",
+        "hints": [
+          "Modal ('could') + be + V3.",
+          "Pilih 'be'."
+        ],
+        "skill": "modal-passive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda hilangnya 'been' dalam kalimat Perfect Passive berikut.",
+        "draft": "Several faulty smoke alarms have already replaced across the third floor.",
+        "options": [
+          "Several faulty smoke alarms have already been replaced across the third floor.",
+          "Several faulty smoke alarms have already being replaced across the third floor.",
+          "Several faulty smoke alarms were already been replaced across the third floor."
+        ],
+        "answer": 0,
+        "explanation": "Alarm tidak mengganti dirinya sendiri (pasif); Present Perfect Passive mewajibkan pola 'have/has + been + V3' ('have already been replaced').",
+        "hints": [
+          "Kalimat membutuhkan makna pasif ('diganti').",
+          "Sisipkan 'been' di antara 'have already' dan 'replaced'."
+        ],
+        "skill": "perfect-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "The draft blueprint is going ___ reviewed by the structural engineering panel tomorrow.",
+        "options": [
+          "to be",
+          "to been",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Future passive dengan 'be going to' mengikuti pola 'is going to be + V3'.",
+        "hints": [
+          "Lengkapkan konstruksi 'is going to + be + V3'.",
+          "Pilih 'to be'."
+        ],
+        "skill": "future-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Modal Passive tentang kebijakan arsip.",
+        "targetSentence": "Archived tax invoices should be kept for at least seven years.",
+        "explanation": "Modal 'should' + 'be' + V3 ('kept') + keterangan durasi.",
+        "hints": [
+          "Awali dengan 'Archived tax invoices should be kept'.",
+          "Tambahkan durasi 'for at least seven years'."
+        ],
+        "skill": "modal-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Present Continuous Passive yang sedang berlangsung.",
+        "targetSentence": "The downtown tram tracks are being inspected by city engineers this week.",
+        "explanation": "'Are being inspected' menyatakan proses inspeksi pasif yang sedang berjalan.",
+        "hints": [
+          "Mulai dengan 'The downtown tram tracks are being inspected'.",
+          "Lengkapi pelaku dan keterangan waktu."
+        ],
+        "skill": "continuous-passive"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan perfect infinitive 'to have crossed'."
         ],
         "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the two-object passive focus: 'Our lead designer ___ a prestigious sustainability award at last night's gala.'",
+        "options": [
+          "was presented with",
+          "was presented to",
+          "presented"
+        ],
+        "answer": 0,
+        "explanation": "Ketika penerima ('Our lead designer') menjadi subjek pasif dari 'present someone with something', gunakan 'was presented with + award'.",
+        "hints": [
+          "Subjeknya adalah penerima penghargaan.",
+          "Pola pasif 'present + sb + with + sth' → 'sb was presented with sth'."
+        ],
+        "skill": "two-object-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "It ___ widely believed that early sleep deprivation impairs logical decision-making.",
+        "options": [
+          "is",
+          "has",
+          "was been"
+        ],
+        "answer": 0,
+        "explanation": "Impersonal passive reporting untuk opini umum masa kini memakai 'It is widely believed / thought / reported that...'.",
+        "hints": [
+          "Pola impersonal reporting umum: 'It is + adverb + V3 + that...'.",
+          "Pilih to be tunggal 'is'."
+        ],
+        "skill": "impersonal-passive-reporting"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penekanan subjek orang dengan Personal Passive Reporting.",
+        "dialogue": [
+          [
+            "Reporter",
+            "How certain are historians about this ancient shipyard?"
+          ],
+          [
+            "Curator",
+            "The port ___ to have served over two hundred merchant ships annually."
+          ]
+        ],
+        "options": [
+          "is thought",
+          "thinks",
+          "is thinking"
+        ],
+        "answer": 0,
+        "explanation": "Personal passive reporting mengangkat subjek spesifik ('The port') di depan diikuti 'is thought / is estimated + to have + V3' untuk aksi masa lalu.",
+        "hints": [
+          "Struktur personal reporting pasif: Subject + is thought + to have V3.",
+          "Pelabuhan tidak 'berpikir' sendiri, melainkan 'diyakini oleh para ahli'."
+        ],
+        "skill": "personal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Those cracked safety helmets ought to ___ discarded weeks ago.",
+        "options": [
+          "have been",
+          "be been",
+          "had been"
+        ],
+        "answer": 0,
+        "explanation": "Modal Perfect Passive ('seharusnya sudah dibuang minggu lalu') berpola: modal ('ought to' / 'should') + 'have been' + V3.",
+        "hints": [
+          "Ada waktu lampau 'weeks ago' setelah 'ought to'.",
+          "Modal Perfect Passive memakai 'have been + V3'."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do you dislike ___ interrupted while presenting complex financial charts?",
+        "options": [
+          "being",
+          "to being",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'dislike' diikuti gerund (-ing); jika bermakna pasif ('disela oleh orang lain'), gunakan Passive Gerund: 'being + V3 (being interrupted)'.",
+        "hints": [
+          "Verb 'dislike' mewajibkan bentuk '-ing'.",
+          "Pasif gerund memakai 'being + V3'."
+        ],
+        "skill": "passive-gerund"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan impersonal 'It' dengan to-infinitive reporting pasif berikut.",
+        "draft": "It is expected the new desalination plant to supply half the island's fresh water.",
+        "options": [
+          "The new desalination plant is expected to supply half the island's fresh water.",
+          "It is expected to supply half the island's fresh water the new desalination plant.",
+          "The new desalination plant expected to supply half the island's fresh water."
+        ],
+        "answer": 0,
+        "explanation": "Ada dua konstruksi yang jangan dicampur: 1) Impersonal: 'It is expected THAT the plant will supply...'; 2) Personal: 'The new desalination plant is expected TO supply...'.",
+        "hints": [
+          "Jangan mencampur 'It is expected' langsung dengan 'noun + to V1'.",
+          "Jadikan 'The new desalination plant' subjeknya sebelum 'is expected to supply'."
+        ],
+        "skill": "personal-passive-reporting"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every single detail of the merger must have ___ leaked by an insider before the press release.",
+        "options": [
+          "been",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Modal Perfect Passive deduksi lampau memakai 'must have been + V3'.",
+        "hints": [
+          "Sudah ada 'must have' dan V3 'leaked'.",
+          "Sisipkan 'been' untuk bentuk pasif."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "We are getting the clinic's rooftop solar panels ___ before the dry season peaks.",
+        "options": [
+          "cleaned",
+          "clean",
+          "to clean"
+        ],
+        "answer": 0,
+        "explanation": "Causative passive ('get + Object + V3') menyatakan jasa yang dikerjakan oleh pihak lain pada barang milik kita.",
+        "hints": [
+          "Panel surya dibersihkan oleh teknisi ('get + sth + V3').",
+          "Gunakan V3 'cleaned'."
+        ],
+        "skill": "causative-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Impersonal Passive Reporting dengan 'It is estimated'.",
+        "targetSentence": "It is estimated that urban freight traffic will double within fifteen years.",
+        "explanation": "Struktur impersonal reporting: 'It is estimated that + full clause'.",
+        "hints": [
+          "Awali dengan 'It is estimated that'.",
+          "Tambahkan klausa prediksi lengkap."
+        ],
+        "skill": "impersonal-passive-reporting"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Passive Gerund setelah preposisi 'without'.",
+        "targetSentence": "The whistleblower submitted the audit report without being noticed by management.",
+        "explanation": "Preposisi 'without' + passive gerund ('being noticed') + agen 'by management'.",
+        "hints": [
+          "Mulai dengan 'The whistleblower submitted the audit report'.",
+          "Akhiri dengan 'without being noticed by management'."
+        ],
+        "skill": "passive-gerund"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'to have been tampered with'."
         ],
         "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the personal passive reporting sentence that accurately shifts a PAST ongoing event into a passive perfect continuous infinitive.",
+        "options": [
+          "The missing vessel is reported to have been drifting near the strait since Monday.",
+          "The missing vessel is reported to drifting near the strait since Monday.",
+          "It is reported the missing vessel to have been drifting since Monday."
+        ],
+        "answer": 0,
+        "explanation": "Saat sumber berita melaporkan sekarang ('is reported') suatu aktivitas yang telah berlangsung terus sejak Senin lalu hingga kini/baru saja, gunakan passive + perfect continuous infinitive ('to have been + V-ing').",
+        "hints": [
+          "Pelaporan berlangsung sekarang ('is reported'), aktivitas berdurasi terjadi sejak Senin.",
+          "Pasangkan 'is reported to have been drifting'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "choice",
+        "prompt": "In strict formal prose, prepositional verbs preserve their preposition at the end of a passive clause: 'Such reckless financial practices must not ___.'",
+        "options": [
+          "be tolerated or glossed over",
+          "be gloss over",
+          "glossed over be"
+        ],
+        "answer": 0,
+        "explanation": "Phrasal/prepositional verb ('gloss over') wajib mempertahankan partikel 'over' dan memakai bentuk V3 ('glossed over') setelah modal passive 'must not be'.",
+        "hints": [
+          "Pastikan 'be + V3' dan partikel 'over' tetap hadir.",
+          "Opsi B dan C tidak gramatikal."
+        ],
+        "skill": "prepositional-passive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan mempasifkan intransitive verb dan register informal pada kalimat akademik berikut.",
+        "draft": "During the simulation, a sudden voltage spike was emerged, so we got the data logger checked out.",
+        "options": [
+          "During the simulation, a sudden voltage spike emerged, and the data logger was subsequently inspected.",
+          "During the simulation, a sudden voltage spike was emerged, and the data logger had inspected.",
+          "During the simulation, a sudden voltage spike was occurred, so the data logger was checked."
+        ],
+        "answer": 0,
+        "explanation": "'Emerge' (sama seperti 'occur' dan 'appear') adalah intransitive verb yang tidak boleh dipasifkan ('was emerged' salah), dan 'got ... checked out' terlalu kasual untuk laporan akademik dibandingkan 'was subsequently inspected'.",
+        "hints": [
+          "'Emerge' tidak memiliki objek langsung sehingga tidak bisa pasif.",
+          "Gunakan bentuk aktif 'emerged' + pasif akademik formal 'was inspected'."
+        ],
+        "skill": "intransitive-verbs-no-passive"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang pemakaian pasif untuk menjaga objektivitas laporan ilmiah.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Why did you revise 'We heated the cobalt alloy to 800°C' to 'The cobalt alloy was heated to 800°C'?"
+          ],
+          [
+            "Author",
+            "In experimental methodology, passive voice removes personal pronouns to foreground ___."
+          ]
+        ],
+        "options": [
+          "the material and procedure rather than the researcher",
+          "informal conversational intimacy with the reader",
+          "chronological ambiguity across lab shifts"
+        ],
+        "answer": 0,
+        "explanation": "Dalam bagian Methods laporan ilmiah, kalimat pasif digunakan secara sengaja untuk menjaga nada objektif dan menempatkan objek penelitian/prosedur di fokus utama (thematic front-focus).",
+        "hints": [
+          "Fokus metode ilmiah adalah bahan dan prosedur, bukan 'kami'.",
+          "Passive meningkatkan objektivitas akademis."
+        ],
+        "skill": "academic-passive-register"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ancient bronze compass is alleged ___ from the sunken merchant ship in 1984.",
+        "options": [
+          "to have been recovered",
+          "to recover",
+          "being recovered"
+        ],
+        "answer": 0,
+        "explanation": "Pelaporan kini ('is alleged') mengenai peristiwa PASIF yang sudah terjadi di masa lampau ('in 1984') wajib memakai Passive Perfect Infinitive: 'to have been + V3 (to have been recovered)'.",
+        "hints": [
+          "Kompas itu 'ditemukan/diambil' (pasif) pada tahun 1984 (lampau).",
+          "Gabungan pasif + lampau setelah 'is alleged': 'to have been + V3'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the subtle meaning of causative 'have/get' in adversity: 'Poor Dani ___ his bicycle stolen right outside the library!'",
+        "options": [
+          "had",
+          "made",
+          "let"
+        ],
+        "answer": 0,
+        "explanation": "Struktur 'have + object + V3' juga dipakai secara idiomatis untuk kemalangan/kejadian buruk tak terduga yang menimpa seseorang ('had his wallet/bicycle stolen').",
+        "hints": [
+          "Bukan menyuruh mencuri, melainkan mengalami kejadian sial.",
+          "Idiom kemalangan memakai 'had + benda + V3'."
+        ],
+        "skill": "causative-passive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan kata kerja pasif 'let' (mengizinkan) secara langsung dengan bare infinitive berikut.",
+        "draft": "External photographers were not let enter the sterile microchip cleanroom.",
+        "options": [
+          "External photographers were not allowed to enter the sterile microchip cleanroom.",
+          "External photographers were not let entering the sterile microchip cleanroom.",
+          "External photographers did not let to enter the sterile microchip cleanroom."
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja 'let' sangat jarang/tidak dipakai dalam bentuk pasif; ubah ke 'be allowed to + V1' ('were not allowed to enter').",
+        "hints": [
+          "'Let' hampir tidak memiliki bentuk pasif baku dalam bahasa Inggris modern.",
+          "Ganti 'were not let' dengan 'were not allowed to'."
+        ],
+        "skill": "academic-passive-register"
+      },
+      {
+        "type": "choice",
+        "prompt": "No participant appreciates ___ kept waiting past the scheduled start without an update.",
+        "options": [
+          "being",
+          "to be",
+          "having been to"
+        ],
+        "answer": 0,
+        "explanation": "'Appreciate' diikuti gerund; makna pasif 'dibiarkan menunggu' memakai Passive Gerund 'being kept waiting'.",
+        "hints": [
+          "Setelah 'appreciate', kata kerja wajib bentuk '-ing'.",
+          "Pasif gerund: 'being + V3 (kept)'."
+        ],
+        "skill": "passive-gerund"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pelaporan pasif dengan Passive Perfect Infinitive.",
+        "targetSentence": "The medieval bridge is thought to have been reinforced during the seventeenth century.",
+        "explanation": "'Is thought to have been + V3' menggabungkan opini sekarang tentang konstruksi pasif masa lalu.",
+        "hints": [
+          "Awali dengan 'The medieval bridge is thought'.",
+          "Sambungkan dengan 'to have been reinforced during the seventeenth century'."
+        ],
+        "skill": "passive-perfect-infinitive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pasif formal dengan prepositional verb yang mempertahankan preposisinya.",
+        "targetSentence": "Those outdated procurement rules should be done away with before the next fiscal year.",
+        "explanation": "'Do away with' mempertahankan kedua partikel 'away with' tepat setelah V3 'done'.",
+        "hints": [
+          "Mulai dengan 'Those outdated procurement rules should be'.",
+          "Pastikan 'done away with' utuh sebelum frasa waktu."
+        ],
+        "skill": "prepositional-passive"
       }
     ]
   }

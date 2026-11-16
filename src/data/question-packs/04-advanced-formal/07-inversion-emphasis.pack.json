@@ -99,6 +99,167 @@
           "Klausa sambung: 'than border clashes ceased'."
         ],
         "skill": "inversion-no-sooner-than"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not only ___ the solar grid lower emissions, but it also stabilized rural voltage.",
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "'Not only' di awal klausa memicu inversi Past Simple dengan auxiliary 'did' sebelum subjek 'the solar grid' + V1 'lower'.",
+        "hints": [
+          "Perhatikan verb bentuk dasar 'lower' setelah subjek.",
+          "Inversi Past Simple memakai 'did'."
+        ],
+        "skill": "not-only-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ urban transit authorities completed a tunnel overhaul ahead of budget.",
+        "options": [
+          "have",
+          "did",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Dengan Past Participle 'completed' di belakang subjek jamak 'urban transit authorities', inversi negatif 'Rarely' memakai auxiliary 'have'.",
+        "hints": [
+          "Lihat V3 'completed' dan subjek jamak 'authorities'.",
+          "Inversi Present Perfect memakai 'have'."
+        ],
+        "skill": "negative-inversion-rarely"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little ___ the night dispatchers realize that the backup fiber line had already switched over.",
+        "options": [
+          "did",
+          "were",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "'Little' di awal bermakna negatif ('sama sekali tidak menyadari') diikuti inversi 'did + Subject + V1 (realize)'.",
+        "hints": [
+          "Verb setelah subjek adalah V1 'realize'.",
+          "Inversi Past Simple memakai 'did'."
+        ],
+        "skill": "negative-inversion-little"
+      },
+      {
+        "type": "choice",
+        "prompt": "Seldom ___ a single policy reform address both housing affordability and transit access equally.",
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Subjek tunggal 'a single policy reform' + verb dasar 'address' memerlukan auxiliary Present Simple 'does' dalam inversi.",
+        "hints": [
+          "Main verb-nya bentuk dasar 'address'.",
+          "Subjek tunggal Present Simple memakai 'does'."
+        ],
+        "skill": "negative-inversion-seldom"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dewan direksi dengan inversi negatif 'Never'.",
+        "dialogue": [
+          [
+            "Board Member",
+            "Have we ever encountered such erratic customs tariffs in ten years?"
+          ],
+          [
+            "Director",
+            "No — never ___ a sharper quarterly swing in import duties."
+          ]
+        ],
+        "options": [
+          "have we seen",
+          "we have seen",
+          "did we saw"
+        ],
+        "answer": 0,
+        "explanation": "Inversi setelah 'Never' di awal klausa mewajibkan auxiliary 'have' sebelum subjek 'we' ('Never have we seen...').",
+        "hints": [
+          "Balikkan 'have' ke depan subjek 'we'.",
+          "Jangan pakai 'did we saw'."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Under no circumstances ___ temporary passwords be shared across messaging apps.",
+        "options": [
+          "must",
+          "they must",
+          "do must"
+        ],
+        "answer": 0,
+        "explanation": "Frasa preposisi negatif 'Under no circumstances' menarik modal 'must' ke posisi tepat sebelum subjek ('temporary passwords').",
+        "hints": [
+          "Cari modal yang berada langsung setelah frasa negatif.",
+          "Inversi modal: 'Under no circumstances + must + S + be V3'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan lupa membalik auxiliary pada kalimat berawalan 'No sooner' berikut.",
+        "draft": "No sooner the cargo train cleared the tunnel than automated sensors lowered the crossing gates.",
+        "options": [
+          "No sooner had the cargo train cleared the tunnel than automated sensors lowered the crossing gates.",
+          "No sooner did the cargo train cleared the tunnel than automated sensors lowered the crossing gates.",
+          "No sooner the cargo train cleared the tunnel when automated sensors lowered the crossing gates."
+        ],
+        "answer": 0,
+        "explanation": "Pembuka negatif 'No sooner' wajib membalik 'had' ke depan subjek + V3 ('No sooner had the cargo train cleared...') dan tetap berpasangan dengan 'than'.",
+        "hints": [
+          "Letakkan 'had' sebelum 'the cargo train'.",
+          "Pastikan tetap memakai 'than', bukan 'when'."
+        ],
+        "skill": "inversion-no-sooner-than"
+      },
+      {
+        "type": "choice",
+        "prompt": "So ___ was the keynote address that not a single delegate checked their phone.",
+        "options": [
+          "compelling",
+          "compellingly",
+          "compelledly"
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola inversi penekanan 'So + Adjective + be + Subject + that...', kata setelah 'So' sebelum linking verb 'was' harus berupa adjective ('compelling').",
+        "hints": [
+          "Verb utamanya adalah linking verb 'was'.",
+          "Linking verb 'was' berpasangan dengan adjective 'compelling'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi penekanan dengan 'Such + was'.",
+        "targetSentence": "Such was the precision of the laser scan that every microscopic fracture appeared clearly.",
+        "explanation": "'Such + was + Noun Phrase + that + result clause' menonjolkan skala kualitas subjek.",
+        "hints": [
+          "Awali dengan 'Such was the precision of the laser scan'.",
+          "Tambahkan klausa akibat 'that every microscopic fracture appeared clearly'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi negatif dengan 'At no point'.",
+        "targetSentence": "At no point did external auditors discover any missing petty-cash vouchers.",
+        "explanation": "'At no point' di depan memicu inversi Past Simple: 'did + external auditors + discover'.",
+        "hints": [
+          "Mulai dengan 'At no point did external auditors'.",
+          "Gunakan V1 murni 'discover'."
+        ],
+        "skill": "prepositional-negative-inversion"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan modal 'will'."
         ],
         "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Such intense turbulence ___ the coastal drone encounter that engineers aborted the vertical mapping run.",
+        "options": [
+          "did",
+          "was",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Struktur 'Such + Adjective + Noun + auxiliary + Subject + V1 + that...' memicu inversi 'did + the coastal drone + encounter' sebelum 'that...'.",
+        "hints": [
+          "Perhatikan main verb bentuk dasar 'encounter' setelah subjek.",
+          "Inversi Past Simple memakai 'did'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only after independent verification ___ the pharmaceutical board authorize commercial distribution.",
+        "options": [
+          "did",
+          "was",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "'Only after + noun phrase' menunda inversi ke klausa utama: 'did the pharmaceutical board authorize'.",
+        "hints": [
+          "Main verb adalah bentuk dasar 'authorize'.",
+          "Inversi klausa utama memakai 'did'."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan hukum mengenai struktur 'Not until'.",
+        "dialogue": [
+          [
+            "Lawyer",
+            "When did your client learn about the undisclosed clause?"
+          ],
+          [
+            "Witness",
+            "Not until the audit report circulated in October ___ of the hidden addendum."
+          ]
+        ],
+        "options": [
+          "did he become aware",
+          "he became aware",
+          "became he aware"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Not until + waktu/klausa' di depan kalimat, klausa utama berikutnya wajib mengalami inversi: 'did he become aware'.",
+        "hints": [
+          "'Not until...' berada di posisi awal kalimat.",
+          "Lakukan inversi pada klausa utama dengan 'did + S + V1'."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence demonstrating ACCURATE Comparative Inversion without auxiliary duplication:",
+        "options": [
+          "Urban air sensors measure particulates more accurately than do outdated manual stations.",
+          "Urban air sensors measure particulates more accurately than outdated manual stations does.",
+          "Urban air sensors measure particulates more accurately than are do outdated manual stations."
+        ],
+        "answer": 0,
+        "explanation": "Dalam gaya akademis formal, setelah 'than' atau 'as', auxiliary boleh mendahului subjek benda panjang ('than do outdated manual stations', mengacu kembali pada 'measure' yang jamak).",
+        "hints": [
+          "Subjek di kanan 'than' jamak ('outdated manual stations') menggantikan aksi 'measure'.",
+          "Comparative inversion jamak memakai 'than do + S'."
+        ],
+        "skill": "comparative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "So rapid has smartphone banking adoption been across islands ___ traditional paper passbooks have nearly vanished.",
+        "options": [
+          "that",
+          "than",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "Meskipun bagian depan mengalami inversi ('So rapid has ... been'), konjungsi penutupnya tetap selalu 'that' (bukan 'than').",
+        "hints": [
+          "Pasangan mutlak 'So ...' adalah 'that'.",
+          "Pilih 'that'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan melakukan inversi auxiliary ganda pada klausa 'Only by' berikut.",
+        "draft": "Only by enforcing transparent procurement rules can municipal councils will eliminate kickbacks.",
+        "options": [
+          "Only by enforcing transparent procurement rules can municipal councils eliminate kickbacks.",
+          "Only by enforcing transparent procurement rules municipal councils can eliminate kickbacks.",
+          "Only by enforcing transparent procurement rules do municipal councils can eliminate kickbacks."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menumpuk dua modal ('can ... will')! Pindahkan satu modal 'can' ke depan subjek diikuti langsung V1 'eliminate'.",
+        "hints": [
+          "Hilangkan modal kedua 'will' setelah subjek.",
+          "Cukup gunakan satu modal inversi 'can + S + V1'."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — ___ in modern maritime history have two autonomous cargo vessels crossed this strait simultaneously.",
+        "options": [
+          "Never before",
+          "Always since",
+          "Almost"
+        ],
+        "answer": 0,
+        "explanation": "Frasa penguat negatif 'Never before' di awal kalimat memicu inversi 'have + Subject (two autonomous cargo vessels) + V3 (crossed)'.",
+        "hints": [
+          "Ada auxiliary 'have' sebelum subjek di kalimat.",
+          "Hanya frasa negatif 'Never before' yang memicu inversi ini."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Across the northern entrance of the botanical conservatory ___ a pair of century-old bronze sundials.",
+        "options": [
+          "stands",
+          "stand",
+          "do stands"
+        ],
+        "answer": 0,
+        "explanation": "Perhatikan inti subjek setelah verb dalam locative inversion: 'a pair of ... sundials'. Kata inti subjek adalah benda tunggal 'a pair', sehingga verb tunggal tanpa 'do' adalah 'stands'!",
+        "hints": [
+          "Kata inti subjeknya adalah 'a pair' (tunggal), bukan 'sundials'.",
+          "Locative inversion tunggal langsung memakai 'stands'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat comparative inversion yang formal dengan 'as'.",
+        "targetSentence": "Coastal wetlands shelter far more juvenile fish than do concrete seawalls.",
+        "explanation": "'Than do concrete seawalls' membalik auxiliary jamak 'do' sebelum frasa subjek pembanding.",
+        "hints": [
+          "Awali dengan 'Coastal wetlands shelter far more juvenile fish'.",
+          "Akhiri dengan 'than do concrete seawalls'."
+        ],
+        "skill": "comparative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi formal memakai pola 'So + adverb + did'.",
+        "targetSentence": "So persuasively did the lead architect present the bridge model that the jury approved it unanimously.",
+        "explanation": "'So + adverb + did + S + V1 + that...' mengangkat penekanan pada cara presentasi.",
+        "hints": [
+          "Mulai dengan 'So persuasively did the lead architect present'.",
+          "Tambahkan klausa 'that the jury approved it unanimously'."
+        ],
+        "skill": "so-such-inversion"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'has'."
         ],
         "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Analyze the stylistic risk in: 'Never have I seen such data. Seldom has a model failed so badly. Rarely do audits find this. Little did we suspect it.' Why should advanced writers limit consecutive inversions?",
+        "options": [
+          "Overusing inversion in back-to-back sentences blunts rhetorical impact and creates melodramatic fatigue",
+          "Grammar rules forbid two negative inversions inside the same ten-page essay",
+          "Inversion reduces grammatical precision whenever Past Simple verbs appear"
+        ],
+        "answer": 0,
+        "explanation": "Inversi adalah alat penekanan kuat (foregrounding); memakainya berturut-turut di setiap kalimat melunturkan daya pukau retorisnya dan membuat tulisan terdengar artifisial.",
+        "hints": [
+          "Inversi paling efektif jika dipakai selektif pada titik argumen kunci.",
+          "Kelebihan inversi mengurangi efek kejut dan kewibawaan gaya."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine Conditional-Concessive inversion with 'Were': '___ the board to withhold bridge financing, coastal ferries would still operate at reduced frequency.'",
+        "options": [
+          "Were",
+          "Had",
+          "Did"
+        ],
+        "answer": 0,
+        "explanation": "'Were + Subject + to + V1' adalah inversi hipotetis Second Conditional (setara 'If the board were to withhold...') yang berpasangan dengan 'would + V1'.",
+        "hints": [
+          "Lihat struktur '...the board to withhold' dan hasil 'would still operate'.",
+          "Inversi hipotetis 'to + V1' memakai 'Were'."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan membalik kata kerja transitif bersama pronoun subjek di locative/directional inversion berikut.",
+        "draft": "Into the crowded press auditorium strode he with a thick sheaf of audited tables.",
+        "options": [
+          "Into the crowded press auditorium he strode with a thick sheaf of audited tables.",
+          "Into the crowded press auditorium did he stride with a thick sheaf of audited tables.",
+          "Into the crowded press auditorium was striding he with a thick sheaf of audited tables."
+        ],
+        "answer": 0,
+        "explanation": "Pada locative/directional inversion ('Into the auditorium...'), inversi verb sebelum subjek ('strode he') DILARANG apabila subjeknya adalah personal pronoun ('he', 'she', 'they', 'it') — kembalikan ke 'he strode'.",
+        "hints": [
+          "Subjeknya adalah pronoun tunggal 'he'.",
+          "Directional inversion menolak inversi pada personal pronoun."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kritik akademis mengenai perbedaan fungsi 'Only when' vs 'Not until' di awal kalimat.",
+        "dialogue": [
+          [
+            "Student",
+            "Both 'Only when the sample dried did we weigh it' and 'Not until it dried did we weigh it' invert the main clause. Is there any nuance?"
+          ],
+          [
+            "Professor",
+            "'Only when' emphasizes the sole necessary condition, whereas 'Not until' specifically highlights ___ before that moment."
+          ]
+        ],
+        "options": [
+          "the prolonged delay or absence of the action",
+          "a higher statistical margin of error",
+          "informal spoken agreement between lab shifts"
+        ],
+        "answer": 0,
+        "explanation": "'Not until X' menyorot fakta bahwa sebelum titik waktu X, tindakan itu belum terjadi (menekankan lamanya penantian/batas awal), sedangkan 'Only when X' menyoroti syarat eksklusifnya.",
+        "hints": [
+          "Bandingkan makna penekanan 'belum terjadi sampai...' vs 'hanya ketika...'.",
+          "Pilih nuansa semantik yang akurat."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nowhere in the twenty-chapter regulatory statute ___ any explicit exemption for automated trading bots.",
+        "options": [
+          "does there appear",
+          "there appears",
+          "is appear"
+        ],
+        "answer": 0,
+        "explanation": "Jika kalimat 'there is / there appears' diinversi oleh 'Nowhere...' di awal kalimat, kata kerja bantu + 'there' berpindah berurutan sebelum subjek: 'Nowhere ... does there appear + subject'.",
+        "hints": [
+          "Perhatikan struktur eksistensial 'there appears'.",
+          "Inversi 'Nowhere...' + Present Simple dengan 'there' menjadi 'does there appear'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had the maritime authority ___ acted upon those early sonar warnings, neither cargo barge would have run aground.",
+        "options": [
+          "promptly",
+          "been prompt",
+          "to promptly"
+        ],
+        "answer": 0,
+        "explanation": "Di antara subjek 'the maritime authority' dan V3 'acted' dalam inversi Third Conditional ('Had + S + adverb + V3'), adverb cara diletakkan tepat sebelum V3.",
+        "hints": [
+          "Posisi di antara subjek dan past participle 'acted'.",
+          "Gunakan adverb 'promptly'."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan 'Not only' tanpa pengulangan bentuk auxiliary/tense yang sesuai pada kalimat formal berikut.",
+        "draft": "Not only had the courier misread the postal code, but also was ignoring urgent dispatch messages.",
+        "options": [
+          "Not only had the courier misread the postal code, but he had also ignored urgent dispatch messages.",
+          "Not only the courier had misread the postal code, but also ignored urgent dispatch messages.",
+          "Not only did the courier misread the postal code, but also was ignoring urgent dispatch messages."
+        ],
+        "answer": 0,
+        "explanation": "Setelah inversi klausa lengkap di depan ('Not only had the courier misread...'), klausa kedua setelah 'but' wajib memiliki subjek ('he') dan verb paralel Past Perfect ('had also ignored'), bukan mengandalkan subjek tanpa pronoun dengan tense progresif janggal.",
+        "hints": [
+          "Sediakan subjek 'he' di klausa kedua setelah 'but'.",
+          "Selaraskan aspek Past Perfect di kedua klausa."
+        ],
+        "skill": "not-only-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "To such an alarming degree ___ coastal erosion accelerated that municipal engineers relocated three cliffside roads.",
+        "options": [
+          "has",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Perhatikan V3 'accelerated' di belakang subjek 'coastal erosion' — bentuk Present Perfect ('has ... accelerated') lebih akurat dibanding 'did' (yang harus diikuti V1 'accelerate') atau 'was' (pasif tak tepat di sini).",
+        "hints": [
+          "Cek bentuk participle 'accelerated' (V3) dan sifat intransitif erosi di sini.",
+          "Hanya 'has' membentuk aktif Present Perfect 'has accelerated'."
+        ],
+        "skill": "so-such-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi formal dengan frasa pembuka negatif eksistensial 'Nowhere ... is there'.",
+        "targetSentence": "Nowhere in the revised charter is there any clause permitting unilateral fee hikes.",
+        "explanation": "'Nowhere + place + is there + subject' membalik 'there is' setelah keterangan tempat negatif.",
+        "hints": [
+          "Awali dengan 'Nowhere in the revised charter is there'.",
+          "Tambahkan objek dan klausa partisipelnya."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat comparative inversion formal membandingkan dua metode riset.",
+        "targetSentence": "Controlled field trials isolate causal variables far more reliably than do retrospective surveys.",
+        "explanation": "'Than do retrospective surveys' menempatkan auxiliary jamak 'do' tepat sebelum subjek panjang pembanding.",
+        "hints": [
+          "Mulai dengan 'Controlled field trials isolate causal variables'.",
+          "Akhiri dengan 'far more reliably than do retrospective surveys'."
+        ],
+        "skill": "comparative-inversion"
       }
     ]
   }

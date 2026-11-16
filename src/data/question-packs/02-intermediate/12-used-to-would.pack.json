@@ -99,6 +99,167 @@
           "Gunakan 'we would visit our grandparents'."
         ],
         "skill": "would-nostalgic-habits"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before the metro line opened, Maya ___ take two crowded buses to work every day.",
+        "options": [
+          "used to",
+          "use to",
+          "is used to"
+        ],
+        "answer": 0,
+        "explanation": "Kebiasaan rutin masa lampau yang kini tidak lagi dilakukan dinyatakan dengan 'used to + V1' (perhatikan akhiran '-d' pada kalimat positif).",
+        "hints": [
+          "Kalimat positif tentang rutinitas masa lalu yang sudah berhenti.",
+          "Bentuk bakunya 'used to' (memakai -d)."
+        ],
+        "skill": "used-to-habits"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did your grandfather ___ own a small watch repair shop near the harbor?",
+        "options": [
+          "use to",
+          "used to",
+          "using to"
+        ],
+        "answer": 0,
+        "explanation": "Dalam kalimat tanya berawalan 'Did' (atau negatif 'didn't'), akhiran '-d' dilepas menjadi 'use to'.",
+        "hints": [
+          "Sudah ada auxiliary lampau 'Did' di depan.",
+          "Setelah 'Did', hilangkan '-d' → 'use to'."
+        ],
+        "skill": "used-to-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our town ___ have a tram network in the 1960s, though the tracks were removed later.",
+        "options": [
+          "used to",
+          "would",
+          "is used to"
+        ],
+        "answer": 0,
+        "explanation": "'Have' di sini menyatakan KEADAAN (state) di masa lalu ('dulu memiliki'), bukan aksi berulang; hanya 'used to' yang boleh dipakai untuk past states, bukan 'would'.",
+        "hints": [
+          "Apakah 'own/have' itu tindakan aksi berulang atau keadaan?",
+          "'Would' tidak boleh untuk keadaan statis lampau; pakai 'used to'."
+        ],
+        "skill": "used-to-vs-would-states"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ live near the noisy ring road, so we really enjoy our quiet neighborhood now.",
+        "options": [
+          "didn't use to",
+          "didn't used to",
+          "wouldn't to"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat negatif masa lalu memakai 'didn't use to' (atau 'used not to' sangat formal), tanpa '-d' setelah 'didn't'.",
+        "hints": [
+          "Perhatikan auxiliary negatif 'didn't'.",
+          "Setelah 'didn't', gunakan bentuk dasar 'use to'."
+        ],
+        "skill": "used-to-negation"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang adaptasi rutinitas baru dengan 'be used to'.",
+        "dialogue": [
+          [
+            "Colleague",
+            "Isn't waking up at five for the morning shift exhausting?"
+          ],
+          [
+            "Nurse",
+            "It was hard at first, yet now I am ___ early hours."
+          ]
+        ],
+        "options": [
+          "used to working",
+          "used to work",
+          "use to working"
+        ],
+        "answer": 0,
+        "explanation": "'Be used to + noun / V-ing' bermakna 'sudah terbiasa dengan'; kata 'to' adalah preposisi sehingga diikuti V-ing ('working').",
+        "hints": [
+          "Terdapat to be 'am' tepat sebelum rumpang.",
+          "Pola 'am used to + V-ing' berarti terbiasa."
+        ],
+        "skill": "be-used-to-vs-used-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Back in college, my friends and I ___ often stay up until midnight debating design ideas.",
+        "options": [
+          "would",
+          "used",
+          "getting used to"
+        ],
+        "answer": 0,
+        "explanation": "Kebiasaan aksi yang sering diulang di masa lalu ('stay up... debating') juga dapat diceritakan dengan 'would + V1' (note: 'used' tanpa 'to' salah).",
+        "hints": [
+          "'Stay up' adalah aksi berulang dengan penanda waktu 'Back in college'.",
+          "Opsi yang benar-benar lengkap secara struktur adalah 'would'."
+        ],
+        "skill": "would-nostalgic-habits"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda menyertakan '-d' sesudah 'didn't' pada kalimat berikut.",
+        "draft": "Small neighborhood cafés didn't used to offer contactless QR payments ten years ago.",
+        "options": [
+          "Small neighborhood cafés didn't use to offer contactless QR payments ten years ago.",
+          "Small neighborhood cafés wouldn't use to offer contactless QR payments ten years ago.",
+          "Small neighborhood cafés didn't using to offer contactless QR payments ten years ago."
+        ],
+        "answer": 0,
+        "explanation": "Sesudah 'didn't', verb kembali ke bentuk dasar tanpa -d: 'didn't use to offer'.",
+        "hints": [
+          "Cek kata bantu lampau 'didn't'.",
+          "Hapus huruf -d pada 'used' setelah 'didn't'."
+        ],
+        "skill": "used-to-negation"
+      },
+      {
+        "type": "choice",
+        "prompt": "After moving to Tokyo, it took Farhan two months to ___ riding packed commuter trains.",
+        "options": [
+          "get used to",
+          "used to",
+          "use to"
+        ],
+        "answer": 0,
+        "explanation": "Proses menjadi terbiasa ('lama-kelamaan terbiasa') dinyatakan dengan 'get used to + V-ing / noun'.",
+        "hints": [
+          "Menekankan proses adaptasi ('it took two months to...').",
+          "Proses membiasakan diri memakai 'get used to'."
+        ],
+        "skill": "get-used-to"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kebiasaan lampau menggunakan 'used to'.",
+        "targetSentence": "I used to print every draft until our office went paperless.",
+        "explanation": "Subject + used to + V1 ('print') + object + time clause.",
+        "hints": [
+          "Awali dengan 'I used to print every draft'.",
+          "Akhiri dengan 'until our office went paperless'."
+        ],
+        "skill": "used-to-habits"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penyesuaian kebiasaan menggunakan 'get used to + V-ing'.",
+        "targetSentence": "New interns quickly get used to logging their hours daily.",
+        "explanation": "'Get used to' diikuti gerund ('logging') untuk menunjukkan proses menjadi terbiasa.",
+        "hints": [
+          "Mulai dengan 'New interns quickly get used to'.",
+          "Tambahkan gerund 'logging their hours daily'."
+        ],
+        "skill": "get-used-to"
       }
     ],
     "intermediate": [
@@ -227,6 +388,167 @@
           "Gunakan 'would sit'."
         ],
         "skill": "would-nostalgic-habits"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence is INCORRECT because 'would' cannot describe a past state?",
+        "options": [
+          "There would be a huge pine tree behind the primary school.",
+          "Every July, my grandmother would bake pineapple tarts.",
+          "We would sit on the porch watching evening ferries pass by."
+        ],
+        "answer": 0,
+        "explanation": "Keberadaan atau keadaan statis masa lampau ('There used to be a huge pine tree...') TIDAK boleh memakai 'would'; 'would' hanya untuk aksi berulang berpola waktu tertentu.",
+        "hints": [
+          "Cari kalimat yang menyatakan keberadaan/keadaan tetap ('be'), bukan aksi berulang.",
+          "'There would be' tidak bisa menggantikan 'There used to be'."
+        ],
+        "skill": "used-to-vs-would-states"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look closely: 'She ___ to live in Bandung' vs 'She ___ living in cool mountain air.'",
+        "options": [
+          "used / is used to",
+          "is used / used to",
+          "would / used to"
+        ],
+        "answer": 0,
+        "explanation": "'Used to + V1 (live)' menyatakan masa lalu yang sudah berhenti; 'is used to + V-ing (living)' menyatakan sudah terbiasa sekarang.",
+        "hints": [
+          "Klausa pertama memakai V1 'live'.",
+          "Klausa kedua memakai V-ing 'living'."
+        ],
+        "skill": "be-used-to-vs-used-to"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan yang membedakan kebiasaan ('used to') vs satu kejadian tunggal masa lalu (Past Simple).",
+        "dialogue": [
+          [
+            "Interviewer",
+            "Did you use to travel abroad every month in your old job?"
+          ],
+          [
+            "Applicant",
+            "Not every month — actually, I ___ to Manila just once for a trade show."
+          ]
+        ],
+        "options": [
+          "flew",
+          "used to fly",
+          "would fly"
+        ],
+        "answer": 0,
+        "explanation": "'Used to' dan 'would' HANYA untuk kebiasaan berulang atau keadaan lama; kejadian yang terjadi TEPAT SATU KALI ('just once') wajib menggunakan Past Simple ('flew').",
+        "hints": [
+          "Kata kunci: 'just once' (hanya sekali).",
+          "Kejadian tunggal lampau tidak memakai 'used to' maupun 'would'."
+        ],
+        "skill": "used-to-vs-past-simple"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't worry if the new keyboard layout feels awkward today — you ___ it within a week.",
+        "options": [
+          "will get used to",
+          "used to",
+          "are used to V1"
+        ],
+        "answer": 0,
+        "explanation": "Memprediksi bahwa seseorang akan menjadi terbiasa di masa depan memakai 'will get used to + noun/pronoun'.",
+        "hints": [
+          "Menunjukkan proses adaptasi dalam waktu seminggu ke depan.",
+          "Gunakan 'will get used to'."
+        ],
+        "skill": "get-used-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice how 'would' needs an established past time frame: '___, my uncle would repair broken radios on the back porch.'",
+        "options": [
+          "During rainy weekends",
+          "Now and next week",
+          "Once in 2019"
+        ],
+        "answer": 0,
+        "explanation": "'Would' untuk kebiasaan nostalgia tidak boleh berdiri tanpa konteks waktu lampau berulang; frasa 'During rainy weekends' memberi bingkai waktu lampau berulang yang alami.",
+        "hints": [
+          "'Would' kebiasaan wajib memiliki konteks masa lampau berulang.",
+          "Pilih frasa yang menandai momen berulang masa lalu ('During rainy weekends')."
+        ],
+        "skill": "would-nostalgic-habits"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan 'be used to' dengan bare infinitive berikut.",
+        "draft": "Because I grew up in a noisy port city, I am completely used to sleep through ferry horns.",
+        "options": [
+          "Because I grew up in a noisy port city, I am completely used to sleeping through ferry horns.",
+          "Because I grew up in a noisy port city, I completely used to sleep through ferry horns.",
+          "Because I grew up in a noisy port city, I am completely used to slept through ferry horns."
+        ],
+        "answer": 0,
+        "explanation": "Karena ada to be 'am' di depan, frasa 'am used to' bermakna 'sudah terbiasa' dan mewajibkan gerund ('sleeping'), bukan V1 'sleep'.",
+        "hints": [
+          "Perhatikan to be 'am' sebelum 'completely used to'.",
+          "Pola 'be used to + V-ing'."
+        ],
+        "skill": "be-used-to-vs-used-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Did you ___ enjoy long bus rides, or did they always make you carsick?",
+        "options": [
+          "use to",
+          "used to",
+          "be used to"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan Past Simple dengan 'Did you...' menanyakan kesukaan masa lampau memakai bentuk tanpa '-d': 'use to enjoy' (bukan 'be used to' karena verb setelahnya V1 'enjoy').",
+        "hints": [
+          "Lihat V1 'enjoy' dan auxiliary 'Did' di awal kalimat.",
+          "Kombinasinya adalah 'Did you use to + V1'."
+        ],
+        "skill": "used-to-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before selling their shop in 2010, our parents ___ a tiny corner bakery for five years.",
+        "options": [
+          "used to own",
+          "would own",
+          "were used to owning always"
+        ],
+        "answer": 0,
+        "explanation": "'Own' adalah stative verb kepemilikan di masa lampau ('dulu memiliki'), sehingga wajib memakai 'used to own' (atau Past Simple 'owned'), bukan 'would own'.",
+        "hints": [
+          "Kepemilikan adalah state (keadaan), bukan aksi berulang.",
+          "Gunakan 'used to own'."
+        ],
+        "skill": "used-to-vs-would-states"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai 'used to' yang kontras dengan kondisi sekarang.",
+        "targetSentence": "Riko used to hate public speaking, but now he hosts weekly webinars.",
+        "explanation": "'Used to hate' menyatakan sikap/perasaan masa lalu yang sudah berubah kini.",
+        "hints": [
+          "Mulai dengan 'Riko used to hate public speaking,'.",
+          "Kontraskan dengan 'but now he hosts weekly webinars'."
+        ],
+        "skill": "used-to-vs-would-states"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pertanyaan negatif masa lalu dengan 'didn't ... use to'.",
+        "targetSentence": "Didn't this historic avenue use to have shaded tram tracks?",
+        "explanation": "Pertanyaan negatif memakai 'Didn't + Subject + use to + V1...?'.",
+        "hints": [
+          "Awali dengan 'Didn't this historic avenue'.",
+          "Lengkapi 'use to have shaded tram tracks?'."
+        ],
+        "skill": "used-to-question"
       }
     ],
     "complex": [
@@ -348,6 +670,168 @@
           "Gunakan 'used to operate'."
         ],
         "skill": "used-to-habits"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence that accurately respects ALL rules of 'would' vs 'used to' in literary narrative.",
+        "options": [
+          "Every autumn, grandfather would gather fallen leaves, though the orchard used to belong to the neighboring monastery.",
+          "Every autumn, grandfather would gather fallen leaves, and the orchard would belong to the neighboring monastery.",
+          "Grandfather would once lived in that monastery for ten years."
+        ],
+        "answer": 0,
+        "explanation": "Aksi berulang bernuansa nostalgia ('would gather') dipadukan secara elegan dengan fakta keadaan statis kepemilikan ('used to belong'); pada opsi lain, 'would belong' (stative verb) dan 'would once lived' salah.",
+        "hints": [
+          "Ingat: 'belong' adalah stative verb sehingga tidak boleh memakai 'would'.",
+          "Pastikan aksi berulang vs keadaan tetap ditempatkan tepat."
+        ],
+        "skill": "would-narrative-style"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is 'I can't get used to the team changing deadlines every Friday' grammatical?",
+        "options": [
+          "'The team' acts as the logical subject before the gerund 'changing' after preposition 'to'",
+          "'Get used to' always takes bare infinitive 'changing'",
+          "'Used to' replaces Present Perfect Continuous here"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'get used to' (preposisi 'to'), frasa 'the team changing deadlines' adalah gerund clause dengan subjeknya sendiri ('the team'), yang secara tata bahasa berfungsi sebagai objek preposisi 'to'.",
+        "hints": [
+          "'To' pada 'get used to' adalah preposisi yang diikuti gerund clause.",
+          "Lihat peran 'the team changing...' sebagai gerund ber-subjek."
+        ],
+        "skill": "get-used-to"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan perpaduan 'used to' untuk durasi yang diukur pasti (bukan kebiasaan tak tentu) berikut.",
+        "draft": "Last year, I used to visit Singapore exactly three times for client audits.",
+        "options": [
+          "Last year, I visited Singapore exactly three times for client audits.",
+          "Last year, I would visit Singapore exactly three times for client audits.",
+          "Last year, I had used to visit Singapore exactly three times for client audits."
+        ],
+        "answer": 0,
+        "explanation": "Apabila jumlah kejadian sudah dihitung persis dalam periode spesifik ('Last year ... exactly three times'), JANGAN menggunakan 'used to' maupun 'would'; gunakan Past Simple ('visited').",
+        "hints": [
+          "Penghitungan jumlah kali yang eksak ('exactly three times') wajib memakai Past Simple.",
+          "Hapus 'used to' dan gunakan V2 'visited'."
+        ],
+        "skill": "used-to-vs-past-simple"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi tata bahasa tingkat lanjut tentang kata kerja pasif 'be used to' (= dipakai untuk) vs 'be used to' (= terbiasa).",
+        "dialogue": [
+          [
+            "Student",
+            "In 'This laser is used to measure microscopic cracks', why is 'measure' NOT 'measuring'?"
+          ],
+          [
+            "Tutor",
+            "Because here 'is used' is simply the passive voice of the verb 'use' (= dipakai untuk), followed by ___!"
+          ]
+        ],
+        "options": [
+          "an infinitive of purpose ('to measure')",
+          "the past habit construction",
+          "a gerund after a preposition"
+        ],
+        "answer": 0,
+        "explanation": "Bedakan dua struktur identik permukaan ini: 1) 'is used to + V-ing' (= terbiasa); 2) 'is used (passive of use) + to V1' (= digunakan untuk melakukan tujuan tertentu, seperti laser digunakan untuk mengukur).",
+        "hints": [
+          "'Is used' di sini adalah pasif dari kata kerja 'use' (dipakai).",
+          "'To measure' berfungsi sebagai infinitive tujuan (in order to measure)."
+        ],
+        "skill": "be-used-to-vs-used-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the stylistic nuance: in formal narrative prose, writers avoid repeating 'used to' six times in one paragraph by switching to ___ for repeated past actions.",
+        "options": [
+          "would + bare infinitive",
+          "was used to + V-ing",
+          "will + bare infinitive"
+        ],
+        "answer": 0,
+        "explanation": "Praktik gaya bahasa naratif baku: perkenalkan bingkai waktu lampau pertama kali dengan 'used to' atau Past Simple, lalu lanjutkan rangkaian kebiasaan aksinya dengan 'would + V1' agar mengalir halus.",
+        "hints": [
+          "Dalam narasi, setelah latar lampau dibangun, aksi berulang dilanjutkan dengan modal naratif.",
+          "Pilih 'would + bare infinitive'."
+        ],
+        "skill": "would-narrative-style"
+      },
+      {
+        "type": "choice",
+        "prompt": "Although the night-shift nurses ___ sleeping during daylight now, new trainees still struggle with the schedule.",
+        "options": [
+          "have gotten used to",
+          "are use to",
+          "would to"
+        ],
+        "answer": 0,
+        "explanation": "Menekankan bahwa perawat telah melewati proses adaptasi hingga kini sudah terbiasa memakai Present Perfect dari 'get used to': 'have gotten/got used to + V-ing'.",
+        "hints": [
+          "Subjek jamak 'nurses' + V-ing 'sleeping'.",
+          "Gunakan Present Perfect 'have gotten used to'."
+        ],
+        "skill": "get-used-to"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyalahgunakan 'would' pada stative verb mental ('believe') berikut.",
+        "draft": "During the nineteenth century, many physicians would believe that sea fog caused malaria.",
+        "options": [
+          "During the nineteenth century, many physicians used to believe that sea fog caused malaria.",
+          "During the nineteenth century, many physicians were used to believe that sea fog caused malaria.",
+          "During the nineteenth century, many physicians would believed that sea fog caused malaria."
+        ],
+        "answer": 0,
+        "explanation": "'Believe' adalah kata kerja keadaan mental (stative verb), sehingga tidak boleh memakai 'would' untuk keyakinan lama; gunakan 'used to believe' (atau Past Simple 'believed').",
+        "hints": [
+          "'Believe' menyatakan keadaan keyakinan, bukan aksi fisik berulang.",
+          "Ganti 'would believe' menjadi 'used to believe'."
+        ],
+        "skill": "used-to-vs-would-states"
+      },
+      {
+        "type": "choice",
+        "prompt": "In very formal British style, the negative of 'used to' without 'did' appears as '___' (rare in everyday speech).",
+        "options": [
+          "used not to",
+          "usedn't to V-ing",
+          "didn't used to"
+        ],
+        "answer": 0,
+        "explanation": "Di luar bentuk modern 'didn't use to', penulisan sastra/formal tradisional kadang memakai 'used not to + V1'.",
+        "hints": [
+          "Bentuk formal tanpa 'did' menempatkan 'not' di antara 'used' dan 'to'.",
+          "Pilih 'used not to'."
+        ],
+        "skill": "used-to-negation"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kontras makna pasif 'be used to + V1' (digunakan untuk) dengan rapi.",
+        "targetSentence": "This high-frequency probe is used to detect hairline cracks inside turbine blades.",
+        "explanation": "'Is used' (pasif dari 'use') diikuti infinitive tujuan 'to detect', bukan gerund.",
+        "hints": [
+          "Awali dengan 'This high-frequency probe is used to detect'.",
+          "Tambahkan objek dan lokasi."
+        ],
+        "skill": "be-used-to-vs-used-to"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat narasi nostalgia yang memadukan konteks pembuka dan kebiasaan 'would'.",
+        "targetSentence": "Back in my village, neighbors would gather under the banyan tree every dusk.",
+        "explanation": "Setelah bingkai lampau 'Back in my village', aksi kebiasaan berulang diungkapkan memakai 'would gather'.",
+        "hints": [
+          "Mulai dengan 'Back in my village, neighbors would gather'.",
+          "Tambahkan tempat dan waktu berulang."
+        ],
+        "skill": "would-narrative-style"
       }
     ]
   }

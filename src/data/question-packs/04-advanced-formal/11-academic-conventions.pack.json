@@ -99,6 +99,167 @@
           "Objek teoretis: 'this theoretical assumption'."
         ],
         "skill": "literature-review-formulas"
+      },
+      {
+        "type": "choice",
+        "prompt": "In APA 7th edition in-text citation, how do you cite a single author at the end of a paraphrased sentence?",
+        "options": [
+          "(Rahman, 2023)",
+          "(Rahman 2023 page)",
+          "(Mr. Rahman, 2023)"
+        ],
+        "answer": 0,
+        "explanation": "Format kutipan dalam-teks APA standar untuk parafrase memuat nama belakang penulis dan tahun yang dipisah koma di dalam tanda kurung: '(Rahman, 2023)'.",
+        "hints": [
+          "Jangan menyertakan gelar ('Mr.') dan wajib pisahkan penulis & tahun dengan koma.",
+          "Format: (Last Name, Year)."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "choice",
+        "prompt": "How does a NARRATIVE citation integrate the author's name directly into the grammatical flow of the sentence?",
+        "options": [
+          "Rahman (2023) demonstrated that urban tree canopies lower street heat.",
+          "Urban tree canopies lower street heat Rahman (2023).",
+          "(Rahman) 2023 demonstrated that urban tree canopies lower street heat."
+        ],
+        "answer": 0,
+        "explanation": "Dalam narrative citation, nama penulis menjadi bagian subjek kalimat diikuti tahun dalam tanda kurung tepat di sebelahnya: 'Rahman (2023) demonstrated...'.",
+        "hints": [
+          "Subjek kalimat langsung diisi nama belakang penulis, diikuti tahun di tanda kurung.",
+          "Pilih struktur 'Author (Year) verb...'."
+        ],
+        "skill": "narrative-citations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence maintains an appropriately OBJECTIVE academic stance (avoiding overly personal bias)?",
+        "options": [
+          "Evidence suggests that early phonological training strengthens reading fluency.",
+          "I personally feel deeply in my heart that reading training is super important.",
+          "Everybody obviously agrees that nobody dislikes reading fluency."
+        ],
+        "answer": 0,
+        "explanation": "Penulisan akademik menghindari klaim emosional pribadi ('I personally feel deeply...') maupun generalisasi ekstrem ('Everybody obviously...'), dan berfokus pada apa yang ditunjukkan bukti.",
+        "hints": [
+          "Fokuskan subjek kalimat pada bukti ('Evidence suggests...').",
+          "Hindari bahasa emosional pribadi."
+        ],
+        "skill": "objective-stance"
+      },
+      {
+        "type": "choice",
+        "prompt": "In academic writing, the Latin abbreviation '___' (= and others) is used when citing sources with three or more authors in APA 7.",
+        "options": [
+          "et al.",
+          "e.g.",
+          "i.e."
+        ],
+        "answer": 0,
+        "explanation": "'et al.' (dari 'et alii' = dan kawan-kawan) dipakai di belakang nama penulis pertama untuk sumber dengan ≥3 penulis dalam APA 7: '(Lin et al., 2022)'.",
+        "hints": [
+          "Singkatan untuk menggantikan daftar penulis kedua, ketiga, dst.",
+          "Gunakan 'et al.' (perhatikan titik setelah 'al.')."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan bimbingan skripsi tentang perbedaan 'i.e.' dan 'e.g.'.",
+        "dialogue": [
+          [
+            "Student",
+            "Should I write '(e.g., Jakarta and Surabaya)' when listing two EXAMPLES out of many Indonesian cities?"
+          ],
+          [
+            "Supervisor",
+            "Yes! '___' introduces non-exhaustive examples, whereas 'i.e.' introduces a complete restatement or definition."
+          ]
+        ],
+        "options": [
+          "e.g.",
+          "et al.",
+          "viz."
+        ],
+        "answer": 0,
+        "explanation": "'e.g.' (exempli gratia = misalnya) untuk memberi beberapa contoh; 'i.e.' (id est = yaitu) untuk memperjelas arti atau daftar lengkap.",
+        "hints": [
+          "Konteksnya dua contoh dari banyak kota lainnya.",
+          "Singkatan untuk 'misalnya' adalah 'e.g.'."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "choice",
+        "prompt": "When stating a tentative prediction to be tested in an empirical study, which verb fits 'Formulating Hypotheses' best?",
+        "options": [
+          "We hypothesize that higher soil salinity will inhibit early root elongation.",
+          "We blindly guess that salt totally kills roots maybe.",
+          "We swear salt definitely wrecks every single plant root."
+        ],
+        "answer": 0,
+        "explanation": "Hipotesis ilmiah dirumuskan dengan jelas, dapat diuji secara empiris, dan memakai verb tepat seperti 'hypothesize' atau 'predict'.",
+        "hints": [
+          "Hipotesis harus terukur dan dapat diuji.",
+          "Pilih kalimat dengan verb ilmiah 'hypothesize'."
+        ],
+        "skill": "formulating-hypotheses"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan menggabungkan gelar dan inisial nama depan di dalam kutipan APA berikut.",
+        "draft": "According to (Dr. Agus Rahman, 2021), coastal wetlands absorb storm surges effectively.",
+        "options": [
+          "According to Rahman (2021), coastal wetlands absorb storm surges effectively.",
+          "According to Dr. Rahman (2021), coastal wetlands absorb storm surges effectively.",
+          "According to (Rahman, 2021), coastal wetlands absorb storm surges effectively."
+        ],
+        "answer": 0,
+        "explanation": "Dalam sitasi APA: 1) Jangan masukkan gelar ('Dr.') atau nama depan ('Agus'); 2) Jika memakai 'According to...', nama penulis menjadi bagian teks sehingga hanya tahun yang masuk ke dalam tanda kurung ('According to Rahman (2021),...').",
+        "hints": [
+          "Setelah 'According to', jangan taruh seluruh nama dan tahun di dalam satu kurung.",
+          "Hapus 'Dr.' dan nama depan."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which verb phrase belongs in a formal Methodology section describing how subjects were selected?",
+        "options": [
+          "Participants were recruited via stratified random sampling across three clinics.",
+          "We grabbed random folks hanging around three clinics.",
+          "Three clinics handed us whoever happened to walk by."
+        ],
+        "answer": 0,
+        "explanation": "Bagian Methodology menuntut terminologi desain penelitian yang baku ('stratified random sampling', 'were recruited').",
+        "hints": [
+          "Gunakan istilah metodologi riset yang standar dan dapat direplikasi.",
+          "Pilih kalimat beristilah metodologi presisi."
+        ],
+        "skill": "methodology-terminology"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tinjauan pustaka memakai narrative citation dan reporting verb netral.",
+        "targetSentence": "Tanaka (2022) observed a clear decline in summer glacier thickness across northern valleys.",
+        "explanation": "Pola 'Author (Year) + reporting verb lampau (observed) + temuan'.",
+        "hints": [
+          "Awali dengan 'Tanaka (2022) observed a clear decline'.",
+          "Tambahkan objek dan lokasi."
+        ],
+        "skill": "narrative-citations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan hasil statistik dasar yang objektif.",
+        "targetSentence": "Survey results indicate a statistically significant correlation between sleep duration and recall accuracy.",
+        "explanation": "Menyatakan temuan statistik dengan 'indicate a statistically significant correlation between A and B'.",
+        "hints": [
+          "Mulai dengan 'Survey results indicate a statistically significant'.",
+          "Lengkapi dengan 'correlation between sleep duration and recall accuracy'."
+        ],
+        "skill": "reporting-statistical-results"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'validity'."
         ],
         "skill": "methodology-terminology"
+      },
+      {
+        "type": "choice",
+        "prompt": "In APA 7, when citing a DIRECT word-for-word quotation (not a paraphrase), what extra element MUST appear inside the parenthetical citation?",
+        "options": [
+          "the exact page number (e.g., 'p. 42') or paragraph number",
+          "the publisher's street address and ISBN code",
+          "the author's academic degree and email"
+        ],
+        "answer": 0,
+        "explanation": "Kutipan langsung kata-demi-kata dalam APA wajib menyertakan nomor halaman spesifik ('p. 42' atau 'pp. 42–43'), sedangkan parafrase tidak diwajibkan.",
+        "hints": [
+          "Pembaca harus bisa menemukan lokasi tepat kalimat kutipan langsung tersebut.",
+          "Sertakan nomor halaman ('p. 42')."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the reporting verb that accurately signals the cited scholar EXPLICITLY REJECTED an older assumption:",
+        "options": [
+          "refuted / challenged",
+          "corroborated / echoed",
+          "noted / observed"
+        ],
+        "answer": 0,
+        "explanation": "Dalam literature review, pemilihan reporting verb menunjukkan posisi akademis penulis: 'refuted' atau 'challenged' menandai sanggahan kuat; 'corroborated' menandai dukungan.",
+        "hints": [
+          "Cari kata kerja pelaporan yang menyatakan penolakan/sanggahan argumen.",
+          "Pilih 'refuted / challenged'."
+        ],
+        "skill": "academic-reporting-verbs"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan pembimbing skripsi tentang membatasi ruang lingkup kajian (delimiting scope).",
+        "dialogue": [
+          [
+            "Candidate",
+            "What if examiners ask why I excluded maritime shipping outside Southeast Asia?"
+          ],
+          [
+            "Supervisor",
+            "State your methodological boundary clearly early on: 'This study is deliberately ___ Southeast Asian ferry corridors.'"
+          ]
+        ],
+        "options": [
+          "delimited to / confined to",
+          "ignorant of",
+          "bored by"
+        ],
+        "answer": 0,
+        "explanation": "Menjelaskan batasan cakupan riset ('delimiting study scope') dilakukan dengan tegas memakai frasa akademik seperti 'is confined to' atau 'focuses exclusively on' disertai alasan metodologis.",
+        "hints": [
+          "Pembatasan fokus penelitian bersifat disengaja demi kedalaman analisis.",
+          "Gunakan 'delimited to / confined to'."
+        ],
+        "skill": "delimiting-study-scope"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the sentence demonstrating genuine academic SYNTHESIS rather than a flat list of disconnected summaries:",
+        "options": [
+          "Whereas Patel (2020) emphasized tax incentives, both Wu (2021) and Adi (2023) concluded that grid reliability remains the primary driver of industrial adoption.",
+          "Patel (2020) studied tax. Wu (2021) studied grid. Adi (2023) also wrote a paper on energy.",
+          "Patel, Wu, and Adi all exist in the library database and wrote about things."
+        ],
+        "answer": 0,
+        "explanation": "Sintesis literatur mempertemukan para peneliti dalam satu kalimat analitis—membandingkan kesepakatan ('both ... concluded') dan perbedaan fokus ('Whereas...') antar-studi.",
+        "hints": [
+          "Sintesis membandingkan dan mengelompokkan temuan beberapa sumber sekaligus.",
+          "Hindari daftar ringkasan terpisah satu per satu ('A studied X. B studied Y.')."
+        ],
+        "skill": "paraphrasing-and-synthesis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note the Latin convention: '___' (often italicized or noted in references for exact errors inside an original direct quote) signals 'thus it was written in the original source'.",
+        "options": [
+          "[sic]",
+          "cf.",
+          "ibid."
+        ],
+        "answer": 0,
+        "explanation": "'[sic]' disisipkan setelah kata yang salah ketik atau tidak baku di dalam kutipan langsung untuk menunjukkan bahwa kesalahan tersebut berasal dari sumber aslinya, bukan salah ketik pengutip.",
+        "hints": [
+          "Menandai keaslian kesalahan ejaan pada naskah kutipan langsung.",
+          "Gunakan tanda kurung siku '[sic]'."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan parafrase malas (patchwriting) yang terlalu mirip struktur dan kata-kata sumber aslinya berikut.",
+        "draft": "Original: 'Urban wetlands absorb storm runoff quickly and filter heavy metals from highway drainage.' Patchwriting: 'City wetlands absorb storm water quickly and filter heavy metals out of highway drainage.'",
+        "options": [
+          "By retaining storm water and trapping roadside pollutants, urban wetlands mitigate flood peaks and improve runoff quality.",
+          "Urban wetlands take in storm runoff fastly and screen heavy metals from road drainage.",
+          "Urban wetlands absorb storm runoff quickly and filter heavy metals from highway drainage (Author, 2024)."
+        ],
+        "answer": 0,
+        "explanation": "Sekadar menukar beberapa sinonim sambil mempertahankan kerangka kalimat persis sumber ('patchwriting') masih tergolong plagiarisme struktural! Parafrase sejati menyusun ulang struktur sintaksis sekaligus mempertahankan makna inti dengan akurasi ilmiah.",
+        "hints": [
+          "Jangan hanya mengganti 2–3 kata dengan sinonim sementara struktur tetap identik.",
+          "Ubah struktur klausa dan kosakata secara menyeluruh sambil menjaga makna."
+        ],
+        "skill": "paraphrasing-and-synthesis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the most accurate formula for reporting statistical non-significance objectively:",
+        "options": [
+          "No statistically significant difference was observed between the control and intervention cohorts (p = .34).",
+          "The experiment totally failed because both groups ended up looking pretty identical.",
+          "Clearly the intervention did literally zero things to anyone at all."
+        ],
+        "answer": 0,
+        "explanation": "Hasil dengan p-value > 0.05 dilaporkan secara netral dengan frasa baku 'No statistically significant difference was observed...' beserta nilai p-nya — hindari menyebut penelitian 'gagal total' atau 'sama persis'.",
+        "hints": [
+          "Nilai p = 0.34 menandakan hasil tidak signifikan secara statistik.",
+          "Gunakan formulasi netral tanpa bahasa emosional."
+        ],
+        "skill": "reporting-statistical-results"
+      },
+      {
+        "type": "choice",
+        "prompt": "In literature reviews, when identifying a RESEARCH GAP (celah penelitian yang belum terjawab), which transition signals your study's contribution best?",
+        "options": [
+          "Despite extensive urban trials, little longitudinal research has examined rural clinic adoption.",
+          "Previous scientists missed everything because nobody knew how to run surveys.",
+          "There are zero papers on anything related to rural clinics anywhere in history."
+        ],
+        "answer": 0,
+        "explanation": "'Despite extensive [X], little [research] has examined [Y]' menghargai kontribusi riset terdahulu sambil menunjukkan celah spesifik yang menjadi alasan studi baru.",
+        "hints": [
+          "Ungkapkan celah penelitian secara terukur ('little ... has examined'), bukan mengklaim 'zero papers in history'.",
+          "Pilih transisi pengakuan + celah fokus."
+        ],
+        "skill": "literature-review-formulas"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang mendefinisikan batas cakupan studi (delimiting scope) secara jelas.",
+        "targetSentence": "To maintain analytical depth, this thesis restricts its scope to post-2015 municipal bond issues.",
+        "explanation": "Menjelaskan alasan ('To maintain analytical depth') diikuti 'restricts its scope to...' menunjukkan ketelitian desain studi.",
+        "hints": [
+          "Awali dengan 'To maintain analytical depth,'.",
+          "Tambahkan klausa batasan 'this thesis restricts its scope to...'."
+        ],
+        "skill": "delimiting-study-scope"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sintesis tinjauan pustaka dengan verb pelapor yang tepat.",
+        "targetSentence": "Although earlier surveys linked flexible hours to higher output, recent audits question that causal link.",
+        "explanation": "'Although earlier surveys linked ... recent audits question' menyintesiskan pergeseran konsensus riset dari waktu ke waktu.",
+        "hints": [
+          "Mulai dengan 'Although earlier surveys linked flexible hours to higher output,'.",
+          "Lengkapi klausa kontrasnya 'recent audits question that causal link'."
+        ],
+        "skill": "literature-review-formulas"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'Declaration of Helsinki'."
         ],
         "skill": "academic-attribution-ethics"
+      },
+      {
+        "type": "choice",
+        "prompt": "Check tense conventions inside an academic paper: why does 'Smith (2019) argued...' take Past Simple while 'Table 3 summarizes...' takes Present Simple?",
+        "options": [
+          "Specific past research events/author actions use Past Simple, whereas still-present tables/figures and established generalizations use Present Simple",
+          "Authors who are living require Present Simple, while retired researchers require Past Simple only in footnotes",
+          "APA 7 prohibits any tense shifts inside the same section"
+        ],
+        "answer": 0,
+        "explanation": "Dalam konvensi IMRaD akademik: tindakan historis peneliti pada saat studi dilakukan ('Smith argued / found / measured') lazim memakai Past Simple (atau Present Perfect untuk tradisi berlanjut), sedangkan elemen teks yang hadir di depan pembaca sekarang ('Table 3 summarizes / Figure 2 illustrates') selalu memakai Present Simple.",
+        "hints": [
+          "Bedakan tindakan penulis di tahun terbit (2019) vs keberadaan tabel di naskah saat ini.",
+          "Elemen visual dalam naskah saat ini memakai Present Simple."
+        ],
+        "skill": "academic-reporting-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice ethical attribution rules: what is 'secondary citation' (and how does APA 7 treat '(Lin, 2010, as cited in Patel, 2022)')?",
+        "options": [
+          "Citing an idea you only read inside another author's paper; acceptable sparingly only when the original source is truly unavailable",
+          "Copying another author's bibliography without reading either the primary or secondary text",
+          "Using '(et al.)' for single-authored monographs published before 2000"
+        ],
+        "answer": 0,
+        "explanation": "Secondary citation dipakai ketika Anda tidak berhasil mengakses naskah asli Lin (2010) dan hanya membacanya melalui kutipan Patel (2022). Secara etika ilmiah, temukan dan baca sumber primer bila memungkinkan; gunakan 'as cited in' hanya jika sumber asli benar-benar tak terjangkau.",
+        "hints": [
+          "Anda hanya membaca kutipan sumber A lewat tulisan penulis B.",
+          "Gunakan sebijak mungkin apabila naskah asli tak dapat diakses."
+        ],
+        "skill": "academic-attribution-ethics"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan mengganti huruf '&' dan 'and' secara keliru antara narrative vs parenthetical APA 7 citations berikut.",
+        "draft": "As Garcia & Tan (2021) argued, solar microgrids stabilize island voltage (Garcia and Tan, 2021).",
+        "options": [
+          "As Garcia and Tan (2021) argued, solar microgrids stabilize island voltage (Garcia & Tan, 2021).",
+          "As Garcia & Tan (2021) argued, solar microgrids stabilize island voltage (Garcia & Tan, 2021).",
+          "As Garcia and Tan (2021) argued, solar microgrids stabilize island voltage (Garcia, and Tan, 2021)."
+        ],
+        "answer": 0,
+        "explanation": "ATURAN KETAT APA 7: Dalam kalimat teks naratif, wajib menulis kata penuh 'and' ('Garcia and Tan (2021)'); sedangkan di dalam TANDA KURUNG parenthetical citation, wajib memakai ampersand '&' ('(Garcia & Tan, 2021)')!",
+        "hints": [
+          "Di luar tanda kurung (teks berjalan) gunakan kata 'and'.",
+          "Di dalam tanda kurung sitasi APA gunakan simbol '&'."
+        ],
+        "skill": "citation-formats-apa"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang Epistemological Literature Review (memetakan perdebatan, bukan meringkas berurutan).",
+        "dialogue": [
+          [
+            "Examiner",
+            "Your literature review reads like an annotated bibliography — Study A said X, Study B said Y. How do you elevate it epistemologically?"
+          ],
+          [
+            "Candidate",
+            "Organize sections around ___ rather than chronological author summaries."
+          ]
+        ],
+        "options": [
+          "competing theoretical claims, methodological debates, and unresolved tensions",
+          "alphabetical author last names and publication page counts",
+          "verbatim block quotes copied from every abstract"
+        ],
+        "answer": 0,
+        "explanation": "Literature review tingkat doktoral/jurnal tidak menyusun ringkasan per penulis secara mekanis, melainkan memetakan tema perdebatan teoretis, celah metodologi, dan ketegangan temuan lintas penelitian.",
+        "hints": [
+          "Fokusnya adalah peta tema konseptual dan perdebatan ilmiah.",
+          "Hindari urutan alfabetis atau daftar ringkasan terpisah."
+        ],
+        "skill": "epistemological-literature-review"
+      },
+      {
+        "type": "choice",
+        "prompt": "Distinguish 'cf.' from 'e.g.' inside academic footnotes: 'cf.' (confer) instructs the reader to ___.",
+        "options": [
+          "compare this claim with another contrasting or supporting source",
+          "read a verbatim definition copied word for word",
+          "skip the remainder of the chapter entirely"
+        ],
+        "answer": 0,
+        "explanation": "Singkatan Latin 'cf.' (confer = bandingkanlah dengan...) mengundang pembaca membandingkan argumen yang sedang dibahas dengan sumber pembanding lain.",
+        "hints": [
+          "'Cf.' berasal dari kata Latin 'confer' (= bandingkan).",
+          "Fungsinya mengarahkan pembaca membandingkan dua sumber."
+        ],
+        "skill": "latin-academic-abbreviations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why is 'prove' avoided in empirical social/natural science reporting ('Our survey proves beyond doubt...')?",
+        "options": [
+          "Empirical sample studies support or corroborate hypotheses probabilistically rather than achieving mathematical proof",
+          "'Prove' is strictly an informal spoken slang verb",
+          "'Prove' cannot take a 'that'-clause in English grammar"
+        ],
+        "answer": 0,
+        "explanation": "Dalam filsafat sains empiris (Popperian falsifiability), data sampel dapat mendukung ('support'), menguatkan ('corroborate'), atau konsisten dengan ('align with') hipotesis, tetapi jarang mengklaim 'prove' mutlak seperti pembuktian teorema matematika murni.",
+        "hints": [
+          "Sains empiris bekerja dengan probabilitas dan bukti yang dapat direvisi.",
+          "Gunakan 'support / indicate / corroborate' alih-alih 'prove'."
+        ],
+        "skill": "academic-reporting-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan klaim sebab-akibat kausal dari studi korelasional semata berikut.",
+        "draft": "Because our cross-sectional survey showed a correlation between commute time and fatigue, driving directly causes chronic insomnia.",
+        "options": [
+          "Although our cross-sectional survey identified a positive association between commute time and fatigue, longitudinal data is needed to establish causality.",
+          "Our cross-sectional survey proved beyond doubt that driving causes insomnia because commute time correlated with fatigue.",
+          "Commute time directly makes insomnia happen in our cross-sectional correlation study."
+        ],
+        "answer": 0,
+        "explanation": "Prinsip metodologi wajib: studi korelasional cross-sectional hanya menunjukkan ASOSIASI ('association/correlation'), TIDAK boleh mengklaim hubungan kausal langsung ('causes') tanpa desain eksperimental/longitudinal!",
+        "hints": [
+          "Korelasi tidak sama dengan kausalitas (correlation ≠ causation).",
+          "Ganti klaim kausal dengan bahasa asosiasi dan batasan desain studi."
+        ],
+        "skill": "reporting-statistical-results"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice accurate academic phrasing when acknowledging limitations constructively: 'While self-reported sleep diaries introduce potential recall bias, ___.'",
+        "options": [
+          "triangulating entries with wearable telemetry mitigated measurement drift",
+          "nobody should trust a single number anywhere in our entire paper",
+          "therefore self-reported data is totally useless and false"
+        ],
+        "answer": 0,
+        "explanation": "Saat membahas keterbatasan metodologi (study limitations), peneliti tidak sekadar meremehkan datanya sendiri, tetapi menjelaskan bagaimana desain studi memitigasi risiko bias tersebut.",
+        "hints": [
+          "Pasangkan pengakuan keterbatasan dengan langkah mitigasi atau alasan mengapa data tetap bernilai.",
+          "Pilih pernyataan metodologis yang konstruktif."
+        ],
+        "skill": "methodology-terminology"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat etika sitasi yang membedakan temuan primer dan rujukan sekunder dengan tepat.",
+        "targetSentence": "To verify historical wage indices accurately, researchers consulted primary archival ledgers rather than relying solely on secondary summaries.",
+        "explanation": "Menekankan keutamaan memeriksa sumber primer ('primary archival ledgers') dibanding ringkasan sekunder.",
+        "hints": [
+          "Awali dengan 'To verify historical wage indices accurately,'.",
+          "Kontraskan 'primary archival ledgers' dengan 'secondary summaries'."
+        ],
+        "skill": "academic-attribution-ethics"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tinjauan pustaka epistemologis yang memetakan dua kubu teoretis.",
+        "targetSentence": "Whereas early urban models prioritized highway expansion, contemporary frameworks foreground multimodal transit accessibility.",
+        "explanation": "Membandingkan pergeseran paradigma antara model lama dan kerangka kontemporer secara sintesis.",
+        "hints": [
+          "Mulai dengan 'Whereas early urban models prioritized highway expansion,'.",
+          "Tambahkan pergeseran ke 'contemporary frameworks foreground...'."
+        ],
+        "skill": "epistemological-literature-review"
       }
     ]
   }

@@ -99,6 +99,167 @@
           "Klausa formal: 'in which technological disruption accelerates'."
         ],
         "skill": "preposition-with-which"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regional coordinator ___ whom we submitted our expense summary works in Singapore.",
+        "options": [
+          "to",
+          "which",
+          "who"
+        ],
+        "answer": 0,
+        "explanation": "Dalam gaya formal setelah verb 'submit [something] to [someone]', preposisi 'to' diletakkan di depan relative pronoun objek manusia 'whom' ('to whom').",
+        "hints": [
+          "Verb aslinya 'submit ... to the coordinator'.",
+          "Preposisi di depan 'whom' adalah 'to'."
+        ],
+        "skill": "preposition-with-whom"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our ferry was delayed by dense morning fog, ___ meant we missed the opening workshop.",
+        "options": [
+          "which",
+          "that",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Sentential relative clause yang merujuk kembali pada seluruh kejadian di klausa sebelumnya setelah koma WAJIB menggunakan ', which' (tidak boleh 'that' atau 'what').",
+        "hints": [
+          "Merujuk ke seluruh fakta penundaan kapal feri sebelumnya.",
+          "Koma + 'which' untuk sentential relative clause."
+        ],
+        "skill": "sentential-relative-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "The laboratory ordered fifteen laptops, several of ___ still need specialized calibration tools.",
+        "options": [
+          "which",
+          "them",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menghubungkan klausa kedua dengan koma pada benda ('laptops'), konstruksi quantifier + relative pronoun memakai 'several of which' (bukan 'several of them').",
+        "hints": [
+          "'Laptops' adalah benda mati, dan hanya dipisah koma.",
+          "Gunakan 'of which', bukan 'of them'."
+        ],
+        "skill": "quantifier-relative-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is that the marine biologist ___ underwater documentary won an international jury award?",
+        "options": [
+          "whose",
+          "who's",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "Menunjukkan kepemilikan ('dokumenter bawah air MILIK ahli biologi itu') memakai possessive relative pronoun 'whose' sebelum noun 'underwater documentary'.",
+        "hints": [
+          "Ada kata benda 'underwater documentary' langsung setelahnya.",
+          "Kepemilikan memakai 'whose' (tanpa apostrof)."
+        ],
+        "skill": "relative-whose"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan formal tentang dokumen referensi ('by which').",
+        "dialogue": [
+          [
+            "Auditor",
+            "Could you clarify the calculation method ___ your branch prices freight routes?"
+          ],
+          [
+            "Analyst",
+            "Certainly — we use a distance-weight formula documented in Appendix B."
+          ]
+        ],
+        "options": [
+          "by which",
+          "by that",
+          "which by"
+        ],
+        "answer": 0,
+        "explanation": "Preposisi 'by' ('price routes BY this method') yang dipindah ke depan relative pronoun benda menghasilkan 'by which' (tidak pernah 'by that').",
+        "hints": [
+          "Metode harga menggunakan 'by that method'.",
+          "Preposisi di depan relative benda memakai 'by which'."
+        ],
+        "skill": "preposition-with-which"
+      },
+      {
+        "type": "choice",
+        "prompt": "The research institute, ___ headquarters are located in Delft, partners with coastal cities globally.",
+        "options": [
+          "whose",
+          "which",
+          "where"
+        ],
+        "answer": 0,
+        "explanation": "Kepemilikan oleh institusi/benda ('the institute's headquarters') juga menggunakan 'whose' sebelum kata benda 'headquarters'.",
+        "hints": [
+          "'Whose' juga berlaku untuk kepemilikan lembaga/benda.",
+          "Letakkan 'whose' tepat sebelum 'headquarters'."
+        ],
+        "skill": "relative-whose"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan mengganti 'which' dengan 'that' setelah koma pada sentential relative berikut.",
+        "draft": "The vendor shipped the spare sensors ahead of schedule, that saved our assembly line two full days.",
+        "options": [
+          "The vendor shipped the spare sensors ahead of schedule, which saved our assembly line two full days.",
+          "The vendor shipped the spare sensors ahead of schedule, what saved our assembly line two full days.",
+          "The vendor shipped the spare sensors ahead of schedule, whom saved our assembly line two full days."
+        ],
+        "answer": 0,
+        "explanation": "Sentential relative clause setelah tanda koma TIDAK PERNAH boleh diawali 'that' maupun 'what'; wajib gunakan 'which'.",
+        "hints": [
+          "Ada koma di depan klausa penjelas keseluruhan kalimat.",
+          "Ganti 'that' sesudah koma dengan 'which'."
+        ],
+        "skill": "sentential-relative-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "All twenty interns completed the security quiz, most of ___ scored above ninety percent.",
+        "options": [
+          "whom",
+          "who",
+          "them"
+        ],
+        "answer": 0,
+        "explanation": "Karena 'interns' adalah manusia dan didahului preposisi 'of' ('most of...'), bentuk formal mewajibkan 'whom' dalam satu kalimat berkoma.",
+        "hints": [
+          "Antecedent adalah manusia ('interns') setelah preposisi 'of'.",
+          "Gunakan 'of whom'."
+        ],
+        "skill": "quantifier-relative-clause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai sentential relative ', which'.",
+        "targetSentence": "The coastal train switched to clean solar power, which cut emissions sharply.",
+        "explanation": "Koma + 'which' merujuk ke seluruh pernyataan tentang peralihan kereta ke tenaga surya.",
+        "hints": [
+          "Awali dengan 'The coastal train switched to clean solar power,'.",
+          "Sambungkan 'which cut emissions sharply'."
+        ],
+        "skill": "sentential-relative-clause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai 'for which'.",
+        "targetSentence": "This is the regional grant for which our robotics club applied last October.",
+        "explanation": "Preposisi 'for' dari frasa 'applied for' dipindahkan ke depan 'which' agar bergaya formal.",
+        "hints": [
+          "Mulai dengan 'This is the regional grant for which'.",
+          "Tambahkan 'our robotics club applied last October'."
+        ],
+        "skill": "preposition-with-which"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'representing'."
         ],
         "skill": "reduced-relative-clauses"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence using a COMPLEX prepositional phrase inside a relative clause cleanly:",
+        "options": [
+          "They signed a bilateral agreement, in accordance with which all customs tariffs were lowered.",
+          "They signed a bilateral agreement, in accordance with that all customs tariffs were lowered.",
+          "They signed a bilateral agreement, in accordance with what all customs tariffs were lowered."
+        ],
+        "answer": 0,
+        "explanation": "Dalam gaya hukum/diplomatik, frasa preposisi kompleks ('in accordance with', 'by means of', 'as a result of') selalu berpasangan dengan 'which' (bukan 'that' atau 'what').",
+        "hints": [
+          "Setelah preposisi kompleks formal, gunakan 'which' (benda) atau 'whom' (orang).",
+          "Hindari 'that' setelah preposisi."
+        ],
+        "skill": "complex-preposition-relative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The compliance regulations ___ next January will require clearer ingredient labels on imported snacks.",
+        "options": [
+          "taking effect",
+          "taken effect",
+          "take effect"
+        ],
+        "answer": 0,
+        "explanation": "Reduced active relative clause dari 'which take effect' (berlaku secara aktif) diringkas menjadi present participle '-ing' ('taking effect').",
+        "hints": [
+          "'Regulations take effect' adalah konstruksi aktif.",
+          "Reduced active clause memakai '-ing'."
+        ],
+        "skill": "reduced-relative-clauses"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan membedakan preposisi formal (pied-piping) vs percakapan alami (preposition stranding).",
+        "dialogue": [
+          [
+            "Tutor",
+            "In casual speech we ask 'The colleague I spoke with was helpful.' How do you elevate that into formal legal prose?"
+          ],
+          [
+            "Student",
+            "Move the preposition before 'whom': ___."
+          ]
+        ],
+        "options": [
+          "The colleague with whom I spoke was helpful.",
+          "The colleague with who I spoke was helpful.",
+          "The colleague with that I spoke was helpful."
+        ],
+        "answer": 0,
+        "explanation": "Memindahkan preposisi ke depan relative pronoun disebut pied-piping: wajib menggunakan 'whom' untuk orang ('with whom I spoke'), bukan 'who' atau 'that'.",
+        "hints": [
+          "Setelah preposisi 'with', pronoun orang wajib memakai 'whom'.",
+          "Pastikan preposisi 'with' tidak muncul ganda di akhir."
+        ],
+        "skill": "pied-piping-vs-stranding"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please forward this priority access link to ___ will oversee the Saturday registration desk.",
+        "options": [
+          "whoever",
+          "whomever",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "Hati-hati! Walaupun ada 'to' di depan, pronoun tersebut bertindak sebagai SUBJEK bagi kata kerja 'will oversee' di dalam klausanya sendiri, sehingga wajib memakai bentuk subjek: 'whoever'!",
+        "hints": [
+          "Tentukan peran kata ganti di dalam klausanya sendiri: '... will oversee'.",
+          "Subjek dari 'will oversee' memakai 'whoever' (bukan 'whomever')."
+        ],
+        "skill": "whoever-vs-whomever"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ surprised the urban planners most was how quickly commuters adopted the bicycle lanes.",
+        "options": [
+          "What",
+          "Which",
+          "That"
+        ],
+        "answer": 0,
+        "explanation": "Nominal relative pronoun 'What' (= 'The thing that') dapat langsung menjadi klausa subjek tanpa antecedent sebelumnya.",
+        "hints": [
+          "Tidak ada kata benda sebelum rumpang.",
+          "'What' berarti 'hal yang...' dan dapat mengawali subjek kalimat."
+        ],
+        "skill": "nominal-relative-clauses"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyertakan preposisi ganda (di depan dan di belakang sekaligus) berikut.",
+        "draft": "The architectural committee reviewed the criteria upon which the finalists would be judged on.",
+        "options": [
+          "The architectural committee reviewed the criteria upon which the finalists would be judged.",
+          "The architectural committee reviewed the criteria upon that the finalists would be judged.",
+          "The architectural committee reviewed the criteria which the finalists would be judged upon it."
+        ],
+        "answer": 0,
+        "explanation": "Apabila preposisi ('upon') sudah dipindahkan ke depan 'which' ('upon which...'), hapus pengulangan preposisi ('on') di ujung kalimat.",
+        "hints": [
+          "Preposisi tidak boleh muncul dua kali (di depan 'which' dan di akhir klausa).",
+          "Hapus 'on' di akhir kalimat."
+        ],
+        "skill": "pied-piping-vs-stranding"
+      },
+      {
+        "type": "choice",
+        "prompt": "The manuscript contained three untranslated footnotes, none of ___ seemed critical to the main thesis.",
+        "options": [
+          "which",
+          "them",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "Partitif negatif setelah koma ('none of...') untuk benda ('footnotes') menggunakan 'which' dalam satu kalimat.",
+        "hints": [
+          "'Footnotes' adalah benda mati setelah koma.",
+          "Gunakan 'none of which'."
+        ],
+        "skill": "quantifier-relative-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every medical device ___ at the municipal clinic undergoes calibration twice a year.",
+        "options": [
+          "operated",
+          "operating by",
+          "was operated"
+        ],
+        "answer": 0,
+        "explanation": "Reduced passive relative clause ('which is operated at the clinic') cukup menyisakan past participle V3 'operated'.",
+        "hints": [
+          "Alat medis dioperasikan di klinik (pasif).",
+          "Reduced passive clause memakai V3 'operated'."
+        ],
+        "skill": "reduced-relative-clauses"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai 'whoever' sebagai subjek klausa objek preposisi.",
+        "targetSentence": "Management will award a travel stipend to whoever submits the winning design.",
+        "explanation": "Karena menjadi subjek dari 'submits', gunakan 'whoever' meski didahului preposisi 'to'.",
+        "hints": [
+          "Awali dengan 'Management will award a travel stipend to'.",
+          "Pasangkan 'whoever submits the winning design'."
+        ],
+        "skill": "whoever-vs-whomever"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai frasa preposisi kompleks + 'which'.",
+        "targetSentence": "They revised the charter, on the basis of which local cooperatives gained voting power.",
+        "explanation": "Frasa 'on the basis of which' mengacu kembali ke 'the charter'.",
+        "hints": [
+          "Mulai dengan 'They revised the charter,'.",
+          "Sambungkan 'on the basis of which local cooperatives gained voting power'."
+        ],
+        "skill": "complex-preposition-relative"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'whereby'."
         ],
         "skill": "formal-relative-adverbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Now contrast 'whoever' vs 'whomever': 'The committee is authorized to consult ___ the project lead recommends for the audit.'",
+        "options": [
+          "whomever",
+          "whoever",
+          "whose"
+        ],
+        "answer": 0,
+        "explanation": "Di sini, 'the project lead' sudah menjadi subjek dan kata ganti tersebut berfungsi sebagai OBJEK dari verb 'recommends' ('recommends him/her'), sehingga bentuk formalnya adalah 'whomever'.",
+        "hints": [
+          "Uji klausa kedua: 'the project lead recommends [him/her]'.",
+          "Fungsi sebagai objek dalam klausanya sendiri memakai 'whomever'."
+        ],
+        "skill": "whoever-vs-whomever"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal prose, 'the era during which', 'the extent to which', or 'the precision with which' uses relative adverbs/prepositional phrases cleanly: 'The clarity ___ she explained complex tax treaties impressed the panel.'",
+        "options": [
+          "with which",
+          "whereby",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi kata benda-preposisi yang tepat adalah 'clarity WITH which' (berasal dari 'explained treaties WITH clarity').",
+        "hints": [
+          "Cocokkan preposisi bawaan dari 'clarity': 'explain with clarity'.",
+          "Gunakan 'with which'."
+        ],
+        "skill": "formal-relative-adverbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan pemilihan 'where' vs 'which' saat klausa mengacu pada tempat sebagai OBJEK langsung (bukan lokasi kejadian) berikut.",
+        "draft": "This is the historic railway terminal where the municipal government plans to restore next autumn.",
+        "options": [
+          "This is the historic railway terminal which the municipal government plans to restore next autumn.",
+          "This is the historic railway terminal in where the municipal government plans to restore next autumn.",
+          "This is the historic railway terminal whereby the municipal government plans to restore next autumn."
+        ],
+        "answer": 0,
+        "explanation": "'Restore' adalah verb transitif yang memerlukan objek langsung ('restore THE TERMINAL', bukan 'restore IN the terminal')! Karena terminal adalah objek langsung, wajib memakai 'which/that', bukan 'where'.",
+        "hints": [
+          "Tanyakan: 'restore the terminal' atau 'restore AT the terminal'?",
+          "Objek langsung benda memakai 'which/that', bukan 'where'."
+        ],
+        "skill": "defining-vs-non-defining"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang relative adverb formal 'whereby'.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "We need a concise formal connector for 'They introduced a system through which farmers share weather alerts.' Any ideas?"
+          ],
+          [
+            "Writer",
+            "Replace 'through which' with the formal relative adverb ___."
+          ]
+        ],
+        "options": [
+          "whereby",
+          "whom",
+          "whose"
+        ],
+        "answer": 0,
+        "explanation": "Dalam teks hukum, kebijakan, dan akademik formal, 'whereby' (= by which / through which) merujuk pada mekanisme, sistem, perjanjian, atau proses kerja.",
+        "hints": [
+          "'Whereby' berarti 'yang melaluinya / berdasarkan mana' untuk suatu sistem atau aturan.",
+          "Pilih 'whereby'."
+        ],
+        "skill": "formal-relative-adverbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new municipal bond initiative, ___ details were finalized yesterday, aims to fund green ferries.",
+        "options": [
+          "whose",
+          "of which",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "Ketika kata benda kepemilikannya langsung mengikuti rumpang tanpa article 'the' ('___ details were finalized'), gunakan determiner posesif 'whose' (untuk 'of which', susunannya harus 'the details of which').",
+        "hints": [
+          "Perhatikan tidak ada article 'the' di depan kata benda 'details'.",
+          "Posisi determiner langsung sebelum noun memakai 'whose'."
+        ],
+        "skill": "relative-whose"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare carefully: 'We drafted a backup plan, the complexity of ___ forced us to delay training.'",
+        "options": [
+          "which",
+          "that",
+          "it"
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola formal kepemilikan benda 'the + noun + of + which' ('the complexity of which'), hanya 'which' yang gramatikal di dalam relative clause berkoma.",
+        "hints": [
+          "Pola baku: 'the [noun] of which'.",
+          "Jangan memakai 'that' atau 'it' setelah koma."
+        ],
+        "skill": "preposition-with-which"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan klausa relatif non-defining menjadi defining yang mengubah fakta geografis berikut.",
+        "draft": "Jakarta which is Indonesia's largest metropolitan hub hosts dozens of regional fintech startups.",
+        "options": [
+          "Jakarta, which is Indonesia's largest metropolitan hub, hosts dozens of regional fintech startups.",
+          "Jakarta that is Indonesia's largest metropolitan hub hosts dozens of regional fintech startups.",
+          "Jakarta, that is Indonesia's largest metropolitan hub, hosts dozens of regional fintech startups."
+        ],
+        "answer": 0,
+        "explanation": "Karena 'Jakarta' adalah nama diri unik yang sudah teridentifikasi penuh (hanya ada satu Jakarta), klausa penjelasnya wajib bersifat NON-DEFINING dan diapit dua koma (', which...,') serta tidak boleh memakai 'that'.",
+        "hints": [
+          "Nama diri unik seperti nama kota selalu memakai koma (non-defining).",
+          "Apit klausa dengan dua koma dan pertahankan 'which'."
+        ],
+        "skill": "defining-vs-non-defining"
+      },
+      {
+        "type": "choice",
+        "prompt": "The extent ___ microplastics enter deep-sea food webs remains an active field of study.",
+        "options": [
+          "to which",
+          "by whom",
+          "at where"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi akademis baku untuk kata 'extent' atau 'degree' adalah 'the extent TO which...' ('sampai sejauh mana').",
+        "hints": [
+          "Ungkapan baku akademis: 'the extent to which...'.",
+          "Pilih 'to which'."
+        ],
+        "skill": "formal-relative-adverbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai pola 'whereby'.",
+        "targetSentence": "The cooperative launched a microloan scheme whereby artisans purchase looms interest-free.",
+        "explanation": "'Whereby' (= through which) menghubungkan 'a microloan scheme' dengan mekanisme pelaksanaannya.",
+        "hints": [
+          "Awali dengan 'The cooperative launched a microloan scheme whereby'.",
+          "Tambahkan klausa cara kerjanya."
+        ],
+        "skill": "formal-relative-adverbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal dengan 'the [noun] of which' untuk kepemilikan benda.",
+        "targetSentence": "The committee inspected a prototype, the outer casing of which was milled from recycled aluminum.",
+        "explanation": "'The outer casing of which' setara dengan 'whose outer casing' dalam ragam teknik/akademis.",
+        "hints": [
+          "Mulai dengan 'The committee inspected a prototype,'.",
+          "Tambahkan 'the outer casing of which was milled from recycled aluminum'."
+        ],
+        "skill": "preposition-with-which"
       }
     ]
   }

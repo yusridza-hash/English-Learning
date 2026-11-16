@@ -99,6 +99,167 @@
           "Hasil korelasi: 'a clear correlation between diet and health'."
         ],
         "skill": "demonstrative-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Read these two sentences: 'Coastal ports installed automated cranes in 2022. ___ machines cut loading wait times by half.' Which cohesive reference fits best?",
+        "options": [
+          "These",
+          "It",
+          "Them"
+        ],
+        "answer": 0,
+        "explanation": "Untuk merujuk kembali ke benda jamak yang baru saja disebut ('automated cranes' = anaphoric reference), gunakan determiner jamak 'These' sebelum 'machines'.",
+        "hints": [
+          "'Machines' berbentuk jamak dan merujuk ke 'automated cranes'.",
+          "Kata tunjuk rujukan jamak adalah 'These'."
+        ],
+        "skill": "anaphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence replaces repeated nouns using an elegant SYNONYM rather than repeating 'the software' three times?",
+        "options": [
+          "Our team deployed new billing software; the platform immediately reduced manual errors.",
+          "Our team deployed new billing software; the software helped staff, and the software ran fast.",
+          "Our team deployed new billing software; some things helped staff run fast."
+        ],
+        "answer": 0,
+        "explanation": "Lexical cohesion via synonymy mengganti kata berulang 'billing software' dengan kata setara kontekstual yang lebih kaya seperti 'the platform' atau 'the system'.",
+        "hints": [
+          "Hindari mengulang persis kata 'the software' berturut-turut.",
+          "Gunakan sinonim kontekstual seperti 'the platform'."
+        ],
+        "skill": "lexical-cohesion-synonyms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the cohesive link showing addition that connects two parallel benefits cleanly:",
+        "options": [
+          "Remote onboarding lowers travel expenses; in addition, it speeds up orientation.",
+          "Remote onboarding lowers travel expenses; otherwise, it speeds up orientation.",
+          "Remote onboarding lowers travel expenses; on the contrary, it speeds up orientation."
+        ],
+        "answer": 0,
+        "explanation": "'In addition,' menambahkan manfaat kedua yang sejalan dengan manfaat pertama.",
+        "hints": [
+          "Kedua kalimat menyampaikan dampak positif yang searah.",
+          "Penanda tambahan adalah 'in addition'."
+        ],
+        "skill": "additive-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Follow the Given-New principle: 'Researchers tested a porous ceramic filter. ___ removed over 98% of fine silt.'",
+        "options": [
+          "This porous ceramic filter / This filter",
+          "Removing silt occurred",
+          "Porosity was then what someone did"
+        ],
+        "answer": 0,
+        "explanation": "Informasi BARU di akhir kalimat pertama ('a porous ceramic filter') menjadi informasi LAMA (Given/Theme) di awal kalimat kedua ('This filter') agar pembaca tidak tersesat.",
+        "hints": [
+          "Jadikan topik akhir kalimat pertama sebagai subjek awal kalimat kedua.",
+          "Gunakan 'This filter'."
+        ],
+        "skill": "thematic-progression-given-new"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penanda rujukan ke depan (Cataphoric reference).",
+        "dialogue": [
+          [
+            "Student",
+            "Can I start a paragraph with 'Here is what stunned the audit team: ...'?"
+          ],
+          [
+            "Advisor",
+            "Yes! Pointing forward to an explanation coming right after the colon is effective ___."
+          ]
+        ],
+        "options": [
+          "cataphoric reference",
+          "dangling pronoun drift",
+          "passive voice omission"
+        ],
+        "answer": 0,
+        "explanation": "Cataphoric reference menunjuk KE DEPAN ('Here is...', 'The following three reasons...') menuju informasi yang baru diungkapkan sesudahnya, guna membangun rasa ingin tahu pembaca.",
+        "hints": [
+          "Rujukan mengarah ke hal yang akan disebut setelah titik dua.",
+          "Istilah untuk rujukan ke depan adalah 'cataphoric reference'."
+        ],
+        "skill": "cataphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "The pilot vaccine requires sub-zero storage; ___, rural clinics lacking freezers struggled to keep doses.",
+        "options": [
+          "consequently",
+          "meanwhile",
+          "nonetheless"
+        ],
+        "answer": 0,
+        "explanation": "Hubungan sebab ('requires sub-zero storage') → akibat ('clinics lacking freezers struggled') disambungkan oleh 'consequently'.",
+        "hints": [
+          "Kalimat kedua adalah dampak langsung dari syarat di kalimat pertama.",
+          "Gunakan konektor sebab-akibat 'consequently'."
+        ],
+        "skill": "cause-effect-linking"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ketidaksesuaian rujukan kata ganti (pronoun reference mismatch) berikut.",
+        "draft": "When the municipal council rejects a zoning permit, they must issue written reasons within ten days.",
+        "options": [
+          "When the municipal council rejects a zoning permit, it must issue written reasons within ten days.",
+          "When the municipal council rejects a zoning permit, these must issue written reasons within ten days.",
+          "When the municipal council rejects a zoning permit, we must issue written reasons within ten days."
+        ],
+        "answer": 0,
+        "explanation": "Di awal kalimat, 'the municipal council' diperlakukan sebagai entitas tunggal ('rejects'); oleh karena itu pronoun pengacunya juga wajib tunggal konsisten ('it', bukan 'they').",
+        "hints": [
+          "Perhatikan verb tunggal 'rejects' di klausa pertama.",
+          "Jaga konsistensi tunggal: 'council' → 'it'."
+        ],
+        "skill": "anaphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Previously, coastal shipping depended on paper bills; ___, digital manifests clear customs within minutes.",
+        "options": [
+          "now / today",
+          "firstly",
+          "similarly"
+        ],
+        "answer": 0,
+        "explanation": "Kontras temporal yang jelas ('Previously ... now/today...') menandai pergeseran waktu dari masa lalu ke masa kini secara kohesif.",
+        "hints": [
+          "Kalimat pertama diawali 'Previously' (masa lalu).",
+          "Pasangan temporalnya adalah 'now / today'."
+        ],
+        "skill": "temporal-cohesion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun dua kalimat berurutan yang menerapkan Given-New Progression.",
+        "targetSentence": "Solar microgrids store daytime energy efficiently. This clean energy powers village clinics overnight.",
+        "explanation": "Frasa akhir 'daytime energy' di kalimat 1 berlanjut menjadi subjek kalimat 2 ('This clean energy').",
+        "hints": [
+          "Awali dengan kalimat 'Solar microgrids store daytime energy efficiently.'.",
+          "Lanjutkan dengan 'This clean energy powers village clinics overnight'."
+        ],
+        "skill": "thematic-progression-given-new"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka yang memanfaatkan cataphoric reference 'The following'.",
+        "targetSentence": "The following measures strengthened port resilience: raised seawalls, backup generators, and modular gates.",
+        "explanation": "'The following measures' menunjuk ke depan pada daftar tiga langkah setelah titik dua.",
+        "hints": [
+          "Mulai dengan 'The following measures strengthened port resilience:'.",
+          "Sebutkan ketiga rinciannya."
+        ],
+        "skill": "cataphoric-reference"
       }
     ],
     "intermediate": [
@@ -227,6 +388,167 @@
           "Gunakan 'ensuing supply chain crisis'."
         ],
         "skill": "cause-effect-linking"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify which cohesive device uses a HYPERNYM (broader umbrella noun) to refer back smoothly without mechanical repetition: 'The hospital purchased new MRI scanners, blood analyzers, and centrifuges. This ___ cut diagnostic wait times.'",
+        "options": [
+          "medical equipment / diagnostic machinery",
+          "scanners and analyzers and centrifuges",
+          "hospital doctor staff"
+        ],
+        "answer": 0,
+        "explanation": "Merangkum beberapa benda spesifik ('MRI scanners, blood analyzers, centrifuges') dengan istilah payung yang lebih luas ('medical equipment') disebut lexical cohesion via hypernymy.",
+        "hints": [
+          "Cari istilah kategori umum yang mencakup ketiga alat tersebut.",
+          "Hypernym dari ketiganya adalah 'medical equipment'."
+        ],
+        "skill": "lexical-cohesion-hypernyms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare lexical fields: a well-written paragraph about coral reef decline sustains a unified ___ ('bleaching, calcification, thermal stress, marine habitats') rather than jumping to random metaphors.",
+        "options": [
+          "lexical field / semantic chain",
+          "cataphoric ellipsis",
+          "dangling participle"
+        ],
+        "answer": 0,
+        "explanation": "Menjaga kesinambungan kata-kata yang berkerabat makna dalam satu domain topik (lexical field) membuat paragraf terasa terikat erat secara tematis meskipun konektor logisnya minimal.",
+        "hints": [
+          "Kumpulan istilah bertema satu domain ilmu disebut lexical field.",
+          "Pilih 'lexical field / semantic chain'."
+        ],
+        "skill": "lexical-fields-cohesion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan naskah mengenai kesalahan BROAD REFERENCE ('This/Which' yang kabur).",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Your draft ends Paragraph 1 with three issues — rising freight, port delays, and staffing shortages — and Paragraph 2 begins 'This hurt exports.' Why is 'This' unclear?"
+          ],
+          [
+            "Writer",
+            "A bare 'This' is ambiguous; adding a summary noun like '___' makes the anaphora crystal clear."
+          ]
+        ],
+        "options": [
+          "This combination of bottlenecks",
+          "It alone",
+          "Which thing"
+        ],
+        "answer": 0,
+        "explanation": "Mengikuti 'This' dengan kata benda perangkum (summary noun seperti 'This combination of bottlenecks', 'These logistical pressures') menghilangkan ambiguitas rujukan ke kalimat jamak sebelumnya.",
+        "hints": [
+          "Jangan biarkan 'This' berdiri sendirian saat merujuk gagasan kompleks.",
+          "Tambahkan summary noun setelah 'This'."
+        ],
+        "skill": "broad-reference-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine Theme-Rheme progression: 'Three startups pioneered drone seed-planting. The first focused on mangrove coastlines; the second targeted hillside reforestation; the third mapped arid plains.' This pattern illustrates ___.",
+        "options": [
+          "split-rheme thematic progression",
+          "constant-theme repetition",
+          "unlinked topic shift"
+        ],
+        "answer": 0,
+        "explanation": "Ketika Rheme/ide kalimat pembuka ('Three startups...') dipecah satu per satu menjadi Theme awal kalimat-kalimat berikutnya ('The first...', 'The second...', 'The third...'), itu disebut Split-Rheme progression.",
+        "hints": [
+          "Satu kelompok awal dipecah menjadi subjek kalimat berurutan.",
+          "Pola ini dikenal sebagai split-rheme progression."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which cohesive sentence bridges two contrasting claims smoothly while keeping coherence clear?",
+        "options": [
+          "Automated grading handles multiple-choice tests accurately; however, it still struggles with nuanced creative essays.",
+          "Automated grading handles multiple-choice tests accurately; similarly, it fails completely at creative essays.",
+          "Automated grading handles multiple-choice tests accurately; therefore, creative essays are great."
+        ],
+        "answer": 0,
+        "explanation": "Konektor 'however' cocok dengan konten kontras ('handles accurately' vs 'struggles with'); koherensi bukan cuma soal ada kata sambung, tetapi LOGIKA antar-ide harus cocok!",
+        "hints": [
+          "Periksa apakah makna kata sambungnya sesuai dengan hubungan logis dua klausa.",
+          "'Similarly' salah untuk hal yang berkebalikan."
+        ],
+        "skill": "contrastive-cohesion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kalimat kohesif palsu (pseudo-cohesion) yang konektornya bertentangan dengan logika gagasan berikut.",
+        "draft": "Public libraries expanded evening digital literacy workshops; therefore, neighborhood seniors barely attended any sessions.",
+        "options": [
+          "Public libraries expanded evening digital literacy workshops; however, few neighborhood seniors initially attended.",
+          "Public libraries expanded evening digital literacy workshops; consequently, neighborhood seniors barely attended any sessions.",
+          "Public libraries expanded evening digital literacy workshops; moreover, neighborhood seniors barely attended any sessions."
+        ],
+        "answer": 0,
+        "explanation": "Memperluas pelatihan seharusnya meningkatkan kehadiran — bukan menyebabkannya sepi ('therefore ... barely attended' tidak logis!). Ganti konektor menjadi kontras ('however') agar logika paragraf koheren.",
+        "hints": [
+          "Uji logika sebab-akibat antarklausa: memperbanyak kelas tidak menyebabkan sepi.",
+          "Perbaiki dengan konektor kontras 'however'."
+        ],
+        "skill": "contrastive-cohesion"
+      },
+      {
+        "type": "choice",
+        "prompt": "In 'Urban flooding stems from sealed pavements, clogged drains, and disappearing wetlands', the opening phrase 'Urban flooding' acts as the paragraph's ___ that organizes all subsequent supporting details.",
+        "options": [
+          "hypertheme (topic sentence focus)",
+          "cataphoric particle",
+          "pseudogapping verb"
+        ],
+        "answer": 0,
+        "explanation": "Gagasan induk yang diumumkan dalam kalimat topik awal dan memayungi seluruh kalimat penjelas di bawahnya disebut Hypertheme paragraf.",
+        "hints": [
+          "Konsep topik utama yang memayungi rincian satu paragraf penuh.",
+          "Istilah wacananya adalah 'hypertheme'."
+        ],
+        "skill": "hypertheme-coherence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice demonstrative clarity: 'Look at these two charts. ___ on the left tracks rainfall, while that on the right tracks crop yield.'",
+        "options": [
+          "This / The one",
+          "These",
+          "Those"
+        ],
+        "answer": 0,
+        "explanation": "Ketika membandingkan DUA benda tunggal yang sudah disebut ('these two charts'), satu sisi tunggal ditunjuk dengan 'The one on the left' atau 'This on the left' (jangan memakai 'These' untuk grafik tunggal di kiri).",
+        "hints": [
+          "Grafik sebelah kiri berjumlah satu (tunggal).",
+          "Pilih rujukan tunggal 'This / The one'."
+        ],
+        "skill": "demonstrative-reference"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun urutan dua kalimat yang menerapkan rujukan payung (hypernym cohesion).",
+        "targetSentence": "Every workshop room features acoustic panels, triple-glazed glass, and low-glare lamps. These thoughtful upgrades keep fatigue low.",
+        "explanation": "Kata benda payung 'These thoughtful upgrades' merangkum tiga benda di kalimat pertama tanpa mengulangnya.",
+        "hints": [
+          "Awali dengan kalimat daftar fasilitas ruangan.",
+          "Lanjutkan dengan 'These thoughtful upgrades keep fatigue low'."
+        ],
+        "skill": "lexical-cohesion-hypernyms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka yang menghindari broad reference 'This' kosong dengan menambahkan summary noun.",
+        "targetSentence": "This persistent gap in rural cold storage explains why seasonal fruit prices fluctuate.",
+        "explanation": "Menggabungkan 'This' dengan noun perangkum ('persistent gap in rural cold storage') membuat rujukan sangat presisi.",
+        "hints": [
+          "Mulai dengan 'This persistent gap in rural cold storage explains'.",
+          "Tambahkan klausa 'why seasonal fruit prices fluctuate'."
+        ],
+        "skill": "broad-reference-editing"
       }
     ],
     "complex": [
@@ -348,6 +670,168 @@
           "Pilih 'scaffold of macro-themes and transitional signposts'."
         ],
         "skill": "macro-discourse-coherence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Diagnose why a paragraph can contain ten linking words ('First', 'However', 'Moreover', 'Therefore') yet STILL fail coherence grading:",
+        "options": [
+          "Mechanical linkers cannot rescue ideas that lack logical progression, shared topic focus, or consistent claims",
+          "Formal paragraphs may contain at most one linking word every four pages",
+          "Coherence depends solely on replacing active verbs with passives"
+        ],
+        "answer": 0,
+        "explanation": "Cohesion (ikatan permukaan lewat konektor dan kata ganti) berbeda dengan Coherence (kesatuan logika makna keseluruhan)! Menebar transisi tanpa alur penalaran yang konsisten tetap gagal secara koherensi.",
+        "hints": [
+          "Bedakan kohesi permukaan (surface linkers) vs koherensi makna (logical flow).",
+          "Konektor yang tidak sesuai logika tidak menciptakan koherensi."
+        ],
+        "skill": "macro-discourse-coherence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the paragraph exhibiting LINEAR (zig-zag) Thematic Progression: 'Sentence 1 introduces X -> Y. Sentence 2 starts with Y -> Z. Sentence 3 starts with Z -> W.'",
+        "options": [
+          "Solar tariffs lowered factory expenses. Lower expenses freed capital for automation. Automation then boosted precision.",
+          "Solar tariffs lowered costs. Solar tariffs helped exporters. Solar tariffs pleased municipal planners.",
+          "Solar tariffs lowered costs. Yesterday, harbor cranes were painted. Meanwhile, wheat harvests grew smoothly."
+        ],
+        "answer": 0,
+        "explanation": "Linear (zig-zag) progression memajukan argumen seperti tangga: Rheme akhir kalimat 1 ('expenses') menjadi Theme kalimat 2 ('Lower expenses... automation'), lalu menjadi Theme kalimat 3 ('Automation...').",
+        "hints": [
+          "Periksa kata akhir kalimat 1 menjadi kata awal kalimat 2, dst.",
+          "Opsi 2 hanya mengulang Theme yang sama; opsi 3 melompat-lompat topik."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kohesi rujukan luas ('which') dan loncatan topik mendadak pada kalimat laporan berikut.",
+        "draft": "Battery costs fell 18% last year, which the city council should build three more charging plazas downtown.",
+        "options": [
+          "Battery costs fell 18% last year, a drop that encourages the city council to build three more charging plazas downtown.",
+          "Battery costs fell 18% last year, which therefore the city council built three charging plazas.",
+          "Battery costs fell 18% last year, which it should build three more charging plazas."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat asli kehilangan kata kerja setelah 'which' dan lompat dari fakta masa lalu ke rekomendasi tanpa jembatan gramatikal! Memakai appositive perangkum ('a drop that encourages...') memperbaiki tata bahasa sekaligus logika kohesi.",
+        "hints": [
+          "Klausa ', which the city council should build...' tidak lengkap relasinya terhadap 'which'.",
+          "Ganti dengan nomina perangkum + klausa relatif lengkap."
+        ],
+        "skill": "broad-reference-editing"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang memadukan 'Shell Nouns' (nomina pembungkus seperti 'dilemma', 'phenomenon', 'discrepancy') untuk kohesi tingkat tinggi.",
+        "dialogue": [
+          [
+            "Examiner",
+            "What makes 'This discrepancy prompted a full audit' stronger than 'This prompted a full audit'?"
+          ],
+          [
+            "Candidate",
+            "The shell noun 'discrepancy' both links backward anaphorically and ___ how the reader should interpret the event."
+          ]
+        ],
+        "options": [
+          "evaluates and frames",
+          "erases and hides",
+          "randomly changes"
+        ],
+        "answer": 0,
+        "explanation": "Shell nouns (e.g., 'dilemma', 'breakthrough', 'oversight', 'discrepancy') tidak sekadar menggantikan kalimat sebelumnya secara netral, melainkan membingkai sikap analitis penulis terhadap fakta tersebut!",
+        "hints": [
+          "Shell noun membawa penilaian/klasifikasi makna ('ketidaksesuaian/temuan/terobosan').",
+          "Pilih fungsi pembingkaian evaluatif yang tepat."
+        ],
+        "skill": "anaphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine macro-coherence across paragraphs: which transition sentence at the start of Paragraph 3 bridges Paragraph 2 (coastal benefits) with Paragraph 3 (inland infrastructure hurdles) most smoothly?",
+        "options": [
+          "While coastal hubs have clearly reaped immediate gains, inland provinces continue to confront steep distribution bottlenecks.",
+          "On the other hand, infrastructure bottlenecks are very important to talk about now in Paragraph 3.",
+          "Next, let us look at inland hurdles because coastal benefits were finished above."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat jembatan antar-paragraf terbaik (backward-forward hook) merangkum intisari paragraf sebelumnya di anak kalimat ('While coastal hubs have clearly reaped immediate gains,') sebelum membuka topik baru di klausa utama.",
+        "hints": [
+          "Gunakan teknik jembatan dua arah: ikat topik lama di anak kalimat, luncurkan topik baru di klausa utama.",
+          "Hindari meta-referensi kikuk seperti 'in Paragraph 3'."
+        ],
+        "skill": "macro-discourse-coherence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the subtle lexical-cohesion break in this paragraph: 'Strict zoning laws preserve historic facades. Architectural preservation also attracts heritage tourism. Consequently, municipal revenue rises. However, ceramic pots need careful kiln firing.'",
+        "options": [
+          "The final sentence breaks the hypertheme and lexical field abruptly without relevance to heritage zoning",
+          "'Historic facades' and 'architectural preservation' share no semantic link",
+          "'Consequently' cannot introduce a positive economic effect"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat terakhir tiba-tiba melompat ke pembakaran tembikar keramik yang sama sekali di luar hypertheme paragraf (pelestarian bangunan bersejarah dan pendapatan kota).",
+        "hints": [
+          "Cari kalimat penyusup yang memutus topik dan medan leksikal paragraf.",
+          "Pembakaran tembikar tidak berhubungan dengan topik zonasi kota."
+        ],
+        "skill": "hypertheme-coherence"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kohesi kata ganti ambigu (vague pronoun antecedent) saat ada dua kata benda sejajar berikut.",
+        "draft": "When municipal inspectors met port contractors, they promised to audit safety logs weekly.",
+        "options": [
+          "When municipal inspectors met port contractors, the inspectors promised to audit safety logs weekly.",
+          "When municipal inspectors met port contractors, they themselves promised to audit safety logs weekly.",
+          "When municipal inspectors met port contractors, both them promised to audit safety logs weekly."
+        ],
+        "answer": 0,
+        "explanation": "Siapa yang dimaksud 'they' — 'municipal inspectors' atau 'port contractors'? Ketika ada dua kata benda jamak yang berpotensi menjadi rujukan, ulangi kata benda yang spesifik ('the inspectors') demi kejelasan mutlak.",
+        "hints": [
+          "Pronoun 'they' meragukan antara inspektur atau kontraktor.",
+          "Sebut ulang subjek spesifik yang melakukan janji tersebut."
+        ],
+        "skill": "anaphoric-reference"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how Constant-Theme progression works best in short descriptive profiles: 'The geothermal plant supplies 40 megawatts cleanly. It operates year-round without weather interruptions. The facility also trains thirty local technicians.' Each sentence keeps ___ at the Theme position.",
+        "options": [
+          "the same central entity ('geothermal plant / It / The facility')",
+          "a completely unrelated new topic",
+          "a conditional counterfactual inversion"
+        ],
+        "answer": 0,
+        "explanation": "Constant-Theme progression mempertahankan entitas topik yang sama di posisi awal (Theme) kalimat-kalimat berurutan dengan memvariasikan kata gantinya ('The geothermal plant' → 'It' → 'The facility').",
+        "hints": [
+          "Cermati posisi subjek di ketiga kalimat tersebut.",
+          "Ketiganya mengacu pada satu entitas utama yang sama."
+        ],
+        "skill": "thematic-progression-patterns"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat jembatan antar-paragraf memakai pola 'While [Old Topic], [New Topic]'.",
+        "targetSentence": "While automated sensors reduced water waste, farmer training remains decisive for long-term yields.",
+        "explanation": "Klausa 'While...' merangkum topik sebelumnya, sedangkan klausa utama memperkenalkan topik paragraf baru.",
+        "hints": [
+          "Awali dengan 'While automated sensors reduced water waste,'.",
+          "Buka fokus baru dengan 'farmer training remains decisive for long-term yields'."
+        ],
+        "skill": "macro-discourse-coherence"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun dua kalimat berurutan yang menerapkan Linear (Zig-Zag) Thematic Progression.",
+        "targetSentence": "Stricter battery recycling rules boosted domestic lithium recovery. This domestic recovery soon reduced raw ore imports.",
+        "explanation": "'Domestic lithium recovery' di ujung kalimat pertama langsung menjadi subjek di kalimat kedua.",
+        "hints": [
+          "Mulai dengan kalimat pertama tentang 'Stricter battery recycling rules'.",
+          "Mulai kalimat kedua dengan 'This domestic recovery soon reduced...'."
+        ],
+        "skill": "thematic-progression-patterns"
       }
     ]
   }

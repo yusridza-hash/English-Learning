@@ -99,6 +99,167 @@
           "Gunakan 'were informed of the closure'."
         ],
         "skill": "correlative-agreement-proximity"
+      },
+      {
+        "type": "choice",
+        "prompt": "Eliminate the pleonasm (redundant repetition) in 'The city plans to construct a new innovation hub in the future years ahead':",
+        "options": [
+          "in the coming years",
+          "in the future years ahead of time",
+          "later in the future years"
+        ],
+        "answer": 0,
+        "explanation": "'Future' dan 'years ahead' mengulang makna waktu mendatang yang sama; ringkas menjadi 'in the coming years' atau 'in the future'.",
+        "hints": [
+          "'Future' dan 'ahead' sudah bermakna masa depan.",
+          "Pangkas pengulangan kata yang tidak menambah arti baru."
+        ],
+        "skill": "eliminating-pleonasms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which concise phrase cleanly replaces the wordy expression 'due to the fact that'?",
+        "options": [
+          "because / since",
+          "owing to the circumstance wherein",
+          "for the reason of that fact"
+        ],
+        "answer": 0,
+        "explanation": "Enam kata bertele-tele 'due to the fact that' dalam penyuntingan presisi langsung dipangkas menjadi satu kata: 'because' atau 'since'.",
+        "hints": [
+          "Cari satu kata sambung sebab yang langsung dan bersih.",
+          "'Because' menghemat empat kata tanpa kehilangan arti."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the intervening-phrase Subject-Verb Agreement error and pick the correct verb: 'The stack of unsigned customs declarations ___ sitting beside the printer.'",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Abaikan frasa preposisi penyela ('of unsigned customs declarations'); kepala subjek sebenarnya adalah benda tunggal 'The stack', sehingga verb wajib tunggal 'is'.",
+        "hints": [
+          "Apa kata benda inti sebelum kata 'of'?",
+          "Subjek inti adalah 'The stack' (tunggal)."
+        ],
+        "skill": "intervening-phrase-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fix the dangling modifier in 'Opening the encrypted folder, three outdated spreadsheets appeared on screen':",
+        "options": [
+          "Opening the encrypted folder, Maya spotted three outdated spreadsheets on screen.",
+          "Opening the encrypted folder, three outdated spreadsheets were appearing on screen.",
+          "Opened the encrypted folder, three outdated spreadsheets appeared on screen."
+        ],
+        "answer": 0,
+        "explanation": "Spreadsheet tidak bisa membuka folder! Pastikan subjek tepat setelah tanda koma adalah pelaku manusia yang membuka folder ('Maya').",
+        "hints": [
+          "Siapa yang melakukan tindakan 'Opening the encrypted folder'?",
+          "Subjek di klausa utama wajib orang pelakunya."
+        ],
+        "skill": "dangling-modifier-repair"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan mengenai aturan kesejajaran (Parallelism).",
+        "dialogue": [
+          [
+            "Editor",
+            "Your bullet points read: 'Goals include reducing shipping waste, fast customs clearance, and to audit monthly bills.' Look uneven?"
+          ],
+          [
+            "Writer",
+            "Yes — matching all three as gerund phrases gives 'reducing shipping waste, ___, and auditing monthly bills.'"
+          ]
+        ],
+        "options": [
+          "accelerating customs clearance",
+          "to accelerate customs clearance",
+          "fastly customs cleared"
+        ],
+        "answer": 0,
+        "explanation": "Dalam daftar paralel yang diawali gerund ('reducing... and auditing...'), elemen tengah wajib memakai bentuk gerund paralel yang sama: 'accelerating customs clearance'.",
+        "hints": [
+          "Item 1 dan item 3 memakai bentuk '-ing' (gerund).",
+          "Buat item kedua sejajar memakai V-ing juga."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "choice",
+        "prompt": "With 'Neither ... nor' or 'Either ... or', the verb agrees with the CLOSER subject: 'Neither the branch manager nor the two auditors ___ signed the waiver yet.'",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Subjek yang paling dekat dengan posisi verb adalah 'the two auditors' (jamak), sehingga auxiliary Present Perfect-nya adalah 'have'.",
+        "hints": [
+          "Aturan kedekatan (proximity rule) untuk 'neither ... nor'.",
+          "'The two auditors' adalah subjek jamak terdekat."
+        ],
+        "skill": "correlative-agreement-proximity"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan confusable pairs ('affect' vs 'effect') pada kalimat laporan berikut.",
+        "draft": "Sudden fuel surcharges immediately effected commuter ferry ticket prices across three islands.",
+        "options": [
+          "Sudden fuel surcharges immediately affected commuter ferry ticket prices across three islands.",
+          "Sudden fuel surcharges immediately were affect commuter ferry ticket prices across three islands.",
+          "Sudden fuel surcharges immediately effecting commuter ferry ticket prices across three islands."
+        ],
+        "answer": 0,
+        "explanation": "Sebagai kata kerja utama bermakna 'memengaruhi', gunakan 'affect' ('affected'); 'effect' lazimnya noun ('dampak'), atau verb formal bermakna 'mewujudkan/menyebabkan terjadi' (bukan sekadar memengaruhi harga).",
+        "hints": [
+          "Dibutuhkan verb bermakna 'memengaruhi'.",
+          "Affect = verb (memengaruhi); Effect = noun (dampak)."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every applicant and volunteer ___ required to sign the updated privacy form before Monday.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Bila subjek majemuk diawali 'Every' atau 'Each' ('Every applicant and volunteer'), konstruksi selalu diperlakukan TUNGGAL secara tata bahasa ('is').",
+        "hints": [
+          "Penentu 'Every' mengunci seluruh frasa menjadi tunggal.",
+          "Pilih verb tunggal 'is'."
+        ],
+        "skill": "indefinite-pronoun-agreement"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ringkas bebas pleonasme dari frasa 'completely unanimous' atau 'basic fundamentals'.",
+        "targetSentence": "Board members reached a unanimous verdict after reviewing the external audit.",
+        "explanation": "Karena 'unanimous' sudah berarti sepakat bulat 100%, 'completely unanimous' adalah pleonasme yang harus dipangkas.",
+        "hints": [
+          "Awali dengan 'Board members reached a unanimous verdict'.",
+          "Akhiri dengan 'after reviewing the external audit'."
+        ],
+        "skill": "eliminating-pleonasms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat berstruktur paralel sempurna dengan tiga frasa kata kerja.",
+        "targetSentence": "Good technical editors verify facts, tighten wording, and preserve the author's voice.",
+        "explanation": "Ketiga predikat paralel berbentuk Present Simple dasar sejajar: 'verify ..., tighten ..., and preserve ...'.",
+        "hints": [
+          "Mulai dengan 'Good technical editors verify facts,'.",
+          "Susun dua predikat sejajar berikutnya."
+        ],
+        "skill": "parallel-structure"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Pilih 'semantic ambiguity'."
         ],
         "skill": "oxford-comma-precision"
+      },
+      {
+        "type": "choice",
+        "prompt": "Eliminate BOTH wordiness and hidden pleonasm in 'At this present point in time, our small-scale regional office is in possession of sufficient backup generators':",
+        "options": [
+          "Currently, our regional office owns sufficient backup generators.",
+          "At this current point in time, our regional office possesses sufficient backup generators.",
+          "At the moment right now, our regional office is in possession of enough backup generators."
+        ],
+        "answer": 0,
+        "explanation": "'At this present point in time' (6 kata) → 'Currently' (1 kata); 'is in possession of' (4 kata) → 'owns' (1 kata). Penyuntingan presisi memangkas kalimat gemuk tanpa kehilangan satu bit informasi pun.",
+        "hints": [
+          "Pangkas frasa panjang menjadi satu kata yang lebih kuat.",
+          "'Currently ... owns' jauh lebih jernih dan ringkas."
+        ],
+        "skill": "concision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Check agreement with 'as well as' / 'along with': 'The chief architect, together with four structural engineers, ___ inspecting the suspension cables today.'",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Frasa pengiring setelah koma ('together with four structural engineers') BUKAN bagian dari subjek gramatikal majemuk; subjek intinya tetap tunggal ('The chief architect'), sehingga memakai 'is'.",
+        "hints": [
+          "Abaikan frasa di antara dua koma ('together with...').",
+          "Subjek tunggal 'The chief architect' memakai 'is'."
+        ],
+        "skill": "intervening-phrase-agreement"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan mengenai kapan Oxford (serial) comma menyelamatkan kalimat dari ambiguitas.",
+        "dialogue": [
+          [
+            "Editor",
+            "Why add a comma after 'translators' in 'We invited our legal advisors, Elena, and Maya'?"
+          ],
+          [
+            "Writer",
+            "Without that serial comma, a reader could misread 'Elena and Maya' as ___!"
+          ]
+        ],
+        "options": [
+          "an appositive naming who our legal advisors are (two people instead of four)",
+          "a prepositional phrase describing where the advisors work",
+          "an inverted third-conditional result clause"
+        ],
+        "answer": 0,
+        "explanation": "Tanpa Oxford comma ('advisors, Elena and Maya'), 'Elena and Maya' dapat disalahartikan sebagai appositive penjelas yang menyamakan bahwa para penasihat hukum itu hanyalah Elena dan Maya; serial comma menjaga pemisahan daftar tiga pihak berbeda.",
+        "hints": [
+          "Bandingkan makna 'mengundang penasihat hukum, Elena, dan Maya' vs 'mengundang penasihat hukum (yaitu Elena dan Maya)'.",
+          "Oxford comma mencegah aposisi ambigu."
+        ],
+        "skill": "oxford-comma-precision"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence that resolves a SQUINTING MODIFIER (an adverb caught ambiguously between two verbs):",
+        "options": [
+          "Employees who regularly attend safety drills notice fewer workflow hazards.",
+          "Employees who attend safety drills regularly notice fewer workflow hazards.",
+          "Employees attend safety drills who notice fewer workflow hazards regularly."
+        ],
+        "answer": 0,
+        "explanation": "Pada opsi B, kata 'regularly' terjepit antara 'attend safety drills' dan 'notice fewer hazards', membuat maknanya kabur (apakah hadir rutin atau sadar rutin?). Meletakkan 'regularly' tepat sebelum 'attend' menghilangkan ambiguitas sepenuhnya.",
+        "hints": [
+          "Periksa posisi 'regularly' agar jelas menerangkan verb 'attend' saja.",
+          "Hindari menempatkan adverb di persimpangan dua klausa kerja."
+        ],
+        "skill": "squinting-modifier-repair"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the subtle lexical confusable pair: 'Although the committee remained ___ (impartial/neutral), several delegates grew ___ (bored/lacking interest) during the three-hour procedural roll call.'",
+        "options": [
+          "disinterested / uninterested",
+          "uninterested / disinterested",
+          "complimentary / complementary"
+        ],
+        "answer": 0,
+        "explanation": "Dalam gaya editorial presisi: 'disinterested' berarti objektif/tidak memiliki kepentingan pribadi (netral seperti wasit), sedangkan 'uninterested' berarti bosan/tidak tertarik!",
+        "hints": [
+          "Bedakan 'adil/tidak memihak' ('disinterested') vs 'tidak tertarik/bosan' ('uninterested').",
+          "Cocokkan urutan dalam kalimat."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum Subject-Verb Agreement dengan 'One of the [plural] who...' berikut.",
+        "draft": "Dr. Nadia is one of the few marine botanists who studies deep-water seagrass genetics.",
+        "options": [
+          "Dr. Nadia is one of the few marine botanists who study deep-water seagrass genetics.",
+          "Dr. Nadia are one of the few marine botanists who study deep-water seagrass genetics.",
+          "Dr. Nadia is one of the few marine botanist who studies deep-water seagrass genetics."
+        ],
+        "answer": 0,
+        "explanation": "Dalam pola 'one of the [plural noun] who...', relative pronoun 'who' mengacu pada kata benda jamak 'marine botanists', bukan 'one'; karenanya kata kerja di dalam relative clause wajib jamak tanpa -s: 'study'!",
+        "hints": [
+          "Siapa kelompok yang meneliti genetika lamun? Bukan cuma Nadia, melainkan para 'marine botanists'.",
+          "Subjek jamak untuk 'who' memakai verb tanpa -s ('study')."
+        ],
+        "skill": "intervening-phrase-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast the previous rule with 'THE ONLY ONE of the [plural] who...': 'Dr. Nadia is the only one of our marine botanists who ___ fluent in three coastal dialects.'",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Begitu kata 'the ONLY one' ditambahkan ('the only one of our marine botanists who...'), fokus tunggal 'the only one' mengunci relative pronoun 'who' menjadi TUNGGAL → 'is'!",
+        "hints": [
+          "Perhatikan kata pembatas tunggal 'the only one'.",
+          "Dengan 'the only one', verb di dalam klausa 'who' kembali tunggal ('is')."
+        ],
+        "skill": "intervening-phrase-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence free of 'elicit/illicit' or 'principle/principal' confusable errors:",
+        "options": [
+          "Strict accounting principles ensure full disclosure of principal loan balances.",
+          "Strict accounting principals ensure full disclosure of principle loan balances.",
+          "Strict accounting principles ensure full disclosure of principle loan balances."
+        ],
+        "answer": 0,
+        "explanation": "'Principle' (aturan/prinsip moral atau teori) selalu berupa noun; 'principal' (pokok pinjaman/kepala sekolah/utama) dipakai untuk jumlah modal pokok pinjaman ('principal loan balances').",
+        "hints": [
+          "Prinsip akuntansi = 'principles'; pokok pinjaman = 'principal'.",
+          "Cek kedua posisi dengan cermat."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat perbaikan squinting modifier agar makna adverb jelas 100%.",
+        "targetSentence": "Managers who frequently review expense logs spot billing anomalies early.",
+        "explanation": "Memindahkan 'frequently' tepat di depan verb 'review' menghilangkan keraguan apakah ia menerangkan 'review' atau 'spot'.",
+        "hints": [
+          "Awali dengan 'Managers who frequently review expense logs'.",
+          "Akhiri dengan 'spot billing anomalies early'."
+        ],
+        "skill": "squinting-modifier-repair"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menggunakan pasangan kata mirip makna berbeda 'complement' vs 'compliment'.",
+        "targetSentence": "Solar batteries complement wind turbines well, earning unanimous compliments from regional planners.",
+        "explanation": "'Complement' (= melengkapi satu sama lain secara teknis); 'compliment' (= pujian).",
+        "hints": [
+          "Mulai dengan 'Solar batteries complement wind turbines well,'.",
+          "Tambahkan 'earning unanimous compliments from regional planners'."
+        ],
+        "skill": "lexical-precision-confusables"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'excising'."
         ],
         "skill": "strunk-white-editing-philosophy"
+      },
+      {
+        "type": "choice",
+        "prompt": "Evaluate the classic Strunk & White editing rule 'Omit needless words' on: 'The question as to whether the new port authority will prove financially viable is one that requires serious consideration.' Which revision preserves ALL nuance cleanly?",
+        "options": [
+          "Whether the new port authority will prove financially viable requires serious consideration.",
+          "Whether the port authority is a question that needs serious considering or not.",
+          "The question as to whether the port authority is viable is seriously considered by someone."
+        ],
+        "answer": 0,
+        "explanation": "Membuang cangkang kata hampa ('The question as to...', '...is one that...') membuat subjek klausa 'Whether the new port authority will prove financially viable' langsung bertemu verb kuatnya dalam 13 kata (dari 21 kata!).",
+        "hints": [
+          "Buang penutup klise panjang 'The question as to' dan 'is one that'.",
+          "Pertahankan ketepatan makna asli secara padat."
+        ],
+        "skill": "strunk-white-editing-philosophy"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the subtle parallelism breakdown inside 'not only ... but also' below: 'The new tariff neither reduced urban traffic congestion nor did it fund rural bus routes.'",
+        "options": [
+          "The new tariff neither reduced urban traffic congestion nor funded rural bus routes.",
+          "Neither the new tariff reduced urban traffic congestion nor it funded rural bus routes.",
+          "The new tariff neither reducing urban traffic congestion nor funded rural bus routes."
+        ],
+        "answer": 0,
+        "explanation": "Di sebelah kanan 'neither' terdapat verb Past Simple langsung ('reduced'); oleh karena itu di sebelah kanan 'nor' harus setara langsung memakai verb Past Simple ('funded'), bukan meloncat ke klausa inversi ('did it fund')!",
+        "hints": [
+          "Samakan kelas konstruksi di kanan 'neither' dan kanan 'nor'.",
+          "Keduanya harus berupa V2 + objek ('reduced ... nor funded ...')."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda antara pemakaian 'comprise' vs 'compose' dan kesepakatan kata benda kolektif dalam teks resmi berikut.",
+        "draft": "The regional task force is comprised of twelve marine biologists, each of whom represent a different coastal province.",
+        "options": [
+          "The regional task force comprises twelve marine biologists, each of whom represents a different coastal province.",
+          "The regional task force is composed by twelve marine biologists, each of whom represent a different coastal province.",
+          "The regional task force comprises of twelve marine biologists, each of whom represents a different coastal province."
+        ],
+        "answer": 0,
+        "explanation": "Dua kaidah ketat penyuntingan presisi: 1) Keseluruhan 'comprises' bagian-bagiannya TANPA 'of' ('comprises twelve...', atau 'is composed of'); 2) 'Each of whom' selalu bertindak sebagai subjek TUNGGAL sehingga memakai verb '-s' ('represents')!",
+        "hints": [
+          "'Comprise' aktif tidak pernah memakai 'of'.",
+          "'Each of whom' membutuhkan verb tunggal 'represents'."
+        ],
+        "skill": "indefinite-pronoun-agreement"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan tentang 'Syntactic Rhythm and Cadence' (menjaga variasi panjang kalimat).",
+        "dialogue": [
+          [
+            "Senior Editor",
+            "Your draft has zero grammar mistakes, yet reading it aloud feels weirdly monotonous. Every sentence is 14 words of S-V-O!"
+          ],
+          [
+            "Writer",
+            "True — varying sentence length and opening structures creates stronger ___ that keeps readers engaged."
+          ]
+        ],
+        "options": [
+          "syntactic rhythm and rhetorical cadence",
+          "unnecessary comma splices and squinting modifiers",
+          "pleonastic redundancy across footnotes"
+        ],
+        "answer": 0,
+        "explanation": "Penyuntingan tingkat mahir tidak berhenti pada ketiadaan salah ejaan; variasi antara kalimat panjang analitis dan kalimat pendek penegas membangun ritme sintaksis dan kejelasan alur pikiran pembaca.",
+        "hints": [
+          "Variasi panjang kalimat dan pembuka klausa membangun musik prosa yang hidup.",
+          "Pilih 'syntactic rhythm and rhetorical cadence'."
+        ],
+        "skill": "syntactic-rhythm-cadence"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify which sentence uses a tricky collective/indefinite pronoun ('None') accurately in strict formal style when emphasized as singular ('not a single one'):",
+        "options": [
+          "None of these encrypted backup drives has been accessed since Friday.",
+          "None of these encrypted backup drives are being access since Friday.",
+          "Neither of these five backup drives has accessed since Friday."
+        ],
+        "answer": 0,
+        "explanation": "Catatan: 'None' boleh jamak bila bermakna 'no items', tetapi dalam gaya tulis presisi ketika menekankan 'not one single drive', verb tunggal ('has been accessed') sering diprioritaskan; dan ingat, 'Neither' TIDAK boleh dipakai untuk lima benda!",
+        "hints": [
+          "'Neither' hanya untuk 2 item (opsi 3 salah); opsi 2 salah bentuk V3 'access'.",
+          "Hanya opsi 1 yang bersih dan akurat secara tata bahasa."
+        ],
+        "skill": "indefinite-pronoun-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine the subtle distinction between 'fewer' vs 'less' and 'continual' vs 'continuous': 'Over three consecutive hours of ___ (uninterrupted) heavy rainfall, ___ than twenty commuters stepped onto the uncovered pier.'",
+        "options": [
+          "continuous / fewer",
+          "continual / less",
+          "continuous / less"
+        ],
+        "answer": 0,
+        "explanation": "'Continuous' berarti berlangsung tanpa henti sama sekali (non-stop 3 jam), sedangkan 'continual' berarti terjadi berulang-ulang dengan jeda; dan 'commuters' dapat dihitung jamak sehingga memakai 'fewer than'.",
+        "hints": [
+          "Hujan 3 jam tanpa putus = 'continuous'; commuters terhitung = 'fewer'.",
+          "Bedakan continuous (tanpa jeda) vs continual (berulang-ulang)."
+        ],
+        "skill": "lexical-precision-confusables"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan klausa tergantung tanpa kata kerja serta redundansi ganda pada kalimat penutup laporan berikut.",
+        "draft": "In light of the fact that our experimental trials are currently ongoing at this time, final conclusions cannot be finalized yet.",
+        "options": [
+          "Because experimental trials remain ongoing, final conclusions cannot yet be drawn.",
+          "In light of the fact that experimental trials are ongoing at this time, final conclusions cannot be finalized yet.",
+          "Considering that trials are currently ongoing now, final conclusions cannot be drawn finally yet."
+        ],
+        "answer": 0,
+        "explanation": "Pangkas empat pemborosan sekaligus: 'In light of the fact that' → 'Because'; 'currently ... at this time' (pleonasme) → hapus keduanya; 'final conclusions cannot be finalized' (pengulangan akar kata canggung) → 'cannot yet be drawn'.",
+        "hints": [
+          "Cari pengulangan akar kata 'final ... finalized' dan frasa waktu ganda.",
+          "Sederhanakan dengan kaidah omits needless words."
+        ],
+        "skill": "eliminating-pleonasms"
+      },
+      {
+        "type": "choice",
+        "prompt": "When coordinating two prepositional phrases that share a final noun object cleanly, which ellipsis stays 100% grammatical?",
+        "options": [
+          "Our guidelines explain both compliance with and exceptions to municipal noise ordinances.",
+          "Our guidelines explain both compliance and exceptions to municipal noise ordinances.",
+          "Our guidelines explain both compliance about and exceptions of municipal noise ordinances."
+        ],
+        "answer": 0,
+        "explanation": "Ini kaidah paralelisme preposisi wajib (suspended prepositions): karena kita berkata 'compliance WITH' dan 'exceptions TO', KEDUA preposisi berbeda tersebut wajib hadir semua ('compliance with and exceptions to ...') — tidak boleh menghapus 'with'!",
+        "hints": [
+          "'Compliance' berpasangan dengan 'with', sedangkan 'exceptions' berpasangan dengan 'to'.",
+          "Jika dua nomina berbeda preposisi berbagi satu objek akhir, kedua preposisi wajib ditulis."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penyuntingan yang memperbaiki ketidaksesuaian preposisi sejajar (suspended prepositions).",
+        "targetSentence": "Smart investors remain attentive to and cautious about rapid currency fluctuations.",
+        "explanation": "'Attentive to' dan 'cautious about' wajib mempertahankan kedua preposisinya yang berbeda sebelum objek bersama.",
+        "hints": [
+          "Awali dengan 'Smart investors remain attentive to'.",
+          "Tambahkan 'and cautious about rapid currency fluctuations'."
+        ],
+        "skill": "parallel-structure"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pendek-tegas setelah kalimat panjang untuk mempraktikkan variasi ritme sintaksis (cadence).",
+        "targetSentence": "Although coastal barriers absorb routine tides effortlessly, extreme storm surges still test every weld. Maintenance cannot wait.",
+        "explanation": "Memadukan kalimat majemuk panjang analitis dengan satu kalimat pendek tiga kata ('Maintenance cannot wait.') menciptakan penekanan ritmis yang kuat.",
+        "hints": [
+          "Mulai dengan klausa konsesif panjang tentang 'coastal barriers'.",
+          "Tutup dengan kalimat pendek penegas 'Maintenance cannot wait.'."
+        ],
+        "skill": "syntactic-rhythm-cadence"
       }
     ]
   }

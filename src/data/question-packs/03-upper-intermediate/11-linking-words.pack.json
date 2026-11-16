@@ -99,6 +99,167 @@
           "Akibat: 'consequently prices surged across the market'."
         ],
         "skill": "cause-effect-linking"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the coastal highway was foggy, the morning shuttle arrived ten minutes ahead of schedule.",
+        "options": [
+          "Although",
+          "Despite",
+          "However"
+        ],
+        "answer": 0,
+        "explanation": "Setelah rumpang ada klausa penuh S+V ('the coastal highway was foggy'), sehingga wajib memakai subordinating conjunction konsesif 'Although' (bukan preposition 'Despite').",
+        "hints": [
+          "Periksa apakah di belakang rumpang ada Subject + Verb.",
+          "Klausa pertentangan diawali 'Although'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ severe coastal fog, the morning shuttle arrived safely at Terminal 1.",
+        "options": [
+          "Despite",
+          "Although",
+          "Even though"
+        ],
+        "answer": 0,
+        "explanation": "Setelah rumpang hanya ada frasa benda ('severe coastal fog') tanpa verb, jadi wajib memakai preposisi 'Despite'.",
+        "hints": [
+          "Tidak ada kata kerja setelah rumpang.",
+          "Frasa benda pertentangan memakai 'Despite'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sales volume doubled in Q3; ___, net profit remained flat due to higher freight tariffs.",
+        "options": [
+          "however",
+          "although",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "Di antara dua klausa lengkap yang dipisah titik koma (;) dan diikuti koma (,), gunakan conjunctive adverb 'however'.",
+        "hints": [
+          "Ada tanda titik koma (;) sebelum rumpang dan koma (,) sesudahnya.",
+          "Posisi ini khusus untuk conjunctive adverb seperti 'however'."
+        ],
+        "skill": "discourse-marker-contrast"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our solar output exceeded targets this quarter; ___, we postponed installing extra batteries.",
+        "options": [
+          "therefore",
+          "despite",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Therefore' menyatakan akibat/kesimpulan logis yang dihasilkan dari klausa pertama (listrik surya berlebih → menunda pasang baterai ekstra).",
+        "hints": [
+          "Hubungan antara kedua kalimat adalah sebab → akibat logis.",
+          "Akibat memakai 'therefore'."
+        ],
+        "skill": "cause-effect-linking"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penekanan tambahan informasi positif.",
+        "dialogue": [
+          [
+            "Coordinator",
+            "Why should we adopt this cloud archive tool?"
+          ],
+          [
+            "Engineer",
+            "It encrypts files automatically. ___, it syncs offline edits seamlessly."
+          ]
+        ],
+        "options": [
+          "Furthermore",
+          "Nevertheless",
+          "Otherwise"
+        ],
+        "answer": 0,
+        "explanation": "'Furthermore' (setara 'Moreover' / 'In addition') menambahkan poin pendukung searah yang memperkuat argumen pertama.",
+        "hints": [
+          "Poin kedua mendukung argumen keunggulan yang sama.",
+          "Penambah argumen searah memakai 'Furthermore'."
+        ],
+        "skill": "addition-linking-words"
+      },
+      {
+        "type": "choice",
+        "prompt": "Carry an offline map on your phone ___ mobile reception drops inside the mountain tunnel.",
+        "options": [
+          "in case",
+          "unless",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'In case' berarti 'untuk berjaga-jaga kalau-kalau...', menyatakan langkah antisipasi.",
+        "hints": [
+          "Mengunduh peta offline adalah persiapan berjaga-jaga.",
+          "Langkah antisipasi memakai 'in case'."
+        ],
+        "skill": "precaution-in-case"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda menyisipkan 'of' setelah 'Despite' berikut.",
+        "draft": "Despite of two postponed deliveries, our retail partners renewed their annual contract.",
+        "options": [
+          "Despite two postponed deliveries, our retail partners renewed their annual contract.",
+          "Although two postponed deliveries, our retail partners renewed their annual contract.",
+          "Despite that two postponed deliveries, our retail partners renewed their annual contract."
+        ],
+        "answer": 0,
+        "explanation": "'Despite' tidak pernah diikuti kata 'of'; gunakan 'Despite + noun phrase' secara langsung (atau 'In spite of').",
+        "hints": [
+          "'Despite of' tidak pernah benar dalam bahasa Inggris.",
+          "Hapus kata 'of' setelah 'Despite'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "You need to confirm the wire transfer before four; ___, the shipment won't leave today.",
+        "options": [
+          "otherwise",
+          "moreover",
+          "even though"
+        ],
+        "answer": 0,
+        "explanation": "'Otherwise' bermakna 'kalau tidak demikian, akibat negatifnya adalah...'.",
+        "hints": [
+          "Menunjukkan konsekuensi jika transfer tidak segera dikonfirmasi.",
+          "Konsekuensi syarat negatif memakai 'otherwise'."
+        ],
+        "skill": "condition-otherwise"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kontras memakai konjungsi 'whereas'.",
+        "targetSentence": "Urban stations run trains every five minutes, whereas rural lines operate hourly.",
+        "explanation": "'Whereas' mempertentangkan dua fakta yang berlawanan secara langsung.",
+        "hints": [
+          "Awali dengan 'Urban stations run trains every five minutes,'.",
+          "Tambahkan kontras 'whereas rural lines operate hourly'."
+        ],
+        "skill": "contrast-whereas-while"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tujuan formal dengan 'in order to'.",
+        "targetSentence": "Engineers reinforced the levee walls in order to protect nearby farmland.",
+        "explanation": "'In order to + V1' menjelaskan tujuan dari tindakan penguatan tanggul.",
+        "hints": [
+          "Mulai dengan 'Engineers reinforced the levee walls'.",
+          "Tambahkan frasa tujuan 'in order to protect nearby farmland'."
+        ],
+        "skill": "purpose-linking-words"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'in case'."
         ],
         "skill": "precaution-in-case"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the fact that our design sprint lost two days to server maintenance, we launched the beta on time.",
+        "options": [
+          "In spite of",
+          "Although",
+          "Even though"
+        ],
+        "answer": 0,
+        "explanation": "Walaupun mengandung 'that...', inti sesudah rumpang adalah frasa benda 'the fact', sehingga wajib diawali preposisi 'In spite of' / 'Despite'.",
+        "hints": [
+          "Kata benda utama setelah rumpang adalah 'the fact'.",
+          "Preposisi 'In spite of' cocok sebelum 'the fact that...'."
+        ],
+        "skill": "concession-despite-vs-although"
+      },
+      {
+        "type": "choice",
+        "prompt": "The experimental battery lasted twice as long in cold chambers; ___, manufacturing costs remain prohibitive for now.",
+        "options": [
+          "nevertheless",
+          "consequently",
+          "for instance"
+        ],
+        "answer": 0,
+        "explanation": "'Nevertheless' (setara 'nonetheless' / 'however') mengakui kelebihan poin pertama namun menyajikan kendala kontras yang penting.",
+        "hints": [
+          "Kalimat kedua menghadirkan kendala yang bertolak belakang dengan keunggulan pertama.",
+          "Pilih 'nevertheless'."
+        ],
+        "skill": "formal-concession-linking"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi akademik dengan penanda ilustrasi yang presisi.",
+        "dialogue": [
+          [
+            "Advisor",
+            "Your paragraph makes a strong general claim about micro-credentials. Can you ground it?"
+          ],
+          [
+            "Student",
+            "Yes — I'll insert a concrete case right after it introduced by ___."
+          ]
+        ],
+        "options": [
+          "for example / for instance",
+          "meanwhile / otherwise",
+          "hence / thus"
+        ],
+        "answer": 0,
+        "explanation": "Untuk memperkenalkan contoh spesifik pendukung klaim umum, gunakan 'for example' atau 'for instance'.",
+        "hints": [
+          "Fungsinya memberi contoh konkret setelah klaim umum.",
+          "Penanda contoh adalah 'for example / for instance'."
+        ],
+        "skill": "exemplification-markers"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regional coordinator stayed calm ___ the heated budget debate, offering practical compromises.",
+        "options": [
+          "throughout",
+          "whereas",
+          "moreover"
+        ],
+        "answer": 0,
+        "explanation": "Preposisi 'throughout' menyatakan sesuatu yang konsisten berlangsung di sepanjang periode/acara ('selama keseluruhan debat').",
+        "hints": [
+          "Diikuti frasa benda 'the heated budget debate'.",
+          "'Throughout' bermakna sepanjang berlangsungnya acara."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "choice",
+        "prompt": "We labeled every reagent bottle in bold ink ___ technicians wouldn't confuse the solutions.",
+        "options": [
+          "so that",
+          "in case of",
+          "due to"
+        ],
+        "answer": 0,
+        "explanation": "'So that' adalah konjungsi tujuan yang diikuti klausa lengkap (S + modal 'wouldn't' + V1).",
+        "hints": [
+          "Ada klausa lengkap ('technicians wouldn't confuse...') setelah rumpang.",
+          "Konjungsi tujuan sebelum klausa lengkap adalah 'so that'."
+        ],
+        "skill": "purpose-linking-words"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan 'Although' dan 'yet/but' secara ganda berikut.",
+        "draft": "Even though the quarterly survey attracted fewer responses than expected, yet its statistical margin stayed tight.",
+        "options": [
+          "Even though the quarterly survey attracted fewer responses than expected, its statistical margin stayed tight.",
+          "Even though the quarterly survey attracted fewer responses than expected, but its statistical margin stayed tight.",
+          "Although the quarterly survey attracted fewer responses than expected, so its statistical margin stayed tight."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menggabungkan konjungsi konsesif ('Even though' / 'Although') di awal klausa pertama dengan 'yet' atau 'but' di awal klausa kedua.",
+        "hints": [
+          "Cukup gunakan satu penghubung pertentangan saja.",
+          "Hapus kata 'yet' setelah koma."
+        ],
+        "skill": "redundant-connector-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "___, rapid urban expansion creates housing pressure; on the other hand, it stimulates transit investment.",
+        "options": [
+          "On the one hand",
+          "In contrast",
+          "As a result"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan retoris baku untuk 'on the other hand' saat menimbang dua sisi sebuah isu adalah 'On the one hand'.",
+        "hints": [
+          "Lihat penanda di klausa kedua: 'on the other hand'.",
+          "Pasangan tetapnya adalah 'On the one hand'."
+        ],
+        "skill": "counter-argument-concession"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our prototype performs well under steady voltage; ___, sudden power surges still trigger false resets.",
+        "options": [
+          "conversely",
+          "consequently",
+          "additionally"
+        ],
+        "answer": 0,
+        "explanation": "'Conversely' / 'By contrast' menandai perbandingan dua kondisi atau hasil yang berkebalikan.",
+        "hints": [
+          "Membandingkan kondisi stabil vs lonjakan tegangan dengan hasil berlawanan.",
+          "Pilih 'conversely'."
+        ],
+        "skill": "discourse-marker-contrast"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan frasa 'in order not to' untuk tujuan negatif.",
+        "targetSentence": "The pilot lowered altitude gradually in order not to startle passengers.",
+        "explanation": "'In order not to + V1' menyatakan tujuan menghindari sesuatu (letakkan 'not' tepat sebelum 'to').",
+        "hints": [
+          "Awali dengan 'The pilot lowered altitude gradually'.",
+          "Tambahkan 'in order not to startle passengers'."
+        ],
+        "skill": "purpose-linking-words"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan titik koma + 'nevertheless' untuk konsesi formal.",
+        "targetSentence": "Public transit subsidies strain city budgets; nevertheless, they reduce highway congestion substantially.",
+        "explanation": "Dua klausa independen yang bertolak belakang disambung dengan titik koma + 'nevertheless,' + koma.",
+        "hints": [
+          "Mulai dengan 'Public transit subsidies strain city budgets;'.",
+          "Sambungkan dengan 'nevertheless, they reduce...'."
+        ],
+        "skill": "formal-concession-linking"
       }
     ],
     "complex": [
@@ -342,6 +664,168 @@
         "hints": [
           "Kontras elegan yang memicu inversi.",
           "Gunakan 'yet nowhere'."
+        ],
+        "skill": "academic-cohesion-markers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the sentence that punctuates a conjunctive adverb PROPERLY without creating a comma splice:",
+        "options": [
+          "The clinical trial showed promising efficacy; nonetheless, larger multi-center replication is needed.",
+          "The clinical trial showed promising efficacy, nonetheless, larger multi-center replication is needed.",
+          "The clinical trial showed promising efficacy; nonetheless larger multi-center replication is needed."
+        ],
+        "answer": 0,
+        "explanation": "Saat menghubungkan dua klausa independen, conjunctive adverb ('nonetheless', 'however', 'therefore', 'moreover') WAJIB didahului titik koma (;) atau titik (.) DAN diikuti koma (,).",
+        "hints": [
+          "Titik koma sebelum 'nonetheless' dan koma tepat sesudahnya.",
+          "Koma di kedua sisi menciptakan comma splice."
+        ],
+        "skill": "punctuation-with-linkers"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ ambitious the municipal rail plan appeared in 2018, rising steel prices forced engineers to phase construction.",
+        "options": [
+          "However",
+          "Despite",
+          "Regardless"
+        ],
+        "answer": 0,
+        "explanation": "Pola konsesif tingkat lanjut 'However + Adjective + Subject + Verb' berarti 'Betapapun [berambisi]-nya rencana itu...' (setara 'No matter how ambitious...').",
+        "hints": [
+          "Perhatikan adjective 'ambitious' berada tepat setelah rumpang sebelum subjek.",
+          "Pola 'However + adj + S + V' bermakna konsesi tingkat lanjut."
+        ],
+        "skill": "formal-concession-linking"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan konjungsi tujuan 'for' vs 'so that' + redundansi penghubung berikut.",
+        "draft": "Because our regional hub lacked cold storage, therefore local growers couldn't export fresh berries.",
+        "options": [
+          "Because our regional hub lacked cold storage, local growers couldn't export fresh berries.",
+          "Because of our regional hub lacked cold storage, therefore local growers couldn't export fresh berries.",
+          "Since our regional hub lacked cold storage, so local growers couldn't export fresh berries."
+        ],
+        "answer": 0,
+        "explanation": "Jangan pernah menggabungkan 'Because/Since' di awal klausa pertama dengan 'therefore/so' di awal klausa kedua; keduanya menyatakan sebab-akibat yang sama sehingga menjadi ganda.",
+        "hints": [
+          "Satu hubungan sebab-akibat hanya memakai SATU penghubung ('Because' atau 'therefore', bukan keduanya).",
+          "Hapus 'therefore' setelah koma."
+        ],
+        "skill": "redundant-connector-avoidance"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang pemakaian kata ganti penghubung khusus ('albeit') sebelum frasa tanpa verb.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Can we compress 'The desalination filter succeeded, although it operated at high energy cost' cleanly?"
+          ],
+          [
+            "Editor",
+            "Yes — insert the formal concessive particle ___ right before the prepositional phrase: '...succeeded, ___ at high energy cost.'"
+          ]
+        ],
+        "options": [
+          "albeit",
+          "whereas",
+          "notwithstanding that"
+        ],
+        "answer": 0,
+        "explanation": "'Albeit' adalah konjungsi konsesif ringkas dan elegan dalam penulisan akademik untuk langsung memperkenalkan frasa sifat, keterangan, atau preposisi tanpa verb ('albeit slowly', 'albeit at high cost').",
+        "hints": [
+          "Hanya ada frasa preposisi 'at high energy cost' tanpa kata kerja.",
+          "'Albeit' (= walaupun) sangat ringkas sebelum adjective/prepositional phrase."
+        ],
+        "skill": "formal-concession-linking"
+      },
+      {
+        "type": "choice",
+        "prompt": "Smart as the automated billing algorithm was, ___ could it interpret handwritten customs notes.",
+        "options": [
+          "still",
+          "in no way",
+          "nevertheless"
+        ],
+        "answer": 1,
+        "explanation": "Pola 'Smart as the algorithm was, ___ could it interpret...' memakai inversi negatif setelah koma dengan 'in no way' diikuti modal 'could it'.",
+        "hints": [
+          "Lihat inversi 'could it interpret' di klausa kedua.",
+          "Frasa negatif 'in no way' memicu inversi 'could it interpret'."
+        ],
+        "skill": "counter-argument-concession"
+      },
+      {
+        "type": "choice",
+        "prompt": "In academic English, 'Such as' introduces examples WITHOUT a standalone verb; which sentence uses it accurately?",
+        "options": [
+          "Renewable grids rely on storage technologies such as pumped hydro and lithium-iron batteries.",
+          "Renewable grids rely on storage technologies, such as, pumped hydro and batteries.",
+          "Such as pumped hydro, renewable grids rely on storage technologies."
+        ],
+        "answer": 0,
+        "explanation": "'Such as' tidak memerlukan koma sebelum kata benda contoh yang mengikuti langsung ('technologies such as X and Y'), dan tidak digunakan seperti 'for example,' dengan koma mengapit.",
+        "hints": [
+          "'Such as' bukan adverb penghubung kalimat seperti 'for example,'.",
+          "Letakkan langsung antara kategori umum dan daftar contohnya."
+        ],
+        "skill": "exemplification-markers"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan 'While' (kontras) dengan 'on the contrary' yang maknanya keliru berikut.",
+        "draft": "The study hypothesized that remote workers sleep less; on the contrary, it also confirmed they exercise more.",
+        "options": [
+          "The study hypothesized that remote workers sleep less; moreover, it found they exercise more.",
+          "The study hypothesized that remote workers sleep less; on the contrary, it also confirmed they exercise more.",
+          "The study hypothesized that remote workers sleep less; despite that, it also confirmed they exercise more."
+        ],
+        "answer": 0,
+        "explanation": "'On the contrary' HANYA dipakai untuk MEMBANTAH pernyataan negatif/salah sebelumnya ('bahkan sebaliknya, klaim itu salah!'); untuk menambah temuan sejajar yang mengejutkan tanpa membantah hipotesis tidur, gunakan 'moreover' / 'furthermore'.",
+        "hints": [
+          "'On the contrary' khusus menyangkal pernyataan sebelumnya.",
+          "Karena kalimat kedua menambah temuan lain, pakai 'moreover'."
+        ],
+        "skill": "discourse-marker-contrast"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the initial grant covers laboratory equipment, ongoing technician salaries must come from institutional funds.",
+        "options": [
+          "Whereas",
+          "Therefore",
+          "Despite"
+        ],
+        "answer": 0,
+        "explanation": "Mengontraskan dua sumber pembiayaan yang berbeda ('equipment' vs 'salaries') menggunakan subordinating conjunction 'Whereas' di awal kalimat.",
+        "hints": [
+          "Kedua klausa membandingkan dua porsi tanggung jawab yang berbeda.",
+          "Gunakan konjungsi kontras 'Whereas'."
+        ],
+        "skill": "contrast-whereas-while"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat konsesif inversi tingkat lanjut dengan '[Adjective] + as + Subject + Verb'.",
+        "targetSentence": "Expensive as the geothermal turbines proved initially, they cut island power costs within five years.",
+        "explanation": "Pola 'Adjective + as + S + V' bermakna konsesi kuat setara 'Although the geothermal turbines proved expensive initially...'.",
+        "hints": [
+          "Awali dengan 'Expensive as the geothermal turbines proved initially,'.",
+          "Tambahkan hasil kontrasnya."
+        ],
+        "skill": "formal-concession-linking"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ringkas memakai partikel konsesif 'albeit'.",
+        "targetSentence": "The coastal ferry resumed daily crossings, albeit with reduced passenger capacity.",
+        "explanation": "'Albeit' langsung diikuti frasa preposisi 'with reduced passenger capacity' tanpa membutuhkan verb tambahan.",
+        "hints": [
+          "Mulai dengan 'The coastal ferry resumed daily crossings,'.",
+          "Tambahkan ', albeit with reduced passenger capacity'."
         ],
         "skill": "academic-cohesion-markers"
       }

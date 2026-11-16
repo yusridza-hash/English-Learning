@@ -99,6 +99,167 @@
           "Pelembut probabilitas: 'could possibly yield positive quarterly returns'."
         ],
         "skill": "modal-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "In academic discussion, which hedged statement is most cautious and defensible?",
+        "options": [
+          "Increased screen exposure may contribute to mild sleep disruption.",
+          "Increased screen exposure proves 100% that nobody sleeps properly.",
+          "Screen exposure always ruins every single teenager's health."
+        ],
+        "answer": 0,
+        "explanation": "Hedging memakai modal kehati-hatian seperti 'may' dan verb 'contribute to' untuk menghindari klaim absolut yang rentan dibantah oleh satu pengecualian.",
+        "hints": [
+          "Hindari kata mutlak seperti '100%' dan 'always ... every single'.",
+          "Pilih klaim terukur dengan modal 'may'."
+        ],
+        "skill": "modal-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "The preliminary lab data ___ that solar roof coatings lower attic temperatures during peak summer.",
+        "options": [
+          "suggests",
+          "guarantees beyond doubt",
+          "commands"
+        ],
+        "answer": 0,
+        "explanation": "'Suggest' atau 'indicate' adalah verb hedging standar dalam riset ketika temuan awal mendukung suatu kecenderungan tanpa mengklaim bukti mutlak final.",
+        "hints": [
+          "Kata kuncinya 'preliminary lab data' (data awal).",
+          "Verb pelaporan hati-hati adalah 'suggests'."
+        ],
+        "skill": "verb-hedging-suggest"
+      },
+      {
+        "type": "choice",
+        "prompt": "Smaller rural clinics ___ to rely heavily on mobile diagnostic vans during monsoon floods.",
+        "options": [
+          "tend",
+          "must always",
+          "undeniably"
+        ],
+        "answer": 0,
+        "explanation": "Verb hedging 'tend to + V1' menyatakan kecenderungan umum yang sering terjadi namun tetap membuka ruang pengecualian.",
+        "hints": [
+          "Menggambarkan kecenderungan umum tanpa memutlakkan.",
+          "'Tend to' adalah rumus hedging umum."
+        ],
+        "skill": "verb-hedging-tend"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ appears that afternoon traffic slows significantly near school zones.",
+        "options": [
+          "It",
+          "There",
+          "What"
+        ],
+        "answer": 0,
+        "explanation": "Introductory hedging impersonal berpola 'It appears that...' atau 'It seems likely that...' menjaga nada objektif dan tidak memaksa.",
+        "hints": [
+          "Struktur awal hedging impersonal: 'It appears that...'.",
+          "Pilih subjek semu 'It'."
+        ],
+        "skill": "introductory-hedging"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik untuk melunakkan klaim yang terlalu mutlak.",
+        "dialogue": [
+          [
+            "Advisor",
+            "You wrote 'Online quizzes completely eliminate math anxiety.' Isn't that too sweeping?"
+          ],
+          [
+            "Student",
+            "Yes — let me soften it with an adverb: 'Online quizzes ___ reduce math anxiety for many learners.'"
+          ]
+        ],
+        "options": [
+          "potentially",
+          "absolutely",
+          "universally"
+        ],
+        "answer": 0,
+        "explanation": "Adverb hedging ('potentially', 'arguably', 'generally') memoderasi klaim agar sesuai dengan bukti empiris yang bervariasi antar-individu.",
+        "hints": [
+          "Kita ingin melunakkan klaim, bukan membuatnya makin ekstrem.",
+          "Pilih adverb kehati-hatian 'potentially'."
+        ],
+        "skill": "adverbial-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice how hedging uses adjectives of likelihood: 'A mild delay in sea freight is ___ during late-December typhoons.'",
+        "options": [
+          "probable / likely",
+          "impossible",
+          "mandatory"
+        ],
+        "answer": 0,
+        "explanation": "Adjective hedging seperti 'likely', 'probable', atau 'plausible' menyampaikan kemungkinan beralasan tanpa mengklaim kepastian mutlak.",
+        "hints": [
+          "Menyatakan kemungkinan yang tinggi namun tidak 100% pasti.",
+          "Pilih adjective probabilitas wajar 'probable / likely'."
+        ],
+        "skill": "adjectival-hedging"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki klaim berlebihan absolut (unhedged overstatement) pada kalimat kesimpulan riset berikut.",
+        "draft": "Every small café that installs solar panels definitely doubles its profit within three months.",
+        "options": [
+          "Small cafés that install solar panels may gradually improve their operating margins over time.",
+          "Every small café that installs solar panels undoubtedly doubles its profit within three months.",
+          "No small café that installs solar panels ever fails to double its profit in three months."
+        ],
+        "answer": 0,
+        "explanation": "Kata mutlak seperti 'Every', 'definitely', dan 'within three months' hampir mustahil dipertahankan dalam jurnal ilmiah; ubah dengan modal 'may', adverb moderat 'gradually', dan cakupan wajar.",
+        "hints": [
+          "Klaim 'Every ... definitely doubles' terlalu ekstrem dan rapuh.",
+          "Gunakan modal kehati-hatian 'may' dan frasa terukur."
+        ],
+        "skill": "academic-hedging-revision"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ speaking, participants in the morning cohort completed modules slightly faster.",
+        "options": [
+          "Generally",
+          "Undoubtedly",
+          "Never"
+        ],
+        "answer": 0,
+        "explanation": "'Generally speaking' atau 'Broadly speaking' berfungsi sebagai penanda cakupan umum (scope hedge) sebelum generalisasi statistik.",
+        "hints": [
+          "Mengawali generalisasi dengan batas kewajaran.",
+          "Gunakan 'Generally'."
+        ],
+        "skill": "extent-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging memakai frasa pembuka impersonal 'It seems plausible that'.",
+        "targetSentence": "It seems plausible that brief afternoon breaks restore concentration during audits.",
+        "explanation": "Pola 'It seems plausible that...' menawarkan hipotesis secara ilmiah dan santun.",
+        "hints": [
+          "Awali dengan 'It seems plausible that'.",
+          "Tambahkan klausa hipotesisnya."
+        ],
+        "skill": "introductory-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging dengan verb 'indicate' dan modal 'could'.",
+        "targetSentence": "Early water readings indicate that minor filtration adjustments could boost clarity.",
+        "explanation": "Kombinasi verb berjarak 'indicate' dan modal 'could' menghasilkan dua lapis kehati-hatian akademik.",
+        "hints": [
+          "Mulai dengan 'Early water readings indicate that'.",
+          "Lengkapi dengan 'minor filtration adjustments could boost clarity'."
+        ],
+        "skill": "epistemic-hedging"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'largely'."
         ],
         "skill": "adverbial-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the sentence using RESTRICTIVE hedging (narrowing scope to the exact dataset/sample instead of claiming universal truth):",
+        "options": [
+          "Within this sample of forty coastal clinics, flexible scheduling appeared to cut overtime by 12%.",
+          "Flexible scheduling unquestionably slashes overtime across every clinic worldwide.",
+          "It is an absolute certainty that overtime drops everywhere under flexible shifts."
+        ],
+        "answer": 0,
+        "explanation": "Mempersempit batas klaim ke kelompok spesifik ('Within this sample of forty coastal clinics') bersama 'appeared to' melindungi argumen dari sanggahan di luar konteks sampel.",
+        "hints": [
+          "Cari kalimat yang membatasi ruang lingkup bukti dan memakai verb berhati-hati.",
+          "Frasa 'Within this sample...' membatasi generalisasi berlebih."
+        ],
+        "skill": "restrictive-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "There is ___ evidence to support the hypothesis that bilingual labeling speeds up warehouse sorting.",
+        "options": [
+          "preliminary",
+          "irrefutable final",
+          "zero possible"
+        ],
+        "answer": 0,
+        "explanation": "Dalam laporan sains atau bisnis tahap awal, adjective seperti 'preliminary', 'tentative', atau 'emerging' menandai derajat bukti yang masih berkembang.",
+        "hints": [
+          "Hedging terhadap kekuatan bukti saat ini.",
+          "'Preliminary' berarti awal/pendahuluan (terukur dan jujur secara ilmiah)."
+        ],
+        "skill": "adjectival-hedging"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan antara editor jurnal dan peneliti tentang hedging berlebihan (hyper-hedging).",
+        "dialogue": [
+          [
+            "Editor",
+            "Your sentence reads: 'It might perhaps possibly seem to suggest that noise could arguably affect sleep.' Is that good?"
+          ],
+          [
+            "Researcher",
+            "Oops — piling up five hedges creates ___! One clear hedge like 'Noise may impair sleep' is far stronger."
+          ]
+        ],
+        "options": [
+          "awkward weakness and loss of authorial credibility",
+          "maximum scientific prestige and persuasiveness",
+          "perfect grammatical precision for legal contracts"
+        ],
+        "answer": 0,
+        "explanation": "Menumpuk 4–5 kata hedging sekaligus dalam satu klausa (compound hyper-hedging: 'might perhaps possibly seem to...') membuat penulis terkesan tidak percaya diri atas datanya sendiri.",
+        "hints": [
+          "Hedging perlu keseimbangan: terlalu sedikit terasa arogan, terlalu banyak terasa ragu-ragu.",
+          "Hindari menumpuk banyak kata hedging di satu verb."
+        ],
+        "skill": "hedging-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Quantifiers of frequency like '___', 'frequently', or 'in many cases' hedge absolute generalizations without sounding weak.",
+        "options": [
+          "often",
+          "never",
+          "invariably"
+        ],
+        "answer": 0,
+        "explanation": "Mengganti 'always' menjadi frequency hedge seperti 'often' atau 'frequently' mengakui pola utama sambil tetap jujur terhadap pengecualian.",
+        "hints": [
+          "Frequency hedge menggantikan kata mutlak 'always'.",
+          "'Invariably' masih bermakna mutlak tanpa pengecualian."
+        ],
+        "skill": "frequency-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "To distance the claim objectively, academic writers often prefer 'Data from the regional survey ___ to show a gradual shift' over 'I think there is a shift.'",
+        "options": [
+          "appears",
+          "swears",
+          "forces"
+        ],
+        "answer": 0,
+        "explanation": "'Data ... appears to show' memindahkan fokus dari opini pribadi ('I think') ke interpretasi hati-hati berbasis bukti objektif.",
+        "hints": [
+          "Hedging impersonal berbasis bukti data.",
+          "Pasangan infinitive dari 'to show' di sini adalah 'appears'."
+        ],
+        "skill": "impersonal-hedging"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyamakan opini pribadi kasual dengan hedging akademik formal berikut.",
+        "draft": "In my humble opinion, I guess that electric ferries will kind of save coastal routes money eventually.",
+        "options": [
+          "Current cost projections suggest that electric ferries could substantially reduce operating expenses along coastal routes.",
+          "Actually, I feel like electric ferries are definitely going to save coastal routes money for sure.",
+          "In my humble opinion, electric ferries sort of save coastal routes money maybe."
+        ],
+        "answer": 0,
+        "explanation": "Ungkapan percakapan seperti 'In my humble opinion', 'I guess', 'kind of', dan 'sort of' BUKAN hedging akademik; gunakan konstruksi berbasis bukti ('Current cost projections suggest... could...').",
+        "hints": [
+          "Bedakan filler informal ('kind of', 'I guess') dari hedging akademik sejati.",
+          "Pilih kalimat berdasar proyeksi data dengan 'suggest' + 'could'."
+        ],
+        "skill": "academic-hedging-revision"
+      },
+      {
+        "type": "choice",
+        "prompt": "To ___ extent, public transit subsidies offset rising fuel expenses for suburban households.",
+        "options": [
+          "some / a considerable",
+          "none",
+          "all absolute"
+        ],
+        "answer": 0,
+        "explanation": "Frasa cakupan 'To some extent' atau 'To a considerable extent' secara presisi membatasi seberapa besar dampak sebab terhadap akibat.",
+        "hints": [
+          "Ungkapan pembatas derajat dampak: 'To [adj] extent'.",
+          "'None' tidak cocok sebelum 'extent' tanpa 'To no extent'."
+        ],
+        "skill": "extent-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "This pricing discrepancy may, ___ part, reflect higher cold-chain insurance premiums this winter.",
+        "options": [
+          "in",
+          "by",
+          "on"
+        ],
+        "answer": 0,
+        "explanation": "Idiom tetap hedging yang membatasi sebab ('sebagian disebabkan oleh...') adalah 'in part' (setara 'partly').",
+        "hints": [
+          "Frasa tetap bermakna 'sebagian': '... in part ...'.",
+          "Pilih preposisi 'in'."
+        ],
+        "skill": "extent-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging akademis memakai 'tend to' dan pembatas cakupan.",
+        "targetSentence": "Smaller retail shops tend to absorb shipping surcharges during holiday peaks.",
+        "explanation": "'Tend to absorb' menyatakan kecenderungan umum yang terukur.",
+        "hints": [
+          "Awali dengan 'Smaller retail shops tend to absorb'.",
+          "Tambahkan objek dan keterangan waktu."
+        ],
+        "skill": "verb-hedging-tend"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan adverb hedging 'arguably' di posisi tengah kalimat.",
+        "targetSentence": "Clear onboarding documentation is arguably the most cost-effective way to lower support tickets.",
+        "explanation": "'Arguably' mengakui bahwa klaim tersebut sangat masuk akal namun terbuka untuk perdebatan akademis.",
+        "hints": [
+          "Mulai dengan 'Clear onboarding documentation is arguably'.",
+          "Lengkapi klausa superlatifnya."
+        ],
+        "skill": "adverbial-hedging"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'may not fully capture'."
         ],
         "skill": "academic-hedging-revision"
+      },
+      {
+        "type": "choice",
+        "prompt": "Distinguish Epistemic Hedging (knowledge uncertainty) from Affective/Polite Hedging in peer review: '___, the sample size in Table 2 appears slightly small to generalize nationally.'",
+        "options": [
+          "With due respect / Arguably",
+          "Shockingly / Disgracefully",
+          "Undeniably / Always"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ulasan sejawat (peer review) atau kritik rapat profesional, perpaduan mitigasi sopan ('With due respect') atau adverb epistemik ('Arguably') + 'appears slightly' menyampaikan kritik tajam secara konstruktif tanpa menyerang pribadi.",
+        "hints": [
+          "Nada ulasan sejawat menjaga kesantunan sekaligus presisi metodologis.",
+          "Hindari adverb emosional ekstrem atau absolut."
+        ],
+        "skill": "sociolinguistic-hedging-theory"
+      },
+      {
+        "type": "choice",
+        "prompt": "When strategically combining two complementary hedges without creating clutter (e.g., modal + lexical verb), which pairing reads cleanest in Band 8+ writing?",
+        "options": [
+          "These patterns would seem to indicate a gradual demographic shift.",
+          "These patterns maybe perhaps could possibly seem to kind of indicate a shift.",
+          "These patterns definitely must be indicating an absolute shift."
+        ],
+        "answer": 0,
+        "explanation": "Kombinasi elegan 'would seem to indicate' atau 'may suggest that' menciptakan jarak epistemik berlapis yang alami dan sering dipakai dalam jurnal ilmiah tanpa terasa berbelit.",
+        "hints": [
+          "Satu kombinasi harmonis ('would seem to indicate') jauh lebih rapi daripada empat adverb menumpuk.",
+          "Bandingkan keterbacaan ketiga kalimat."
+        ],
+        "skill": "compound-hedging"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki ketidakcocokan antara klaim absolut di awal kalimat dan hedging di belakangnya (mixed register contradiction) berikut.",
+        "draft": "It is an indisputable universal fact that hybrid work may perhaps raise morale slightly for some employees.",
+        "options": [
+          "Survey findings suggest that hybrid work policies may improve morale for a substantial share of employees.",
+          "It is an indisputable universal fact that hybrid work always raises morale for every employee.",
+          "Hybrid work sort of proves beyond any doubt that morale improves maybe."
+        ],
+        "answer": 0,
+        "explanation": "Menyatukan ungkapan mutlak ('indisputable universal fact') dengan 'may perhaps ... slightly' menimbulkan kontradiksi internal yang merusak kredibilitas tulisan; selaraskan nada di seluruh kalimat.",
+        "hints": [
+          "Jangan mencampur kepastian mutlak dengan keraguan dalam satu klausa.",
+          "Samakan tingkat kepastian secara konsisten memakai 'suggest ... may'."
+        ],
+        "skill": "academic-hedging-revision"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang teori sosiolinguistik hedging dalam komunikasi ilmiah.",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Why do seasoned journal authors hedge even findings backed by p < 0.01 statistics?"
+          ],
+          [
+            "Candidate",
+            "Because hedging leaves room for alternative interpretations while ___ against future falsification."
+          ]
+        ],
+        "options": [
+          "protecting the author's claims",
+          "concealing forged experimental measurements",
+          "violating APA objective style guidelines"
+        ],
+        "answer": 0,
+        "explanation": "Dalam wacana ilmiah modern (Hyland's hedging framework), hedging BUKAN tanda ketidaktahuan, melainkan strategi pelindungan klaim (shields/hedges) sekaligus bentuk kerendahan hati intelektual di depan komunitas riset.",
+        "hints": [
+          "Ilmu pengetahuan selalu terbuka terhadap revisi di masa depan.",
+          "Hedging melindungi penulis agar klaimnya tetap akurat secara empiris."
+        ],
+        "skill": "sociolinguistic-hedging-theory"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ as it may seem from short-term sales alone, rural micro-merchants adapted to QR codes faster than mid-sized wholesalers.",
+        "options": [
+          "Paradoxical / Surprising",
+          "Impossible",
+          "Guaranteed"
+        ],
+        "answer": 0,
+        "explanation": "Konstruksi konsesif-epistemik '[Adjective] as it may seem...' (bermakna 'Meskipun kelihatannya mengejutkan/paradoks...') adalah teknik hedging retoris tingkat lanjut sebelum menyajikan fakta tak terduga.",
+        "hints": [
+          "Pola '[Adjective] as it may seem...' berfungsi sebagai pengantar kontras terukur.",
+          "Pilih 'Paradoxical / Surprising'."
+        ],
+        "skill": "epistemic-distance-hedging"
+      },
+      {
+        "type": "choice",
+        "prompt": "To distance yourself from an unverified external projection without calling it false, use the epistemic reporting frame: 'Government forecasts ___ project steady export growth through 2028.'",
+        "options": [
+          "tentatively",
+          "recklessly",
+          "infallibly"
+        ],
+        "answer": 0,
+        "explanation": "'Tentatively project' secara objektif menunjukkan bahwa proyeksi tersebut masih bersifat sementara dan dapat direvisi mengikuti perkembangan data.",
+        "hints": [
+          "Adverb netral-objektif untuk perkiraan yang bisa berubah.",
+          "Pilih 'tentatively'."
+        ],
+        "skill": "epistemic-distance-hedging"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menghilangkan kata hedging penting di kalimat yang mengubah hipotesis menjadi fakta pasti berikut.",
+        "draft": "If left unchecked, urban runoff is causing irreversible reef loss across the entire Pacific basin within five years.",
+        "options": [
+          "If left unchecked, urban runoff could contribute to severe localized reef degradation over the coming decades.",
+          "If left unchecked, urban runoff will undoubtedly destroy every single Pacific reef in five years.",
+          "Urban runoff basically kinda harms reefs maybe."
+        ],
+        "answer": 0,
+        "explanation": "Mengganti prediksi mutlak dramatis ('is causing irreversible... entire Pacific basin within five years') dengan modal hati-hati ('could contribute to') dan cakupan akurat ('localized') menghasilkan prediksi ilmiah yang bertanggung jawab.",
+        "hints": [
+          "Hindari klaim bencana total tanpa syarat batas geografis/waktu yang realistis.",
+          "Gunakan modal 'could' dan pembatas 'localized'."
+        ],
+        "skill": "hedging-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at 'presumably': 'The archive gate remained locked because the weekend custodian ___ assumed maintenance was still underway.' How does 'presumably' work?",
+        "options": [
+          "It signals a reasonable inference rather than a confirmed eyewitness fact",
+          "It proves the author interviewed the custodian directly",
+          "It removes all time reference from Past Simple"
+        ],
+        "answer": 0,
+        "explanation": "'Presumably' (= agaknya / patut diduga) menyatakan kesimpulan masuk akal penulis tentang motivasi atau keadaan yang tidak diamati secara langsung.",
+        "hints": [
+          "Adverb epistemik 'presumably' menandai asumsi logis.",
+          "Pilih deskripsi makna inferensial yang tepat."
+        ],
+        "skill": "epistemic-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hedging berlapis halus memakai pola 'would appear to'.",
+        "targetSentence": "Elevated night temperatures would appear to accelerate coastal coral bleaching.",
+        "explanation": "'Would appear to + V1' adalah kombinasi modal dan verb persepsi yang sangat lazim dalam kesimpulan ilmiah.",
+        "hints": [
+          "Awali dengan 'Elevated night temperatures would appear to'.",
+          "Tambahkan verb dasar 'accelerate' dan objeknya."
+        ],
+        "skill": "compound-hedging"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembatas cakupan penelitian (restrictive hedging) untuk laporan hasil.",
+        "targetSentence": "While promising in pilot trials, these battery results cannot yet be extrapolated to sub-zero climates.",
+        "explanation": "Menyebut batas validitas riset ('pilot trials' vs 'sub-zero climates') menunjukkan ketelitian ilmiah tingkat tinggi.",
+        "hints": [
+          "Mulai dengan 'While promising in pilot trials,'.",
+          "Jelaskan batas generalisasinya."
+        ],
+        "skill": "restrictive-hedging"
       }
     ]
   }

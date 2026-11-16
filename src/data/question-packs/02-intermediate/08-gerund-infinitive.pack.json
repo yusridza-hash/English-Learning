@@ -99,6 +99,167 @@
           "Verb dasar adalah answer any questions."
         ],
         "skill": "infinitive-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our team enjoys ___ coffee together after finishing weekly demos.",
+        "options": [
+          "drinking",
+          "to drink",
+          "drink"
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja 'enjoy' selalu diikuti oleh gerund (V-ing), tidak pernah memakai to-infinitive.",
+        "hints": [
+          "Lihat verb 'enjoy' sebelum rumpang.",
+          "'Enjoy + V-ing'."
+        ],
+        "skill": "gerund-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "She decided ___ the remote engineering role in Singapore.",
+        "options": [
+          "to accept",
+          "accepting",
+          "accept"
+        ],
+        "answer": 0,
+        "explanation": "Kata kerja rencana/keputusan seperti 'decide', 'hope', dan 'plan' diikuti to-infinitive ('to accept').",
+        "hints": [
+          "Verb 'decide' berpasangan dengan to-infinitive.",
+          "Pilih 'to accept'."
+        ],
+        "skill": "infinitive-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ daily vocabularies in context makes retention much stronger.",
+        "options": [
+          "Reviewing",
+          "Review",
+          "To reviewed"
+        ],
+        "answer": 0,
+        "explanation": "Ketika kata kerja menjadi subjek di awal kalimat, gunakan bentuk gerund ('Reviewing...').",
+        "hints": [
+          "Fungsinya adalah subjek kalimat untuk verb 'makes'.",
+          "Kata kerja sebagai subjek memakai V-ing (gerund)."
+        ],
+        "skill": "gerund-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "Thank you for ___ our presentation slides before noon.",
+        "options": [
+          "updating",
+          "update",
+          "to update"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi apa pun ('for', 'in', 'about', 'without'), kata kerja WAJIB berbentuk gerund (V-ing): 'updating'.",
+        "hints": [
+          "Ada kata depan 'for' tepat di depan rumpang.",
+          "Aturan mutlak: preposition + V-ing."
+        ],
+        "skill": "gerund-after-prepositions"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kantor tentang penghindaran.",
+        "dialogue": [
+          [
+            "Lead",
+            "Why hasn't Toby sent the invoice yet?"
+          ],
+          [
+            "Assistant",
+            "He keeps ___ the client because he worries about the pricing dispute."
+          ]
+        ],
+        "options": [
+          "avoiding",
+          "to avoid",
+          "avoid"
+        ],
+        "answer": 0,
+        "explanation": "Baik 'keep' (terus-menerus) maupun 'avoid' keduanya mewajibkan gerund (V-ing).",
+        "hints": [
+          "Setelah 'keeps', kata kerja berbentuk -ing.",
+          "Pilih 'avoiding'."
+        ],
+        "skill": "gerund-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "We promised ___ the final tax receipts by Friday afternoon.",
+        "options": [
+          "to send",
+          "sending",
+          "send"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'promise' diikuti oleh to-infinitive ('promise to send').",
+        "hints": [
+          "'Promise' termasuk kelompok verb + to-infinitive.",
+          "Pilih 'to send'."
+        ],
+        "skill": "infinitive-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda infinitive setelah 'suggest' pada kalimat berikut.",
+        "draft": "The operations coordinator suggested to move the briefing to Wednesday morning.",
+        "options": [
+          "The operations coordinator suggested moving the briefing to Wednesday morning.",
+          "The operations coordinator suggested to moving the briefing to Wednesday morning.",
+          "The operations coordinator suggested move the briefing to Wednesday morning."
+        ],
+        "answer": 0,
+        "explanation": "'Suggest' TIDAK boleh langsung diikuti 'to + V1'; gunakan gerund ('suggested moving').",
+        "hints": [
+          "Verb 'suggest' diikuti V-ing, bukan to-infinitive.",
+          "Ubah 'to move' menjadi 'moving'."
+        ],
+        "skill": "gerund-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are you interested in ___ the bilingual mentorship program?",
+        "options": [
+          "joining",
+          "to join",
+          "join"
+        ],
+        "answer": 0,
+        "explanation": "Frasa kata sifat berpreposisi 'interested in' wajib diikuti gerund ('joining').",
+        "hints": [
+          "Perhatikan preposisi 'in' sebelum rumpang.",
+          "Preposisi selalu diikuti V-ing."
+        ],
+        "skill": "gerund-after-prepositions"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai to-infinitive setelah verb 'agree'.",
+        "targetSentence": "Both parties agreed to extend the service contract for one year.",
+        "explanation": "'Agree' berpasangan dengan to-infinitive ('to extend').",
+        "hints": [
+          "Awali dengan 'Both parties agreed to extend'.",
+          "Tambahkan objek dan durasi kontrak."
+        ],
+        "skill": "infinitive-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menempatkan gerund phrase sebagai subjek.",
+        "targetSentence": "Writing concise emails saves busy managers valuable time.",
+        "explanation": "Frasa gerund 'Writing concise emails' bertindak sebagai subjek tunggal bagi 'saves'.",
+        "hints": [
+          "Mulai dengan subjek gerund 'Writing concise emails'.",
+          "Pasangkan verb tunggal 'saves'."
+        ],
+        "skill": "gerund-subject"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan gerund drinking."
         ],
         "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "Contrast meaning: 'Don't forget ___ the security alarm before locking up' (future task) vs 'I will never forget ___ our first client in Tokyo' (past memory).",
+        "options": [
+          "to set / meeting",
+          "setting / to meet",
+          "to set / to meet"
+        ],
+        "answer": 0,
+        "explanation": "'Forget + to V1' berarti lupa melaksanakan tugas mendatang; 'forget + V-ing' berarti melupakan kenangan peristiwa yang sudah dialami di masa lalu.",
+        "hints": [
+          "Tugas yang belum dikerjakan memakai 'to V1'.",
+          "Kenangan peristiwa lampau memakai 'V-ing'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "On our drive back, we stopped ___ some fresh fruit at a roadside stall.",
+        "options": [
+          "to buy",
+          "buying",
+          "bought"
+        ],
+        "answer": 0,
+        "explanation": "'Stop + to V1' berarti berhenti dari aktivitas sebelumnya (menyetir) AGAR dapat melakukan tindakan baru (membeli buah).",
+        "hints": [
+          "Berhenti mengemudi dengan tujuan membeli buah.",
+          "Menyatakan tujuan berhenti memakai 'to + V1'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penolakan kebiasaan dengan 'stop + gerund'.",
+        "dialogue": [
+          [
+            "Doctor",
+            "Has your uncle improved his sleep routine?"
+          ],
+          [
+            "Niece",
+            "Yes, he completely stopped ___ coffee after five o'clock."
+          ]
+        ],
+        "options": [
+          "drinking",
+          "to drink",
+          "drink"
+        ],
+        "answer": 0,
+        "explanation": "'Stop + V-ing' berarti menghentikan suatu aktivitas atau kebiasaan sepenuhnya ('berhenti minum kopi').",
+        "hints": [
+          "Maknanya menghentikan kebiasaan minum kopi sore.",
+          "Menghentikan suatu aksi memakai 'stop + V-ing'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "I am really looking forward to ___ your team in person at the Jakarta expo.",
+        "options": [
+          "meeting",
+          "meet",
+          "met"
+        ],
+        "answer": 0,
+        "explanation": "Dalam frasa idiomatik 'look forward to', kata 'to' adalah PREPOSISI (bukan bagian dari to-infinitive), sehingga WAJIB diikuti gerund ('meeting').",
+        "hints": [
+          "Uji dengan mengganti kata kerja menjadi noun: 'looking forward to the expo'.",
+          "Karena 'to' di sini preposisi, ikuti dengan '-ing'."
+        ],
+        "skill": "gerund-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Your bicycle chain sounds squeaky; it clearly needs ___.",
+        "options": [
+          "oiling",
+          "to oil",
+          "be oil"
+        ],
+        "answer": 0,
+        "explanation": "Setelah kata kerja 'need', 'require', atau 'want' dengan subjek benda mati, bentuk V-ing ('needs oiling') memiliki makna PASIF ('perlu diminyaki', setara 'needs to be oiled').",
+        "hints": [
+          "Rantai sepeda tidak meminyaki dirinya sendiri.",
+          "'Need + V-ing' pada benda bermakna pasif."
+        ],
+        "skill": "gerund-passive-need"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyambung 'used to' (terbiasa) dengan infinitive berikut.",
+        "draft": "It took two months, but now our night crew is used to work the automated shift.",
+        "options": [
+          "It took two months, but now our night crew is used to working the automated shift.",
+          "It took two months, but now our night crew used to working the automated shift.",
+          "It took two months, but now our night crew is used to worked the automated shift."
+        ],
+        "answer": 0,
+        "explanation": "Konstruksi 'be used to' (= terbiasa) memakai 'to' sebagai preposisi, sehingga wajib diikuti gerund ('is used to working').",
+        "hints": [
+          "Lihat adanya 'is' di depan 'used to'.",
+          "'Be used to + V-ing' berarti sudah terbiasa."
+        ],
+        "skill": "gerund-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Remember ___ the confirmation code before you close the browser tab!",
+        "options": [
+          "to copy",
+          "copying",
+          "copied"
+        ],
+        "answer": 0,
+        "explanation": "'Remember + to V1' bermakna jangan lupa melakukan tugas yang akan datang; berbeda dengan 'remember + V-ing' (mengingat kejadian lampau).",
+        "hints": [
+          "Aksi menyalin kode belum dilakukan dan menjadi pengingat.",
+          "Tugas pengingat ke depan memakai 'remember + to V1'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "We tried ___ the modem by unplugging the power cable for thirty seconds, and it worked!",
+        "options": [
+          "resetting",
+          "to resetting",
+          "reset"
+        ],
+        "answer": 0,
+        "explanation": "'Try + V-ing' berarti bereksperimen/mencoba suatu metode solusi untuk melihat apakah berhasil; sedangkan 'try + to V1' berarti berusaha keras melakukan hal yang sulit.",
+        "hints": [
+          "Mereka mencoba satu cara eksperimen troubleshooting.",
+          "Mencoba suatu metode solusi memakai 'try + V-ing'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai ungkapan idiomatik 'It's no use + gerund'.",
+        "targetSentence": "It's no use arguing about yesterday's shipping mistake now.",
+        "explanation": "Ungkapan tetap 'It's no use + V-ing' berarti 'percuma/tidak ada gunanya melakukan...'.",
+        "hints": [
+          "Awali dengan 'It's no use arguing'.",
+          "Tambahkan objek dan keterangan waktu."
+        ],
+        "skill": "gerund-idiomatic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata benda + 'need + V-ing' bermakna pasif.",
+        "targetSentence": "Several cracked office windows urgently need replacing before the monsoon.",
+        "explanation": "Subjek benda ('windows') + 'need replacing' (= need to be replaced).",
+        "hints": [
+          "Mulai dengan 'Several cracked office windows urgently'.",
+          "Pasangkan 'need replacing' sebelum keterangan waktu."
+        ],
+        "skill": "gerund-passive-need"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan working."
         ],
         "skill": "gerund-after-prepositions"
+      },
+      {
+        "type": "choice",
+        "prompt": "She strongly objected to ___ excluded from the final budget consultation.",
+        "options": [
+          "being",
+          "be",
+          "having"
+        ],
+        "answer": 0,
+        "explanation": "'Object to' memakai preposisi 'to' dan maknanya pasif ('dikeluarkan/disisihkan'), sehingga membutuhkan Passive Gerund: 'being + V3 (being excluded)'.",
+        "hints": [
+          "Setelah preposisi 'to' pada 'object to' harus memakai bentuk '-ing'.",
+          "Maknanya pasif ('dikeluarkan'), jadi pakai 'being excluded'."
+        ],
+        "skill": "gerund-after-prepositions"
+      },
+      {
+        "type": "choice",
+        "prompt": "The chief auditor praised ___ flagging the duplicate invoice before payment cleared.",
+        "options": [
+          "his",
+          "him to",
+          "he"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ragam tulis formal dan tes tata bahasa presisi, subjek pelaku di depan gerund ('flagging...') memakai Possessive Determiner ('his flagging' / 'Riko's flagging').",
+        "hints": [
+          "Perhatikan gerund 'flagging' sebagai objek dari verb 'praised'.",
+          "Gaya baku formal memakai possessive ('his') sebelum gerund."
+        ],
+        "skill": "gerund-possessive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk Perfect Gerund pada kalimat pengakuan lampau berikut.",
+        "draft": "The witness admitted to have seen the delivery van leave the alley at midnight.",
+        "options": [
+          "The witness admitted having seen the delivery van leave the alley at midnight.",
+          "The witness admitted to had seen the delivery van leave the alley at midnight.",
+          "The witness admitted having saw the delivery van leave the alley at midnight."
+        ],
+        "answer": 0,
+        "explanation": "'Admit (to)' dalam makna mengakui sesuatu di masa lalu diikuti gerund atau perfect gerund 'having seen' (atau 'to having seen'), BUKAN to-infinitive 'to have seen'.",
+        "hints": [
+          "Verb 'admit' diikuti gerund (-ing), bukan 'to have V3'.",
+          "Untuk aksi lebih lampau, gunakan Perfect Gerund 'having seen'."
+        ],
+        "skill": "gerund-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang nuansa 'regret + to V1' vs 'regret + V-ing'.",
+        "dialogue": [
+          [
+            "Dean",
+            "How should I open a formal scholarship rejection letter?"
+          ],
+          [
+            "Advisor",
+            "Use the polite formula: 'We regret ___ you that your application was unsuccessful.'"
+          ]
+        ],
+        "options": [
+          "to inform",
+          "informing",
+          "having informed"
+        ],
+        "answer": 0,
+        "explanation": "'Regret + to inform / to say / to announce' adalah rumus resmi untuk menyampaikan kabar kurang menyenangkan saat ini ('dengan berat hati kami sampaikan...').",
+        "hints": [
+          "Menyampaikan kabar buruk dalam surat resmi memakai 'regret + to V1'.",
+          "Pilih 'to inform'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "He seems ___ his quarterly targets effortlessly, judging by today's dashboard.",
+        "options": [
+          "to have exceeded",
+          "to exceeding",
+          "exceeding"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'seem', ketika merujuk pada pencapaian yang telah terjadi SEBELUM sekarang, gunakan Perfect Infinitive: 'seems to have + V3 (to have exceeded)'.",
+        "hints": [
+          "Menunjukkan hasil lampau yang tampak kesannya sekarang.",
+          "Gunakan 'to have + V3'."
+        ],
+        "skill": "infinitive-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spending three hours formatting footnotes is not worth ___ if the journal accepts plain Markdown.",
+        "options": [
+          "doing",
+          "to do",
+          "to be done"
+        ],
+        "answer": 0,
+        "explanation": "Adjective idiomatik 'worth' WAJIB diikuti gerund aktif ('worth doing', 'worth reading'), TIDAK PERNAH 'worth to do' atau 'worth to be done'.",
+        "hints": [
+          "'Be worth' selalu berpasangan dengan V-ing aktif.",
+          "Jangan memakai 'to do' setelah 'worth'."
+        ],
+        "skill": "gerund-idiomatic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan 'mean' dalam dua konteks berbeda berikut.",
+        "draft": "Hiring another senior developer will mean to increase our monthly payroll significantly.",
+        "options": [
+          "Hiring another senior developer will mean increasing our monthly payroll significantly.",
+          "Hiring another senior developer will mean increase our monthly payroll significantly.",
+          "To hire another senior developer will mean to increasing our monthly payroll significantly."
+        ],
+        "answer": 0,
+        "explanation": "'Mean + V-ing' bermakna 'berarti / berkonsekuensi mengakibatkan...', sedangkan 'mean + to V1' bermakna 'berniat'. Dalam konteks akibat keuangan di sini, wajib memakai gerund 'mean increasing'.",
+        "hints": [
+          "Apakah mempekerjakan pengembang 'berniat' atau 'berkonsekuensi menyebabkan' kenaikan gaji?",
+          "Makna konsekuensi memakai 'mean + V-ing'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the meaning shift in 'I meant ___ you earlier, but my battery died' (unfulfilled intention).",
+        "options": [
+          "to call",
+          "calling",
+          "having call"
+        ],
+        "answer": 0,
+        "explanation": "Sebaliknya, ketika 'mean' menyatakan NIAT yang hendak dilakukan ('berniat meneleponmu tadi'), gunakan to-infinitive: 'meant to call'.",
+        "hints": [
+          "Konteksnya niat yang gagal terlaksana karena baterai habis.",
+          "Niat memakai 'mean + to V1'."
+        ],
+        "skill": "gerund-infinitive-meaning-change"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai Perfect Gerund sebagai penekanan aksi terdahulu.",
+        "targetSentence": "She took pride in having mentored twelve junior analysts to promotion.",
+        "explanation": "Setelah preposisi 'in', Perfect Gerund 'having mentored' menekankan pencapaian lampau yang sudah tuntas.",
+        "hints": [
+          "Awali dengan 'She took pride in'.",
+          "Gunakan Perfect Gerund 'having mentored'."
+        ],
+        "skill": "gerund-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan kata sifat 'busy' atau 'difficulty' + gerund (tanpa preposisi 'in').",
+        "targetSentence": "Our onboarding team had difficulty verifying several blurry passport scans.",
+        "explanation": "Pola baku 'have difficulty / trouble + V-ing' tidak memerlukan 'to' dan memakai gerund 'verifying'.",
+        "hints": [
+          "Mulai dengan 'Our onboarding team had difficulty'.",
+          "Tambahkan gerund 'verifying' dan objeknya."
+        ],
+        "skill": "gerund-idiomatic"
       }
     ]
   }

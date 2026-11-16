@@ -99,6 +99,167 @@
           "Lanjutkan dengan 'about the surprise party'."
         ],
         "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "choice",
+        "prompt": "The reception desk is completely dark — everyone ___ gone home already.",
+        "options": [
+          "must have",
+          "must had",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "Kesimpulan logis yang sangat yakin mengenai peristiwa masa lalu memakai Modal Perfect: 'must have + V3 (gone)'.",
+        "hints": [
+          "Lihat V3 'gone' di belakang rumpang.",
+          "Deduksi kuat masa lalu memakai 'must have'."
+        ],
+        "skill": "modal-perfect-deduction-must"
+      },
+      {
+        "type": "choice",
+        "prompt": "That email ___ come from our IT director; she never writes without a signature block.",
+        "options": [
+          "can't have",
+          "mustn't have",
+          "shouldn't"
+        ],
+        "answer": 0,
+        "explanation": "Ketidakmungkinan logis tentang kejadian di masa lalu memakai 'can't have + V3' atau 'couldn't have + V3' (BUKAN 'mustn't have').",
+        "hints": [
+          "Email tersebut mustahil berasal darinya.",
+          "Ketidakmungkinan lampau memakai 'can't/couldn't have'."
+        ],
+        "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "choice",
+        "prompt": "You ___ checked the passport expiration date before booking the non-refundable ticket.",
+        "options": [
+          "should have",
+          "must have",
+          "would"
+        ],
+        "answer": 0,
+        "explanation": "Saran penyesalan atau kritik atas kelalaian di masa lalu memakai 'should have + V3' ('seharusnya dulu kamu mengecek...').",
+        "hints": [
+          "Menyatakan penyesalan/kritik bahwa hal itu seharusnya dilakukan.",
+          "Pakai 'should have + V3'."
+        ],
+        "skill": "modal-perfect-regret-should"
+      },
+      {
+        "type": "choice",
+        "prompt": "I don't see Riko's backpack anywhere; he ___ left for the studio early.",
+        "options": [
+          "might have",
+          "can't have",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "Spekulasi/kemungkinan masa lalu yang belum pasti (~50%) memakai 'might have', 'may have', atau 'could have + V3'.",
+        "hints": [
+          "Pembicara masih menebak kemungkinan.",
+          "Kemungkinan masa lalu memakai 'might have'."
+        ],
+        "skill": "modal-perfect-possibility"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penyesalan atau kesalahan yang terlanjur dilakukan.",
+        "dialogue": [
+          [
+            "Supervisor",
+            "Why did the backup file overwrite yesterday's sales ledger?"
+          ],
+          [
+            "Intern",
+            "I'm sorry — I ___ clicked 'Replace' instead of 'Save As'."
+          ]
+        ],
+        "options": [
+          "shouldn't have",
+          "needn't",
+          "can't have"
+        ],
+        "answer": 0,
+        "explanation": "Mengakui tindakan masa lalu yang seharusnya TIDAK dilakukan memakai 'shouldn't have + V3'.",
+        "hints": [
+          "Dia terlanjur mengklik 'Replace' padahal itu keliru.",
+          "Larangan/penyesalan masa lalu: 'shouldn't have + V3'."
+        ],
+        "skill": "modal-perfect-regret-should"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ have missed the turnoff; none of these street signs match our map.",
+        "options": [
+          "must",
+          "can't",
+          "shouldn't"
+        ],
+        "answer": 0,
+        "explanation": "Kesimpulan pasti atas kesalahan arah berdasarkan bukti di sekitar ('none of these street signs match') memakai 'must have + V3'.",
+        "hints": [
+          "Bukti rambu jalan memastikan mereka memang salah belok.",
+          "Deduksi pasti positif memakai 'must have'."
+        ],
+        "skill": "modal-perfect-deduction-must"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan mengganti 'have' dengan 'of' pada konstruksi Modal Perfect berikut.",
+        "draft": "Our courier should of verified the apartment number before leaving the crate downstairs.",
+        "options": [
+          "Our courier should have verified the apartment number before leaving the crate downstairs.",
+          "Our courier should has verified the apartment number before leaving the crate downstairs.",
+          "Our courier should had verified the apartment number before leaving the crate downstairs."
+        ],
+        "answer": 0,
+        "explanation": "'Should of' adalah kesalahan ejaan dari pelafalan cepat 'should've'; bentuk tulisan baku wajib memakai 'should have + V3'.",
+        "hints": [
+          "Jangan pernah menulis 'should of' atau 'would of'.",
+          "Gunakan auxiliary 'have' setelah modal."
+        ],
+        "skill": "modal-perfect-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ brought extra umbrellas because it didn't rain at all, though it was thoughtful of them.",
+        "options": [
+          "needn't have",
+          "didn't need",
+          "mustn't have"
+        ],
+        "answer": 0,
+        "explanation": "'Needn't have + V3' berarti tindakan itu terlanjur dilakukan meskipun belakangan ternyata tidak perlu.",
+        "hints": [
+          "Mereka sudah terlanjur membawa payung padahal tidak hujan.",
+          "Gunakan 'needn't have + V3'."
+        ],
+        "skill": "neednt-have-vs-didnt-need-to"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat deduksi mustahil masa lalu memakai 'couldn't have'.",
+        "targetSentence": "A novice hacker couldn't have bypassed our encrypted firewall alone.",
+        "explanation": "'Couldn't have + V3 (bypassed)' menyatakan ketidakmungkinan mutlak di masa lalu.",
+        "hints": [
+          "Awali dengan 'A novice hacker couldn't have bypassed'.",
+          "Tambahkan objek dan kata 'alone'."
+        ],
+        "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penyesalan kritik masa lalu memakai 'should have'.",
+        "targetSentence": "The contractor should have tested the drainage slope before pouring concrete.",
+        "explanation": "Subject + should have + V3 ('tested') + objek + klausa waktu.",
+        "hints": [
+          "Mulai dengan 'The contractor should have tested'.",
+          "Akhiri dengan 'before pouring concrete'."
+        ],
+        "skill": "modal-perfect-regret-should"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'ought to have seen'."
         ],
         "skill": "modal-perfect-ought-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare carefully: 'We didn't buy bottled water because the hotel provided glass carafes' → 'We ___ buy bottled water' vs 'I bought three boxes unnecessarily' → 'I ___ bought three boxes.'",
+        "options": [
+          "didn't need to / needn't have",
+          "needn't have / didn't need to",
+          "mustn't / shouldn't"
+        ],
+        "answer": 0,
+        "explanation": "'Didn't need to + V1' berarti tidak perlu dan memang TIDAK dilakukan; 'needn't have + V3' berarti tidak perlu tetapi SUDAH TERLANJUR dilakukan.",
+        "hints": [
+          "Aksi 1 memang batal dibeli ('didn't buy'); aksi 2 terlanjur dibeli.",
+          "Cocokkan V1 ('didn't need to buy') vs V3 ('needn't have bought')."
+        ],
+        "skill": "neednt-have-vs-didnt-need-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ have sent you the full report earlier, but my laptop refused to connect to hotel Wi-Fi.",
+        "options": [
+          "would",
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explanation": "'Would have + V3' (tanpa if-clause eksplisit, diikuti 'but...') menyatakan keinginan/kesediaan di masa lalu yang terhalang kendala nyata.",
+        "hints": [
+          "Keinginan/kesediaan yang terhalang kendala di masa lalu.",
+          "Gunakan 'would have + V3'."
+        ],
+        "skill": "modal-perfect-unfulfilled-desire"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan mengenai perbedaan 'must have' (deduksi) vs 'had to' (kewajiban).",
+        "dialogue": [
+          [
+            "HR",
+            "Why didn't Marco join Friday's team dinner?"
+          ],
+          [
+            "Colleague",
+            "He told me he ___ catch an emergency night flight to Medan for a client issue."
+          ]
+        ],
+        "options": [
+          "had to",
+          "must have",
+          "should have"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menyatakan KEWAJIBAN/KEHARUSAN nyata di masa lalu ('terpaksa mengejar penerbangan'), gunakan 'had to + V1', BUKAN 'must have + V3' (yang berfungsi untuk tebakan/deduksi).",
+        "hints": [
+          "Konteksnya fakta kewajiban yang diceritakan langsung ('He told me...'), bukan tebakan.",
+          "Lampau dari 'must' (kewajiban) adalah 'had to'."
+        ],
+        "skill": "must-have-vs-had-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the degrees of certainty: which modal perfect expresses the WEAKEST level of speculation (~20-40%) about what happened?",
+        "options": [
+          "The cable might have loosened during transit.",
+          "The cable must have loosened during transit.",
+          "The cable can't have loosened during transit."
+        ],
+        "answer": 0,
+        "explanation": "'Might have' / 'may have' / 'could have' menyatakan kemungkinan terbuka (<50%), jauh lebih lemah tingkat kepastiannya dibanding deduksi kuat 'must have' (~95%) atau mustahil 'can't have' (~0%).",
+        "hints": [
+          "Bedakan spekulasi ragu-ragu ('might') vs kepastian logis ('must' / 'can't').",
+          "Pilih 'might have'."
+        ],
+        "skill": "modal-perfect-degrees-probability"
+      },
+      {
+        "type": "choice",
+        "prompt": "The vendor ___ have informed customs about the lithium batteries beforehand; neglecting that rule caused the hold.",
+        "options": [
+          "ought to",
+          "can't",
+          "needn't"
+        ],
+        "answer": 0,
+        "explanation": "'Ought to have + V3' sama maknanya dengan 'should have + V3' untuk menyatakan kewajiban moral/profesional yang terlewat di masa lalu.",
+        "hints": [
+          "Perhatikan 'have informed' dan akibat buruk kelalaian.",
+          "Padanan 'should have' yang memakai 'to' adalah 'ought to have'."
+        ],
+        "skill": "modal-perfect-ought-to"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyatukan 'mustn't have' untuk deduksi negatif masa lalu berikut.",
+        "draft": "Given her strict safety training, Elena mustn't have unplugged the main server rack deliberately.",
+        "options": [
+          "Given her strict safety training, Elena couldn't have unplugged the main server rack deliberately.",
+          "Given her strict safety training, Elena mustn't unplugged the main server rack deliberately.",
+          "Given her strict safety training, Elena didn't must have unplugged the main server rack deliberately."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris standar, 'mustn't have' TIDAK digunakan untuk menyimpulkan ketidakmungkinan logis di masa lalu; gunakan 'can't have' atau 'couldn't have'.",
+        "hints": [
+          "Ganti 'mustn't have' yang keliru menjadi deduksi mustahil 'couldn't have' / 'can't have'.",
+          "Pastikan V3 'unplugged' tetap utuh."
+        ],
+        "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice counterfactual risk: 'Slow down on wet curves — you ___ have skidded straight into that barrier!'",
+        "options": [
+          "could",
+          "mustn't",
+          "didn't need"
+        ],
+        "answer": 0,
+        "explanation": "'Could have + V3' menyatakan risiko nyata di masa lalu yang berpotensi terjadi andaikan tidak berhati-hati ('tadi kamu bisa saja tergelincir!').",
+        "hints": [
+          "Kecelakaan tidak terjadi, tetapi nyaris terjadi.",
+          "Potensi bahaya lampau yang terhindarkan memakai 'could have + V3'."
+        ],
+        "skill": "modal-perfect-counterfactual"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — our office keys are missing! No one ___ entered without a security pass unless a door was propped open.",
+        "options": [
+          "could have",
+          "must have not",
+          "oughtn't have"
+        ],
+        "answer": 0,
+        "explanation": "Dalam kalimat negatif 'No one...', pasangkan 'could have + V3' (= 'No one could have entered...' = tidak mungkin ada yang bisa masuk).",
+        "hints": [
+          "Subjek sudah bermakna negatif ('No one').",
+          "Pasangkan 'could have' + V3 'entered'."
+        ],
+        "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat keinginan lampau tak terwujud dengan 'would have' + 'but'.",
+        "targetSentence": "I would have joined the maritime field trip, but I caught a fever.",
+        "explanation": "'Would have + V3' menyatakan niat lampau yang urung akibat klausa penghalang 'but...'.",
+        "hints": [
+          "Awali dengan 'I would have joined the maritime field trip,'.",
+          "Akhiri dengan 'but I caught a fever'."
+        ],
+        "skill": "modal-perfect-unfulfilled-desire"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembeda 'didn't need to' (memang tidak dilakukan).",
+        "targetSentence": "We didn't need to print extra brochures because the venue provided QR tablets.",
+        "explanation": "Fakta memang tidak dicetak karena tidak diperlukan memakai 'didn't need to + V1'.",
+        "hints": [
+          "Mulai dengan 'We didn't need to print extra brochures'.",
+          "Tambahkan alasan 'because...'."
+        ],
+        "skill": "neednt-have-vs-didnt-need-to"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'could not possibly have'."
         ],
         "skill": "modal-perfect-deduction-cant"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the Modal Perfect Passive sentence that accurately diagnoses a past failure:",
+        "options": [
+          "Two structural rivets must have been damaged during the offshore loading.",
+          "Two structural rivets must have damaged during the offshore loading.",
+          "Two structural rivets should be damaged during the offshore loading yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Modal Perfect Passive memakai rumus: Modal ('must') + 'have been' + V3 ('damaged'). Tanpa 'been', 'must have damaged' bermakna aktif yang tidak masuk akal bagi paku keling.",
+        "hints": [
+          "Paku keling mengalami kerusakan (pasif), bukan merusak.",
+          "Rumus Modal Perfect Passive: modal + have been + V3."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "How does 'How could you have ignored such an obvious warning light?' function pragmatically compared to a neutral deduction?",
+        "options": [
+          "It expresses shock, disbelief, or strong moral reproach",
+          "It calmly measures statistical probability below 10%",
+          "It describes a routine scheduled action in the future"
+        ],
+        "answer": 0,
+        "explanation": "'How could + Subject + have + V3...?' adalah bentuk retoris khas untuk mengungkapkan rasa tak percaya yang dalam atau teguran keras atas tindakan seseorang di masa lalu.",
+        "hints": [
+          "Nada kalimat 'How could you have...?' bernuansa emosional.",
+          "Fungsinya bukan netral, melainkan ekspresi disbelief/reproach."
+        ],
+        "skill": "modal-perfect-disbelief"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan 'needn't have' vs 'shouldn't have' yang membalik maksud kalimat berikut.",
+        "draft": "Because the confidential spreadsheet leaked online, the analyst needn't have shared that temporary link in a public forum.",
+        "options": [
+          "Because the confidential spreadsheet leaked online, the analyst shouldn't have shared that temporary link in a public forum.",
+          "Because the confidential spreadsheet leaked online, the analyst didn't need to shared that temporary link in a public forum.",
+          "Because the confidential spreadsheet leaked online, the analyst mustn't have shared that temporary link in a public forum."
+        ],
+        "answer": 0,
+        "explanation": "Membagikan tautan rahasia ke forum publik adalah KESALAHAN fatal (seharusnya tidak dilakukan: 'shouldn't have shared'), BUKAN sekadar hal sepele yang mubazir ('needn't have').",
+        "hints": [
+          "Bedakan 'tidak perlu/mubazir' ('needn't have') vs 'salah besar/dilarang' ('shouldn't have').",
+          "Kebocoran data adalah kesalahan serius, pakai 'shouldn't have'."
+        ],
+        "skill": "modal-perfect-regret-should"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan teknis memakai Modal Perfect Continuous Passive / Active.",
+        "dialogue": [
+          [
+            "Inspector",
+            "Why were the bearings overheated when we opened Housing 3?"
+          ],
+          [
+            "Engineer",
+            "Dust particles ___ into the lubricant seal for weeks before the failure."
+          ]
+        ],
+        "options": [
+          "must have been leaking",
+          "must be leak",
+          "can't have been leaked"
+        ],
+        "answer": 0,
+        "explanation": "Menyimpulkan aktivitas proses yang pasti berlangsung terus-menerus ('for weeks') sebelum kegagalan lampau memakai Modal Perfect Continuous: 'must have been + V-ing (leaking)'.",
+        "hints": [
+          "Durasi 'for weeks' sebelum kejadian lampau membutuhkan aspek continuous.",
+          "Rumus: 'must have been + V-ing'."
+        ],
+        "skill": "modal-perfect-deduction-must"
+      },
+      {
+        "type": "choice",
+        "prompt": "Even if the night ferry had departed on schedule, passengers ___ arrived before the storm hit the harbor.",
+        "options": [
+          "still couldn't have",
+          "still hadn't",
+          "would can't"
+        ],
+        "answer": 0,
+        "explanation": "Klausa hasil Third Conditional untuk ketidakmampuan atau kemustahilan lampau memakai 'couldn't have + V3' (bukan 'would can't').",
+        "hints": [
+          "Bentuk modal sempurna negatif dari 'can' adalah 'couldn't have'.",
+          "Letakkan 'still' sebelum 'couldn't have'."
+        ],
+        "skill": "modal-perfect-counterfactual"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice this nuance: 'He ___ finished early — wait, his coat is still on the chair, so he ___ left the building yet!'",
+        "options": [
+          "may have / can't have",
+          "must have / must have",
+          "can't have / should have"
+        ],
+        "answer": 0,
+        "explanation": "Klausa pertama berspekulasi lembut ('may have finished early'), lalu penemuan bukti fisik jaketnya membuat pembicara langsung memastikan ia belum pergi ('can't have left yet').",
+        "hints": [
+          "Jaket masih di kursi berarti mustahil dia sudah meninggalkan gedung ('can't have').",
+          "Kesesuaian makna kedua sisi."
+        ],
+        "skill": "modal-perfect-degrees-probability"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan 'had' setelah 'ought to' pada kritik kebijakan berikut.",
+        "draft": "The municipal transit authority ought to had upgraded those aging signal relays last summer.",
+        "options": [
+          "The municipal transit authority ought to have upgraded those aging signal relays last summer.",
+          "The municipal transit authority ought had upgraded those aging signal relays last summer.",
+          "The municipal transit authority ought to upgrading those aging signal relays last summer."
+        ],
+        "answer": 0,
+        "explanation": "Setelah semi-modal 'ought to', auxiliary untuk bentuk lampau sempurna tetap selalu 'have' ('ought to have upgraded'), tidak pernah 'had'.",
+        "hints": [
+          "'Ought to' tidak pernah diikuti 'had'.",
+          "Ganti 'had' menjadi 'have'."
+        ],
+        "skill": "modal-perfect-ought-to"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rare archival footage ___ been lost forever had the volunteer team not digitized the reels in 2018.",
+        "options": [
+          "would have",
+          "will have",
+          "could had"
+        ],
+        "answer": 0,
+        "explanation": "Klausa kedua ('had the volunteer team not digitized...') adalah inversi Third Conditional; oleh sebab itu klausa hasilnya memakai 'would have + V3 (would have been lost)'.",
+        "hints": [
+          "Perhatikan inversi Third Conditional di bagian belakang kalimat.",
+          "Pasangkan hasil Modal Perfect Passive 'would have been lost'."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Modal Perfect Passive untuk kritik prosedur yang terlewat.",
+        "targetSentence": "Those expired fire extinguishers ought to have been replaced before last month's audit.",
+        "explanation": "Modal Perfect Passive: ought to + have been + V3 ('replaced').",
+        "hints": [
+          "Awali dengan 'Those expired fire extinguishers ought to have been'.",
+          "Lengkapi V3 'replaced' dan keterangan waktu."
+        ],
+        "skill": "modal-perfect-passive"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ungkapan keterkejutan dengan 'How could... have'.",
+        "targetSentence": "How could the shipping clerk have misread such bold hazardous-cargo labels?",
+        "explanation": "'How could + S + have + V3' menyuarakan rasa tidak percaya yang kuat atas keteledoran lampau.",
+        "hints": [
+          "Mulai dengan 'How could the shipping clerk have misread'.",
+          "Tambahkan objek 'such bold hazardous-cargo labels?'."
+        ],
+        "skill": "modal-perfect-disbelief"
       }
     ]
   }

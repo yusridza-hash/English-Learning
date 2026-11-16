@@ -99,6 +99,167 @@
           "Elipsis penegasan: 'and indeed he did'."
         ],
         "skill": "predicate-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "I couldn't attend Thursday's budget workshop, though my deputy ___, and she shared full notes.",
+        "options": [
+          "did",
+          "was",
+          "has so"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menghindari pengulangan verb Past Simple 'attended Thursday's budget workshop', gunakan operator pengganti auxiliary lampau 'did' (predicate ellipsis).",
+        "hints": [
+          "Verb utama di klausa pertama adalah Past Simple 'attend'.",
+          "Ganti pengulangan aksi lampau dengan 'did'."
+        ],
+        "skill": "predicate-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "These stainless steel thermoses keep coffee warm longer than those plastic ___.",
+        "options": [
+          "ones",
+          "one",
+          "those"
+        ],
+        "answer": 0,
+        "explanation": "Nominal substitution untuk kata benda terhitung jamak ('plastic thermoses') menggunakan pronoun jamak 'ones'.",
+        "hints": [
+          "Kata benda yang digantikan adalah jamak ('thermoses').",
+          "Nominal substitution jamak memakai 'ones'."
+        ],
+        "skill": "nominal-substitution-one"
+      },
+      {
+        "type": "choice",
+        "prompt": "Will the customs inspector approve our revised manifest today? — I certainly hope ___.",
+        "options": [
+          "so",
+          "it",
+          "that yes"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menggantikan seluruh klausa 'that'-clause setelah verb pikiran/harapan ('hope', 'think', 'believe', 'expect'), gunakan clausal substitution 'so' ('I hope so').",
+        "hints": [
+          "Setelah 'hope/think/believe', pengganti klausa positif adalah 'so'.",
+          "Jangan memakai 'I hope it'."
+        ],
+        "skill": "clausal-substitution-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Will our supplier raise component prices next month? — No, I expect ___.",
+        "options": [
+          "not",
+          "don't",
+          "no"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menggantikan klausa negatif setelah verb seperti 'expect', 'hope', atau 'believe', gunakan 'not' ('I expect not' / 'I hope not').",
+        "hints": [
+          "Setelah 'hope' dan 'expect', pengganti klausa negatif memakai 'not'.",
+          "Jangan pernah berkata 'I hope no'."
+        ],
+        "skill": "clausal-substitution-not"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kantor menggunakan substitusi kata kerja 'do so'.",
+        "dialogue": [
+          [
+            "Manager",
+            "Could you archive last year's client folders before Friday?"
+          ],
+          [
+            "Intern",
+            "Sure — I will ___ as soon as the scanner finishes booting."
+          ]
+        ],
+        "options": [
+          "do so",
+          "make so",
+          "do it ones"
+        ],
+        "answer": 0,
+        "explanation": "'Do so' adalah pengganti baku dan formal bagi seluruh frasa kata kerja aksi dan objeknya ('archive last year's client folders').",
+        "hints": [
+          "Menggantikan verb aksi + objek secara formal.",
+          "Gunakan 'do so'."
+        ],
+        "skill": "substitution-do-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "I would love to join the Kyoto seminar next spring, yet my schedule doesn't allow me ___.",
+        "options": [
+          "to",
+          "to do",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Infinitival ellipsis membuang kata kerja yang sudah disebut di depan ('join the Kyoto seminar') dan cukup menyisakan partikel 'to' di akhir ('doesn't allow me to').",
+        "hints": [
+          "Kata kerja 'join' sudah ada di klausa pertama.",
+          "Cukup sisakan 'to' di akhir (TO-infinitive ellipsis)."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan memakai 'one' untuk menggantikan kata benda tak terhitung (uncountable) berikut.",
+        "draft": "We ran out of dark roast espresso, so the barista brewed fresh light roast one.",
+        "options": [
+          "We ran out of dark roast espresso, so the barista brewed fresh light roast coffee.",
+          "We ran out of dark roast espresso, so the barista brewed fresh light roast ones.",
+          "We ran out of dark roast espresso, so the barista brewed a fresh light roast ones."
+        ],
+        "answer": 0,
+        "explanation": "Nominal substitution 'one/ones' HANYA boleh menggantikan countable noun; untuk uncountable noun seperti 'espresso/coffee/milk/advice', ulangi noun-nya atau akhiri langsung dengan modifier/kata benda tepat ('light roast coffee').",
+        "hints": [
+          "'Espresso/coffee' adalah uncountable noun.",
+          "Uncountable noun tidak pernah boleh diganti dengan 'one/ones'."
+        ],
+        "skill": "nominal-substitution-one"
+      },
+      {
+        "type": "choice",
+        "prompt": "Maya submitted her travel receipts on Monday, and Riko ___ on Tuesday.",
+        "options": [
+          "did",
+          "submitted so",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Klausa paralel dapat memangkas pengulangan 'submitted his travel receipts' cukup menjadi 'did' di depan keterangan waktu baru.",
+        "hints": [
+          "Aksi paralel lampau ('submitted') diganti oleh auxiliary 'did'.",
+          "Pilih 'did'."
+        ],
+        "skill": "predicate-ellipsis"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai conditional ellipsis singkat 'If so'.",
+        "targetSentence": "Do you need overnight courier delivery? If so, select priority dispatch at checkout.",
+        "explanation": "'If so' menggantikan seluruh klausa tanya sebelumnya ('If you need overnight courier delivery').",
+        "hints": [
+          "Awali dengan pertanyaan 'Do you need overnight courier delivery?'.",
+          "Lanjutkan dengan 'If so, select priority dispatch at checkout'."
+        ],
+        "skill": "conditional-ellipsis-if-so"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai gapping ellipsis dalam dua klausa sejajar.",
+        "targetSentence": "Our Jakarta branch coordinates maritime freight, and our Surabaya office inland rail.",
+        "explanation": "'Coordinates' pada klausa kedua dihapus (gapped) setelah koma karena identik dengan klausa pertama.",
+        "hints": [
+          "Mulai dengan 'Our Jakarta branch coordinates maritime freight,'.",
+          "Akhiri dengan 'and our Surabaya office inland rail'."
+        ],
+        "skill": "gapping-ellipsis"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'to do so'."
         ],
         "skill": "substitution-do-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — why is 'do so' INCORRECT in 'I completely know the new tax code, and my partner does so too'?",
+        "options": [
+          "'Know' is a stative verb; 'do so' replaces active/dynamic actions, so use 'does' alone",
+          "'Do so' cannot follow 'my partner'",
+          "'Too' prohibits clausal substitution"
+        ],
+        "answer": 0,
+        "explanation": "'Do so' hanya menggantikan DYNAMIC/ACTION verb (tindakan disengaja); untuk stative verb seperti 'know', 'own', 'believe', atau 'resemble', gunakan auxiliary biasa tanpa 'so' ('and my partner does too').",
+        "hints": [
+          "Periksa sifat kata kerja 'know' (stative vs action).",
+          "'Do so' ditolak oleh stative verbs."
+        ],
+        "skill": "substitution-restrictions-stative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence using 'the former ... the latter' accurately for TWO previously named items:",
+        "options": [
+          "We tested ceramic and polymer filters; the former resisted heat longer, whereas the latter cost less.",
+          "We tested ceramic, steel, and polymer filters; the former cost less and the latter broke.",
+          "We tested ceramic and polymer filters; the former is plural and the latter are one."
+        ],
+        "answer": 0,
+        "explanation": "'The former' (yang pertama disebut) dan 'the latter' (yang kedua/terakhir disebut) hanya presisi jika tepat ADA DUA item yang diperbandingkan sebelumnya.",
+        "hints": [
+          "Hanya berlaku jelas untuk tepat dua pilihan ('ceramic and polymer filters').",
+          "Untuk tiga item atau lebih, hindari 'the former'."
+        ],
+        "skill": "former-latter-substitution"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penekanan kondisional negatif 'If not'.",
+        "dialogue": [
+          [
+            "Director",
+            "Will the customs broker clear our cold-storage crate by four today?"
+          ],
+          [
+            "Coordinator",
+            "___, we will need to transfer the vaccines to a standby refrigerated truck."
+          ]
+        ],
+        "options": [
+          "If not",
+          "If so not",
+          "Unless so"
+        ],
+        "answer": 0,
+        "explanation": "'If not' secara ringkas menggantikan klausa negatif ('If the customs broker does not clear the crate by four today').",
+        "hints": [
+          "Skenario lanjutan terjadi apabila broker GAGAL menyelesaikan tepat waktu.",
+          "Gunakan kondisional eliptis negatif 'If not'."
+        ],
+        "skill": "conditional-ellipsis-if-not"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how negation works with 'think' vs 'hope': 'Do you expect the rain to stop before noon?' — Which negative clausal reply is MORE idiomatic in natural English?",
+        "options": [
+          "I don't think so. / I hope not.",
+          "I don't hope so. / I think no.",
+          "I not think so. / I hopeless."
+        ],
+        "answer": 0,
+        "explanation": "Dalam bahasa Inggris idiomatik, 'think / suppose / believe' memilih negasi di verb utama ('I don't think so'), sedangkan 'hope / be afraid' WAJIB meletakkan negasi di belakang sebagai 'not' ('I hope not', TIDAK pernah 'I don't hope so'!).",
+        "hints": [
+          "Aturan penting: katakan 'I hope not', JANGAN katakan 'I don't hope so'.",
+          "Untuk 'think', lazim memakai 'I don't think so'."
+        ],
+        "skill": "clausal-substitution-not"
+      },
+      {
+        "type": "choice",
+        "prompt": "We compared these two prototype motors closely; one uses copper windings, while ___ relies on aluminum.",
+        "options": [
+          "the other",
+          "another ones",
+          "others"
+        ],
+        "answer": 0,
+        "explanation": "Dari dua hal spesifik ('these two prototype motors'), setelah menyebut 'one', item kedua yang tersisa dan spesifik memakai 'the other'.",
+        "hints": [
+          "Hanya ada dua motor ('one' vs satu sisanya).",
+          "Item kedua dari dua benda pasti memakai 'the other'."
+        ],
+        "skill": "nominal-substitution-others"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menghilangkan kata kerja 'be' setelah partikel 'to' pada infinitival ellipsis berikut.",
+        "draft": "Maya used to be timid during board presentations, though she no longer appears to.",
+        "options": [
+          "Maya used to be timid during board presentations, though she no longer appears to be.",
+          "Maya used to be timid during board presentations, though she no longer appears.",
+          "Maya used to timid during board presentations, though she no longer appears to."
+        ],
+        "answer": 0,
+        "explanation": "ATURAN PENTING ELLIPSIS: Apabila bagian yang dihapus memuat kata kerja 'be' (seperti 'be timid'), 'to' tidak boleh berdiri sendirian; wajib pertahankan 'be' di akhir ('appears to be')!",
+        "hints": [
+          "Di klausa pertama ada linking verb 'be' ('used to be timid').",
+          "Pada elipsis setelah 'to', wajib sertakan 'be' ('to be')."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at Pseudogapping (preserving a contrasting object after auxiliary): 'She reviews financial contracts much faster than she ___ technical manuals.'",
+        "options": [
+          "does",
+          "is",
+          "has so"
+        ],
+        "answer": 0,
+        "explanation": "Pseudogapping menggantikan verb utama 'reviews' dengan auxiliary Present Simple 'does' sambil tetap menyisakan objek pembanding yang berbeda ('technical manuals').",
+        "hints": [
+          "Kata kerja di depan adalah Present Simple 'reviews'.",
+          "Auxiliary pengganti tunggal adalah 'does'."
+        ],
+        "skill": "pseudogapping"
+      },
+      {
+        "type": "choice",
+        "prompt": "All regional supervisors attended the Friday compliance drill, except those ___ at offshore rigs.",
+        "options": [
+          "stationed",
+          "ones stationed",
+          "so stationed"
+        ],
+        "answer": 0,
+        "explanation": "Demonstratif jamak 'those' dapat berfungsi langsung sebagai kata ganti pengganti kelompok orang bila diikuti modifier partisipel pasif ('those stationed at offshore rigs'), tanpa menambahkan 'ones'.",
+        "hints": [
+          "'Those' sudah berfungsi sebagai kata ganti penunjuk orang.",
+          "Jangan menambahkan 'ones' setelah 'those'."
+        ],
+        "skill": "nominal-substitution-others"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai 'the former ... the latter' untuk dua kebijakan.",
+        "targetSentence": "Cities weigh tram lines against bus lanes; the former offer higher capacity, while the latter cost less upfront.",
+        "explanation": "'The former' merujuk ke 'tram lines'; 'the latter' merujuk ke 'bus lanes'.",
+        "hints": [
+          "Awali dengan 'Cities weigh tram lines against bus lanes;'.",
+          "Jelaskan keduanya dengan 'the former' dan 'the latter'."
+        ],
+        "skill": "former-latter-substitution"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat elipsis bersyarat positif memakai 'If so'.",
+        "targetSentence": "Please check whether your passport expires within six months; if so, renew it before booking.",
+        "explanation": "'If so' merujuk kembali pada kondisi 'if your passport expires within six months'.",
+        "hints": [
+          "Mulai dengan kalimat perintah pengecekan paspor.",
+          "Sambungkan dengan '; if so, renew it before booking'."
+        ],
+        "skill": "conditional-ellipsis-if-so"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'does so'."
         ],
         "skill": "substitution-do-so"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare Halliday and Hasan's taxonomy of cohesion: 'I ordered a green binder, but the clerk packed a blue ONE' uses ___ (replacing a noun form), whereas 'Maya arrived late, and SHE apologized' uses ___ (pointing back to the exact entity).",
+        "options": [
+          "substitution / reference",
+          "reference / substitution",
+          "gapping / cataphora"
+        ],
+        "answer": 0,
+        "explanation": "Dalam teori kohesi Halliday & Hasan: REFERENCE ('She') merujuk ke identitas/orang yang SAMA PERSIS dengan sebelumnya; SUBSTITUTION ('one', 'do so', 'so') menyalin KELAS KATA yang sama tetapi merujuk pada benda/contoh BARU ('green binder' ≠ 'blue one'!).",
+        "hints": [
+          "'A green binder' dan 'a blue one' adalah dua buku yang BERBEDA wujud fisiknya.",
+          "Memakai kelas kata ulang untuk entitas baru adalah Substitution."
+        ],
+        "skill": "cohesion-theory-halliday"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice Comparative Inversion paired with ellipsis: 'Coastal researchers track salinity swings far more closely than ___ earlier nineteenth-century mariners.'",
+        "options": [
+          "did",
+          "were",
+          "have done so"
+        ],
+        "answer": 0,
+        "explanation": "Ketika klausa pembanding berpindah ke masa lampau ('earlier nineteenth-century mariners') dan menggantikan verb aktif ('tracked'), kita dapat membalik auxiliary lampau 'did' ke depan subjek pembanding ('than did earlier nineteenth-century mariners').",
+        "hints": [
+          "Konteks subjek kedua berada di abad ke-19 (lampau).",
+          "Gunakan auxiliary lampau 'did' dalam comparative inversion."
+        ],
+        "skill": "comparative-inversion-ellipsis"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan menghilangkan kata ganti 'it' atau 'so' yang salah setelah verb 'appear' vs 'expect' pada kalimat akademik berikut.",
+        "draft": "Preliminary trials suggest that the new enzyme stabilizes yields; however, field replications indicate otherwise, or rather, researchers feared it.",
+        "options": [
+          "Preliminary trials suggest that the new enzyme stabilizes yields; however, early skeptics feared so, whereas field data proved otherwise.",
+          "Preliminary trials suggest that the new enzyme stabilizes yields; however, researchers feared it that.",
+          "Preliminary trials suggest that the new enzyme stabilizes yields; however, field replications feared not so."
+        ],
+        "answer": 0,
+        "explanation": "Clausal substitution setelah 'fear', 'hope', 'suspect', atau 'expect' memakai 'so' ('feared so') untuk klausa positif dan 'not' untuk negatif, sedangkan 'otherwise' menggantikan klausa yang berlawanan hasil dengan apa yang disebut sebelumnya.",
+        "hints": [
+          "'Fear/suspect/think' mengambil substitusi klausa 'so', bukan 'it that'.",
+          "Gunakan 'feared so' dan 'proved otherwise'."
+        ],
+        "skill": "clausal-substitution-so"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi tata bahasa lanjutan mengenai 'one' sesudah demonstratif 'this/that' vs adjective.",
+        "dialogue": [
+          [
+            "Tutor",
+            "Why is 'I prefer these ergonomic chairs to those ones' often flagged as conversational compared to 'to these/those' or 'to the wooden ones'?"
+          ],
+          [
+            "Student",
+            "Because 'one/ones' becomes largely redundant immediately after plural demonstratives ('these/those') unless ___ sits between them."
+          ]
+        ],
+        "options": [
+          "an adjective modifier",
+          "a finite auxiliary verb",
+          "a colon or semicolon"
+        ],
+        "answer": 0,
+        "explanation": "Setelah demonstratif jamak 'these/those' tanpa kata sifat, cukup akhiri dengan 'those' saja ('prefer these chairs to those'); 'ones' barulah diperlukan ketika ada kata sifat di tengahnya ('those wooden ones').",
+        "hints": [
+          "Bandingkan 'those ones' vs 'those wooden ones' vs 'those'.",
+          "Kehadiran kata sifat memicu kebutuhan placeholder 'ones'."
+        ],
+        "skill": "nominal-substitution-one"
+      },
+      {
+        "type": "choice",
+        "prompt": "In strict formal prose, check modal/aspect retention under ellipsis: 'Has the shipping team cleared the port? — Not yet, though they ought ___.'",
+        "options": [
+          "to have",
+          "to",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "Apabila klausa elipsis merujuk ke kejadian masa lampau/perfect ('ought to have cleared it by now'), pertahankan auxiliary penanda waktu 'have' setelah 'to' ('ought to have') agar rujukan lampaunya tidak hilang!",
+        "hints": [
+          "Maknanya 'seharusnya mereka sudah melakukannya' (perfect infinitive).",
+          "Sertakan 'have' setelah 'to': 'ought to have'."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note why stative copulas restrict 'do so': 'The old warehouse needs rewiring, and the annex ___ too.'",
+        "options": [
+          "does",
+          "does so",
+          "is doing so"
+        ],
+        "answer": 0,
+        "explanation": "Karena 'need' dalam arti keharusan/keadaan adalah stative verb, pengganti elipsis yang benar adalah auxiliary tunggal 'does' saja — bukan 'does so' maupun 'is doing so'.",
+        "hints": [
+          "'Needs rewiring' adalah stative verb.",
+          "Pakai auxiliary murni 'does' tanpa 'so'."
+        ],
+        "skill": "substitution-restrictions-stative"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyisipkan bentuk jamak '-s' pada 'former/latter' dalam kalimat ulasan literatur berikut.",
+        "draft": "Smith and Tanaka both investigated coastal erosion; while the formers blamed dredging, the latters cited rising sea temperatures.",
+        "options": [
+          "Smith and Tanaka both investigated coastal erosion; while the former blamed dredging, the latter cited rising sea temperatures.",
+          "Smith and Tanaka both investigated coastal erosion; while former ones blamed dredging, latter ones cited sea temperatures.",
+          "Smith and Tanaka both investigated coastal erosion; while the formers blamed dredging, the latter cited sea temperatures."
+        ],
+        "answer": 0,
+        "explanation": "'The former' dan 'the latter' bersifat INVARIABEL (tidak pernah diberi akhiran '-s' meskipun merujuk pada kelompok jamak!).",
+        "hints": [
+          "Kata 'former' dan 'latter' tidak pernah mendapat akhiran jamak '-s'.",
+          "Hapus '-s' pada 'formers' dan 'latters'."
+        ],
+        "skill": "former-latter-substitution"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify an accurate example of GAPPING (deleting the identical middle verb across coordinated clauses):",
+        "options": [
+          "Dr. Anwar presented the hydrological data, and Dr. Lin, the atmospheric projections.",
+          "Dr. Anwar presented the hydrological data, and Dr. Lin too.",
+          "Dr. Anwar presented data, so Dr. Lin did it."
+        ],
+        "answer": 0,
+        "explanation": "Gapping menghapus kata kerja tengah yang identik di klausa kedua ('[presented]') dan sering menandai jeda penghapusan tersebut dengan koma setelah subjek kedua ('and Dr. Lin, the atmospheric projections').",
+        "hints": [
+          "Verb di tengah klausa kedua dihilangkan karena identik dengan klausa pertama.",
+          "Cari struktur 'S1 + V + O1, and S2 + [koma/jeda] + O2'."
+        ],
+        "skill": "gapping-ellipsis"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat elipsis formal yang mempertahankan 'have' setelah modal 'should'.",
+        "targetSentence": "The laboratory hasn't calibrated its backup scales yet, even though technicians definitely should have.",
+        "explanation": "Mempertahankan 'have' ('should have') menjaga rujukan terhadap tindakan yang seharusnya sudah selesai pada titik lalu.",
+        "hints": [
+          "Awali dengan 'The laboratory hasn't calibrated its backup scales yet,'.",
+          "Lengkapi penutup 'even though technicians definitely should have'."
+        ],
+        "skill": "infinitival-ellipsis"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menghindari kesalahan 'do so' pada stative verb dengan memakai auxiliary murni.",
+        "targetSentence": "Solar roofs generate clean energy today, and offshore wind farms will too.",
+        "explanation": "Modal 'will' berdiri bersih sebagai pengganti predikat berulang tanpa menambahkan 'do so' secara canggung.",
+        "hints": [
+          "Mulai dengan 'Solar roofs generate clean energy today,'.",
+          "Sambungkan 'and offshore wind farms will too'."
+        ],
+        "skill": "substitution-restrictions-stative"
       }
     ]
   }

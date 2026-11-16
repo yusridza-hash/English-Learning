@@ -99,6 +99,167 @@
           "Aksi berikutnya: 'he hailed a yellow cab'."
         ],
         "skill": "perfect-participle-prior-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ along the quiet harbor road, Maya spotted an antique bookstore.",
+        "options": [
+          "Walking",
+          "Walked",
+          "To walking"
+        ],
+        "answer": 0,
+        "explanation": "Subjek klausa utama ('Maya') melakukan tindakan berjalan secara AKTIF saat bersamaan, sehingga participle clause memakai present participle '-ing' ('Walking').",
+        "hints": [
+          "Siapa yang berjalan? Maya (subjek aktif).",
+          "Klausa partisipel aktif memakai V-ing ('Walking')."
+        ],
+        "skill": "present-participle-simultaneous"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ in 1928, the historic post office still serves downtown neighborhoods today.",
+        "options": [
+          "Built",
+          "Building",
+          "Having build"
+        ],
+        "answer": 0,
+        "explanation": "Subjek klausa utama ('the historic post office') tidak membangun dirinya sendiri, melainkan DIBANGUN (PASIF), sehingga memakai past participle V3 ('Built').",
+        "hints": [
+          "Kantor pos mengalami tindakan dibangun (makna pasif).",
+          "Participle clause pasif diawali V3 ('Built')."
+        ],
+        "skill": "past-participle-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ exhausted from the twelve-hour flight, Marco went straight to sleep.",
+        "options": [
+          "Feeling",
+          "Felt",
+          "Being feel"
+        ],
+        "answer": 0,
+        "explanation": "'Feeling exhausted...' berfungsi sebagai participle clause sebab/keadaan aktif ('Karena merasa sangat lelah...').",
+        "hints": [
+          "Subjeknya 'Marco' yang merasakan lelah secara aktif.",
+          "Gunakan V-ing 'Feeling'."
+        ],
+        "skill": "present-participle-cause"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ carefully through every appendix, the auditor approved the annual balance sheet.",
+        "options": [
+          "Reading",
+          "Readed",
+          "To read"
+        ],
+        "answer": 0,
+        "explanation": "Peninjau ('the auditor') aktif membaca lampiran ('Reading carefully...') sebelum menyetujui laporan.",
+        "hints": [
+          "Auditor melakukan tindakan membaca (aktif).",
+          "Present participle dari 'read' adalah 'Reading'."
+        ],
+        "skill": "present-participle-time"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan participle clause pasif singkat.",
+        "dialogue": [
+          [
+            "Curator",
+            "Which ceramic bowl survived the sea voyage intact?"
+          ],
+          [
+            "Assistant",
+            "The green glaze bowl ___ inside the sealed oak chest stayed completely unharmed."
+          ]
+        ],
+        "options": [
+          "packed",
+          "packing",
+          "was packed"
+        ],
+        "answer": 0,
+        "explanation": "'Packed inside the sealed oak chest' adalah reduced passive relative clause (dari 'which was packed...') untuk menerangkan 'The green glaze bowl'.",
+        "hints": [
+          "Mangkuk itu dikemas (pasif), bukan mengemas.",
+          "Reduced passive memakai V3 'packed'."
+        ],
+        "skill": "past-participle-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not ___ to disturb the midnight session, Rina silenced her phone outside the hall.",
+        "options": [
+          "wanting",
+          "wanted",
+          "to want"
+        ],
+        "answer": 0,
+        "explanation": "Bentuk negatif participle clause meletakkan 'Not' tepat di depan participle: 'Not wanting to disturb...'.",
+        "hints": [
+          "Negatif participle clause dimulai dengan 'Not + V-ing / V3'.",
+          "Subjek Rina tidak ingin mengganggu (aktif): 'Not wanting'."
+        ],
+        "skill": "negative-participle-clause"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggabungan aktif-pasif pada participle clause di awal kalimat berikut.",
+        "draft": "Designating as a UNESCO heritage site, the old canal attracts researchers worldwide.",
+        "options": [
+          "Designated as a UNESCO heritage site, the old canal attracts researchers worldwide.",
+          "Having designate as a UNESCO heritage site, the old canal attracts researchers worldwide.",
+          "To designating as a UNESCO heritage site, the old canal attracts researchers worldwide."
+        ],
+        "answer": 0,
+        "explanation": "Kanal tua tidak menunjuk dirinya sendiri, melainkan DITUNJUK/DITETAPKAN (pasif), sehingga wajib memakai V3 'Designated', bukan '-ing'.",
+        "hints": [
+          "Apakah 'the old canal' menunjuk atau ditetapkan sebagai situs warisan?",
+          "Makna pasif memakai V3 'Designated'."
+        ],
+        "skill": "past-participle-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the final slide, the presenter thanked everyone and opened the floor for questions.",
+        "options": [
+          "Closing",
+          "Closed",
+          "Having close"
+        ],
+        "answer": 0,
+        "explanation": "Pembicara secara aktif menutup slide presentasi lalu langsung berterima kasih ('Closing the final slide...').",
+        "hints": [
+          "Pelakunya 'the presenter' melakukan aksi penutupan aktif.",
+          "Pilih V-ing 'Closing'."
+        ],
+        "skill": "present-participle-simultaneous"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan present participle sebab-akibat.",
+        "targetSentence": "Realizing the battery was nearly empty, he saved the spreadsheet immediately.",
+        "explanation": "'Realizing...' menyatakan alasan aktif dari tindakan utama 'he saved...'.",
+        "hints": [
+          "Awali dengan 'Realizing the battery was nearly empty,'.",
+          "Tambahkan klausa utama 'he saved the spreadsheet immediately'."
+        ],
+        "skill": "present-participle-cause"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai past participle clause di awal.",
+        "targetSentence": "Written in clear plain English, the handbook requires zero technical background.",
+        "explanation": "'Written in clear plain English' menerangkan subjek pasif 'the handbook'.",
+        "hints": [
+          "Mulai dengan 'Written in clear plain English,'.",
+          "Lengkapi klausa utama tentang 'the handbook'."
+        ],
+        "skill": "past-participle-passive"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'Exposed'."
         ],
         "skill": "past-participle-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ all forty lab samples overnight, the technician published the preliminary chart at eight.",
+        "options": [
+          "Having tested",
+          "Testing",
+          "Tested"
+        ],
+        "answer": 0,
+        "explanation": "Ketika satu aksi AKTIF telah selesai TUNTAS sebelum aksi utama terjadi ('Having tested ... published'), gunakan Perfect Participle: 'Having + V3'.",
+        "hints": [
+          "Pengujian sudah selesai seluruhnya sebelum grafik diterbitkan.",
+          "Aksi selesai lebih dulu memakai 'Having + V3'."
+        ],
+        "skill": "perfect-participle-prior-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ by an independent engineering panel, the bridge was certified safe for heavy freight.",
+        "options": [
+          "Having been inspected",
+          "Having inspected",
+          "Inspecting"
+        ],
+        "answer": 0,
+        "explanation": "Aksi PASIF yang telah selesai lebih dulu sebelum jembatan disertifikasi memakai Perfect Passive Participle: 'Having been + V3'.",
+        "hints": [
+          "Jembatan diperiksa oleh panel (pasif) sebelum disertifikasi.",
+          "Bentuk selesai + pasif memakai 'Having been + V3'."
+        ],
+        "skill": "perfect-passive-participle"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penggunaan preposisi sebelum participle ('On + V-ing').",
+        "dialogue": [
+          [
+            "Staff",
+            "When did the security team trigger the lockdown?"
+          ],
+          [
+            "Director",
+            "___ the unauthorized login alert, they froze all external accounts instantly."
+          ]
+        ],
+        "options": [
+          "On receiving",
+          "Upon received",
+          "After been receive"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi 'On' atau 'Upon' (bermakna 'segera setelah...'), selalu gunakan gerund/participle aktif '-ing' ('On receiving...').",
+        "hints": [
+          "Setelah preposisi 'On', bentuk kata kerja wajib '-ing'.",
+          "'On receiving' berarti segera setelah menerima."
+        ],
+        "skill": "prepositional-participle"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence avoids a DANGLING PARTICIPLE?",
+        "options": [
+          "Driving past the harbor, we noticed three cargo ships anchored offshore.",
+          "Driving past the harbor, three cargo ships were anchored offshore.",
+          "Exhausted after the climb, the tent felt surprisingly warm inside."
+        ],
+        "answer": 0,
+        "explanation": "Aturan emas participle clause: SUBJEK dari klausa utama tepat setelah koma WAJIB pelaku dari participle di depan! ('we' yang mengemudi 'Driving...', bukan 'three cargo ships' atau 'the tent').",
+        "hints": [
+          "Periksa kata benda pertama setelah tanda koma.",
+          "Apakah kapal kargo atau tenda bisa menyetir atau merasa lelah? Tidak!"
+        ],
+        "skill": "dangling-participle-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ a seasoned negotiator, Elena handled the vendor's price demand without flinching.",
+        "options": [
+          "Being",
+          "Been",
+          "Having be"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menyatakan alasan berupa peran atau sifat dasar ('Karena dia adalah seorang negosiator berpengalaman...'), gunakan participle to be: 'Being + noun phrase'.",
+        "hints": [
+          "Maknanya 'Because she is a seasoned negotiator...'.",
+          "Bentuk participle dari 'is/are' adalah 'Being'."
+        ],
+        "skill": "present-participle-cause"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan Dangling Participle yang memicu makna lucu berikut.",
+        "draft": "Cycling quickly down the misty hill, a stray deer crossed directly in front of Farhan.",
+        "options": [
+          "Cycling quickly down the misty hill, Farhan saw a stray deer cross directly in front of him.",
+          "Cycling quickly down the misty hill, a stray deer was crossed directly in front of Farhan.",
+          "Cycled quickly down the misty hill, a stray deer crossed directly in front of Farhan."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat asli secara gramatikal mengesankan rusa liar itu yang sedang bersepeda ('Cycling..., a stray deer...')! Ubah subjek setelah koma menjadi pelaku bersepeda yang sesungguhnya: 'Farhan'.",
+        "hints": [
+          "Subjek setelah koma dalam kalimat asli adalah 'a stray deer'.",
+          "Pastikan subjek setelah koma adalah 'Farhan' yang sedang bersepeda."
+        ],
+        "skill": "dangling-participle-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never ___ visited Kyoto before, the interns eagerly mapped out every transit line.",
+        "options": [
+          "having",
+          "have",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Untuk pengalaman lampau negatif sebelum titik cerita ('Never having + V3' = Because they had never visited), letakkan 'Never' sebelum 'having + V3'.",
+        "hints": [
+          "Pola negatif pengalaman sebelumnya: 'Never having + V3'.",
+          "Pilih 'having'."
+        ],
+        "skill": "negative-participle-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "Although ___ to harsh coastal winds, the timber pier remained remarkably sturdy.",
+        "options": [
+          "exposed",
+          "exposing",
+          "having expose"
+        ],
+        "answer": 0,
+        "explanation": "Konjungsi konsesif seperti 'Although', 'Though', atau 'While' dapat langsung diikuti past participle pasif ('Although exposed to...' = Although it was exposed to...).",
+        "hints": [
+          "Dermaga kayu mengalami paparan angin (makna pasif).",
+          "Setelah 'Although', reduced passive memakai V3 'exposed'."
+        ],
+        "skill": "concession-participle"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai Perfect Participle untuk menandai urutan prioritas.",
+        "targetSentence": "Having backed up the client archive, our lead engineer initiated the upgrade.",
+        "explanation": "'Having backed up...' menandakan proses backup sudah rampung sebelum upgrade dimulai.",
+        "hints": [
+          "Awali dengan 'Having backed up the client archive,'.",
+          "Lengkapi klausa utama tentang 'our lead engineer'."
+        ],
+        "skill": "perfect-participle-prior-action"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai negative participle clause tanpa dangling subject.",
+        "targetSentence": "Not knowing the regional dialect, the volunteer carried a printed translation card.",
+        "explanation": "Subjek setelah koma ('the volunteer') adalah pihak yang tidak mengetahui dialek tersebut.",
+        "hints": [
+          "Mulai dengan 'Not knowing the regional dialect,'.",
+          "Tambahkan subjek dan klausa utama 'the volunteer carried...'."
+        ],
+        "skill": "negative-participle-clause"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'Founded'."
         ],
         "skill": "past-participle-passive"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the Absolute Participle Construction (two different grammatical subjects) that IS completely grammatical:",
+        "options": [
+          "Weather permitting, the marine drone survey will launch at dawn.",
+          "Walking through the terminal, the departure board flickered loudly.",
+          "Having finished the audit, the tax office mailed our receipt."
+        ],
+        "answer": 0,
+        "explanation": "Dalam ABSOLUTE CLAUSE ('Weather permitting', 'All things considered', 'The deadline having passed'), participle clause memiliki subjeknya SENDIRI ('Weather') di depan participle sehingga tidak menimbulkan dangling modifier!",
+        "hints": [
+          "Cari kalimat di mana participle clause sudah membawa subjeknya sendiri di depan.",
+          "'Weather permitting' (berarti 'If weather permits') adalah absolute construction baku."
+        ],
+        "skill": "absolute-participle-construction"
+      },
+      {
+        "type": "choice",
+        "prompt": "With all customs paperwork ___ ahead of schedule, our freight cleared the port in record time.",
+        "options": [
+          "verified",
+          "verifying",
+          "to verify"
+        ],
+        "answer": 0,
+        "explanation": "Pola 'With + Noun + Participle': karena 'paperwork' bersifat PASIF (diverifikasi oleh petugas), gunakan past participle 'verified'.",
+        "hints": [
+          "'Paperwork' tidak memverifikasi dirinya sendiri.",
+          "Struktur 'With + benda + V3' bermakna pasif."
+        ],
+        "skill": "absolute-participle-construction"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan dangling modifier yang tersamar dalam kalimat laporan kebijakan berikut.",
+        "draft": "Having analyzed four thousand patient surveys, two major bottlenecks were uncovered by the clinic.",
+        "options": [
+          "Having analyzed four thousand patient surveys, the clinic uncovered two major bottlenecks.",
+          "Having analyzed four thousand patient surveys, two major bottlenecks had uncovered.",
+          "Analyzing four thousand patient surveys, two major bottlenecks were uncovered by the clinic."
+        ],
+        "answer": 0,
+        "explanation": "Siapa yang menganalisis 4.000 survei? 'The clinic' (bukan 'two major bottlenecks')! Ubah klausa utama menjadi kalimat aktif dengan 'the clinic' tepat setelah koma.",
+        "hints": [
+          "Pastikan pelaku 'Having analyzed...' berada tepat di posisi subjek setelah koma.",
+          "Aktifkan klausa utama dengan subjek 'the clinic'."
+        ],
+        "skill": "dangling-participle-avoidance"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan naskah mengenai fungsi gaya bahasa participle clause.",
+        "dialogue": [
+          [
+            "Senior Editor",
+            "Why replace 'After she had reviewed three drafts, she merged them' with 'Having reviewed three drafts, she merged them'?"
+          ],
+          [
+            "Writer",
+            "The participle structure achieves ___ while preserving clear chronological order."
+          ]
+        ],
+        "options": [
+          "syntactic economy and smoother rhythmic flow",
+          "ambiguity over which draft was written last",
+          "informal spoken redundancy"
+        ],
+        "answer": 0,
+        "explanation": "Participle clause banyak dipakai dalam tulisan formal/akademis demi syntactic economy (meringkas kata ulang tanpa mengurangi urutan waktu dan sebab-akibat).",
+        "hints": [
+          "Membuang kata sambung dan subjek berulang membuat kalimat padat namun tetap jelas.",
+          "Pilih manfaat keringkasan dan alur sintaksis."
+        ],
+        "skill": "participle-stylistic-economy"
+      },
+      {
+        "type": "choice",
+        "prompt": "The keynote panel ___ three hours past noon, attendees finally headed out for lunch.",
+        "options": [
+          "having run",
+          "running to",
+          "was run"
+        ],
+        "answer": 0,
+        "explanation": "Absolute clause aktif dengan subjek sendiri ('The keynote panel') + aksi selesai sebelum makan siang memakai 'having run' ('The keynote panel having run three hours past noon...').",
+        "hints": [
+          "Subjek di depan ('The keynote panel') berbeda dari subjek utama ('attendees').",
+          "Absolute construction selesai memakai 'having + V3'."
+        ],
+        "skill": "absolute-participle-construction"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ from a purely financial perspective, outsourcing nighttime dispatch looks attractive; however, service quality could suffer.",
+        "options": [
+          "Viewed",
+          "Viewing",
+          "Having view"
+        ],
+        "answer": 0,
+        "explanation": "'Viewed from a purely financial perspective' (berarti 'When it is viewed...') menggunakan past participle pasif (karena 'outsourcing' adalah hal yang dipandang).",
+        "hints": [
+          "'Outsourcing' dinilai/dipandang dari sudut keuangan (makna pasif).",
+          "Pakai V3 'Viewed'."
+        ],
+        "skill": "past-participle-passive"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan tata bahasa pada prepositional participle dengan 'Once' dan 'Despite' berikut.",
+        "draft": "Despite having been warning repeatedly about voltage spikes, the facility kept old surge protectors.",
+        "options": [
+          "Despite having been warned repeatedly about voltage spikes, the facility kept old surge protectors.",
+          "Despite having warning repeatedly about voltage spikes, the facility kept old surge protectors.",
+          "Despite being warned repeatedly about voltage spikes, old surge protectors were kept by the facility."
+        ],
+        "answer": 0,
+        "explanation": "Maknanya 'meskipun sudah berulang kali diperingatkan' (Perfect Passive Gerund/Participle): setelah 'having been', kata kerja wajib berbentuk V3 'warned', bukan V-ing 'warning'.",
+        "hints": [
+          "Setelah 'having been', selalu pakai V3 (bukan '-ing').",
+          "Ubah 'warning' menjadi 'warned'."
+        ],
+        "skill": "perfect-passive-participle"
+      },
+      {
+        "type": "choice",
+        "prompt": "Speaking strictly in legal terms, ___ the addendum without board quorum renders it unenforceable.",
+        "options": [
+          "signing",
+          "signed",
+          "having sign"
+        ],
+        "answer": 0,
+        "explanation": "Hati-hati: ungkapan penunjuk sikap pembicara seperti 'Speaking strictly in legal terms' atau 'Generally speaking' adalah sentence adverbial yang dikecualikan dari aturan dangling modifier! Di sini subjek dari klausa utama ('renders') adalah frasa gerund 'signing the addendum...'.",
+        "hints": [
+          "Butuh gerund sebagai subjek sebelum 'the addendum... renders'.",
+          "'Signing the addendum...' adalah gerund phrase subjek."
+        ],
+        "skill": "participle-stylistic-economy"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Absolute Construction berpola 'With + Noun + Participle'.",
+        "targetSentence": "With export tariffs lowered significantly, coastal manufacturers expanded night shifts.",
+        "explanation": "'With export tariffs lowered' adalah absolute clause pasif yang menjadi penyebab klausa utama.",
+        "hints": [
+          "Awali dengan 'With export tariffs lowered significantly,'.",
+          "Lanjutkan dengan 'coastal manufacturers expanded night shifts'."
+        ],
+        "skill": "absolute-participle-construction"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ber-concession participle pasif berawalan 'Though'.",
+        "targetSentence": "Though delayed by fog, the morning medical flight landed safely before nine.",
+        "explanation": "'Though delayed by fog' (= Though it was delayed by fog) menerangkan 'the morning medical flight'.",
+        "hints": [
+          "Mulai dengan 'Though delayed by fog,'.",
+          "Tambahkan subjek pesawat dan predikatnya."
+        ],
+        "skill": "concession-participle"
       }
     ]
   }

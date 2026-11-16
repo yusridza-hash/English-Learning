@@ -99,6 +99,167 @@
           "Lanjutkan dengan 'that they decided to reduce'."
         ],
         "skill": "it-cleft-object"
+      },
+      {
+        "type": "choice",
+        "prompt": "It was Dr. Maya ___ first spotted the calibration error in the thermal camera.",
+        "options": [
+          "who",
+          "which",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "It-cleft yang menonjolkan pelaku manusia ('Dr. Maya') menggunakan 'who' atau 'that'.",
+        "hints": [
+          "Kata benda yang ditekankan adalah seorang tokoh ('Dr. Maya').",
+          "Gunakan 'who' untuk manusia."
+        ],
+        "skill": "it-cleft-subject"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ our remote support team needs most right now is a unified ticket dashboard.",
+        "options": [
+          "What",
+          "That",
+          "Which"
+        ],
+        "answer": 0,
+        "explanation": "Wh-cleft clause di awal kalimat bermakna 'Hal yang paling dibutuhkan...' selalu diawali 'What'.",
+        "hints": [
+          "Struktur pseudo-cleft: 'What + S + verb + is + ...'.",
+          "Awali klausa nominal dengan 'What'."
+        ],
+        "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "It wasn't until Friday evening ___ the customs agency cleared the medical shipment.",
+        "options": [
+          "that",
+          "when",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "It-cleft penekanan waktu/kondisi memakai pola tetap 'It was/wasn't until ... THAT ...' (bukan 'when').",
+        "hints": [
+          "Pola It-cleft selalu memakai penghubung 'that' di klausa kedua.",
+          "Jangan tergoda memakai 'when' pada It-cleft."
+        ],
+        "skill": "it-cleft-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "It was the outdated firmware, rather than weak Wi-Fi, ___ caused those sudden disconnections.",
+        "options": [
+          "that",
+          "who",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menekankan objek benda atau sebab ('the outdated firmware') dalam It-cleft, gunakan 'that' (atau 'which').",
+        "hints": [
+          "Benda yang disorot adalah 'the outdated firmware'.",
+          "Gunakan 'that'."
+        ],
+        "skill": "it-cleft-subject"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog koreksi lokasi dengan It-cleft penekanan tempat.",
+        "dialogue": [
+          [
+            "Visitor",
+            "Didn't the maritime exhibition open in Hall A last month?"
+          ],
+          [
+            "Curator",
+            "Actually, it was in Hall C ___ we installed the historic ship models."
+          ]
+        ],
+        "options": [
+          "that",
+          "where",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "Karena frasa berpreposisi ('in Hall C') sudah lengkap, penghubung baku It-cleft tetap 'that' (bukan 'where').",
+        "hints": [
+          "Perhatikan sudah ada preposisi 'in' sebelum 'Hall C'.",
+          "It-cleft dengan 'in Hall C' memakai 'that'."
+        ],
+        "skill": "it-cleft-place"
+      },
+      {
+        "type": "choice",
+        "prompt": "What makes this lightweight tablet stand out ___ its twelve-hour battery life.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Wh-cleft clause ('What makes...') dianggap subjek tunggal sehingga memakai to be 'is' sebelum pelengkap tunggal.",
+        "hints": [
+          "Pelengkap yang disorot tunggal ('its twelve-hour battery life').",
+          "Gunakan 'is'."
+        ],
+        "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penghubung 'when' pada kalimat It-cleft waktu berikut.",
+        "draft": "It was only last September when the downtown tramway opened to daily commuters.",
+        "options": [
+          "It was only last September that the downtown tramway opened to daily commuters.",
+          "It was only last September which the downtown tramway opened to daily commuters.",
+          "It was only last September what the downtown tramway opened to daily commuters."
+        ],
+        "answer": 0,
+        "explanation": "Dalam It-cleft penekanan waktu ('It was + time...'), bahasa Inggris baku memakai 'that', bukan 'when' atau 'which'.",
+        "hints": [
+          "Pola baku It-cleft adalah 'It + be + [fokus] + that...'.",
+          "Ganti 'when' menjadi 'that'."
+        ],
+        "skill": "it-cleft-correction"
+      },
+      {
+        "type": "choice",
+        "prompt": "It is only the quarterly tax summary ___ you need to sign before leaving.",
+        "options": [
+          "that",
+          "who",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menekankan objek dokumen ('the quarterly tax summary') dalam It-cleft, gunakan 'that'.",
+        "hints": [
+          "Objek yang ditekankan adalah benda.",
+          "Pilih 'that'."
+        ],
+        "skill": "it-cleft-object"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat It-cleft penekanan pelaku.",
+        "targetSentence": "It was the night engineer who noticed the hairline crack first.",
+        "explanation": "It + was + pelaku + who + verb + pelengkap.",
+        "hints": [
+          "Awali dengan 'It was the night engineer'.",
+          "Lengkapi klausa 'who noticed...'."
+        ],
+        "skill": "it-cleft-subject"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Wh-cleft untuk menekankan kebutuhan tim.",
+        "targetSentence": "What the hospital urgently requires is an additional backup generator.",
+        "explanation": "Wh-cleft clause tunggal 'What the hospital urgently requires' + is + noun phrase.",
+        "hints": [
+          "Mulai dengan 'What the hospital urgently requires is'.",
+          "Tambahkan objek 'an additional backup generator'."
+        ],
+        "skill": "wh-cleft-clause"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'what we must do first'."
         ],
         "skill": "wh-cleft-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "To emphasize an ACTION with a Wh-cleft: 'What the technician did next ___ calibrate every acoustic sensor individually.'",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Pada Wh-cleft penekanan tindakan ('What + S + did + be + (to) V1'), penghubung utama selalu bentuk 'to be' ('was'), BUKAN 'did'.",
+        "hints": [
+          "Klausa 'What the technician did next' membutuhkan linking verb to be 'was'.",
+          "Setelah 'was', verb dasar 'calibrate' dapat muncul langsung."
+        ],
+        "skill": "wh-cleft-action"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the research grant really asks for is measurable community impact rather than abstract theory.",
+        "options": [
+          "All",
+          "That",
+          "What that"
+        ],
+        "answer": 0,
+        "explanation": "'All (that) + S + verb + is...' adalah all-cleft yang menyoroti satu hal esensial ('satu-satunya yang diminta').",
+        "hints": [
+          "Pola all-cleft: 'All + S + verb + is...'.",
+          "'What that' tidak gramatikal."
+        ],
+        "skill": "all-cleft"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penegasan ulang memakai Reversed Wh-cleft.",
+        "dialogue": [
+          [
+            "Manager",
+            "Wait — is budget expansion our main bottleneck?"
+          ],
+          [
+            "Director",
+            "No, clearer cross-team communication ___ what we truly lack."
+          ]
+        ],
+        "options": [
+          "is",
+          "are",
+          "was be"
+        ],
+        "answer": 0,
+        "explanation": "Dalam Reversed Wh-cleft ('X is what we truly lack'), frasa yang ditekankan ('clearer cross-team communication') diletakkan di awal sebagai subjek tunggal sebelum 'is what...'.",
+        "hints": [
+          "Subjek di depan bersifat tunggal/uncountable ('communication').",
+          "Pasangkan to be tunggal 'is'."
+        ],
+        "skill": "reversed-wh-cleft"
+      },
+      {
+        "type": "choice",
+        "prompt": "The person ___ deserves credit for automating the payroll script is definitely Riko.",
+        "options": [
+          "who",
+          "which",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "Cleft bertema manusia ('The person who... is...') memakai relative pronoun subjek 'who' sebelum verb 'deserves'.",
+        "hints": [
+          "Merujuk ke subjek orang ('The person').",
+          "Gunakan 'who'."
+        ],
+        "skill": "person-cleft"
+      },
+      {
+        "type": "choice",
+        "prompt": "All the audit committee requested ___ two extra days to verify receipts.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Klausa 'All the audit committee requested' berfungsi sebagai subjek tunggal masa lampau bagi verb 'was'.",
+        "hints": [
+          "Kata kerja di dalam klausa adalah lampau ('requested').",
+          "Subjek klausa 'All...' memakai to be tunggal lampau 'was'."
+        ],
+        "skill": "all-cleft"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan agreement to be pada It-cleft subjek jamak berikut.",
+        "draft": "It were the regional coordinators who raised the packaging defect first.",
+        "options": [
+          "It was the regional coordinators who raised the packaging defect first.",
+          "It are the regional coordinators who raised the packaging defect first.",
+          "It were the regional coordinators which raised the packaging defect first."
+        ],
+        "answer": 0,
+        "explanation": "ATURAN MUTLAK IT-CLEFT: Kata 'It' di awal selalu berpasangan dengan to be TUNGGAL ('It is / It was'), BUKAN 'It were', meskipun fokus setelahnya berbentuk jamak ('the regional coordinators')!",
+        "hints": [
+          "Subjek gramatikal di depan adalah kata tunggal 'It'.",
+          "'It' selalu diikuti 'is' atau 'was', tidak pernah 'were/are'."
+        ],
+        "skill": "it-cleft-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "It is because the harbor bridge is under repair ___ ferry traffic has doubled this week.",
+        "options": [
+          "that",
+          "why",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "Pada It-cleft penekanan klausa sebab ('It is because... THAT...'), penghubungnya tetap 'that' (jangan mengulang 'why' atau 'because').",
+        "hints": [
+          "Setelah klausa 'It is because...', gunakan 'that'.",
+          "Hindari pengulangan 'why'."
+        ],
+        "skill": "it-cleft-correction"
+      },
+      {
+        "type": "choice",
+        "prompt": "The reason ___ our dispatch team switched couriers was reliability during monsoon storms.",
+        "options": [
+          "why",
+          "because",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Dalam reason-cleft formal, gunakan pola 'The reason (why)... was + noun phrase / that...' — JANGAN menulis 'The reason why... was because...'.",
+        "hints": [
+          "Pola baku: 'The reason why ... was [noun]'.",
+          "Pilih 'why'."
+        ],
+        "skill": "reason-cleft"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Wh-cleft penekanan tindakan dengan 'What + S + did + was'.",
+        "targetSentence": "What our designer did first was sketch three minimalist homepage layouts.",
+        "explanation": "Struktur 'What + S + did + was + V1' menonjolkan aksi pertama yang dilakukan.",
+        "hints": [
+          "Awali dengan 'What our designer did first was'.",
+          "Tambahkan bare infinitive 'sketch' dan objeknya."
+        ],
+        "skill": "wh-cleft-action"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Reversed Wh-cleft dengan tepat.",
+        "targetSentence": "Consistent daily practice is what builds long-term speaking fluency.",
+        "explanation": "Hal yang ditekankan diletakkan di awal ('Consistent daily practice'), diikuti 'is what builds...'.",
+        "hints": [
+          "Mulai dengan 'Consistent daily practice is'.",
+          "Lengkapi dengan 'what builds long-term speaking fluency'."
+        ],
+        "skill": "reversed-wh-cleft"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'What we vigorously dispute is'."
         ],
         "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "Check verb agreement inside an It-cleft when highlighting 'I': 'It is I who ___ responsible for signing off on safety protocols.'",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Dalam ragam sangat formal, kata kerja di dalam klausa 'who...' menyesuaikan diri dengan antecedent-nya ('I' → 'am', bukan 'is'). (Dalam gaya netral modern, 'It's me who is...' lebih lazim.)",
+        "hints": [
+          "Perhatikan pronoun formal 'I' sebelum 'who'.",
+          "Verb setelah 'who' mengikuti person dari 'I' → 'am'."
+        ],
+        "skill": "it-cleft-agreement"
+      },
+      {
+        "type": "choice",
+        "prompt": "Similarly, with a plural subject focus: 'It was our regional distributors, not the central warehouse, that ___ the new packaging labels.'",
+        "options": [
+          "requested",
+          "requesting",
+          "was requested by"
+        ],
+        "answer": 0,
+        "explanation": "Klausa 'It was' selalu tunggal di depan, lalu kata kerja setelah 'that' mengikuti subjek fokus sebenarnya ('our regional distributors' aktif 'requested').",
+        "hints": [
+          "'Our regional distributors' bertindak sebagai pelaku aktif masa lampau.",
+          "Pilih V2 'requested'."
+        ],
+        "skill": "it-cleft-agreement"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda 'The reason why ... is because' yang dianggap pleonasme dalam penulisan akademik berikut.",
+        "draft": "The main reason why coastal aquifers turned saline was because excessive pumping lowered groundwater pressure.",
+        "options": [
+          "The main reason why coastal aquifers turned saline was that excessive pumping lowered groundwater pressure.",
+          "The main reason coastal aquifers turned saline was because excessive pumping lowered groundwater pressure.",
+          "Because coastal aquifers turned saline was that excessive pumping lowered groundwater pressure."
+        ],
+        "answer": 0,
+        "explanation": "Dalam tulisan akademik/IELTS formal, 'The reason ... is/was BECAUSE' adalah pengulangan makna sebab; ganti 'because' setelah 'was' menjadi 'that'.",
+        "hints": [
+          "'Reason' sudah bermakna sebab, jadi 'was because' mubazir.",
+          "Ubah 'was because' menjadi 'was that'."
+        ],
+        "skill": "reason-cleft"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang fungsi pragmatis cleft sentence.",
+        "dialogue": [
+          [
+            "Professor",
+            "Both sentences give the same facts: 'Dr. Tan isolated the enzyme' vs 'It was Dr. Tan who isolated the enzyme.' When should a writer pick the cleft?"
+          ],
+          [
+            "Student",
+            "A writer chooses the cleft structure specifically to ___ against an explicit or implied misconception."
+          ]
+        ],
+        "options": [
+          "highlight and contrast a single key element ('Dr. Tan', not someone else)",
+          "shorten word count in tight technical footnotes",
+          "avoid specifying who performed the experiment"
+        ],
+        "answer": 0,
+        "explanation": "Fungsi retoris utama cleft sentence bukan menyingkat kalimat, melainkan memecah kalimat untuk memberi SOROTAN KONTRAS ('Dr. Tan, bukan peneliti lain') terhadap asumsi pembaca.",
+        "hints": [
+          "Cleft sentence justru menambah kata demi penekanan fokus kontras.",
+          "Pilih fungsi penekanan dan kontras retoris."
+        ],
+        "skill": "cleft-rhetorical-function"
+      },
+      {
+        "type": "choice",
+        "prompt": "What happens when ___ fails during peak load is that requests automatically route to the Singapore mirror.",
+        "options": [
+          "the primary database",
+          "does the primary database",
+          "is the primary database"
+        ],
+        "answer": 0,
+        "explanation": "Dalam Wh-cleft kompleks ('What happens when [S+V] is that...'), klausa 'when' tetap memakai urutan normal Subject + Verb tanpa inversi.",
+        "hints": [
+          "Subjek dari 'fails' berada tepat setelah 'when'.",
+          "Gunakan urutan normal tanpa auxiliary tanya."
+        ],
+        "skill": "wh-cleft-clause"
+      },
+      {
+        "type": "choice",
+        "prompt": "The place ___ those ancient kiln fragments were unearthed lies twelve kilometers inland.",
+        "options": [
+          "where",
+          "which",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "Place-cleft dengan 'The place...' tanpa preposisi ('in') memerlukan relative adverb 'where' (setara 'in which').",
+        "hints": [
+          "Ada kata 'The place' diikuti klausa lengkap pasif tanpa 'in'.",
+          "Gunakan 'where'."
+        ],
+        "skill": "it-cleft-place"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan konstruksi It-cleft saat menyoroti sebuah gerund phrase berikut.",
+        "draft": "It is by reading primary manuscripts carefully which scholars avoid misquoting historical sources.",
+        "options": [
+          "It is by reading primary manuscripts carefully that scholars avoid misquoting historical sources.",
+          "It is by reading primary manuscripts carefully what scholars avoid misquoting historical sources.",
+          "It are by reading primary manuscripts carefully that scholars avoid misquoting historical sources."
+        ],
+        "answer": 0,
+        "explanation": "Saat It-cleft menonjolkan frasa adverbial cara ('by reading primary manuscripts carefully'), penghubungnya WAJIB 'that' (tidak boleh 'which' maupun 'what').",
+        "hints": [
+          "Fokusnya adalah frasa preposisi 'by reading...', bukan kata benda.",
+          "It-cleft dengan frasa keterangan memakai 'that'."
+        ],
+        "skill": "it-cleft-correction"
+      },
+      {
+        "type": "choice",
+        "prompt": "All I did ___ forward the encrypted PDF to the legal desk as instructed.",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Dalam all-cleft penekanan tindakan ('All I did was [to] V1'), kata kerja linking utamanya tetap 'was' diikuti bare infinitive 'forward'.",
+        "hints": [
+          "Subjek 'All I did' menuntut linking verb 'was'.",
+          "Pilih 'was'."
+        ],
+        "skill": "all-cleft"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat It-cleft untuk menekankan klausa waktu dengan 'not until'.",
+        "targetSentence": "It was not until the final audit cleared that the bank released the escrow funds.",
+        "explanation": "Pola formal: 'It was not until [clause 1] that [clause 2]' (tanpa inversi setelah 'that').",
+        "hints": [
+          "Awali dengan 'It was not until the final audit cleared'.",
+          "Tambahkan 'that the bank released the escrow funds'."
+        ],
+        "skill": "it-cleft-time"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat reason-cleft formal yang benar secara akademis (pakai 'was that').",
+        "targetSentence": "The primary reason why small startups stall is that they underestimate onboarding time.",
+        "explanation": "'The primary reason why ... is that...' menghindari pleonasme 'is because'.",
+        "hints": [
+          "Mulai dengan 'The primary reason why small startups stall is'.",
+          "Sambungkan dengan 'that they underestimate onboarding time'."
+        ],
+        "skill": "reason-cleft"
       }
     ]
   }

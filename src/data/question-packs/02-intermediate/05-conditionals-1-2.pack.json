@@ -7,19 +7,33 @@
       {
         "type": "choice",
         "prompt": "First Conditional (Real future): If the weather ___ clear tomorrow, we will conduct the drone survey.",
-        "options": ["is", "will be", "was"],
+        "options": [
+          "is",
+          "will be",
+          "was"
+        ],
         "answer": 0,
         "explanation": "Dalam First Conditional (kemungkinan nyata di masa depan), klausa 'if' WAJIB menggunakan Present Simple ('is'), sedangkan klausa utama memakai 'will + V1'.",
-        "hints": ["Klausa 'if' tidak boleh memakai 'will'.", "Gunakan Present Simple 'is'."],
+        "hints": [
+          "Klausa 'if' tidak boleh memakai 'will'.",
+          "Gunakan Present Simple 'is'."
+        ],
         "skill": "conditional-type-1"
       },
       {
         "type": "choice",
         "prompt": "If our startup secures the venture capital grant, we ___ five senior machine learning engineers.",
-        "options": ["will hire", "hired", "would hire"],
+        "options": [
+          "will hire",
+          "hired",
+          "would hire"
+        ],
         "answer": 0,
         "explanation": "Klausa 'if' memakai Present Simple ('secures'), maka main clause memakai modal masa depan: 'will hire'.",
-        "hints": ["First Conditional: If + Present Simple, will + V1.", "Gunakan 'will hire'."],
+        "hints": [
+          "First Conditional: If + Present Simple, will + V1.",
+          "Gunakan 'will hire'."
+        ],
         "skill": "conditional-type-1"
       },
       {
@@ -27,16 +41,26 @@
         "prompt": "Susun kalimat First Conditional dengan 'unless'.",
         "targetSentence": "Unless you register online you cannot attend the conference.",
         "explanation": "'Unless' bermakna 'if not'. Klausa 'unless' memakai Present Simple 'register'.",
-        "hints": ["Awali dengan 'Unless you register online'.", "Klausa hasil: 'you cannot attend the conference'."],
+        "hints": [
+          "Awali dengan 'Unless you register online'.",
+          "Klausa hasil: 'you cannot attend the conference'."
+        ],
         "skill": "conditional-unless"
       },
       {
         "type": "choice",
         "prompt": "Second Conditional (Hypothetical / Unreal present): If I ___ more free time, I would learn full-stack development.",
-        "options": ["had", "have", "would have"],
+        "options": [
+          "had",
+          "have",
+          "would have"
+        ],
         "answer": 0,
         "explanation": "Dalam Second Conditional (pengandaian tidak nyata di masa sekarang), klausa 'if' menggunakan Past Simple ('had'), dan klausa utama memakai 'would + V1'.",
-        "hints": ["Pengandaian masa sekarang yang tidak nyata (unreal present).", "Klausa 'if' memakai Past Simple 'had'."],
+        "hints": [
+          "Pengandaian masa sekarang yang tidak nyata (unreal present).",
+          "Klausa 'if' memakai Past Simple 'had'."
+        ],
         "skill": "conditional-type-2"
       },
       {
@@ -44,16 +68,26 @@
         "prompt": "Susun kalimat Second Conditional dengan 'would'.",
         "targetSentence": "If she lived in Tokyo she would speak Japanese.",
         "explanation": "If + Past Simple (lived) + would + V1 (speak).",
-        "hints": ["Klausa if: 'If she lived in Tokyo'.", "Main clause: 'she would speak Japanese'."],
+        "hints": [
+          "Klausa if: 'If she lived in Tokyo'.",
+          "Main clause: 'she would speak Japanese'."
+        ],
         "skill": "conditional-type-2"
       },
       {
         "type": "choice",
         "prompt": "If I ___ you, I would consult a certified financial advisor before signing that contract.",
-        "options": ["were", "was", "am"],
+        "options": [
+          "were",
+          "was",
+          "am"
+        ],
         "answer": 0,
         "explanation": "Dalam bahasa Inggris baku formal untuk Second Conditional (memberikan nasihat 'If I were you'), gunakan subjunctive 'were' untuk semua subjek (I/he/she/it).",
-        "hints": ["Subjunctive formal untuk pengandaian 'andai aku jadi kamu'.", "Gunakan 'were'."],
+        "hints": [
+          "Subjunctive formal untuk pengandaian 'andai aku jadi kamu'.",
+          "Gunakan 'were'."
+        ],
         "skill": "conditional-subjunctive-were"
       },
       {
@@ -61,7 +95,171 @@
         "prompt": "Susun kalimat Second Conditional memberi nasihat.",
         "targetSentence": "If I were you I would accept the job offer.",
         "explanation": "If I were you + I would + base verb (accept) + the job offer.",
-        "hints": ["Mulai dengan formula 'If I were you'.", "Main clause: 'I would accept the job offer'."],
+        "hints": [
+          "Mulai dengan formula 'If I were you'.",
+          "Main clause: 'I would accept the job offer'."
+        ],
+        "skill": "conditional-subjunctive-were"
+      },
+      {
+        "type": "choice",
+        "prompt": "If you submit the expense form today, finance ___ process it by Friday.",
+        "options": [
+          "will",
+          "would",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "First Conditional menyatakan kemungkinan nyata di masa depan: 'If + Present Simple (submit), S + will + V1'.",
+        "hints": [
+          "Kemungkinan nyata jika syarat hari ini terpenuhi.",
+          "Klausa hasil Tipe 1 memakai 'will'."
+        ],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "choice",
+        "prompt": "If our team ___ more free time, we would redesign the entire user dashboard.",
+        "options": [
+          "had",
+          "has",
+          "will have"
+        ],
+        "answer": 0,
+        "explanation": "Second Conditional menyatakan situasi khayalan/tidak nyata saat ini: 'If + Past Simple (had), S + would + V1'.",
+        "hints": [
+          "Perhatikan klausa hasil memakai 'would redesign'.",
+          "If-clause Tipe 2 memakai V2 ('had')."
+        ],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "choice",
+        "prompt": "We won't catch the morning ferry ___ we leave the hotel before seven.",
+        "options": [
+          "unless",
+          "if",
+          "when"
+        ],
+        "answer": 0,
+        "explanation": "'Unless' berarti 'if ... not' (kecuali jika / kalau tidak berangkat sebelum jam 7, kita akan ketinggalan kapal).",
+        "hints": [
+          "Maknanya 'jika kita TIDAK berangkat sebelum jam tujuh'.",
+          "'Unless' menggantikan 'if ... not'."
+        ],
+        "skill": "conditional-unless"
+      },
+      {
+        "type": "choice",
+        "prompt": "If I ___ you, I would back up the project database before running that script.",
+        "options": [
+          "were",
+          "am",
+          "will be"
+        ],
+        "answer": 0,
+        "explanation": "Dalam saran pengandaian baku 'If I were you...', bahasa Inggris standar menggunakan 'were' untuk seluruh subjek.",
+        "hints": [
+          "Ungkapan saran klasik 'Jika aku jadi kamu...'.",
+          "Bentuk baku pengandaian adalah 'were'."
+        ],
+        "skill": "conditional-subjunctive-were"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan mengenai rencana jika hujan turun.",
+        "dialogue": [
+          [
+            "Host",
+            "What will we do if it ___ during the outdoor reception?"
+          ],
+          [
+            "Planner",
+            "We will move all guests straight into the glass pavilion."
+          ]
+        ],
+        "options": [
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "answer": 0,
+        "explanation": "Dalam if-clause First Conditional, JANGAN memakai 'will'; gunakan Present Simple ('rains').",
+        "hints": [
+          "Lihat verb hasil 'will move' (Tipe 1).",
+          "Setelah 'If' pada Tipe 1, gunakan Present Simple."
+        ],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "choice",
+        "prompt": "If Nina spoke Japanese fluently, she ___ apply for the Tokyo coordinator post.",
+        "options": [
+          "could",
+          "can",
+          "will"
+        ],
+        "answer": 0,
+        "explanation": "Dalam hasil Second Conditional (if-clause memakai V2 'spoke'), modal kemampuannya bergeser ke bentuk lampau 'could'.",
+        "hints": [
+          "If-clause memakai V2 'spoke' (Tipe 2).",
+          "Pasangkan dengan modal Tipe 2 'could'."
+        ],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ganda pemakaian 'would' di dalam if-clause Tipe 2 berikut.",
+        "draft": "If our branch would have a bigger warehouse, we could store seasonal stock locally.",
+        "options": [
+          "If our branch had a bigger warehouse, we could store seasonal stock locally.",
+          "If our branch has a bigger warehouse, we could store seasonal stock locally.",
+          "If our branch would had a bigger warehouse, we could store seasonal stock locally."
+        ],
+        "answer": 0,
+        "explanation": "Jangan pernah meletakkan 'would' di dalam if-clause pengandaian standar; gunakan V2 'had'.",
+        "hints": [
+          "Klausa 'If' tidak memakai 'would'.",
+          "Ubah 'would have' menjadi Past Simple 'had'."
+        ],
+        "skill": "conditional-type-2-error"
+      },
+      {
+        "type": "choice",
+        "prompt": "If the sensor detects a gas leak, the alarm ___ automatically.",
+        "options": [
+          "sounds",
+          "would sound",
+          "sounded tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "Zero/First Conditional untuk sistem otomatis atau fakta pasti: Present Simple berpasangan dengan Present Simple ('sounds') atau 'will sound'.",
+        "hints": [
+          "Aturan sistem otomatis yang selalu berlaku.",
+          "Subjek tunggal 'the alarm' memakai 'sounds'."
+        ],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Conditional Tipe 1 memakai modal saran 'should'.",
+        "targetSentence": "If the warning light flashes, you should turn off the compressor.",
+        "explanation": "Tipe 1 dapat memadukan 'If + Present Simple' dengan modal saran 'should + V1' di klausa hasil.",
+        "hints": [
+          "Awali dengan 'If the warning light flashes,'.",
+          "Lanjutkan saran 'you should turn off the compressor'."
+        ],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengandaian Tipe 2 memakai subjunctive 'were'.",
+        "targetSentence": "If the regional office were closer, we would hold weekly workshops in person.",
+        "explanation": "Situasi hipotetis kini memakai 'were' di if-clause dan 'would + V1' di klausa utama.",
+        "hints": [
+          "Mulai dengan 'If the regional office were closer,'.",
+          "Lengkapi klausa hasil 'would hold...'."
+        ],
         "skill": "conditional-subjunctive-were"
       }
     ],
@@ -70,31 +268,58 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog negosiasi dengan First Conditional.",
         "dialogue": [
-          ["Supplier", "What if our production costs escalate next month?"],
-          ["Buyer", "If the price increases significantly, we ___ to renegotiate the volume quota."]
+          [
+            "Supplier",
+            "What if our production costs escalate next month?"
+          ],
+          [
+            "Buyer",
+            "If the price increases significantly, we ___ to renegotiate the volume quota."
+          ]
         ],
-        "options": ["will have", "would have", "had"],
+        "options": [
+          "will have",
+          "would have",
+          "had"
+        ],
         "answer": 0,
         "explanation": "Klausa 'if' memakai Present Simple ('increases'), maka konsekuensi masa depan memakai 'will have to renegotiate'.",
-        "hints": ["First Conditional nyata.", "Gunakan 'will have'."],
+        "hints": [
+          "First Conditional nyata.",
+          "Gunakan 'will have'."
+        ],
         "skill": "conditional-type-1"
       },
       {
         "type": "choice",
         "prompt": "What ___ you do if you suddenly discovered an unpatched security breach on the server?",
-        "options": ["would", "will", "did"],
+        "options": [
+          "would",
+          "will",
+          "did"
+        ],
         "answer": 0,
         "explanation": "Klausa 'if' menggunakan Past Simple ('discovered'), menandakan situasi hipotetis (Second Conditional), sehingga pertanyaan memakai 'would you do'.",
-        "hints": ["Situasi hipotetis di masa sekarang.", "Gunakan modal 'would'."],
+        "hints": [
+          "Situasi hipotetis di masa sekarang.",
+          "Gunakan modal 'would'."
+        ],
         "skill": "conditional-type-2"
       },
       {
         "type": "choice",
         "prompt": "In First Conditional, we can use modals like 'can' or 'may' in the main clause: 'If you complete the task early, you ___ leave the office.'",
-        "options": ["may", "would", "might have"],
+        "options": [
+          "may",
+          "would",
+          "might have"
+        ],
         "answer": 0,
         "explanation": "Klausa utama First Conditional dapat memakai modal lain seperti 'may' (izin), 'can' (kemampuan), atau 'should' (saran) selain 'will'.",
-        "hints": ["Memberikan izin bersyarat.", "Gunakan modal 'may'."],
+        "hints": [
+          "Memberikan izin bersyarat.",
+          "Gunakan modal 'may'."
+        ],
         "skill": "conditional-modal-variations"
       },
       {
@@ -102,16 +327,26 @@
         "prompt": "Susun kalimat Second Conditional dengan modal kemungkinan 'could'.",
         "targetSentence": "If we had more budget we could hire two developers.",
         "explanation": "If + Past Simple (had) + could + base verb (hire) + two developers.",
-        "hints": ["Klausa if: 'If we had more budget'.", "Main clause memakai 'we could hire two developers'."],
+        "hints": [
+          "Klausa if: 'If we had more budget'.",
+          "Main clause memakai 'we could hire two developers'."
+        ],
         "skill": "conditional-modal-variations"
       },
       {
         "type": "choice",
         "prompt": "Provided that the client ___ the wire transfer by 3 p.m., the goods will be dispatched today.",
-        "options": ["completes", "will complete", "completed"],
+        "options": [
+          "completes",
+          "will complete",
+          "completed"
+        ],
         "answer": 0,
         "explanation": "'Provided that' bertindak sebagai pengganti 'if'. Di dalam klausanya, gunakan Present Simple ('completes').",
-        "hints": ["'Provided that' berfungsi sama seperti 'if'.", "Gunakan Present Simple 'completes'."],
+        "hints": [
+          "'Provided that' berfungsi sama seperti 'if'.",
+          "Gunakan Present Simple 'completes'."
+        ],
         "skill": "conditional-alternatives"
       },
       {
@@ -119,21 +354,198 @@
         "prompt": "Susun kalimat pengandaian dengan 'as long as'.",
         "targetSentence": "You can borrow my car as long as you drive carefully.",
         "explanation": "Main clause (You can borrow my car) + as long as + Present Simple clause (you drive carefully).",
-        "hints": ["Klausa izin: 'You can borrow my car'.", "Klausa syarat: 'as long as you drive carefully'."],
+        "hints": [
+          "Klausa izin: 'You can borrow my car'.",
+          "Klausa syarat: 'as long as you drive carefully'."
+        ],
         "skill": "conditional-alternatives"
       },
       {
         "type": "dialogue",
         "prompt": "Pilih bentuk hipotetis yang tepat dalam dialog karir.",
         "dialogue": [
-          ["Mentor", "Why don't you apply for the regional vice president position?"],
-          ["Manager", "If I applied, I ___ have to relocate my family abroad, which I don't want to do."]
+          [
+            "Mentor",
+            "Why don't you apply for the regional vice president position?"
+          ],
+          [
+            "Manager",
+            "If I applied, I ___ have to relocate my family abroad, which I don't want to do."
+          ]
         ],
-        "options": ["would", "will", "can"],
+        "options": [
+          "would",
+          "will",
+          "can"
+        ],
         "answer": 0,
         "explanation": "Subjek tidak berniat melamar secara riil ('which I don't want to do'), jadi ini situasi hipotetis Second Conditional: 'If I applied, I would have to...'.",
-        "hints": ["Situasi hipotetis yang tidak diniatkan terjadi.", "Gunakan 'would'."],
+        "hints": [
+          "Situasi hipotetis yang tidak diniatkan terjadi.",
+          "Gunakan 'would'."
+        ],
         "skill": "conditional-type-2"
+      },
+      {
+        "type": "choice",
+        "prompt": "You may borrow the studio lighting kit ___ you sign the equipment logbook.",
+        "options": [
+          "provided that",
+          "unless",
+          "in case of"
+        ],
+        "answer": 0,
+        "explanation": "'Provided that' (atau 'as long as') bermakna 'dengan syarat / asalkan' diikuti klausa S+V.",
+        "hints": [
+          "Maknanya syarat positif yang harus dipenuhi.",
+          "'Provided that' berarti 'on condition that'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "choice",
+        "prompt": "Bring an extra power bank with you ___ the venue lacks available wall outlets.",
+        "options": [
+          "in case",
+          "unless",
+          "as long as"
+        ],
+        "answer": 0,
+        "explanation": "'In case' berarti langkah berjaga-jaga dari sekarang untuk mengantisipasi kemungkinan situasi ('kalau-kalau tidak ada colokan').",
+        "hints": [
+          "Membawa power bank adalah langkah antisipasi sejak awal.",
+          "Bedakan 'in case' (berjaga-jaga) dengan 'if' (syarat terjadi baru bertindak)."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog negosiasi agar Conditional Tipe 1 terdengar lebih tentatif/sopan.",
+        "dialogue": [
+          [
+            "Client",
+            "What if we order five hundred units at once?"
+          ],
+          [
+            "Sales",
+            "If you ___ happen to place a bulk order, we could waive the freight fee."
+          ]
+        ],
+        "options": [
+          "should",
+          "would",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "'If + S + should happen to + V1' dalam Tipe 1 membuat syarat terdengar lebih tentatif dan diplomatis dalam negosiasi bisnis.",
+        "hints": [
+          "Pola diplomatis Tipe 1: 'If you should...' (seandainya saja).",
+          "Jangan memakai 'would' di dalam if-clause."
+        ],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Suppose the train ___ delayed for an hour — how would we reach the port in time?",
+        "options": [
+          "were",
+          "will be",
+          "is being tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "'Suppose' sebagai alternatif 'If' pada skenario khayalan Tipe 2 dipasangkan dengan 'were' dan klausa hasil 'would'.",
+        "hints": [
+          "Lihat klausa kedua memakai 'would we reach' (Tipe 2).",
+          "Pengandaian 'Suppose' selevel Tipe 2 memakai 'were'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "choice",
+        "prompt": "She might join the hiking trip tomorrow if she ___ finish her audit tonight.",
+        "options": [
+          "can",
+          "could have",
+          "will"
+        ],
+        "answer": 0,
+        "explanation": "Pada pengandaian nyata Tipe 1, if-clause dapat memakai Present modal 'can' ('if she can finish') berpasangan dengan 'might/will' di klausa hasil.",
+        "hints": [
+          "Rencana nyata besok dan malam ini.",
+          "Gunakan Present 'can', bukan 'will'."
+        ],
+        "skill": "conditional-modal-variations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan 'unless' dengan kalimat negatif di dalamnya berikut.",
+        "draft": "The system won't save your draft unless you don't click the confirm button.",
+        "options": [
+          "The system won't save your draft unless you click the confirm button.",
+          "The system won't save your draft if you click the confirm button.",
+          "The system wouldn't save your draft unless you don't clicked the confirm button."
+        ],
+        "answer": 0,
+        "explanation": "'Unless' sudah bermakna 'if ... not'; menambahkan 'don't' setelah 'unless' membalik makna menjadi positif keliru.",
+        "hints": [
+          "'Unless' = 'if not', jadi jangan diisi 'don't' lagi.",
+          "Hapus 'don't' sehingga menjadi 'unless you click'."
+        ],
+        "skill": "conditional-unless"
+      },
+      {
+        "type": "choice",
+        "prompt": "If we ___ a local translator, our negotiations with the Kyoto partner would move much faster.",
+        "options": [
+          "hired",
+          "hire",
+          "will hire"
+        ],
+        "answer": 0,
+        "explanation": "Klausa hasil memakai 'would move' (Second Conditional), sehingga if-clause mewajibkan Past Simple ('hired').",
+        "hints": [
+          "Konteksnya khayalan saat ini ('would move').",
+          "If-clause Tipe 2 memakai V2 'hired'."
+        ],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "choice",
+        "prompt": "If anyone calls while I am in the boardroom, ___ a message for me, please.",
+        "options": [
+          "take",
+          "will take",
+          "would take"
+        ],
+        "answer": 0,
+        "explanation": "First Conditional juga lazim memakai kalimat perintah (Imperative 'take...') di klausa hasil.",
+        "hints": [
+          "Klausa utama berupa instruksi/perintah sopan.",
+          "Kalimat perintah langsung memakai V1 'take'."
+        ],
+        "skill": "conditional-type-1"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat syarat memakai 'on condition that'.",
+        "targetSentence": "The bank will approve the loan on condition that you provide collateral.",
+        "explanation": "'On condition that' berfungsi setara 'provided that' sebagai syarat formal perjanjian.",
+        "hints": [
+          "Awali dengan 'The bank will approve the loan'.",
+          "Tambahkan klausa syarat 'on condition that...'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pengandaian Tipe 2 dengan modal 'might' di klausa hasil.",
+        "targetSentence": "If the café stayed open later, more students might study there.",
+        "explanation": "If + V2 ('stayed') berpasangan dengan 'might + V1' untuk kemungkinan hasil hipotetis.",
+        "hints": [
+          "Mulai dengan 'If the café stayed open later,'.",
+          "Akhiri dengan 'more students might study there'."
+        ],
+        "skill": "conditional-modal-variations"
       }
     ],
     "complex": [
@@ -148,25 +560,42 @@
         ],
         "answer": 0,
         "explanation": "Kesalahan 'would in the if-clause': modal 'would' TIDAK BOLEH diletakkan di dalam klausa 'if'. Rumus Second Conditional yang benar: If + Past Simple ('invested'), ... would + V1.",
-        "hints": ["Modal 'would' pantang ditaruh di dalam klausa 'if'.", "Ubah menjadi Past Simple 'If the company invested'."],
+        "hints": [
+          "Modal 'would' pantang ditaruh di dalam klausa 'if'.",
+          "Ubah menjadi Past Simple 'If the company invested'."
+        ],
         "skill": "conditional-type-2-error"
       },
       {
         "type": "choice",
         "prompt": "Formal Inversion First Conditional (omitting 'if'): '___ you require further technical documentation, please contact our support desk.'",
-        "options": ["Should", "If should", "Had"],
+        "options": [
+          "Should",
+          "If should",
+          "Had"
+        ],
         "answer": 0,
         "explanation": "Dalam bahasa Inggris bisnis formal, 'if' dapat dihilangkan dengan membalik modal 'Should' ke awal kalimat (Inverted First Conditional): 'Should you require...' = 'If you require...'.",
-        "hints": ["Inversi formal menggantikan 'if' dengan 'Should' di awal.", "Gunakan 'Should you require'."],
+        "hints": [
+          "Inversi formal menggantikan 'if' dengan 'Should' di awal.",
+          "Gunakan 'Should you require'."
+        ],
         "skill": "conditional-inversion"
       },
       {
         "type": "choice",
         "prompt": "Formal Inversion Second Conditional: '___ the board to reject the proposal, the merger would collapse immediately.'",
-        "options": ["Were", "If were", "Had"],
+        "options": [
+          "Were",
+          "If were",
+          "Had"
+        ],
         "answer": 0,
         "explanation": "Inversi formal Second Conditional: 'Were + Subject + to-infinitive' ('Were the board to reject...') menggantikan 'If the board rejected...'.",
-        "hints": ["Inversi formal Second Conditional dengan 'Were... to-infinitive'.", "Gunakan 'Were' di awal kalimat."],
+        "hints": [
+          "Inversi formal Second Conditional dengan 'Were... to-infinitive'.",
+          "Gunakan 'Were' di awal kalimat."
+        ],
         "skill": "conditional-inversion"
       },
       {
@@ -174,7 +603,10 @@
         "prompt": "Susun kalimat inversi formal Second Conditional.",
         "targetSentence": "Were I in your position I would decline the offer.",
         "explanation": "Inversi: Were I in your position (menggantikan 'If I were in your position') + I would decline the offer.",
-        "hints": ["Awali dengan inversi 'Were I in your position'.", "Main clause: 'I would decline the offer'."],
+        "hints": [
+          "Awali dengan inversi 'Were I in your position'.",
+          "Main clause: 'I would decline the offer'."
+        ],
         "skill": "conditional-inversion"
       },
       {
@@ -188,29 +620,214 @@
         ],
         "answer": 0,
         "explanation": "Klausa 'if' menggunakan Present Simple 'rises', maka main clause harus konsisten dengan First Conditional menggunakan modal 'will': 'I will be surprised'.",
-        "hints": ["Jaga konsistensi antara klausa 'if' (Present) dan main clause (will).", "Gunakan 'will be surprised'."],
+        "hints": [
+          "Jaga konsistensi antara klausa 'if' (Present) dan main clause (will).",
+          "Gunakan 'will be surprised'."
+        ],
         "skill": "conditional-type-1"
       },
       {
         "type": "choice",
         "prompt": "Supposing the transaction ___ disputed by the cardholder, what protocol would we follow?",
-        "options": ["were", "will be", "is being"],
+        "options": [
+          "were",
+          "will be",
+          "is being"
+        ],
         "answer": 0,
         "explanation": "'Supposing' bertindak sebagai konjungsi pengandaian hipotetis ('What if'). Diikuti oleh bentuk subjunctive lampau 'were': 'Supposing the transaction were disputed...'.",
-        "hints": ["Konjungsi pengandaian hipotetis 'Supposing'.", "Gunakan bentuk subjunctive 'were'."],
+        "hints": [
+          "Konjungsi pengandaian hipotetis 'Supposing'.",
+          "Gunakan bentuk subjunctive 'were'."
+        ],
         "skill": "conditional-alternatives"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog negosiasi dengan inversi formal 'Should'.",
         "dialogue": [
-          ["Client", "What happens if our requirements change mid-project?"],
-          ["Consultant", "___ any scope adjustments arise, we will submit an addendum for mutual review."]
+          [
+            "Client",
+            "What happens if our requirements change mid-project?"
+          ],
+          [
+            "Consultant",
+            "___ any scope adjustments arise, we will submit an addendum for mutual review."
+          ]
         ],
-        "options": ["Should", "Were", "Had"],
+        "options": [
+          "Should",
+          "Were",
+          "Had"
+        ],
         "answer": 0,
         "explanation": "Inverted First Conditional untuk kemungkinan masa depan dalam korespondensi bisnis formal: 'Should any scope adjustments arise' (setara dengan 'If any scope adjustments arise').",
-        "hints": ["Inversi formal masa depan dengan 'Should'.", "Diikuti kata kerja dasar 'arise'."],
+        "hints": [
+          "Inversi formal masa depan dengan 'Should'.",
+          "Diikuti kata kerja dasar 'arise'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the prototype to fail stress testing next week, our engineers already have a backup design.",
+        "options": [
+          "Were",
+          "If was",
+          "Should were"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Second Conditional untuk situasi masa depan hipotetis memakai pola formal: 'Were + Subject + to + V1' (setara 'If the prototype were to fail').",
+        "hints": [
+          "Perhatikan kata 'to fail' setelah subjek 'the prototype'.",
+          "Inversi Tipe 2 dengan 'to + V1' diawali 'Were'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you require further technical documentation, please contact our engineering helpdesk.",
+        "options": [
+          "Should",
+          "Were",
+          "Did"
+        ],
+        "answer": 0,
+        "explanation": "Inversi First Conditional formal dalam korespondensi bisnis mengganti 'If you should require...' menjadi 'Should + Subject + V1'.",
+        "hints": [
+          "Lihat base verb 'require' setelah subjek 'you'.",
+          "Inversi sopan Tipe 1 diawali 'Should'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan inversi Tipe 2 untuk kata kerja biasa tanpa 'to' berikut.",
+        "draft": "Owned our clinic an MRI scanner, patients wouldn't need to travel downtown.",
+        "options": [
+          "Did our clinic own an MRI scanner, or Were our clinic to own an MRI scanner, patients wouldn't need to travel downtown.",
+          "Were our clinic own an MRI scanner, patients wouldn't need to travel downtown.",
+          "Owned if our clinic an MRI scanner, patients wouldn't need to travel downtown."
+        ],
+        "answer": 0,
+        "explanation": "Dalam Second Conditional, inversi TIDAK boleh membalik main verb biasa ('Owned our clinic...'); inversi Tipe 2 hanya berlaku dengan 'Were' (to be atau 'Were + S + to V1').",
+        "hints": [
+          "Main verb biasa seperti 'own' tidak bisa langsung dibalik di awal kalimat.",
+          "Gunakan 'Were our clinic to own...' untuk inversi Tipe 2."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog formal negosiasi mengenai ungkapan syarat pengecualian ('Were it not for').",
+        "dialogue": [
+          [
+            "Director",
+            "Could the startup survive without that seed grant?"
+          ],
+          [
+            "Advisor",
+            "Honestly, ___ that initial grant, the lab would still be operating out of a garage."
+          ]
+        ],
+        "options": [
+          "were it not for",
+          "if it isn't for",
+          "had it not been without"
+        ],
+        "answer": 0,
+        "explanation": "Frasa inversi Second Conditional 'Were it not for + noun' bermakna 'Andaikan bukan karena [hal X sekarang], akibatnya...' berpasangan dengan 'would + V1' (atau 'would still be operating').",
+        "hints": [
+          "Lihat klausa hasil 'would still be operating' (Tipe 2 sekarang).",
+          "Ungkapan baku inversi pengandaian tanpa hal X adalah 'Were it not for'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "In rare polite requests, 'will/would' IS allowed inside an if-clause — which sentence uses it accurately?",
+        "options": [
+          "If you would kindly sign here, I can finalize your pass.",
+          "If it will rain tonight, we cancel the garden party.",
+          "If he would be taller, he could reach the top shelf."
+        ],
+        "answer": 0,
+        "explanation": "Meski biasanya 'will/would' terlarang di if-clause, pengecualian muncul saat 'will/would' bermakna KESEDIAAN / permintaan sopan ('Jika Anda berkenan...').",
+        "hints": [
+          "Cari penggunaan 'would' yang bermakna 'bersedia / berkenan' dalam permintaan sopan.",
+          "Bukan merujuk syarat cuaca atau keadaan."
+        ],
+        "skill": "conditional-type-2-error"
+      },
+      {
+        "type": "choice",
+        "prompt": "What ___ happen if an automated trading algorithm misread a currency decimal?",
+        "options": [
+          "would",
+          "will be",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan hipotetis Second Conditional menggunakan 'would + V1' di klausa hasil berpasangan dengan Past Simple ('misread' /mɪsˈred/) di if-clause.",
+        "hints": [
+          "Perhatikan V2 'misread' pada if-clause.",
+          "Klausa hasil Tipe 2 memakai modal 'would'."
+        ],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk pengandaian negatif 'But for' vs klausa lengkap berikut.",
+        "draft": "But for the quick response of the night nurse didn't arrive, the patient wouldn't recover.",
+        "options": [
+          "But for the quick response of the night nurse, the patient wouldn't recover.",
+          "But for the quick response of the night nurse arrived, the patient wouldn't recover.",
+          "If not for the quick response of the night nurse didn't arrive, the patient wouldn't recover."
+        ],
+        "answer": 0,
+        "explanation": "'But for' adalah frasa preposisi pengandaian (setara 'Without / If it were not for') sehingga HANYA boleh diikuti Noun Phrase ('the quick response...'), bukan klausa dengan verb.",
+        "hints": [
+          "'But for' = preposisi 'tanpa adanya...'.",
+          "Jangan tambahkan kata kerja di dalam frasa setelah 'But for'."
+        ],
+        "skill": "conditional-alternatives"
+      },
+      {
+        "type": "choice",
+        "prompt": "Suppose the city council ___ to approve the tram line tomorrow — how long would construction take?",
+        "options": [
+          "were",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Suppose', struktur 'were to + V1' menyatakan skenario masa depan hipotetis yang selaras dengan klausa hasil 'would construction take'.",
+        "hints": [
+          "Lihat struktur '...to approve' dan hasil 'would... take'.",
+          "Pasangkan 'were' sebelum 'to approve'."
+        ],
+        "skill": "conditional-type-2"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi First Conditional untuk email bisnis sopan.",
+        "targetSentence": "Should you need any billing adjustments, please reply to this message.",
+        "explanation": "'Should + Subject + V1' di awal kalimat menggantikan 'If you should need...'.",
+        "hints": [
+          "Mulai dengan 'Should you need any billing adjustments,'.",
+          "Akhiri dengan instruksi sopan 'please reply to this message'."
+        ],
+        "skill": "conditional-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi Second Conditional menggunakan 'Were it not for'.",
+        "targetSentence": "Were it not for strict quality audits, defective parts would reach retail stores.",
+        "explanation": "'Were it not for + noun phrase' bermakna 'Seandainya tidak ada...' + 'would + V1'.",
+        "hints": [
+          "Awali dengan 'Were it not for strict quality audits,'.",
+          "Tambahkan klausa hasil 'defective parts would reach retail stores'."
+        ],
         "skill": "conditional-inversion"
       }
     ]

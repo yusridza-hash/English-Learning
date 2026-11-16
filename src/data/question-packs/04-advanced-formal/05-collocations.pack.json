@@ -99,6 +99,167 @@
           "Frasa kolokasi: 'cast doubt on the verdict'."
         ],
         "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "After checking the shipping manifest twice, the intern realized he had ___ a minor calculation mistake.",
+        "options": [
+          "made",
+          "done",
+          "taken"
+        ],
+        "answer": 0,
+        "explanation": "Kata 'mistake' selalu berkolokasi dengan kata kerja 'make' ('make a mistake'), tidak pernah 'do a mistake'.",
+        "hints": [
+          "Pasangan kata baku dengan 'mistake' adalah 'make'.",
+          "Make - made - made."
+        ],
+        "skill": "make-vs-do-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our R&D division is currently ___ preliminary research on biodegradable packaging films.",
+        "options": [
+          "conducting / doing",
+          "making",
+          "creating"
+        ],
+        "answer": 0,
+        "explanation": "'Research' berkolokasi dengan 'do research' atau 'conduct research' — JANGAN memakai 'make research'.",
+        "hints": [
+          "'Research' tidak pernah berpasangan dengan 'make'.",
+          "Pilih 'conducting / doing'."
+        ],
+        "skill": "make-vs-do-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please drive slowly; ___ rain has reduced highway visibility to fifty meters.",
+        "options": [
+          "heavy",
+          "strong",
+          "big"
+        ],
+        "answer": 0,
+        "explanation": "Untuk menggambarkan curah hujan lebat, kolokasi alami bahasa Inggris adalah 'heavy rain' (bukan 'strong rain' atau 'big rain').",
+        "hints": [
+          "Hujan deras berpasangan dengan kata sifat 'heavy'.",
+          "Bedakan dari angin ('strong wind')."
+        ],
+        "skill": "adjective-noun-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice that coffee, wind, and opinions pair differently from rain: '___ coastal winds forced the harbor to pause crane operations.'",
+        "options": [
+          "Strong",
+          "Heavy",
+          "Tall"
+        ],
+        "answer": 0,
+        "explanation": "Angin kencang berkolokasi dengan 'strong wind(s)' (atau 'high winds'), bukan 'heavy wind'.",
+        "hints": [
+          "Kolokasi baku untuk angin bertiup kencang adalah 'strong'.",
+          "Pilih 'Strong'."
+        ],
+        "skill": "adjective-noun-collocations"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan kantor dengan kolokasi verb + noun yang alami.",
+        "dialogue": [
+          [
+            "Coordinator",
+            "We need to launch the bilingual help portal this quarter."
+          ],
+          [
+            "Manager",
+            "Agreed — let's ___ a clear target for beta testing first."
+          ]
+        ],
+        "options": [
+          "set",
+          "put",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi tetap untuk menetapkan tujuan/sasaran adalah 'set a target' atau 'set a goal'.",
+        "hints": [
+          "Kata benda setelah rumpang adalah 'a clear target'.",
+          "Pasangan baku: 'set a target'."
+        ],
+        "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our audit team feels ___ confident that the new firewall blocked every intrusion.",
+        "options": [
+          "fully / highly",
+          "deeply",
+          "bitterly"
+        ],
+        "answer": 0,
+        "explanation": "'Confident' berkolokasi dengan 'highly confident' atau 'fully confident', bukan 'bitterly' (yang berpasangan dengan 'disappointed/cold').",
+        "hints": [
+          "Cek adverb penguat alami untuk 'confident'.",
+          "'Bitterly' khusus untuk hal negatif seperti kekecewaan."
+        ],
+        "skill": "adverb-adjective-collocations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kolokasi verb + noun yang umum diterjemahkan mentah-mentah berikut.",
+        "draft": "Before making a conclusion about battery decay, engineers must do more tests.",
+        "options": [
+          "Before drawing a conclusion about battery decay, engineers must conduct more tests.",
+          "Before doing a conclusion about battery decay, engineers must make more tests.",
+          "Before taking a conclusion about battery decay, engineers must build more tests."
+        ],
+        "answer": 0,
+        "explanation": "Kesimpulan selalu 'draw a conclusion' atau 'reach a conclusion' (bukan 'make/do a conclusion'), dan uji ilmiah memakai 'conduct/run tests' (bukan 'make tests').",
+        "hints": [
+          "Kolokasi baku: 'draw/reach a conclusion' dan 'conduct tests'.",
+          "Jangan memakai 'make a conclusion'."
+        ],
+        "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Maya decided to ___ advantage of the weekend discount to renew her cloud subscription.",
+        "options": [
+          "take",
+          "make",
+          "get"
+        ],
+        "answer": 0,
+        "explanation": "Idiom kolokasi tetap yang berarti memanfaatkan peluang adalah 'take advantage of'.",
+        "hints": [
+          "Ungkapan tetap: '... advantage of'.",
+          "Pasangannya adalah 'take'."
+        ],
+        "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai kolokasi tepat untuk tanggung jawab.",
+        "targetSentence": "Experienced supervisors always take full responsibility for team safety.",
+        "explanation": "Kolokasi baku adalah 'take (full) responsibility for', bukan 'do' atau 'make responsibility'.",
+        "hints": [
+          "Awali dengan 'Experienced supervisors always take full'.",
+          "Sambungkan dengan 'responsibility for team safety'."
+        ],
+        "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan adverb-adjective collocation yang alami.",
+        "targetSentence": "Early user feedback proved overwhelmingly positive across all five test cities.",
+        "explanation": "'Overwhelmingly' adalah penguat alami untuk sifat positif kuat ('overwhelmingly positive').",
+        "hints": [
+          "Mulai dengan 'Early user feedback proved'.",
+          "Pasangkan 'overwhelmingly positive'."
+        ],
+        "skill": "adverb-adjective-collocations"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'make'."
         ],
         "skill": "verb-noun-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "The maritime dispute had ___ consequences for coastal fishing cooperatives over the next five years.",
+        "options": [
+          "far-reaching",
+          "wide-tall",
+          "heavy-broad"
+        ],
+        "answer": 0,
+        "explanation": "Adjective kolokasi baku untuk dampak jangka panjang yang luas adalah 'far-reaching consequences' (atau 'profound consequences').",
+        "hints": [
+          "Adjective majemuk yang berkolokasi dengan 'consequences'.",
+          "Pilih 'far-reaching'."
+        ],
+        "skill": "academic-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait — the committee was ___ aware of the zoning restriction before purchasing the land.",
+        "options": [
+          "fully",
+          "bitterly",
+          "heavily"
+        ],
+        "answer": 0,
+        "explanation": "'Aware' berkolokasi sangat kuat dengan 'fully aware' atau 'acutely aware' (tidak pernah 'heavily aware' atau 'bitterly aware').",
+        "hints": [
+          "Cari adverb penguat baku untuk 'aware'.",
+          "Pasangannya: 'fully / acutely aware'."
+        ],
+        "skill": "adverb-adjective-collocations"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di ruang operasi tentang kolokasi verb-preposisi yang presisi.",
+        "dialogue": [
+          [
+            "Lead",
+            "Should we rely on automated alerts alone?"
+          ],
+          [
+            "Analyst",
+            "No — our workflow must ___ manual verification whenever amounts exceed ten million."
+          ]
+        ],
+        "options": [
+          "incorporate / adhere to",
+          "insist of",
+          "depend into"
+        ],
+        "answer": 0,
+        "explanation": "Pastikan verb dan preposisinya akurat: 'adhere to' (= mematuhi) atau transitif langsung 'incorporate' ('insist on', 'depend on' — opsi B & C salah preposisi!).",
+        "hints": [
+          "Periksa keakuratan preposisi pada dua pilihan pengecoh.",
+          "Hanya opsi pertama yang benar kolokasi dan tata bahasanya."
+        ],
+        "skill": "verb-preposition-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both negotiating teams struggled to ___ common ground on overtime compensation.",
+        "options": [
+          "find / reach",
+          "do",
+          "earn"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi idiomatik negosiasi bisnis untuk menemukan titik temu adalah 'find common ground' atau 'reach common ground'.",
+        "hints": [
+          "Titik temu bersama dalam negosiasi: '... common ground'.",
+          "Pasangannya adalah 'find' atau 'reach'."
+        ],
+        "skill": "idiomatic-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rising freight insurance fees ___ a serious threat to small-scale spice exporters.",
+        "options": [
+          "pose",
+          "do",
+          "make"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi akademis wajib untuk 'threat' atau 'risk' adalah 'pose a threat / pose a risk' (bukan 'make a threat' dalam konteks risiko ekonomi).",
+        "hints": [
+          "Kata benda 'threat' atau 'challenge' berkolokasi dengan verb 'pose'.",
+          "Pilih 'pose'."
+        ],
+        "skill": "academic-collocations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan terjemahan harfiah kolokasi verb + noun pada kalimat laporan keuangan berikut.",
+        "draft": "Strong monsoon winds did heavy damage on the wooden warehouse, yet the firm made a rapid profit recovery.",
+        "options": [
+          "Strong monsoon winds caused severe damage to the wooden warehouse, yet the firm achieved a rapid profit recovery.",
+          "Strong monsoon winds made heavy damage at the wooden warehouse, yet the firm did a rapid profit recovery.",
+          "Strong monsoon winds posed heavy damage for the wooden warehouse, yet the firm took a rapid profit recovery."
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi presisi: 'cause severe/extensive damage TO something' (bukan 'do damage on'), dan 'achieve a recovery' (bukan 'make/do a recovery').",
+        "hints": [
+          "Damage berpasangan dengan 'cause ... to'; recovery memakai 'achieve'.",
+          "Periksa preposisi 'to' setelah 'damage'."
+        ],
+        "skill": "collocation-precision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "She feels ___ committed to mentoring first-generation engineering undergraduates.",
+        "options": [
+          "deeply",
+          "heavily",
+          "loudly"
+        ],
+        "answer": 0,
+        "explanation": "'Committed' (dan 'concerned', 'involved') berkolokasi kuat dengan 'deeply committed'.",
+        "hints": [
+          "Adverb emosi/dedikasi mendalam untuk 'committed' adalah 'deeply'.",
+          "Pilih 'deeply'."
+        ],
+        "skill": "adverb-adjective-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "New safety regulations are ___ effective only when backed by regular workplace audits.",
+        "options": [
+          "genuinely / truly",
+          "bitterly",
+          "tallly"
+        ],
+        "answer": 0,
+        "explanation": "'Effective' berkolokasi dengan adverb 'genuinely', 'highly', atau 'remarkably' — tidak pernah 'bitterly'.",
+        "hints": [
+          "Cari adverb penguat bermakna positif/objektif sebelum 'effective'.",
+          "Pilih 'genuinely / truly'."
+        ],
+        "skill": "adverb-adjective-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademis memakai kolokasi 'bridge the gap'.",
+        "targetSentence": "Regional vocational scholarships help bridge the gap between classroom theory and industry.",
+        "explanation": "Idiom kolokasi baku 'bridge the gap between A and B' berarti menjembatani kesenjangan.",
+        "hints": [
+          "Awali dengan 'Regional vocational scholarships help bridge the gap'.",
+          "Tambahkan pasangan 'between classroom theory and industry'."
+        ],
+        "skill": "idiomatic-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai kolokasi 'shed light on' dalam abstrak riset.",
+        "targetSentence": "Deep-sea core samples shed new light on prehistoric monsoons.",
+        "explanation": "Ungkapan 'shed (new) light on' berarti memberi penjelasan baru yang menerangi suatu topik.",
+        "hints": [
+          "Mulai dengan 'Deep-sea core samples shed new light on'.",
+          "Lengkapi objek risetnya."
+        ],
+        "skill": "idiomatic-collocations"
       }
     ],
     "complex": [
@@ -342,6 +664,168 @@
         "hints": [
           "Kolokasi baku mempertanyakan keabsahan.",
           "Gunakan 'calls into question'."
+        ],
+        "skill": "fixed-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Spot the subtle collocation clash inside this formal policy critique: 'The agency made a strong commitment to alleviate the stark poverty gap, though analysts remain bitterly skeptical.'",
+        "options": [
+          "'Bitterly skeptical' clashes; English pairs 'deeply/highly skeptical' (while 'bitterly' pairs with 'disappointed/divided/cold')",
+          "'Made a commitment' is impossible in English",
+          "'Stark' cannot describe contrast or poverty"
+        ],
+        "answer": 0,
+        "explanation": "Dalam penguasaan kolokasi tingkat C1/C2, adverb 'bitterly' hampir eksklusif mengikat kata seperti 'bitterly disappointed', 'bitterly cold', atau 'bitterly divided', bukan 'skeptical' (yang memakai 'deeply/highly skeptical').",
+        "hints": [
+          "Periksa apakah adverb 'bitterly' berkolokasi alami dengan 'skeptical'.",
+          "Bedakan 'bitterly disappointed' vs 'deeply skeptical'."
+        ],
+        "skill": "collocation-precision-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why do corpus linguists describe collocations as 'arbitrary probabilistic co-occurrences' rather than logical grammar rules?",
+        "options": [
+          "Because native preference dictates fixed pairs like 'heavy rain' vs 'strong wind' even when both mean high intensity",
+          "Because collocations forbid adjectives before plural nouns",
+          "Because only irregular verbs form collocations in academic prose"
+        ],
+        "answer": 0,
+        "explanation": "Dari sudut pandang linguistik korpus (Firth / Sinclair), kolokasi bersifat konvensional dan probabilistik: tidak ada alasan logika murni mengapa hujan memakai 'heavy' sedangkan angin memakai 'strong' selain kebiasaan penggunaan penutur yang mengendap.",
+        "hints": [
+          "Pikirkan mengapa 'heavy smoker' dan 'strong tea' benar, sementara kebalikannya janggal meski maknanya sama.",
+          "Kolokasi ditentukan konvensi penggunaan korpus, bukan logika abstrak semata."
+        ],
+        "skill": "phraseological-theory"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki dua kesalahan kolokasi verb-noun dan adjective-noun pada paragraf laporan riset berikut.",
+        "draft": "After the audit committee reached a sharp consensus, it took a stern measure to cure structural inefficiencies.",
+        "options": [
+          "After the audit committee reached a broad consensus, it took decisive action to address structural inefficiencies.",
+          "After the audit committee made a sharp consensus, it did a stern measure to cure structural inefficiencies.",
+          "After the audit committee reached a wide consensus, it made decisive measures to solve structural inefficiencies."
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi baku korporat/akademik: 'reach a broad consensus' (bukan 'sharp consensus'), 'take decisive action' (atau 'adopt stringent measures', bukan 'take a stern measure'), dan 'address structural inefficiencies' (bukan 'cure inefficiencies').",
+        "hints": [
+          "Periksa tiga kolokasi janggal: 'sharp consensus', 'take a measure', dan 'cure inefficiencies'.",
+          "Ganti dengan pasangan kata korporat yang presisi."
+        ],
+        "skill": "collocation-precision-editing"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi linguistik tentang 'fixed vs restricted collocations'.",
+        "dialogue": [
+          [
+            "Professor",
+            "Compare 'to shrug one's shoulders' with 'to cause damage'. Which one is an ultra-fixed idiom-like collocation?"
+          ],
+          [
+            "Student",
+            "'Shrug one's shoulders' is practically fixed because ___."
+          ]
+        ],
+        "options": [
+          "almost no other body part can logically serve as the direct object of 'shrug'",
+          "'damage' can only pair with 'make' and never 'cause' or 'inflict'",
+          "'shoulders' cannot be pluralized inside formal business prose"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi memiliki spektrum keterikatan: 'cause/inflict/suffer damage' memiliki beberapa pilihan verb, sedangkan 'shrug one's shoulders' atau 'foot the bill' nyaris terkunci pada satu kata pasangan unik (restricted/unique collocation).",
+        "hints": [
+          "Apakah ada benda lain selain bahu yang bisa di-'shrug'?",
+          "Keterikatan mutlak satu pasangan objek disebut fixed/restricted collocation."
+        ],
+        "skill": "phraseological-theory"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regulatory overhaul ___ the groundwork for cross-border electric freight corridors.",
+        "options": [
+          "laid",
+          "built",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Kolokasi tetap untuk meletakkan fondasi atau dasar kebijakan adalah 'lay the groundwork for' (V2: 'laid').",
+        "hints": [
+          "Idiom tetap: '___ the groundwork for'.",
+          "Past Simple dari 'lay' adalah 'laid'."
+        ],
+        "skill": "fixed-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "When two variables correlate closely, avoid exaggerating; state precisely that there is a '___ correlation' between night lighting and sleep latency.",
+        "options": [
+          "statistically significant / marked",
+          "heavy / tall",
+          "bitterly loud"
+        ],
+        "answer": 0,
+        "explanation": "Tulisan kuantitatif akademik memasangkan 'correlation' dengan modifier terukur seperti 'statistically significant', 'strong positive', atau 'marked correlation'.",
+        "hints": [
+          "Cari modifier statistik baku untuk 'correlation'.",
+          "Hindari modifier fisik seperti 'heavy/tall'."
+        ],
+        "skill": "academic-collocations"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan kolokasi verb-preposisi dalam kalimat hukum internasional berikut.",
+        "draft": "The coastal signatories entered into force with a bilateral maritime treaty that yielded severe penalties on violators.",
+        "options": [
+          "The bilateral maritime treaty entered into force between coastal signatories and imposed severe penalties on violators.",
+          "The coastal signatories entered into force a bilateral maritime treaty that gave severe penalties to violators.",
+          "The bilateral maritime treaty came in force with severe penalties against violators."
+        ],
+        "answer": 0,
+        "explanation": "Sebuah perjanjian ('the treaty') adalah entitas yang 'enters into force' (berlaku secara hukum, bukan negara penandatangannya yang 'entered into force with a treaty'), dan penalti menggunakan 'impose penalties ON violators' (bukan 'yield penalties').",
+        "hints": [
+          "Periksa subjek yang tepat untuk 'enter into force' (= mulai berlaku).",
+          "Kolokasi baku hukuman adalah 'impose penalties on...'."
+        ],
+        "skill": "verb-preposition-collocations"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice the exact fixed adverbial pair: 'Regional housing prices and local wages are ___ linked.'",
+        "options": [
+          "inextricably",
+          "heavily separately",
+          "bitterly closely"
+        ],
+        "answer": 0,
+        "explanation": "'Inextricably linked' adalah kolokasi C1/C2 baku yang bermakna dua hal terikat erat sehingga mustahil dipisahkan satu sama lain.",
+        "hints": [
+          "Adverb kolokasi tingkat lanjut untuk 'linked' ketika tak terpisahkan.",
+          "Pilih 'inextricably'."
+        ],
+        "skill": "fixed-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai kolokasi akademik 'mitigate the risk'.",
+        "targetSentence": "Diversifying regional component suppliers helps mitigate the risk of sudden port closures.",
+        "explanation": "Kolokasi baku 'mitigate the risk of + noun phrase' berarti memperkecil dampak risiko.",
+        "hints": [
+          "Awali dengan 'Diversifying regional component suppliers helps'.",
+          "Sambungkan 'mitigate the risk of sudden port closures'."
+        ],
+        "skill": "academic-collocations"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menggunakan kolokasi tetap 'bear witness to' atau 'bear the brunt of'.",
+        "targetSentence": "Low-income coastal neighborhoods often bear the brunt of seasonal tidal flooding.",
+        "explanation": "'Bear the brunt of' adalah kolokasi tetap yang berarti menanggung dampak terberat dari suatu kejadian buruk.",
+        "hints": [
+          "Mulai dengan 'Low-income coastal neighborhoods often'.",
+          "Pasangkan 'bear the brunt of seasonal tidal flooding'."
         ],
         "skill": "fixed-collocations"
       }

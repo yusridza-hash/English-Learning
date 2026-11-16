@@ -99,6 +99,167 @@
           "Keterangan waktu: at six every morning."
         ],
         "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't forget to ___ the office lights before locking the front door.",
+        "options": [
+          "turn off",
+          "turn up",
+          "put off"
+        ],
+        "answer": 0,
+        "explanation": "'Turn off' berarti mematikan perangkat listrik atau lampu.",
+        "hints": [
+          "Kebalikan dari 'turn on' (menyalakan).",
+          "Mematikan lampu adalah 'turn off'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "Due to the coastal storm, the outdoor concert was ___ until next Saturday.",
+        "options": [
+          "put off",
+          "called on",
+          "taken up"
+        ],
+        "answer": 0,
+        "explanation": "'Put off' bermakna menunda jadwal suatu acara (setara 'postpone').",
+        "hints": [
+          "Acara diundur sampai Sabtu depan.",
+          "Menunda acara adalah 'put off'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "Could you help me ___ who sent this unmarked parcel?",
+        "options": [
+          "find out",
+          "give up",
+          "turn down"
+        ],
+        "answer": 0,
+        "explanation": "'Find out' berarti mencari tahu atau menemukan informasi fakta.",
+        "hints": [
+          "Konteksnya mencari informasi pengirim paket.",
+          "Mencari tahu adalah 'find out'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "If you don't know that technical abbreviation, ___ it ___ in the glossary!",
+        "options": [
+          "look / up",
+          "give / off",
+          "take / after"
+        ],
+        "answer": 0,
+        "explanation": "'Look up' berarti mencari informasi/kata tertentu dalam kamus, daftar, atau glosarium.",
+        "hints": [
+          "Kata kuncinya 'in the glossary'.",
+          "Mencari kata di kamus memakai 'look up'."
+        ],
+        "skill": "phrasal-verb-separable"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di ruang staf dengan phrasal verb menyerah/berhenti.",
+        "dialogue": [
+          [
+            "Trainee",
+            "This pivot table formula feels tricky at first!"
+          ],
+          [
+            "Mentor",
+            "Just keep practicing for ten minutes — don't ___ yet!"
+          ]
+        ],
+        "options": [
+          "give up",
+          "wake up",
+          "pick up"
+        ],
+        "answer": 0,
+        "explanation": "'Give up' berarti menyerah atau berhenti berusaha.",
+        "hints": [
+          "Mentor menyemangati agar tidak menyerah.",
+          "Menyerah dalam bahasa Inggris adalah 'give up'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our coordinator ___ a practical suggestion during the morning stand-up.",
+        "options": [
+          "brought up",
+          "broke down",
+          "went off"
+        ],
+        "answer": 0,
+        "explanation": "'Bring up' (V2: 'brought up') berarti mengangkat atau mengemukakan topik/saran dalam rapat.",
+        "hints": [
+          "Konteksnya mengajukan saran di rapat.",
+          "Mengangkat topik diskusi memakai 'bring up'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penempatan kata ganti objek ('it') pada separable phrasal verb berikut.",
+        "draft": "That invoice is confidential, so please don't throw away it in the open bin.",
+        "options": [
+          "That invoice is confidential, so please don't throw it away in the open bin.",
+          "That invoice is confidential, so please don't throw away in it the open bin.",
+          "That invoice is confidential, so please don't throw it off in the open bin."
+        ],
+        "answer": 0,
+        "explanation": "Untuk separable phrasal verb seperti 'throw away', jika objeknya berupa PRONOUN ('it', 'them', 'me'), pronoun WAJIB disisipkan di tengah antara verb dan partikel ('throw it away').",
+        "hints": [
+          "Pronoun 'it' tidak boleh diletakkan setelah partikel 'away'.",
+          "Pindahkan 'it' ke tengah: 'throw it away'."
+        ],
+        "skill": "phrasal-verb-separable"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can you ___ the regional director at the airport around three o'clock?",
+        "options": [
+          "pick up",
+          "put out",
+          "fill in"
+        ],
+        "answer": 0,
+        "explanation": "'Pick up' (menjemput seseorang di bandara/stasiun atau mengambil barang).",
+        "hints": [
+          "Konteks menjemput tamu di bandara.",
+          "Menjemput adalah 'pick up'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai separable phrasal verb 'fill out' dengan objek benda.",
+        "targetSentence": "Please fill out this visitor registration form before entering.",
+        "explanation": "Dengan kata benda biasa ('this visitor registration form'), partikel 'out' boleh menempel dengan 'fill' atau diletakkan setelahnya.",
+        "hints": [
+          "Awali dengan 'Please fill out this visitor registration form'.",
+          "Akhiri dengan 'before entering'."
+        ],
+        "skill": "phrasal-verb-separable"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan 'carry on' bermakna melanjutkan.",
+        "targetSentence": "Despite the brief power flicker, the speakers carried on smoothly.",
+        "explanation": "'Carry on' berarti terus melanjutkan aktivitas yang sedang berjalan.",
+        "hints": [
+          "Mulai dengan 'Despite the brief power flicker,'.",
+          "Akhiri dengan 'the speakers carried on smoothly'."
+        ],
+        "skill": "phrasal-verb-meaning"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan looking into."
         ],
         "skill": "phrasal-verb-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our delivery van ___ on the highway, so we hired an emergency tow truck.",
+        "options": [
+          "broke down",
+          "broke into",
+          "broke out"
+        ],
+        "answer": 0,
+        "explanation": "'Break down' (untuk kendaraan/mesin) berarti mogok atau rusak sehingga berhenti berfungsi.",
+        "hints": [
+          "Kendaraan memerlukan truk derek karena mogok.",
+          "Mesin/kendaraan mogok memakai 'break down'."
+        ],
+        "skill": "phrasal-verb-meaning"
+      },
+      {
+        "type": "choice",
+        "prompt": "Sadly, the vendor ___ our revised price proposal because it fell below their cost margin.",
+        "options": [
+          "turned down",
+          "turned up",
+          "turned into"
+        ],
+        "answer": 0,
+        "explanation": "'Turn down' berarti menolak tawaran/lamaran/usulan (atau mengecilkan volume).",
+        "hints": [
+          "Tawaran ditolak karena margin biaya.",
+          "Menolak usulan adalah 'turn down'."
+        ],
+        "skill": "phrasal-verb-idiomatic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang persediaan yang habis.",
+        "dialogue": [
+          [
+            "Assistant",
+            "Should I order toner cartridges today?"
+          ],
+          [
+            "Clerk",
+            "Yes! We are about to ___ black ink."
+          ]
+        ],
+        "options": [
+          "run out of",
+          "look forward to",
+          "get away with"
+        ],
+        "answer": 0,
+        "explanation": "Three-part phrasal verb 'run out of' berarti kehabisan persediaan suatu barang.",
+        "hints": [
+          "Tinta hitam hampir habis.",
+          "Kehabisan stok adalah 'run out of'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice that 'look after' is INSEPARABLE: which sentence is correct?",
+        "options": [
+          "My neighbor kindly looked after my houseplants while I was away.",
+          "My neighbor kindly looked my houseplants after while I was away.",
+          "My neighbor kindly looked them after while I was away."
+        ],
+        "answer": 0,
+        "explanation": "'Look after' (merawat/menjaga) adalah inseparable phrasal verb; objek ('my houseplants' maupun pronoun) TIDAK boleh menyisip di antara 'look' dan 'after'.",
+        "hints": [
+          "Kata 'after' selalu menempel langsung dengan 'look'.",
+          "Jangan memisahkan 'look' dan 'after'."
+        ],
+        "skill": "phrasal-verb-inseparable"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need to ___ our quarterly expenses before approving any bonus pool.",
+        "options": [
+          "cut down on",
+          "put up with",
+          "come up with"
+        ],
+        "answer": 0,
+        "explanation": "'Cut down on' berarti mengurangi jumlah pemakaian atau pengeluaran.",
+        "hints": [
+          "Konteksnya memangkas/mengurangi biaya kuartalan.",
+          "Mengurangi konsumsi/biaya memakai 'cut down on'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan phrasal verb yang tidak dapat dipisah pada kalimat berikut.",
+        "draft": "While cleaning the storage shelf, Maya came an old blueprint across.",
+        "options": [
+          "While cleaning the storage shelf, Maya came across an old blueprint.",
+          "While cleaning the storage shelf, Maya came it across.",
+          "While cleaning the storage shelf, Maya put across an old blueprint."
+        ],
+        "answer": 0,
+        "explanation": "'Come across' (menemukan secara tidak sengaja) adalah inseparable phrasal verb; jangan pernah meletakkan objek di antara 'come' dan 'across'.",
+        "hints": [
+          "'Come across' berarti menemukan secara kebetulan.",
+          "Objek harus diletakkan setelah 'come across'."
+        ],
+        "skill": "phrasal-verb-inseparable"
+      },
+      {
+        "type": "choice",
+        "prompt": "It took weeks of brainstorming before the engineers ___ an affordable cooling mechanism.",
+        "options": [
+          "came up with",
+          "got along with",
+          "kept up with"
+        ],
+        "answer": 0,
+        "explanation": "'Come up with' berarti menemukan atau menghasilkan ide, solusi, atau rencana.",
+        "hints": [
+          "Setelah brainstorming, mereka mencetuskan solusi.",
+          "Menemukan ide/solusi adalah 'come up with'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "choice",
+        "prompt": "The night manager had to ___ an angry customer politely while checking the receipt.",
+        "options": [
+          "deal with",
+          "look up to",
+          "put off with"
+        ],
+        "answer": 0,
+        "explanation": "'Deal with' berarti menangani atau menghadapi situasi/orang.",
+        "hints": [
+          "Menangani keluhan pelanggan memakai 'deal with'.",
+          "Pilih 'deal with'."
+        ],
+        "skill": "phrasal-verb-inseparable"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai three-part phrasal verb 'put up with'.",
+        "targetSentence": "Commuters shouldn't have to put up with unreliable signal displays.",
+        "explanation": "'Put up with' berarti bersabar menoleransi hal yang mengganggu.",
+        "hints": [
+          "Mulai dengan 'Commuters shouldn't have to'.",
+          "Pasangkan 'put up with' sebelum objek."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai separable phrasal verb berobjek pronoun.",
+        "targetSentence": "We drafted a backup schedule, yet the director called it off.",
+        "explanation": "'Call off' (membatalkan) memaksa pronoun 'it' berada di tengah: 'called it off'.",
+        "hints": [
+          "Awali dengan 'We drafted a backup schedule,'.",
+          "Akhiri dengan 'yet the director called it off'."
+        ],
+        "skill": "phrasal-verb-separable"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan boils down to."
         ],
         "skill": "phrasal-verb-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Because the new intern works with meticulous speed, it is hard for others to ___ her output.",
+        "options": [
+          "keep up with",
+          "run out of",
+          "look down on"
+        ],
+        "answer": 0,
+        "explanation": "'Keep up with' berarti menyamai kecepatan atau perkembangan seseorang/sesuatu.",
+        "hints": [
+          "Rekan lain kesulitan mengimbangi kecepatan kerjanya.",
+          "Mengimbangi kecepatan/laju adalah 'keep up with'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "choice",
+        "prompt": "During the financial audit, our team ___ several overlooked duplicate invoices from 2021.",
+        "options": [
+          "stumbled upon / came across",
+          "made up for",
+          "went back on"
+        ],
+        "answer": 0,
+        "explanation": "'Come across' / 'stumble upon' berarti menemukan secara kebetulan di tengah penelusuran dokumen.",
+        "hints": [
+          "Menemukan sesuatu tanpa sengaja saat memeriksa arsip.",
+          "Pilih frasa yang bermakna menemukan secara tak terduga."
+        ],
+        "skill": "phrasal-verb-idiomatic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan makna dan partikel pada phrasal verb formal berikut.",
+        "draft": "The board decided to do out with outdated paper vouchers next quarter.",
+        "options": [
+          "The board decided to do away with outdated paper vouchers next quarter.",
+          "The board decided to do up with outdated paper vouchers next quarter.",
+          "The board decided to do off with outdated paper vouchers next quarter."
+        ],
+        "answer": 0,
+        "explanation": "Idiom phrasal verb yang tepat untuk 'menghapuskan/menghentikan sistem lama' adalah 'do away with' (bukan 'do out with').",
+        "hints": [
+          "Makna 'menghapuskan sistem lama'.",
+          "Ungkapan tiga-bagian yang tepat adalah 'do away with'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang penebusan kesalahan layanan ('make up for').",
+        "dialogue": [
+          [
+            "Director",
+            "Our late freight delivery frustrated the client in Surabaya."
+          ],
+          [
+            "Account Lead",
+            "Right — we can ___ that delay by offering complimentary express handling this month."
+          ]
+        ],
+        "options": [
+          "make up for",
+          "stand up for",
+          "get round to"
+        ],
+        "answer": 0,
+        "explanation": "'Make up for' berarti mengompensasi atau menebus kekurangan/kesalahan sebelumnya.",
+        "hints": [
+          "Menawarkan kompensasi atas keterlambatan.",
+          "Mengganti/menebus kekurangan adalah 'make up for'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal academic writing, 'put off' is best replaced by the single Latinate verb '___' to preserve objective register.",
+        "options": [
+          "postpone / defer",
+          "cancel",
+          "accelerate"
+        ],
+        "answer": 0,
+        "explanation": "'Put off' bermakna menunda ('postpone' atau 'defer'), bukan membatalkan ('cancel' = 'call off').",
+        "hints": [
+          "Bedakan 'put off' (menunda) vs 'call off' (membatalkan).",
+          "Padanan formalnya adalah 'postpone / defer'."
+        ],
+        "skill": "phrasal-verb-idiomatic"
+      },
+      {
+        "type": "choice",
+        "prompt": "After procrastinating for two weeks, he finally ___ organizing the tax folders.",
+        "options": [
+          "got round to",
+          "looked forward to",
+          "lived up to"
+        ],
+        "answer": 0,
+        "explanation": "'Get round to (+ V-ing)' berarti akhirnya sempat atau menyempatkan diri mengerjakan sesuatu yang tertunda.",
+        "hints": [
+          "Akhirnya sempat mengerjakan tugas yang lama ditunda.",
+          "Ungkapan 'sempat melakukan' adalah 'get round to'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan umum menyisipkan objek panjang di antara phrasal verb yang bisa dipisah vs tidak masuk akal bila terlalu panjang.",
+        "draft": "Please write every single serial number from all fifty cardboard crates downstairs down immediately.",
+        "options": [
+          "Please write down every single serial number from all fifty cardboard crates downstairs immediately.",
+          "Please write down them immediately from all fifty cardboard crates downstairs.",
+          "Please write every single serial number down from all fifty crates downstairs immediately."
+        ],
+        "answer": 0,
+        "explanation": "Meskipun 'write down' bersifat separable, jika objeknya sangat panjang (heavy noun phrase: 'every single serial number from all fifty cardboard crates downstairs'), partikel 'down' WAJIB langsung menempel setelah verb ('write down + objek panjang') demi kejelasan baca!",
+        "hints": [
+          "Objek noun phrase yang sangat panjang memaksa partikel tetap dekat dengan verb.",
+          "Letakkan 'down' tepat setelah 'write'."
+        ],
+        "skill": "phrasal-verb-separable"
+      },
+      {
+        "type": "choice",
+        "prompt": "True leadership means managers ___ their junior staff when an unfair complaint arises.",
+        "options": [
+          "stand up for",
+          "put down for",
+          "walk out on"
+        ],
+        "answer": 0,
+        "explanation": "'Stand up for' berarti membela atau mendukung seseorang secara terbuka saat menghadapi perlakuan tidak adil.",
+        "hints": [
+          "Membela staf saat ada keluhan tidak adil.",
+          "'Stand up for' bermakna membela."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai three-part phrasal verb 'live up to'.",
+        "targetSentence": "The upgraded electric bus fully lived up to the city's strict range expectations.",
+        "explanation": "'Live up to + expectations/standards' berarti memenuhi harapan atau standar tinggi.",
+        "hints": [
+          "Mulai dengan 'The upgraded electric bus fully lived up to'.",
+          "Tambahkan 'the city's strict range expectations'."
+        ],
+        "skill": "phrasal-verb-three-part"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan 'account for' (menjelaskan porsi/penyebab) pada ragam laporan.",
+        "targetSentence": "Mobile checkout orders now account for nearly sixty percent of weekend revenue.",
+        "explanation": "'Account for' adalah inseparable prepositional verb yang berarti menyumbang porsi atau menjadi penjelasan.",
+        "hints": [
+          "Awali dengan 'Mobile checkout orders now account for'.",
+          "Lengkapi persentasenya."
+        ],
+        "skill": "phrasal-verb-inseparable"
       }
     ]
   }

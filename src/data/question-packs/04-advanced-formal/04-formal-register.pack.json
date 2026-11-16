@@ -99,6 +99,167 @@
           "Objek: 'about the scholarship requirements'."
         ],
         "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace the informal phrasal verb in 'We need to look into the billing discrepancy' with the formal Latinate single verb:",
+        "options": [
+          "investigate",
+          "check out",
+          "dig up"
+        ],
+        "answer": 0,
+        "explanation": "Tulisan formal dan bisnis profesional mengganti phrasal verb 'look into' dengan kata kerja serapan Latin satu kata yang presisi: 'investigate'.",
+        "hints": [
+          "Cari padanan satu kata yang baku untuk laporan formal.",
+          "'Investigate' setara formal dari 'look into'."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal correspondence, replace 'Sorry I didn't get back to you sooner' with:",
+        "options": [
+          "I apologize for the delay in responding to your message.",
+          "My bad for ghosting your email earlier.",
+          "No worries about waiting so long for my reply."
+        ],
+        "answer": 0,
+        "explanation": "Email resmi menggunakan ungkapan sopan baku ('I apologize for the delay in responding...') dan menghindari bahasa slang atau kontraksi kasual.",
+        "hints": [
+          "Hindari slang seperti 'my bad' atau 'ghosting'.",
+          "Pilih kalimat permohonan maaf profesional."
+        ],
+        "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the formal equivalent of 'a lot of delays' for an executive report:",
+        "options": [
+          "numerous delays",
+          "tons of delays",
+          "loads of delays"
+        ],
+        "answer": 0,
+        "explanation": "'Tons of' dan 'loads of' hanya untuk percakapan santai; laporan resmi memakai 'numerous' atau 'considerable'.",
+        "hints": [
+          "Countable plural 'delays' memerlukan quantifier formal.",
+          "Gunakan 'numerous'."
+        ],
+        "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence strictly follows the rule against contractions in formal academic/legal documents?",
+        "options": [
+          "The agency does not authorize unverified third-party downloads.",
+          "The agency doesn't authorize unverified third-party downloads.",
+          "The agency won't let you download stuff from third parties."
+        ],
+        "answer": 0,
+        "explanation": "Dalam makalah akademik, kontrak, dan laporan resmi, bentuk penuh tanpa singkatan ('does not', 'cannot', 'will not') diwajibkan.",
+        "hints": [
+          "Hindari bentuk singkatan dengan apostrof seperti 'doesn't' dan 'won't'.",
+          "Pilih 'does not'."
+        ],
+        "skill": "avoiding-contractions"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi pembukaan surat resmi kepada penerima yang namanya belum diketahui.",
+        "dialogue": [
+          [
+            "Intern",
+            "What salutation should open a formal inquiry when I only know the committee title?"
+          ],
+          [
+            "Mentor",
+            "Write 'Dear Selection Committee,' or '___,' and close with 'Yours faithfully,' if unnamed."
+          ]
+        ],
+        "options": [
+          "Dear Sir or Madam",
+          "Hey guys",
+          "Hi there folks"
+        ],
+        "answer": 0,
+        "explanation": "Bila nama penerima surat resmi tidak diketahui, gunakan 'Dear Sir or Madam,' atau jabatan resmi ('Dear Admissions Committee,'), bukan sapaan kasual.",
+        "hints": [
+          "Sapaan formal tanpa nama penerima memakai bentuk baku.",
+          "Hindari 'Hey guys' atau 'Hi there'."
+        ],
+        "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace the informal marker 'Anyway, back to the point...' in a business memo with:",
+        "options": [
+          "To return to the primary matter,",
+          "Long story short,",
+          "So basically yeah,"
+        ],
+        "answer": 0,
+        "explanation": "Penanda wacana formal mengarahkan fokus kembali ke topik utama dengan frasa profesional seperti 'To return to the primary matter,' atau 'Regarding the core issue,'.",
+        "hints": [
+          "Cari transisi memo bisnis yang rapi dan objektif.",
+          "Hindari 'Long story short' dan 'basically'."
+        ],
+        "skill": "formal-discourse-markers"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki benturan gaya bahasa (register clash) kasual di tengah kalimat laporan formal berikut.",
+        "draft": "The board reviewed every quarterly projection, and basically the numbers look pretty awesome.",
+        "options": [
+          "The board reviewed every quarterly projection, and overall the figures appear highly promising.",
+          "The board reviewed every quarterly projection, and basically the numbers look super awesome.",
+          "The board checked out every quarterly projection, and the numbers look pretty awesome."
+        ],
+        "answer": 0,
+        "explanation": "'Basically', 'numbers look', dan 'pretty awesome' merusak nada objektif laporan dewan direksi; ganti dengan kosa kata formal konsisten ('overall', 'figures appear', 'highly promising').",
+        "hints": [
+          "Temukan kata slang/kasual ('basically', 'pretty awesome').",
+          "Ubah seluruh elemen ke ragam profesional yang seragam."
+        ],
+        "skill": "register-clash-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace 'cut down on waste' in an environmental policy brief with the formal verb phrase:",
+        "options": [
+          "reduce waste",
+          "chop off waste",
+          "shrink down waste"
+        ],
+        "answer": 0,
+        "explanation": "'Reduce' atau 'curtail' adalah padanan formal standar bagi phrasal verb kasual 'cut down on'.",
+        "hints": [
+          "Ganti phrasal verb 'cut down on' dengan kata kerja tunggal formal.",
+          "Pilih 'reduce waste'."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat penutup email bisnis formal yang santun.",
+        "targetSentence": "Please let us know if you require any additional clarification regarding this invoice.",
+        "explanation": "Menggunakan 'require' dan 'clarification regarding' membangun nada sopan profesional tanpa singkatan.",
+        "hints": [
+          "Awali dengan 'Please let us know if you require'.",
+          "Tambahkan objek dan frasa 'regarding this invoice'."
+        ],
+        "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat laporan formal tanpa kontraksi memakai 'cannot'.",
+        "targetSentence": "Preliminary test results cannot be generalized beyond coastal mangrove zones.",
+        "explanation": "Dalam tulisan formal, 'cannot' ditulis serangkai tanpa spasi dan tanpa apostrof.",
+        "hints": [
+          "Mulai dengan 'Preliminary test results cannot be'.",
+          "Lengkapi V3 'generalized' dan batasnya."
+        ],
+        "skill": "avoiding-contractions"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'acknowledge'."
         ],
         "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace the conversational phrasal verb 'put up with' in 'Hospital staff should not have to put up with outdated triage software' with:",
+        "options": [
+          "tolerate / endure",
+          "hang out with",
+          "mess around with"
+        ],
+        "answer": 0,
+        "explanation": "Padanan kata tunggal Latinate yang tepat dan formal untuk 'put up with' adalah 'tolerate' atau 'endure'.",
+        "hints": [
+          "Cari padanan formal bermakna menoleransi keadaan buruk.",
+          "'Tolerate' adalah verb tunggal baku."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "In formal policy writing, replace the vague noun 'things' in 'Several things slowed down customs clearance' with a precise lexical item:",
+        "options": [
+          "factors / bottlenecks",
+          "stuff",
+          "bits and pieces"
+        ],
+        "answer": 0,
+        "explanation": "Tulisan formal menuntut ketepatan leksikal (lexical precision): hindari kata hampa 'things/stuff' dan ganti dengan 'factors', 'issues', atau 'bottlenecks'.",
+        "hints": [
+          "'Things' dan 'stuff' terlalu kabur untuk laporan formal.",
+          "Pilih kata benda spesifik 'factors / bottlenecks'."
+        ],
+        "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi mengenai alasan menghindari gaya bahasa terlalu bombastis (over-formal pompousness).",
+        "dialogue": [
+          [
+            "Student",
+            "Should I write 'endeavor to ascertain the veracity of' instead of 'try to verify'?"
+          ],
+          [
+            "Editor",
+            "No! Good formal register prioritizes ___ rather than archaic, bloated synonyms."
+          ]
+        ],
+        "options": [
+          "clarity, precision, and natural restraint",
+          "the longest possible Latin dictionary words",
+          "eliminating every active verb in favor of passives"
+        ],
+        "answer": 0,
+        "explanation": "Register formal modern (seperti gaya The Economist atau jurnal top) mengutamakan kejelasan, ketepatan istilah, dan keringkasan elegan ('verify'), bukan bahasa kuno yang berlagak rumit.",
+        "hints": [
+          "Bahasa formal bukan berarti kata-kata kuno yang bertele-tele.",
+          "Utamakan kejelasan dan ketepatan kata."
+        ],
+        "skill": "formal-register-principles"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence avoids colloquial speech fillers and vague endings ('etc.', 'and so on', 'kind of') cleanly?",
+        "options": [
+          "The audit examined inventory controls, vendor contracts, and payroll disbursements.",
+          "The audit checked inventory, vendor stuff, and so on.",
+          "The audit kind of looked at contracts, payroll, etc."
+        ],
+        "answer": 0,
+        "explanation": "Menyebut daftar tertutup atau menggunakan 'including X, Y, and Z' jauh lebih presisi daripada mengakhiri kalimat formal dengan 'stuff' atau 'and so on'.",
+        "hints": [
+          "Hilangkan akhiran malas 'and so on / etc.' serta 'kind of'.",
+          "Daftar tiga elemen paralel tanpa singkatan santai."
+        ],
+        "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace 'come up with a plan' in an annual executive summary with:",
+        "options": [
+          "formulate a strategy",
+          "cook up a plan",
+          "throw together a plan"
+        ],
+        "answer": 0,
+        "explanation": "'Formulate a strategy' atau 'devise a plan' memberikan kesan profesionalisme tinggi daripada 'come up with' atau idiom slang 'cook up'.",
+        "hints": [
+          "Cari verb formal untuk merancang rencana.",
+          "'Formulate a strategy' paling tepat."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting benturan register antara frasa hukum berat dan idiom slang pada kalimat memo berikut.",
+        "draft": "Pursuant to Clause 7.4 of the master lease, all tenants must cough up the maintenance deposit by Monday.",
+        "options": [
+          "Pursuant to Clause 7.4 of the master lease, all tenants must remit the maintenance deposit by Monday.",
+          "Pursuant to Clause 7.4 of the master lease, all tenants gotta cough up the maintenance deposit by Monday.",
+          "Hey tenants, pursuant to Clause 7.4, cough up the maintenance deposit by Monday."
+        ],
+        "answer": 0,
+        "explanation": "Memadukan istilah hukum 'Pursuant to Clause 7.4' dengan idiom slang 'cough up' (= menyerahkan uang dengan terpaksa) menciptakan register clash mencolok; ganti dengan kata kerja resmi 'remit' atau 'submit'.",
+        "hints": [
+          "'Cough up' adalah idiom slang yang bertabrakan keras dengan 'Pursuant to Clause 7.4'.",
+          "Ganti 'cough up' dengan 'remit' atau 'submit'."
+        ],
+        "skill": "register-clash-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which transition best introduces a concluding synthesis in an academic essay?",
+        "options": [
+          "In summary, targeted insulation lowers urban cooling demand.",
+          "So yeah, at the end of the day, insulation helps a lot.",
+          "To wrap this thing up, insulation works okay."
+        ],
+        "answer": 0,
+        "explanation": "'In summary,' atau 'In conclusion,' menjaga objektivitas penutup esai, sedangkan 'at the end of the day' dan 'works okay' bersifat lisan.",
+        "hints": [
+          "Pilih penutup paragraf akademik yang bebas klise lisan.",
+          "'In summary' ringkas dan profesional."
+        ],
+        "skill": "formal-discourse-markers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Convert 'The system got hacked last night' into an appropriately formal incident report opening:",
+        "options": [
+          "An unauthorized intrusion compromised the system overnight.",
+          "Some hacker totally broke into our boxes last night.",
+          "The system got kind of messed up overnight."
+        ],
+        "answer": 0,
+        "explanation": "Mengganti kata kerja kasual 'got + V3' ('got hacked') dengan nomina/verba formal ('An unauthorized intrusion compromised...') langsung mengangkat kredibilitas laporan insiden.",
+        "hints": [
+          "Hindari pola percakapan 'got + V3' dalam laporan resmi.",
+          "Gunakan istilah profesional 'unauthorized intrusion compromised'."
+        ],
+        "skill": "formal-register-principles"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal tanpa phrasal verb kasual untuk menyatakan pembatalan.",
+        "targetSentence": "Organizers cancelled the coastal regatta owing to severe crosswinds.",
+        "explanation": "Memilih 'cancelled' (bukan 'called off') dan 'owing to' (bukan 'because of weird winds') menjaga nada berita resmi.",
+        "hints": [
+          "Awali dengan 'Organizers cancelled the coastal regatta'.",
+          "Tambahkan alasan formal 'owing to severe crosswinds'."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat pembuka formal yang mengganti 'ask for' dengan 'request'.",
+        "targetSentence": "Municipal engineers requested additional hydrological surveys prior to tunnel excavation.",
+        "explanation": "'Requested ... prior to' menggantikan bahasa lisan 'asked for ... before'.",
+        "hints": [
+          "Mulai dengan 'Municipal engineers requested additional hydrological surveys'.",
+          "Akhiri dengan 'prior to tunnel excavation'."
+        ],
+        "skill": "formal-lexical-choice"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'petition the court for'."
         ],
         "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the subtle register issue in this sentence: 'Whilst our data corroborate Dr. Sato's model, one can clearly see it doesn't hold up in arid zones.'",
+        "options": [
+          "The informal contraction 'doesn't' and phrasal 'hold up' clash with the formal 'Whilst' and 'corroborate'",
+          "Subject 'data' cannot pair with plural verb 'corroborate'",
+          "'In arid zones' requires a colon before it"
+        ],
+        "answer": 0,
+        "explanation": "Dalam penguasaan register tingkat lanjut, konsistensi jauh lebih penting daripada sekadar menyelipkan satu kata bergengsi ('Whilst', 'corroborate') lalu terjatuh ke kontraksi ('doesn't') dan phrasal verb lisan ('hold up') — ganti menjadi 'does not apply / remain valid'.",
+        "hints": [
+          "Perhatikan kontras mencolok antara 'Whilst / corroborate' dan 'doesn't hold up'.",
+          "Hilangkan kontraksi dan ganti phrasal verb lisan."
+        ],
+        "skill": "register-clash-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which formal sentence handles gender-neutral and impersonal reference most gracefully without clumsy repetition?",
+        "options": [
+          "Applicants must submit their portfolios prior to the interview.",
+          "An applicant must always bring his portfolio, or his/her portfolio if applicable, before he/she interviews.",
+          "Every single applicant has got to hand in their stuff early."
+        ],
+        "answer": 0,
+        "explanation": "Mengubah subjek ke bentuk jamak ('Applicants must submit their portfolios') adalah solusi paling rapi dan elegan dalam gaya editorial modern untuk menghindari he/she yang canggung sekaligus menjaga formalitas.",
+        "hints": [
+          "Subjek jamak ('Applicants ... their') menghindari 'his/her' yang bertele-tele.",
+          "Bandingkan kerapian pilihan pertama dengan lainnya."
+        ],
+        "skill": "formal-register-principles"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan ungkapan klise jurnalistik dan kata kerja informal dalam abstrak ilmiah berikut.",
+        "draft": "Last but not least, our research puts forward a brand-new way to figure out glacier melt rates.",
+        "options": [
+          "Finally, this study proposes a novel methodology for estimating glacier melt rates.",
+          "Last but not least, our research comes up with a cool new way to figure out glacier melt rates.",
+          "At the end of the day, our research proposes a brand-new methodology to figure out melt rates."
+        ],
+        "answer": 0,
+        "explanation": "Dalam abstrak jurnal ilmiah: ganti klise pidato 'Last but not least' → 'Finally'; 'puts forward' → 'proposes'; 'brand-new way' → 'novel methodology'; dan 'figure out' → 'estimating'.",
+        "hints": [
+          "Identifikasi semua elemen lisan/klise: 'Last but not least', 'brand-new way', 'figure out'.",
+          "Ganti dengan register ilmiah standar."
+        ],
+        "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan mengenai mengapa kalimat aktif formal tetap sering lebih baik daripada pasif bertele-tele.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Does formal academic register mean every verb must be passive?"
+          ],
+          [
+            "Editor",
+            "No — choosing ___ preserves formality while avoiding bureaucratic stiffness."
+          ]
+        ],
+        "options": [
+          "precise active Latinate verbs without slang or contractions",
+          "chatty second-person 'you' and exclamation marks",
+          "stacked zombie nouns after 'is in receipt of'"
+        ],
+        "answer": 0,
+        "explanation": "Kesalahpahaman umum mengira tulisan formal harus serba pasif dan kaku ('is in receipt of'). Sebaliknya, kata kerja aktif serapan Latin yang presisi tanpa slang/kontraksi memberi otoritas sekaligus kejelasan tinggi.",
+        "hints": [
+          "Tulisan formal modern tetap memuji kejelasan aktif.",
+          "Hindari ungkapan birokratis usang sekaligus bahasa kasual."
+        ],
+        "skill": "formal-register-principles"
+      },
+      {
+        "type": "choice",
+        "prompt": "Select the formal replacement for 'A lot of people think we should get rid of single-use cups':",
+        "options": [
+          "Numerous stakeholders advocate eliminating single-use beverage containers.",
+          "Loads of folks reckon we ought to dump throwaway cups.",
+          "Quite a few people are into getting rid of plastic cups."
+        ],
+        "answer": 0,
+        "explanation": "'Numerous stakeholders advocate eliminating...' memadukan nomina aktor presisi, verb formal + gerund ('advocate eliminating'), dan istilah objek yang jelas.",
+        "hints": [
+          "Cari kalimat yang seluruh kosa kata dan strukturnya konsisten formal.",
+          "Hindari 'folks', 'reckon', 'are into', dan 'get rid of'."
+        ],
+        "skill": "latinate-vs-phrasal-verbs"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how preposition stranding shifts in formal style: 'The criteria ___ our panel assessed each submission were published openly.'",
+        "options": [
+          "against which",
+          "which ... against",
+          "what ... on"
+        ],
+        "answer": 0,
+        "explanation": "Dalam dokumen hukum/akademik formal, memindahkan preposisi ke depan relative pronoun ('against which') menghindari akhir klausa yang menggantung.",
+        "hints": [
+          "Struktur pied-piping formal meletakkan preposisi sebelum 'which'.",
+          "Kolokasi: 'assess something AGAINST criteria'."
+        ],
+        "skill": "formal-discourse-markers"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan gaya sapaan surat sangat resmi dengan penutup kasual berikut.",
+        "draft": "Dear Dr. Kusuma, Please find attached the audited balance sheet for Q3. Cheers, Hadi",
+        "options": [
+          "Dear Dr. Kusuma, Please find attached the audited balance sheet for Q3. Sincerely, Hadi",
+          "Hi Dr. Kusuma, Please find attached the audited balance sheet for Q3. Yours faithfully, Hadi",
+          "Dear Sir/Madam, Enclosed please see the sheet. Best regards from me, Hadi"
+        ],
+        "answer": 0,
+        "explanation": "'Dear Dr. Kusuma' (memakai gelar dan nama belakang) tidak cocok ditutup dengan slang akrab 'Cheers,'; karena nama penerima diketahui, penutup profesional baku adalah 'Sincerely,' atau 'Kind regards,'.",
+        "hints": [
+          "Cocokkan tingkat kesopanan pembuka dan penutup surat.",
+          "'Cheers' hanya untuk email kasual sesama rekan akrab."
+        ],
+        "skill": "formal-correspondence-openers"
+      },
+      {
+        "type": "choice",
+        "prompt": "Replace 'Because of this, prices went up fast' with a high-register academic sentence:",
+        "options": [
+          "Consequently, consumer prices escalated rapidly.",
+          "Thanks to this, prices shot through the roof.",
+          "Because of that, prices got way higher super quick."
+        ],
+        "answer": 0,
+        "explanation": "'Consequently' (konektor sebab-akibat formal) + verb tepat 'escalated rapidly' jauh lebih akademis dan terukur daripada 'went up fast' atau idiom 'shot through the roof'.",
+        "hints": [
+          "Pilih konektor dan verb kenaikan yang serasi untuk register ekonomi.",
+          "Ganti 'went up fast' dengan 'escalated rapidly'."
+        ],
+        "skill": "formal-lexical-choice"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai verba tunggal 'ascertain' dan subjek impersonal.",
+        "targetSentence": "Further field measurements are required to ascertain whether aquifer salinity is stabilizing.",
+        "explanation": "Memakai 'ascertain' (memastikan secara ilmiah) dan 'whether' menjaga gaya riset formal.",
+        "hints": [
+          "Awali dengan 'Further field measurements are required to ascertain'.",
+          "Lengkapi klausa 'whether aquifer salinity is stabilizing'."
+        ],
+        "skill": "formal-register-principles"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat korespondensi eksekutif yang menolak pengajuan secara diplomatis namun tegas.",
+        "targetSentence": "We regret that we are unable to approve an extension beyond Friday.",
+        "explanation": "Formula bisnis formal menolak permintaan dengan sopan ('We regret that we are unable to...').",
+        "hints": [
+          "Mulai dengan 'We regret that we are unable to approve'.",
+          "Akhiri dengan 'an extension beyond Friday'."
+        ],
+        "skill": "formal-correspondence-openers"
       }
     ]
   }

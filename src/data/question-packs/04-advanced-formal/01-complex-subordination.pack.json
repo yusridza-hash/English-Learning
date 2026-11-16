@@ -99,6 +99,167 @@
           "Klausa utama: 'profitability remained resilient throughout the quarter'."
         ],
         "skill": "subordination-concession"
+      },
+      {
+        "type": "choice",
+        "prompt": "The regional clinic will expand evening hours ___ additional nursing funds are approved by Friday.",
+        "options": [
+          "provided that",
+          "whereas",
+          "even though"
+        ],
+        "answer": 0,
+        "explanation": "'Provided that' menyatakan syarat tegas ('dengan ketentuan bahwa / asalkan').",
+        "hints": [
+          "Hubungan antar-klausa adalah syarat persetujuan dana.",
+          "Pilih konjungsi syarat formal 'provided that'."
+        ],
+        "skill": "subordination-condition-provided"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the coastal freight terminal operates round the clock, inland rail depots close at ten.",
+        "options": [
+          "Whereas",
+          "Provided that",
+          "Because"
+        ],
+        "answer": 0,
+        "explanation": "'Whereas' mengontraskan dua kondisi atau kebijakan yang berjalan berlawanan.",
+        "hints": [
+          "Dua lokasi dibandingkan karena jam operasionalnya bertolak belakang.",
+          "Gunakan subordinator kontras 'Whereas'."
+        ],
+        "skill": "subordination-contrast-whereas"
+      },
+      {
+        "type": "choice",
+        "prompt": "We included a manual override valve ___ the automated sensor loses power.",
+        "options": [
+          "in the event that",
+          "whereas",
+          "even though"
+        ],
+        "answer": 0,
+        "explanation": "'In the event that' adalah konjungsi formal antisipasi/syarat ('apabila / seandainya terjadi').",
+        "hints": [
+          "Katup manual dipasang sebagai langkah antisipasi.",
+          "Penghubung formal skenario tak terduga: 'in the event that'."
+        ],
+        "skill": "subordination-condition-provided"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ strict cost caps, the architecture team delivered an airy daylight atrium.",
+        "options": [
+          "Even though they faced",
+          "Despite they faced",
+          "Whereas facing"
+        ],
+        "answer": 0,
+        "explanation": "'Even though' wajib diikuti klausa lengkap (Subject + Verb: 'they faced'); 'Despite' tidak boleh diikuti klausa langsung.",
+        "hints": [
+          "Lihat apakah klausa di pilihan memakai Subject + Verb.",
+          "'Despite' salah jika langsung diikuti klausa penuh 'they faced'."
+        ],
+        "skill": "subordination-concession"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog kebijakan kontrak tentang syarat waktu negatif.",
+        "dialogue": [
+          [
+            "Supplier",
+            "Will this wholesale discount remain active all year?"
+          ],
+          [
+            "Buyer",
+            "Yes, ___ minimum monthly shipments drop below two hundred crates."
+          ]
+        ],
+        "options": [
+          "unless",
+          "provided that",
+          "whereby"
+        ],
+        "answer": 0,
+        "explanation": "'Unless' menyatakan syarat pengecualian negatif ('kecuali jika pengiriman bulanan turun di bawah 200 peti').",
+        "hints": [
+          "Diskon tetap berlaku, kecuali kondisi penurunan terjadi.",
+          "Syarat negatif memakai 'unless'."
+        ],
+        "skill": "subordination-negative-condition"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ all preliminary safety checklists have been verified, construction crews may enter Sector 4.",
+        "options": [
+          "Now that",
+          "Although",
+          "Unless"
+        ],
+        "answer": 0,
+        "explanation": "'Now that' (= karena sekarang sudah) memperkenalkan sebab baru yang sudah tercapai untuk mengizinkan langkah berikutnya.",
+        "hints": [
+          "Daftar cek keselamatan sudah terverifikasi sekarang.",
+          "'Now that' menyatakan sebab akibat kondisi terkini."
+        ],
+        "skill": "subordination-reason-formal"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggalan anak kalimat (sentence fragment) yang dibiarkan berdiri sendiri berikut.",
+        "draft": "Although the initial coastal prototype resisted salt corrosion remarkably well during winter trials.",
+        "options": [
+          "Although the initial coastal prototype resisted salt corrosion remarkably well during winter trials, long-term data remains necessary.",
+          "Because the initial coastal prototype resisted salt corrosion remarkably well during winter trials.",
+          "Despite the initial coastal prototype resisted salt corrosion remarkably well during winter trials."
+        ],
+        "answer": 0,
+        "explanation": "Subordinating conjunction ('Although...') tidak boleh berdiri sendirian tanpa klausa utama (fragment); gabungkan dengan klausa utama setelah koma.",
+        "hints": [
+          "Subordinator 'Although' menjadikan seluruh kalimat baru anak kalimat.",
+          "Wajib ada klausa utama sebagai induk kalimat."
+        ],
+        "skill": "sentence-fragment-avoidance"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please adjust the calibration curve ___ the manual specifies in Appendix A.",
+        "options": [
+          "just as",
+          "unless",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'Just as' berfungsi sebagai subordinator cara ('persis sebagaimana dijelaskan dalam lampiran').",
+        "hints": [
+          "Menunjukkan cara mengikuti pedoman manual.",
+          "Subordinator cara adalah 'just as'."
+        ],
+        "skill": "subordination-manner"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat subordinasi syarat formal memakai 'on condition that'.",
+        "targetSentence": "The landlord extended our studio lease on condition that we maintain quiet evenings.",
+        "explanation": "Klausa utama diikuti konjungsi syarat 'on condition that' + klausa lengkap.",
+        "hints": [
+          "Awali dengan 'The landlord extended our studio lease'.",
+          "Tambahkan klausa syarat 'on condition that...'."
+        ],
+        "skill": "subordination-condition-provided"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat subordinasi sebab formal menggunakan 'inasmuch as' atau 'given that'.",
+        "targetSentence": "Given that winter demand surged early, our logistics hub hired extra drivers.",
+        "explanation": "'Given that + clause' memperkenalkan fakta dasar yang menjadi alasan klausa utama.",
+        "hints": [
+          "Mulai dengan 'Given that winter demand surged early,'.",
+          "Lanjutkan dengan akibatnya di klausa utama."
+        ],
+        "skill": "subordination-reason-formal"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'However'."
         ],
         "skill": "subordination-concession-however"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ convincing the executive summary sounded, the audit board requested raw transaction ledgers.",
+        "options": [
+          "However",
+          "Despite",
+          "Although"
+        ],
+        "answer": 0,
+        "explanation": "Pola formal 'However + Adjective + Subject + Verb' bermakna 'Betapapun [meyakinkan]-nya ringkasan itu...'.",
+        "hints": [
+          "Perhatikan adjective 'convincing' berada langsung setelah rumpang.",
+          "Pola 'However + adj + S + V' tidak memerlukan 'that'."
+        ],
+        "skill": "subordination-concession-however"
+      },
+      {
+        "type": "choice",
+        "prompt": "Keep the thermal gasket sealed tightly ___ moisture compromise the optical array.",
+        "options": [
+          "lest",
+          "unless",
+          "provided"
+        ],
+        "answer": 0,
+        "explanation": "Konjungsi formal 'lest' (= agar jangan sampai) secara tradisional berpasangan dengan bentuk subjunctive tanpa -s ('compromise' setelah subjek tunggal 'moisture').",
+        "hints": [
+          "Lihat verb 'compromise' tanpa '-s' meski subjeknya 'moisture' (subjunctive).",
+          "Konjungsi formal antisipasi risiko adalah 'lest'."
+        ],
+        "skill": "lest-subjunctive-subordination"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi penyuntingan naskah hukum mengenai 'insofar as'.",
+        "dialogue": [
+          [
+            "Partner",
+            "Does Section 8 shield sub-contractors from all liability?"
+          ],
+          [
+            "Associate",
+            "Only ___ they followed written municipal inspection procedures."
+          ]
+        ],
+        "options": [
+          "insofar as",
+          "even if not",
+          "despite the fact"
+        ],
+        "answer": 0,
+        "explanation": "'Insofar as' adalah subordinator presisi hukum dan akademik bermakna 'sejauh mana / sepanjang batas bahwa...'.",
+        "hints": [
+          "Membatasi cakupan berlakunya pasal hukum.",
+          "Konjungsi pembatas cakupan: 'insofar as'."
+        ],
+        "skill": "complex-subordination-legal"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the city upgrades its suburban bus fleet, outer-ring commuters will continue relying on motorbikes.",
+        "options": [
+          "Unless",
+          "As long as",
+          "Given that"
+        ],
+        "answer": 0,
+        "explanation": "Hubungan logis 'Jika kota tidak meningkatkan armada bus, pemudik akan terus memakai motor' memakai 'Unless' (= if ... not).",
+        "hints": [
+          "Klausa kedua menggambarkan konsekuensi jika aksi pertama tidak dilakukan.",
+          "Gunakan 'Unless'."
+        ],
+        "skill": "subordination-negative-condition"
+      },
+      {
+        "type": "choice",
+        "prompt": "Much ___ I respect our consultant's track record, her proposed timeline appears overly optimistic.",
+        "options": [
+          "as",
+          "though that",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Konstruksi konsesif formal di awal kalimat mengikuti pola 'Much as + Subject + Verb' ('Meskipun saya sangat menghormati...').",
+        "hints": [
+          "Pola idiomatik konsesif dengan 'Much': 'Much as + S + V'.",
+          "Jangan memakai 'Much although'."
+        ],
+        "skill": "subordination-concession-formal"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menggabungkan subordinator ganda dan fragmen pada kalimat laporan kebijakan berikut.",
+        "draft": "Whereas renewable capacity doubled in northern provinces, yet rural transmission bottlenecks prevented full distribution.",
+        "options": [
+          "Whereas renewable capacity doubled in northern provinces, rural transmission bottlenecks prevented full distribution.",
+          "Although renewable capacity doubled in northern provinces, but rural transmission bottlenecks prevented full distribution.",
+          "Despite renewable capacity doubled in northern provinces, rural transmission bottlenecks prevented full distribution."
+        ],
+        "answer": 0,
+        "explanation": "Di depan sudah ada subordinator 'Whereas', sehingga jangan menyisipkan 'yet' atau 'but' di antara koma dan klausa utama.",
+        "hints": [
+          "Satu hubungan kontras cukup memakai satu konjungsi.",
+          "Hapus kata 'yet' setelah koma."
+        ],
+        "skill": "subordination-contrast-whereas"
+      },
+      {
+        "type": "choice",
+        "prompt": "The museum agreed to lend the rare astrolabe ___ it be displayed inside a climate-controlled case.",
+        "options": [
+          "on condition that",
+          "whereas",
+          "as if"
+        ],
+        "answer": 0,
+        "explanation": "'On condition that + subject + bare verb (be)' menggabungkan syarat formal dengan mandative subjunctive.",
+        "hints": [
+          "Lihat bare infinitive 'be' setelah 'it' (subjunctive syarat).",
+          "Pilih konjungsi syarat formal 'on condition that'."
+        ],
+        "skill": "subordination-condition-provided"
+      },
+      {
+        "type": "choice",
+        "prompt": "She spoke about the merger ___ she had negotiated every single clause personally.",
+        "options": [
+          "as though",
+          "even though",
+          "provided that"
+        ],
+        "answer": 0,
+        "explanation": "'As though' / 'as if' + Past Perfect ('had negotiated') menyatakan perbandingan cara yang bersifat imajiner atau tak sesuai kenyataan.",
+        "hints": [
+          "Menunjukkan cara berbicara 'seolah-olah dia sendiri yang merundingkan'.",
+          "Pilih 'as though'."
+        ],
+        "skill": "subordination-manner"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat subordinasi berpasangan korelatif 'so ... that' dengan inversi 'So'.",
+        "targetSentence": "So severe was the harbor fog that all morning departures were suspended.",
+        "explanation": "'So + Adjective + Verb + Subject + that...' menekankan tingginya intensitas sebab.",
+        "hints": [
+          "Awali dengan 'So severe was the harbor fog'.",
+          "Sambungkan dengan klausa akibat 'that all morning departures were suspended'."
+        ],
+        "skill": "correlative-subordination"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat konsesif memakai struktur formal 'Try as...'.",
+        "targetSentence": "Try as the logistics team might, they could not clear customs before dusk.",
+        "explanation": "Konstruksi 'Try as + Subject + might/may' bermakna 'Sekeras apa pun mereka berusaha...'.",
+        "hints": [
+          "Mulai dengan 'Try as the logistics team might,'.",
+          "Lengkapi klausa hasil negatifnya."
+        ],
+        "skill": "subordination-concession-formal"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan 'Inasmuch as it has been demonstrated'."
         ],
         "skill": "subordination-reason-formal"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine nested subordination clarity: 'Although the committee approved funding, ___ that field conditions remained unstable, engineers proceeded cautiously.'",
+        "options": [
+          "even though early surveys warned",
+          "warning despite early surveys",
+          "because of early surveys warned"
+        ],
+        "answer": 0,
+        "explanation": "Klausa sisipan bertingkat (nested subordination) wajib membentuk struktur klausa utuh yang paralel agar tidak terputus secara sintaksis ('even though early surveys warned that...').",
+        "hints": [
+          "Pastikan klausa sisipan di antara koma memiliki Subject + Verb untuk klausa 'that...'.",
+          "Cek kelengkapan gramatikal anak kalimat sisipan."
+        ],
+        "skill": "nested-subordination"
+      },
+      {
+        "type": "choice",
+        "prompt": "In statutory drafting, '___ any provision herein be declared invalid, the remaining clauses shall continue in full force' illustrates formal conditional inversion with...",
+        "options": [
+          "Should",
+          "Whether",
+          "Whereas"
+        ],
+        "answer": 0,
+        "explanation": "Dalam hukum modern dan kontrak resmi, 'Should any provision herein be declared...' (= If any provision should be declared...) adalah pembuka syarat formal standar.",
+        "hints": [
+          "Perhatikan verb dasar 'be declared' di belakang subjek 'any provision'.",
+          "Inversi syarat formal diawali 'Should'."
+        ],
+        "skill": "complex-subordination-legal"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan kepadatan anak kalimat berlapis (subordination density) yang membingungkan dan hilang kata kerja utama berikut.",
+        "draft": "While the audit report which the regional office commissioned when tax rules shifted last autumn, though preliminary.",
+        "options": [
+          "While preliminary, the audit report commissioned by the regional office when tax rules shifted last autumn clarified key compliance gaps.",
+          "While the audit report which the regional office commissioned when tax rules shifted last autumn, although preliminary.",
+          "Because the audit report which the regional office commissioned when tax rules shifted last autumn, though preliminary."
+        ],
+        "answer": 0,
+        "explanation": "Kalimat asal adalah sentence fragment panjang tanpa main verb untuk klausa utama! Ringkas anak kalimat bertumpuk ('which the regional office commissioned' → 'commissioned by...') dan berikan predikat utama yang jelas ('clarified key compliance gaps').",
+        "hints": [
+          "Kalimat asal tidak punya main verb utama di luar anak kalimat.",
+          "Pastikan tersedia subjek + predikat utama yang tegas dan ringkas."
+        ],
+        "skill": "subordination-density-control"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi diskusi akademik tentang membedakan 'whether ... or' (ketidakpastian/alternatif) vs 'if'.",
+        "dialogue": [
+          [
+            "Editor",
+            "Your thesis says 'Policy outcomes differ depending on if subsidies target transit or fuel.' Should we refine 'if'?"
+          ],
+          [
+            "Advisor",
+            "Definitely — directly after a preposition like 'on', formal style mandates ___."
+          ]
+        ],
+        "options": [
+          "whether subsidies target transit or fuel",
+          "that subsidies target transit or fuel",
+          "despite subsidies target transit or fuel"
+        ],
+        "answer": 0,
+        "explanation": "Setelah preposisi ('depending on...', 'concerning...', 'as to...'), klausa alternatif TIDAK boleh memakai 'if'; bahasa Inggris baku mewajibkan 'whether (... or ...)'.",
+        "hints": [
+          "Kata depan 'on' tidak bisa langsung diikuti 'if'.",
+          "Gunakan 'whether' setelah preposisi."
+        ],
+        "skill": "complex-subordination-legal"
+      },
+      {
+        "type": "choice",
+        "prompt": "The compliance board declined the variance request, ___ the applicant had complied with prior safety inspections.",
+        "options": [
+          "notwithstanding that",
+          "even if not",
+          "provided unless"
+        ],
+        "answer": 0,
+        "explanation": "'Notwithstanding that + clause' berfungsi sebagai subordinator konsesif hukum yang berarti 'meskipun kenyataannya bahwa...'.",
+        "hints": [
+          "Diikuti klausa lengkap ('the applicant had complied...') dengan makna konsesi hukum.",
+          "Pilih 'notwithstanding that'."
+        ],
+        "skill": "subordination-concession-formal"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ did the dual-hull ferry handle crosswinds that passengers scarcely noticed the gale.",
+        "options": [
+          "All the more",
+          "Such smoothly",
+          "So effortlessly"
+        ],
+        "answer": 2,
+        "explanation": "Pola inversi korelatif 'So + adverb + did + Subject + V1 + that...' memicu inversi saat frasa intensitas diletakkan di awal kalimat.",
+        "hints": [
+          "Pola inversi korelatif: 'So + adverb + auxiliary + S + V1 + that...'.",
+          "Pilih 'So effortlessly'."
+        ],
+        "skill": "correlative-subordination"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk modal/subjunctive di dalam klausa 'lest' berikut.",
+        "draft": "Inspectors flagged the hairline valve leak early lest pressurized steam wouldn't rupture the secondary pipe.",
+        "options": [
+          "Inspectors flagged the hairline valve leak early lest pressurized steam rupture the secondary pipe.",
+          "Inspectors flagged the hairline valve leak early lest pressurized steam didn't rupture the secondary pipe.",
+          "Inspectors flagged the hairline valve leak early lest pressurized steam will not rupture the secondary pipe."
+        ],
+        "answer": 0,
+        "explanation": "'Lest' SUDAH mengandung makna negatif ('agar jangan sampai'); menambahkan 'wouldn't/didn't/not' menciptakan negatif ganda yang merusak arti, dan formalitasnya memakai subjunctive ('rupture') atau 'should rupture'.",
+        "hints": [
+          "'Lest' berarti 'so that ... not', jadi jangan diisi 'not' lagi.",
+          "Hapus negasi dan pakai bare subjunctive 'rupture'."
+        ],
+        "skill": "lest-subjunctive-subordination"
+      },
+      {
+        "type": "choice",
+        "prompt": "No matter ___ persuasive a preliminary dataset appears, longitudinal validation remains indispensable.",
+        "options": [
+          "how",
+          "what",
+          "whether"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum adjective ('persuasive') pada pola konsesi umum, gunakan 'No matter how + adjective + Subject + Verb'.",
+        "hints": [
+          "Diikuti langsung oleh adjective 'persuasive'.",
+          "Pasangan baku: 'No matter how + adj'."
+        ],
+        "skill": "subordination-concession-however"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat formal memakai klausa 'lest' + subjunctive.",
+        "targetSentence": "Engineers installed redundant pressure seals lest thermal expansion compromise the hull.",
+        "explanation": "'Lest' langsung diikuti subjek tunggal ('thermal expansion') + bare verb subjunctive ('compromise') tanpa -s.",
+        "hints": [
+          "Awali dengan 'Engineers installed redundant pressure seals'.",
+          "Sambungkan dengan 'lest thermal expansion compromise the hull'."
+        ],
+        "skill": "lest-subjunctive-subordination"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat hukum/akademis memakai 'insofar as' sebagai pembatas klausa.",
+        "targetSentence": "Automated scoring assists instructors insofar as it flags structural patterns objectively.",
+        "explanation": "'Insofar as' membatasi sejauh mana klausa pertama berlaku.",
+        "hints": [
+          "Mulai dengan 'Automated scoring assists instructors'.",
+          "Tambahkan pembatas 'insofar as it flags structural patterns objectively'."
+        ],
+        "skill": "complex-subordination-legal"
       }
     ]
   }

@@ -99,6 +99,167 @@
           "Klausa sambung: 'when the telephone rang'."
         ],
         "skill": "inversion-scarcely-when"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never ___ I seen such clear aerial photography of the coral reef.",
+        "options": [
+          "have",
+          "I have",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Adverb negatif 'Never' di awal kalimat memicu inversi auxiliary 'have' ke posisi sebelum subjek 'I' ('Never have I seen...').",
+        "hints": [
+          "Perhatikan V3 'seen' dan kata negatif 'Never' di depan.",
+          "Pola inversi: Never + have + Subject + V3."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ our regional branch miss an export shipping deadline.",
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Subjek tunggal 'our regional branch' dengan main verb dasar 'miss' memakai auxiliary Present Simple 'does' dalam inversi ('Rarely does... miss').",
+        "hints": [
+          "Ada main verb bentuk dasar 'miss' di belakang subjek.",
+          "Present Simple tunggal memakai 'does'."
+        ],
+        "skill": "negative-inversion-rarely"
+      },
+      {
+        "type": "choice",
+        "prompt": "Seldom ___ we receive unannounced safety inspections during holiday weeks.",
+        "options": [
+          "do",
+          "are",
+          "have"
+        ],
+        "answer": 0,
+        "explanation": "Dengan subjek 'we' dan verb dasar 'receive', inversi Present Simple setelah 'Seldom' diawali auxiliary 'do'.",
+        "hints": [
+          "Main verb adalah bentuk dasar 'receive' (bukan V3).",
+          "Subjek jamak 'we' memakai 'do'."
+        ],
+        "skill": "negative-inversion-seldom"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little ___ Maya know that the client had already signed the contract upstairs.",
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "'Little' di awal kalimat bermakna negatif ('sedikit sekali / sama sekali tidak tahu') memicu inversi lampau 'Little did + Subject + V1 (know)'.",
+        "hints": [
+          "Ungkapan naratif klasik untuk ketidaktahuan di masa lalu.",
+          "Inversi Past Simple memakai 'did + S + V1'."
+        ],
+        "skill": "negative-inversion-little"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog formal menggunakan penekanan 'Not only...'.",
+        "dialogue": [
+          [
+            "Executive",
+            "Was the new solar array cost-effective?"
+          ],
+          [
+            "Engineer",
+            "Yes — not only ___ electricity costs by forty percent, but it also runs silently."
+          ]
+        ],
+        "options": [
+          "did it lower",
+          "it lowered",
+          "lowered it"
+        ],
+        "answer": 0,
+        "explanation": "Ketika 'Not only' diletakkan di awal klausa, subjek dan verb harus diinversi memakai auxiliary ('did it lower'), bukan urutan pernyataan biasa.",
+        "hints": [
+          "'Not only' di awal klausa menuntut inversi auxiliary + S + V1.",
+          "Gunakan 'did it lower'."
+        ],
+        "skill": "inversion-not-only"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly had the workshop ended ___ participants gathered around the demonstration table.",
+        "options": [
+          "when",
+          "than",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan konjungsi tetap untuk 'Hardly had + S + V3' selalu 'when' (bukan 'than').",
+        "hints": [
+          "Lihat pembuka inversi 'Hardly had...'.",
+          "'Hardly / Scarcely ... when'."
+        ],
+        "skill": "inversion-hardly-when"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan inversi pada kalimat berawalan 'No sooner' berikut.",
+        "draft": "No sooner had we uploaded the patch when three users reported faster login speeds.",
+        "options": [
+          "No sooner had we uploaded the patch than three users reported faster login speeds.",
+          "No sooner we had uploaded the patch than three users reported faster login speeds.",
+          "No sooner did we uploaded the patch than three users reported faster login speeds."
+        ],
+        "answer": 0,
+        "explanation": "Konstruksi inversi komparatif 'No sooner' WAJIB berpasangan dengan 'than' (bukan 'when'), sambil tetap mempertahankan inversi 'had we uploaded'.",
+        "hints": [
+          "'Sooner' adalah bentuk comparative, jadi pasangannya adalah 'than'.",
+          "Ubah 'when' menjadi 'than'."
+        ],
+        "skill": "inversion-no-sooner-than"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scarcely ___ the train pulled out of the station when the evening storm broke.",
+        "options": [
+          "had",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Dengan Past Participle 'pulled', inversi 'Scarcely' memakai auxiliary 'had' sebelum subjek ('Scarcely had the train pulled...').",
+        "hints": [
+          "Perhatikan V3 'pulled' dan pasangan 'when'.",
+          "Past Perfect inversion memakai 'had'."
+        ],
+        "skill": "inversion-scarcely-when"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi berawalan 'Never' dalam gaya formal.",
+        "targetSentence": "Never have local engineers built a suspension span under tighter timelines.",
+        "explanation": "'Never' + 'have' + subjek ('local engineers') + V3 ('built') + objek.",
+        "hints": [
+          "Awali dengan 'Never have local engineers built'.",
+          "Tambahkan objek dan keterangan syarat."
+        ],
+        "skill": "negative-inversion-never"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi berawalan 'Seldom' tentang kebijakan kantor.",
+        "targetSentence": "Seldom does the ethics panel grant exceptions without written documentation.",
+        "explanation": "'Seldom + does + Subject + V1 (grant)' memakai bentuk dasar verb tanpa -s.",
+        "hints": [
+          "Mulai dengan 'Seldom does the ethics panel'.",
+          "Gunakan V1 murni 'grant'."
+        ],
+        "skill": "negative-inversion-seldom"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan modal izin 'may'."
         ],
         "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Under no circumstances ___ confidential medical files be stored on unencrypted USB drives.",
+        "options": [
+          "should",
+          "they should",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explanation": "Frasa preposisi negatif di awal kalimat ('Under no circumstances') menuntut inversi modal 'should' ke depan subjek ('should confidential medical files be stored').",
+        "hints": [
+          "Subjeknya adalah 'confidential medical files'.",
+          "Modal 'should' ditarik ke posisi tepat setelah 'Under no circumstances'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not until the independent lab published its findings ___ the manufacturer recall the faulty chargers.",
+        "options": [
+          "did",
+          "was",
+          "that did"
+        ],
+        "answer": 0,
+        "explanation": "Pola penting: inversi pada konstruksi 'Not until [entire time clause]' TIDAK terjadi di klausa pertama, melainkan pada KLAUSA UTAMA ('... did the manufacturer recall').",
+        "hints": [
+          "Perhatikan inversi tertunda pada klausa kedua setelah anak kalimat.",
+          "Past Simple inversion di klausa utama memakai 'did + S + V1'."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan dengan frasa preposisi negatif 'At no time'.",
+        "dialogue": [
+          [
+            "Auditor",
+            "Did any temporary contractor hold administrator passwords?"
+          ],
+          [
+            "CTO",
+            "No — at no time ___ unrestricted database access."
+          ]
+        ],
+        "options": [
+          "did contractors have",
+          "contractors had",
+          "had contractors have"
+        ],
+        "answer": 0,
+        "explanation": "Frasa negatif 'At no time' di awal klausa langsung diikuti inversi auxiliary lampau 'did' + subjek + V1 ('did contractors have').",
+        "hints": [
+          "'At no time' memicu inversi Past Simple: 'did + S + V1'.",
+          "Hindari menempatkan subjek sebelum 'did'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only after reviewing every eyewitness statement ___ the investigator notice the timestamp discrepancy.",
+        "options": [
+          "did",
+          "was",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Sama seperti 'Not until', frasa pembatas 'Only after + gerund/clause' di depan memicu inversi pada KLAUSA UTAMA setelahnya: 'did the investigator notice'.",
+        "hints": [
+          "Main verb adalah V1 'notice'.",
+          "Inversi klausa utama lampau memakai 'did'."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "choice",
+        "prompt": "On no account ___ unauthorized personnel enter the high-voltage turbine enclosure.",
+        "options": [
+          "must",
+          "are must",
+          "do must"
+        ],
+        "answer": 0,
+        "explanation": "'On no account' (= dalam keadaan apa pun tidak boleh) diikuti modal 'must' sebelum subjek ('On no account must unauthorized personnel enter...').",
+        "hints": [
+          "Frasa preposisi larangan mutlak di awal memicu inversi modal.",
+          "Letakkan 'must' tepat setelah 'On no account'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan melakukan inversi di klausa pertama pada kalimat berawalan 'Not until' berikut.",
+        "draft": "Not until did the sun rise the mountain climbers spotted the base camp lights.",
+        "options": [
+          "Not until the sun rose did the mountain climbers spot the base camp lights.",
+          "Not until did the sun rise did the mountain climbers spotted the base camp lights.",
+          "Not until the sun rises did the mountain climbers spotted the base camp lights."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Not until', klausa waktunya tetap berurutan normal ('the sun rose'), sedangkan inversi baru terjadi pada klausa utama ('did the mountain climbers spot').",
+        "hints": [
+          "Jangan membalik klausa waktu tepat setelah 'Not until'.",
+          "Lakukan inversi hanya pada klausa utama kedua dengan 'did + S + V1'."
+        ],
+        "skill": "inversion-not-until"
+      },
+      {
+        "type": "choice",
+        "prompt": "Barely ___ we cleared customs when the regional connecting flight began boarding.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Barely' memiliki aturan yang sama persis dengan 'Hardly/Scarcely': memakai 'had + Subject + V3 when...'.",
+        "hints": [
+          "Perhatikan V3 'cleared' dan kata penghubung 'when'.",
+          "Gunakan auxiliary 'had'."
+        ],
+        "skill": "inversion-barely-when"
+      },
+      {
+        "type": "choice",
+        "prompt": "In no way ___ this minor software patch compromise existing user encryption.",
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Frasa negatif 'In no way' di awal kalimat diikuti auxiliary Present Simple 'does' sebelum subjek tunggal 'this minor software patch' + V1 'compromise'.",
+        "hints": [
+          "Verb utama adalah bentuk dasar 'compromise'.",
+          "Subjek tunggal memakai 'does'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi larangan formal berawalan 'Under no circumstances'.",
+        "targetSentence": "Under no circumstances may visitors photograph prototypes inside the R&D wing.",
+        "explanation": "Frasa negatif di awal + modal 'may' + subjek ('visitors') + V1 ('photograph').",
+        "hints": [
+          "Mulai dengan 'Under no circumstances may visitors'.",
+          "Tambahkan verb dasar 'photograph' dan objeknya."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi tertunda dengan 'Only after'.",
+        "targetSentence": "Only after signing the safety waiver could participants enter the test track.",
+        "explanation": "Setelah 'Only after + gerund phrase', modal 'could' diletakkan sebelum subjek 'participants'.",
+        "hints": [
+          "Awali dengan 'Only after signing the safety waiver'.",
+          "Lanjutkan dengan inversi 'could participants enter the test track'."
+        ],
+        "skill": "inversion-only-after"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Gunakan auxiliary 'has'."
         ],
         "skill": "negative-inversion-never"
+      },
+      {
+        "type": "choice",
+        "prompt": "Compare negative inversion with Locative Inversion (without 'do/did'): 'Along the northern ridge of the crater ___ three solar-powered seismic sensors.'",
+        "options": [
+          "stand",
+          "do stand",
+          "standing"
+        ],
+        "answer": 0,
+        "explanation": "Pada LOCATIVE INVERSION (frasa keterangan tempat di awal kalimat, seperti 'Along the northern ridge...'), kata kerja utamanya langsung bertukar tempat dengan subjek JAMAK ('three sensors' → verb dasar jamak 'stand'), TANPA menyisipkan 'do/did'!",
+        "hints": [
+          "Ini adalah inversi lokasi (bukan inversi negatif).",
+          "Subjek jamak terletak di belakang ('three sensors'), sehingga verb langsung 'stand' tanpa 'do'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at another locative/motion inversion: 'Out of the mist ___ a silent electric harbor ferry, gliding toward Pier 4.'",
+        "options": [
+          "emerged",
+          "did emerge",
+          "was emerging there"
+        ],
+        "answer": 0,
+        "explanation": "Frasa arah 'Out of the mist' + intransitive motion verb 'emerged' langsung mendahului subjek ('a silent electric harbor ferry') tanpa 'did' — kecuali jika subjeknya berupa pronoun ('it emerged', bukan 'emerged it').",
+        "hints": [
+          "Subjeknya adalah noun phrase ('a silent electric harbor ferry'), bukan pronoun.",
+          "Locative inversion langsung membalik verb 'emerged' ke depan."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan melakukan inversi dengan subjek kata ganti (pronoun) pada locative inversion berikut.",
+        "draft": "Through the frosted glass door walked they quietly into the dark studio.",
+        "options": [
+          "Through the frosted glass door they walked quietly into the dark studio.",
+          "Through the frosted glass door did they walk quietly into the dark studio.",
+          "Walked through the frosted glass door they quietly into the dark studio."
+        ],
+        "answer": 0,
+        "explanation": "ATURAN PENTING LOCATIVE INVERSION: Jika subjeknya berupa PRONOUN ('they', 'he', 'she', 'it'), inversi kata kerja TIDAK BOLEH dilakukan! Kembalikan ke urutan normal 'they walked'.",
+        "hints": [
+          "Subjeknya adalah personal pronoun 'they', bukan frasa noun panjang.",
+          "Pronoun subjek menolak inversi lokasi: 'they walked'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang tujuan retoris pemakaian inversi.",
+        "dialogue": [
+          [
+            "Professor",
+            "Your essay already says 'We rarely encounter such consistent field data.' Why revise it to 'Rarely do we encounter...'?"
+          ],
+          [
+            "Student",
+            "Fronting the negative adverb with inversion creates ___ in formal argumentation."
+          ]
+        ],
+        "options": [
+          "dramatic rhetorical emphasis on how unusual the evidence is",
+          "a casual conversational tone suited to text messages",
+          "ambiguity about who collected the field data"
+        ],
+        "answer": 0,
+        "explanation": "Tujuan utama inversi negatif dalam tulisan formal/IELTS adalah memberikan penekanan retoris yang kuat pada ketidakterdugaan atau ketegasan klaim, bukan untuk gaya kasual.",
+        "hints": [
+          "Mengedepankan 'Rarely' menonjolkan betapa langkanya data tersebut.",
+          "Pilih fungsi retoris formal yang akurat."
+        ],
+        "skill": "inversion-stylistic-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not for a single moment ___ the rescue divers consider abandoning the submerged hull.",
+        "options": [
+          "did",
+          "were",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Frasa negatif 'Not for a single moment' memicu inversi auxiliary lampau 'did' sebelum subjek ('the rescue divers') + V1 'consider'.",
+        "hints": [
+          "Perhatikan verb dasar 'consider' di tengah klausa.",
+          "Inversi Past Simple memakai 'did'."
+        ],
+        "skill": "prepositional-negative-inversion"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only when the final audit clears ___ the board release the second tranche of funding.",
+        "options": [
+          "will",
+          "does will",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Klausa waktu di depan ('Only when the final audit clears' = Present Simple bermakna depan) menunda inversi ke klausa utama: 'will the board release'.",
+        "hints": [
+          "Klausa utama merujuk rencana masa depan setelah audit selesai.",
+          "Lakukan inversi dengan modal 'will' di klausa utama."
+        ],
+        "skill": "inversion-only-after"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan menyatukan klausa 'Not only' tanpa subjek/verb paralel yang jelas berikut.",
+        "draft": "Not only did the new routing engine cut latency in half, but also reduced server memory usage.",
+        "options": [
+          "Not only did the new routing engine cut latency in half, but it also reduced server memory usage.",
+          "Not only did the new routing engine cut latency in half, but reduced also server memory usage.",
+          "Not only the new routing engine cut latency in half, but it also did reduce server memory usage."
+        ],
+        "answer": 0,
+        "explanation": "Ketika 'Not only' mengawali kalimat dengan inversi klausa lengkap ('did the new routing engine cut...'), bagian kedua setelah 'but' wajib menyertakan subjeknya juga ('but it also reduced...') agar struktur klausanya seimbang.",
+        "hints": [
+          "Setelah inversi klausa penuh di depan, klausa kedua tidak boleh kehilangan subjek.",
+          "Tambahkan 'it' di 'but it also reduced'."
+        ],
+        "skill": "inversion-not-only"
+      },
+      {
+        "type": "choice",
+        "prompt": "Beneath the cobblestones of the old market square ___ a network of nineteenth-century drainage tunnels.",
+        "options": [
+          "lies",
+          "lie",
+          "does lie"
+        ],
+        "answer": 0,
+        "explanation": "Subjek sebenarnya berada di belakang verb: 'a network of... tunnels'. Karena kata inti subjeknya tunggal ('a network'), locative inversion wajib memakai verb tunggal 'lies' (tanpa 'does').",
+        "hints": [
+          "Temukan kata inti subjek di akhir kalimat: 'a network' (tunggal).",
+          "Locative inversion tanpa 'does' + verb tunggal 'lies'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat locative inversion formal dengan subjek tunggal.",
+        "targetSentence": "Directly opposite the central observatory stands a century-old stone sundial.",
+        "explanation": "Frasa lokasi 'Directly opposite the central observatory' diikuti langsung oleh verb tunggal 'stands' + subjek.",
+        "hints": [
+          "Awali dengan frasa lokasi 'Directly opposite the central observatory'.",
+          "Balikkan verb 'stands' sebelum 'a century-old stone sundial'."
+        ],
+        "skill": "locative-inversion"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat inversi formal menggunakan 'Only by + V-ing'.",
+        "targetSentence": "Only by standardizing sensor protocols can hospitals share emergency telemetry reliably.",
+        "explanation": "'Only by standardizing...' di depan memicu inversi modal 'can + hospitals + share' di klausa utama.",
+        "hints": [
+          "Mulai dengan 'Only by standardizing sensor protocols'.",
+          "Lanjutkan inversi modal 'can hospitals share...'."
+        ],
+        "skill": "inversion-only-after"
       }
     ]
   }

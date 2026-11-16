@@ -99,6 +99,167 @@
           "Predikat: 'took several months'."
         ],
         "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "What is the standard noun form (nominalization) of the verb 'decide'?",
+        "options": [
+          "decision",
+          "decisive",
+          "decidedly"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi mengubah kata kerja atau kata sifat menjadi kata benda abstrak: 'decide' (verb) → 'decision' (noun).",
+        "hints": [
+          "Cari kata yang dapat didahului 'a' atau 'the' ('make a ___').",
+          "Bentuk kata benda dari 'decide' adalah 'decision'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the noun form derived from the adjective 'accurate':",
+        "options": [
+          "accuracy",
+          "accurately",
+          "accurated"
+        ],
+        "answer": 0,
+        "explanation": "Adjective berakhiran '-ate' sering berubah menjadi kata benda berakhiran '-acy': 'accurate' → 'accuracy'.",
+        "hints": [
+          "'Accurately' adalah adverb, bukan noun.",
+          "Kata benda dari 'accurate' adalah 'accuracy'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Verb: 'They analyzed the water samples quickly.' → Nominalized start: 'Their rapid ___ of the water samples helped the clinic.'",
+        "options": [
+          "analysis",
+          "analyze",
+          "analytical"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'analyze' berubah menjadi noun 'analysis', dan adverb 'quickly' berubah menjadi adjective 'rapid' di depan noun tersebut.",
+        "hints": [
+          "Setelah adjective 'rapid', kita wajib memakai kata benda (noun).",
+          "Bentuk nominalisasi dari 'analyze' adalah 'analysis'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which sentence turns an action verb into a formal noun phrase?",
+        "options": [
+          "The timely implementation of safety upgrades lowered risks.",
+          "Engineers implemented safety upgrades timely to lower risks.",
+          "Safety upgrades were fastly implemented by engineers."
+        ],
+        "answer": 0,
+        "explanation": "Mengubah 'implemented' menjadi frasa kata benda 'The timely implementation of safety upgrades' adalah inti teknik nominalisasi.",
+        "hints": [
+          "Cari kalimat yang mengubah kata kerja menjadi noun berakhiran '-tion'.",
+          "'The timely implementation...' adalah frasa nominalisasi."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan ringkasan laporan agar terdengar lebih akademis.",
+        "dialogue": [
+          [
+            "Advisor",
+            "How can I make 'Prices rose suddenly, which worried commuters' more compact?"
+          ],
+          [
+            "Tutor",
+            "Turn 'Prices rose suddenly' into the noun phrase: '___ worried commuters.'"
+          ]
+        ],
+        "options": [
+          "A sudden rise in prices",
+          "Suddenly rising prices did",
+          "Prices suddenly rising it"
+        ],
+        "answer": 0,
+        "explanation": "Adverb 'suddenly' menjadi adjective 'sudden' dan verb 'rose' menjadi noun 'rise': 'A sudden rise in prices'.",
+        "hints": [
+          "Ubah verb 'rose' menjadi kata benda 'rise'.",
+          "Ubah adverb 'suddenly' menjadi adjective 'sudden'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Adjective: 'The battery is remarkably durable.' → Nominalized phrase: 'The remarkable ___ of the battery impressed testers.'",
+        "options": [
+          "durability",
+          "durably",
+          "durable"
+        ],
+        "answer": 0,
+        "explanation": "Adjective berakhiran '-ble' berubah menjadi kata benda abstrak berakhiran '-bility': 'durable' → 'durability'.",
+        "hints": [
+          "Setelah 'The remarkable', dibutuhkan noun.",
+          "Bentuk noun dari 'durable' adalah 'durability'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan menggabungkan adverb '-ly' dengan kata benda hasil nominalisasi berikut.",
+        "draft": "The rapid and thoroughly investigation of the outage restored client trust.",
+        "options": [
+          "The rapid and thorough investigation of the outage restored client trust.",
+          "The rapidly and thoroughly investigate of the outage restored client trust.",
+          "The rapid and thorough investigate of the outage restored client trust."
+        ],
+        "answer": 0,
+        "explanation": "Begitu verb ('investigate') diubah menjadi kata benda ('investigation'), ia harus diterangkan oleh ADJECTIVE ('thorough'), bukan adverb ('thoroughly').",
+        "hints": [
+          "'Investigation' adalah noun sehingga tidak boleh diterangkan adverb '-ly'.",
+          "Ubah 'thoroughly' menjadi adjective 'thorough'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nominalize the verb 'fail': 'The cooling valve failed.' → 'The ___ of the cooling valve halted production.'",
+        "options": [
+          "failure",
+          "failing",
+          "failness"
+        ],
+        "answer": 0,
+        "explanation": "Kata benda baku hasil nominalisasi 'fail' dalam laporan teknik dan bisnis adalah 'failure'.",
+        "hints": [
+          "Bentuk noun standar dari 'fail' bukan 'failness'.",
+          "Pilih 'failure'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat menggunakan subjek hasil nominalisasi dari verb 'expand'.",
+        "targetSentence": "The rapid expansion of coastal ports boosted regional exports.",
+        "explanation": "Subjek frasa benda 'The rapid expansion of coastal ports' memadatkan klausa 'Ports expanded rapidly'.",
+        "hints": [
+          "Awali dengan 'The rapid expansion of coastal ports'.",
+          "Tambahkan verb 'boosted' dan objek."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominalisasi yang mengubah adjective 'available' menjadi noun.",
+        "targetSentence": "Limited availability of spare parts delayed the ferry repair.",
+        "explanation": "'Available' menjadi kata benda 'availability' yang berpasangan dengan adjective 'Limited'.",
+        "hints": [
+          "Mulai dengan 'Limited availability of spare parts'.",
+          "Akhiri dengan 'delayed the ferry repair'."
+        ],
+        "skill": "adjective-to-noun-shift"
       }
     ],
     "intermediate": [
@@ -223,6 +384,167 @@
           "Gunakan 'Observations'."
         ],
         "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at how nominalization packs two clauses into one: 'Because rural clinics were underfunded, staff turnover increased.' → '___ led to higher staff turnover.'",
+        "options": [
+          "Chronic underfunding of rural clinics",
+          "Rural clinics chronically underfunded",
+          "Because underfunding of rural clinics"
+        ],
+        "answer": 0,
+        "explanation": "Seluruh klausa sebab ('Because rural clinics were underfunded') dipadatkan menjadi subjek noun phrase tunggal: 'Chronic underfunding of rural clinics', diikuti verb kausal 'led to'.",
+        "hints": [
+          "Seluruh sebab harus menjadi satu frasa benda subjek sebelum verb 'led to'.",
+          "Pilih 'Chronic underfunding of rural clinics'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the best noun transformation for 'The public responded skeptically to the tax proposal':",
+        "options": [
+          "Widespread public skepticism toward the tax proposal",
+          "Publicly skeptical responding to the tax proposal",
+          "Skeptic response of public to tax proposal"
+        ],
+        "answer": 0,
+        "explanation": "'Skeptically' → 'skepticism' (atau 'skeptical response'); frasa 'Widespread public skepticism toward the tax proposal' sangat alami dan presisi secara akademis.",
+        "hints": [
+          "Cek susunan modifier + noun + preposition yang tepat.",
+          "Kata benda dari 'skeptical' adalah 'skepticism'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan penyuntingan naskah tentang menghindari 'empty verbs' berlebihan saat nominalisasi.",
+        "dialogue": [
+          [
+            "Editor",
+            "Compare 'The panel conducted an evaluation of the bridge' with 'The panel evaluated the bridge.' Why prefer the second in action writing?"
+          ],
+          [
+            "Writer",
+            "Nominalizing every verb with weak fillers like 'conduct/make' creates ___ when no thematic packaging is needed."
+          ]
+        ],
+        "options": [
+          "unnecessary wordiness and weaker directness",
+          "higher grammatical accuracy in every context",
+          "automatic active-to-passive conversion"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi yang berlebihan ('zombie nouns' + empty verb 'conduct an evaluation' / 'make an announcement') justru membuat tulisan bertele-tele jika tidak dipakai untuk menyambung argumen antar-kalimat.",
+        "hints": [
+          "Nominalisasi hanya efektif jika meningkatkan kepadatan ide atau kohesi.",
+          "Terlalu banyak 'conduct an X of' membuat kalimat lamban dan bertele-tele."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once a verb becomes a noun phrase, notice its syntactic role: 'Strict adherence to sanitation rules prevents contamination.' Here, 'Strict adherence to sanitation rules' serves as...",
+        "options": [
+          "the grammatical Subject of the sentence",
+          "an adverbial clause of manner",
+          "a dangling participle modifier"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi memungkinkan seluruh gagasan proses ('adhering strictly to sanitation rules') berfungsi utuh sebagai SUBJEK gramatikal sebelum verb 'prevents'.",
+        "hints": [
+          "Lihat posisinya tepat sebelum main verb tunggal 'prevents'.",
+          "Frasa nominalisasi itu menduduki posisi Subject."
+        ],
+        "skill": "syntactic-function-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the precise nominalized counterpart of 'reliable' for an engineering abstract:",
+        "options": [
+          "reliability",
+          "reliance",
+          "reliableness"
+        ],
+        "answer": 0,
+        "explanation": "Kata benda untuk sifat dapat diandalkannya sistem/mesin ('reliable') adalah 'reliability' (sedangkan 'reliance' berasal dari 'rely on' = ketergantungan pada).",
+        "hints": [
+          "Bedakan 'reliability' (keandalan) dari 'reliance' (ketergantungan).",
+          "Pilih 'reliability'."
+        ],
+        "skill": "adjective-to-noun-shift"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan Subject-Verb Agreement setelah frasa nominalisasi ber-preposisi panjang berikut.",
+        "draft": "The systematic collection of telemetry from thousands of coastal sensors provide reliable storm alerts.",
+        "options": [
+          "The systematic collection of telemetry from thousands of coastal sensors provides reliable storm alerts.",
+          "The systematic collection of telemetry from thousands of coastal sensors are providing reliable storm alerts.",
+          "The systematic collect of telemetry from thousands of coastal sensors provides reliable storm alerts."
+        ],
+        "answer": 0,
+        "explanation": "Inti subjek kalimat ini adalah kata benda tunggal hasil nominalisasi 'The systematic collection' (bukan 'sensors'), sehingga kata kerjanya wajib tunggal ('provides').",
+        "hints": [
+          "Temukan inti kata benda subjek sebelum preposisi 'of'.",
+          "Subjek tunggal 'collection' memakai verb '-s' ('provides')."
+        ],
+        "skill": "syntactic-function-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "In Cause-Effect academic writing, nominalization replaces 'because' with relational verbs such as ___.",
+        "options": [
+          "resulted in / contributed to / triggered",
+          "despite / although / whereas",
+          "however / moreover / nevertheless"
+        ],
+        "answer": 0,
+        "explanation": "Keunggulan besar nominalisasi adalah menghubungkan Sebab (noun phrase 1) dan Akibat (noun phrase 2) memakai kata kerja kausal tepat seperti 'resulted in', 'triggered', atau 'contributed to'.",
+        "hints": [
+          "Dibutuhkan verb penghubung hubungan sebab-akibat antarnomina.",
+          "Pilih 'resulted in / contributed to / triggered'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Transform 'The clinic maintains equipment poorly, which causes breakdowns' into a dense nominalized opening: '___ frequently triggers equipment breakdowns.'",
+        "options": [
+          "Poor equipment maintenance",
+          "Equipment maintaining poorly",
+          "Poorly maintained equipments"
+        ],
+        "answer": 0,
+        "explanation": "Verb 'maintains' berubah menjadi 'maintenance', dan adverb 'poorly' berubah menjadi adjective 'Poor': 'Poor equipment maintenance'.",
+        "hints": [
+          "Bentuk noun dari 'maintain' adalah 'maintenance'.",
+          "Adverb 'poorly' menjadi adjective 'Poor'."
+        ],
+        "skill": "verb-to-noun-shift"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademis ber-nominalisasi yang menghubungkan dua nomina dengan 'contributed to'.",
+        "targetSentence": "Gradual soil erosion contributed to lower agricultural yields across the valley.",
+        "explanation": "Nomina penyebab ('Gradual soil erosion') + relational verb ('contributed to') + nomina akibat ('lower agricultural yields').",
+        "hints": [
+          "Awali dengan 'Gradual soil erosion contributed to'.",
+          "Tambahkan frasa akibat 'lower agricultural yields across the valley'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat ringkas dengan merevisi nominalisasi yang terlalu bertele-tele menjadi verb langsung.",
+        "targetSentence": "Engineers inspected every bridge joint thoroughly instead of conducting a lengthy review.",
+        "explanation": "Mengganti 'conducting an inspection of' dengan 'inspected' membuat kalimat tegas dan lugas.",
+        "hints": [
+          "Mulai dengan 'Engineers inspected every bridge joint thoroughly'.",
+          "Kontraskan dengan 'instead of conducting a lengthy review'."
+        ],
+        "skill": "nominalization-overuse-editing"
       }
     ],
     "complex": [
@@ -344,6 +666,168 @@
           "Pilih 'a concise subject-verb-object causal chain'."
         ],
         "skill": "syntactic-function-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Examine cohesive flow (Given-New progression) across two sentences: 'Coastal planners recently expanded mangrove buffers along the bay. This strategic ___ sharply reduced tidal flooding.'",
+        "options": [
+          "expansion",
+          "expand",
+          "expansively"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi ('This strategic expansion') sangat vital dalam tulisan IELTS/akademik untuk merangkum aksi kalimat sebelumnya ('expanded...') menjadi topik ringkas (Given information) di awal kalimat berikutnya!",
+        "hints": [
+          "Rujuk kembali kata kerja 'expanded' di kalimat pertama menjadi noun.",
+          "Pola 'This + [adj] + nominalization' membangun kohesi antar-kalimat."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Identify the over-nominalized ('zombie noun') sentence that should be edited back into crisp active prose:",
+        "options": [
+          "The committee reached an agreement on the implementation of a reduction in overtime hours.",
+          "The committee agreed to reduce overtime hours.",
+          "Reducing overtime hours allowed the team to recover faster."
+        ],
+        "answer": 0,
+        "explanation": "Menumpuk empat nominalisasi abstrak sekaligus ('reached an agreement', 'implementation', 'reduction') dengan weak verb 'reached' menciptakan kabut birokratis; menyederhanakannya menjadi verb langsung ('agreed to reduce') jauh lebih kuat.",
+        "hints": [
+          "Cari kalimat yang penuh kata benda abstrak '-tion/-ment' bersambung dengan 'of' bertumpuk.",
+          "Bandingkan kejelasan kalimat pertama dengan dua lainnya."
+        ],
+        "skill": "nominalization-overuse-editing"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan penggunaan preposisi yang salah setelah nominalisasi kata kerja transitif berikut.",
+        "draft": "Our engineering unit appreciated the client's prompt accept of the revised schedule.",
+        "options": [
+          "Our engineering unit appreciated the client's prompt acceptance of the revised schedule.",
+          "Our engineering unit appreciated the client's prompt accepting for the revised schedule.",
+          "Our engineering unit appreciated the client's prompt acceptation on the revised schedule."
+        ],
+        "answer": 0,
+        "explanation": "Bentuk nominalisasi baku dari 'accept' adalah 'acceptance' (bukan verb 'accept' maupun kata usang 'acceptation'), diikuti preposisi 'of' sebelum objek aslinya.",
+        "hints": [
+          "Setelah adjective 'prompt', gunakan kata benda 'acceptance'.",
+          "Objek langsung dari 'accept' berubah menjadi 'of + objek'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan akademik tentang hubungan kata benda abstrak dengan penghilangan subjek manusia.",
+        "dialogue": [
+          [
+            "Reviewer",
+            "Notice how 'Analysts proved that wages stagnated' became 'The demonstration of wage stagnation...'. What was gained?"
+          ],
+          [
+            "Author",
+            "Packaging the clause into a noun phrase lets us treat the finding as ___ and push it into a new cause-effect claim."
+          ]
+        ],
+        "options": [
+          "an established concept that can serve as subject or object",
+          "an informal anecdote for spoken conversation",
+          "a subjective personal opinion lacking evidence"
+        ],
+        "answer": 0,
+        "explanation": "Mengubah proses/klausa menjadi nomina ('wage stagnation') memungkinkan gagasan kompleks diperlakukan sebagai entitas baku yang siap dianalisis atau dihubungkan dengan faktor lain.",
+        "hints": [
+          "Nominalisasi memadatkan klausa menjadi konsep yang dapat berfungsi sebagai subjek/objek kalimat baru.",
+          "Pilih fungsi sintaksis-akademis yang tepat."
+        ],
+        "skill": "syntactic-function-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Choose the sentence that transforms an adjective + clause cleanly WITHOUT losing grammatical precision: 'Although the new alloy is expensive, it resists salt corrosion well.' →",
+        "options": [
+          "Despite its high cost, the new alloy exhibits strong resistance to salt corrosion.",
+          "Despite expensive of it, the new alloy exhibits strongly resistant to salt corrosion.",
+          "Although its high cost, the new alloy exhibits strong resistance to salt corrosion."
+        ],
+        "answer": 0,
+        "explanation": "'Although it is expensive' → 'Despite its high cost'; 'resists well' → 'exhibits strong resistance to...'. Seluruh preposisi ('Despite', 'to') dan kelas kata sesuai kaidah formal.",
+        "hints": [
+          "Periksa pasangan 'Despite + noun phrase' dan 'resistance + to'.",
+          "Pastikan tidak ada campuran 'Although + noun phrase'."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Note how verb-preposition combinations shift under nominalization: 'to rely on solar power' becomes 'heavy ___ solar power'.",
+        "options": [
+          "reliance on",
+          "reliance of",
+          "rely on"
+        ],
+        "answer": 0,
+        "explanation": "Saat kata kerja 'rely on' dinominalisasi menjadi 'reliance', ia mempertahankan preposisi bawaannya ('reliance on'), bukan otomatis diganti menjadi 'of'.",
+        "hints": [
+          "Nominalisasi dari 'rely' adalah 'reliance'.",
+          "Pertahankan preposisi asli 'on' → 'reliance on'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan tata bahasa dan penggunaan modifier pada kalimat nominalisasi berikut.",
+        "draft": "A dramatically increase in offshore wind capacity depend on grid modernization.",
+        "options": [
+          "A dramatic increase in offshore wind capacity depends on grid modernization.",
+          "A dramatically increase in offshore wind capacity depends on grid modernization.",
+          "A dramatic increase in offshore wind capacity are depending on grid modernization."
+        ],
+        "answer": 0,
+        "explanation": "Dua perbaikan penting: 1) Sebelum noun 'increase', gunakan adjective 'dramatic' (bukan adverb 'dramatically'); 2) Inti subjeknya tunggal ('A dramatic increase'), sehingga verb wajib tunggal 'depends'.",
+        "hints": [
+          "Kata benda 'increase' diterangkan oleh adjective, bukan adverb '-ly'.",
+          "Subjek tunggal memakai verb berakhiran -s ('depends')."
+        ],
+        "skill": "syntactic-function-nominalization"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which noun form correctly preserves the meaning of 'disclose' (mengungkapkan fakta) in corporate governance?",
+        "options": [
+          "disclosure",
+          "disclosal",
+          "disclosement"
+        ],
+        "answer": 0,
+        "explanation": "Nominalisasi baku untuk 'disclose' adalah 'disclosure' ('financial disclosure'), bukan 'disclosement'.",
+        "hints": [
+          "Akhiran kata benda untuk 'disclose' dan 'enclose' adalah '-ure'.",
+          "Pilih 'disclosure'."
+        ],
+        "skill": "nominalization-forms"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat kohesif yang merujuk ulang kalimat sebelumnya memakai 'This rapid + [nominalization]'.",
+        "targetSentence": "This rapid urbanization placed unprecedented strain on suburban water mains.",
+        "explanation": "Frasa nominalisasi 'This rapid urbanization' meringkas fenomena pertumbuhan kota sebagai subjek tunggal.",
+        "hints": [
+          "Awali dengan 'This rapid urbanization placed'.",
+          "Lengkapi objek dan lokasi dampaknya."
+        ],
+        "skill": "academic-density-nominalization"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nominalisasi yang mengubah dua kata sifat menjadi subjek abstrak terukur.",
+        "targetSentence": "Greater transparency and accountability strengthened investor confidence across regional markets.",
+        "explanation": "'Transparent' dan 'accountable' menjadi dua kata benda abstrak sejajar sebagai subjek majemuk untuk 'strengthened'.",
+        "hints": [
+          "Mulai dengan 'Greater transparency and accountability'.",
+          "Tambahkan verb 'strengthened' dan objeknya."
+        ],
+        "skill": "adjective-to-noun-shift"
       }
     ]
   }

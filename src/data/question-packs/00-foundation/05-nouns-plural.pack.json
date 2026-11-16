@@ -7,28 +7,49 @@
       {
         "type": "choice",
         "prompt": "We need to replace three office ___ that broke down yesterday.",
-        "options": ["laptopes", "laptops", "laptopies"],
+        "options": [
+          "laptopes",
+          "laptops",
+          "laptopies"
+        ],
         "answer": 1,
         "explanation": "Bentuk jamak teratur untuk 'laptop' cukup ditambah akhiran -s menjadi 'laptops'.",
-        "hints": ["Bentuk jamak teratur standar.", "Cukup tambahkan huruf -s."],
+        "hints": [
+          "Bentuk jamak teratur standar.",
+          "Cukup tambahkan huruf -s."
+        ],
         "skill": "plural-regular"
       },
       {
         "type": "choice",
         "prompt": "The assistant organized all the shipping ___ in the storage room.",
-        "options": ["boxs", "boxes", "boxies"],
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies"
+        ],
         "answer": 1,
         "explanation": "Kata benda yang berakhiran -x, -s, -sh, -ch mendapat akhiran -es untuk bentuk jamak: box $\\rightarrow$ boxes.",
-        "hints": ["Kata berakhiran huruf -x.", "Tambahkan akhiran -es untuk mempermudah pelafalan."],
+        "hints": [
+          "Kata berakhiran huruf -x.",
+          "Tambahkan akhiran -es untuk mempermudah pelafalan."
+        ],
         "skill": "plural-spelling"
       },
       {
         "type": "choice",
         "prompt": "Many growing ___ in Asia are attracting tech investments.",
-        "options": ["citys", "cities", "cityes"],
+        "options": [
+          "citys",
+          "cities",
+          "cityes"
+        ],
         "answer": 1,
         "explanation": "Kata berakhiran konsonan + y (city) mengubah 'y' menjadi 'i' lalu ditambah -es: cities.",
-        "hints": ["Huruf sebelum 'y' adalah konsonan 't'.", "Ubah 'y' menjadi 'i' lalu tambah '-es'."],
+        "hints": [
+          "Huruf sebelum 'y' adalah konsonan 't'.",
+          "Ubah 'y' menjadi 'i' lalu tambah '-es'."
+        ],
         "skill": "plural-spelling"
       },
       {
@@ -36,16 +57,26 @@
         "prompt": "Susun kalimat dengan bentuk jamak tidak beraturan 'children'.",
         "targetSentence": "The children are playing in the park.",
         "explanation": "Child adalah tunggal, jamaknya adalah irregular noun 'children', berpasangan dengan to be 'are'.",
-        "hints": ["Mulai dengan subject 'The children'.", "Gunakan to be jamak 'are'."],
+        "hints": [
+          "Mulai dengan subject 'The children'.",
+          "Gunakan to be jamak 'are'."
+        ],
         "skill": "plural-irregular"
       },
       {
         "type": "choice",
         "prompt": "Several ___ attended the medical conference in Geneva.",
-        "options": ["womans", "women", "womens"],
+        "options": [
+          "womans",
+          "women",
+          "womens"
+        ],
         "answer": 1,
         "explanation": "Bentuk jamak tidak beraturan dari 'woman' adalah 'women' (tanpa tambahan akhiran -s lagi).",
-        "hints": ["Bentuk jamak irregular woman $\\rightarrow$ women.", "Jangan menambahkan -s pada kata jamak irregular."],
+        "hints": [
+          "Bentuk jamak irregular woman $\\rightarrow$ women.",
+          "Jangan menambahkan -s pada kata jamak irregular."
+        ],
         "skill": "plural-irregular"
       },
       {
@@ -53,17 +84,188 @@
         "prompt": "Susun kalimat jamak dengan kata benda berakhiran -f/-fe.",
         "targetSentence": "The chefs sharpened their knives.",
         "explanation": "Knife berakhiran -fe diubah menjadi -ves: knives.",
-        "hints": ["Mulai dengan subject 'The chefs'.", "Bentuk jamak knife adalah knives."],
+        "hints": [
+          "Mulai dengan subject 'The chefs'.",
+          "Bentuk jamak knife adalah knives."
+        ],
         "skill": "plural-spelling"
       },
       {
         "type": "choice",
         "prompt": "The dental clinic examined both of his ___ during the check-up.",
-        "options": ["tooths", "teeth", "toothes"],
+        "options": [
+          "tooths",
+          "teeth",
+          "toothes"
+        ],
         "answer": 1,
         "explanation": "Bentuk jamak dari 'tooth' mengalami perubahan vokal dalam (umlaut) menjadi 'teeth'.",
-        "hints": ["Perubahan vokal -oo- menjadi -ee-.", "Sama seperti foot $\\rightarrow$ feet."],
+        "hints": [
+          "Perubahan vokal -oo- menjadi -ee-.",
+          "Sama seperti foot $\\rightarrow$ feet."
+        ],
         "skill": "plural-irregular"
+      },
+      {
+        "type": "choice",
+        "prompt": "We received five urgent ___ from overseas customers this morning.",
+        "options": [
+          "message",
+          "messages",
+          "messagies"
+        ],
+        "answer": 1,
+        "explanation": "Kata benda beraturan 'message' cukup ditambah -s menjadi 'messages'.",
+        "hints": [
+          "Kata berakhiran vokal -e langsung ditambah -s.",
+          "Jumlahnya lima (jamak)."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please place all the empty cardboard ___ beside the recycling bin.",
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies"
+        ],
+        "answer": 1,
+        "explanation": "Kata benda berakhiran -s, -sh, -ch, -x, atau -z ditambah -es menjadi 'boxes'.",
+        "hints": [
+          "Akhiran -x memerlukan tambahan -es.",
+          "Bentuk jamak dari 'box' adalah 'boxes'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two famous ___ joined the culinary festival in Bandung.",
+        "options": [
+          "chefs",
+          "cheves",
+          "chefes"
+        ],
+        "answer": 0,
+        "explanation": "Tidak semua kata berakhiran -f berubah menjadi -ves; 'chef', 'roof', dan 'belief' cukup ditambah -s ('chefs').",
+        "hints": [
+          "Kata 'chef' adalah pengecualian aturan -f ke -ves.",
+          "Cukup tambahkan akhiran -s."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several stray ___ were sleeping peacefully near the warm bakery vent.",
+        "options": [
+          "cat",
+          "kittens",
+          "caties"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak yang gramatikal untuk 'several' adalah 'kittens' (anak kucing).",
+        "hints": [
+          "'Several' wajib diikuti noun jamak.",
+          "Pilih bentuk jamak berakhiran -s."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang keluarga dengan bentuk jamak tidak beraturan yang tepat.",
+        "dialogue": [
+          [
+            "Host",
+            "How many ___ are attending the neighborhood picnic?"
+          ],
+          [
+            "Organizer",
+            "Around twenty boys and girls, plus their parents."
+          ]
+        ],
+        "options": [
+          "childs",
+          "childrens",
+          "children"
+        ],
+        "answer": 2,
+        "explanation": "Bentuk jamak tidak beraturan dari 'child' adalah 'children' (jangan ditambah -s lagi).",
+        "hints": [
+          "'Child' termasuk irregular plural noun.",
+          "Jangan pernah menambahkan akhiran -s pada 'children'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The technician needs to sharpen all the kitchen ___ before dinner service.",
+        "options": [
+          "knifes",
+          "knives",
+          "knife"
+        ],
+        "answer": 1,
+        "explanation": "Kata berakhiran -fe seperti 'knife' dan 'life' mengubah -fe menjadi -ves: 'knives'.",
+        "hints": [
+          "Perhatikan akhiran -fe pada 'knife'.",
+          "Ubah -fe menjadi -ves."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk jamak pada kata benda berakhiran konsonan + y.",
+        "draft": "Our company opened three new branchs in different citys last year.",
+        "options": [
+          "Our company opened three new branches in different cities last year.",
+          "Our company opened three new branchs in different cities last year.",
+          "Our company opened three new branches in different citys last year."
+        ],
+        "answer": 0,
+        "explanation": "'Branch' berakhiran -ch (+ -es -> 'branches'); 'city' berakhiran konsonan t + y (y -> -ies -> 'cities').",
+        "hints": [
+          "Periksa dua kata benda jamak: 'branch' dan 'city'.",
+          "Akhiran -ch memakai -es; konsonan + y menjadi -ies."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Notice that both of those wooden ___ have been freshly varnished.",
+        "options": [
+          "shelfs",
+          "shelves",
+          "shelf"
+        ],
+        "answer": 1,
+        "explanation": "'Shelf' berakhiran -f dan berubah menjadi -ves: 'shelves'.",
+        "hints": [
+          "Akhiran -f pada 'shelf' mengikuti pola -ves.",
+          "Pilih 'shelves'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat sederhana memakai irregular plural 'people'.",
+        "targetSentence": "Many friendly people live in this coastal village.",
+        "explanation": "'People' adalah bentuk jamak dari 'person' dan langsung diikuti verb jamak 'live'.",
+        "hints": [
+          "Awali dengan 'Many friendly people'.",
+          "Verb jamak setelahnya adalah 'live'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat dengan bentuk jamak 'women' yang tepat.",
+        "targetSentence": "Three experienced women lead the engineering division.",
+        "explanation": "'Women' adalah bentuk jamak tidak beraturan dari 'woman'.",
+        "hints": [
+          "Subjeknya 'Three experienced women'.",
+          "Verb jamak tanpa -s adalah 'lead'."
+        ],
+        "skill": "plural-noun"
       }
     ],
     "intermediate": [
@@ -71,31 +273,58 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog di peternakan dengan kata benda jamak yang tidak berubah bentuk.",
         "dialogue": [
-          ["Farmer", "How many ___ are grazing in the upper pasture?"],
-          ["Worker", "There are about forty of them."]
+          [
+            "Farmer",
+            "How many ___ are grazing in the upper pasture?"
+          ],
+          [
+            "Worker",
+            "There are about forty of them."
+          ]
         ],
-        "options": ["sheeps", "sheep", "sheepes"],
+        "options": [
+          "sheeps",
+          "sheep",
+          "sheepes"
+        ],
         "answer": 1,
         "explanation": "Kata 'sheep' memiliki bentuk tunggal dan jamak yang identik (zero plural marker): one sheep, forty sheep.",
-        "hints": ["Kata ini tidak berubah bentuk dalam keadaan jamak.", "Sama seperti deer dan fish."],
+        "hints": [
+          "Kata ini tidak berubah bentuk dalam keadaan jamak.",
+          "Sama seperti deer dan fish."
+        ],
         "skill": "plural-irregular"
       },
       {
         "type": "choice",
         "prompt": "The department updated several of its operational ___ this quarter.",
-        "options": ["policys", "policies", "policyes"],
+        "options": [
+          "policys",
+          "policies",
+          "policyes"
+        ],
         "answer": 1,
         "explanation": "'Policy' berakhiran konsonan c + y, sehingga jamaknya menjadi 'policies'.",
-        "hints": ["Perhatikan huruf sebelum y (konsonan c).", "Konsonan + y berubah menjadi -ies."],
+        "hints": [
+          "Perhatikan huruf sebelum y (konsonan c).",
+          "Konsonan + y berubah menjadi -ies."
+        ],
         "skill": "plural-spelling"
       },
       {
         "type": "choice",
         "prompt": "However, for words ending in vowel + y like 'survey' or 'holiday', the plural is...",
-        "options": ["surveies", "surveys", "surveyes"],
+        "options": [
+          "surveies",
+          "surveys",
+          "surveyes"
+        ],
         "answer": 1,
         "explanation": "Jika sebelum huruf y adalah huruf vokal (vowel + y), cukup tambahkan -s: surveys, holidays, days.",
-        "hints": ["Huruf 'e' sebelum 'y' adalah huruf vokal.", "Cukup tambahkan -s tanpa mengubah y."],
+        "hints": [
+          "Huruf 'e' sebelum 'y' adalah huruf vokal.",
+          "Cukup tambahkan -s tanpa mengubah y."
+        ],
         "skill": "plural-spelling"
       },
       {
@@ -103,16 +332,26 @@
         "prompt": "Susun kalimat dengan bentuk jamak kata berakhiran -o (volcanoes / heroes / photos).",
         "targetSentence": "The tourists took many photos.",
         "explanation": "'Photo' (singkatan dari photograph) adalah pengecualian kata berakhiran -o yang hanya ditambah -s: photos.",
-        "hints": ["Subject: 'The tourists'.", "Photo cukup ditambah -s."],
+        "hints": [
+          "Subject: 'The tourists'.",
+          "Photo cukup ditambah -s."
+        ],
         "skill": "plural-spelling"
       },
       {
         "type": "choice",
         "prompt": "The biology lab is studying various ___ of freshwater algae.",
-        "options": ["species", "specieses", "specie"],
+        "options": [
+          "species",
+          "specieses",
+          "specie"
+        ],
         "answer": 0,
         "explanation": "Kata 'species' dan 'series' berakhiran -s baik dalam bentuk tunggal maupun jamak (one species, various species).",
-        "hints": ["Kata ini sudah berakhiran -s di bentuk tunggalnya.", "Bentuk jamaknya tetap sama persis."],
+        "hints": [
+          "Kata ini sudah berakhiran -s di bentuk tunggalnya.",
+          "Bentuk jamaknya tetap sama persis."
+        ],
         "skill": "plural-irregular"
       },
       {
@@ -120,21 +359,198 @@
         "prompt": "Susun kalimat dengan bentuk jamak kata benda majemuk (compound noun).",
         "targetSentence": "Both mothers-in-law attended the family ceremony.",
         "explanation": "Pada compound noun berpola 'noun + prepositional phrase', akhiran jamak -s ditambahkan pada kata benda intinya: mothers-in-law.",
-        "hints": ["Kata inti yang dibuat jamak adalah 'mother' (mothers).", "Bukan mother-in-laws."],
+        "hints": [
+          "Kata inti yang dibuat jamak adalah 'mother' (mothers).",
+          "Bukan mother-in-laws."
+        ],
         "skill": "plural-compound"
       },
       {
         "type": "dialogue",
         "prompt": "Pilih bentuk jamak yang tepat untuk melengkapi dialog profesional.",
         "dialogue": [
-          ["Manager", "Have all the project ___ been formally defined?"],
-          ["Consultant", "Yes, we documented every scope boundary yesterday."]
+          [
+            "Manager",
+            "Have all the project ___ been formally defined?"
+          ],
+          [
+            "Consultant",
+            "Yes, we documented every scope boundary yesterday."
+          ]
         ],
-        "options": ["criterias", "criteria", "criterions"],
+        "options": [
+          "criterias",
+          "criteria",
+          "criterions"
+        ],
         "answer": 1,
         "explanation": "'Criterion' adalah bentuk tunggal dari bahasa Yunani, bentuk jamak resminya adalah 'criteria' (tanpa tambahan -s).",
-        "hints": ["Criterion adalah bentuk tunggal.", "Bentuk jamaknya berakhiran -a."],
+        "hints": [
+          "Criterion adalah bentuk tunggal.",
+          "Bentuk jamaknya berakhiran -a."
+        ],
         "skill": "plural-foreign"
+      },
+      {
+        "type": "choice",
+        "prompt": "In the wildlife reserve, rangers counted forty wild ___ grazing near the river.",
+        "options": [
+          "deers",
+          "deer",
+          "deeries"
+        ],
+        "answer": 1,
+        "explanation": "'Deer' termasuk zero-plural noun (bentuk tunggal dan jamaknya sama: 'deer', tidak memakai -s).",
+        "hints": [
+          "Kata seperti 'deer' dan 'sheep' tidak berubah di bentuk jamak.",
+          "Pilih 'deer'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The botanical garden displays hundreds of colorful ___ every spring.",
+        "options": [
+          "lilies",
+          "lilys",
+          "lily"
+        ],
+        "answer": 0,
+        "explanation": "'Lily' berakhiran konsonan l + y, sehingga berubah menjadi 'lilies'.",
+        "hints": [
+          "Perhatikan huruf sebelum 'y' pada 'lily'.",
+          "Konsonan + y berubah menjadi -ies."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog di dapur restoran mengenai bahan makanan berakhiran -o.",
+        "dialogue": [
+          [
+            "Chef",
+            "Do we have enough ripe ___ for the pasta sauce?"
+          ],
+          [
+            "Prep Cook",
+            "Yes, I washed two baskets of tomatoes and potatoes."
+          ]
+        ],
+        "options": [
+          "tomatos",
+          "tomatoes",
+          "tomato"
+        ],
+        "answer": 1,
+        "explanation": "Kata 'tomato', 'potato', dan 'hero' mendapat tambahan -es saat jamak: 'tomatoes'.",
+        "hints": [
+          "Kata benda umum berakhiran konsonan + o seperti tomato/potato memakai -es.",
+          "Pilih 'tomatoes'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Conversely, music stores display dozens of grand ___ in the main showroom.",
+        "options": [
+          "pianoes",
+          "pianos",
+          "piano"
+        ],
+        "answer": 1,
+        "explanation": "Kata serapan atau singkatan musik berakhiran -o seperti 'piano', 'photo', dan 'radio' hanya ditambah -s: 'pianos'.",
+        "hints": [
+          "'Piano' adalah istilah musik (bukan -oes).",
+          "Cukup tambahkan -s."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "We noticed several small ___ running near the old grain barn.",
+        "options": [
+          "mouses",
+          "mice",
+          "mouse"
+        ],
+        "answer": 1,
+        "explanation": "Bentuk jamak tidak beraturan dari hewan 'mouse' adalah 'mice'.",
+        "hints": [
+          "Irregular plural dari 'mouse' bukan 'mouses'.",
+          "Bentuk yang tepat adalah 'mice'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan bentuk jamak pada kata benda majemuk (compound noun) berikut.",
+        "draft": "Both of her sister-in-laws run successful architectural studios.",
+        "options": [
+          "Both of her sisters-in-law run successful architectural studios.",
+          "Both of her sister-in-law run successful architectural studios.",
+          "Both of her sisters-in-laws run successful architectural studios."
+        ],
+        "answer": 0,
+        "explanation": "Pada kata benda majemuk dengan tanda hubung seperti 'sister-in-law', akhiran -s diletakkan pada kata inti ('sisters-in-law').",
+        "hints": [
+          "Identifikasi kata inti dari frasa 'sister-in-law'.",
+          "Jamakkan kata 'sister', bukan 'law'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The aquarium keeps over thirty rare ___ from the Coral Triangle.",
+        "options": [
+          "fish",
+          "fishs",
+          "fishing"
+        ],
+        "answer": 0,
+        "explanation": "Untuk kelompok ikan secara umum (atau jumlah ikan dari spesies sama), bentuk jamak standar adalah 'fish' ('fishes' hanya dipakai jika menekankan keragaman spesies ilmiah).",
+        "hints": [
+          "Pilih bentuk jamak standar untuk jumlah hewan laut.",
+          "Gunakan 'fish'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at those flying ___ perched on the old oak tree!",
+        "options": [
+          "gooses",
+          "geese",
+          "goose"
+        ],
+        "answer": 1,
+        "explanation": "Irregular plural dari 'goose' adalah 'geese' (mengalami perubahan vokal internal seperti foot → feet).",
+        "hints": [
+          "Perubahan vokal oo → ee seperti 'tooth → teeth'.",
+          "Bentuk jamaknya adalah 'geese'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat memakai kata benda yang selalu berbentuk jamak (pluralia tantum) 'glasses'.",
+        "targetSentence": "My reading glasses are on the top shelf.",
+        "explanation": "Benda berpasangan seperti 'glasses' dan 'scissors' selalu memakai verb jamak 'are'.",
+        "hints": [
+          "Awali dengan 'My reading glasses'.",
+          "Gunakan to be jamak 'are'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tentang kata benda tak terhitung tanpa akhiran -s.",
+        "targetSentence": "The consultants offered helpful information during the seminar.",
+        "explanation": "'Information' tidak dapat dihitung sehingga tidak pernah berbentuk 'informations'.",
+        "hints": [
+          "Jangan menambahkan -s pada 'information'.",
+          "Susun S + V + adj + uncountable noun."
+        ],
+        "skill": "plural-noun"
       }
     ],
     "complex": [
@@ -149,25 +565,42 @@
         ],
         "answer": 0,
         "explanation": "Kata berakhiran -sis (analysis, hypothesis, crisis, thesis) mengubah akhiran -is menjadi -es untuk bentuk jamak: analyses /əˈnæləsiːz/.",
-        "hints": ["Akhiran -sis berubah menjadi -ses untuk jamak.", "Contoh: crisis $\\rightarrow$ crises, analysis $\\rightarrow$ analyses."],
+        "hints": [
+          "Akhiran -sis berubah menjadi -ses untuk jamak.",
+          "Contoh: crisis $\\rightarrow$ crises, analysis $\\rightarrow$ analyses."
+        ],
         "skill": "plural-foreign"
       },
       {
         "type": "choice",
         "prompt": "These natural ___ occur predominantly during the winter season.",
-        "options": ["phenomenons", "phenomena", "phenomenas"],
+        "options": [
+          "phenomenons",
+          "phenomena",
+          "phenomenas"
+        ],
         "answer": 1,
         "explanation": "Kata serapan Yunani 'phenomenon' memiliki bentuk jamak resmi 'phenomena'. Kata penunjuk 'These' menandakan perlunya bentuk jamak.",
-        "hints": ["Phenomenon adalah singular.", "Jamaknya berakhiran -a."],
+        "hints": [
+          "Phenomenon adalah singular.",
+          "Jamaknya berakhiran -a."
+        ],
         "skill": "plural-foreign"
       },
       {
         "type": "choice",
         "prompt": "The university revised the ___ for all four academic departments.",
-        "options": ["curriculums", "curricula", "both curricula and curriculums are acceptable"],
+        "options": [
+          "curriculums",
+          "curricula",
+          "both curricula and curriculums are acceptable"
+        ],
         "answer": 2,
         "explanation": "Dalam bahasa Inggris modern, baik bentuk klasik Latin 'curricula' maupun bentuk anglikanisasi 'curriculums' diakui sebagai bentuk jamak yang sah.",
-        "hints": ["Bahasa Inggris modern menerima bentuk etimologis maupun bentuk beraturan untuk kata ini.", "Keduanya benar."],
+        "hints": [
+          "Bahasa Inggris modern menerima bentuk etimologis maupun bentuk beraturan untuk kata ini.",
+          "Keduanya benar."
+        ],
         "skill": "plural-foreign"
       },
       {
@@ -175,7 +608,10 @@
         "prompt": "Susun kalimat ilmiah dengan bentuk jamak dari 'hypothesis'.",
         "targetSentence": "The scientists formulated two plausible hypotheses.",
         "explanation": "Hypothesis (tunggal) $\\rightarrow$ hypotheses (jamak).",
-        "hints": ["Subject: 'The scientists'.", "Bentuk jamak dari hypothesis adalah hypotheses."],
+        "hints": [
+          "Subject: 'The scientists'.",
+          "Bentuk jamak dari hypothesis adalah hypotheses."
+        ],
         "skill": "plural-foreign"
       },
       {
@@ -189,30 +625,215 @@
         ],
         "answer": 0,
         "explanation": "Pada compound noun seperti 'passer-by' atau 'runner-up', penanda jamak -s diletakkan pada kata benda utama (passers-by), bukan pada preposisi/partikel.",
-        "hints": ["Siapakah pelakunya? Orang yang lewat (passer).", "Tambahkan -s pada kata benda 'passers', bukan pada 'by'."],
+        "hints": [
+          "Siapakah pelakunya? Orang yang lewat (passer).",
+          "Tambahkan -s pada kata benda 'passers', bukan pada 'by'."
+        ],
         "skill": "plural-compound"
       },
       {
         "type": "choice",
         "prompt": "Perhatikan kata benda yang selalu berpasangan/jamak: 'These scissors ___ very sharp.'",
-        "options": ["is", "are", "am"],
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
         "answer": 1,
         "explanation": "Benda yang terdiri dari dua bagian simetris (scissors, glasses, trousers, pliers) selalu berstatus jamak dan berpasangan dengan 'are'.",
-        "hints": ["Gunting memiliki dua bilah yang berpasangan.", "Kata 'scissors' selalu jamak."],
+        "hints": [
+          "Gunting memiliki dua bilah yang berpasangan.",
+          "Kata 'scissors' selalu jamak."
+        ],
         "skill": "plural-pair"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog dengan bentuk kuantifikasi alat yang tepat.",
         "dialogue": [
-          ["Tailor", "Can you hand me that ___ of scissors on the counter?"],
-          ["Apprentice", "Sure, here it is."]
+          [
+            "Tailor",
+            "Can you hand me that ___ of scissors on the counter?"
+          ],
+          [
+            "Apprentice",
+            "Sure, here it is."
+          ]
         ],
-        "options": ["pair", "piece", "item"],
+        "options": [
+          "pair",
+          "piece",
+          "item"
+        ],
         "answer": 0,
         "explanation": "Untuk menghitung pluralia tantum (kata benda yang selalu jamak seperti scissors, glasses, pants), gunakan unit penghitung 'pair': a pair of scissors, two pairs of scissors.",
-        "hints": ["Kata pengukur untuk benda berpasangan simetris.", "Gunakan 'a pair of'."],
+        "hints": [
+          "Kata pengukur untuk benda berpasangan simetris.",
+          "Gunakan 'a pair of'."
+        ],
         "skill": "plural-pair"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several independent ___ suggest that urban green spaces lower summer temperatures.",
+        "options": [
+          "analysis",
+          "analyses",
+          "analysises"
+        ],
+        "answer": 1,
+        "explanation": "Kata serapan Yunani berakhiran '-is' berubah menjadi '-es' saat jamak: 'analysis → analyses' (/əˈnæl.ə.siːz/).",
+        "hints": [
+          "Perhatikan akhiran '-is' pada kata ilmiah 'analysis'.",
+          "Ubah '-is' menjadi '-es'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "The faculty updated the official ___ for all undergraduate engineering courses.",
+        "options": [
+          "curriculums",
+          "curricula",
+          "curriculum"
+        ],
+        "answer": 1,
+        "explanation": "Dalam gaya akademis formal, jamak klasik dari 'curriculum' adalah 'curricula' (dari bahasa Latin '-um → -a').",
+        "hints": [
+          "Pilih bentuk jamak Latin yang standar di lingkungan universitas.",
+          "Akhiran -um berubah menjadi -a."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan agreement untuk kata benda plural-only yang sering disalahpahami.",
+        "draft": "Wait a moment! This scissors is too dull to cut the thick cardboard.",
+        "options": [
+          "Wait a moment! These scissors are too dull to cut the thick cardboard.",
+          "Wait a moment! This scissor is too dull to cut the thick cardboard.",
+          "Wait a moment! These scissors is too dull to cut the thick cardboard."
+        ],
+        "answer": 0,
+        "explanation": "Alat berpasangan seperti 'scissors', 'trousers', dan 'pliers' selalu jamak secara tata bahasa dan memakai 'these/those' + 'are'.",
+        "hints": [
+          "'Scissors' selalu berbentuk jamak dan butuh demonstratif 'these'.",
+          "To be yang sesuai adalah 'are'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan laboratorium biologi dengan bentuk jamak serapan Yunani '-on → -a'.",
+        "dialogue": [
+          [
+            "Professor",
+            "Did the microscope detect a single phenomenon or multiple ___?"
+          ],
+          [
+            "Researcher",
+            "Multiple! All four recorded anomalies behave consistently."
+          ]
+        ],
+        "options": [
+          "phenomenons",
+          "phenomena",
+          "phenomenon"
+        ],
+        "answer": 1,
+        "explanation": "'Phenomenon' (tunggal) berakhiran '-on' dan berubah menjadi 'phenomena' (jamak). (Sama seperti 'criterion → criteria').",
+        "hints": [
+          "Jangan menambahkan -s pada 'phenomenon'.",
+          "Akhiran -on serapan Yunani berubah menjadi -a."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Throughout the two-week survey, both ___ collected valuable oceanic samples.",
+        "options": [
+          "aircraft",
+          "aircrafts",
+          "aircraftes"
+        ],
+        "answer": 0,
+        "explanation": "'Aircraft' dan 'spacecraft' memiliki bentuk tunggal dan jamak yang identik ('two aircraft', bukan 'aircrafts').",
+        "hints": [
+          "Kata benda transportasi udara/antariksa berakhiran -craft tidak memakai -s.",
+          "Pilih 'aircraft'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before finalizing the contract, remember the basic ___ of fair negotiation.",
+        "options": [
+          "criterias",
+          "criteria",
+          "criterion"
+        ],
+        "answer": 1,
+        "explanation": "'Criteria' sudah merupakan bentuk jamak dari 'criterion', sehingga tidak perlu ditambah -s ('criterias' tidak baku).",
+        "hints": [
+          "Hindari kesalahan ganda 'criterias'.",
+          "'Criteria' adalah bentuk jamak."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan bentuk jamak dan pencatatan 'datum/data' atau 'index/indices' dalam konteks riset.",
+        "draft": "All financial indexs published this quarter show modest growth.",
+        "options": [
+          "All financial indices published this quarter show modest growth.",
+          "All financial index published this quarter shows modest growth.",
+          "All financial indixes published this quarter show modest growth."
+        ],
+        "answer": 0,
+        "explanation": "Dalam laporan keuangan atau statistik formal, bentuk jamak standar dari 'index' adalah 'indices' (atau 'indexes' di gaya informal, bukan 'indexs').",
+        "hints": [
+          "Akhiran '-ex/-ix' sering berubah menjadi '-ices' pada ragam ilmiah.",
+          "Pilih ejaan 'indices' yang baku."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please check all external ___ attached to the legal brief before printing.",
+        "options": [
+          "appendixes",
+          "appendices",
+          "appendix"
+        ],
+        "answer": 1,
+        "explanation": "Dalam dokumen formal dan penerbitan buku, bentuk jamak standar dari 'appendix' adalah 'appendices'.",
+        "hints": [
+          "Bentuk formal untuk lampiran buku adalah '-ices'.",
+          "Pilih 'appendices'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat akademis menggunakan bentuk jamak 'hypotheses'.",
+        "targetSentence": "The researchers tested three competing hypotheses during the trial.",
+        "explanation": "'Hypothesis' (tunggal) berubah menjadi 'hypotheses' (jamak) mengikuti pola '-is → -es'.",
+        "hints": [
+          "Awali dengan 'The researchers tested'.",
+          "Gunakan frasa objek 'three competing hypotheses'."
+        ],
+        "skill": "plural-noun"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang menggunakan satuan kuantifikasi tepat untuk uncountable noun 'furniture'.",
+        "targetSentence": "The interior designer ordered three pieces of antique furniture.",
+        "explanation": "Karena 'furniture' tidak bisa dihitung, pakai satuan 'three pieces of + furniture' (bukan 'furnitures').",
+        "hints": [
+          "Mulai dengan 'The interior designer ordered'.",
+          "Jangan tambahkan -s pada 'furniture'."
+        ],
+        "skill": "plural-noun"
       }
     ]
   }

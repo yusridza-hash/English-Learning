@@ -7,19 +7,33 @@
       {
         "type": "choice",
         "prompt": "Listen! The lead vocalist ___ a brand-new song on stage right now.",
-        "options": ["sings", "is singing", "are singing"],
+        "options": [
+          "sings",
+          "is singing",
+          "are singing"
+        ],
         "answer": 1,
         "explanation": "Penanda waktu 'right now' dan seruan 'Listen!' menandakan aksi sedang berlangsung saat ini. Subjek tunggal 'The lead vocalist' berpasangan dengan 'is singing'.",
-        "hints": ["Aksi sedang berlangsung sekarang (right now).", "Subjek tunggal memakai 'is' + verb-ing."],
+        "hints": [
+          "Aksi sedang berlangsung sekarang (right now).",
+          "Subjek tunggal memakai 'is' + verb-ing."
+        ],
         "skill": "present-continuous-form"
       },
       {
         "type": "choice",
         "prompt": "The developers ___ the final deployment to the production server at the moment.",
-        "options": ["is preparing", "are preparing", "prepares"],
+        "options": [
+          "is preparing",
+          "are preparing",
+          "prepares"
+        ],
         "answer": 1,
         "explanation": "'The developers' adalah subjek jamak (they), sehingga rumus Present Continuous memakai 'are' + verb-ing: 'are preparing'.",
-        "hints": ["Perhatikan subjek jamak 'The developers'.", "Gunakan 'are' + verb-ing."],
+        "hints": [
+          "Perhatikan subjek jamak 'The developers'.",
+          "Gunakan 'are' + verb-ing."
+        ],
         "skill": "present-continuous-form"
       },
       {
@@ -27,16 +41,26 @@
         "prompt": "Susun kalimat Present Continuous tentang kegiatan yang sedang berlangsung.",
         "targetSentence": "We are testing the new application right now.",
         "explanation": "Subject (We) + are + Verb-ing (testing) + Object (the new application) + Time (right now).",
-        "hints": ["Mulai dengan subject 'We'.", "Gunakan 'are testing' lalu objek."],
+        "hints": [
+          "Mulai dengan subject 'We'.",
+          "Gunakan 'are testing' lalu objek."
+        ],
         "skill": "present-continuous-form"
       },
       {
         "type": "choice",
         "prompt": "Look at the ejaan: The team is ___ a new contract with the supplier.",
-        "options": ["planing", "planning", "planeing"],
+        "options": [
+          "planing",
+          "planning",
+          "planeing"
+        ],
         "answer": 1,
         "explanation": "Kata kerja 1 suku kata dengan pola konsonan-vokal-konsonan (p-l-a-n) menggandakan konsonan akhir sebelum -ing: planning.",
-        "hints": ["Pola 1 suku kata K-V-K: p-l-a-n.", "Gandakan huruf konsonan terakhir: double 'n'."],
+        "hints": [
+          "Pola 1 suku kata K-V-K: p-l-a-n.",
+          "Gandakan huruf konsonan terakhir: double 'n'."
+        ],
         "skill": "present-continuous-spelling"
       },
       {
@@ -44,16 +68,26 @@
         "prompt": "Susun kalimat negatif Present Continuous.",
         "targetSentence": "He is not working at the office today.",
         "explanation": "Pola negatif: Subject (He) + is + not + verb-ing (working) + place (at the office) + time (today).",
-        "hints": ["Subject: 'He'.", "Gunakan 'is not working'."],
+        "hints": [
+          "Subject: 'He'.",
+          "Gunakan 'is not working'."
+        ],
         "skill": "present-continuous-negation"
       },
       {
         "type": "choice",
         "prompt": "Why ___ you wearing a formal suit today? Is there an executive audit?",
-        "options": ["do", "are", "is"],
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
         "answer": 1,
         "explanation": "Pertanyaan Present Continuous dengan subjek 'you' memakai to be 'are': 'Why are you wearing...?'",
-        "hints": ["Perhatikan verb-ing 'wearing'.", "To be untuk 'you' adalah 'are'."],
+        "hints": [
+          "Perhatikan verb-ing 'wearing'.",
+          "To be untuk 'you' adalah 'are'."
+        ],
         "skill": "present-continuous-question"
       },
       {
@@ -61,8 +95,171 @@
         "prompt": "Susun pertanyaan Present Continuous dengan subjek orang ketiga tunggal.",
         "targetSentence": "Is she preparing the financial report?",
         "explanation": "To be (Is) + Subject (she) + Verb-ing (preparing) + Object (the financial report)?",
-        "hints": ["Awali pertanyaan dengan to be 'Is'.", "Letakkan 'she preparing' setelah to be."],
+        "hints": [
+          "Awali pertanyaan dengan to be 'Is'.",
+          "Letakkan 'she preparing' setelah to be."
+        ],
         "skill": "present-continuous-question"
+      },
+      {
+        "type": "choice",
+        "prompt": "Listen! Someone ___ at the main entrance door.",
+        "options": [
+          "knocks",
+          "is knocking",
+          "knock"
+        ],
+        "answer": 1,
+        "explanation": "Penanda langsung 'Listen!' menunjukkan kejadian berlangsung tepat saat berbicara -> Present Continuous ('is knocking').",
+        "hints": [
+          "Kata 'Listen!' menandakan kejadian sekarang ini juga.",
+          "Rumus: is + verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "The interns ___ the training binders in the conference room right now.",
+        "options": [
+          "are preparing",
+          "is preparing",
+          "prepare"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'The interns' + 'right now' memakai 'are preparing'.",
+        "hints": [
+          "'The interns' jamak.",
+          "Gunakan 'are' + verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the spelling: My brother is ___ a letter to the scholarship committee.",
+        "options": [
+          "writeing",
+          "writing",
+          "writting"
+        ],
+        "answer": 1,
+        "explanation": "Verb berakhiran konsonan + huruf 'e' bisu ('write') melepas 'e' sebelum ditambah '-ing': 'writing'.",
+        "hints": [
+          "Lepaskan huruf 'e' di akhir kata 'write'.",
+          "Tidak perlu menggandakan huruf 't'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ working today because the building is undergoing maintenance.",
+        "options": [
+          "isn't",
+          "aren't",
+          "don't"
+        ],
+        "answer": 1,
+        "explanation": "Subjek 'They' berpasangan dengan bentuk negatif 'are not' / 'aren't' sebelum 'working'.",
+        "hints": [
+          "Subjeknya jamak 'They'.",
+          "Gunakan 'aren't' sebelum verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog singkat tentang aktivitas yang sedang berlangsung saat ini.",
+        "dialogue": [
+          [
+            "Raka",
+            "Where is Dini? I can't see her at her desk."
+          ],
+          [
+            "Siti",
+            "She ___ a phone call with a vendor in Booth 2."
+          ]
+        ],
+        "options": [
+          "makes",
+          "is making",
+          "make"
+        ],
+        "answer": 1,
+        "explanation": "Menjawab posisi dan kegiatan yang sedang dilakukan sekarang memakai 'is making'.",
+        "hints": [
+          "Kegiatan sedang berlangsung saat Dini dicari.",
+          "Rumus: She + is + verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is it still ___ outside, or can we walk to the café now?",
+        "options": [
+          "rain",
+          "rains",
+          "raining"
+        ],
+        "answer": 2,
+        "explanation": "Dalam pertanyaan Present Continuous setelah 'Is it', main verb harus berbentuk '-ing': 'raining'.",
+        "hints": [
+          "Sudah ada to be 'Is' di depan.",
+          "Setelah 'Is it', gunakan verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan ejaan akhiran '-ing' pada kalimat berikut.",
+        "draft": "The chef is cuting fresh herbs while the pasta is boil.",
+        "options": [
+          "The chef is cutting fresh herbs while the pasta is boiling.",
+          "The chef is cutting fresh herbs while the pasta is boil.",
+          "The chef is cuting fresh herbs while the pasta is boiling."
+        ],
+        "answer": 0,
+        "explanation": "'Cut' (pola CVC 1 suku kata) menggandakan konsonan akhir menjadi 'cutting'; 'boil' setelah 'is' menjadi 'boiling'.",
+        "hints": [
+          "Periksa aturan CVC (Consonant-Vowel-Consonant) pada 'cut'.",
+          "Pastikan kedua verb setelah 'is' memakai -ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "I ___ reading a fascinating biography about architectural pioneers.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Subjek 'I' berpasangan dengan auxiliary 'am' sebelum 'reading'.",
+        "hints": [
+          "Pasangan to be untuk 'I' adalah 'am'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat Present Continuous tentang hal yang terjadi sekarang.",
+        "targetSentence": "The technicians are testing the backup generator right now.",
+        "explanation": "Subject (The technicians) + are + testing + object + right now.",
+        "hints": [
+          "Awali dengan subjek jamak 'The technicians are'.",
+          "Letakkan 'right now' di akhir."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun pertanyaan Yes/No dalam Present Continuous.",
+        "targetSentence": "Are you waiting for the afternoon shuttle?",
+        "explanation": "Pertanyaan membalik to be 'Are' ke depan subjek 'you' + waiting...",
+        "hints": [
+          "Mulai dengan 'Are you waiting'.",
+          "Akhiri dengan 'for the afternoon shuttle?'."
+        ],
+        "skill": "present-continuous-form"
       }
     ],
     "intermediate": [
@@ -70,31 +267,58 @@
         "type": "dialogue",
         "prompt": "Lengkapi dialog di kantor mengenai situasi sementara (temporary situation).",
         "dialogue": [
-          ["Colleague", "Where is Brenda working this week?"],
-          ["Staff", "Her department is being renovated, so she ___ from home this week."]
+          [
+            "Colleague",
+            "Where is Brenda working this week?"
+          ],
+          [
+            "Staff",
+            "Her department is being renovated, so she ___ from home this week."
+          ]
         ],
-        "options": ["works", "is working", "worked"],
+        "options": [
+          "works",
+          "is working",
+          "worked"
+        ],
         "answer": 1,
         "explanation": "Present Continuous digunakan untuk situasi sementara (temporary situation) dengan keterangan waktu seperti 'this week' atau 'these days'.",
-        "hints": ["Situasi ini bersifat sementara selama minggu ini saja.", "Gunakan Present Continuous untuk situasi sementara."],
+        "hints": [
+          "Situasi ini bersifat sementara selama minggu ini saja.",
+          "Gunakan Present Continuous untuk situasi sementara."
+        ],
         "skill": "present-continuous-temporary"
       },
       {
         "type": "choice",
         "prompt": "We usually meet at the main office, but this month we ___ online conferences.",
-        "options": ["conduct", "are conducting", "conducted"],
+        "options": [
+          "conduct",
+          "are conducting",
+          "conducted"
+        ],
         "answer": 1,
         "explanation": "'This month' menunjukkan perubahan rutinitas yang bersifat sementara, sehingga memakai Present Continuous 'are conducting'.",
-        "hints": ["Bandingkan kebiasaan umum (usually) dengan variasi sementara bulan ini.", "Situasi khusus bulan ini memakai Present Continuous."],
+        "hints": [
+          "Bandingkan kebiasaan umum (usually) dengan variasi sementara bulan ini.",
+          "Situasi khusus bulan ini memakai Present Continuous."
+        ],
         "skill": "present-continuous-temporary"
       },
       {
         "type": "choice",
         "prompt": "Global temperatures ___ steadily due to climate change.",
-        "options": ["are rising", "rise", "are raising"],
+        "options": [
+          "are rising",
+          "rise",
+          "are raising"
+        ],
         "answer": 0,
         "explanation": "Present Continuous digunakan untuk tren perubahan yang sedang berlangsung perlahan (trends/gradual change): 'are rising'.",
-        "hints": ["Menggambarkan tren kenaikan yang sedang terjadi bertahap.", "Kata kerja 'rise' (naik) berpasangan dengan 'are rising'."],
+        "hints": [
+          "Menggambarkan tren kenaikan yang sedang terjadi bertahap.",
+          "Kata kerja 'rise' (naik) berpasangan dengan 'are rising'."
+        ],
         "skill": "present-continuous-trends"
       },
       {
@@ -102,16 +326,26 @@
         "prompt": "Susun kalimat yang menyatakan rencana pasti di masa depan (fixed future arrangement).",
         "targetSentence": "We are meeting the client tomorrow afternoon.",
         "explanation": "Present Continuous sering digunakan untuk rencana perjanjian masa depan yang sudah terkonfirmasi (future arrangement).",
-        "hints": ["Subject: 'We'.", "Gunakan 'are meeting' dengan keterangan waktu 'tomorrow afternoon'."],
+        "hints": [
+          "Subject: 'We'.",
+          "Gunakan 'are meeting' dengan keterangan waktu 'tomorrow afternoon'."
+        ],
         "skill": "present-continuous-future"
       },
       {
         "type": "choice",
         "prompt": "Perhatikan kata kerja ejaan: The children are ___ their shoes before entering the temple.",
-        "options": ["tying", "tieing", "tyeing"],
+        "options": [
+          "tying",
+          "tieing",
+          "tyeing"
+        ],
         "answer": 0,
         "explanation": "Kata kerja berakhiran -ie (seperti tie, die, lie) mengubah -ie menjadi 'y' sebelum ditambah -ing: tie $\\rightarrow$ tying, lie $\\rightarrow$ lying.",
-        "hints": ["Verb dasar adalah 'tie'.", "Akhiran -ie berubah menjadi 'y' + -ing."],
+        "hints": [
+          "Verb dasar adalah 'tie'.",
+          "Akhiran -ie berubah menjadi 'y' + -ing."
+        ],
         "skill": "present-continuous-spelling"
       },
       {
@@ -119,21 +353,198 @@
         "prompt": "Susun kalimat tren perkembangan teknologi.",
         "targetSentence": "Electric vehicles are becoming more affordable.",
         "explanation": "Subject: Electric vehicles + are + becoming (sedang menjadi) + more affordable.",
-        "hints": ["Mulai dengan 'Electric vehicles'.", "Gunakan 'are becoming'."],
+        "hints": [
+          "Mulai dengan 'Electric vehicles'.",
+          "Gunakan 'are becoming'."
+        ],
         "skill": "present-continuous-trends"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi percakapan tentang jadwal perjalanan bisnis terencana.",
         "dialogue": [
-          ["Manager", "What is your flight schedule for the Singapore summit?"],
-          ["Executive", "I ___ next Tuesday on the 8 a.m. flight."]
+          [
+            "Manager",
+            "What is your flight schedule for the Singapore summit?"
+          ],
+          [
+            "Executive",
+            "I ___ next Tuesday on the 8 a.m. flight."
+          ]
         ],
-        "options": ["am flying", "fly", "will flying"],
+        "options": [
+          "am flying",
+          "fly",
+          "will flying"
+        ],
         "answer": 0,
         "explanation": "Penerbangan yang tiketnya sudah dipesan dan terencana pasti menggunakan Present Continuous: 'I am flying next Tuesday'.",
-        "hints": ["Rencana pasti masa depan yang sudah dijadwalkan.", "Gunakan Present Continuous: 'am flying'."],
+        "hints": [
+          "Rencana pasti masa depan yang sudah dijadwalkan.",
+          "Gunakan Present Continuous: 'am flying'."
+        ],
         "skill": "present-continuous-future"
+      },
+      {
+        "type": "choice",
+        "prompt": "My cousin ___ at our aunt's house for two weeks while his apartment is repainted.",
+        "options": [
+          "stays",
+          "is staying",
+          "stay"
+        ],
+        "answer": 1,
+        "explanation": "Situasi sementara berdurasi terbatas ('for two weeks while...') memakai Present Continuous ('is staying').",
+        "hints": [
+          "Apakah tinggalnya permanen atau sementara?",
+          "Situasi sementara memakai am/is/are + verb-ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Electric vehicles ___ increasingly common in metropolitan areas these days.",
+        "options": [
+          "become",
+          "are becoming",
+          "becomes"
+        ],
+        "answer": 1,
+        "explanation": "Tren atau perubahan bertahap yang sedang berlangsung di masa kini ('these days') memakai Present Continuous ('are becoming').",
+        "hints": [
+          "Menggambarkan tren perubahan yang sedang terjadi.",
+          "Subjek jamak memakai 'are becoming'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan tentang rencana pasti di waktu dekat (fixed arrangement).",
+        "dialogue": [
+          [
+            "Colleague",
+            "Are you free for lunch this Thursday?"
+          ],
+          [
+            "Manager",
+            "Sorry, I ___ our Tokyo supplier at twelve sharp. The table is booked."
+          ]
+        ],
+        "options": [
+          "am meeting",
+          "meet",
+          "will met"
+        ],
+        "answer": 0,
+        "explanation": "Untuk janji temu atau jadwal pribadi yang sudah pasti dipesan waktunya, gunakan Present Continuous ('am meeting').",
+        "hints": [
+          "Meja sudah dipesan (fixed personal arrangement).",
+          "Gunakan 'am meeting'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the spelling rule for verbs ending in '-ie': 'The old battery is ___ rapidly.'",
+        "options": [
+          "dieing",
+          "dying",
+          "dyng"
+        ],
+        "answer": 1,
+        "explanation": "Verb berakhiran '-ie' ('die', 'lie', 'tie') mengubah '-ie' menjadi '-y' sebelum ditambah '-ing': 'dying'.",
+        "hints": [
+          "'Die' berakhiran huruf -ie.",
+          "Ubah -ie menjadi y sebelum menambah -ing."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Who ___ helping the new receptionist set up the badge printer?",
+        "options": [
+          "is",
+          "are",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "Subject question dengan kata tanya 'Who' dianggap tunggal sehingga menggunakan auxiliary 'is' ('Who is helping...?').",
+        "hints": [
+          "'Who' sebagai subjek tunggal memakai 'is'.",
+          "Setelahnya diikuti verb-ing 'helping'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Koreksi kesalahan penulisan Present Continuous dengan kata kerja berakhiran 'y'.",
+        "draft": "The interns are studing the user manual while the mentor is replyng to tickets.",
+        "options": [
+          "The interns are studying the user manual while the mentor is replying to tickets.",
+          "The interns are studing the user manual while the mentor is replying to tickets.",
+          "The interns are studying the user manual while the mentor is replyng to tickets."
+        ],
+        "answer": 0,
+        "explanation": "Akhiran '-y' TIDAK pernah dihilangkan saat membentuk '-ing': 'study → studying', 'reply → replying'.",
+        "hints": [
+          "Jangan membuang huruf 'y' sebelum '-ing'.",
+          "Cukup tambahkan '-ing' langsung setelah 'y'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Why ___ she packing her suitcase today? Is she flying out early?",
+        "options": [
+          "is",
+          "does",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Terdapat participle '-ing' ('packing'), sehingga auxiliary pertanyaannya wajib to be 'is', bukan 'does'.",
+        "hints": [
+          "Perhatikan bentuk '-ing' pada kata 'packing'.",
+          "Subjek 'she' berpasangan dengan 'is'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Fuel costs ___ steadily this quarter, squeezing small delivery businesses.",
+        "options": [
+          "rise",
+          "are rising",
+          "is rising"
+        ],
+        "answer": 1,
+        "explanation": "Perubahan bertahap yang sedang berkembang ('steadily this quarter') memakai Present Continuous jamak: 'are rising'.",
+        "hints": [
+          "Subjeknya jamak ('Fuel costs').",
+          "Menunjukkan tren kenaikan yang sedang terjadi."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat rencana pasti untuk akhir pekan ini.",
+        "targetSentence": "We are hosting an open-house workshop this Saturday.",
+        "explanation": "Fixed arrangement dengan waktu spesifik ('this Saturday') memakai Present Continuous.",
+        "hints": [
+          "Awali dengan 'We are hosting'.",
+          "Letakkan 'this Saturday' di bagian akhir."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat tentang kondisi kerja sementara.",
+        "targetSentence": "She is covering the helpdesk shift this week.",
+        "explanation": "Aktivitas sementara ('this week') memakai 'is covering'.",
+        "hints": [
+          "Subjek dan auxiliary: 'She is covering'.",
+          "Akhiri dengan 'this week'."
+        ],
+        "skill": "present-continuous-form"
       }
     ],
     "complex": [
@@ -148,25 +559,42 @@
         ],
         "answer": 0,
         "explanation": "'Understand' adalah stative verb (kata kerja kognisi/pikiran) yang umumnya TIDAK digunakan dalam bentuk continuous (-ing), melainkan Present Simple: 'I understand'.",
-        "hints": ["'Understand' menyatakan kondisi mental/pemikiran, bukan aksi fisik.", "Stative verbs tidak lazim menggunakan bentuk -ing."],
+        "hints": [
+          "'Understand' menyatakan kondisi mental/pemikiran, bukan aksi fisik.",
+          "Stative verbs tidak lazim menggunakan bentuk -ing."
+        ],
         "skill": "present-continuous-stative"
       },
       {
         "type": "choice",
         "prompt": "Perhatikan perbedaan makna: 'The chef ___ the soup to check if it needs more salt.'",
-        "options": ["is tasting", "tastes", "has tasted"],
+        "options": [
+          "is tasting",
+          "tastes",
+          "has tasted"
+        ],
         "answer": 0,
         "explanation": "Ketika 'taste' bermakna tindakan aktif mencicipi (action verb), ia BISA berbentuk continuous: 'is tasting the soup'. Sebaliknya jika menyatakan rasa ('The soup tastes good'), ia bersifat stative.",
-        "hints": ["Koki melakukan aksi fisik mencicipi rasa kuah.", "Sebagai kata kerja aksi aktif, 'taste' dapat memakai -ing."],
+        "hints": [
+          "Koki melakukan aksi fisik mencicipi rasa kuah.",
+          "Sebagai kata kerja aksi aktif, 'taste' dapat memakai -ing."
+        ],
         "skill": "present-continuous-stative"
       },
       {
         "type": "choice",
         "prompt": "Sebaliknya: 'This homemade pasta ___ absolutely delicious!'",
-        "options": ["tastes", "is tasting", "are tasting"],
+        "options": [
+          "tastes",
+          "is tasting",
+          "are tasting"
+        ],
         "answer": 0,
         "explanation": "Di sini 'taste' menyatakan kualitas/rasa dari pasta (stative linking verb), sehingga harus berbentuk Present Simple tunggal: 'tastes'.",
-        "hints": ["Pasta tidak melakukan aksi; ini adalah rasa makanannya.", "Stative linking verb memakai Present Simple."],
+        "hints": [
+          "Pasta tidak melakukan aksi; ini adalah rasa makanannya.",
+          "Stative linking verb memakai Present Simple."
+        ],
         "skill": "present-continuous-stative"
       },
       {
@@ -180,7 +608,10 @@
         ],
         "answer": 0,
         "explanation": "Pola 'Subject + is/are + ALWAYS + verb-ing' digunakan secara khusus untuk mengekspresikan kekesalan/kejengkelan terhadap kebiasaan buruk yang terlalu sering terulang.",
-        "hints": ["Kekesalan terhadap kebiasaan menyebalkan menggunakan continuous + always.", "Rumusnya: is/are always + verb-ing."],
+        "hints": [
+          "Kekesalan terhadap kebiasaan menyebalkan menggunakan continuous + always.",
+          "Rumusnya: is/are always + verb-ing."
+        ],
         "skill": "present-continuous-annoyance"
       },
       {
@@ -188,30 +619,215 @@
         "prompt": "Susun kalimat dengan stative verb 'have' vs dynamic 'having'.",
         "targetSentence": "They are having an urgent meeting now.",
         "explanation": "Frasa 'have a meeting/have lunch' adalah aktivitas dinamis, sehingga sah menggunakan continuous: 'are having an urgent meeting'.",
-        "hints": ["'Having a meeting' adalah idiom aktivitas, bukan kepemilikan benda.", "Subject: 'They'."],
+        "hints": [
+          "'Having a meeting' adalah idiom aktivitas, bukan kepemilikan benda.",
+          "Subject: 'They'."
+        ],
         "skill": "present-continuous-stative"
       },
       {
         "type": "choice",
         "prompt": "Why is the baby crying? She ___ tired and hungry.",
-        "options": ["looks", "is looking", "look"],
+        "options": [
+          "looks",
+          "is looking",
+          "look"
+        ],
         "answer": 0,
         "explanation": "'Look' bermakna tampak/kelihatan (linking verb) adalah stative verb yang memakai Present Simple: 'She looks tired'.",
-        "hints": ["Bermakna 'tampak' atau 'kelihatan'.", "Gunakan bentuk Present Simple untuk linking verb."],
+        "hints": [
+          "Bermakna 'tampak' atau 'kelihatan'.",
+          "Gunakan bentuk Present Simple untuk linking verb."
+        ],
         "skill": "present-continuous-stative"
       },
       {
         "type": "dialogue",
         "prompt": "Lengkapi dialog yang membedakan 'see' sebagai penglihatan vs 'see' sebagai janji temu/kunjungan.",
         "dialogue": [
-          ["Colleague", "Are you free at 3 p.m. this afternoon?"],
-          ["Doctor", "No, I ___ a new patient at that time."]
+          [
+            "Colleague",
+            "Are you free at 3 p.m. this afternoon?"
+          ],
+          [
+            "Doctor",
+            "No, I ___ a new patient at that time."
+          ]
         ],
-        "options": ["am seeing", "see", "am seen"],
+        "options": [
+          "am seeing",
+          "see",
+          "am seen"
+        ],
         "answer": 0,
         "explanation": "Ketika 'see' bermakna berkonsultasi, mengunjungi, atau menemui seseorang (meeting/dating), ia berfungsi dinamis dan memakai continuous: 'am seeing a patient'.",
-        "hints": ["'See' di sini bermakna mengadakan janji temu dengan pasien.", "Bentuk dinamis 'seeing' sah digunakan."],
+        "hints": [
+          "'See' di sini bermakna mengadakan janji temu dengan pasien.",
+          "Bentuk dinamis 'seeing' sah digunakan."
+        ],
         "skill": "present-continuous-stative"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pilih kalimat yang BENAR menggunakan makna dinamis (sementara/perilaku) dari stative verb 'be'.",
+        "options": [
+          "My usually patient mentor is being unusually strict with deadlines this week.",
+          "My usually patient mentor is unusually being strict with deadlines this week.",
+          "My usually patient mentor be unusually strict with deadlines this week."
+        ],
+        "answer": 0,
+        "explanation": "'Is being + adjective' digunakan khusus untuk menggambarkan perilaku sementara yang tidak biasa pada saat ini ('bertingkah tegas minggu ini').",
+        "hints": [
+          "Pola 'is being + adjective' menyatakan sikap sementara, bukan sifat permanen.",
+          "Letakkan 'unusually' di antara 'being' dan 'strict'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Perhatikan nuansa kritik: 'Why ___ the printer ___ out of paper just before every board meeting?!'",
+        "options": [
+          "is / always running",
+          "does / always running",
+          "is / run"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous + 'always' (atau 'constantly') mengekspresikan keluhan atau kejengkelan terhadap kejadian yang berulang terus.",
+        "hints": [
+          "Pola 'is + always + V-ing' menyatakan rasa jengkel.",
+          "Subjek tunggal memakai 'is'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Sunting kesalahan penggunaan stative verb kepemilikan dan keinginan pada kalimat berikut.",
+        "draft": "I am wanting a faster laptop because I am having trouble compiling large builds right now.",
+        "options": [
+          "I want a faster laptop because I am having trouble compiling large builds right now.",
+          "I want a faster laptop because I have trouble compiling large builds right now always.",
+          "I am wanting a faster laptop because I have trouble compiling large builds right now."
+        ],
+        "answer": 0,
+        "explanation": "'Want' adalah stative verb (pakai 'I want'), sedangkan 'having trouble' bermakna mengalami kesulitan aktif sekarang sehingga 'am having trouble' benar.",
+        "hints": [
+          "'Want' tidak boleh memakai bentuk '-ing'.",
+          "'Have trouble' bermakna mengalami situasi aktif sehingga boleh continuous."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi dialog perbedaan makna kata kerja 'think' sebagai opini vs proses mental.",
+        "dialogue": [
+          [
+            "Colleague",
+            "What do you think about the revised onboarding flow?"
+          ],
+          [
+            "Manager",
+            "I ___ it looks promising, though I ___ of simplifying step three."
+          ]
+        ],
+        "options": [
+          "think / am thinking",
+          "am thinking / think",
+          "think / think"
+        ],
+        "answer": 0,
+        "explanation": "'Think' untuk menyatakan pendapat ('I think it looks...') adalah stative (Present Simple), sementara 'thinking of' bermakna sedang menimbang rencana ('am thinking').",
+        "hints": [
+          "Klausa pertama menanyakan opini tetap.",
+          "Klausa kedua menyatakan proses mempertimbangkan ide."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Look at the subtle contrast: 'The doctor ___ three patients before lunch' vs 'I ___ a blurry spot in the scan.'",
+        "options": [
+          "is seeing / see",
+          "sees / am seeing",
+          "is seeing / am seeing"
+        ],
+        "answer": 0,
+        "explanation": "'Seeing patients' bermakna aksi konsultasi/janji temu (bisa continuous); 'see a blurry spot' bermakna persepsi indra penglihatan (stative: 'see').",
+        "hints": [
+          "'See' = menemui/berkonsultasi bisa memakai '-ing'.",
+          "'See' = melihat melalui indra mata memakai Present Simple."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Manakah kalimat yang secara tepat menggambarkan adegan latar sedang berlangsung saat pembaca masuk ke cerita (narrative immediacy)?",
+        "options": [
+          "The analyst sits down, checks the monitor, and notices that the dashboard is flashing red.",
+          "The analyst is sitting down, checks the monitor, and notice that the dashboard flash red.",
+          "The analyst sitting down, checking the monitor, and noticing that the dashboard is flash red."
+        ],
+        "answer": 0,
+        "explanation": "Dalam narasi langsung yang efektif, urutan aksi singkat memakai Present Simple ('sits', 'checks', 'notices') dan latar belakang yang terus berkedip memakai Present Continuous ('is flashing').",
+        "hints": [
+          "Aksi cepat berurutan memakai Present Simple.",
+          "Keadaan latar yang berlangsung terus memakai Present Continuous."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan perpaduan dua tense dan ejaan pada kalimat berita bisnis ini.",
+        "draft": "More and more consumers are prefering local brands as prices are skyrocketting.",
+        "options": [
+          "More and more consumers prefer local brands as prices are skyrocketing.",
+          "More and more consumers are preferring local brands as prices skyrocketing.",
+          "More and more consumers prefering local brands as prices are skyrocketing."
+        ],
+        "answer": 0,
+        "explanation": "'Prefer' umumnya stative verb preferensi ('prefer', dan kalaupun ber-ing ejaannya 'preferring'); 'skyrocket' berakhiran V-V-C dengan suku kata akhir tak ditekan menjadi 'skyrocketing'.",
+        "hints": [
+          "Hindari continuous pada stative verb 'prefer'.",
+          "Periksa ejaan 'skyrocketing' (satu huruf 't')."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "choice",
+        "prompt": "Just when we think the audit is finished, the regulator ___ always requesting additional appendices.",
+        "options": [
+          "is",
+          "are",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "Untuk mengungkapkan keluhan berulang dengan 'always + V-ing', subjek tunggal 'the regulator' memakai 'is'.",
+        "hints": [
+          "Keluhan berulang memakai pola 'be + always + V-ing'.",
+          "Subjek 'the regulator' berjumlah satu."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat nuansa kejengkelan memakai 'constantly'.",
+        "targetSentence": "Our upstairs neighbor is constantly moving heavy furniture at midnight.",
+        "explanation": "Pola 'is constantly + V-ing' menyampaikan rasa terganggu atas kebiasaan berulang.",
+        "hints": [
+          "Awali dengan 'Our upstairs neighbor is constantly'.",
+          "Tambahkan 'moving heavy furniture at midnight'."
+        ],
+        "skill": "present-continuous-form"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kalimat yang membedakan sifat tetap dan perilaku sementara.",
+        "targetSentence": "He is normally shy, but today he is being surprisingly talkative.",
+        "explanation": "'Is being + adjective' menekankan perilaku sementara pada hari ini saja.",
+        "hints": [
+          "Mulai dengan 'He is normally shy,'.",
+          "Gunakan 'but today he is being surprisingly talkative'."
+        ],
+        "skill": "present-continuous-form"
       }
     ]
   }
