@@ -261,6 +261,1446 @@
           "Sambungkan 'until I visited Penang last summer'."
         ],
         "skill": "past-perfect-first-time"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the time we reached Gate 2, the shuttle ___ already left.",
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Aksi terjadi sebelum peristiwa lampau kedua ('reached') -> 'had already left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you catch the 7 AM ferry to Batam? / No—by the time I reached Pier 1, it ___ already sailed.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Did you catch the 7 AM ferry to Batam?"
+          ],
+          [
+            "Dodi",
+            "No—by the time I reached Pier 1, it ___ already sailed."
+          ]
+        ],
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Kapal pergi sebelum tiba di dermaga -> 'had already sailed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the time we arrived at Gate 2, the bus already left.\"",
+        "draft": "By the time we arrived at Gate 2, the bus already left.",
+        "options": [
+          "By the time we arrived at Gate 2, the bus has already left.",
+          "By the time we arrived at Gate 2, the bus already left.",
+          "By the time we arrived at Gate 2, the bus had already left."
+        ],
+        "answer": 2,
+        "explanation": "Urutan peristiwa yang lebih dulu selesai memakai 'had already left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She realized she ___ forgotten her passport at Reception.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Kejadian lebih dulu sebelum menyadari ('realized') -> 'had forgotten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saat kami tiba di Gerbang 2, bus antar-jemput sudah berangkat.\".",
+        "targetSentence": "By the time we reached Gate Two, the shuttle had left.",
+        "explanation": "'By the time + V2, ... had + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the courier ___ signed the log, he drove off.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Aksi selesai lebih dulu setelah 'After' -> 'had signed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Room 2 so warm at eight yesterday? / Because nobody ___ switched on the air conditioning yet.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why was Room 2 so warm at eight yesterday?"
+          ],
+          [
+            "Bima",
+            "Because nobody ___ switched on the air conditioning yet."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum jam 8 kemarin -> 'had switched on'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She realized she has forgotten her access card downstairs.\"",
+        "draft": "She realized she has forgotten her access card downstairs.",
+        "options": [
+          "She realized she has forgotten her access card downstairs.",
+          "She realized she had forgotten her access card downstairs.",
+          "She realized she had forgot her access card downstairs."
+        ],
+        "answer": 1,
+        "explanation": "Kejadian sebelum 'realized' wajib memakai Past Perfect ('had + V3: forgotten').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ never seen such clear safety diagrams before that seminar.",
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Pengalaman hingga titik lampau ('before that seminar') -> 'had never seen'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you meet Kevin at the seminar lunch? / Actually, he ___ left before lunch started.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did you meet Kevin at the seminar lunch?"
+          ],
+          [
+            "Eko",
+            "Actually, he ___ left before lunch started."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Pergi sebelum acara makan mulai -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"After they had sign the roster, everyone took seats.\"",
+        "draft": "After they had sign the roster, everyone took seats.",
+        "options": [
+          "After they had signed the roster, everyone took seats.",
+          "After they signed had the roster, everyone took seats.",
+          "After they had sign the roster, everyone took seats."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'had', wajib gunakan V3 ('signed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia menyadari bahwa dia melupakan paspornya di meja resepsionis.\".",
+        "targetSentence": "She realized she had forgotten her passport at Reception.",
+        "explanation": "Sebab lebih dulu memakai 'had forgotten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He hadn't ___ the backup cable before the demo began.",
+        "options": [
+          "packing",
+          "packed",
+          "pack"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'hadn't', wajib memakai V3 ('packed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Maya smile when she saw Slide 12? / She realized her team ___ fixed all alignment errors overnight.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Why did Maya smile when she saw Slide 12?"
+          ],
+          [
+            "Sari",
+            "She realized her team ___ fixed all alignment errors overnight."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Terjadi sebelum dia melihat salindia -> 'had fixed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I have never seen such a clean lab before that day.\"",
+        "draft": "I have never seen such a clean lab before that day.",
+        "options": [
+          "I had never seen such a clean lab before that day.",
+          "I did never see such a clean lab before that day.",
+          "I have never seen such a clean lab before that day."
+        ],
+        "answer": 0,
+        "explanation": "Titik acuan lampau ('before that day') memakai Past Perfect ('had never seen').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had they ___ all forty badges before guests arrived?",
+        "options": [
+          "printed",
+          "print",
+          "printing"
+        ],
+        "answer": 0,
+        "explanation": "Pertanyaan Past Perfect: 'Had + S + V3' ('printed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had you ever visited Medan before last autumn's conference? / No, I ___ never been to North Sumatra before that trip.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Had you ever visited Medan before last autumn's conference?"
+          ],
+          [
+            "Putri",
+            "No, I ___ never been to North Sumatra before that trip."
+          ]
+        ],
+        "options": [
+          "have",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Pengalaman sebelum perjalanan lampau -> 'had never been'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had you finish printing handouts before ten?\"",
+        "draft": "Had you finish printing handouts before ten?",
+        "options": [
+          "Had you finish printing handouts before ten?",
+          "Had you finished printing handouts before ten?",
+          "Did you finished printing handouts before ten?"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan Past Perfect: 'Had + S + V3 ('finished')'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By noon yesterday, the interns ___ labeled every box.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Sudah rampung sebelum titik lampau ('By noon yesterday') -> 'had'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Setelah kurir menandatangani log, dia langsung berangkat.\".",
+        "targetSentence": "After the courier had signed the log, he drove off.",
+        "explanation": "'After' + 'had signed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The hall felt cool because maintenance ___ turned on AC early.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Sebab yang terjadi lebih dulu di masa lalu -> 'had turned on'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was our courier still downstairs when you arrived? / No, Reception said he ___ dropped off the box ten minutes earlier.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Was our courier still downstairs when you arrived?"
+          ],
+          [
+            "Arman",
+            "No, Reception said he ___ dropped off the box ten minutes earlier."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Terjadi lebih awal dari kedatangan -> 'had dropped off'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The hall felt cold because someone has opened the window.\"",
+        "draft": "The hall felt cold because someone has opened the window.",
+        "options": [
+          "The hall felt cold because someone has opened the window.",
+          "The hall felt cold because someone had opened the window.",
+          "The hall felt cold because someone was opened the window."
+        ],
+        "answer": 1,
+        "explanation": "Kejadian sebelum 'felt cold' (lampau) memakai 'had opened'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "When I opened my inbox, Ms. Tari ___ already replied.",
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Aksi mendahului saat membuka inbox ('opened') -> 'had already replied'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami belum pernah melihat diagram sejelas itu sebelum seminar tersebut.\".",
+        "targetSentence": "We had never seen such clear diagrams before that seminar.",
+        "explanation": "Pengalaman sebelum momen lampau -> 'had never seen'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ completed Phase 1 before the grant deadline arrived.",
+        "options": [
+          "have",
+          "are",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Rampung sebelum batas waktu lampau ('arrived') -> 'had completed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why couldn't you print the handout during first break? / Someone ___ emptied the entire paper tray before ten.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why couldn't you print the handout during first break?"
+          ],
+          [
+            "Adi",
+            "Someone ___ emptied the entire paper tray before ten."
+          ]
+        ],
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Alasan sebelumnya -> 'had emptied'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When I opened the folder, Maya already deleted the draft.\"",
+        "draft": "When I opened the folder, Maya already deleted the draft.",
+        "options": [
+          "When I opened the folder, Maya had already deleted the draft.",
+          "When I opened the folder, Maya has already deleted the draft.",
+          "When I opened the folder, Maya already deleted the draft."
+        ],
+        "answer": 0,
+        "explanation": "Aksi lebih dulu dari 'opened' -> 'had already deleted'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—___ you checked the schedule before booking flights?",
+        "options": [
+          "Have",
+          "Had",
+          "Did only"
+        ],
+        "answer": 1,
+        "explanation": "Ada V3 'checked' sebelum waktu lampau -> 'Had'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Mr. Hadi remind you about the safety briefing? / He tried, though I ___ already read the checklist online.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Did Mr. Hadi remind you about the safety briefing?"
+          ],
+          [
+            "Kiki",
+            "He tried, though I ___ already read the checklist online."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Sudah baca lebih dulu -> 'had already read'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He hadn't ate breakfast before boarding the morning ferry.\"",
+        "draft": "He hadn't ate breakfast before boarding the morning ferry.",
+        "options": [
+          "He hadn't ate breakfast before boarding the morning ferry.",
+          "He hadn't eaten breakfast before boarding the morning ferry.",
+          "He hadn't eat breakfast before boarding the morning ferry."
+        ],
+        "answer": 1,
+        "explanation": "V3 dari 'eat' adalah 'eaten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menjelang siang kemarin, para pemagang sudah memberi label semua kotak.\".",
+        "targetSentence": "By noon yesterday, the interns had labeled every box.",
+        "explanation": "'By noon yesterday' -> 'had labeled'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Nobody ___ noticed the typo until we printed the cover.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Hingga titik lampau ('until we printed') -> 'had noticed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did you recognize the guest speaker right away? / We ___ met at a trade workshop two years earlier.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How did you recognize the guest speaker right away?"
+          ],
+          [
+            "Sinta",
+            "We ___ met at a trade workshop two years earlier."
+          ]
+        ],
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Pertemuan sebelumnya -> 'had met'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By five yesterday, the team completed forty-five checks.\"",
+        "draft": "By five yesterday, the team completed forty-five checks.",
+        "options": [
+          "By five yesterday, the team completed forty-five checks.",
+          "By five yesterday, the team had completed forty-five checks.",
+          "By five yesterday, the team has completed forty-five checks."
+        ],
+        "answer": 1,
+        "explanation": "Penanda batas waktu lampau ('By five yesterday') memakai 'had completed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The rain had ___ by the time our meeting ended at five.",
+        "options": [
+          "stop",
+          "stopping",
+          "stopped"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'had', wajib V3 ('stopped').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had all trainees signed in before the bell rang? / Yes, every single attendee ___ signed by 8:55.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Had all trainees signed in before the bell rang?"
+          ],
+          [
+            "Tia",
+            "Yes, every single attendee ___ signed by 8:55."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Tuntas sebelum waktu lampau -> 'had signed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody had notice the missing footnote until Friday.\"",
+        "draft": "Nobody had notice the missing footnote until Friday.",
+        "options": [
+          "Nobody hasn't noticed the missing footnote until Friday.",
+          "Nobody had notice the missing footnote until Friday.",
+          "Nobody had noticed the missing footnote until Friday."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'had', gunakan V3 ('noticed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She told us she ___ visited the Surabaya harbor twice before.",
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Kalimat tidak langsung lampau dari Present Perfect -> 'had visited'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Aula terasa sejuk karena teknisi telah menyalakan AC lebih awal.\".",
+        "targetSentence": "The hall felt cool because staff had turned on AC.",
+        "explanation": "Aksi lebih dulu memakai 'had turned on'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We couldn't enter Lab 3 because Adi ___ locked the cabinet.",
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Alasan terjadi sebelumnya -> 'had locked'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the gate guard hold that visitor temporarily? / Because she ___ left her ID card inside the taxi.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why did the gate guard hold that visitor temporarily?"
+          ],
+          [
+            "Dewi",
+            "Because she ___ left her ID card inside the taxi."
+          ]
+        ],
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Sebab terjadi lebih dulu -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She told me she has lived in Bandung earlier.\"",
+        "draft": "She told me she has lived in Bandung earlier.",
+        "options": [
+          "She told me she has lived in Bandung earlier.",
+          "She told me she had lived in Bandung earlier.",
+          "She told me she had live in Bandung earlier."
+        ],
+        "answer": 1,
+        "explanation": "Urutan kejadian lebih awal di masa lalu -> 'had lived'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before 2022, our office had never ___ digital signatures.",
+        "options": [
+          "using",
+          "used",
+          "use"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'had never', gunakan V3 ('used').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ketika saya membuka kotak masuk, Ibu Tari sudah membalas.\".",
+        "targetSentence": "When I opened my inbox, Ms. Tari had already replied.",
+        "explanation": "'Had already replied'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He was relieved after he ___ backed up all research data.",
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'after' untuk tindakan rampung lebih dulu -> 'had backed up'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the server backup finish before staff logged in? / Yes, IT ___ completed the snapshot by 6 AM.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Did the server backup finish before staff logged in?"
+          ],
+          [
+            "Ayu",
+            "Yes, IT ___ completed the snapshot by 6 AM."
+          ]
+        ],
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Rampung sebelum jam 6 pagi lampau -> 'had completed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Before 2021, our office never had used cloud backups.\"",
+        "draft": "Before 2021, our office never had used cloud backups.",
+        "options": [
+          "Before 2021, our office had never used cloud backups.",
+          "Before 2021, our office has never used cloud backups.",
+          "Before 2021, our office never had used cloud backups."
+        ],
+        "answer": 0,
+        "explanation": "Posisi adverb 'never' berada di antara 'had' dan V3 ('had never used').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of Friday, staff had ___ sixty survey envelopes.",
+        "options": [
+          "sealing",
+          "sealed",
+          "seal"
+        ],
+        "answer": 1,
+        "explanation": "'Had + V3' ('sealed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Sarah relieved after checking her phone? / The supplier ___ sent the corrected invoice before noon.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why was Sarah relieved after checking her phone?"
+          ],
+          [
+            "Oki",
+            "The supplier ___ sent the corrected invoice before noon."
+          ]
+        ],
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi lebih awal -> 'had sent'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The courier had went back to the hub before we called.\"",
+        "draft": "The courier had went back to the hub before we called.",
+        "options": [
+          "The courier had go back to the hub before we called.",
+          "The courier had went back to the hub before we called.",
+          "The courier had gone back to the hub before we called."
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'go' adalah 'gone', bukan 'went'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak ada yang memperhatikan salah ketik sampai kami mencetak sampul.\".",
+        "targetSentence": "Nobody had noticed the typo until we printed the cover.",
+        "explanation": "'Had noticed' sebelum titik lampau.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ferry ___ departed when we arrived at Pier 4.",
+        "options": [
+          "has just",
+          "just did",
+          "had just"
+        ],
+        "answer": 2,
+        "explanation": "Baru saja pergi tepat sebelum kami tiba -> 'had just departed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had you used an e-gate before flying to Singapore? / No, I ___ only used manual counters before that.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Had you used an e-gate before flying to Singapore?"
+          ],
+          [
+            "Mira",
+            "No, I ___ only used manual counters before that."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Sampai momen lampau tersebut -> 'had only used'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We couldn't enter because we left our badges inside.\"",
+        "draft": "We couldn't enter because we left our badges inside.",
+        "options": [
+          "We couldn't enter because we had left our badges inside.",
+          "We couldn't enter because we have left our badges inside.",
+          "We couldn't enter because we left our badges inside."
+        ],
+        "answer": 0,
+        "explanation": "Sebab terjadi sebelumnya -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I recognized the speaker because we ___ met at a previous expo.",
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Pertemuan terjadi sebelum momen lampau -> 'had met'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was the copy machine locked yesterday? / Technician Budi ___ put a maintenance tag on it earlier.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why was the copy machine locked yesterday?"
+          ],
+          [
+            "Taufik",
+            "Technician Budi ___ put a maintenance tag on it earlier."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Terjadi lebih awal -> 'had put'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had she wrote the executive summary before noon?\"",
+        "draft": "Had she wrote the executive summary before noon?",
+        "options": [
+          "Had she write the executive summary before noon?",
+          "Had she wrote the executive summary before noon?",
+          "Had she written the executive summary before noon?"
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'write' adalah 'written'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had Sarah ___ the updated CSV before leaving Desk 2?",
+        "options": [
+          "upload",
+          "uploading",
+          "uploaded"
+        ],
+        "answer": 2,
+        "explanation": "'Had + S + V3' ('uploaded').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia mengatakan kepada kami dia pernah mengunjungi Surabaya dua kali.\".",
+        "targetSentence": "She told us she had visited Surabaya twice before.",
+        "explanation": "Past Perfect 'had visited'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They hadn't ___ lunch yet when the client call started.",
+        "options": [
+          "eaten",
+          "ate",
+          "eat"
+        ],
+        "answer": 0,
+        "explanation": "V3 dari 'eat' adalah 'eaten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the interns finish labeling before the van arrived? / Yes—they ___ sealed every crate twenty minutes prior.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did the interns finish labeling before the van arrived?"
+          ],
+          [
+            "Lina",
+            "Yes—they ___ sealed every crate twenty minutes prior."
+          ]
+        ],
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Tuntas sebelum van tiba -> 'had sealed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By March 31, we had already ship fifty crates.\"",
+        "draft": "By March 31, we had already ship fifty crates.",
+        "options": [
+          "By March 31, we had already shipped fifty crates.",
+          "By March 31, we had already shipping fifty crates.",
+          "By March 31, we had already ship fifty crates."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'had already', gunakan V3 ('shipped').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our branch ___ hired three bilingual editors by March last year.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "'By + waktu lampau (March last year)' -> Past Perfect ('had hired').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya mengenali pembicara karena kami pernah bertemu di pameran.\".",
+        "targetSentence": "I recognized the speaker because we had met earlier.",
+        "explanation": "Pertemuan sebelumnya -> 'had met'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once we had ___ every figure, the manager signed Page 4.",
+        "options": [
+          "verify",
+          "verifying",
+          "verified"
+        ],
+        "answer": 2,
+        "explanation": "'Had + V3' ('verified').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did your laptop restart right before Q&A? / System updates ___ started automatically after I paused checks.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Why did your laptop restart right before Q&A?"
+          ],
+          [
+            "Wulan",
+            "System updates ___ started automatically after I paused checks."
+          ]
+        ],
+        "options": [
+          "did",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Aksi sebelumnya -> 'had started'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They hadn't knew about the gate closure until noon.\"",
+        "draft": "They hadn't knew about the gate closure until noon.",
+        "options": [
+          "They hadn't know about the gate closure until noon.",
+          "They hadn't knew about the gate closure until noon.",
+          "They hadn't known about the gate closure until noon."
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'know' adalah 'known'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "My phone died because I ___ forgotten to plug it in.",
+        "options": [
+          "have",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Alasan sebelum ponsel mati -> 'had forgotten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had Mr. Adi reviewed Page 6 when we met at four? / Yes, he ___ already marked two helpful edits on it.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Had Mr. Adi reviewed Page 6 when we met at four?"
+          ],
+          [
+            "Sari",
+            "Yes, he ___ already marked two helpful edits on it."
+          ]
+        ],
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Sudah menandai lebih awal -> 'had already marked'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"After he had spoke with Finance, he updated Table 2.\"",
+        "draft": "After he had spoke with Finance, he updated Table 2.",
+        "options": [
+          "After he had spoken with Finance, he updated Table 2.",
+          "After he had speak with Finance, he updated Table 2.",
+          "After he had spoke with Finance, he updated Table 2."
+        ],
+        "answer": 0,
+        "explanation": "V3 dari 'speak' adalah 'spoken'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Sarah sudah mengunggah berkas terbaru sebelum meninggalkan meja?\".",
+        "targetSentence": "Had Sarah uploaded the updated file before leaving her desk?",
+        "explanation": "'Had + S + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before starting the webinar, we ___ tested both microphones.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Selesai lebih dulu -> 'had tested'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did anyone notice the broken hinge before Friday? / No, nobody ___ opened Storage Door C all month.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did anyone notice the broken hinge before Friday?"
+          ],
+          [
+            "Reno",
+            "No, nobody ___ opened Storage Door C all month."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Sampai hari Jumat -> 'had opened'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait—had the printer jammed before you came in? Yes, it had jam twice.\"",
+        "draft": "Wait—had the printer jammed before you came in? Yes, it had jam twice.",
+        "options": [
+          "Yes, it had jammed twice.",
+          "Yes, it had jamming twice.",
+          "Wait—had the printer jammed before you came in? Yes, it had jam twice."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'had', gunakan V3 ('jammed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ never given a talk in English until last May.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "'Until last May' -> 'had never given'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"By the time your group reached Hall A, had the talk started? / No—the host ___ just stepped onto the stage.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "By the time your group reached Hall A, had the talk started?"
+          ],
+          [
+            "Aris",
+            "No—the host ___ just stepped onto the stage."
+          ]
+        ],
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Baru saja naik panggung sebelum kami tiba -> 'had just stepped'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We recognized him because we saw him in Bali earlier.\"",
+        "draft": "We recognized him because we saw him in Bali earlier.",
+        "options": [
+          "We recognized him because we saw him in Bali earlier.",
+          "We recognized him because we had seen him in Bali earlier.",
+          "We recognized him because we have seen him in Bali earlier."
+        ],
+        "answer": 1,
+        "explanation": "Kejadian lebih dulu sebelum 'recognized' memakai 'had seen'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The package had ___ arrived before Reception opened at eight.",
+        "options": [
+          "already",
+          "yet",
+          "ago"
+        ],
+        "answer": 0,
+        "explanation": "'Already' di antara 'had' dan V3.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka belum makan siang ketika panggilan klien dimulai.\".",
+        "targetSentence": "They had not eaten lunch yet when the call started.",
+        "explanation": "Negatif 'had not eaten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Tambahkan 'the beta version before Friday'."
         ],
         "skill": "past-perfect-unfulfilled"
+      },
+      {
+        "type": "choice",
+        "prompt": "When we arrived at the hall, the keynote speaker ___.",
+        "options": [
+          "just finished only",
+          "was finishing only",
+          "had just finished"
+        ],
+        "answer": 2,
+        "explanation": "'Had just finished' menegaskan pidato selesai tepat sebelum kedatangan kami (jadi kami melewatkannya).",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you manage to ask the keynote speaker a question? / No—by the time I reached the mic, Q&A ___ already closed.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Did you manage to ask the keynote speaker a question?"
+          ],
+          [
+            "Dodi",
+            "No—by the time I reached the mic, Q&A ___ already closed."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Tutup sebelum sampai mikrofon -> 'had already closed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It was the first time I have visited an automated port.\"",
+        "draft": "It was the first time I have visited an automated port.",
+        "options": [
+          "It was the first time I had visited an automated port.",
+          "It was the first time I visit an automated port.",
+          "It was the first time I have visited an automated port."
+        ],
+        "answer": 0,
+        "explanation": "Dengan 'It was the first time', gunakan Past Perfect ('had visited').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the technician ___ the cable, the screen lit up immediately.",
+        "options": [
+          "replaces",
+          "has replaced",
+          "had replaced"
+        ],
+        "answer": 2,
+        "explanation": "Aksi penyebab tuntas sebelum 'lit up' -> 'had replaced'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Ketika kami tiba di aula, pembicara utama baru saja selesai.\".",
+        "targetSentence": "When we arrived at the hall, the speaker had just finished.",
+        "explanation": "'Had just finished'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Until he moved to Jakarta, Budi ___ any experience with rail passes.",
+        "options": [
+          "had never had",
+          "has never had",
+          "never has"
+        ],
+        "answer": 0,
+        "explanation": "Dua 'had': 'had (auxiliary) + never + had (V3 dari have)'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Room 4 messy when we walked in at nine? / Another group ___ held an early workshop there before us.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why was Room 4 messy when we walked in at nine?"
+          ],
+          [
+            "Bima",
+            "Another group ___ held an early workshop there before us."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Terjadi sebelum pukul sembilan -> 'had held'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner had the printer cooled when someone turned it on.\"",
+        "draft": "No sooner had the printer cooled when someone turned it on.",
+        "options": [
+          "No sooner the printer had cooled than someone turned it on.",
+          "No sooner had the printer cooled when someone turned it on.",
+          "No sooner had the printer cooled than someone turned it on."
+        ],
+        "answer": 2,
+        "explanation": "Pasangan 'No sooner' selalu 'than'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the time the ferry reached pier, passengers ___ their bags.",
+        "options": [
+          "had packed",
+          "have packed",
+          "pack"
+        ],
+        "answer": 0,
+        "explanation": "'By the time + V2' berpasangan dengan 'had + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you two already know each other before this orientation? / Yes! We ___ collaborated on a coastal project back in 2022.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did you two already know each other before this orientation?"
+          ],
+          [
+            "Eko",
+            "Yes! We ___ collaborated on a coastal project back in 2022."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Kolaborasi terjadi lebih awal -> 'had collaborated'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly had she entered Room 3 than the meeting began.\"",
+        "draft": "Hardly had she entered Room 3 than the meeting began.",
+        "options": [
+          "Hardly had she entered Room 3 when the meeting began.",
+          "Hardly she had entered Room 3 when the meeting began.",
+          "Hardly had she entered Room 3 than the meeting began."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'Hardly' selalu 'when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebelum pindah ke Jakarta, Budi belum pernah punya kartu kereta.\".",
+        "targetSentence": "Before moving to Jakarta, Budi had never had a rail pass.",
+        "explanation": "Past Perfect 'had never had'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I tried to call Reception at six, but everyone ___ home.",
+        "options": [
+          "had already gone",
+          "already went only",
+          "has already gone"
+        ],
+        "answer": 0,
+        "explanation": "Sudah pulang sebelum pukul 6 -> 'had already gone'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was it your first time flying internationally last month? / Yes—it was the first time I ___ ever crossed a border!\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Was it your first time flying internationally last month?"
+          ],
+          [
+            "Sari",
+            "Yes—it was the first time I ___ ever crossed a border!"
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'It was the first time + S + had + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Until he moved here, Adi has never had a rail card.\"",
+        "draft": "Until he moved here, Adi has never had a rail card.",
+        "options": [
+          "Until he moved here, Adi never had has a rail card.",
+          "Until he moved here, Adi has never had a rail card.",
+          "Until he moved here, Adi had never had a rail card."
+        ],
+        "answer": 2,
+        "explanation": "Sampai titik lampau ('Until he moved') memakai 'had never had'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She had ___ in Surabaya for three years before winning the promotion.",
+        "options": [
+          "working",
+          "works",
+          "worked"
+        ],
+        "answer": 2,
+        "explanation": "Durasi berlanjut sampai titik lampau tertentu ('before winning') -> 'had worked'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did our courier return to the gate twice yesterday? / He realized he ___ left one signed slip inside his glovebox.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why did our courier return to the gate twice yesterday?"
+          ],
+          [
+            "Putri",
+            "He realized he ___ left one signed slip inside his glovebox."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Tertinggal sebelum kembali -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He asked me who has left the storage closet open.\"",
+        "draft": "He asked me who has left the storage closet open.",
+        "options": [
+          "He asked me who has left the storage closet open.",
+          "He asked me who had left the storage closet open.",
+          "He asked me who had leave the storage closet open."
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan tidak langsung lampau ('He asked') memakai 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "That bridge ___ closed twice before the city rebuilt it.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Kejadian berulang sebelum kejadian lampau lain -> 'had closed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya mencoba menelepon resepsionis pukul enam, tetapi semua sudah pulang.\".",
+        "targetSentence": "I tried calling Reception at six, but everyone had gone home.",
+        "explanation": "'Had gone home'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had I known the road was flooded, I ___ taken the highway.",
+        "options": [
+          "had",
+          "would have",
+          "will have"
+        ],
+        "answer": 1,
+        "explanation": "Pengandaian lampau (Conditionals 3) terkait Past Perfect -> 'would have taken'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Wait—what terrible timing during lunch!\"",
+        "dialogue": [
+          [
+            "Dina",
+            "No sooner had we sat down ___ the fire drill bell rang!"
+          ],
+          [
+            "Arman",
+            "Wait—what terrible timing during lunch!"
+          ]
+        ],
+        "options": [
+          "when",
+          "that",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan baku 'No sooner ... than ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the end of 2023, they have digitized eighty percent.\"",
+        "draft": "By the end of 2023, they have digitized eighty percent.",
+        "options": [
+          "By the end of 2023, they had digitized eighty percent.",
+          "By the end of 2023, they were digitized eighty percent.",
+          "By the end of 2023, they have digitized eighty percent."
+        ],
+        "answer": 0,
+        "explanation": "'By the end of 2023' tertutup lampau memakai 'had digitized'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He wondered who ___ left the unlocked laptop on Desk 9.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan tidak langsung di masa lalu merujuk peristiwa sebelumnya -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja pengarahan selesai ketika pertanyaan-pertanyaan bermunculan.\".",
+        "targetSentence": "No sooner had the briefing ended than questions poured in.",
+        "explanation": "Inversi 'No sooner had ... than ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—she wasn't hungry at noon because she ___ breakfast late.",
+        "options": [
+          "had eaten",
+          "has eaten",
+          "eats"
+        ],
+        "answer": 0,
+        "explanation": "Alasan terjadi sebelum tengah hari -> 'had eaten'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"And how did the trainees react? / Hardly had the alarm sounded ___ everyone walked smoothly to Exit B.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "And how did the trainees react?"
+          ],
+          [
+            "Adi",
+            "Hardly had the alarm sounded ___ everyone walked smoothly to Exit B."
+          ]
+        ],
+        "options": [
+          "than",
+          "that",
+          "when"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan baku 'Hardly ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She wasn't hungry because she already had ate lunch.\"",
+        "draft": "She wasn't hungry because she already had ate lunch.",
+        "options": [
+          "She wasn't hungry because she already had ate lunch.",
+          "She wasn't hungry because she had already eaten lunch.",
+          "She wasn't hungry because she already eaten lunch."
+        ],
+        "answer": 1,
+        "explanation": "'Had already + V3' ('eaten').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before our team automated invoices, staff ___ hours keying figures.",
+        "options": [
+          "have spent",
+          "spend",
+          "had spent"
+        ],
+        "answer": 2,
+        "explanation": "Kebiasaan/aksi sebelum titik lampau 'automated' -> 'had spent'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Maya skip the coffee break after finishing slides? / Because she ___ already drunk two cups at her desk!\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why did Maya skip the coffee break after finishing slides?"
+          ],
+          [
+            "Kiki",
+            "Because she ___ already drunk two cups at her desk!"
+          ]
+        ],
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "'Already' sebelum waktu lampau -> 'had already drunk'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Scarcely had we logged out than three urgent texts arrived.\"",
+        "draft": "Scarcely had we logged out than three urgent texts arrived.",
+        "options": [
+          "Scarcely had we logged out than three urgent texts arrived.",
+          "Scarcely had we logged out when three urgent texts arrived.",
+          "Scarcely did we logged out when three urgent texts arrived."
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'Scarcely' adalah 'when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja layar meredup ketika lampu darurat menyala.\".",
+        "targetSentence": "Hardly had the screen dimmed when the emergency lamp flickered.",
+        "explanation": "Inversi 'Hardly had ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once the paint ___ completely, interns carried the desks back.",
+        "options": [
+          "had dried",
+          "dries",
+          "has dried"
+        ],
+        "answer": 0,
+        "explanation": "'Once' + 'had dried' menegaskan cat kering dulu sebelum meja dibawa masuk.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did your branch hit its target before December ended? / Yes! By December 20, we ___ already processed every order.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did your branch hit its target before December ended?"
+          ],
+          [
+            "Sinta",
+            "Yes! By December 20, we ___ already processed every order."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'By December 20' lampau -> 'had already processed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When we reached Terminal 1, our flight just has taken off.\"",
+        "draft": "When we reached Terminal 1, our flight just has taken off.",
+        "options": [
+          "When we reached Terminal 1, our flight had just took off.",
+          "When we reached Terminal 1, our flight just has taken off.",
+          "When we reached Terminal 1, our flight had just taken off."
+        ],
+        "answer": 2,
+        "explanation": "'Had just + V3' ('taken off').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They claimed they ___ received any warning email earlier.",
+        "options": [
+          "haven't",
+          "weren't",
+          "hadn't"
+        ],
+        "answer": 2,
+        "explanation": "Reported clause dari klaim lampau -> 'hadn't received'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you reject that first spreadsheet upload? / Because the vendor ___ omitted half the customs weights.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Why did you reject that first spreadsheet upload?"
+          ],
+          [
+            "Tia",
+            "Because the vendor ___ omitted half the customs weights."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Terjadi sebelum penolakan -> 'had omitted'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They claimed they haven't received our Friday invoice.\"",
+        "draft": "They claimed they haven't received our Friday invoice.",
+        "options": [
+          "They claimed they haven't received our Friday invoice.",
+          "They claimed they hadn't received our Friday invoice.",
+          "They claimed they didn't received our Friday invoice."
+        ],
+        "answer": 1,
+        "explanation": "Reported speech lampau ('They claimed') memakai 'hadn't received'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "How long ___ the sensor been faulty before you noticed?",
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Durasi sebelum disadari di masa lalu -> 'How long had ... been'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia merasa percaya diri karena sudah melatih setiap salindia.\".",
+        "targetSentence": "She felt confident because she had rehearsed every slide.",
+        "explanation": "'Had rehearsed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "As soon as the courier ___ the receipt, he uploaded a photo.",
+        "options": [
+          "scans",
+          "had scanned",
+          "has scanned"
+        ],
+        "answer": 1,
+        "explanation": "Urutan tuntas sebelum 'uploaded' -> 'had scanned'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had Budi had any coding training before joining IT? / Actually yes—he ___ had two years of Python internships earlier.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Had Budi had any coding training before joining IT?"
+          ],
+          [
+            "Dewi",
+            "Actually yes—he ___ had two years of Python internships earlier."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Auxiliary 'had' + V3 'had' -> 'had had'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had she knew about the detour, she'd have left earlier.\"",
+        "draft": "Had she knew about the detour, she'd have left earlier.",
+        "options": [
+          "Had she known about the detour, she'd have left earlier.",
+          "Did she known about the detour, she'd have left earlier.",
+          "Had she knew about the detour, she'd have left earlier."
+        ],
+        "answer": 0,
+        "explanation": "V3 dari 'know' adalah 'known'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "No sooner had the briefing ended ___ questions poured in.",
+        "options": [
+          "that",
+          "than",
+          "when"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku: 'No sooner had ... than ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Itu pertama kalinya saya mendengar panel berbicara serapi itu.\".",
+        "targetSentence": "It was the first time I had heard such clean speaking.",
+        "explanation": "'It was the first time + had + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly had the screen dimmed ___ the emergency lamp flickered on.",
+        "options": [
+          "when",
+          "than",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku: 'Hardly had ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why were the hallway lamps still warm at eight yesterday? / Maintenance ___ finished testing emergency circuits right before we arrived.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Why were the hallway lamps still warm at eight yesterday?"
+          ],
+          [
+            "Ayu",
+            "Maintenance ___ finished testing emergency circuits right before we arrived."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Selesai tepat sebelum kedatangan -> 'had finished'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the time the courier arrived, we already sealed crates.\"",
+        "draft": "By the time the courier arrived, we already sealed crates.",
+        "options": [
+          "By the time the courier arrived, we had already sealed crates.",
+          "By the time the courier arrived, we have already sealed crates.",
+          "By the time the courier arrived, we already sealed crates."
+        ],
+        "answer": 0,
+        "explanation": "'By the time + V2' berpasangan dengan 'had already sealed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ finished only half the boxes when the truck arrived.",
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Capaian sebelum truk datang -> 'had finished'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our guests wait long in the lobby? / Not really; they ___ waited barely ten minutes before the guide appeared.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Did our guests wait long in the lobby?"
+          ],
+          [
+            "Oki",
+            "Not really; they ___ waited barely ten minutes before the guide appeared."
+          ]
+        ],
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi sebelum pemandu muncul -> 'had waited'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She felt calm because she has practiced the slides.\"",
+        "draft": "She felt calm because she has practiced the slides.",
+        "options": [
+          "She felt calm because she has practiced the slides.",
+          "She felt calm because she had practiced the slides.",
+          "She felt calm because she had practice the slides."
+        ],
+        "answer": 1,
+        "explanation": "Kejadian sebelum 'felt calm' -> 'had practiced'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menjelang akhir 2022, divisi kami telah mendigitalkan sembilan puluh persen arsip.\".",
+        "targetSentence": "By late 2022, our division had digitized ninety percent of archives.",
+        "explanation": "'By late 2022' -> 'had digitized'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—did she leave before you arrived? Yes, she ___ left by three.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Tepat sebelum jam 3 lampau -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did Sarah fix the projector image so fast? / She recognized the glitch because she ___ fixed it in Room 1 earlier.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "How did Sarah fix the projector image so fast?"
+          ],
+          [
+            "Mira",
+            "She recognized the glitch because she ___ fixed it in Room 1 earlier."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Terjadi lebih awal -> 'had fixed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Nobody had ever drove that electric cargo van before.\"",
+        "draft": "Nobody had ever drove that electric cargo van before.",
+        "options": [
+          "Nobody had ever drove that electric cargo van before.",
+          "Nobody had ever driven that electric cargo van before.",
+          "Nobody has ever driven that electric cargo van before that day."
+        ],
+        "answer": 1,
+        "explanation": "V3 dari 'drive' adalah 'driven'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Until yesterday's demo, I ___ never seen a silent generator.",
+        "options": [
+          "was",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'Until yesterday's demo' memicu Past Perfect ('had never seen').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Locker 8 empty when Adi opened it? / The morning shift ___ moved all scanners to Building B already.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why was Locker 8 empty when Adi opened it?"
+          ],
+          [
+            "Taufik",
+            "The morning shift ___ moved all scanners to Building B already."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Dipindah sebelum Adi membuka loker -> 'had moved'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait—before moving to Medan, he has worked in Bali.\"",
+        "draft": "Wait—before moving to Medan, he has worked in Bali.",
+        "options": [
+          "Before moving to Medan, he had work in Bali.",
+          "Wait—before moving to Medan, he has worked in Bali.",
+          "Before moving to Medan, he had worked in Bali."
+        ],
+        "answer": 2,
+        "explanation": "Aktivitas sebelum pindah lampau memakai 'had worked'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She felt confident because she ___ rehearsed every slide twice.",
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Persiapan lebih awal -> 'had rehearsed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Begitu cat mengering sepenuhnya, pemagang membawa meja masuk kembali.\".",
+        "targetSentence": "Once the paint had dried completely, interns carried desks back.",
+        "explanation": "'Once + had dried'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The cargo plane ___ landed two hours before customs opened.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Terjadi 2 jam sebelum kejadian lampau lain -> 'had landed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Mr. Anton ask about the missing invoice number? / Yes, he asked who ___ entered the wrong code in Row 5.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did Mr. Anton ask about the missing invoice number?"
+          ],
+          [
+            "Lina",
+            "Yes, he asked who ___ entered the wrong code in Row 5."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Reported question lampau -> 'who had entered'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The ferry had already sank? No—The boat had already left before we got to Pier 2; it had already swam? Fix: The shuttle had already drove away.\"",
+        "draft": "The ferry had already sank? No—The boat had already left before we got to Pier 2; it had already swam? Fix: The shuttle had already drove away.",
+        "options": [
+          "The shuttle had already driven away before we got there.",
+          "The shuttle had already drive away before we got there.",
+          "The ferry had already sank? No—The boat had already left before we got to Pier 2; it had already swam? Fix: The shuttle had already drove away."
+        ],
+        "answer": 0,
+        "explanation": "V3 dari 'drive' adalah 'driven'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He asked whether anyone ___ updated Column D yet.",
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Pertanyaan tidak langsung lampau -> 'whether anyone had updated'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia bertanya-tanya siapa yang meninggalkan laptop tidak terkunci di meja.\".",
+        "targetSentence": "He wondered who had left the unlocked laptop on Desk Nine.",
+        "explanation": "Pertanyaan tidak langsung lampau -> 'had left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "When we checked Bay 2, someone ___ moved all empty pallets.",
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi sebelum pemeriksaan -> 'had moved'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Never—yesterday was my very first studio recording!\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Until yesterday's clinic, ___ you ever recorded an audio prompt?"
+          ],
+          [
+            "Wulan",
+            "Never—yesterday was my very first studio recording!"
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Sampai titik kemarin -> 'had you ever recorded'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He wondered why Reception didn't print his pass—no: why Reception hasn't printed it yet.\"",
+        "draft": "He wondered why Reception didn't print his pass—no: why Reception hasn't printed it yet.",
+        "options": [
+          "He wondered why Reception hadn't printed his pass yet.",
+          "He wondered why Reception hadn't print his pass yet.",
+          "He wondered why Reception didn't print his pass—no: why Reception hasn't printed it yet."
+        ],
+        "answer": 0,
+        "explanation": "Lampau 'He wondered' memerlukan 'hadn't printed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "It was the first time I ___ heard an Indonesian panel speak so cleanly.",
+        "options": [
+          "had",
+          "have",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Pola lampau: 'It was the first time + S + had + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the backup battery hold charge during Monday's outage? / Thankfully yes, because technicians ___ charged it fully on Sunday.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Did the backup battery hold charge during Monday's outage?"
+          ],
+          [
+            "Sari",
+            "Thankfully yes, because technicians ___ charged it fully on Sunday."
+          ]
+        ],
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi lebih awal hari Minggu -> 'had charged'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Once the technicians had fix the router, Wi-Fi returned.\"",
+        "draft": "Once the technicians had fix the router, Wi-Fi returned.",
+        "options": [
+          "Once the technicians had fix the router, Wi-Fi returned.",
+          "Once the technicians had fixed the router, Wi-Fi returned.",
+          "Once the technicians have fixed the router, Wi-Fi returned."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'had', wajib V3 ('fixed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pesawat kargo mendarat dua jam sebelum bea cukai buka.\".",
+        "targetSentence": "The cargo plane had landed two hours before customs opened.",
+        "explanation": "'Had landed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of 2022, our division ___ digitized ninety percent of archives.",
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Batas tahun lampau -> 'had digitized'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the gate agent verify your middle name twice? / The airline system ___ shortened my surname on the ticket.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why did the gate agent verify your middle name twice?"
+          ],
+          [
+            "Reno",
+            "The airline system ___ shortened my surname on the ticket."
+          ]
+        ],
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi sebelum pemeriksaan gerbang -> 'had shortened'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had the trainees wrote their notes before leaving?\"",
+        "draft": "Had the trainees wrote their notes before leaving?",
+        "options": [
+          "Had the trainees write their notes before leaving?",
+          "Had the trainees wrote their notes before leaving?",
+          "Had the trainees written their notes before leaving?"
+        ],
+        "answer": 2,
+        "explanation": "V3 dari 'write' adalah 'written'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scarcely had we locked Door A ___ the delivery phone rang.",
+        "options": [
+          "that",
+          "when",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku: 'Scarcely had ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Look—we spotted the extra parcel just in time!\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Scarcely had the courier pulled out ___ a courier message popped up."
+          ],
+          [
+            "Aris",
+            "Look—we spotted the extra parcel just in time!"
+          ]
+        ],
+        "options": [
+          "that",
+          "when",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku 'Scarcely ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Until that workshop, I have never spoken on a panel.\"",
+        "draft": "Until that workshop, I have never spoken on a panel.",
+        "options": [
+          "Until that workshop, I had never spoke on a panel.",
+          "Until that workshop, I have never spoken on a panel.",
+          "Until that workshop, I had never spoken on a panel."
+        ],
+        "answer": 2,
+        "explanation": "'Until that workshop' lampau -> 'had never spoken'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They couldn't export the PDF until they ___ fixed Page 7.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Harus tuntas dulu sebelum bisa mengekspor -> 'had fixed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka mengklaim belum menerima surel peringatan sebelumnya.\".",
+        "targetSentence": "They claimed they had not received any warning email earlier.",
+        "explanation": "'Had not received'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Akhiri dengan klausa hasil 'would have been minor'."
         ],
         "skill": "past-perfect-conditional"
+      },
+      {
+        "type": "choice",
+        "prompt": "Scarcely ___ uploaded the patch when three server alerts cleared.",
+        "options": [
+          "had engineers",
+          "engineers had",
+          "did engineers"
+        ],
+        "answer": 0,
+        "explanation": "Inversi formal: 'Scarcely + had + S + V3 + when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't the logistics team leave for Pier 2 at seven? / We ___ hoped to sail at seven, yet dense fog held boats back.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Why didn't the logistics team leave for Pier 2 at seven?"
+          ],
+          [
+            "Dodi",
+            "We ___ hoped to sail at seven, yet dense fog held boats back."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'Had hoped' = harapan masa lalu yang tidak tercapai.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Scarcely engineers had uploaded the fix when traffic stabilized.\"",
+        "draft": "Scarcely engineers had uploaded the fix when traffic stabilized.",
+        "options": [
+          "Scarcely had engineers uploaded the fix when traffic stabilized.",
+          "Scarcely had engineers uploaded the fix than traffic stabilized.",
+          "Scarcely engineers had uploaded the fix when traffic stabilized."
+        ],
+        "answer": 0,
+        "explanation": "'Scarcely' di awal kalimat wajib inversi 'had engineers uploaded' + 'when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not until we ___ all receipts did the discrepancy become visible.",
+        "options": [
+          "have audited",
+          "had audited",
+          "audited only"
+        ],
+        "answer": 1,
+        "explanation": "'Not until + S + had V3 + did + S + V1' menekankan syarat lampau tuntas terlebih dahulu.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja teknisi mengunggah perbaikan ketika tiga peringatan server hilang.\".",
+        "targetSentence": "Scarcely had engineers uploaded the patch when alerts cleared.",
+        "explanation": "Inversi 'Scarcely had + S + V3 + when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ hoped to inspect Pier 3 at dawn, yet fog halted boats.",
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "'Had hoped / had planned / had intended' mengekspresikan harapan atau rencana masa lalu yang batal/tidak terwujud.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did Finance spot that invoice discrepancy? / Not until auditors ___ checked every page did the gap show up.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "When did Finance spot that invoice discrepancy?"
+          ],
+          [
+            "Bima",
+            "Not until auditors ___ checked every page did the gap show up."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Not until + S', Past Perfect ('had checked') mendahului inversi.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had I knew the bridge was closed, I'd have taken Rail.\"",
+        "draft": "Had I knew the bridge was closed, I'd have taken Rail.",
+        "options": [
+          "Had I know the bridge was closed, I'd have taken Rail.",
+          "Had I knew the bridge was closed, I'd have taken Rail.",
+          "Had I known the bridge was closed, I'd have taken Rail."
+        ],
+        "answer": 2,
+        "explanation": "Inversi Conditional 3 memakai V3 ('known').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "They ___ intended to hold interviews indoors, though AC failed.",
+        "options": [
+          "are",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "'Had intended to...' = rencana masa lalu yang akhirnya berubah.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had the scanner been tested before Friday's seminar? / Thankfully yes—two technicians ___ tested every port on Thursday.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Had the scanner been tested before Friday's seminar?"
+          ],
+          [
+            "Eko",
+            "Thankfully yes—two technicians ___ tested every port on Thursday."
+          ]
+        ],
+        "options": [
+          "have",
+          "were",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Tuntas lebih awal di hari Kamis -> 'had tested'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner had the ferry docked when passengers exited.\"",
+        "draft": "No sooner had the ferry docked when passengers exited.",
+        "options": [
+          "No sooner had the ferry docked than passengers exited.",
+          "No sooner the ferry had docked than passengers exited.",
+          "No sooner had the ferry docked when passengers exited."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'No sooner' selalu 'than', bukan 'when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tidak sampai kami mengaudit semua struk barulah selisihnya terlihat.\".",
+        "targetSentence": "Not until we had audited all receipts did gaps appear.",
+        "explanation": "'Not until + had audited + did ... appear'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the time the harbor master spoke, ferry queues ___ stretched half a kilometer.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "'By the time + V2' -> 'had stretched'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How quickly did complaints drop after the patch? / Scarcely ___ engineers pushed the fix when error alerts vanished.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How quickly did complaints drop after the patch?"
+          ],
+          [
+            "Sari",
+            "Scarcely ___ engineers pushed the fix when error alerts vanished."
+          ]
+        ],
+        "options": [
+          "have",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Inversi 'Scarcely had + S + V3 + when'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Never before our unit had received such high marks.\"",
+        "draft": "Never before our unit had received such high marks.",
+        "options": [
+          "Never before did our unit had received such high marks.",
+          "Never before our unit had received such high marks.",
+          "Never before had our unit received such high marks."
+        ],
+        "answer": 2,
+        "explanation": "'Never before' di awal memicu inversi ('had our unit received').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before that 2019 pilot, no rural clinic ___ tested solar cold boxes.",
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "'Before that 2019 pilot' -> 'had tested'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Would our driver have avoided the harbor traffic jam? / Yes! Had he ___ the north ring road, he'd have saved forty minutes.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Would our driver have avoided the harbor traffic jam?"
+          ],
+          [
+            "Putri",
+            "Yes! Had he ___ the north ring road, he'd have saved forty minutes."
+          ]
+        ],
+        "options": [
+          "taken",
+          "took",
+          "take"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Conditional Type 3: 'Had he taken'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Before the inspector arrived, all samples have already been logged.\"",
+        "draft": "Before the inspector arrived, all samples have already been logged.",
+        "options": [
+          "Before the inspector arrived, all samples were already been logged.",
+          "Before the inspector arrived, all samples have already been logged.",
+          "Before the inspector arrived, all samples had already been logged."
+        ],
+        "answer": 2,
+        "explanation": "Kejadian sebelum 'arrived' pasif memakai 'had already been logged'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only after she ___ the footnote twice did Maya spot the missing unit.",
+        "options": [
+          "had checked",
+          "has checked",
+          "checks"
+        ],
+        "answer": 0,
+        "explanation": "'Only after + S + had + V3' memicu inversi pada klausa utama.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami tadinya berharap memeriksa Dermaga 3 saat fajar, tetapi kabut turun.\".",
+        "targetSentence": "We had hoped to inspect Pier Three at dawn, yet fog hit.",
+        "explanation": "Harapan batal memakai 'had hoped to'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "I realized I ___ seen that exact chart style in a 2021 journal.",
+        "options": [
+          "had",
+          "have",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Aksi sebelumnya dalam narasi lampau -> 'had seen'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were all thirty boxes packed before the truck arrived? / Wait—we ___ planned to pack thirty, though only twenty were ready.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Were all thirty boxes packed before the truck arrived?"
+          ],
+          [
+            "Arman",
+            "Wait—we ___ planned to pack thirty, though only twenty were ready."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Rencana awal yang meleset -> 'had planned'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We have hoped to inspect Pier 3 at dawn, yet fog hit.\"",
+        "draft": "We have hoped to inspect Pier 3 at dawn, yet fog hit.",
+        "options": [
+          "We had hoping to inspect Pier 3 at dawn, yet fog hit.",
+          "We have hoped to inspect Pier 3 at dawn, yet fog hit.",
+          "We had hoped to inspect Pier 3 at dawn, yet fog hit."
+        ],
+        "answer": 2,
+        "explanation": "Harapan masa lalu yang tak terwujud memakai 'had hoped'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had the courier ___ five minutes earlier, he would have caught us.",
+        "options": [
+          "arrived",
+          "arrive",
+          "arriving"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Conditional Type 3 tanpa 'if': 'Had + S + V3' ('Had the courier arrived').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru setelah dia memeriksa catatan kaki dua kali barulah salah ketik terlihat.\".",
+        "targetSentence": "Only after she had checked the footnote twice did she spot it.",
+        "explanation": "'Only after + had V3 + did + S + V1'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She spoke so fluently that everyone assumed she ___ abroad for years.",
+        "options": [
+          "studied only",
+          "had studied",
+          "has studied"
+        ],
+        "answer": 1,
+        "explanation": "Asumsi tentang latar belakang yang mendahului -> 'had studied'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Had Dr. Sari ever seen that 1980 maritime map before yesterday? / No! Never before ___ laid eyes on that original print.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Had Dr. Sari ever seen that 1980 maritime map before yesterday?"
+          ],
+          [
+            "Adi",
+            "No! Never before ___ laid eyes on that original print."
+          ]
+        ],
+        "options": [
+          "she had",
+          "did she",
+          "had she"
+        ],
+        "answer": 2,
+        "explanation": "Inversi Past Perfect: 'Never before had she + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not until we audited all receipts did the error appeared.\"",
+        "draft": "Not until we audited all receipts did the error appeared.",
+        "options": [
+          "Not until we audited all receipts the error appeared.",
+          "Not until we audited all receipts did the error appeared.",
+          "Not until we had audited all receipts did the error appear."
+        ],
+        "answer": 2,
+        "explanation": "Setelah inversi 'did the error', verb kembali V1 ('appear').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "No sooner had the ferry left the berth ___ wind gusts doubled.",
+        "options": [
+          "when",
+          "until",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan baku 'No sooner ... than ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the registrar delay publishing the final exam list? / Because three campuses ___ yet to upload room numbers.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why did the registrar delay publishing the final exam list?"
+          ],
+          [
+            "Kiki",
+            "Because three campuses ___ yet to upload room numbers."
+          ]
+        ],
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Lampau formal 'had yet to + V1' ('belum mengunggah').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He hadn't never been told about the backup switch.\"",
+        "draft": "He hadn't never been told about the backup switch.",
+        "options": [
+          "He hadn't never been told about the backup switch.",
+          "He had never been told about the backup switch.",
+          "He hadn't ever been told nothing about the switch."
+        ],
+        "answer": 1,
+        "explanation": "Hindari double negative ('hadn't never'); gunakan 'had never been told'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seandainya kurir tiba lima menit lebih awal, dia pasti menemui kami.\".",
+        "targetSentence": "Had the courier arrived five minutes earlier, he would have caught us.",
+        "explanation": "Inversi Conditional 3 tanpa 'if'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He ___ never been told about the backup key until Monday's drill.",
+        "options": [
+          "was only",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Past Perfect Passive: 'had never been told'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How long had the printer been humming before it stopped? / It ___ been running nonstop for three hours before cooling down.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How long had the printer been humming before it stopped?"
+          ],
+          [
+            "Sinta",
+            "It ___ been running nonstop for three hours before cooling down."
+          ]
+        ],
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Durasi sebelum berhenti di masa lalu -> 'had been running'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Had the memo be sent Friday, no double-booking happened.\"",
+        "draft": "Had the memo be sent Friday, no double-booking happened.",
+        "options": [
+          "Had the memo been sent Friday, no double-booking would have occurred.",
+          "Had the memo was sent Friday, no double-booking occurred.",
+          "Had the memo be sent Friday, no double-booking happened."
+        ],
+        "answer": 0,
+        "explanation": "Inversi Type 3 Pasif: 'Had + S + been + V3' + 'would have + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "By the end of the decade, rail ridership ___ surpassed earlier peaks.",
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "'By the end of the decade' (lampau) -> 'had surpassed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the supervisor know Maya had spoken to the client already? / No—little ___ know that Maya had resolved the claim at noon.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Did the supervisor know Maya had spoken to the client already?"
+          ],
+          [
+            "Tia",
+            "No—little ___ know that Maya had resolved the claim at noon."
+          ]
+        ],
+        "options": [
+          "he did",
+          "did he",
+          "had he"
+        ],
+        "answer": 1,
+        "explanation": "Inversi pada klausa utama 'little did he know' (diikuti 'had resolved').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly had the panel seated itself than alarms tested.\"",
+        "draft": "Hardly had the panel seated itself than alarms tested.",
+        "options": [
+          "Hardly had the panel seated itself when alarms tested.",
+          "Hardly the panel had seated itself when alarms tested.",
+          "Hardly had the panel seated itself than alarms tested."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'Hardly' adalah 'when', bukan 'than'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had I ___ about the bridge closure, I would have left at six.",
+        "options": [
+          "known",
+          "knew",
+          "know"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Conditional Type 3: 'Had I known'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia belum pernah diberitahu tentang kunci cadangan sampai latihan Senin.\".",
+        "targetSentence": "He had never been told about the backup key until Monday.",
+        "explanation": "Past Perfect Passive 'had never been told'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ expected thirty guests, yet fifty-five showed up by nine.",
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Ekspektasi masa lalu yang berbeda dari kenyataan -> 'had expected'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did Mr. Hadi look surprised at the morning turnout? / He ___ expected twenty attendees, yet nearly fifty walked in!\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why did Mr. Hadi look surprised at the morning turnout?"
+          ],
+          [
+            "Dewi",
+            "He ___ expected twenty attendees, yet nearly fifty walked in!"
+          ]
+        ],
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Harapan lampau lebih kecil dari realita -> 'had expected'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only after she checked the footnote twice she spotted the typo.\"",
+        "draft": "Only after she checked the footnote twice she spotted the typo.",
+        "options": [
+          "Only after she had checked the footnote twice did she spot the typo.",
+          "Only after she had checked the footnote twice did she spotted the typo.",
+          "Only after she checked the footnote twice she spotted the typo."
+        ],
+        "answer": 0,
+        "explanation": "'Only after + klausa' di awal kalimat memicu inversi pada klausa utama ('did she spot').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly had the panel seated itself ___ the fire alarm tested briefly.",
+        "options": [
+          "when",
+          "than",
+          "that"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku 'Hardly ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sebelum pengawas tiba, semua sampel sudah dicatat ke dalam buku.\".",
+        "targetSentence": "Before the inspector arrived, all samples had already been logged.",
+        "explanation": "Past Perfect Passive 'had already been logged'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "No sooner ___ all badges been scanned than the gates locked.",
+        "options": [
+          "were",
+          "have",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Inversi Past Perfect Passive: 'No sooner had + S + been + V3 + than ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Great timing—we opened doors right on the dot at eight.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "No sooner had all badges ___ printed than guests filled Lobby A."
+          ],
+          [
+            "Ayu",
+            "Great timing—we opened doors right on the dot at eight."
+          ]
+        ],
+        "options": [
+          "be",
+          "were",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Inversi Past Perfect Passive: 'had + S + been + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Seldom I had seen such neat bilingual handouts before.\"",
+        "draft": "Seldom I had seen such neat bilingual handouts before.",
+        "options": [
+          "Seldom I had seen such neat bilingual handouts before.",
+          "Seldom had I seen such neat bilingual handouts before.",
+          "Seldom did I seen such neat bilingual handouts before."
+        ],
+        "answer": 1,
+        "explanation": "'Seldom' di awal memicu inversi ('had I seen').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "It was not until 2022 that coastal hubs ___ phased out paper logs.",
+        "options": [
+          "had",
+          "have",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Struktur penekanan 'It was not until ... that + S + had + V3' (menandai kondisi tercapai pada titik itu).",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Good thing we waited for both signatures first.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Only after Finance ___ signed the voucher did the courier leave."
+          ],
+          [
+            "Oki",
+            "Good thing we waited for both signatures first."
+          ]
+        ],
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "'Only after + S + had + V3' mendahului 'did ... leave'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The interns were sorting archive files for two hours before noon.\"",
+        "draft": "The interns were sorting archive files for two hours before noon.",
+        "options": [
+          "The interns were sorting archive files for two hours before noon.",
+          "The interns had been sorting archive files for two hours before noon.",
+          "The interns have been sorting archive files for two hours before noon."
+        ],
+        "answer": 1,
+        "explanation": "Durasi sebelum titik lampau ('for two hours before noon') memakai 'had been sorting'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Belum pernah sebelumnya unit kami menerima umpan balik dwibahasa sejelas ini.\".",
+        "targetSentence": "Never before had our unit received such clear bilingual feedback.",
+        "explanation": "Inversi 'Never before had + S + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "The interns ___ been sorting archive folders for two hours before noon.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Past Perfect Continuous berdurasi sebelum titik lampau ('before noon') -> 'had been sorting'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Room 1 spotless when delegates entered? / Because cleaning staff ___ finished vacuuming twenty minutes prior.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why was Room 1 spotless when delegates entered?"
+          ],
+          [
+            "Mira",
+            "Because cleaning staff ___ finished vacuuming twenty minutes prior."
+          ]
+        ],
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Selesai lebih awal -> 'had finished'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She spoke as if she has lived in Sydney for ten years.\"",
+        "draft": "She spoke as if she has lived in Sydney for ten years.",
+        "options": [
+          "She spoke as if she has lived in Sydney for ten years.",
+          "She spoke as if she had lived in Sydney for ten years.",
+          "She spoke as if she had live in Sydney for ten years."
+        ],
+        "answer": 1,
+        "explanation": "Konteks masa lalu ('She spoke') + latar lebih dulu memakai 'had lived'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "He apologized, explaining he ___ misunderstood the room number.",
+        "options": [
+          "had",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Penjelasan sebab kesalahpahaman sebelumnya -> 'had misunderstood'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Agreed—timing matters for shared conference rooms.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Had the memo ___ delivered earlier, we wouldn't have double-booked."
+          ],
+          [
+            "Taufik",
+            "Agreed—timing matters for shared conference rooms."
+          ]
+        ],
+        "options": [
+          "was",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Inversi Type 3 Pasif: 'Had + S + been + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner had all badges printed than doors opened.\"",
+        "draft": "No sooner had all badges printed than doors opened.",
+        "options": [
+          "No sooner all badges had been printed than doors opened.",
+          "No sooner had all badges printed than doors opened.",
+          "No sooner had all badges been printed than doors opened."
+        ],
+        "answer": 2,
+        "explanation": "Bentuk pasif Past Perfect wajib memakai 'been' sebelum V3 ('been printed').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Before the inspector arrived, all samples ___ already been logged.",
+        "options": [
+          "were",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Past Perfect Passive: 'had already been logged'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja semua kartu dicetak ketika tamu mulai memenuhi Lobi A.\".",
+        "targetSentence": "No sooner had all badges been printed than guests filled Lobby A.",
+        "explanation": "Inversi pasif 'No sooner had ... been + V3 + than'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Little did we know the courier ___ already left the box at Gate 1.",
+        "options": [
+          "did",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Peristiwa sudah selesai sebelum kami sadari -> 'had already left'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Everyone knew their exact rack before carrying a single box.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Seldom ___ witnessed such smooth teamwork during a move."
+          ],
+          [
+            "Lina",
+            "Everyone knew their exact rack before carrying a single box."
+          ]
+        ],
+        "options": [
+          "did I",
+          "had I",
+          "I had"
+        ],
+        "answer": 1,
+        "explanation": "Inversi 'Seldom had I + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They had intend to finish by noon, yet traffic delayed them.\"",
+        "draft": "They had intend to finish by noon, yet traffic delayed them.",
+        "options": [
+          "They had intend to finish by noon, yet traffic delayed them.",
+          "They had intended to finish by noon, yet traffic delayed them.",
+          "They had intending to finish by noon, yet traffic delayed them."
+        ],
+        "answer": 1,
+        "explanation": "'Had + V3' ('intended') + 'to + V1'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ planned to finish by noon, but a flat tire delayed us.",
+        "options": [
+          "had",
+          "have",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Rencana masa lalu batal/tertunda -> 'had planned'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Para pemagang sudah menyortir berkas arsip selama dua jam sebelum siang.\".",
+        "targetSentence": "The interns had been sorting archive files for two hours before noon.",
+        "explanation": "Durasi sebelum titik lampau -> 'had been sorting'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never before had our unit ___ such clear bilingual feedback.",
+        "options": [
+          "received",
+          "receive",
+          "receiving"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Past Perfect: 'Never before had + S + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the new intern make that calculation error on purpose? / Not at all; she apologized and explained she ___ misread Row 8.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Did the new intern make that calculation error on purpose?"
+          ],
+          [
+            "Wulan",
+            "Not at all; she apologized and explained she ___ misread Row 8."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Penjelasan kesalahan sebelumnya -> 'had misread'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We had expected twenty guests, yet fifty have showed up yesterday.\"",
+        "draft": "We had expected twenty guests, yet fifty have showed up yesterday.",
+        "options": [
+          "We had expected twenty guests, yet fifty showed up yesterday.",
+          "We expected had twenty guests, yet fifty showed up yesterday.",
+          "We had expected twenty guests, yet fifty have showed up yesterday."
+        ],
+        "answer": 0,
+        "explanation": "'Yesterday' setelah 'yet' memakai Past Simple ('showed up').",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "After the power outage had ___ for twenty minutes, generators kicked in.",
+        "options": [
+          "last",
+          "lasting",
+          "lasted"
+        ],
+        "answer": 2,
+        "explanation": "Durasi selesai sebelum aksi kedua -> 'had lasted'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"That fast turnaround kept evening schedules right on time.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Hardly had the ferry docked ___ port trucks rolled onto Ramp 1."
+          ],
+          [
+            "Sari",
+            "That fast turnaround kept evening schedules right on time."
+          ]
+        ],
+        "options": [
+          "than",
+          "that",
+          "when"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan 'Hardly ... when ...'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"By the end of 2021, ridership has surpassed pre-2019 levels.\"",
+        "draft": "By the end of 2021, ridership has surpassed pre-2019 levels.",
+        "options": [
+          "By the end of 2021, ridership had surpassed pre-2019 levels.",
+          "By the end of 2021, ridership was surpassed pre-2019 levels.",
+          "By the end of 2021, ridership has surpassed pre-2019 levels."
+        ],
+        "answer": 0,
+        "explanation": "Batas waktu lampau ('By the end of 2021') -> 'had surpassed'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Seandainya memo itu dikirim Jumat, jadwal ganda pasti terhindari.\".",
+        "targetSentence": "Had the memo been sent Friday, conflicts would have been avoided.",
+        "explanation": "Inversi Type 3 Pasif.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only when the figures ___ been verified did Finance issue checks.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Syarat selesai lampau pasif: 'had been verified'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our old warehouse log shipments digitally before 2020? / No, until 2020 we ___ kept every manifest inside paper binders.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did our old warehouse log shipments digitally before 2020?"
+          ],
+          [
+            "Reno",
+            "No, until 2020 we ___ kept every manifest inside paper binders."
+          ]
+        ],
+        "options": [
+          "did",
+          "had",
+          "have"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum perubahan 2020 -> 'had kept'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He apologized, explaining he misunderstood the room code earlier.\"",
+        "draft": "He apologized, explaining he misunderstood the room code earlier.",
+        "options": [
+          "He apologized, explaining he misunderstood the room code earlier.",
+          "He apologized, explaining he had misunderstood the room code earlier.",
+          "He apologized, explaining he has misunderstood the room code earlier."
+        ],
+        "answer": 1,
+        "explanation": "Kesalahan sebelumnya -> 'had misunderstood'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "Had the memo ___ emailed Friday, delays would have been avoided.",
+        "options": [
+          "been",
+          "be",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Type 3 Pasif: 'Had + S + been + V3'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the committee praise Cohort 4's essay drafts? / Because every group ___ double-checked sources before submitting.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Why did the committee praise Cohort 4's essay drafts?"
+          ],
+          [
+            "Aris",
+            "Because every group ___ double-checked sources before submitting."
+          ]
+        ],
+        "options": [
+          "has",
+          "was",
+          "had"
+        ],
+        "answer": 2,
+        "explanation": "Terjadi sebelum pengiriman -> 'had double-checked'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Only when the figures had verified did Finance issue checks.\"",
+        "draft": "Only when the figures had verified did Finance issue checks.",
+        "options": [
+          "Only when the figures verified had did Finance issue checks.",
+          "Only when the figures had verified did Finance issue checks.",
+          "Only when the figures had been verified did Finance issue checks."
+        ],
+        "answer": 2,
+        "explanation": "Subjek benda ('the figures') bersifat pasif -> 'had been verified'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "choice",
+        "prompt": "She noticed someone ___ altered Column B after the afternoon review.",
+        "options": [
+          "was",
+          "had",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Terjadi di antara review dan pengamatan -> 'had altered'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia meminta maaf sambil menjelaskan bahwa dia salah membaca kode ruang.\".",
+        "targetSentence": "He apologized, explaining he had misread the room code.",
+        "explanation": "Sebab lebih dulu memakai 'had misread'.",
+        "hints": [
+          "Past Perfect (had + V3) menunjukkan peristiwa yang LEBIH DULU selesai sebelum peristiwa lampau kedua (V2) terjadi.",
+          "Perhatikan penanda waktu: 'by the time', 'before', 'already', 'never ... before', dan inversi 'Hardly/No sooner had ...'."
+        ],
+        "skill": "past-perfect"
       }
     ]
   }

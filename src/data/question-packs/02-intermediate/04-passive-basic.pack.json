@@ -261,6 +261,1446 @@
           "Akhiri dengan 'by two senior engineers last week'."
         ],
         "skill": "passive-basic-agent"
+      },
+      {
+        "type": "choice",
+        "prompt": "The safety checklist ___ updated by our supervisor every Friday.",
+        "options": [
+          "is",
+          "are",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "Passive Present Simple tunggal: 'is + V3' ('is updated').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who cleans the microscope lenses after lab sessions? / They ___ cleaned by trained technicians every evening.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Who cleans the microscope lenses after lab sessions?"
+          ],
+          [
+            "Dodi",
+            "They ___ cleaned by trained technicians every evening."
+          ]
+        ],
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak 'They' Present Passive -> 'are cleaned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All visitor badges was printed yesterday morning.\"",
+        "draft": "All visitor badges was printed yesterday morning.",
+        "options": [
+          "All visitor badges was printed yesterday morning.",
+          "All visitor badges were printed yesterday morning.",
+          "All visitor badges are printed yesterday morning."
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak ('badges') + 'yesterday' -> 'were printed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "All forty visitor badges ___ printed yesterday afternoon.",
+        "options": [
+          "did",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Passive Past Simple jamak ('badges') -> 'were printed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Daftar periksa keselamatan diperbarui setiap hari Jumat.\".",
+        "targetSentence": "The safety checklist is updated every Friday.",
+        "explanation": "Present Passive tunggal 'is updated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "These glass bottles ___ recycled at the northern facility.",
+        "options": [
+          "is",
+          "have",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Passive Present Simple jamak -> 'are recycled'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When was this regional archive building constructed? / It ___ built back in 2014 to house port records.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "When was this regional archive building constructed?"
+          ],
+          [
+            "Bima",
+            "It ___ built back in 2014 to house port records."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal lampau ('in 2014') -> 'was built'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The safety checklist is update every Friday.\"",
+        "draft": "The safety checklist is update every Friday.",
+        "options": [
+          "The safety checklist is updated every Friday.",
+          "The safety checklist is updating every Friday.",
+          "The safety checklist is update every Friday."
+        ],
+        "answer": 0,
+        "explanation": "Passive selalu memakai V3 ('updated').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The new solar inverter ___ installed last Monday morning.",
+        "options": [
+          "was",
+          "were",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Passive Past Simple tunggal ('last Monday') -> 'was installed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are printed agendas still handed out at conferences? / Rarely—most agendas ___ shared via QR codes now.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Are printed agendas still handed out at conferences?"
+          ],
+          [
+            "Eko",
+            "Rarely—most agendas ___ shared via QR codes now."
+          ]
+        ],
+        "options": [
+          "is",
+          "do",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Jamak saat ini ('now') -> 'are shared'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"These shipping crates are deliver to Medan twice weekly.\"",
+        "draft": "These shipping crates are deliver to Medan twice weekly.",
+        "options": [
+          "These shipping crates are delivered to Medan twice weekly.",
+          "These shipping crates are delivering to Medan twice weekly.",
+          "These shipping crates are deliver to Medan twice weekly."
+        ],
+        "answer": 0,
+        "explanation": "Passive memakai V3 ('delivered').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua empat puluh kartu tamu dicetak kemarin sore.\".",
+        "targetSentence": "All forty visitor badges were printed yesterday afternoon.",
+        "explanation": "Past Passive jamak 'were printed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every parcel ___ scanned before leaving Loading Bay B.",
+        "options": [
+          "does",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explanation": "'Every parcel' tunggal Present Passive -> 'is scanned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did anyone fix the flickering lamp in Corridor C? / Yes, it ___ replaced by Maintenance this morning.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Did anyone fix the flickering lamp in Corridor C?"
+          ],
+          [
+            "Sari",
+            "Yes, it ___ replaced by Maintenance this morning."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal lampau -> 'was replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When did this harbor bridge officially built?\"",
+        "draft": "When did this harbor bridge officially built?",
+        "options": [
+          "When was this harbor bridge officially built?",
+          "When is this harbor bridge officially built?",
+          "When did this harbor bridge officially built?"
+        ],
+        "answer": 0,
+        "explanation": "Kalimat pasif lampau tidak memakai 'did'; gunakan 'was ... built'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our seminar slides ___ translated into English last week.",
+        "options": [
+          "were",
+          "was",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Jamak ('slides') + 'last week' -> 'were translated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"They are locked inside Cabinet B behind Desk 1.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Where ___ the spare workshop microphones stored?"
+          ],
+          [
+            "Putri",
+            "They are locked inside Cabinet B behind Desk 1."
+          ]
+        ],
+        "options": [
+          "is",
+          "do",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak ('microphones') -> 'are'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Coffee beans are roast in small batches here.\"",
+        "draft": "Coffee beans are roast in small batches here.",
+        "options": [
+          "Coffee beans is roasted in small batches here.",
+          "Coffee beans are roast in small batches here.",
+          "Coffee beans are roasted in small batches here."
+        ],
+        "answer": 2,
+        "explanation": "Passive jamak: 'are + V3 ('roasted')'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Guest passes ___ issued at Reception between eight and five.",
+        "options": [
+          "were only",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Fakta rutin saat ini jamak -> 'are issued'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Botol-botol kaca ini didaur ulang di fasilitas utara.\".",
+        "targetSentence": "These glass bottles are recycled at the northern facility.",
+        "explanation": "Present Passive jamak 'are recycled'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That warehouse roof ___ repaired two months ago.",
+        "options": [
+          "were",
+          "is",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Tunggal + 'two months ago' -> 'was repaired'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were all forty guest badges printed before eight? / Yes, they ___ finished right at seven forty-five.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Were all forty guest badges printed before eight?"
+          ],
+          [
+            "Arman",
+            "Yes, they ___ finished right at seven forty-five."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Jamak lampau -> 'were finished'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The broken printer replaced by IT support yesterday.\"",
+        "draft": "The broken printer replaced by IT support yesterday.",
+        "options": [
+          "The broken printer was replaced by IT support yesterday.",
+          "The broken printer were replaced by IT support yesterday.",
+          "The broken printer replaced by IT support yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Benda tunggal menerima tindakan lampau -> wajib 'was replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Milk and fresh fruit ___ stored inside Cold Locker 2.",
+        "options": [
+          "are",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Dua subjek majemuk ('Milk and fresh fruit') -> 'are stored'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Inverter surya baru dipasang Senin pagi lalu.\".",
+        "targetSentence": "The new solar inverter was installed last Monday morning.",
+        "explanation": "Past Passive tunggal 'was installed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Was the weekly sales report ___ by Friday at five?",
+        "options": [
+          "submitting",
+          "submitted",
+          "submit"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Was + S', wajib V3 ('submitted').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is lunch provided during the Saturday safety workshop? / Yes, warm lunch boxes ___ delivered to Hall A at noon.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Is lunch provided during the Saturday safety workshop?"
+          ],
+          [
+            "Adi",
+            "Yes, warm lunch boxes ___ delivered to Hall A at noon."
+          ]
+        ],
+        "options": [
+          "is",
+          "do",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'Lunch boxes' jamak -> 'are delivered'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Are safety helmets keep inside Cabinet A?\"",
+        "draft": "Are safety helmets keep inside Cabinet A?",
+        "options": [
+          "Do safety helmets kept inside Cabinet A?",
+          "Are safety helmets keep inside Cabinet A?",
+          "Are safety helmets kept inside Cabinet A?"
+        ],
+        "answer": 2,
+        "explanation": "Passive memakai V3 ('kept').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Are safety helmets ___ near the entrance of Zone B?",
+        "options": [
+          "keeping",
+          "kept",
+          "keep"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'Are + S', wajib V3 ('kept').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Gate 3 sealed at noon? / The roadway outside ___ repaved right before lunch.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why was Gate 3 sealed at noon?"
+          ],
+          [
+            "Kiki",
+            "The roadway outside ___ repaved right before lunch."
+          ]
+        ],
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal lampau -> 'was'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Two electric cargo vans was delivered last Monday.\"",
+        "draft": "Two electric cargo vans was delivered last Monday.",
+        "options": [
+          "Two electric cargo vans was delivered last Monday.",
+          "Two electric cargo vans were delivered last Monday.",
+          "Two electric cargo vans are delivered last Monday."
+        ],
+        "answer": 1,
+        "explanation": "'Two vans' jamak lampau -> 'were delivered'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Setiap paket dipindai sebelum meninggalkan Pintu Muat B.\".",
+        "targetSentence": "Every parcel is scanned before leaving Loading Bay B.",
+        "explanation": "Tunggal 'is scanned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The hallway floors ___ mopped every evening after seven.",
+        "options": [
+          "are",
+          "is",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "'Floors' jamak Present Passive -> 'are mopped'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why was Gate 3 closed earlier this morning? / It ___ blocked briefly while workers painted crosswalk lines.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Why was Gate 3 closed earlier this morning?"
+          ],
+          [
+            "Kiki",
+            "It ___ blocked briefly while workers painted crosswalk lines."
+          ]
+        ],
+        "options": [
+          "is",
+          "were",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Tunggal lampau -> 'was blocked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Breakfast are served in the lounge from six.\"",
+        "draft": "Breakfast are served in the lounge from six.",
+        "options": [
+          "Breakfast is serve in the lounge from six.",
+          "Breakfast are served in the lounge from six.",
+          "Breakfast is served in the lounge from six."
+        ],
+        "answer": 2,
+        "explanation": "'Breakfast' tunggal -> 'is served'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "This broken monitor ___ replaced by IT support yesterday.",
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal + 'yesterday' -> 'was replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Every instrument is checked by an external team twice yearly.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "How often ___ your lab scales calibrated?"
+          ],
+          [
+            "Sinta",
+            "Every instrument is checked by an external team twice yearly."
+          ]
+        ],
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'Scales' jamak -> 'How often are ... calibrated?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That manual was wrote by three senior mentors.\"",
+        "draft": "That manual was wrote by three senior mentors.",
+        "options": [
+          "That manual was wrote by three senior mentors.",
+          "That manual was written by three senior mentors.",
+          "That manual was writing by three senior mentors."
+        ],
+        "answer": 1,
+        "explanation": "V3 dari 'write' adalah 'written'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "No external guests ___ allowed inside Server Room 1.",
+        "options": [
+          "is",
+          "do",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "'Guests' jamak -> 'are allowed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Salindia seminar kami diterjemahkan ke bahasa Inggris minggu lalu.\".",
+        "targetSentence": "Our seminar slides were translated into English last week.",
+        "explanation": "Past Passive jamak 'were translated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "When ___ this maritime bridge officially opened?",
+        "options": [
+          "did",
+          "were",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Passive Past Simple tunggal -> 'When was ... opened?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the invoice PDF sent to our Jakarta supplier? / Yes, it was ___ right after Mr. Hadi signed it.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Was the invoice PDF sent to our Jakarta supplier?"
+          ],
+          [
+            "Tia",
+            "Yes, it was ___ right after Mr. Hadi signed it."
+          ]
+        ],
+        "options": [
+          "email",
+          "emailing",
+          "emailed"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'was', wajib V3 ('emailed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Where is the spare cables stored at night?\"",
+        "draft": "Where is the spare cables stored at night?",
+        "options": [
+          "Where do the spare cables stored at night?",
+          "Where is the spare cables stored at night?",
+          "Where are the spare cables stored at night?"
+        ],
+        "answer": 2,
+        "explanation": "Subjek jamak 'the spare cables' memakai 'are'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "All workshop laptops ___ checked before each training cohort.",
+        "options": [
+          "is",
+          "have",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Jamak rutin -> 'are checked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kapan jembatan maritim ini resmi dibuka untuk umum?\".",
+        "targetSentence": "When was this maritime bridge officially opened to traffic?",
+        "explanation": "Pertanyaan Past Passive 'When was ... opened'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The welcome letter ___ written by Ms. Tari last Tuesday.",
+        "options": [
+          "did",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Tunggal + 'last Tuesday' -> 'was written'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't those plastic trays go into regular trash? / Because clean trays ___ reused for the next shipment.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why didn't those plastic trays go into regular trash?"
+          ],
+          [
+            "Dewi",
+            "Because clean trays ___ reused for the next shipment."
+          ]
+        ],
+        "options": [
+          "did",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Fakta rutin jamak -> 'are reused'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"My parcel were damaged slightly during transit.\"",
+        "draft": "My parcel were damaged slightly during transit.",
+        "options": [
+          "My parcel was damaged slightly during transit.",
+          "My parcel did damaged slightly during transit.",
+          "My parcel were damaged slightly during transit."
+        ],
+        "answer": 0,
+        "explanation": "Tunggal 'My parcel' memakai 'was damaged'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Where ___ these spare ink cartridges kept?",
+        "options": [
+          "are",
+          "is",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "Jamak -> 'Where are ... kept?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Who wrote this clear emergency manual? / It ___ drafted by our safety officer last spring.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Who wrote this clear emergency manual?"
+          ],
+          [
+            "Ayu",
+            "It ___ drafted by our safety officer last spring."
+          ]
+        ],
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Tunggal lampau ('last spring') -> 'was drafted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Is this form sign by both the intern and supervisor?\"",
+        "draft": "Is this form sign by both the intern and supervisor?",
+        "options": [
+          "Is this form signed by both the intern and supervisor?",
+          "Does this form signed by both the intern and supervisor?",
+          "Is this form sign by both the intern and supervisor?"
+        ],
+        "answer": 0,
+        "explanation": "Passive membutuhkan V3 ('signed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Di mana kabel cadangan tersebut disimpan di malam hari?\".",
+        "targetSentence": "Where are those spare cables stored at night?",
+        "explanation": "Pertanyaan Present Passive jamak.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Breakfast ___ served in the garden lounge from six to nine.",
+        "options": [
+          "is",
+          "are",
+          "does"
+        ],
+        "answer": 0,
+        "explanation": "'Breakfast' tunggal -> 'is served'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are outside deliveries accepted on Sunday afternoons? / No, parcels ___ received only Monday through Saturday.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Are outside deliveries accepted on Sunday afternoons?"
+          ],
+          [
+            "Oki",
+            "No, parcels ___ received only Monday through Saturday."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "were only"
+        ],
+        "answer": 0,
+        "explanation": "Fakta rutin jamak -> 'are received'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"English and Indonesian is spoken at this helpdesk.\"",
+        "draft": "English and Indonesian is spoken at this helpdesk.",
+        "options": [
+          "English and Indonesian are spoken at this helpdesk.",
+          "English and Indonesian are spoke at this helpdesk.",
+          "English and Indonesian is spoken at this helpdesk."
+        ],
+        "answer": 0,
+        "explanation": "Dua bahasa subjek majemuk -> 'are spoken'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Two electric vans ___ delivered to our Medan branch Monday.",
+        "options": [
+          "were",
+          "was",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Jamak ('Two electric vans') + lampau -> 'were delivered'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why are there zero typos in the English brochure? / Every paragraph ___ proofread by two editors yesterday.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why are there zero typos in the English brochure?"
+          ],
+          [
+            "Mira",
+            "Every paragraph ___ proofread by two editors yesterday."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "'Every paragraph' tunggal lampau -> 'was proofread'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The meeting room was clean by staff before eight.\"",
+        "draft": "The meeting room was clean by staff before eight.",
+        "options": [
+          "The meeting room was clean by staff before eight.",
+          "The meeting room was cleaned by staff before eight.",
+          "The meeting room cleaned by staff before eight."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'was', gunakan V3 ('cleaned').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our privacy notice ___ displayed beside every sign-in screen.",
+        "options": [
+          "is",
+          "are",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal -> 'is displayed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Printer yang rusak itu diganti oleh staf IT kemarin.\".",
+        "targetSentence": "The broken printer was replaced by IT staff yesterday.",
+        "explanation": "Past Passive tunggal 'was replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Were those shipping invoices ___ to the client yesterday?",
+        "options": [
+          "emailed",
+          "email",
+          "emailing"
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Were + S', gunakan V3 ('emailed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Where is the visitor sign-in tablet kept overnight? / It ___ locked inside the security drawer at six.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Where is the visitor sign-in tablet kept overnight?"
+          ],
+          [
+            "Taufik",
+            "It ___ locked inside the security drawer at six."
+          ]
+        ],
+        "options": [
+          "are",
+          "does",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Tunggal rutin -> 'is locked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"These labels is printed on waterproof paper.\"",
+        "draft": "These labels is printed on waterproof paper.",
+        "options": [
+          "These labels is printed on waterproof paper.",
+          "These labels are printed on waterproof paper.",
+          "These labels are print on waterproof paper."
+        ],
+        "answer": 1,
+        "explanation": "'Labels' jamak -> 'are printed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The emergency doors ___ never locked during office hours.",
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "'Doors' jamak -> 'are never locked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sarapan disajikan di ruang santai dari pukul enam.\".",
+        "targetSentence": "Breakfast is served in the lounge from six o'clock.",
+        "explanation": "Present Passive tunggal 'is served'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That training manual ___ revised by three senior mentors.",
+        "options": [
+          "was",
+          "were",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal lampau -> 'was revised'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Were those two broken chairs repaired or replaced? / They ___ replaced with ergonomic chairs on Tuesday.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Were those two broken chairs repaired or replaced?"
+          ],
+          [
+            "Lina",
+            "They ___ replaced with ergonomic chairs on Tuesday."
+          ]
+        ],
+        "options": [
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "Jamak lampau -> 'were replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Was those invoices emailed to the client yesterday?\"",
+        "draft": "Was those invoices emailed to the client yesterday?",
+        "options": [
+          "Were those invoices emailed to the client yesterday?",
+          "Did those invoices emailed to the client yesterday?",
+          "Was those invoices emailed to the client yesterday?"
+        ],
+        "answer": 0,
+        "explanation": "Subjek jamak 'those invoices' memakai 'Were'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "How often ___ the air filters cleaned in Lab 2?",
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "Jamak ('air filters') -> 'How often are ... cleaned?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is parking validated for seminar guest speakers? / Yes, parking passes ___ stamped right at Reception.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Is parking validated for seminar guest speakers?"
+          ],
+          [
+            "Wulan",
+            "Yes, parking passes ___ stamped right at Reception."
+          ]
+        ],
+        "options": [
+          "are",
+          "is",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "'Parking passes' jamak -> 'are stamped'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The emergency exit door locks never during work hours.\"",
+        "draft": "The emergency exit door locks never during work hours.",
+        "options": [
+          "The emergency exit door locks never during work hours.",
+          "The emergency exit door is never locked during work hours.",
+          "The emergency exit door are never locked during work hours."
+        ],
+        "answer": 1,
+        "explanation": "Subjek benda tunggal pasif -> 'is never locked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Surat sambutan ditulis oleh Ibu Tari Selasa lalu.\".",
+        "targetSentence": "The welcome letter was written by Ms. Tari last Tuesday.",
+        "explanation": "Past Passive dengan 'by + agen'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our ferry tickets ___ booked online last night.",
+        "options": [
+          "are",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Jamak + 'last night' -> 'were booked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When was that bilingual welcome sign put up? / It ___ installed right before Cohort 4 arrived.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "When was that bilingual welcome sign put up?"
+          ],
+          [
+            "Sari",
+            "It ___ installed right before Cohort 4 arrived."
+          ]
+        ],
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0,
+        "explanation": "Tunggal lampau -> 'was installed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Three cracked tiles was replaced in Lobby B.\"",
+        "draft": "Three cracked tiles was replaced in Lobby B.",
+        "options": [
+          "Three cracked tiles were replaced in Lobby B.",
+          "Three cracked tiles were replace in Lobby B.",
+          "Three cracked tiles was replaced in Lobby B."
+        ],
+        "answer": 0,
+        "explanation": "'Three cracked tiles' jamak -> 'were replaced'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Coffee beans ___ roasted in small batches every Tuesday.",
+        "options": [
+          "are",
+          "is",
+          "do"
+        ],
+        "answer": 0,
+        "explanation": "Jamak -> 'are roasted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why wasn't Room 5 cleaned before ten today? / Wait—it ___ cleaned at seven, then interns unpacked crates!\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why wasn't Room 5 cleaned before ten today?"
+          ],
+          [
+            "Reno",
+            "Wait—it ___ cleaned at seven, then interns unpacked crates!"
+          ]
+        ],
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explanation": "Tunggal lampau -> 'was cleaned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All trainee files are check before graduation.\"",
+        "draft": "All trainee files are check before graduation.",
+        "options": [
+          "All trainee files are checked before graduation.",
+          "All trainee files is checked before graduation.",
+          "All trainee files are check before graduation."
+        ],
+        "answer": 0,
+        "explanation": "'Files' jamak + V3 -> 'are checked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The main gate ___ closed at ten every night.",
+        "options": [
+          "are",
+          "does",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Tunggal rutin -> 'is closed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pintu darurat tidak pernah dikunci selama jam kerja.\".",
+        "targetSentence": "The emergency doors are never locked during office hours.",
+        "explanation": "Jamak 'are never locked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Tambahkan tempat dan waktu di akhir."
         ],
         "skill": "passive-future"
+      },
+      {
+        "type": "choice",
+        "prompt": "The harbor bridge ___ currently being painted by maintenance crews.",
+        "options": [
+          "has",
+          "was",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Present Continuous Passive: 'is/are + being + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can we use Projector Room 2 right now? / Not yet—new acoustic panels are still ___ installed inside.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Can we use Projector Room 2 right now?"
+          ],
+          [
+            "Dodi",
+            "Not yet—new acoustic panels are still ___ installed inside."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Sedang berlangsung sekarang -> 'are still being installed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The seminar room is been cleaned right now.\"",
+        "draft": "The seminar room is been cleaned right now.",
+        "options": [
+          "The seminar room is been cleaned right now.",
+          "The seminar room is being cleaned right now.",
+          "The seminar room is be cleaned right now."
+        ],
+        "answer": 1,
+        "explanation": "Continuous Passive memakai 'being + V3' ('is being cleaned'), bukan 'been'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "All remaining invoices will ___ verified before five today.",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Modal Future Passive: 'will/must/should/can + be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jembatan pelabuhan itu saat ini sedang dicat oleh tim pemeliharaan.\".",
+        "targetSentence": "The harbor bridge is currently being painted by crews.",
+        "explanation": "Present Continuous Passive 'is ... being painted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several safety regulations have already ___ updated this year.",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect Passive: 'have/has + been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has the revised supplier contract been signed yet? / Yes, it ___ been signed by both directors this morning.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Has the revised supplier contract been signed yet?"
+          ],
+          [
+            "Bima",
+            "Yes, it ___ been signed by both directors this morning."
+          ]
+        ],
+        "options": [
+          "has",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect Passive tunggal -> 'has been signed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All remaining boxes will been shipped tomorrow morning.\"",
+        "draft": "All remaining boxes will been shipped tomorrow morning.",
+        "options": [
+          "All remaining boxes will been shipped tomorrow morning.",
+          "All remaining boxes will be shipped tomorrow morning.",
+          "All remaining boxes will being shipped tomorrow morning."
+        ],
+        "answer": 1,
+        "explanation": "Setelah modal ('will/can/must'), gunakan 'be + V3' ('will be shipped').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Safety helmets must ___ worn by everyone inside Zone C.",
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Modal Passive: 'must be + V3' ('worn').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When will our travel reimbursements be paid? / Finance said transfers will ___ processed this Friday.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "When will our travel reimbursements be paid?"
+          ],
+          [
+            "Eko",
+            "Finance said transfers will ___ processed this Friday."
+          ]
+        ],
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Future Passive: 'will be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Has the revised contract being approved by Legal yet?\"",
+        "draft": "Has the revised contract being approved by Legal yet?",
+        "options": [
+          "Has the revised contract being approved by Legal yet?",
+          "Has the revised contract been approved by Legal yet?",
+          "Has the revised contract be approved by Legal yet?"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect Passive memakai 'been + V3' ('been approved').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua faktur yang tersisa akan diverifikasi sebelum pukul lima.\".",
+        "targetSentence": "All remaining invoices will be verified before five today.",
+        "explanation": "Future Passive 'will be verified'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "While Room 2 was ___ cleaned, delegates waited in Lobby A.",
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Past Continuous Passive: 'was/were + being + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why were those boxes sitting outside Hall C yesterday? / Oh, the main storage room was ___ mopped when we arrived.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Why were those boxes sitting outside Hall C yesterday?"
+          ],
+          [
+            "Sari",
+            "Oh, the main storage room was ___ mopped when we arrived."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Past Continuous Passive -> 'was being mopped'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Safety glasses must worn at all times inside Lab 2.\"",
+        "draft": "Safety glasses must worn at all times inside Lab 2.",
+        "options": [
+          "Safety glasses must been worn at all times inside Lab 2.",
+          "Safety glasses must worn at all times inside Lab 2.",
+          "Safety glasses must be worn at all times inside Lab 2."
+        ],
+        "answer": 2,
+        "explanation": "Modal Passive wajib menyertakan 'be' sebelum V3 ('must be worn').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Has the quarterly budget been ___ by the director yet?",
+        "options": [
+          "approve",
+          "approving",
+          "approved"
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'has ... been', wajib V3 ('approved').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should confidential drafts be left on shared printers? / Never—sensitive files must ___ collected immediately after printing.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Should confidential drafts be left on shared printers?"
+          ],
+          [
+            "Putri",
+            "Never—sensitive files must ___ collected immediately after printing."
+          ]
+        ],
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Modal Passive: 'must be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"An unexpected delay was happened at Gate 4 yesterday.\"",
+        "draft": "An unexpected delay was happened at Gate 4 yesterday.",
+        "options": [
+          "An unexpected delay happened at Gate 4 yesterday.",
+          "An unexpected delay was happen at Gate 4 yesterday.",
+          "An unexpected delay was happened at Gate 4 yesterday."
+        ],
+        "answer": 0,
+        "explanation": "'Happen' adalah verb intransitif; TIDAK boleh berbentuk pasif ('was happened').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—those fragile lenses should ___ packed inside foam cases.",
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Modal Passive: 'should be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Beberapa aturan keselamatan sudah diperbarui tahun ini.\".",
+        "targetSentence": "Several safety regulations have already been updated this year.",
+        "explanation": "Present Perfect Passive 'have ... been updated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The faulty elevator ___ being repaired right now by engineers.",
+        "options": [
+          "is",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Sedang diperbaiki saat ini -> 'is being repaired'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the gate alarm sound at 11 AM? / Wait—a small power dip ___ just as the van entered.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Why did the gate alarm sound at 11 AM?"
+          ],
+          [
+            "Arman",
+            "Wait—a small power dip ___ just as the van entered."
+          ]
+        ],
+        "options": [
+          "has occurred been",
+          "occurred",
+          "was occurred"
+        ],
+        "answer": 1,
+        "explanation": "'Occur' tidak bisa dipasifkan -> aktif 'occurred'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Our overseas flight was arrived at Terminal 3 early.\"",
+        "draft": "Our overseas flight was arrived at Terminal 3 early.",
+        "options": [
+          "Our overseas flight arrived at Terminal 3 early.",
+          "Our overseas flight has been arrived early.",
+          "Our overseas flight was arrived at Terminal 3 early."
+        ],
+        "answer": 0,
+        "explanation": "'Arrive' intransitif; gunakan bentuk aktif ('arrived').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Twenty new electric buses have ___ ordered for campus routes.",
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect Passive jamak: 'have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Helm pengaman wajib dikenakan oleh semua orang di Zona C.\".",
+        "targetSentence": "Safety helmets must be worn by everyone inside Zone C.",
+        "explanation": "Modal Passive 'must be worn'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Can digital signatures ___ accepted instead of wet ink?",
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Modal Passive tanya: 'Can + S + be + V3?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Has our shipping claim been reviewed by Customs? / Not yet; our broker says it is ___ reviewed right now.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Has our shipping claim been reviewed by Customs?"
+          ],
+          [
+            "Adi",
+            "Not yet; our broker says it is ___ reviewed right now."
+          ]
+        ],
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Sedang ditinjau saat ini -> 'is being reviewed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"While desks were be painted, we worked in Lobby B.\"",
+        "draft": "While desks were be painted, we worked in Lobby B.",
+        "options": [
+          "While desks were be painted, we worked in Lobby B.",
+          "While desks were being painted, we worked in Lobby B.",
+          "While desks were been painted, we worked in Lobby B."
+        ],
+        "answer": 1,
+        "explanation": "Past Continuous Passive memakai 'were being + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "When I arrived, the welcome banners ___ still being hung.",
+        "options": [
+          "were",
+          "was",
+          "are"
+        ],
+        "answer": 0,
+        "explanation": "Past Continuous Passive jamak ('banners') -> 'were being hung'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have all thirty trainee badges been activated? / Yes, every single card has ___ verified at Gate 1.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Have all thirty trainee badges been activated?"
+          ],
+          [
+            "Kiki",
+            "Yes, every single card has ___ verified at Gate 1."
+          ]
+        ],
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect Passive -> 'has been verified'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The quarterly report hasn't be published yet.\"",
+        "draft": "The quarterly report hasn't be published yet.",
+        "options": [
+          "The quarterly report hasn't be published yet.",
+          "The quarterly report hasn't been published yet.",
+          "The quarterly report hasn't being published yet."
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect Passive memakai 'been' ('hasn't been published').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saat Ruang 2 sedang dibersihkan, peserta menunggu di lobi.\".",
+        "targetSentence": "While Room Two was being cleaned, guests waited outside.",
+        "explanation": "Past Continuous Passive 'was being cleaned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "This broken sensor cannot ___ calibrated without a spare chip.",
+        "options": [
+          "be",
+          "been",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Modal negatif pasif: 'cannot be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can old batteries be tossed into normal office bins? / No! Lithium cells must ___ dropped in the red recycling bin.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Can old batteries be tossed into normal office bins?"
+          ],
+          [
+            "Sinta",
+            "No! Lithium cells must ___ dropped in the red recycling bin."
+          ]
+        ],
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Modal Passive -> 'must be dropped'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"A minor power outage was occurred around noon.\"",
+        "draft": "A minor power outage was occurred around noon.",
+        "options": [
+          "A minor power outage was occurred around noon.",
+          "A minor power outage occurred around noon.",
+          "A minor power outage has been occurred around noon."
+        ],
+        "answer": 1,
+        "explanation": "'Occur' intransitif; jangan dipasifkan.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Three missing crates have just ___ found near Gate 5!",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect Passive baru saja terjadi -> 'have just been found'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What time was the parcel delivered yesterday? / Actually, the courier ___ at 2:15 PM right before lunch ended.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "What time was the parcel delivered yesterday?"
+          ],
+          [
+            "Tia",
+            "Actually, the courier ___ at 2:15 PM right before lunch ended."
+          ]
+        ],
+        "options": [
+          "were arrived",
+          "arrived",
+          "was arrived"
+        ],
+        "answer": 1,
+        "explanation": "'Arrive' verb intransitif -> aktif 'arrived'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Can this fragile crate being loaded onto Van 2?\"",
+        "draft": "Can this fragile crate being loaded onto Van 2?",
+        "options": [
+          "Can this fragile crate be loaded onto Van 2?",
+          "Can this fragile crate been loaded onto Van 2?",
+          "Can this fragile crate being loaded onto Van 2?"
+        ],
+        "answer": 0,
+        "explanation": "Modal Passive tanya memakai 'be + V3' ('be loaded').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Will the updated syllabus be ___ to trainees tonight?",
+        "options": [
+          "email",
+          "emailing",
+          "emailed"
+        ],
+        "answer": 2,
+        "explanation": "Future Passive: 'Will + S + be + V3' ('emailed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah anggaran kuartalan sudah disetujui oleh direktur?\".",
+        "targetSentence": "Has the quarterly budget been approved by the director?",
+        "explanation": "Pertanyaan Present Perfect Passive.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "A quiet reading corner ___ being built beside the library.",
+        "options": [
+          "has",
+          "were",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Present Continuous Passive tunggal -> 'is being built'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why weren't lights turned on inside Bay 4 during inspection? / Ceiling wiring ___ still being tested by electricians then.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why weren't lights turned on inside Bay 4 during inspection?"
+          ],
+          [
+            "Dewi",
+            "Ceiling wiring ___ still being tested by electricians then."
+          ]
+        ],
+        "options": [
+          "was",
+          "has",
+          "did"
+        ],
+        "answer": 0,
+        "explanation": "Past Continuous Passive tunggal -> 'was still being tested'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Twenty new solar panels has been mounted on Roof A.\"",
+        "draft": "Twenty new solar panels has been mounted on Roof A.",
+        "options": [
+          "Twenty new solar panels has been mounted on Roof A.",
+          "Twenty new solar panels have been mounted on Roof A.",
+          "Twenty new solar panels have being mounted on Roof A."
+        ],
+        "answer": 1,
+        "explanation": "Subjek jamak ('Twenty new solar panels') memakai 'have been mounted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "By tomorrow afternoon, all survey charts will have ___ printed.",
+        "options": [
+          "been",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Future Perfect Passive -> 'will have been printed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dua puluh bus listrik baru telah dipesan untuk rute kampus.\".",
+        "targetSentence": "Twenty new electric buses have been ordered for campus routes.",
+        "explanation": "Jamak 'have been ordered'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The old filing cabinets were ___ removed when we walked in.",
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Past Continuous Passive -> 'were being removed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will participants be notified if Workshop B moves rooms? / Yes, SMS alerts will ___ sent two hours beforehand.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Will participants be notified if Workshop B moves rooms?"
+          ],
+          [
+            "Ayu",
+            "Yes, SMS alerts will ___ sent two hours beforehand."
+          ]
+        ],
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Future Passive -> 'will be sent'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"These forms have to signed before five today.\"",
+        "draft": "These forms have to signed before five today.",
+        "options": [
+          "These forms have to been signed before five today.",
+          "These forms have to signed before five today.",
+          "These forms have to be signed before five today."
+        ],
+        "answer": 2,
+        "explanation": "'Have to' pasif memerlukan 'be' ('have to be signed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Every refund claim has to ___ signed by Finance first.",
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Semi-modal 'has to be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How many solar panels have been mounted on Roof B? / Forty panels have already ___ secured since Tuesday.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "How many solar panels have been mounted on Roof B?"
+          ],
+          [
+            "Oki",
+            "Forty panels have already ___ secured since Tuesday."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect Passive jamak -> 'have already been secured'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The hallway scanner is being repair by IT right now.\"",
+        "draft": "The hallway scanner is being repair by IT right now.",
+        "options": [
+          "The hallway scanner is being repair by IT right now.",
+          "The hallway scanner is being repaired by IT right now.",
+          "The hallway scanner is been repaired by IT right now."
+        ],
+        "answer": 1,
+        "explanation": "Passive selalu membutuhkan V3 ('repaired').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dapatkah tanda tangan digital diterima selain tinta basah?\".",
+        "targetSentence": "Can digital signatures be accepted instead of wet ink?",
+        "explanation": "Modal Passive tanya 'Can ... be accepted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Which slide deck is ___ shown during the opening session?",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Present Continuous Passive -> 'is being shown'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Could this dense PDF file be compressed under five megabytes? / Yes, images can ___ resized without losing chart clarity.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Could this dense PDF file be compressed under five megabytes?"
+          ],
+          [
+            "Mira",
+            "Yes, images can ___ resized without losing chart clarity."
+          ]
+        ],
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Modal Passive -> 'can be resized'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Such clean results cannot achieved without daily checks.\"",
+        "draft": "Such clean results cannot achieved without daily checks.",
+        "options": [
+          "Such clean results cannot been achieved without daily checks.",
+          "Such clean results cannot achieved without daily checks.",
+          "Such clean results cannot be achieved without daily checks."
+        ],
+        "answer": 2,
+        "explanation": "'Cannot be + V3' ('achieved').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our overseas samples haven't ___ cleared by Customs yet.",
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect Passive negatif -> 'haven't been cleared'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did our morning sync start late? / An unexpected internet outage ___ around 8:50 AM.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did our morning sync start late?"
+          ],
+          [
+            "Taufik",
+            "An unexpected internet outage ___ around 8:50 AM."
+          ]
+        ],
+        "options": [
+          "happened",
+          "was happened",
+          "is happened"
+        ],
+        "answer": 0,
+        "explanation": "'Happen' tidak boleh pasif -> aktif 'happened'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Every parcel have been scanned since eight this morning.\"",
+        "draft": "Every parcel have been scanned since eight this morning.",
+        "options": [
+          "Every parcel is been scanned since eight this morning.",
+          "Every parcel have been scanned since eight this morning.",
+          "Every parcel has been scanned since eight this morning."
+        ],
+        "answer": 2,
+        "explanation": "'Every parcel' tunggal memakai 'has been scanned'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "A sudden delay ___ yesterday morning due to dense fog.",
+        "options": [
+          "is happened",
+          "happened",
+          "was happened"
+        ],
+        "answer": 1,
+        "explanation": "PERHATIAN: 'Happen' adalah intransitif, TIDAK BISA dipasifkan -> pakai aktif 'happened'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tiga peti yang hilang baru saja ditemukan di dekat Gerbang 5.\".",
+        "targetSentence": "Three missing crates have just been found near Gate Five.",
+        "explanation": "Present Perfect Passive 'have just been found'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The ferry ___ at Pier 2 right on schedule at noon.",
+        "options": [
+          "arrived",
+          "was arrived",
+          "has been arrived"
+        ],
+        "answer": 0,
+        "explanation": "'Arrive' adalah verb intransitif -> TIDAK bisa dipasifkan ('arrived').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is someone still translating the Indonesian FAQ? / Yes, the last two pages are ___ checked right now.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Is someone still translating the Indonesian FAQ?"
+          ],
+          [
+            "Lina",
+            "Yes, the last two pages are ___ checked right now."
+          ]
+        ],
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Sedang dicek sekarang -> 'are being checked'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That warning light was existed on older panels too.\"",
+        "draft": "That warning light was existed on older panels too.",
+        "options": [
+          "That warning light was existed on older panels too.",
+          "That warning light existed on older panels too.",
+          "That warning light is existed on older panels too."
+        ],
+        "answer": 1,
+        "explanation": "'Exist' adalah verb intransitif yang tidak dapat dipasifkan ('existed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many coastal towns ___ from better sea walls during storms.",
+        "options": [
+          "were benefited only",
+          "benefit",
+          "are benefited"
+        ],
+        "answer": 1,
+        "explanation": "Verb intransitif 'benefit from' aktif -> 'benefit'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penundaan mendadak terjadi kemarin pagi akibat kabut tebal.\".",
+        "targetSentence": "A sudden delay happened yesterday morning due to fog.",
+        "explanation": "'Happen' intransitif selalu aktif.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That sudden power drop ___ around ten minutes ago.",
+        "options": [
+          "occurred",
+          "was occurred",
+          "is occurred"
+        ],
+        "answer": 0,
+        "explanation": "'Occur' intransitif, TIDAK pernah berbentuk pasif -> 'occurred'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have those cracked test tubes been thrown away safely? / Yes, they've already ___ placed in the sharps bin.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Have those cracked test tubes been thrown away safely?"
+          ],
+          [
+            "Wulan",
+            "Yes, they've already ___ placed in the sharps bin."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect Passive -> 'have already been placed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Three trainees are being interview by Dr. Sari now.\"",
+        "draft": "Three trainees are being interview by Dr. Sari now.",
+        "options": [
+          "Three trainees are been interviewed by Dr. Sari now.",
+          "Three trainees are being interview by Dr. Sari now.",
+          "Three trainees are being interviewed by Dr. Sari now."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'being', verb wajib V3 ('interviewed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "All guest lockers must ___ emptied before six every Friday.",
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "'Must be + V3' ('emptied').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should these glass slides be stored horizontally? / Yes, they ought to ___ kept flat inside Drawer 2.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Should these glass slides be stored horizontally?"
+          ],
+          [
+            "Sari",
+            "Yes, they ought to ___ kept flat inside Drawer 2."
+          ]
+        ],
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Semi-modal 'ought to be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"All equipment should be check before returning to Locker 1.\"",
+        "draft": "All equipment should be check before returning to Locker 1.",
+        "options": [
+          "All equipment should be checked before returning to Locker 1.",
+          "All equipment should been checked before returning to Locker 1.",
+          "All equipment should be check before returning to Locker 1."
+        ],
+        "answer": 0,
+        "explanation": "Modal Passive: 'should be + V3' ('checked').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penurunan daya mendadak itu terjadi sekitar sepuluh menit lalu.\".",
+        "targetSentence": "That sudden power drop occurred about ten minutes ago.",
+        "explanation": "'Occur' intransitif selalu aktif.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "How many candidates have ___ interviewed so far today?",
+        "options": [
+          "been",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Present Perfect Passive: 'have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When I walked into Lab 1, why was the cabinet open? / All sensors were ___ calibrated by the senior tech.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "When I walked into Lab 1, why was the cabinet open?"
+          ],
+          [
+            "Reno",
+            "All sensors were ___ calibrated by the senior tech."
+          ]
+        ],
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 0,
+        "explanation": "Past Continuous Passive jamak -> 'were being calibrated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"When I reached Room 3, chairs were still be arranged.\"",
+        "draft": "When I reached Room 3, chairs were still be arranged.",
+        "options": [
+          "When I reached Room 3, chairs were still being arranged.",
+          "When I reached Room 3, chairs were still been arranged.",
+          "When I reached Room 3, chairs were still be arranged."
+        ],
+        "answer": 0,
+        "explanation": "Past Continuous Passive memakai 'being arranged'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The conference hall ___ being tested for sound leaks right now.",
+        "options": [
+          "is",
+          "has",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Sedang berlangsung kini -> 'is being tested'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have any complaints been filed about the new timetable? / Not one complaint has ___ logged since Monday!\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Have any complaints been filed about the new timetable?"
+          ],
+          [
+            "Aris",
+            "Not one complaint has ___ logged since Monday!"
+          ]
+        ],
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Present Perfect Passive -> 'has been logged'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Will these bilingual posters be distribute today?\"",
+        "draft": "Will these bilingual posters be distribute today?",
+        "options": [
+          "Will these bilingual posters be distribute today?",
+          "Will these bilingual posters be distributed today?",
+          "Will these bilingual posters been distributed today?"
+        ],
+        "answer": 1,
+        "explanation": "'Will + S + be + V3' ('distributed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "These medical supplies mustn't ___ stored above twenty degrees.",
+        "options": [
+          "being",
+          "be",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "'Mustn't be + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Semua loker tamu harus dikosongkan sebelum pukul enam setiap Jumat.\".",
+        "targetSentence": "All guest lockers must be emptied before six every Friday.",
+        "explanation": "Modal Passive 'must be emptied'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Gunakan V3 'serviced' sebelum keterangan waktu."
         ],
         "skill": "passive-causative"
+      },
+      {
+        "type": "choice",
+        "prompt": "The courier ___ to arrive before five, according to our tracker.",
+        "options": [
+          "is expecting only",
+          "is expected",
+          "expects only"
+        ],
+        "answer": 1,
+        "explanation": "Pola pasif formal ekspektasi/laporan: 'S + is expected + to V1'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I mention public opinion neutrally in my IELTS essay? / Yes! Start with: 'It ___ widely believed that remote work boosts retention.'\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should I mention public opinion neutrally in my IELTS essay?"
+          ],
+          [
+            "Dodi",
+            "Yes! Start with: 'It ___ widely believed that remote work boosts retention.'"
+          ]
+        ],
+        "options": [
+          "does",
+          "is",
+          "has"
+        ],
+        "answer": 1,
+        "explanation": "Impersonal passive akademik: 'It is widely believed that ...'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The jammed lock was opened by a brass key.\"",
+        "draft": "The jammed lock was opened by a brass key.",
+        "options": [
+          "The jammed lock was opened by a brass key.",
+          "The jammed lock was opened with a brass key.",
+          "The jammed lock was opened from a brass key."
+        ],
+        "answer": 1,
+        "explanation": "Untuk alat/benda instrumen yang digunakan membuka kunci, gunakan 'with', bukan 'by'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—who ___ this bilingual guide originally written by?",
+        "options": [
+          "did",
+          "has",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "Pertanyaan pasif lampau yang menanyakan pelaku: 'Who was ... written by?'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Menurut pelacak kami, kurir diperkirakan tiba sebelum pukul lima.\".",
+        "targetSentence": "The courier is expected to arrive before five today.",
+        "explanation": "Pola pasif 'is expected to + V1'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We ___ our lab air filters professionally replaced last month.",
+        "options": [
+          "had",
+          "were",
+          "got only"
+        ],
+        "answer": 0,
+        "explanation": "Causative pasif formal ('menyuruh orang lain mengerjakan sesuatu untuk kita'): 'have/had + object + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is the printer cabinet still locked? / We are having the roller unit ___ by an external technician today.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why is the printer cabinet still locked?"
+          ],
+          [
+            "Bima",
+            "We are having the roller unit ___ by an external technician today."
+          ]
+        ],
+        "options": [
+          "replaced",
+          "replace",
+          "replacing"
+        ],
+        "answer": 0,
+        "explanation": "Causative pasif: 'having + object + V3' ('replaced').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"It is widely believe that electric buses cut smog.\"",
+        "draft": "It is widely believe that electric buses cut smog.",
+        "options": [
+          "It is widely believed that electric buses cut smog.",
+          "It is widely believing that electric buses cut smog.",
+          "It is widely believe that electric buses cut smog."
+        ],
+        "answer": 0,
+        "explanation": "Impersonal passive membutuhkan V3 ('believed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do interns get ___ extra stipends for weekend workshops?",
+        "options": [
+          "paid",
+          "pay",
+          "paying"
+        ],
+        "answer": 0,
+        "explanation": "'Get + V3' sering dipakai untuk pasif kejadian/hasil nyata ('get paid').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did everyone receive a clear room map at check-in? / Yes—every visitor was ___ a map upon arrival.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did everyone receive a clear room map at check-in?"
+          ],
+          [
+            "Eko",
+            "Yes—every visitor was ___ a map upon arrival."
+          ]
+        ],
+        "options": [
+          "given",
+          "give",
+          "giving"
+        ],
+        "answer": 0,
+        "explanation": "Pasif dari 'give someone something' -> 'was given a map'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We had our office carpets clean professionally Saturday.\"",
+        "draft": "We had our office carpets clean professionally Saturday.",
+        "options": [
+          "We had our office carpets clean professionally Saturday.",
+          "We had our office carpets cleaned professionally Saturday.",
+          "We had our office carpets cleaning professionally Saturday."
+        ],
+        "answer": 1,
+        "explanation": "Causative pasif: 'had + object + V3' ('cleaned').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami meminta filter udara lab diganti secara profesional bulan lalu.\".",
+        "targetSentence": "We had our lab air filters professionally replaced last month.",
+        "explanation": "Causative pasif 'had + object + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The wooden crate was opened ___ a steel crowbar.",
+        "options": [
+          "from",
+          "with",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "Dalam kalimat pasif, 'by' untuk pelaku, sedangkan 'with' untuk ALAT/instrumen yang dipakai.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, the root cause was looked into yesterday afternoon.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Was the shipping delay ___ thoroughly by Logistics?"
+          ],
+          [
+            "Sari",
+            "Yes, the root cause was looked into yesterday afternoon."
+          ]
+        ],
+        "options": [
+          "looking into",
+          "looked into",
+          "looked"
+        ],
+        "answer": 1,
+        "explanation": "Phrasal verb 'look into' tidak boleh kehilangan 'into'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The sudden pressure drop wasn't looked until noon.\"",
+        "draft": "The sudden pressure drop wasn't looked until noon.",
+        "options": [
+          "The sudden pressure drop wasn't looked into until noon.",
+          "The sudden pressure drop wasn't looking into until noon.",
+          "The sudden pressure drop wasn't looked until noon."
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verb pasif 'look into' wajib mempertahankan preposisi 'into'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The wooden crate was opened ___ two warehouse mechanics.",
+        "options": [
+          "from",
+          "by",
+          "with"
+        ],
+        "answer": 1,
+        "explanation": "Pelaku manusia/agen dalam kalimat pasif memakai 'by'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did Maintenance pry open that rusted crate? / The lid was opened ___ a heavy steel lever.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "How did Maintenance pry open that rusted crate?"
+          ],
+          [
+            "Putri",
+            "The lid was opened ___ a heavy steel lever."
+          ]
+        ],
+        "options": [
+          "from",
+          "with",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "Menunjukkan alat/instrumen pasif memakai 'with'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Everyone was given to a printed lanyard at Gate 1.\"",
+        "draft": "Everyone was given to a printed lanyard at Gate 1.",
+        "options": [
+          "Everyone was given a printed lanyard at Gate 1.",
+          "Everyone was gave a printed lanyard at Gate 1.",
+          "Everyone was given to a printed lanyard at Gate 1."
+        ],
+        "answer": 0,
+        "explanation": "Saat penerima menjadi subjek ('Everyone was given...'), tidak memakai 'to'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Make sure everyone is given ___ clean safety folder at check-in.",
+        "options": [
+          "a",
+          "to a",
+          "with a"
+        ],
+        "answer": 0,
+        "explanation": "Pasif dari verb berobjek ganda ('give someone something'): 'everyone is given a folder' (tanpa 'to').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Peti kayu itu dibuka dengan linggis baja oleh petugas gudang.\".",
+        "targetSentence": "The wooden crate was opened with a steel crowbar.",
+        "explanation": "Alat/instrumen pasif memakai 'with'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Clear guidelines were handed ___ each participant upon entry.",
+        "options": [
+          "to",
+          "by",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "Jika objek barang menjadi subjek pasif ('Clear guidelines were handed...'), penerima memakai 'to'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"It was co-written by Ms. Sari and two senior engineers.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Who was that bilingual safety booklet written ___?"
+          ],
+          [
+            "Arman",
+            "It was co-written by Ms. Sari and two senior engineers."
+          ]
+        ],
+        "options": [
+          "with",
+          "from",
+          "by"
+        ],
+        "answer": 2,
+        "explanation": "Menanyakan pelaku/penulis pasif memakai 'by' di akhir pertanyaan.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"That warehouse appears to have sold last summer.\"",
+        "draft": "That warehouse appears to have sold last summer.",
+        "options": [
+          "That warehouse appears to have sold last summer.",
+          "That warehouse appears to have been sold last summer.",
+          "That warehouse appears to have selling last summer."
+        ],
+        "answer": 1,
+        "explanation": "Bangunan tidak menjual dirinya sendiri -> pasif 'to have been sold'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The roof leaks seem to have ___ repaired poorly last winter.",
+        "options": [
+          "been",
+          "be",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Perfect infinitive pasif: 'seem to have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sering diperdebatkan bahwa transportasi umum mengurangi emisi kota.\".",
+        "targetSentence": "It is often argued that public transit lowers urban emissions.",
+        "explanation": "Impersonal passive 'It is often argued that'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I hate being ___ waiting outside closed gates before briefings.",
+        "options": [
+          "keep",
+          "keeping",
+          "kept"
+        ],
+        "answer": 2,
+        "explanation": "Gerund pasif: 'being + V3' ('hate being kept waiting').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why were the interns upset after Tuesday's room switch? / They felt frustrated about not ___ been notified earlier.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Why were the interns upset after Tuesday's room switch?"
+          ],
+          [
+            "Adi",
+            "They felt frustrated about not ___ been notified earlier."
+          ]
+        ],
+        "options": [
+          "having",
+          "have",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Gerund pasif sempurna setelah preposisi 'about' -> 'not having been notified'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The trainees should be told about the room shift yesterday.\"",
+        "draft": "The trainees should be told about the room shift yesterday.",
+        "options": [
+          "The trainees should be told about the room shift yesterday.",
+          "The trainees should have been told about the room shift yesterday.",
+          "The trainees should have told about the room shift yesterday."
+        ],
+        "answer": 1,
+        "explanation": "Kritik/penyesalan pasif masa lalu ('yesterday') memakai 'should have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "That warehouse appears to ___ sold to an export cooperative.",
+        "options": [
+          "be only",
+          "was",
+          "have been"
+        ],
+        "answer": 2,
+        "explanation": "Infinitive pasif lampau setelah 'appears': 'appears to have been sold'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should those broken headsets have been fixed last week? / Definitely—they ought to have ___ sent to IT on Monday.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Should those broken headsets have been fixed last week?"
+          ],
+          [
+            "Kiki",
+            "Definitely—they ought to have ___ sent to IT on Monday."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Modal Perfect Passive: 'ought to have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She dislikes been interrupted during client calls.\"",
+        "draft": "She dislikes been interrupted during client calls.",
+        "options": [
+          "She dislikes been interrupted during client calls.",
+          "She dislikes being interrupted during client calls.",
+          "She dislikes be interrupted during client calls."
+        ],
+        "answer": 1,
+        "explanation": "Gerund pasif setelah 'dislike' memakai 'being + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Para peserta magang seharusnya sudah diberitahu soal pindah ruang kemarin.\".",
+        "targetSentence": "The interns should have been told about the room shift yesterday.",
+        "explanation": "Modal Perfect Passive 'should have been told'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The trainees should ___ been told about the room shift earlier!",
+        "options": [
+          "are",
+          "have",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Penyesalan/kritik pasif masa lalu: 'should have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the harbor lighthouse expected to reopen next spring? / Yes, contractors are expected ___ finish restoration by March.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Is the harbor lighthouse expected to reopen next spring?"
+          ],
+          [
+            "Sinta",
+            "Yes, contractors are expected ___ finish restoration by March."
+          ]
+        ],
+        "options": [
+          "at",
+          "to",
+          "for"
+        ],
+        "answer": 1,
+        "explanation": "Pola pasif + infinitive: 'are expected to finish'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Who did this policy handbook written by?\"",
+        "draft": "Who did this policy handbook written by?",
+        "options": [
+          "Who was this policy handbook wrote by?",
+          "Who did this policy handbook written by?",
+          "Who was this policy handbook written by?"
+        ],
+        "answer": 2,
+        "explanation": "Kalimat tanya pasif lampau memakai 'was', bukan 'did'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—it ___ often argued that public transit lowers urban emissions.",
+        "options": [
+          "has",
+          "does",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Impersonal passive untuk tulisan IELTS akademik: 'It is often argued that ...'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How should we prepare our bilingual summary before printing? / Let's get the footnotes ___ by Ms. Dewi first.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "How should we prepare our bilingual summary before printing?"
+          ],
+          [
+            "Tia",
+            "Let's get the footnotes ___ by Ms. Dewi first."
+          ]
+        ],
+        "options": [
+          "checking",
+          "checked",
+          "check"
+        ],
+        "answer": 1,
+        "explanation": "Causative pasif 'get + object + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Once labeling carefully, samples go into Cold Box 2.\"",
+        "draft": "Once labeling carefully, samples go into Cold Box 2.",
+        "options": [
+          "Once been labeled carefully, samples go into Cold Box 2.",
+          "Once labeling carefully, samples go into Cold Box 2.",
+          "Once labeled carefully, samples go into Cold Box 2."
+        ],
+        "answer": 2,
+        "explanation": "Klausa pasif tereduksi (sampel diberi label) memakai V3 ('Once labeled').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Coastal ports are widely ___ to benefit from cleaner shore power.",
+        "options": [
+          "thought",
+          "thinking",
+          "think"
+        ],
+        "answer": 0,
+        "explanation": "Impersonal reporting passive: 'S + are widely thought/believed + to V1'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya tidak suka dibuat menunggu di luar gerbang terkunci.\".",
+        "targetSentence": "I hate being kept waiting outside locked gates.",
+        "explanation": "Gerund pasif 'being kept'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Three staff lockers ___ broken into while the alarm was offline.",
+        "options": [
+          "were",
+          "did",
+          "had"
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verb dalam bentuk pasif WAJIB mempertahankan preposisinya ('broken into').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Everyone gets paid via direct transfer on the twenty-eighth.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Do part-time tutors get ___ monthly or per workshop?"
+          ],
+          [
+            "Dewi",
+            "Everyone gets paid via direct transfer on the twenty-eighth."
+          ]
+        ],
+        "options": [
+          "paid",
+          "pay",
+          "paying"
+        ],
+        "answer": 0,
+        "explanation": "Pasif peristiwa/pembayaran: 'get paid'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Coastal ports are expected cutting delays next year.\"",
+        "draft": "Coastal ports are expected cutting delays next year.",
+        "options": [
+          "Coastal ports are expected to cut delays next year.",
+          "Coastal ports are expected cut delays next year.",
+          "Coastal ports are expected cutting delays next year."
+        ],
+        "answer": 0,
+        "explanation": "'Be expected' diikuti infinitive 'to + V1' ('to cut').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Is this messy draft going to be ___ after Friday's audit?",
+        "options": [
+          "thrown away",
+          "thrown",
+          "throwing away"
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verb pasif tetap utuh ('thrown away').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Gudang itu tampaknya telah dijual kepada koperasi ekspor.\".",
+        "targetSentence": "That warehouse appears to have been sold to a cooperative.",
+        "explanation": "Infinitive pasif sempurna 'to have been sold'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rarely ___ such urgent samples shipped without cold packs.",
+        "options": [
+          "do",
+          "have",
+          "are"
+        ],
+        "answer": 2,
+        "explanation": "Inversi pasif: 'Rarely are + S + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened to the old 2019 customs binders? / They appear to have ___ moved to Basement Vault B.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "What happened to the old 2019 customs binders?"
+          ],
+          [
+            "Ayu",
+            "They appear to have ___ moved to Basement Vault B."
+          ]
+        ],
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Perfect infinitive pasif: 'appear to have been moved'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Let's get our bilingual slides check by Ms. Sari.\"",
+        "draft": "Let's get our bilingual slides check by Ms. Sari.",
+        "options": [
+          "Let's get our bilingual slides check by Ms. Sari.",
+          "Let's get our bilingual slides checked by Ms. Sari.",
+          "Let's get our bilingual slides checking by Ms. Sari."
+        ],
+        "answer": 1,
+        "explanation": "Causative pasif: 'get + object + V3' ('checked').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We need to have the backup server ___ before Friday's migration.",
+        "options": [
+          "tested",
+          "test",
+          "testing"
+        ],
+        "answer": 0,
+        "explanation": "Causative pasif: 'have + object + V3' ('have the backup server tested').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can contractors walk inside Zone C alone? / No—contractors may enter only if ___ by a safety officer.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Can contractors walk inside Zone C alone?"
+          ],
+          [
+            "Oki",
+            "No—contractors may enter only if ___ by a safety officer."
+          ]
+        ],
+        "options": [
+          "accompanying",
+          "accompany",
+          "accompanied"
+        ],
+        "answer": 2,
+        "explanation": "Klausa pasif tereduksi: 'if (they are) accompanied by ...'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They complained about not have been invited early.\"",
+        "draft": "They complained about not have been invited early.",
+        "options": [
+          "They complained about not had been invited early.",
+          "They complained about not have been invited early.",
+          "They complained about not having been invited early."
+        ],
+        "answer": 2,
+        "explanation": "Setelah preposisi 'about', gunakan gerund ('not having been invited').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Penurunan tekanan air mendadak tidak diselidiki sampai tengah hari.\".",
+        "targetSentence": "The sudden pressure drop was not looked into until noon.",
+        "explanation": "Phrasal verb pasif 'looked into'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Only three guests hadn't ___ sent the revised boarding gate SMS.",
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Past Perfect Passive negatif: 'hadn't been sent'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Room 2 taking extra care with those glass vials? / Because they must be cleaned ___ distilled water, never tap water.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why is Room 2 taking extra care with those glass vials?"
+          ],
+          [
+            "Mira",
+            "Because they must be cleaned ___ distilled water, never tap water."
+          ]
+        ],
+        "options": [
+          "with",
+          "by",
+          "from"
+        ],
+        "answer": 0,
+        "explanation": "Substansi/alat yang digunakan dalam tindakan pasif memakai 'with'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Rarely such urgent samples are shipped without cold packs.\"",
+        "draft": "Rarely such urgent samples are shipped without cold packs.",
+        "options": [
+          "Rarely are such urgent samples shipped without cold packs.",
+          "Rarely do such urgent samples shipped without cold packs.",
+          "Rarely such urgent samples are shipped without cold packs."
+        ],
+        "answer": 0,
+        "explanation": "'Rarely' di awal kalimat memicu inversi ('are such urgent samples shipped').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The sudden drop in water pressure wasn't ___ until noon.",
+        "options": [
+          "looked into",
+          "looked",
+          "looking into"
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verb pasif 'look into' (menyelidiki) -> 'wasn't looked into'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do speakers enjoy last-minute slide changes? / Rarely! Most presenters dislike ___ rushed right before going live.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Do speakers enjoy last-minute slide changes?"
+          ],
+          [
+            "Taufik",
+            "Rarely! Most presenters dislike ___ rushed right before going live."
+          ]
+        ],
+        "options": [
+          "to be only",
+          "being",
+          "been"
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'dislike', gerund pasif memakai 'being + V3' ('being rushed').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Three staff lockers were broken while the alarm failed.\"",
+        "draft": "Three staff lockers were broken while the alarm failed.",
+        "options": [
+          "Three staff lockers were broken into while the alarm failed.",
+          "Three staff lockers broke into while the alarm failed.",
+          "Three staff lockers were broken while the alarm failed."
+        ],
+        "answer": 0,
+        "explanation": "Phrasal verb pasif membobol loker adalah 'broken into'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "No external visitors can enter unless ___ by a department host.",
+        "options": [
+          "accompany",
+          "accompanied",
+          "accompanying"
+        ],
+        "answer": 1,
+        "explanation": "Klausa pasif tereduksi: 'unless (they are) accompanied by ...'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Tamu luar tidak boleh masuk kecuali didampingi staf tuan rumah.\".",
+        "targetSentence": "External visitors cannot enter unless accompanied by host staff.",
+        "explanation": "Klausa pasif tereduksi 'unless accompanied'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Once ___ carefully, the samples are placed inside Cold Box 3.",
+        "options": [
+          "labeling",
+          "label",
+          "labeled"
+        ],
+        "answer": 2,
+        "explanation": "Klausa waktu pasif tereduksi: 'Once (they are) labeled carefully'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, though its control panel was modernized two years ago.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Wait—the port crane ___ thought to have operated since 1995."
+          ],
+          [
+            "Lina",
+            "Yes, though its control panel was modernized two years ago."
+          ]
+        ],
+        "options": [
+          "has",
+          "was only",
+          "is"
+        ],
+        "answer": 2,
+        "explanation": "Penilaian masa kini atas sejarah masa lalu: 'is thought to have operated'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Never before has this room be booked five times daily.\"",
+        "draft": "Never before has this room be booked five times daily.",
+        "options": [
+          "Never before was this room been booked five times daily.",
+          "Never before has this room be booked five times daily.",
+          "Never before has this room been booked five times daily."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'has + S', wajib memakai 'been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Let's get our presentation slides ___ by a bilingual proofreader.",
+        "options": [
+          "checking",
+          "checked",
+          "check"
+        ],
+        "answer": 1,
+        "explanation": "Causative pasif informal/praktis: 'get + object + V3' ('get ... checked').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mari kita minta salindia dwibahasa kita diperiksa penyunting terlebih dahulu.\".",
+        "targetSentence": "Let us get our bilingual slides checked by an editor.",
+        "explanation": "Causative pasif 'get + object + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "They complained about not having ___ informed of the ferry shift.",
+        "options": [
+          "be",
+          "being",
+          "been"
+        ],
+        "answer": 2,
+        "explanation": "Perfect gerund pasif: 'not having been informed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Have the damaged floor tiles been taken care of? / Yes, the cracked section was ___ right before noon.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Have the damaged floor tiles been taken care of?"
+          ],
+          [
+            "Wulan",
+            "Yes, the cracked section was ___ right before noon."
+          ]
+        ],
+        "options": [
+          "dealt",
+          "dealing with",
+          "dealt with"
+        ],
+        "answer": 2,
+        "explanation": "Phrasal verb pasif tetap menyertakan 'with' ('dealt with').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"These outdated flyers should have been recycle months ago.\"",
+        "draft": "These outdated flyers should have been recycle months ago.",
+        "options": [
+          "These outdated flyers should have been recycle months ago.",
+          "These outdated flyers should have been recycled months ago.",
+          "These outdated flyers should been recycled months ago."
+        ],
+        "answer": 1,
+        "explanation": "Modal Perfect Passive: 'should have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He hates ___ interrupted while recording audio lessons.",
+        "options": [
+          "being",
+          "been",
+          "to"
+        ],
+        "answer": 0,
+        "explanation": "Gerund pasif setelah 'hate': 'being interrupted'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Good thing our digital receipt folders stayed organized.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Never before ___ our branch been audited twice in one quarter!"
+          ],
+          [
+            "Sari",
+            "Good thing our digital receipt folders stayed organized."
+          ]
+        ],
+        "options": [
+          "has",
+          "did",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Inversi Present Perfect Passive: 'Never before has + S + been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The ceiling panels seem to have repaired poorly.\"",
+        "draft": "The ceiling panels seem to have repaired poorly.",
+        "options": [
+          "The ceiling panels seem to being repaired poorly.",
+          "The ceiling panels seem to have repaired poorly.",
+          "The ceiling panels seem to have been repaired poorly."
+        ],
+        "answer": 2,
+        "explanation": "Benda mati ('panels') memakai infinitive pasif 'to have been repaired'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Mereka mengeluh karena tidak diberitahu tentang perubahan jadwal feri.\".",
+        "targetSentence": "They complained about not having been informed of schedule shifts.",
+        "explanation": "Perfect gerund pasif 'not having been informed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The historic pier is reported to ___ rebuilt twice since 1990.",
+        "options": [
+          "have been",
+          "be",
+          "was"
+        ],
+        "answer": 0,
+        "explanation": "Aksi sebelumnya terhadap subjek -> 'is reported to have been rebuilt'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"They stay sealed for seventy-two hours maximum.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Once ___, how long are blood samples stored in Fridge 1?"
+          ],
+          [
+            "Reno",
+            "They stay sealed for seventy-two hours maximum."
+          ]
+        ],
+        "options": [
+          "log",
+          "logged",
+          "logging"
+        ],
+        "answer": 1,
+        "explanation": "Klausa waktu tereduksi pasif: 'Once (they are) logged'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Do part-time tutors get pay on the twenty-eighth?\"",
+        "draft": "Do part-time tutors get pay on the twenty-eighth?",
+        "options": [
+          "Do part-time tutors get pay on the twenty-eighth?",
+          "Do part-time tutors get paid on the twenty-eighth?",
+          "Do part-time tutors get paying on the twenty-eighth?"
+        ],
+        "answer": 1,
+        "explanation": "Pasif kejadian memakai 'get + V3' ('get paid').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Never before has this seminar room ___ booked five times in one day.",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Inversi Present Perfect Passive: 'has + S + been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Wait—I didn't see Adi's signature on Page 4. / Ah, Page 4 should ___ been signed before leaving Reception.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Wait—I didn't see Adi's signature on Page 4."
+          ],
+          [
+            "Aris",
+            "Ah, Page 4 should ___ been signed before leaving Reception."
+          ]
+        ],
+        "options": [
+          "be",
+          "are",
+          "have"
+        ],
+        "answer": 2,
+        "explanation": "Kritik masa lalu pasif: 'should have been signed'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Visitors cannot enter unless accompanying by staff.\"",
+        "draft": "Visitors cannot enter unless accompanying by staff.",
+        "options": [
+          "Visitors cannot enter unless accompanying by staff.",
+          "Visitors cannot enter unless accompanied by staff.",
+          "Visitors cannot enter unless accompany by staff."
+        ],
+        "answer": 1,
+        "explanation": "Klausa pasif tereduksi memakai V3 ('accompanied').",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Those outdated binders should have ___ recycled months ago.",
+        "options": [
+          "being",
+          "been",
+          "be"
+        ],
+        "answer": 1,
+        "explanation": "Modal Perfect Passive: 'should have been + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jarang sekali sampel mendesak seperti ini dikirim tanpa kantong es.\".",
+        "targetSentence": "Rarely are such urgent samples shipped without cold packs.",
+        "explanation": "Inversi pasif 'Rarely are + S + V3'.",
+        "hints": [
+          "Passive Voice: be (disesuaikan tense dan subjek) + V3. Gunakan saat pelaku tidak penting, tidak diketahui, atau fokus berada pada hasil/objek.",
+          "Perhatikan kata kerja intransitif (happen, arrive, occur, exist, fall) tidak dapat dipasifkan."
+        ],
+        "skill": "passive-basic"
       }
     ]
   }

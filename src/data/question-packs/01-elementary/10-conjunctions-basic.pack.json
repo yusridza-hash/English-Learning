@@ -261,6 +261,1446 @@
           "Tambahkan klausa tujuan 'so that technicians...'."
         ],
         "skill": "conjunction-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "We checked the lab lights ___ locked the side door.",
+        "options": [
+          "and",
+          "but",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Dua aksi berurutan yang selaras digabungkan dengan 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you bring two power banks today? / ___ our workshop lasts until seven tonight!\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Why did you bring two power banks today?"
+          ],
+          [
+            "Dodi",
+            "___ our workshop lasts until seven tonight!"
+          ]
+        ],
+        "options": [
+          "Although",
+          "Because",
+          "So"
+        ],
+        "answer": 1,
+        "explanation": "Menjawab pertanyaan 'Why' dengan 'Because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Although it was raining, but we walked to Hall B.\"",
+        "draft": "Although it was raining, but we walked to Hall B.",
+        "options": [
+          "Although it was raining, we walked to Hall B.",
+          "Although it was raining, so we walked to Hall B.",
+          "Although it was raining, but we walked to Hall B."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menggabungkan 'Although' dan 'but' dalam satu kalimat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The printer is fast, ___ the paper tray is quite small.",
+        "options": [
+          "so",
+          "but",
+          "and"
+        ],
+        "answer": 1,
+        "explanation": "Dua fakta kontras digabungkan dengan 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami memeriksa lampu lab dan mengunci pintu samping.\".",
+        "targetSentence": "We checked the lab lights and locked the side door.",
+        "explanation": "Gabungan dua aksi selaras dengan 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "It rained heavily all morning, ___ we moved lunch indoors.",
+        "options": [
+          "so",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Menunjukkan hasil/akibat ('oleh karena itu') -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"The projector bulb looks a bit dim today. / Yes, ___ we should turn off the front ceiling lights.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "The projector bulb looks a bit dim today."
+          ],
+          [
+            "Bima",
+            "Yes, ___ we should turn off the front ceiling lights."
+          ]
+        ],
+        "options": [
+          "so",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Menyampaikan akibat/solusi -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Because the bus was late, so we missed check-in.\"",
+        "draft": "Because the bus was late, so we missed check-in.",
+        "options": [
+          "Because the bus was late, we missed check-in.",
+          "Because the bus was late, but we missed check-in.",
+          "Because the bus was late, so we missed check-in."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menggabungkan 'Because' dan 'so' sekaligus; pilih salah satu.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We moved lunch indoors ___ it rained heavily all morning.",
+        "options": [
+          "so",
+          "but",
+          "because"
+        ],
+        "answer": 2,
+        "explanation": "Menunjukkan alasan/sebab ('karena') -> 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"I picked the aisle seat for quick exits.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did you choose the window seat ___ the aisle seat?"
+          ],
+          [
+            "Eko",
+            "I picked the aisle seat for quick exits."
+          ]
+        ],
+        "options": [
+          "but",
+          "or",
+          "so"
+        ],
+        "answer": 1,
+        "explanation": "Dua pilihan kursi memakai 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"I like hot tea, and I prefer iced coffee in summer.\"",
+        "draft": "I like hot tea, and I prefer iced coffee in summer.",
+        "options": [
+          "I like hot tea, but I prefer iced coffee in summer.",
+          "I like hot tea, so I prefer iced coffee in summer.",
+          "I like hot tea, and I prefer iced coffee in summer."
+        ],
+        "answer": 0,
+        "explanation": "Kontras preferensi memakai 'but', bukan 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Pencetak itu cepat, tetapi baki kertasnya cukup kecil.\".",
+        "targetSentence": "The printer is fast, but its paper tray is small.",
+        "explanation": "Kontras memakai 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Would you prefer the printed guide ___ the PDF version?",
+        "options": [
+          "so",
+          "but",
+          "or"
+        ],
+        "answer": 2,
+        "explanation": "Memberi pilihan antara dua opsi -> 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we start the briefing now? / Let's wait ten minutes ___ Mr. Hadi reaches Lobby A.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Should we start the briefing now?"
+          ],
+          [
+            "Sari",
+            "Let's wait ten minutes ___ Mr. Hadi reaches Lobby A."
+          ]
+        ],
+        "options": [
+          "until",
+          "because",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "Menunggu batas waktu -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait here before the receptionist calls your name.\"",
+        "draft": "Wait here before the receptionist calls your name.",
+        "options": [
+          "Wait here until the receptionist calls your name.",
+          "Wait here so the receptionist calls your name.",
+          "Wait here before the receptionist calls your name."
+        ],
+        "answer": 0,
+        "explanation": "Menunggu sampai suatu kejadian terjadi memakai 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please wait inside Lobby A ___ your name is called.",
+        "options": [
+          "because",
+          "or",
+          "until"
+        ],
+        "answer": 2,
+        "explanation": "Batas waktu sampai kejadian terjadi -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you take the highway instead of the coast road? / The coast road was flooded, ___ we took the highway.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why did you take the highway instead of the coast road?"
+          ],
+          [
+            "Putri",
+            "The coast road was flooded, ___ we took the highway."
+          ]
+        ],
+        "options": [
+          "although",
+          "so",
+          "because"
+        ],
+        "answer": 1,
+        "explanation": "Sebab diikuti akibat -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You can choose both tea or black coffee.\"",
+        "draft": "You can choose both tea or black coffee.",
+        "options": [
+          "You can choose either tea or black coffee.",
+          "You can choose either tea and black coffee.",
+          "You can choose both tea or black coffee."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'either ... or ...'; sedangkan 'both ... and ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I always back up slides ___ shutting down my laptop.",
+        "options": [
+          "so",
+          "before",
+          "or"
+        ],
+        "answer": 1,
+        "explanation": "Urutan waktu sebelumnya -> 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hujan turun deras sepanjang pagi, jadi makan siang dipindah ke dalam.\".",
+        "targetSentence": "It rained hard all morning, so lunch moved indoors.",
+        "explanation": "Akibat memakai 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She went straight to Desk 4 ___ finishing lunch.",
+        "options": [
+          "but",
+          "or",
+          "after"
+        ],
+        "answer": 2,
+        "explanation": "Urutan waktu sesudahnya -> 'after'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Kevin finish all thirty survey entries? / Almost—he checked twenty-five, ___ five still need labels.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Did Kevin finish all thirty survey entries?"
+          ],
+          [
+            "Arman",
+            "Almost—he checked twenty-five, ___ five still need labels."
+          ]
+        ],
+        "options": [
+          "but",
+          "so",
+          "or"
+        ],
+        "answer": 0,
+        "explanation": "Kontras capaian vs sisa -> 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Save your file after closing your laptop.\"",
+        "draft": "Save your file after closing your laptop.",
+        "options": [
+          "Save your file before closing your laptop.",
+          "Save your file until closing your laptop.",
+          "Save your file after closing your laptop."
+        ],
+        "answer": 0,
+        "explanation": "Secara urutan logis, simpan berkas SEBELUM ('before') menutup laptop.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the ferry arrived early, boarding took only ten minutes.",
+        "options": [
+          "But",
+          "Because",
+          "So"
+        ],
+        "answer": 1,
+        "explanation": "Menjelaskan sebab di awal kalimat -> 'Because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami memindahkan makan siang ke dalam karena hujan deras.\".",
+        "targetSentence": "We moved lunch indoors because it rained heavily.",
+        "explanation": "Alasan memakai 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He speaks English clearly ___ writes concise summary notes.",
+        "options": [
+          "and",
+          "but",
+          "or"
+        ],
+        "answer": 0,
+        "explanation": "Dua keterampilan sejajar positif -> 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When should interns save their draft copies? / Always click save ___ closing the browser window!\"",
+        "dialogue": [
+          [
+            "Maya",
+            "When should interns save their draft copies?"
+          ],
+          [
+            "Adi",
+            "Always click save ___ closing the browser window!"
+          ]
+        ],
+        "options": [
+          "after",
+          "until",
+          "before"
+        ],
+        "answer": 2,
+        "explanation": "Urutan tepat sebelum tutup -> 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She studied hard, because she passed on try one.\"",
+        "draft": "She studied hard, because she passed on try one.",
+        "options": [
+          "She studied hard, so she passed on try one.",
+          "She studied hard, although she passed on try one.",
+          "She studied hard, because she passed on try one."
+        ],
+        "answer": 0,
+        "explanation": "Sebab diikuti akibat memakai 'so', bukan 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "They booked the small room ___ it was affordable.",
+        "options": [
+          "so",
+          "although",
+          "because"
+        ],
+        "answer": 2,
+        "explanation": "Alasan memilih -> 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you enjoy the harbor tour yesterday? / Yes! ___ it drizzled slightly, the view stayed clear.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Did you enjoy the harbor tour yesterday?"
+          ],
+          [
+            "Kiki",
+            "Yes! ___ it drizzled slightly, the view stayed clear."
+          ]
+        ],
+        "options": [
+          "So",
+          "Although",
+          "Because"
+        ],
+        "answer": 1,
+        "explanation": "Kontras gerimis vs tetap seru -> 'Although'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Though the manual was thick, yet it was clear.\"",
+        "draft": "Though the manual was thick, yet it was clear.",
+        "options": [
+          "Though the manual was thick, yet it was clear.",
+          "Though the manual was thick, it was clear.",
+          "Though the manual was thick, so it was clear."
+        ],
+        "answer": 1,
+        "explanation": "Jangan memakai 'yet'/'but' setelah klausa 'Though'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Harap tunggu di lobi sampai nama Anda dipanggil.\".",
+        "targetSentence": "Please wait in the lobby until your name is called.",
+        "explanation": "Batas waktu memakai 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The shuttle was full, ___ three interns took the train.",
+        "options": [
+          "or",
+          "so",
+          "because"
+        ],
+        "answer": 1,
+        "explanation": "Akibat dari penuhnya bus -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"We opened the blinds and continued on laptops.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "What did you do ___ the electricity went out?"
+          ],
+          [
+            "Sinta",
+            "We opened the blinds and continued on laptops."
+          ]
+        ],
+        "options": [
+          "or",
+          "so",
+          "when"
+        ],
+        "answer": 2,
+        "explanation": "Kejadian pada saat lampu padam -> 'when'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither Budi or Tari missed the morning ferry.\"",
+        "draft": "Neither Budi or Tari missed the morning ferry.",
+        "options": [
+          "Neither Budi and Tari missed the morning ferry.",
+          "Neither Budi or Tari missed the morning ferry.",
+          "Neither Budi nor Tari missed the morning ferry."
+        ],
+        "answer": 2,
+        "explanation": "Pasangan 'neither' adalah 'nor', bukan 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Try calling Reception ___ emailing the support desk.",
+        "options": [
+          "or",
+          "so",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Alternatif tindakan -> 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sure, put them in the black backpack.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Can we pack both the tripod ___ extra cables?"
+          ],
+          [
+            "Tia",
+            "Sure, put them in the black backpack."
+          ]
+        ],
+        "options": [
+          "but",
+          "and",
+          "or only"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku 'both ... and ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He checked his bag, so he forgot his transit card.\"",
+        "draft": "He checked his bag, so he forgot his transit card.",
+        "options": [
+          "He checked his bag, because he forgot his transit card.",
+          "He checked his bag, so he forgot his transit card.",
+          "He checked his bag, but he forgot his transit card."
+        ],
+        "answer": 2,
+        "explanation": "Kontras antara sudah mengecek dan tetap lupa memakai 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I wanted to join the tour, ___ my afternoon shift overlapped.",
+        "options": [
+          "but",
+          "and",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Pertentangan antara keinginan dan kendala -> 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saya selalu mencadangkan salindia sebelum mematikan laptop.\".",
+        "targetSentence": "I always back up slides before shutting down my laptop.",
+        "explanation": "Urutan sebelumnya memakai 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wash your hands thoroughly ___ leaving the chemistry bench.",
+        "options": [
+          "until",
+          "so",
+          "after"
+        ],
+        "answer": 2,
+        "explanation": "Sesudah kegiatan lab -> 'after'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why didn't you call the courier back? / He texted that he had arrived, ___ I went downstairs.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Why didn't you call the courier back?"
+          ],
+          [
+            "Dewi",
+            "He texted that he had arrived, ___ I went downstairs."
+          ]
+        ],
+        "options": [
+          "so",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Akibat menerima pesan -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We turned off the lights before we arrived at work.\"",
+        "draft": "We turned off the lights before we arrived at work.",
+        "options": [
+          "We turned off the lights before we left work.",
+          "We turned off the lights until we arrived at work.",
+          "We turned off the lights before we arrived at work."
+        ],
+        "answer": 0,
+        "explanation": "Konteks realistis: mematikan lampu sebelum pulang ('before we left work').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Check the power switch ___ calling the repair technician.",
+        "options": [
+          "before",
+          "so",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "Tindakan pencegahan lebih dulu -> 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Meskipun kami memesan dua puluh kotak, hanya delapan belas tiba.\".",
+        "targetSentence": "Although we ordered twenty boxes, only eighteen arrived.",
+        "explanation": "Kontras memakai 'Although'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Do not open the oven door ___ the timer beeps twice.",
+        "options": [
+          "because",
+          "and",
+          "until"
+        ],
+        "answer": 2,
+        "explanation": "Menunggu hingga syarat waktu terpenuhi -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I sign Page 3 first ___ read Page 4? / Read Page 4 first ___ signing anything.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Should I sign Page 3 first ___ read Page 4?"
+          ],
+          [
+            "Ayu",
+            "Read Page 4 first ___ signing anything."
+          ]
+        ],
+        "options": [
+          "before",
+          "until",
+          "or"
+        ],
+        "answer": 0,
+        "explanation": "Urutan logis: baca sebelum menandatangani -> 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Take an umbrella so it might rain after lunch.\"",
+        "draft": "Take an umbrella so it might rain after lunch.",
+        "options": [
+          "Take an umbrella so it might rain after lunch.",
+          "Take an umbrella because it might rain after lunch.",
+          "Take an umbrella although it might rain after lunch."
+        ],
+        "answer": 1,
+        "explanation": "Menyatakan alasan membawa payung memakai 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we ordered twenty boxes, only eighteen arrived today.",
+        "options": [
+          "So",
+          "Although",
+          "Because"
+        ],
+        "answer": 1,
+        "explanation": "Kontras antara pesanan dan barang tiba -> 'Although'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is Seminar Room C large enough for thirty guests? / It's cozy ___ bright, with plenty of chairs.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Is Seminar Room C large enough for thirty guests?"
+          ],
+          [
+            "Oki",
+            "It's cozy ___ bright, with plenty of chairs."
+          ]
+        ],
+        "options": [
+          "so",
+          "and",
+          "but"
+        ],
+        "answer": 1,
+        "explanation": "Dua sifat positif selaras -> 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Wait until I will check the back storage cabinet.\"",
+        "draft": "Wait until I will check the back storage cabinet.",
+        "options": [
+          "Wait until I check the back storage cabinet.",
+          "Wait until I checking the back storage cabinet.",
+          "Wait until I will check the back storage cabinet."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'until', gunakan Present Simple ('check'), bukan 'will check'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Jaga kartu akses tetap terlihat selama Anda di dalam lab.\".",
+        "targetSentence": "Keep your badge visible while you are inside the lab.",
+        "explanation": "Selama berlangsung memakai 'while'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The instructions were short ___ easy to follow.",
+        "options": [
+          "so",
+          "and",
+          "but"
+        ],
+        "answer": 1,
+        "explanation": "Dua sifat positif selaras -> 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why is Maya smiling so broadly today? / ___ her team passed the audit with zero errors!\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Why is Maya smiling so broadly today?"
+          ],
+          [
+            "Mira",
+            "___ her team passed the audit with zero errors!"
+          ]
+        ],
+        "options": [
+          "So",
+          "Although",
+          "Because"
+        ],
+        "answer": 2,
+        "explanation": "Alasan di balik senyum -> 'Because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She brought both a notepad or two extra pens.\"",
+        "draft": "She brought both a notepad or two extra pens.",
+        "options": [
+          "She brought both a notepad and two extra pens.",
+          "She brought both a notepad but two extra pens.",
+          "She brought both a notepad or two extra pens."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'both' selalu 'and'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "My laptop screen is bright, ___ the battery drains quickly.",
+        "options": [
+          "but",
+          "and",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Kelebihan vs kekurangan (kontras) -> 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, I jotted down five new collocations.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Did you take notes ___ listening to the podcast?"
+          ],
+          [
+            "Taufik",
+            "Yes, I jotted down five new collocations."
+          ]
+        ],
+        "options": [
+          "while",
+          "until",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Selama mendengarkan -> 'while'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Because he arrived early, therefore he got front seats.\"",
+        "draft": "Because he arrived early, therefore he got front seats.",
+        "options": [
+          "Because he arrived early, he got front seats.",
+          "Because he arrived early, so he got front seats.",
+          "Because he arrived early, therefore he got front seats."
+        ],
+        "answer": 0,
+        "explanation": "Jangan gabungkan 'Because' dengan 'therefore'/'so' dalam satu kalimat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Our flight was delayed, ___ we reviewed our presentation slides.",
+        "options": [
+          "so",
+          "because",
+          "or"
+        ],
+        "answer": 0,
+        "explanation": "Tindakan akibat keterlambatan -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apakah Anda lebih memilih panduan cetak atau versi PDF?\".",
+        "targetSentence": "Would you prefer the printed guide or the PDF version?",
+        "explanation": "Pilihan memakai 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She stayed an extra hour ___ she wanted to finish early.",
+        "options": [
+          "because",
+          "so",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "Alasan bertahan lebih lama -> 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can I leave my badge at Desk 1 during lunch? / No, please keep it on ___ you exit the main gate.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Can I leave my badge at Desk 1 during lunch?"
+          ],
+          [
+            "Lina",
+            "No, please keep it on ___ you exit the main gate."
+          ]
+        ],
+        "options": [
+          "until",
+          "because",
+          "or"
+        ],
+        "answer": 0,
+        "explanation": "Batas waktu bertahan sampai keluar -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Don't cross the yellow line while the light will be red.\"",
+        "draft": "Don't cross the yellow line while the light will be red.",
+        "options": [
+          "Don't cross the yellow line while the light will be red.",
+          "Don't cross the yellow line while the light is red.",
+          "Don't cross the yellow line until the light will be red."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'while', gunakan Present Simple ('is').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you arrive at Gate 2, show your QR pass to the guard.",
+        "options": [
+          "But",
+          "So",
+          "When"
+        ],
+        "answer": 2,
+        "explanation": "Menandai momen waktu -> 'When'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia belajar dengan giat sehingga lulus pada percobaan pertama.\".",
+        "targetSentence": "She studied very hard, so she passed on try one.",
+        "explanation": "Akibat memakai 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Keep your badge visible ___ you are inside the laboratory.",
+        "options": [
+          "while",
+          "or",
+          "so"
+        ],
+        "answer": 0,
+        "explanation": "Selama berada di dalam -> 'while'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the new manual helpful for first-time interns? / Yes, ___ it used simple diagrams rather than jargon.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was the new manual helpful for first-time interns?"
+          ],
+          [
+            "Wulan",
+            "Yes, ___ it used simple diagrams rather than jargon."
+          ]
+        ],
+        "options": [
+          "because",
+          "so",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Menjelaskan alasan membantu -> 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"The report looks neat, and two footnotes are missing.\"",
+        "draft": "The report looks neat, and two footnotes are missing.",
+        "options": [
+          "The report looks neat, so two footnotes are missing.",
+          "The report looks neat, and two footnotes are missing.",
+          "The report looks neat, but two footnotes are missing."
+        ],
+        "answer": 2,
+        "explanation": "Kelebihan vs kekurangan memakai 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I forgot my umbrella, ___ luckily the rain stopped at five.",
+        "options": [
+          "but",
+          "so",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "Kontras keberuntungan -> 'but'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we print twenty posters today? / Wait ___ Ms. Dewi approves the final logo first.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Should we print twenty posters today?"
+          ],
+          [
+            "Sari",
+            "Wait ___ Ms. Dewi approves the final logo first."
+          ]
+        ],
+        "options": [
+          "because",
+          "and",
+          "until"
+        ],
+        "answer": 2,
+        "explanation": "Tunggu sampai syarat disetujui -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Call me after you will reach Terminal 3.\"",
+        "draft": "Call me after you will reach Terminal 3.",
+        "options": [
+          "Call me after you will reach Terminal 3.",
+          "Call me after you reach Terminal 3.",
+          "Call me before you will reach Terminal 3."
+        ],
+        "answer": 1,
+        "explanation": "Setelah 'after' (time clause), gunakan Present Simple ('reach').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Karena lalu lintas padat, kami berangkat pukul enam pagi.\".",
+        "targetSentence": "Because of heavy traffic, we departed at six.",
+        "explanation": "'Because of' sebelum noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We can hold the call at nine ___ move it to afternoon.",
+        "options": [
+          "or",
+          "so",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "Pilihan dua jadwal -> 'or'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did our courier return those three crates? / The warehouse was closed, ___ nobody could sign.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Why did our courier return those three crates?"
+          ],
+          [
+            "Reno",
+            "The warehouse was closed, ___ nobody could sign."
+          ]
+        ],
+        "options": [
+          "or",
+          "so",
+          "although"
+        ],
+        "answer": 1,
+        "explanation": "Akibat gudang tutup -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Although heavy traffic, we arrived five minutes early.\"",
+        "draft": "Although heavy traffic, we arrived five minutes early.",
+        "options": [
+          "Although heavy traffic, we arrived five minutes early.",
+          "Although traffic was heavy, we arrived five minutes early.",
+          "Despite traffic was heavy, we arrived five minutes early."
+        ],
+        "answer": 1,
+        "explanation": "'Although' harus diikuti klausa lengkap (Subject + Verb).",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He read every instruction twice ___ he signed the contract.",
+        "options": [
+          "but",
+          "before",
+          "so"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum menandatangani -> 'before'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did you buy tea ___ coffee for the speaker table? / I bought both green tea ___ dark roast coffee!\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Did you buy tea ___ coffee for the speaker table?"
+          ],
+          [
+            "Aris",
+            "I bought both green tea ___ dark roast coffee!"
+          ]
+        ],
+        "options": [
+          "so",
+          "and",
+          "but"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'both A and B'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Because the rain, we moved chairs indoors.\"",
+        "draft": "Because the rain, we moved chairs indoors.",
+        "options": [
+          "Because the rain was, we moved chairs indoors.",
+          "Because the rain, we moved chairs indoors.",
+          "Because of the rain, we moved chairs indoors."
+        ],
+        "answer": 2,
+        "explanation": "Di depan noun phrase ('the rain'), gunakan 'Because of', bukan 'Because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The hall felt warm, ___ we opened both side windows.",
+        "options": [
+          "so",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "Tindakan akibat ruangan hangat -> 'so'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Hubungi saya setelah Anda tiba di Terminal 3.\".",
+        "targetSentence": "Call me after you arrive at Terminal Three.",
+        "explanation": "'After' diikuti Present Simple.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
       }
     ],
     "intermediate": [
@@ -546,6 +1986,1446 @@
           "Tambahkan klausa syarat 'as long as...'."
         ],
         "skill": "conjunction-conditional"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you wear your visitor badge, security will stop you.",
+        "options": [
+          "Although",
+          "Unless",
+          "If"
+        ],
+        "answer": 1,
+        "explanation": "'Unless' berarti 'kecuali jika / jika tidak' (If ... not).",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I pack a paper copy of the schedule too? / Yes, bring one ___ the lobby Wi-Fi drops during check-in.\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should I pack a paper copy of the schedule too?"
+          ],
+          [
+            "Dodi",
+            "Yes, bring one ___ the lobby Wi-Fi drops during check-in."
+          ]
+        ],
+        "options": [
+          "in case",
+          "so that",
+          "unless"
+        ],
+        "answer": 0,
+        "explanation": "Antisipasi risiko berjaga-jaga -> 'in case'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Despite of heavy traffic, the courier arrived on time.\"",
+        "draft": "Despite of heavy traffic, the courier arrived on time.",
+        "options": [
+          "Despite heavy traffic, the courier arrived on time.",
+          "In spite heavy traffic, the courier arrived on time.",
+          "Despite of heavy traffic, the courier arrived on time."
+        ],
+        "answer": 0,
+        "explanation": "'Despite' TIDAK pernah diikuti 'of' (gunakan 'Despite' atau 'In spite of').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the tight schedule, our interns completed every check.",
+        "options": [
+          "Although",
+          "Because",
+          "Despite"
+        ],
+        "answer": 2,
+        "explanation": "'Despite' langsung diikuti noun phrase ('the tight schedule').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kecuali jika Anda memakai kartu tamu, satpam akan menghentikan Anda.\".",
+        "targetSentence": "Unless you wear your visitor badge, security will stop you.",
+        "explanation": "'Unless' = jika tidak.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the schedule was tight, our interns completed every check.",
+        "options": [
+          "Because of",
+          "Although",
+          "Despite"
+        ],
+        "answer": 1,
+        "explanation": "'Although' wajib diikuti klausa lengkap (Subject + Verb).",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why wasn't Maya allowed past Security Gate 3? / Guards won't let guests enter ___ they wear a valid badge.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Why wasn't Maya allowed past Security Gate 3?"
+          ],
+          [
+            "Bima",
+            "Guards won't let guests enter ___ they wear a valid badge."
+          ]
+        ],
+        "options": [
+          "unless",
+          "if",
+          "so that"
+        ],
+        "answer": 0,
+        "explanation": "'Unless' = kecuali jika / jika tidak memakai kartu.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Although the strict deadline, every team submitted.\"",
+        "draft": "Although the strict deadline, every team submitted.",
+        "options": [
+          "Despite the strict deadline, every team submitted.",
+          "Because the strict deadline, every team submitted.",
+          "Although the strict deadline, every team submitted."
+        ],
+        "answer": 0,
+        "explanation": "Di depan noun phrase tanpa verb, gunakan 'Despite', bukan 'Although'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Many flights were delayed ___ thick coastal fog.",
+        "options": [
+          "because",
+          "although",
+          "because of"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase ('thick coastal fog'), gunakan 'because of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did the port seminar run smoothly yesterday? / Yes! ___ the power dip at noon, speakers kept going.\"",
+        "dialogue": [
+          [
+            "Tari",
+            "Did the port seminar run smoothly yesterday?"
+          ],
+          [
+            "Eko",
+            "Yes! ___ the power dip at noon, speakers kept going."
+          ]
+        ],
+        "options": [
+          "Although",
+          "Because",
+          "Despite"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase ('the power dip') -> 'Despite'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"He fell asleep while the long afternoon lecture.\"",
+        "draft": "He fell asleep while the long afternoon lecture.",
+        "options": [
+          "He fell asleep unless the long afternoon lecture.",
+          "He fell asleep while the long afternoon lecture.",
+          "He fell asleep during the long afternoon lecture."
+        ],
+        "answer": 2,
+        "explanation": "Di depan noun phrase ('the long afternoon lecture'), gunakan 'during'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Meskipun jadwalnya padat, tim magang kami menyelesaikan semua pemeriksaan.\".",
+        "targetSentence": "Despite the tight schedule, our interns completed every check.",
+        "explanation": "'Despite' diikuti noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I was exporting the CSV, the browser froze suddenly.",
+        "options": [
+          "During",
+          "Until",
+          "While"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum klausa (Subject + Verb) untuk durasi bersamaan -> 'While'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How did you manage to avoid mistakes in Table 4? / I checked totals twice ___ the figures stayed accurate.\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "How did you manage to avoid mistakes in Table 4?"
+          ],
+          [
+            "Sari",
+            "I checked totals twice ___ the figures stayed accurate."
+          ]
+        ],
+        "options": [
+          "unless",
+          "so that",
+          "in case"
+        ],
+        "answer": 1,
+        "explanation": "Tujuan supaya angka akurat -> 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We stayed indoors because of it started pouring.\"",
+        "draft": "We stayed indoors because of it started pouring.",
+        "options": [
+          "We stayed indoors because of it started pouring.",
+          "We stayed indoors because it started pouring.",
+          "We stayed indoors due to it started pouring."
+        ],
+        "answer": 1,
+        "explanation": "Di depan klausa lengkap (Subject + Verb), gunakan 'because', bukan 'because of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Several speakers fell ill ___ the three-day conference.",
+        "options": [
+          "during",
+          "while",
+          "since"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun phrase ('the three-day conference') -> 'during'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did our shipping courier take the bridge detour? / The river road closed ___ flooding from last night's storm.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "Why did our shipping courier take the bridge detour?"
+          ],
+          [
+            "Putri",
+            "The river road closed ___ flooding from last night's storm."
+          ]
+        ],
+        "options": [
+          "because",
+          "although",
+          "due to"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase ('flooding') -> 'due to'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"If you don't hurry, unless we will miss the bus.\"",
+        "draft": "If you don't hurry, unless we will miss the bus.",
+        "options": [
+          "Unless you hurry, we will miss the bus.",
+          "Unless you don't hurry, we will miss the bus.",
+          "If you don't hurry, unless we will miss the bus."
+        ],
+        "answer": 0,
+        "explanation": "'Unless' sudah bermakna 'if ... not'; jangan digabung dengan 'if' atau bentuk negatif.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We brought extra power cables ___ a projector port fails.",
+        "options": [
+          "so that",
+          "in case",
+          "unless"
+        ],
+        "answer": 1,
+        "explanation": "'In case' menyatakan langkah antisipasi berjaga-jaga.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Meskipun jadwalnya padat, mereka menyelesaikan semua tugas tepat waktu.\".",
+        "targetSentence": "Although the schedule was tight, they finished on time.",
+        "explanation": "'Although' diikuti klausa lengkap.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Please label every sample clearly ___ everyone can verify it.",
+        "options": [
+          "so that",
+          "in case",
+          "despite"
+        ],
+        "answer": 0,
+        "explanation": "'So that' menyatakan tujuan jelas ('agar/supaya').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, we reviewed the agenda during those fifteen minutes.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Did you talk to Mr. Hadi ___ the coffee break?"
+          ],
+          [
+            "Arman",
+            "Yes, we reviewed the agenda during those fifteen minutes."
+          ]
+        ],
+        "options": [
+          "during",
+          "while",
+          "until"
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun phrase ('the coffee break') -> 'during'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Bring a charger so that your battery dies on site.\"",
+        "draft": "Bring a charger so that your battery dies on site.",
+        "options": [
+          "Bring a charger unless your battery dies on site.",
+          "Bring a charger so that your battery dies on site.",
+          "Bring a charger in case your battery dies on site."
+        ],
+        "answer": 2,
+        "explanation": "Langkah berjaga-jaga kalau terjadi sesuatu memakai 'in case', bukan 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Both the courier ___ the gate guard signed the log.",
+        "options": [
+          "or",
+          "nor",
+          "and"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan baku: 'both ... and ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Banyak penerbangan tertunda karena kabut pantai yang tebal.\".",
+        "targetSentence": "Many flights were delayed because of thick coastal fog.",
+        "explanation": "'Because of' diikuti noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Neither the audio cable ___ the spare mic worked properly.",
+        "options": [
+          "or",
+          "and",
+          "nor"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan baku: 'neither ... nor ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"When did you write down all those safety reminders? / I jotted them down ___ Mr. Hadi was walking us through Lab 2.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "When did you write down all those safety reminders?"
+          ],
+          [
+            "Adi",
+            "I jotted them down ___ Mr. Hadi was walking us through Lab 2."
+          ]
+        ],
+        "options": [
+          "because of",
+          "while",
+          "during"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum klausa lengkap ('Mr. Hadi was walking...') -> 'while'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Neither Maya or Kevin brought the cabinet key.\"",
+        "draft": "Neither Maya or Kevin brought the cabinet key.",
+        "options": [
+          "Neither Maya nor Kevin brought the cabinet key.",
+          "Neither Maya and Kevin brought the cabinet key.",
+          "Neither Maya or Kevin brought the cabinet key."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'neither' selalu 'nor'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You may present either on Tuesday ___ on Friday morning.",
+        "options": [
+          "or",
+          "nor",
+          "and"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku: 'either ... or ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we print either the short flyer ___ the full manual? / Let's print neither the flyer ___ the full guide—QR saves paper.\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Should we print either the short flyer ___ the full manual?"
+          ],
+          [
+            "Kiki",
+            "Let's print neither the flyer ___ the full guide—QR saves paper."
+          ]
+        ],
+        "options": [
+          "and",
+          "nor",
+          "or"
+        ],
+        "answer": 1,
+        "explanation": "'Neither A nor B'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"During I checked the logs, she updated the chart.\"",
+        "draft": "During I checked the logs, she updated the chart.",
+        "options": [
+          "While I checked the logs, she updated the chart.",
+          "Due to I checked the logs, she updated the chart.",
+          "During I checked the logs, she updated the chart."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum klausa lengkap ('I checked'), gunakan 'While', bukan 'During'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Beberapa pembicara jatuh sakit selama konferensi tiga hari tersebut.\".",
+        "targetSentence": "Several speakers fell ill during the three-day conference.",
+        "explanation": "'During' diikuti noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not only did they arrive early, ___ they also arranged chairs.",
+        "options": [
+          "so",
+          "but",
+          "and"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku: 'Not only ... but also ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did Sarah enjoy studying at the campus library? / Yes! ___ it was crowded near finals, she still found a quiet desk.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "Did Sarah enjoy studying at the campus library?"
+          ],
+          [
+            "Sinta",
+            "Yes! ___ it was crowded near finals, she still found a quiet desk."
+          ]
+        ],
+        "options": [
+          "Even though",
+          "Despite",
+          "Because of"
+        ],
+        "answer": 0,
+        "explanation": "Kontras kuat diikuti klausa lengkap -> 'Even though'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Despite he worked slowly, the summary was spotless.\"",
+        "draft": "Despite he worked slowly, the summary was spotless.",
+        "options": [
+          "Despite he worked slowly, the summary was spotless.",
+          "Although he worked slowly, the summary was spotless.",
+          "Despite of he worked slowly, the summary was spotless."
+        ],
+        "answer": 1,
+        "explanation": "Sebelum klausa lengkap (Subject + Verb), gunakan 'Although' atau 'Even though'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ I check attendance, please settle into Seminar Room 2.",
+        "options": [
+          "During",
+          "Despite",
+          "While"
+        ],
+        "answer": 2,
+        "explanation": "Diikuti klausa lengkap ('I check attendance') -> 'While'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did both printers stop at 10 AM? / Neither Printer A ___ Printer B had enough paper loaded.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Why did both printers stop at 10 AM?"
+          ],
+          [
+            "Tia",
+            "Neither Printer A ___ Printer B had enough paper loaded."
+          ]
+        ],
+        "options": [
+          "nor",
+          "or",
+          "and"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku 'neither ... nor ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Due to the train broke down, ten guests arrived late.\"",
+        "draft": "Due to the train broke down, ten guests arrived late.",
+        "options": [
+          "Because the train broke down, ten guests arrived late.",
+          "Due to of the train broke down, ten guests arrived late.",
+          "Due to the train broke down, ten guests arrived late."
+        ],
+        "answer": 0,
+        "explanation": "'Due to' hanya diikuti noun phrase; untuk klausa gunakan 'Because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We won't release final grades ___ all lab gear is returned.",
+        "options": [
+          "unless only",
+          "since",
+          "until"
+        ],
+        "answer": 2,
+        "explanation": "Batas waktu tunggu terpenuhi -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Saat saya mengekspor berkas itu, peramban tiba-tiba membeku.\".",
+        "targetSentence": "While I was exporting that file, the browser froze.",
+        "explanation": "'While' diikuti klausa.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Don't reset the router ___ IT support gives permission.",
+        "options": [
+          "because",
+          "unless",
+          "although"
+        ],
+        "answer": 1,
+        "explanation": "'Unless' = jika tidak mendapat izin.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How was attendance at this morning's IELTS clinic? / We sent three reminder texts; ___, every seat filled up.\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "How was attendance at this morning's IELTS clinic?"
+          ],
+          [
+            "Dewi",
+            "We sent three reminder texts; ___, every seat filled up."
+          ]
+        ],
+        "options": [
+          "despite",
+          "as a result",
+          "however"
+        ],
+        "answer": 1,
+        "explanation": "Menunjukkan hasil -> 'as a result'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not only she speaks French, she writes legal briefs.\"",
+        "draft": "Not only she speaks French, she writes legal briefs.",
+        "options": [
+          "Not only she speaks French, and writes briefs.",
+          "Not only she speaks French, she writes legal briefs.",
+          "Not only does she speak French, but she also writes briefs."
+        ],
+        "answer": 2,
+        "explanation": "Pasangan yang benar: 'Not only ... but (also) ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ having two flat tires, the shuttle arrived before noon.",
+        "options": [
+          "Despite",
+          "Although",
+          "Because"
+        ],
+        "answer": 0,
+        "explanation": "'Despite' dapat diikuti gerund V-ing ('having').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami membawa kabel cadangan untuk berjaga-jaga jika proyektor rusak.\".",
+        "targetSentence": "We brought spare cables in case the projector fails.",
+        "explanation": "Antisipasi risiko memakai 'in case'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She spoke slowly ___ non-native guests could follow easily.",
+        "options": [
+          "unless",
+          "so that",
+          "because of"
+        ],
+        "answer": 1,
+        "explanation": "Menyatakan tujuan -> 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Are you ready for next week's workshop presentation? / Yes—not only did I finish slides, ___ I also timed my talk!\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Are you ready for next week's workshop presentation?"
+          ],
+          [
+            "Ayu",
+            "Yes—not only did I finish slides, ___ I also timed my talk!"
+          ]
+        ],
+        "options": [
+          "so",
+          "but",
+          "and"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku 'not only ... but also ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Both the printer or the scanner needs fresh ink.\"",
+        "draft": "Both the printer or the scanner needs fresh ink.",
+        "options": [
+          "Either the printer or the scanner needs fresh ink.",
+          "Both the printer nor the scanner needs fresh ink.",
+          "Both the printer or the scanner needs fresh ink."
+        ],
+        "answer": 0,
+        "explanation": "'Either ... or' untuk salah satu; 'Both ... and' untuk keduanya.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Keep these emergency numbers handy ___ the elevator stalls.",
+        "options": [
+          "despite",
+          "in case",
+          "so that"
+        ],
+        "answer": 1,
+        "explanation": "Berjaga-jaga kalau terjadi -> 'in case'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did we delay launching the online survey form? / We waited ___ both translators reviewed the Indonesian text.\"",
+        "dialogue": [
+          [
+            "Vera",
+            "Why did we delay launching the online survey form?"
+          ],
+          [
+            "Oki",
+            "We waited ___ both translators reviewed the Indonesian text."
+          ]
+        ],
+        "options": [
+          "unless",
+          "until",
+          "despite"
+        ],
+        "answer": 1,
+        "explanation": "Menunggu hingga syarat terpenuhi -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Take notes carefully in case you understand every rule.\"",
+        "draft": "Take notes carefully in case you understand every rule.",
+        "options": [
+          "Take notes carefully despite you understand every rule.",
+          "Take notes carefully in case you understand every rule.",
+          "Take notes carefully so that you understand every rule."
+        ],
+        "answer": 2,
+        "explanation": "Menyatakan tujuan agar hasil tercapai memakai 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Beri label setiap sampel dengan jelas agar semua orang bisa memverifikasi.\".",
+        "targetSentence": "Label every sample clearly so that everyone can verify it.",
+        "explanation": "Tujuan memakai 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "He took the early ferry; ___, he reached Surabaya by nine.",
+        "options": [
+          "as a result",
+          "however",
+          "despite"
+        ],
+        "answer": 0,
+        "explanation": "Transisi antarkalimat menunjukkan hasil -> 'as a result'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is the morning ferry running on schedule today? / The sea is choppy; ___, all crossings are departing on time.\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Is the morning ferry running on schedule today?"
+          ],
+          [
+            "Mira",
+            "The sea is choppy; ___, all crossings are departing on time."
+          ]
+        ],
+        "options": [
+          "because",
+          "however",
+          "therefore"
+        ],
+        "answer": 1,
+        "explanation": "Kontras antara laut berombak dan tetap tepat waktu -> 'however'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She won't sign the form unless she won't read it.\"",
+        "draft": "She won't sign the form unless she won't read it.",
+        "options": [
+          "She won't sign the form unless she won't read it.",
+          "She won't sign the form unless she reads it.",
+          "She won't sign the form unless she doesn't read it."
+        ],
+        "answer": 1,
+        "explanation": "Jangan pakai negatif atau 'will' di dalam klausa 'unless'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "The hall looked small; ___, its acoustics were outstanding.",
+        "options": [
+          "because",
+          "however",
+          "therefore"
+        ],
+        "answer": 1,
+        "explanation": "Transisi kontras dengan titik koma -> 'however'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I invite external vendors to Thursday's sync? / No, keep it internal ___ the budget numbers are finalized.\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Should I invite external vendors to Thursday's sync?"
+          ],
+          [
+            "Taufik",
+            "No, keep it internal ___ the budget numbers are finalized."
+          ]
+        ],
+        "options": [
+          "until",
+          "despite",
+          "unless only"
+        ],
+        "answer": 0,
+        "explanation": "Menahan sampai waktu tertentu -> 'until'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"In spite the chilly weather, interns walked outdoors.\"",
+        "draft": "In spite the chilly weather, interns walked outdoors.",
+        "options": [
+          "In spite the chilly weather, interns walked outdoors.",
+          "In spite of the chilly weather, interns walked outdoors.",
+          "Although of the chilly weather, interns walked outdoors."
+        ],
+        "answer": 1,
+        "explanation": "Frasa lengkapnya adalah 'In spite of' (wajib 'of').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We canceled the outdoor tour ___ the sudden monsoon storm.",
+        "options": [
+          "although",
+          "due to",
+          "because"
+        ],
+        "answer": 1,
+        "explanation": "Diikuti noun phrase ('the sudden monsoon storm') -> 'due to'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baik kabel audio maupun mikrofon cadangan tidak berfungsi dengan baik.\".",
+        "targetSentence": "Neither the audio cable nor the spare mic worked.",
+        "explanation": "'Neither ... nor ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ we finished early, we helped clean the snack counter.",
+        "options": [
+          "Despite",
+          "Since",
+          "Unless"
+        ],
+        "answer": 1,
+        "explanation": "'Since' di awal klausa juga bermakna sebab ('karena').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Yes, both signatures appear at the bottom of Page 2.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Did both Mr. Adi ___ Ms. Sari approve the voucher?"
+          ],
+          [
+            "Lina",
+            "Yes, both signatures appear at the bottom of Page 2."
+          ]
+        ],
+        "options": [
+          "and",
+          "or",
+          "nor"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku 'both ... and ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We took the ferry despite the waves were huge.\"",
+        "draft": "We took the ferry despite the waves were huge.",
+        "options": [
+          "We took the ferry even though the waves were huge.",
+          "We took the ferry because of the waves were huge.",
+          "We took the ferry despite the waves were huge."
+        ],
+        "answer": 0,
+        "explanation": "Klausa lengkap 'the waves were huge' memakai 'even though'/'although'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you prefer tea, coffee, or juice, feel free to pour.",
+        "options": [
+          "Unless",
+          "Whether",
+          "Either"
+        ],
+        "answer": 1,
+        "explanation": "Pilihan terbuka lebih dari dua atau 'or not' -> 'Whether'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Kami membatalkan tur luar ruangan akibat badai monsun mendadak.\".",
+        "targetSentence": "We canceled the outdoor tour due to the sudden storm.",
+        "explanation": "'Due to' diikuti noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I keep a paper copy ___ the office tablet runs out of battery.",
+        "options": [
+          "although",
+          "therefore",
+          "in case"
+        ],
+        "answer": 2,
+        "explanation": "Tindakan jaga-jaga -> 'in case'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will we miss our connecting shuttle? / We'll definitely miss it ___ we clear Gate 5 by three.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Will we miss our connecting shuttle?"
+          ],
+          [
+            "Wulan",
+            "We'll definitely miss it ___ we clear Gate 5 by three."
+          ]
+        ],
+        "options": [
+          "unless",
+          "if",
+          "so that"
+        ],
+        "answer": 0,
+        "explanation": "'Unless' = kecuali jika kita lolos sebelum jam tiga.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"She left early; however, she forgot to catch her train? No: She studied well; however she failed? Make clear: She prepared well, however, she missed a page.\"",
+        "draft": "She left early; however, she forgot to catch her train? No: She studied well; however she failed? Make clear: She prepared well, however, she missed a page.",
+        "options": [
+          "She left early; however, she forgot to catch her train? No: She studied well; however she failed? Make clear: She prepared well, however, she missed a page.",
+          "She prepared well; however, she missed one checklist.",
+          "She prepared well, however she missed one checklist."
+        ],
+        "answer": 1,
+        "explanation": "Jika menghubungkan dua klausa utuh dengan 'however', gunakan titik koma (;) dan koma (,).",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "She practiced daily ___ she wanted to pass IELTS Band 7.",
+        "options": [
+          "so that",
+          "despite",
+          "since"
+        ],
+        "answer": 2,
+        "explanation": "Memberi alasan -> 'since' / 'because'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did you pack extra adapters inside Bag 2? / I brought them ___ Room 4 lacks enough wall sockets.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "Why did you pack extra adapters inside Bag 2?"
+          ],
+          [
+            "Sari",
+            "I brought them ___ Room 4 lacks enough wall sockets."
+          ]
+        ],
+        "options": [
+          "therefore",
+          "despite",
+          "in case"
+        ],
+        "answer": 2,
+        "explanation": "Jaga-jaga apabila terjadi -> 'in case'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Whether it rains nor shines, the shuttle runs hourly.\"",
+        "draft": "Whether it rains nor shines, the shuttle runs hourly.",
+        "options": [
+          "Whether it rains or shines, the shuttle runs hourly.",
+          "Whether it rains and shines, the shuttle runs hourly.",
+          "Whether it rains nor shines, the shuttle runs hourly."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku adalah 'Whether ... or ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tidak hanya tiba lebih awal, tetapi juga menata kursi.\".",
+        "targetSentence": "Not only did she arrive early, but she also arranged chairs.",
+        "explanation": "'Not only ... but also ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ heavy rain outside, Workshop B stayed dry and bright.",
+        "options": [
+          "Although",
+          "Even though",
+          "In spite of"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase ('heavy rain') -> 'In spite of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our regional office accept the tight timeline? / ___ the short turnaround, they delivered every chart on time.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Did our regional office accept the tight timeline?"
+          ],
+          [
+            "Reno",
+            "___ the short turnaround, they delivered every chart on time."
+          ]
+        ],
+        "options": [
+          "Even though",
+          "In spite of",
+          "Although"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum noun phrase ('the short turnaround') -> 'In spite of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We closed Gate 2 because of security rules changed.\"",
+        "draft": "We closed Gate 2 because of security rules changed.",
+        "options": [
+          "We closed Gate 2 because security rules changed.",
+          "We closed Gate 2 due to security rules changed.",
+          "We closed Gate 2 because of security rules changed."
+        ],
+        "answer": 0,
+        "explanation": "Ada verb 'changed' -> gunakan 'because', bukan 'because of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We checked the lock twice ___ nobody could enter uninvited.",
+        "options": [
+          "in case",
+          "unless",
+          "so that"
+        ],
+        "answer": 2,
+        "explanation": "Tujuan agar tidak ada yang masuk -> 'so that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Sure! Split tasks like that will get us done in ten minutes.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Could you finish checking Column B ___ I format the cover?"
+          ],
+          [
+            "Aris",
+            "Sure! Split tasks like that will get us done in ten minutes."
+          ]
+        ],
+        "options": [
+          "while",
+          "during",
+          "due to"
+        ],
+        "answer": 0,
+        "explanation": "Dua pekerjaan bersamaan (diikuti klausa) -> 'while'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Even though his injury, Adi completed the field walk.\"",
+        "draft": "Even though his injury, Adi completed the field walk.",
+        "options": [
+          "Despite his injury, Adi completed the field walk.",
+          "Although his injury, Adi completed the field walk.",
+          "Even though his injury, Adi completed the field walk."
+        ],
+        "answer": 0,
+        "explanation": "Sebelum noun phrase ('his injury'), gunakan 'Despite'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You will miss the express train ___ you leave within five minutes.",
+        "options": [
+          "even though",
+          "unless",
+          "if"
+        ],
+        "answer": 1,
+        "explanation": "'Unless' = jika tidak berangkat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Aula itu tampak kecil; namun, akustik ruangannya luar biasa.\".",
+        "targetSentence": "The hall looked small; however, its acoustics were outstanding.",
+        "explanation": "Kontras formal antarkalimat memakai 'however'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
       }
     ],
     "complex": [
@@ -829,6 +3709,1446 @@
           "Sambungkan dengan 'so that external vibrations...'."
         ],
         "skill": "conjunction-purpose"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the initial cost is higher, solar roofs lower long-term bills.",
+        "options": [
+          "Because of",
+          "Whereas",
+          "Despite"
+        ],
+        "answer": 1,
+        "explanation": "'Whereas' membandingkan dua fakta kontras secara seimbang di tulisan IELTS.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I compare urban vs rural ridership in one sentence? / Yes! Write: 'Urban ridership rose, ___ rural numbers fell.'\"",
+        "dialogue": [
+          [
+            "Rina",
+            "Should I compare urban vs rural ridership in one sentence?"
+          ],
+          [
+            "Dodi",
+            "Yes! Write: 'Urban ridership rose, ___ rural numbers fell.'"
+          ]
+        ],
+        "options": [
+          "despite",
+          "whereas",
+          "provided that"
+        ],
+        "answer": 1,
+        "explanation": "Kontras paralel dalam IELTS Task 1 memakai 'whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner had the train arrived when passengers boarded.\"",
+        "draft": "No sooner had the train arrived when passengers boarded.",
+        "options": [
+          "No sooner had the train arrived than passengers boarded.",
+          "No sooner the train had arrived than passengers boarded.",
+          "No sooner had the train arrived when passengers boarded."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'No sooner' adalah 'than', bukan 'when'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ had the ferry docked than passengers surged toward Exit A.",
+        "options": [
+          "No sooner",
+          "Hardly",
+          "Scarcely"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan baku: 'No sooner ... than ...'; sedangkan 'Hardly/Scarcely ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sementara biaya awalnya lebih tinggi, atap surya menghemat tagihan.\".",
+        "targetSentence": "Whereas the initial cost is higher, solar roofs save bills.",
+        "explanation": "Kontras seimbang memakai 'Whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Hardly had the speaker opened her slides ___ the mic crackled.",
+        "options": [
+          "that",
+          "when",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan baku: 'Hardly ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can visitors enter the cleanroom without special shoes? / No—entry is permitted only ___ they wear protective covers.\"",
+        "dialogue": [
+          [
+            "Lia",
+            "Can visitors enter the cleanroom without special shoes?"
+          ],
+          [
+            "Bima",
+            "No—entry is permitted only ___ they wear protective covers."
+          ]
+        ],
+        "options": [
+          "whereas",
+          "no sooner",
+          "provided that"
+        ],
+        "answer": 2,
+        "explanation": "Syarat resmi: 'provided that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly had she started speaking than her mic cut out.\"",
+        "draft": "Hardly had she started speaking than her mic cut out.",
+        "options": [
+          "Hardly had she started speaking when her mic cut out.",
+          "Hardly she had started speaking when her mic cut out.",
+          "Hardly had she started speaking than her mic cut out."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'Hardly' adalah 'when', bukan 'than'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you submit your draft on Friday, we can still review it.",
+        "options": [
+          "Despite",
+          "Provided that",
+          "Unless"
+        ],
+        "answer": 1,
+        "explanation": "'Provided that' = dengan syarat bahwa ('as long as').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How can I express 'secepat apa pun sistem memproses berkas'? / Try: '___ fast the server runs, manual review takes time.'\"",
+        "dialogue": [
+          [
+            "Tari",
+            "How can I express 'secepat apa pun sistem memproses berkas'?"
+          ],
+          [
+            "Eko",
+            "Try: '___ fast the server runs, manual review takes time.'"
+          ]
+        ],
+        "options": [
+          "However",
+          "Despite",
+          "Although"
+        ],
+        "answer": 0,
+        "explanation": "Struktur formal: 'However + adjective/adverb + S + V'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not only they audited the accounts, but they also filed taxes.\"",
+        "draft": "Not only they audited the accounts, but they also filed taxes.",
+        "options": [
+          "Not only did they audit the accounts, but they also filed taxes.",
+          "Not only did they audited the accounts, but also filed taxes.",
+          "Not only they audited the accounts, but they also filed taxes."
+        ],
+        "answer": 0,
+        "explanation": "'Not only' di awal kalimat memicu inversi ('did they audit').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Begitu kapal feri bersandar, penumpang segera menuju Pintu Keluar A.\".",
+        "targetSentence": "No sooner had the ferry docked than passengers headed out.",
+        "explanation": "Inversi 'No sooner had ... than ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "You may use the lab printer, ___ you log your department code.",
+        "options": [
+          "as long as",
+          "unless",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "'As long as' menyatakan syarat mutlak keberlakuan izin.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our presenter pause right after connecting her tablet? / Yes—no sooner had she plugged in ___ the slides appeared!\"",
+        "dialogue": [
+          [
+            "Nadia",
+            "Did our presenter pause right after connecting her tablet?"
+          ],
+          [
+            "Sari",
+            "Yes—no sooner had she plugged in ___ the slides appeared!"
+          ]
+        ],
+        "options": [
+          "when",
+          "that",
+          "than"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan wajib: 'No sooner ... than ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"However hard did he practice, his pacing stayed fast.\"",
+        "draft": "However hard did he practice, his pacing stayed fast.",
+        "options": [
+          "Despite hard he practiced, his pacing stayed fast.",
+          "However hard did he practice, his pacing stayed fast.",
+          "However hard he practiced, his pacing stayed fast."
+        ],
+        "answer": 2,
+        "explanation": "'However + adverb/adjective' TIDAK memicu inversi ('he practiced').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ well prepared the team was, the sudden storm halted filming.",
+        "options": [
+          "Although",
+          "Despite",
+          "However"
+        ],
+        "answer": 2,
+        "explanation": "Pola inversi kontras formal: 'However + adjective/adverb + S + V'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"And what happened when the lunch tray arrived? / Hardly had we sat down ___ an urgent client call rang.\"",
+        "dialogue": [
+          [
+            "Rafi",
+            "And what happened when the lunch tray arrived?"
+          ],
+          [
+            "Putri",
+            "Hardly had we sat down ___ an urgent client call rang."
+          ]
+        ],
+        "options": [
+          "than",
+          "that",
+          "when"
+        ],
+        "answer": 2,
+        "explanation": "Pasangan wajib: 'Hardly ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Scarcely had we locked Gate B than the courier honked.\"",
+        "draft": "Scarcely had we locked Gate B than the courier honked.",
+        "options": [
+          "Scarcely had we locked Gate B when the courier honked.",
+          "Scarcely we locked Gate B when the courier honked.",
+          "Scarcely had we locked Gate B than the courier honked."
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'Scarcely' adalah 'when', bukan 'than'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ had we uploaded the patch than three error flags cleared.",
+        "options": [
+          "Not only",
+          "No sooner",
+          "Scarcely"
+        ],
+        "answer": 1,
+        "explanation": "'No sooner ... than ...' selalu berpasangan.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja pembicara membuka salindia ketika mikrofon berbunyi.\".",
+        "targetSentence": "Hardly had the speaker opened slides when the mic crackled.",
+        "explanation": "Inversi 'Hardly had ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ it were to rain heavily, the graduation moves inside Hall A.",
+        "options": [
+          "Whereas",
+          "Suppose",
+          "Unless"
+        ],
+        "answer": 1,
+        "explanation": "'Suppose' / 'Supposing' memperkenalkan skenario pengandaian ('seandainya').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Will the outdoor stage run if light rain starts? / Yes! We will continue ___ heavy lightning forces us indoors.\"",
+        "dialogue": [
+          [
+            "Dina",
+            "Will the outdoor stage run if light rain starts?"
+          ],
+          [
+            "Arman",
+            "Yes! We will continue ___ heavy lightning forces us indoors."
+          ]
+        ],
+        "options": [
+          "whereas",
+          "unless",
+          "provided that"
+        ],
+        "answer": 1,
+        "explanation": "'Unless' = kecuali jika petir memaksa masuk.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No matter what fast the ferry moves, waves slow docking.\"",
+        "draft": "No matter what fast the ferry moves, waves slow docking.",
+        "options": [
+          "No matter how fast moves the ferry, waves slow docking.",
+          "No matter what fast the ferry moves, waves slow docking.",
+          "No matter how fast the ferry moves, waves slow docking."
+        ],
+        "answer": 2,
+        "explanation": "Di depan adverb/adjective ('fast'), gunakan 'No matter how', bukan 'No matter what'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Wait—___ had she left the booth when two reporters approached.",
+        "options": [
+          "Whereas",
+          "Scarcely",
+          "No sooner"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'when' adalah 'Scarcely' atau 'Hardly'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Asalkan Anda mengirim draf pada Jumat, kami masih bisa meninjaunya.\".",
+        "targetSentence": "Provided that you submit drafts Friday, we can review them.",
+        "explanation": "Syarat formal 'Provided that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Rural branches require manual backups, ___ urban hubs sync live.",
+        "options": [
+          "provided that",
+          "whereas",
+          "therefore"
+        ],
+        "answer": 1,
+        "explanation": "Kontras paralel antar dua situasi berbeda -> 'whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can our branch borrow two test kits from Surabaya? / Yes, ___ we return both units cleaned before Friday.\"",
+        "dialogue": [
+          [
+            "Maya",
+            "Can our branch borrow two test kits from Surabaya?"
+          ],
+          [
+            "Adi",
+            "Yes, ___ we return both units cleaned before Friday."
+          ]
+        ],
+        "options": [
+          "whereas",
+          "even though",
+          "as long as"
+        ],
+        "answer": 2,
+        "explanation": "'As long as' = asalkan/dengan syarat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"You may use Lab 4, provided that you won't leave trash.\"",
+        "draft": "You may use Lab 4, provided that you won't leave trash.",
+        "options": [
+          "You may use Lab 4, provided that you don't leave trash.",
+          "You may use Lab 4, unless you leave clean desks.",
+          "You may use Lab 4, provided that you won't leave trash."
+        ],
+        "answer": 0,
+        "explanation": "Klausa syarat 'provided that' memakai Present Simple ('don't leave'), bukan 'won't'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Staff may claim meal allowances ___ receipts accompany the form.",
+        "options": [
+          "provided that",
+          "even if",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "Syarat formal administratif -> 'provided that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we invert the clause after 'Not only' at the start? / Definitely! Say: 'Not only ___ double checks, we cut delays.'\"",
+        "dialogue": [
+          [
+            "Hana",
+            "Should we invert the clause after 'Not only' at the start?"
+          ],
+          [
+            "Kiki",
+            "Definitely! Say: 'Not only ___ double checks, we cut delays.'"
+          ]
+        ],
+        "options": [
+          "we did",
+          "we",
+          "did we"
+        ],
+        "answer": 2,
+        "explanation": "'Not only' di awal kalimat memicu inversi ('did we').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Although urban branches grew, whereas rural ones shrank.\"",
+        "draft": "Although urban branches grew, whereas rural ones shrank.",
+        "options": [
+          "Urban branches grew, whereas rural ones shrank.",
+          "Although urban branches grew, but rural ones shrank.",
+          "Although urban branches grew, whereas rural ones shrank."
+        ],
+        "answer": 0,
+        "explanation": "Jangan menggabungkan 'Although' dan 'whereas' dalam satu kalimat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Anda boleh memakai pencetak lab asalkan mencatat kode unit.\".",
+        "targetSentence": "You may use the lab printer as long as you log codes.",
+        "explanation": "Syarat 'as long as'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the new scanner looks sleek, it handles fewer paper sizes.",
+        "options": [
+          "While",
+          "Due to",
+          "Unless"
+        ],
+        "answer": 0,
+        "explanation": "'While' di awal kalimat juga sering berfungsi kontras ('meskipun') dalam gaya akademik.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What if a partner misses Friday's upload cutoff? / ___ happens, keep the main publication schedule on track.\"",
+        "dialogue": [
+          [
+            "Bagas",
+            "What if a partner misses Friday's upload cutoff?"
+          ],
+          [
+            "Sinta",
+            "___ happens, keep the main publication schedule on track."
+          ]
+        ],
+        "options": [
+          "Whether",
+          "Whatever",
+          "However"
+        ],
+        "answer": 1,
+        "explanation": "Kata hubung konsesif untuk kata benda/subjek tak tentu -> 'Whatever happens'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Even although it rained, attendance exceeded ninety percent.\"",
+        "draft": "Even although it rained, attendance exceeded ninety percent.",
+        "options": [
+          "Even although it rained, attendance exceeded ninety percent.",
+          "Even though it rained, attendance exceeded ninety percent.",
+          "Even despite it rained, attendance exceeded ninety percent."
+        ],
+        "answer": 1,
+        "explanation": "Konjungsi yang benar adalah 'Even though' (bukan 'Even although').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ difficult the grammar table seemed, everyone passed Cohort 4.",
+        "options": [
+          "No matter what",
+          "Even though",
+          "No matter how"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum adjective ('difficult'), gunakan 'No matter how'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Is remote work universally preferred across all teams? / Not wholly—software engineers favor home desks, ___ lab staff need benches.\"",
+        "dialogue": [
+          [
+            "Yudi",
+            "Is remote work universally preferred across all teams?"
+          ],
+          [
+            "Tia",
+            "Not wholly—software engineers favor home desks, ___ lab staff need benches."
+          ]
+        ],
+        "options": [
+          "provided that",
+          "no sooner",
+          "whereas"
+        ],
+        "answer": 2,
+        "explanation": "Kontras seimbang antar dua kelompok -> 'whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"As long as you don't ignore safety rules, you will pass? Make clearer: As long as you will follow rules, you stay safe.\"",
+        "draft": "As long as you don't ignore safety rules, you will pass? Make clearer: As long as you will follow rules, you stay safe.",
+        "options": [
+          "As long as you following safety rules, you stay safe.",
+          "As long as you don't ignore safety rules, you will pass? Make clearer: As long as you will follow rules, you stay safe.",
+          "As long as you follow safety rules, you stay safe."
+        ],
+        "answer": 2,
+        "explanation": "Setelah 'As long as', gunakan Present Simple ('follow'), bukan 'will'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ you decide to commute by rail or car, arrive before eight.",
+        "options": [
+          "Scarcely",
+          "Whether",
+          "Provided"
+        ],
+        "answer": 1,
+        "explanation": "'Whether A or B' mencakup semua opsi pilihan.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Betapapun siapnya tim itu, badai mendadak menghentikan perekaman.\".",
+        "targetSentence": "However well prepared the team was, the storm halted filming.",
+        "explanation": "'However + adjective/adverb + S + V'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Not only ___ audit the invoices, they also digitized every receipt.",
+        "options": [
+          "did they",
+          "they did",
+          "they"
+        ],
+        "answer": 0,
+        "explanation": "Jika 'Not only' di awal kalimat, klausa pertama wajib inversi ('did they').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Did our team get tired during the weekend migration? / Scarcely had we finished Step 3 ___ automated tests passed!\"",
+        "dialogue": [
+          [
+            "Fajar",
+            "Did our team get tired during the weekend migration?"
+          ],
+          [
+            "Dewi",
+            "Scarcely had we finished Step 3 ___ automated tests passed!"
+          ]
+        ],
+        "options": [
+          "since",
+          "when",
+          "than"
+        ],
+        "answer": 1,
+        "explanation": "Pasangan 'Scarcely ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"No sooner we had exported the data than servers rebooted.\"",
+        "draft": "No sooner we had exported the data than servers rebooted.",
+        "options": [
+          "No sooner had we exported the data than servers rebooted.",
+          "No sooner did we exported the data than servers rebooted.",
+          "No sooner we had exported the data than servers rebooted."
+        ],
+        "answer": 0,
+        "explanation": "'No sooner' di awal memicu inversi ('had we exported').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "I'll support the policy change, ___ it protects part-time tutors.",
+        "options": [
+          "despite",
+          "so long as",
+          "whereas"
+        ],
+        "answer": 1,
+        "explanation": "'So long as' / 'as long as' berarti 'selama/dengan syarat'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Cabang desa butuh cadangan manual, sedangkan pusat kota sinkron langsung.\".",
+        "targetSentence": "Rural branches need manual backups, whereas urban hubs sync live.",
+        "explanation": "Kontras paralel memakai 'whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ hard he tried to compress the file, it exceeded ten megabytes.",
+        "options": [
+          "However",
+          "Despite",
+          "Although"
+        ],
+        "answer": 0,
+        "explanation": "'However + adverb (hard) + S + V' = sekeras apa pun dia mencoba.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should we hold this training even if only five interns join? / Yes, we will teach the clinic ___ only five attend.\"",
+        "dialogue": [
+          [
+            "Rama",
+            "Should we hold this training even if only five interns join?"
+          ],
+          [
+            "Ayu",
+            "Yes, we will teach the clinic ___ only five attend."
+          ]
+        ],
+        "options": [
+          "provided that",
+          "no matter what",
+          "even if"
+        ],
+        "answer": 2,
+        "explanation": "'Even if' = bahkan seandainya pun.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Hardly she had sat down when the phone buzzed.\"",
+        "draft": "Hardly she had sat down when the phone buzzed.",
+        "options": [
+          "Hardly did she sat down when the phone buzzed.",
+          "Hardly she had sat down when the phone buzzed.",
+          "Hardly had she sat down when the phone buzzed."
+        ],
+        "answer": 2,
+        "explanation": "'Hardly' di awal memicu inversi ('had she sat').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ the venue cancels indoors, we still have tents reserved.",
+        "options": [
+          "Whereas",
+          "Even if",
+          "As long as"
+        ],
+        "answer": 1,
+        "explanation": "'Even if' = bahkan seandainya pun.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"How do we state strict conditions in a supplier memo? / Use '___ the parts pass inspection, we will release payment.'\"",
+        "dialogue": [
+          [
+            "Vera",
+            "How do we state strict conditions in a supplier memo?"
+          ],
+          [
+            "Oki",
+            "Use '___ the parts pass inspection, we will release payment.'"
+          ]
+        ],
+        "options": [
+          "Whereas",
+          "Although",
+          "On condition that"
+        ],
+        "answer": 2,
+        "explanation": "Konjungsi syarat formal bisnis -> 'On condition that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"However the budget is small, we finished Phase 1.\"",
+        "draft": "However the budget is small, we finished Phase 1.",
+        "options": [
+          "However the budget is small, we finished Phase 1.",
+          "No matter how small the budget is, we finished Phase 1.",
+          "However small is the budget, we finished Phase 1."
+        ],
+        "answer": 1,
+        "explanation": "Adjective 'small' diletakkan langsung setelah 'However' / 'No matter how'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Dia tidak hanya tiba lebih awal, tetapi juga menata meja tamu.\".",
+        "targetSentence": "Not only did she arrive early, but she also set tables.",
+        "explanation": "Inversi 'Not only did + S + V1, but ... also'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We won't expand to Surabaya this quarter; ___, we'll strengthen Medan.",
+        "options": [
+          "rather",
+          "provided that",
+          "whereas"
+        ],
+        "answer": 0,
+        "explanation": "Titik koma + 'rather,' memperkenalkan alternatif korektif.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Does 'no matter how' take an adjective right after it? / Yes! Like '___ complex the chart looks, break it into trends.'\"",
+        "dialogue": [
+          [
+            "Gilang",
+            "Does 'no matter how' take an adjective right after it?"
+          ],
+          [
+            "Mira",
+            "Yes! Like '___ complex the chart looks, break it into trends.'"
+          ]
+        ],
+        "options": [
+          "Even though",
+          "No matter how",
+          "No matter what"
+        ],
+        "answer": 1,
+        "explanation": "'No matter how + adjective' ('complex').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"We approved overtime on condition that costs will stay low.\"",
+        "draft": "We approved overtime on condition that costs will stay low.",
+        "options": [
+          "We approved overtime on condition that costs stay low.",
+          "We approved overtime on condition that costs staying low.",
+          "We approved overtime on condition that costs will stay low."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'on condition that', gunakan Present Simple ('stay'), bukan 'will'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ had the workshop begun when two overseas interns logged in.",
+        "options": [
+          "Hardly",
+          "No sooner",
+          "Although"
+        ],
+        "answer": 0,
+        "explanation": "Pasangan 'when' adalah 'Hardly had ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Why did the report place 'conversely' after a semicolon? / To contrast two opposing statistics cleanly: 'Paper use fell; ___, digital prints rose.'\"",
+        "dialogue": [
+          [
+            "Cici",
+            "Why did the report place 'conversely' after a semicolon?"
+          ],
+          [
+            "Taufik",
+            "To contrast two opposing statistics cleanly: 'Paper use fell; ___, digital prints rose.'"
+          ]
+        ],
+        "options": [
+          "therefore",
+          "moreover",
+          "conversely"
+        ],
+        "answer": 2,
+        "explanation": "Kontras berlawanan -> 'conversely'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Whatever well the slides look, test the projector first.\"",
+        "draft": "Whatever well the slides look, test the projector first.",
+        "options": [
+          "Whatever well look the slides, test the projector first.",
+          "Whatever well the slides look, test the projector first.",
+          "However well the slides look, test the projector first."
+        ],
+        "answer": 2,
+        "explanation": "Sebelum adverb ('well'), gunakan 'However', bukan 'Whatever'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ your role may be, safety briefings remain mandatory for all.",
+        "options": [
+          "However",
+          "Whether",
+          "Whatever"
+        ],
+        "answer": 2,
+        "explanation": "Sebelum noun phrase ('your role'), gunakan 'Whatever'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Sekeras apa pun dia memampatkan PDF, ukurannya tetap melebihi batas.\".",
+        "targetSentence": "However hard he compressed the PDF, it exceeded the limit.",
+        "explanation": "'However hard + S + V'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ clear the graph looks, verify its vertical axis units.",
+        "options": [
+          "Although",
+          "Unless",
+          "However"
+        ],
+        "answer": 2,
+        "explanation": "'However + adjective + S + V' = sejelas apa pun.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Can interns pick any topic for Friday's lightning talk? / Yes, ___ it relates to workplace communication or safety.\"",
+        "dialogue": [
+          [
+            "Indra",
+            "Can interns pick any topic for Friday's lightning talk?"
+          ],
+          [
+            "Lina",
+            "Yes, ___ it relates to workplace communication or safety."
+          ]
+        ],
+        "options": [
+          "unless",
+          "whereas",
+          "so long as"
+        ],
+        "answer": 2,
+        "explanation": "'So long as' menyatakan batasan syarat.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Despite of the tight margin, neither team cut corners.\"",
+        "draft": "Despite of the tight margin, neither team cut corners.",
+        "options": [
+          "Despite of the tight margin, neither team cut corners.",
+          "Despite the tight margin, neither team cut corners.",
+          "In spite the tight margin, neither team cut corners."
+        ],
+        "answer": 1,
+        "explanation": "'Despite' tidak memakai 'of'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ had we arrived at Gate 1 than boarding began immediately.",
+        "options": [
+          "Hardly",
+          "Scarcely",
+          "No sooner"
+        ],
+        "answer": 2,
+        "explanation": "'No sooner ... than ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Bahkan seandainya lokasi dalam ruangan dibatalkan, tenda cadangan tetap siap.\".",
+        "targetSentence": "Even if the indoor venue cancels, backup tents remain ready.",
+        "explanation": "'Even if' = bahkan seandainya.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Keep your phone on silent ___ you expect an urgent medical call.",
+        "options": [
+          "whereas",
+          "provided",
+          "unless"
+        ],
+        "answer": 2,
+        "explanation": "'Unless' = kecuali jika.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Was the shipping delay mentioned during orientation? / Wait—___ well we explain timelines, customs can still surprise us.\"",
+        "dialogue": [
+          [
+            "Novi",
+            "Was the shipping delay mentioned during orientation?"
+          ],
+          [
+            "Wulan",
+            "Wait—___ well we explain timelines, customs can still surprise us."
+          ]
+        ],
+        "options": [
+          "Although",
+          "Because",
+          "However"
+        ],
+        "answer": 2,
+        "explanation": "'However + adverb (well) + S + V'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"They can join online, provided whether they register early.\"",
+        "draft": "They can join online, provided whether they register early.",
+        "options": [
+          "They can join online, provided if they register early.",
+          "They can join online, provided whether they register early.",
+          "They can join online, provided that they register early."
+        ],
+        "answer": 2,
+        "explanation": "Gabungan yang benar: 'provided that', bukan 'provided whether'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ twenty candidates applied, only five achieved Band 7.0.",
+        "options": [
+          "Provided that",
+          "Because of",
+          "Even though"
+        ],
+        "answer": 2,
+        "explanation": "Konsesif nyata dengan klausa lengkap -> 'Even though'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"What happened right after Gate 2 opened at six? / No sooner ___ the barrier lifted than vans rolled inside.\"",
+        "dialogue": [
+          [
+            "Budi",
+            "What happened right after Gate 2 opened at six?"
+          ],
+          [
+            "Sari",
+            "No sooner ___ the barrier lifted than vans rolled inside."
+          ]
+        ],
+        "options": [
+          "had",
+          "was",
+          "did only"
+        ],
+        "answer": 0,
+        "explanation": "Inversi formal 'No sooner had ... than ...' (atau passive 'was' -> 'had the barrier lifted').",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Not only does the shuttle saves time, it cuts parking fees.\"",
+        "draft": "Not only does the shuttle saves time, it cuts parking fees.",
+        "options": [
+          "Not only the shuttle saves time, but it cuts parking fees.",
+          "Not only does the shuttle saves time, it cuts parking fees.",
+          "Not only does the shuttle save time, but it also cuts parking fees."
+        ],
+        "answer": 2,
+        "explanation": "Setelah inversi 'does + S', verb tetap V1 ('save'), disertai 'but ... also'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Baru saja kurir keluar ketika hujan deras mengguyur halaman.\".",
+        "targetSentence": "Scarcely had the courier exited when heavy rain poured down.",
+        "explanation": "Inversi 'Scarcely had ... when ...'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "Online courses cut travel hours; ___, some students miss lab work.",
+        "options": [
+          "conversely",
+          "provided that",
+          "so long as"
+        ],
+        "answer": 0,
+        "explanation": "Transisi kontras akademik antar dua klausa -> 'conversely'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Should I write 'Whereas' or 'Because' when showing a contrast? / Use '___' whenever comparing two contrasting data lines.\"",
+        "dialogue": [
+          [
+            "Kiko",
+            "Should I write 'Whereas' or 'Because' when showing a contrast?"
+          ],
+          [
+            "Reno",
+            "Use '___' whenever comparing two contrasting data lines."
+          ]
+        ],
+        "options": [
+          "whereas",
+          "because",
+          "therefore"
+        ],
+        "answer": 0,
+        "explanation": "Untuk kontras data dalam satu kalimat -> 'whereas'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Sales doubled in Q2; conversely, staff overtime stayed flat, so both rose? No: Sales doubled; whereas overtime stayed flat.\"",
+        "draft": "Sales doubled in Q2; conversely, staff overtime stayed flat, so both rose? No: Sales doubled; whereas overtime stayed flat.",
+        "options": [
+          "Sales doubled in Q2, whereas, staff overtime stayed flat.",
+          "Sales doubled in Q2; conversely, staff overtime stayed flat, so both rose? No: Sales doubled; whereas overtime stayed flat.",
+          "Sales doubled in Q2, whereas staff overtime stayed flat."
+        ],
+        "answer": 2,
+        "explanation": "'Whereas' menghubungkan dua klausa kontras dengan koma sebelumnya tanpa koma sesudah.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "We will approve overtime ___ the client confirms the revision fee.",
+        "options": [
+          "on condition that",
+          "whereas",
+          "despite"
+        ],
+        "answer": 0,
+        "explanation": "Konjungsi syarat formal hukum/bisnis: 'on condition that'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "dialogue",
+        "prompt": "Lengkapi percakapan berikut dengan bentuk yang tepat: \"Do we need a second signature if the director is abroad? / Yes, ___ she approves via digital token, a deputy must countersign.\"",
+        "dialogue": [
+          [
+            "Mona",
+            "Do we need a second signature if the director is abroad?"
+          ],
+          [
+            "Aris",
+            "Yes, ___ she approves via digital token, a deputy must countersign."
+          ]
+        ],
+        "options": [
+          "if",
+          "so long as",
+          "unless"
+        ],
+        "answer": 2,
+        "explanation": "'Unless' = kecuali jika dia menyetujui secara digital.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "edit",
+        "prompt": "Perbaiki kesalahan tata bahasa pada kalimat berikut: \"Even if it will storm at noon, the ferry runs hourly.\"",
+        "draft": "Even if it will storm at noon, the ferry runs hourly.",
+        "options": [
+          "Even if it storms at noon, the ferry runs hourly.",
+          "Even if it storming at noon, the ferry runs hourly.",
+          "Even if it will storm at noon, the ferry runs hourly."
+        ],
+        "answer": 0,
+        "explanation": "Setelah 'Even if', gunakan Present Simple ('storms'), bukan 'will'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "choice",
+        "prompt": "___ fast technology evolves, clear writing remains indispensable.",
+        "options": [
+          "Even although",
+          "No matter how",
+          "No matter what"
+        ],
+        "answer": 1,
+        "explanation": "Sebelum adverb/adjective ('fast'), gunakan 'No matter how'.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
+      },
+      {
+        "type": "build",
+        "prompt": "Susun kata bahasa Inggris untuk makna: \"Apa pun peran Anda, pengarahan keselamatan tetap wajib bagi semua.\".",
+        "targetSentence": "Whatever your role may be, safety briefings remain mandatory.",
+        "explanation": "'Whatever' di depan noun phrase.",
+        "hints": [
+          "Bedakan koordinasi setara (and, but, or, so) vs subordinasi alasan/kontras/syarat/waktu (because, although, unless, while, until).",
+          "Jangan menggabungkan 'Although ... but ...' atau 'Because ... so ...' dalam satu kalimat bahasa Inggris!"
+        ],
+        "skill": "conjunction-basic"
       }
     ]
   }
